@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>国内期货历史 K 线（静态页）</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f6f7fb;
+      --card: #fff;
+      --border: #e2e5ec;
+      --text: #1a1d26;
+      --muted: #5c6578;
+      --accent: #0d9488;
+      --err: #b91c1c;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111318;
+        --card: #1a1d24;
+        --border: #2d3340;
+        --text: #eef1f7;
+        --muted: #9aa3b5;
+        --accent: #2dd4bf;
+        --err: #f87171;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      padding: 1.25rem;
+    }
+    .wrap { max-width: 1150px; margin: 0 auto; }
+    h1 { font-size: 1.35rem; margin: 0 0 0.35rem; font-weight: 650; }
+    .sub { color: var(--muted); font-size: 0.9rem; margin-bottom: 1rem; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1rem 1.1rem;
+      margin-bottom: 1rem;
+    }
+    label { display: block; font-size: 0.8rem; color: var(--muted); margin-bottom: 0.2rem; }
+    .row {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      gap: 0.75rem 1rem;
+      align-items: end;
+    }
+    input, select, button {
+      font: inherit;
+      padding: 0.45rem 0.55rem;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      background: var(--card);
+      color: var(--text);
+      width: 100%;
+    }
+    button.primary {
+      grid-column: 1 / -1;
+      background: var(--accent);
+      color: #fff;
+      border-color: transparent;
+      font-weight: 600;
+      cursor: pointer;
+      margin-top: 0.35rem;
+    }
+    button.primary:disabled { opacity: 0.55; cursor: not-allowed; }
+    .links { font-size: 0.85rem; margin-top: 0.75rem; }
+    .links a { color: var(--accent); }
+    #msg { margin: 0.5rem 0; font-size: 0.9rem; white-space: pre-wrap; }
+    #msg.err { color: var(--err); }
+    .table-wrap { overflow: auto; max-height: 62vh; border: 1px solid var(--border); border-radius: 8px; }
+    table { border-collapse: collapse; width: 100%; font-size: 0.82rem; }
+    th, td { padding: 0.35rem 0.5rem; border-bottom: 1px solid var(--border); text-align: right; white-space: nowrap; }
+    th:first-child, td:first-child { text-align: left; position: sticky; left: 0; background: var(--card); z-index: 1; }
+    thead th { position: sticky; top: 0; background: var(--card); z-index: 2; font-weight: 600; }
+    code { font-size: 0.85em; }
+    details { font-size: 0.85rem; color: var(--muted); margin-top: 0.75rem; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>国内期货历史 K 线</h1>
+    <p class="sub">纯静态页面，品种映射与 K 线请求方式与 AKShare <code>futures_hist_em</code> 一致（东方财富公开接口）。首次查询会加载品种对照表，请稍候。仅供学习研究，不构成投资建议。</p>
+
+    <div class="card">
+      <div class="row">
+        <div style="grid-column: 1 / -1;">
+          <label for="symbol">合约 / 主连代码</label>
+          <input id="symbol" value="rb2505" placeholder="如 rb2505、cu2605、热卷主连" autocomplete="off" />
+        </div>
+        <div>
+          <label for="period">周期</label>
+          <select id="period">
+            <option value="daily">日 K</option>
+            <option value="weekly">周 K</option>
+            <option value="monthly">月 K</option>
+          </select>
+        </div>
+        <div>
+          <label for="beg">开始日期</label>
+          <input id="beg" maxlength="8" value="20240101" />
+        </div>
+        <div>
+          <label for="end">结束日期</label>
+          <input id="end" maxlength="8" value="20500101" />
+        </div>
+        <button type="button" class="primary" id="go">查询</button>
+      </div>
+      <div class="links">
+        <a id="emlink" href="#" target="_blank" rel="noopener">在东财期货页打开（需英文代码如 rb2505）</a>
+      </div>
+      <p id="msg"></p>
+    </div>
+
+    <div class="card table-wrap" id="tableHost" hidden>
+      <table>
+        <thead>
+          <tr>
+            <th>时间</th>
+            <th>开盘</th>
+            <th>最高</th>
+            <th>最低</th>
+            <th>收盘</th>
+            <th>涨跌</th>
+            <th>涨跌幅%</th>
+            <th>成交量</th>
+            <th>成交额</th>
+            <th>持仓量</th>
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+
+    <details>
+      <summary>说明</summary>
+      <p><code>rb2505</code> 为字母+数字连续合约；<code>热卷主连</code> 等与行情软件主连名称一致。日期按 K 线「时间」列过滤。</p>
+    </details>
+  </div>
+
+  <script>
+(function () {
+  const REDIS = "https://futsse-static.eastmoney.com/redis";
+  const KLINE = "https://push2his.eastmoney.com/api/qt/stock/kline/get";
+  const MAPS_KEY = "akshareFuturesEmMapsV1";
+  const periodMap = { daily: "101", weekly: "102", monthly: "103" };
+
+  const $ = (id) => document.getElementById(id);
+  const msg = $("msg");
+  const tbody = $("tbody");
+  const tableHost = $("tableHost");
+  const go = $("go");
+  const emlink = $("emlink");
+
+  function setMsg(text, isErr) {
+    msg.textContent = text;
+    msg.className = isErr ? "err" : "";
+  }
+
+  function emFutureUrl(codeTail) {
+    const t = (codeTail || "").trim().toLowerCase();
+    if (!t) return "#";
+    return "https://quote.eastmoney.com/qihuo/" + encodeURIComponent(t) + ".html";
+  }
+
+  function updateEmLink() {
+    const s = $("symbol").value.trim();
+    const m = s.match(/^[\u4e00-\u9fa5]+$/);
+    if (m) {
+      emlink.href = "#";
+      emlink.textContent = "东财链接需英文合约代码（如 rb2505）";
+      return;
+    }
+    const low = s.toLowerCase();
+    if (/^[a-z]+\d+$/.test(low)) {
+      emlink.href = emFutureUrl(low);
+      emlink.textContent = "在东财期货页打开该合约";
+    } else {
+      emlink.href = "#";
+      emlink.textContent = "在东财期货页打开（需英文代码如 rb2505）";
+    }
+  }
+
+  $("symbol").addEventListener("input", updateEmLink);
+  updateEmLink();
+
+  function buildMaps(all) {
+    const c_contract_mkt = Object.create(null);
+    const c_contract_to_e_contract = Object.create(null);
+    const e_symbol_mkt = Object.create(null);
+    const c_symbol_mkt = Object.create(null);
+    for (const row of all) {
+      if (row.name != null) c_contract_mkt[row.name] = row.mktid;
+      if (row.name != null && row.code != null) c_contract_to_e_contract[row.name] = row.code;
+      if (row.vcode != null) {
+        const vc = String(row.vcode);
+        e_symbol_mkt[vc] = row.mktid;
+        e_symbol_mkt[vc.toLowerCase()] = row.mktid;
+      }
+      if (row.vname != null) c_symbol_mkt[row.vname] = row.mktid;
+    }
+    return { c_contract_mkt, c_contract_to_e_contract, e_symbol_mkt, c_symbol_mkt };
+  }
+
+  async function fetchAllExchangeSymbols() {
+    const r0 = await fetch(REDIS + "?msgid=gnweb");
+    if (!r0.ok) throw new Error("gnweb " + r0.status);
+    const markets = await r0.json();
+    if (!Array.isArray(markets)) throw new Error("markets 格式异常");
+    const all = [];
+    for (const item of markets) {
+      const mid = String(item.mktid);
+      const r1 = await fetch(REDIS + "?msgid=" + encodeURIComponent(mid));
+      if (!r1.ok) continue;
+      const batch1 = await r1.json();
+      if (!Array.isArray(batch1)) continue;
+      const n = batch1.length;
+      for (let num = 1; num <= n; num++) {
+        const r2 = await fetch(REDIS + "?msgid=" + encodeURIComponent(mid + "_" + num));
+        if (!r2.ok) continue;
+        const batch2 = await r2.json();
+        if (Array.isArray(batch2)) {
+          for (const row of batch2) all.push(row);
+        }
+      }
+    }
+    return all;
+  }
+
+  async function loadMaps() {
+    const cached = sessionStorage.getItem(MAPS_KEY);
+    if (cached) {
+      try {
+        return JSON.parse(cached);
+      } catch (e) {
+        sessionStorage.removeItem(MAPS_KEY);
+      }
+    }
+    setMsg("正在从东财加载期货品种映射（仅首次较慢）…");
+    const raw = await fetchAllExchangeSymbols();
+    const maps = buildMaps(raw);
+    try {
+      sessionStorage.setItem(MAPS_KEY, JSON.stringify(maps));
+    } catch (e) {
+      /* ignore quota */
+    }
+    return maps;
+  }
+
+  function resolveSecId(rawSymbol, maps) {
+    const symbol = rawSymbol.trim();
+    const { c_contract_mkt, c_contract_to_e_contract, e_symbol_mkt, c_symbol_mkt } = maps;
+    if (
+      Object.prototype.hasOwnProperty.call(c_contract_mkt, symbol) &&
+      Object.prototype.hasOwnProperty.call(c_contract_to_e_contract, symbol)
+    ) {
+      return c_contract_mkt[symbol] + "." + c_contract_to_e_contract[symbol];
+    }
+    const m = symbol.match(/^([\u4e00-\u9fa5a-zA-Z]+)(\d+)$/);
+    if (!m) {
+      throw new Error(
+        "无法解析代码。请使用字母连续合约（如 rb2505）或「品种汉字+到期月」如 沪铜2605，或主连名称如 热卷主连。"
+      );
+    }
+    const symbolChar = m[1];
+    const isAllChinese = /^[\u4e00-\u9fa5]+$/.test(symbolChar);
+    if (isAllChinese) {
+      const mk = c_symbol_mkt[symbolChar];
+      if (mk == null) throw new Error("未知品种汉字：" + symbolChar);
+      return mk + "." + symbol;
+    }
+    const letters = symbolChar.toLowerCase();
+    const mk = e_symbol_mkt[letters];
+    if (mk == null) throw new Error("未知品种代码：" + symbolChar);
+    const tail = symbol.replace(/\s+/g, "").toLowerCase();
+    return mk + "." + tail;
+  }
+
+  function toCompactDate(cell) {
+    const d = new Date(String(cell).replace(/-/g, "/"));
+    if (Number.isNaN(d.getTime())) return "";
+    const y = d.getFullYear();
+    const mo = String(d.getMonth() + 1).padStart(2, "0");
+    const da = String(d.getDate()).padStart(2, "0");
+    return y + mo + da;
+  }
+
+  async function runQuery() {
+    const symbol = $("symbol").value.trim();
+    const beg = $("beg").value.trim();
+    const end = $("end").value.trim();
+    const period = $("period").value;
+
+    if (!symbol) {
+      setMsg("请输入合约或主连名称。", true);
+      tableHost.hidden = true;
+      return;
+    }
+    if (!/^\d{8}$/.test(beg) || !/^\d{8}$/.test(end)) {
+      setMsg("日期须为 8 位数字，例如 20240101。", true);
+      tableHost.hidden = true;
+      return;
+    }
+
+    go.disabled = true;
+    tableHost.hidden = true;
+    tbody.replaceChildren();
+
+    let maps;
+    try {
+      maps = await loadMaps();
+    } catch (e) {
+      setMsg("加载品种映射失败，请检查网络后重试。", true);
+      go.disabled = false;
+      return;
+    }
+
+    let secid;
+    try {
+      secid = resolveSecId(symbol, maps);
+    } catch (e) {
+      setMsg(e.message || String(e), true);
+      go.disabled = false;
+      return;
+    }
+
+    const params = new URLSearchParams({
+      secid: String(secid),
+      klt: periodMap[period],
+      fqt: "1",
+      lmt: "10000",
+      end: "20500000",
+      iscca: "1",
+      fields1: "f1,f2,f3,f4,f5,f6,f7,f8",
+      fields2: "f51,f52,f53,f54,f55,f56,f57,f58,f59,f60,f61,f62,f63,f64",
+      ut: "7eea3edcaed734bea9cbfc24409ed989",
+      forcect: "1",
+    });
+    const url = KLINE + "?" + params.toString();
+
+    setMsg("正在请求 K 线…");
+    try {
+      const res = await fetch(url);
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      const data = await res.json();
+      const klines = data && data.data && data.data.klines;
+      if (!klines || !klines.length) {
+        setMsg("未返回数据：请确认代码、周期是否正确。", true);
+        go.disabled = false;
+        return;
+      }
+      const frag = document.createDocumentFragment();
+      let cnt = 0;
+      for (const line of klines) {
+        const p = line.split(",");
+        if (p.length < 14) continue;
+        const compact = toCompactDate(p[0]);
+        if (compact && (compact < beg || compact > end)) continue;
+        const tr = document.createElement("tr");
+        const cells = [p[0], p[1], p[3], p[4], p[2], p[9], p[8], p[5], p[6], p[12]];
+        for (const c of cells) {
+          const td = document.createElement("td");
+          td.textContent = c;
+          tr.appendChild(td);
+        }
+        frag.appendChild(tr);
+        cnt++;
+      }
+      tbody.appendChild(frag);
+      tableHost.hidden = false;
+      setMsg("按日期过滤后共 " + cnt + " 条（原始 " + klines.length + " 条）。secid=" + secid);
+    } catch (e) {
+      setMsg("K 线请求失败（网络或跨域）。可尝试东财网页链接。", true);
+    } finally {
+      go.disabled = false;
+    }
+  }
+
+  go.addEventListener("click", runQuery);
+})();
+  </script>
+</body>
+</html>
