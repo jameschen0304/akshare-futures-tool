@@ -87,13 +87,20 @@
 <body>
   <div class="wrap">
     <h1>国内期货历史 K 线</h1>
-    <p class="sub">纯静态页面，品种映射与 K 线请求方式与 AKShare <code>futures_hist_em</code> 一致（东方财富公开接口）。首次查询会加载品种对照表，请稍候。仅供学习研究，不构成投资建议。</p>
+    <p class="sub">默认使用<strong>新浪财经</strong>日 K（与 AKShare <code>futures_zh_daily_sina</code> 同源 JSONP，不依赖东财域名）；主连、汉字品种等请选<strong>东方财富</strong>（<code>futures_hist_em</code>）。仅供学习研究，不构成投资建议。</p>
 
     <div class="card">
       <div class="row">
+        <div>
+          <label for="provider">数据来源</label>
+          <select id="provider">
+            <option value="sina" selected>新浪财经（推荐）</option>
+            <option value="eastmoney">东方财富</option>
+          </select>
+        </div>
         <div style="grid-column: 1 / -1;">
           <label for="symbol">合约 / 主连代码</label>
-          <input id="symbol" value="rb2505" placeholder="如 rb2505、cu2605、热卷主连" autocomplete="off" />
+          <input id="symbol" value="RB2505" placeholder="新浪：RB2505、RB0；东财：rb2505、热卷主连" autocomplete="off" />
         </div>
         <div>
           <label for="period">周期</label>
@@ -114,34 +121,21 @@
         <button type="button" class="primary" id="go">查询</button>
       </div>
       <div class="links">
-        <a id="emlink" href="#" target="_blank" rel="noopener">在东财期货页打开（需英文代码如 rb2505）</a>
+        <a id="extlink" href="#" target="_blank" rel="noopener">打开行情页</a>
       </div>
       <p id="msg"></p>
     </div>
 
     <div class="card table-wrap" id="tableHost" hidden>
       <table>
-        <thead>
-          <tr>
-            <th>时间</th>
-            <th>开盘</th>
-            <th>最高</th>
-            <th>最低</th>
-            <th>收盘</th>
-            <th>涨跌</th>
-            <th>涨跌幅%</th>
-            <th>成交量</th>
-            <th>成交额</th>
-            <th>持仓量</th>
-          </tr>
-        </thead>
+        <thead id="dynThead"></thead>
         <tbody id="tbody"></tbody>
       </table>
     </div>
 
     <details>
       <summary>说明</summary>
-      <p><code>rb2505</code> 为字母+数字连续合约；<code>热卷主连</code> 等与行情软件主连名称一致。日期按 K 线「时间」列过滤。</p>
+      <p>新浪源仅<strong>日 K</strong>，合约请用大写英文如 <code>RB2505</code>、<code>CU2605</code> 或主力 <code>RB0</code>。东财源支持周/月 K 及汉字主连，但需你当前网络能访问东方财富。</p>
     </details>
   </div>
 
@@ -152,12 +146,18 @@
   const MAPS_KEY = "akshareFuturesEmMapsV1";
   const periodMap = { daily: "101", weekly: "102", monthly: "103" };
 
+  const THEAD_EM =
+    "<tr><th>时间</th><th>开盘</th><th>最高</th><th>最低</th><th>收盘</th><th>涨跌</th><th>涨跌幅%</th><th>成交量</th><th>成交额</th><th>持仓量</th></tr>";
+  const THEAD_SINA =
+    "<tr><th>时间</th><th>开盘</th><th>最高</th><th>最低</th><th>收盘</th><th>成交量</th><th>持仓增减</th><th>结算参考</th></tr>";
+
   const $ = (id) => document.getElementById(id);
   const msg = $("msg");
   const tbody = $("tbody");
   const tableHost = $("tableHost");
+  const dynThead = $("dynThead");
   const go = $("go");
-  const emlink = $("emlink");
+  const extlink = $("extlink");
 
   function setMsg(text, isErr) {
     msg.textContent = text;
@@ -170,26 +170,39 @@
     return "https://quote.eastmoney.com/qihuo/" + encodeURIComponent(t) + ".html";
   }
 
-  function updateEmLink() {
+  function sinaFutureUrl(sym) {
+    const u = (sym || "").trim().toUpperCase();
+    if (!/^[A-Z]{1,3}(\d{3,4}|0)$/.test(u)) return "#";
+    return "https://finance.sina.com.cn/futures/quotes/" + u + ".shtml";
+  }
+
+  function updateExtLink() {
     const s = $("symbol").value.trim();
-    const m = s.match(/^[\u4e00-\u9fa5]+$/);
-    if (m) {
-      emlink.href = "#";
-      emlink.textContent = "东财链接需英文合约代码（如 rb2505）";
-      return;
-    }
-    const low = s.toLowerCase();
-    if (/^[a-z]+\d+$/.test(low)) {
-      emlink.href = emFutureUrl(low);
-      emlink.textContent = "在东财期货页打开该合约";
+    const prov = $("provider").value;
+    if (prov === "eastmoney") {
+      const low = s.toLowerCase();
+      if (/^[a-z]+\d+$/.test(low)) {
+        extlink.href = emFutureUrl(low);
+        extlink.textContent = "在东财期货页打开";
+      } else {
+        extlink.href = "#";
+        extlink.textContent = "东财外链需小写英文合约（如 rb2505）";
+      }
     } else {
-      emlink.href = "#";
-      emlink.textContent = "在东财期货页打开（需英文代码如 rb2505）";
+      const up = s.toUpperCase();
+      if (/^[A-Z]{1,2}\d{3,4}$/.test(up) || /^[A-Z]{1,2}0$/.test(up)) {
+        extlink.href = sinaFutureUrl(up);
+        extlink.textContent = "在新浪期货页打开";
+      } else {
+        extlink.href = "#";
+        extlink.textContent = "新浪外链需大写合约（如 RB2505）";
+      }
     }
   }
 
-  $("symbol").addEventListener("input", updateEmLink);
-  updateEmLink();
+  $("symbol").addEventListener("input", updateExtLink);
+  $("provider").addEventListener("change", updateExtLink);
+  updateExtLink();
 
   function buildMaps(all) {
     const c_contract_mkt = Object.create(null);
@@ -249,7 +262,7 @@
     try {
       sessionStorage.setItem(MAPS_KEY, JSON.stringify(maps));
     } catch (e) {
-      /* ignore quota */
+      /* ignore */
     }
     return maps;
   }
@@ -276,8 +289,7 @@
       if (mk == null) throw new Error("未知品种汉字：" + symbolChar);
       return mk + "." + symbol;
     }
-    const letters = symbolChar.toLowerCase();
-    const mk = e_symbol_mkt[letters];
+    const mk = e_symbol_mkt[symbolChar.toLowerCase()];
     if (mk == null) throw new Error("未知品种代码：" + symbolChar);
     const tail = symbol.replace(/\s+/g, "").toLowerCase();
     return mk + "." + tail;
@@ -292,13 +304,55 @@
     return y + mo + da;
   }
 
+  function sinaTypeFromEndYmd(end8) {
+    return end8.slice(0, 4) + "_" + end8.slice(4, 6) + "_" + end8.slice(6, 8);
+  }
+
+  function loadSinaDailyJsonp(symUpper, typeParam) {
+    const nm = "sinaFut" + Date.now();
+    return new Promise(function (resolve, reject) {
+      const s = document.createElement("script");
+      s.onerror = function () {
+        reject(new Error("新浪脚本加载失败"));
+      };
+      s.onload = function () {
+        try {
+          const v = window[nm];
+          try {
+            delete window[nm];
+          } catch (e1) {
+            window[nm] = undefined;
+          }
+          if (!v) reject(new Error("新浪返回空数据"));
+          else resolve(v);
+        } catch (e) {
+          reject(e);
+        }
+      };
+      const base =
+        "https://stock2.finance.sina.com.cn/futures/api/jsonp.php/var%20" +
+        encodeURIComponent(nm) +
+        "=/InnerFuturesNewService.getDailyKLine";
+      s.src =
+        base +
+        "?symbol=" +
+        encodeURIComponent(symUpper) +
+        "&type=" +
+        encodeURIComponent(typeParam) +
+        "&_=" +
+        Date.now();
+      document.head.appendChild(s);
+    });
+  }
+
   async function runQuery() {
-    const symbol = $("symbol").value.trim();
+    const symbolRaw = $("symbol").value.trim();
     const beg = $("beg").value.trim();
     const end = $("end").value.trim();
     const period = $("period").value;
+    const provider = $("provider").value;
 
-    if (!symbol) {
+    if (!symbolRaw) {
       setMsg("请输入合约或主连名称。", true);
       tableHost.hidden = true;
       return;
@@ -313,71 +367,117 @@
     tableHost.hidden = true;
     tbody.replaceChildren();
 
-    let maps;
     try {
-      maps = await loadMaps();
-    } catch (e) {
-      setMsg("加载品种映射失败，请检查网络后重试。", true);
-      go.disabled = false;
-      return;
-    }
-
-    let secid;
-    try {
-      secid = resolveSecId(symbol, maps);
-    } catch (e) {
-      setMsg(e.message || String(e), true);
-      go.disabled = false;
-      return;
-    }
-
-    const params = new URLSearchParams({
-      secid: String(secid),
-      klt: periodMap[period],
-      fqt: "1",
-      lmt: "10000",
-      end: "20500000",
-      iscca: "1",
-      fields1: "f1,f2,f3,f4,f5,f6,f7,f8",
-      fields2: "f51,f52,f53,f54,f55,f56,f57,f58,f59,f60,f61,f62,f63,f64",
-      ut: "7eea3edcaed734bea9cbfc24409ed989",
-      forcect: "1",
-    });
-    const url = KLINE + "?" + params.toString();
-
-    setMsg("正在请求 K 线…");
-    try {
-      const res = await fetch(url);
-      if (!res.ok) throw new Error("HTTP " + res.status);
-      const data = await res.json();
-      const klines = data && data.data && data.data.klines;
-      if (!klines || !klines.length) {
-        setMsg("未返回数据：请确认代码、周期是否正确。", true);
-        go.disabled = false;
-        return;
-      }
-      const frag = document.createDocumentFragment();
-      let cnt = 0;
-      for (const line of klines) {
-        const p = line.split(",");
-        if (p.length < 14) continue;
-        const compact = toCompactDate(p[0]);
-        if (compact && (compact < beg || compact > end)) continue;
-        const tr = document.createElement("tr");
-        const cells = [p[0], p[1], p[3], p[4], p[2], p[9], p[8], p[5], p[6], p[12]];
-        for (const c of cells) {
-          const td = document.createElement("td");
-          td.textContent = c;
-          tr.appendChild(td);
+      if (provider === "sina") {
+        if (period !== "daily") {
+          setMsg("新浪源仅支持日 K；请改选「日 K」或改用东方财富。", true);
+          go.disabled = false;
+          return;
         }
-        frag.appendChild(tr);
-        cnt++;
+        dynThead.innerHTML = THEAD_SINA;
+        const sym = symbolRaw.toUpperCase();
+        if (!/^[A-Z]{1,3}(\d{3,4}|0)$/.test(sym)) {
+          setMsg("新浪源仅支持大写英文合约（如 RB2505、CU2605）或主力 RB0，不含汉字主连。", true);
+          go.disabled = false;
+          return;
+        }
+        setMsg("正在通过新浪 JSONP 请求日 K…");
+        const typeParam = sinaTypeFromEndYmd(end);
+        const arr = await loadSinaDailyJsonp(sym, typeParam);
+        if (!Array.isArray(arr) || !arr.length) {
+          setMsg("新浪未返回数据，请检查合约代码。", true);
+          go.disabled = false;
+          return;
+        }
+        const sorted = arr.slice().sort(function (a, b) {
+          return String(a.d).localeCompare(String(b.d));
+        });
+        const frag = document.createDocumentFragment();
+        let cnt = 0;
+        for (let i = 0; i < sorted.length; i++) {
+          const o = sorted[i];
+          const compact = toCompactDate(o.d);
+          if (compact && (compact < beg || compact > end)) continue;
+          const tr = document.createElement("tr");
+          const cells = [o.d, o.o, o.h, o.l, o.c, o.v, o.p, o.s];
+          for (let j = 0; j < cells.length; j++) {
+            const td = document.createElement("td");
+            td.textContent = cells[j] != null ? String(cells[j]) : "";
+            tr.appendChild(td);
+          }
+          frag.appendChild(tr);
+          cnt++;
+        }
+        tbody.appendChild(frag);
+        tableHost.hidden = false;
+        setMsg("新浪源共 " + cnt + " 条（按结束日期 type=" + typeParam + " 拉取后做区间过滤）。");
+      } else {
+        if (period !== "daily") {
+          /* EM supports weekly monthly */
+        }
+        dynThead.innerHTML = THEAD_EM;
+        let maps;
+        try {
+          maps = await loadMaps();
+        } catch (e) {
+          setMsg("加载东财品种映射失败。若东财域名不可用，请改用「新浪财经」。", true);
+          go.disabled = false;
+          return;
+        }
+        let secid;
+        try {
+          secid = resolveSecId(symbolRaw, maps);
+        } catch (e) {
+          setMsg(e.message || String(e), true);
+          go.disabled = false;
+          return;
+        }
+        const params = new URLSearchParams({
+          secid: String(secid),
+          klt: periodMap[period],
+          fqt: "1",
+          lmt: "10000",
+          end: "20500000",
+          iscca: "1",
+          fields1: "f1,f2,f3,f4,f5,f6,f7,f8",
+          fields2: "f51,f52,f53,f54,f55,f56,f57,f58,f59,f60,f61,f62,f63,f64",
+          ut: "7eea3edcaed734bea9cbfc24409ed989",
+          forcect: "1",
+        });
+        const url = KLINE + "?" + params.toString();
+        setMsg("正在请求东财 K 线…");
+        const res = await fetch(url);
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        const data = await res.json();
+        const klines = data && data.data && data.data.klines;
+        if (!klines || !klines.length) {
+          setMsg("未返回数据：请确认代码、周期是否正确。", true);
+          go.disabled = false;
+          return;
+        }
+        const frag = document.createDocumentFragment();
+        let cnt = 0;
+        for (const line of klines) {
+          const p = line.split(",");
+          if (p.length < 14) continue;
+          const compact = toCompactDate(p[0]);
+          if (compact && (compact < beg || compact > end)) continue;
+          const tr = document.createElement("tr");
+          const cells = [p[0], p[1], p[3], p[4], p[2], p[9], p[8], p[5], p[6], p[12]];
+          for (const c of cells) {
+            const td = document.createElement("td");
+            td.textContent = c;
+            tr.appendChild(td);
+          }
+          frag.appendChild(tr);
+          cnt++;
+        }
+        tbody.appendChild(frag);
+        tableHost.hidden = false;
+        setMsg("东财源按日期过滤后共 " + cnt + " 条。secid=" + secid);
       }
-      tbody.appendChild(frag);
-      tableHost.hidden = false;
-      setMsg("按日期过滤后共 " + cnt + " 条（原始 " + klines.length + " 条）。secid=" + secid);
     } catch (e) {
-      setMsg("K 线请求失败（网络或跨域）。可尝试东财网页链接。", true);
+      setMsg("请求失败：" + (e.message || String(e)) + " — 可尝试切换数据来源。", true);
     } finally {
       go.disabled = false;
     }
