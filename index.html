@@ -37,6 +37,7 @@
     }
     .wrap { max-width: 1150px; margin: 0 auto; }
     h1 { font-size: 1.35rem; margin: 0 0 0.35rem; font-weight: 650; }
+    h2 { font-size: 1.1rem; margin: 0 0 0.5rem; font-weight: 650; }
     .sub { color: var(--muted); font-size: 0.9rem; margin-bottom: 1rem; }
     .card {
       background: var(--card);
@@ -82,12 +83,18 @@
     thead th { position: sticky; top: 0; background: var(--card); z-index: 2; font-weight: 600; }
     code { font-size: 0.85em; }
     details { font-size: 0.85rem; color: var(--muted); margin-top: 0.75rem; }
+    #supportCard dl { margin: 0; font-size: 0.9rem; }
+    #supportCard dt { color: var(--muted); margin-top: 0.45rem; }
+    #supportCard dt:first-child { margin-top: 0; }
+    #supportCard dd { margin: 0.15rem 0 0 0; font-weight: 500; }
+    .sent-bull { color: #15803d; }
+    .sent-bear { color: var(--err); }
   </style>
 </head>
 <body>
   <div class="wrap">
     <h1>国内期货历史 K 线</h1>
-    <p class="sub">默认使用<strong>新浪财经</strong>日 K（与 AKShare <code>futures_zh_daily_sina</code> 同源 JSONP，不依赖东财域名）；主连、汉字品种等请选<strong>东方财富</strong>（<code>futures_hist_em</code>）。仅供学习研究，不构成投资建议。</p>
+    <p class="sub">默认使用<strong>新浪财经</strong>日 K；主连、汉字品种等请选<strong>东方财富</strong>。查询成功后可计算<strong>支撑点位</strong>（与仓库 <code>examples/futures_support_levels.py</code> 同逻辑）。仅供学习研究，不构成投资建议。</p>
 
     <div class="card">
       <div class="row">
@@ -112,7 +119,7 @@
         </div>
         <div>
           <label for="beg">开始日期</label>
-          <input id="beg" maxlength="8" value="20240101" />
+          <input id="beg" maxlength="8" value="20230101" />
         </div>
         <div>
           <label for="end">结束日期</label>
@@ -133,9 +140,15 @@
       </table>
     </div>
 
+    <div class="card" id="supportCard" hidden>
+      <h2>支撑点位（自动识别）</h2>
+      <p class="sub" style="margin-bottom: 0.75rem;">参数：N1=10，N2=20，放量阈值 1.5×MA20，密集区 [Min_Low, Min_Low+15] 至少 5 日。以区间内<strong>最后一根 K 线为「今日」</strong>做收盘后判定。</p>
+      <dl id="supportDl"></dl>
+    </div>
+
     <details>
       <summary>说明</summary>
-      <p>新浪源仅<strong>日 K</strong>，合约请用大写英文如 <code>RB2505</code>、<code>CU2605</code> 或主力 <code>RB0</code>。东财源支持周/月 K 及汉字主连，但需你当前网络能访问东方财富。</p>
+      <p>新浪源仅<strong>日 K</strong>。东财<strong>周/月 K</strong>下不运行支撑算法（算法按日线设计）。数据不足约 22 根时无法计算，请把开始日期往前调。</p>
     </details>
   </div>
 
@@ -158,10 +171,17 @@
   const dynThead = $("dynThead");
   const go = $("go");
   const extlink = $("extlink");
+  const supportCard = $("supportCard");
+  const supportDl = $("supportDl");
 
   function setMsg(text, isErr) {
     msg.textContent = text;
     msg.className = isErr ? "err" : "";
+  }
+
+  function hideSupport() {
+    supportCard.hidden = true;
+    supportDl.innerHTML = "";
   }
 
   function emFutureUrl(codeTail) {
@@ -345,6 +365,143 @@
     });
   }
 
+  /**
+   * 与 examples/futures_support_levels.py 一致：日线 OHLCV，最后一根为「今日」。
+   */
+  function computeSupportLevels(rows, n1, n2, tVol, densityRange, densityMin) {
+    const need = Math.max(n1, n2) + 2;
+    if (rows.length < need) {
+      return { ok: false, reason: "区间内仅 " + rows.length + " 根K线，需至少约 " + need + " 根（请把开始日期往前调）。" };
+    }
+    const today = rows[rows.length - 1];
+    const lowsN1 = rows.slice(-n1).map(function (r) {
+      return r.low;
+    });
+    const minLow = Math.min.apply(null, lowsN1);
+    let densityCnt = 0;
+    for (let i = 0; i < lowsN1.length; i++) {
+      const lo = lowsN1[i];
+      if (lo >= minLow && lo <= minLow + densityRange) densityCnt++;
+    }
+    const densityOk = densityCnt >= densityMin;
+    const level2 = densityOk ? minLow : null;
+
+    const priorHighSlice = rows.slice(-(n1 + 1), -1);
+    const maxHigh = Math.max.apply(
+      null,
+      priorHighSlice.map(function (r) {
+        return r.high;
+      })
+    );
+    const level1Res = today.close > maxHigh ? maxHigh : null;
+
+    const priorVolSlice = rows.slice(-(n2 + 1), -1);
+    const sumV = priorVolSlice.reduce(function (a, r) {
+      return a + r.volume;
+    }, 0);
+    const ma20 = sumV / priorVolSlice.length;
+    const dynamic = today.volume > ma20 * tVol ? today.low : null;
+
+    const parts = [];
+    if (level1Res != null) parts.push(level1Res);
+    if (dynamic != null) parts.push(dynamic);
+    const level1 = parts.length ? Math.max.apply(null, parts) : null;
+
+    let sentiment = "未触发文档中的多空情绪模板，请结合 Level_1/Level_2 人工判断。";
+    let sentClass = "";
+    if (level1 != null && today.close > level1 && today.volume > ma20) {
+      sentiment = "放量突破，上行通道开启，建议买入/持仓";
+      sentClass = "sent-bull";
+    } else if (level1 != null && today.close < level1) {
+      sentiment = "短期趋势走弱，回踩第二支撑位";
+      sentClass = "sent-bear";
+    }
+
+    return {
+      ok: true,
+      level1: level1,
+      level2: level2,
+      level1Res: level1Res,
+      dynamic: dynamic,
+      module1MinLow: minLow,
+      densityCnt: densityCnt,
+      densityOk: densityOk,
+      ma20: ma20,
+      todayClose: today.close,
+      todayVol: today.volume,
+      sentiment: sentiment,
+      sentClass: sentClass,
+      priorMaxHigh: maxHigh,
+    };
+  }
+
+  function renderSupportPanel(res, periodLabel) {
+    if (!res.ok) {
+      supportDl.innerHTML =
+        "<dt>无法计算</dt><dd>" +
+        (res.reason || "未知原因") +
+        "</dd><dt>说明</dt><dd>周/月K或未选日线时，本页不套用日线支撑规则。</dd>";
+      supportCard.hidden = false;
+      return;
+    }
+    const fmt = function (x) {
+      return x == null ? "—" : Number(x).toFixed(4).replace(/\.?0+$/, "");
+    };
+    const h =
+      "<dt>Level_1 Support（第一支撑）</dt><dd>" +
+      fmt(res.level1) +
+      "（max(压力转支撑, 动态资金位)）</dd>" +
+      "<dt>　· 压力转支撑（前10日不含今日 Max_High，今收突破）</dt><dd>" +
+      fmt(res.level1Res) +
+      "，前高=" +
+      fmt(res.priorMaxHigh) +
+      "</dd>" +
+      "<dt>　· 动态资金位（今量&gt;1.5×MA20 时取今日最低）</dt><dd>" +
+      fmt(res.dynamic) +
+      "</dd>" +
+      "<dt>Level_2 Support（绝对支撑）</dt><dd>" +
+      fmt(res.level2) +
+      (res.level2 == null ? "（密集区未达标）" : "") +
+      "</dd>" +
+      "<dt>模块一</dt><dd>10日 Min_Low=" +
+      fmt(res.module1MinLow) +
+      "，[Min_Low, Min_Low+15] 命中 " +
+      res.densityCnt +
+      " 天" +
+      (res.densityOk ? "（达标）" : "（未达标）") +
+      "</dd>" +
+      "<dt>MA20 成交量（不含今日）</dt><dd>" +
+      fmt(res.ma20) +
+      "；今日成交量=" +
+      fmt(res.todayVol) +
+      "</dd>" +
+      "<dt>市场情绪</dt><dd class=\"" +
+      res.sentClass +
+      "\">" +
+      res.sentiment +
+      "</dd>" +
+      "<dt>周期</dt><dd>" +
+      periodLabel +
+      "</dd>";
+    supportDl.innerHTML = h;
+    supportCard.hidden = false;
+  }
+
+  function maybeRenderSupport(normRows, period) {
+    if (period !== "daily") {
+      renderSupportPanel(
+        {
+          ok: false,
+          reason: "当前为周K或月K；支撑算法仅按日线设计，已跳过计算。请改选「日 K」后重新查询。",
+        },
+        period
+      );
+      return;
+    }
+    const r = computeSupportLevels(normRows, 10, 20, 1.5, 15, 5);
+    renderSupportPanel(r, "日 K");
+  }
+
   async function runQuery() {
     const symbolRaw = $("symbol").value.trim();
     const beg = $("beg").value.trim();
@@ -352,6 +509,7 @@
     const period = $("period").value;
     const provider = $("provider").value;
 
+    hideSupport();
     if (!symbolRaw) {
       setMsg("请输入合约或主连名称。", true);
       tableHost.hidden = true;
@@ -392,12 +550,21 @@
         const sorted = arr.slice().sort(function (a, b) {
           return String(a.d).localeCompare(String(b.d));
         });
+        const normRows = [];
         const frag = document.createDocumentFragment();
         let cnt = 0;
         for (let i = 0; i < sorted.length; i++) {
           const o = sorted[i];
           const compact = toCompactDate(o.d);
           if (compact && (compact < beg || compact > end)) continue;
+          normRows.push({
+            date: o.d,
+            open: parseFloat(o.o),
+            high: parseFloat(o.h),
+            low: parseFloat(o.l),
+            close: parseFloat(o.c),
+            volume: parseFloat(o.v),
+          });
           const tr = document.createElement("tr");
           const cells = [o.d, o.o, o.h, o.l, o.c, o.v, o.p, o.s];
           for (let j = 0; j < cells.length; j++) {
@@ -410,11 +577,9 @@
         }
         tbody.appendChild(frag);
         tableHost.hidden = false;
-        setMsg("新浪源共 " + cnt + " 条（按结束日期 type=" + typeParam + " 拉取后做区间过滤）。");
+        setMsg("新浪源共 " + cnt + " 条（type=" + typeParam + "）。");
+        maybeRenderSupport(normRows, "daily");
       } else {
-        if (period !== "daily") {
-          /* EM supports weekly monthly */
-        }
         dynThead.innerHTML = THEAD_EM;
         let maps;
         try {
@@ -455,29 +620,51 @@
           go.disabled = false;
           return;
         }
-        const frag = document.createDocumentFragment();
-        let cnt = 0;
-        for (const line of klines) {
-          const p = line.split(",");
+        const normRows = [];
+        for (let i = 0; i < klines.length; i++) {
+          const p = klines[i].split(",");
           if (p.length < 14) continue;
           const compact = toCompactDate(p[0]);
-          if (compact && (compact < beg || compact > end)) continue;
+          if (!compact) continue;
+          if (compact < beg || compact > end) continue;
+          normRows.push({
+            date: p[0],
+            open: parseFloat(p[1]),
+            close: parseFloat(p[2]),
+            high: parseFloat(p[3]),
+            low: parseFloat(p[4]),
+            volume: parseFloat(p[5]),
+            _p: p,
+          });
+        }
+        normRows.sort(function (a, b) {
+          return toCompactDate(a.date).localeCompare(toCompactDate(b.date));
+        });
+        const frag = document.createDocumentFragment();
+        let cnt = 0;
+        for (let i = 0; i < normRows.length; i++) {
+          const p = normRows[i]._p;
           const tr = document.createElement("tr");
           const cells = [p[0], p[1], p[3], p[4], p[2], p[9], p[8], p[5], p[6], p[12]];
-          for (const c of cells) {
+          for (let j = 0; j < cells.length; j++) {
             const td = document.createElement("td");
-            td.textContent = c;
+            td.textContent = cells[j];
             tr.appendChild(td);
           }
           frag.appendChild(tr);
           cnt++;
         }
+        for (let i = 0; i < normRows.length; i++) {
+          delete normRows[i]._p;
+        }
         tbody.appendChild(frag);
         tableHost.hidden = false;
-        setMsg("东财源按日期过滤后共 " + cnt + " 条。secid=" + secid);
+        setMsg("东财源共 " + cnt + " 条。secid=" + secid);
+        maybeRenderSupport(normRows, period);
       }
     } catch (e) {
       setMsg("请求失败：" + (e.message || String(e)) + " — 可尝试切换数据来源。", true);
+      hideSupport();
     } finally {
       go.disabled = false;
     }
