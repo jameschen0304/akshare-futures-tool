@@ -149,6 +149,7 @@
     <details>
       <summary>说明</summary>
       <p>新浪源仅<strong>日 K</strong>。东财<strong>周/月 K</strong>下不运行支撑算法（算法按日线设计）。数据不足约 22 根时无法计算，请把开始日期往前调。</p>
+      <p>合约、数据源、周期与日期在每次点击「查询」后写入浏览器 <strong>localStorage</strong>（本机），刷新页面会自动恢复；清除站点数据会丢失。</p>
     </details>
   </div>
 
@@ -157,6 +158,7 @@
   const REDIS = "https://futsse-static.eastmoney.com/redis";
   const KLINE = "https://push2his.eastmoney.com/api/qt/stock/kline/get";
   const MAPS_KEY = "akshareFuturesEmMapsV1";
+  const FORM_PREFS_KEY = "akFuturesToolFormPrefs";
   const periodMap = { daily: "101", weekly: "102", monthly: "103" };
 
   const THEAD_EM =
@@ -182,6 +184,38 @@
   function hideSupport() {
     supportCard.hidden = true;
     supportDl.innerHTML = "";
+  }
+
+  function saveFormPrefs() {
+    const payload = {
+      symbol: $("symbol").value.trim(),
+      provider: $("provider").value,
+      period: $("period").value,
+      beg: $("beg").value.trim(),
+      end: $("end").value.trim(),
+    };
+    try {
+      localStorage.setItem(FORM_PREFS_KEY, JSON.stringify(payload));
+    } catch (e) {
+      /* 隐私模式或配额 */
+    }
+  }
+
+  function loadFormPrefs() {
+    try {
+      const raw = localStorage.getItem(FORM_PREFS_KEY);
+      if (!raw) return;
+      const p = JSON.parse(raw);
+      if (typeof p.symbol === "string") $("symbol").value = p.symbol;
+      if (p.provider === "sina" || p.provider === "eastmoney") $("provider").value = p.provider;
+      if (p.period === "daily" || p.period === "weekly" || p.period === "monthly") {
+        $("period").value = p.period;
+      }
+      if (typeof p.beg === "string" && /^\d{8}$/.test(p.beg)) $("beg").value = p.beg;
+      if (typeof p.end === "string" && /^\d{8}$/.test(p.end)) $("end").value = p.end;
+    } catch (e) {
+      /* ignore */
+    }
   }
 
   function emFutureUrl(codeTail) {
@@ -220,6 +254,7 @@
     }
   }
 
+  loadFormPrefs();
   $("symbol").addEventListener("input", updateExtLink);
   $("provider").addEventListener("change", updateExtLink);
   updateExtLink();
@@ -508,6 +543,8 @@
     const end = $("end").value.trim();
     const period = $("period").value;
     const provider = $("provider").value;
+
+    saveFormPrefs();
 
     hideSupport();
     if (!symbolRaw) {
