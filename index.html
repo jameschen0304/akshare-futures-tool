@@ -705,7 +705,10 @@
     let auto;
     let coldHotSpread = null;
     let galvRebarSpread = null;
-    const manualMode = arbSpreadMode.value === "manual";
+    const spreadModeText = arbSpreadMode.options[arbSpreadMode.selectedIndex]
+      ? String(arbSpreadMode.options[arbSpreadMode.selectedIndex].textContent || "")
+      : "";
+    const manualMode = arbSpreadMode.value === "manual" || spreadModeText.indexOf("手动") >= 0;
 
     if (manualMode) {
       coldHotSpread = toNumOrNull($("arbColdHotSpread").value.trim());
@@ -791,9 +794,9 @@
       );
     } else {
       if (manualMode) {
-        setArbMsg("评估完成：" + dateText + "。已按手动输入价差输出信号。");
+        setArbMsg("评估完成：" + dateText + "。[手动模式] 已按手动输入价差输出信号。");
       } else {
-        setArbMsg("评估完成：" + dateText + "。已自动填充冷热/镀锌价差并输出信号。");
+        setArbMsg("评估完成：" + dateText + "。[自动模式] 已自动填充冷热/镀锌价差并输出信号。");
       }
     }
     arbTbody.innerHTML = rows.join("");
