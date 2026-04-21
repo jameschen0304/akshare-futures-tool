@@ -172,7 +172,7 @@
     <div class="card table-wrap" id="steelTableHost" hidden>
       <table>
         <thead>
-          <tr><th>日期</th><th>期货收盘价</th><th>现货价格</th></tr>
+          <tr><th>日期</th><th>期货收盘价</th><th>现货价格</th><th>基差</th></tr>
         </thead>
         <tbody id="steelTbody"></tbody>
       </table>
@@ -413,6 +413,11 @@
     return t;
   }
 
+  function fmtBasis(v) {
+    if (v == null || Number.isNaN(v)) return "";
+    return Number(v).toFixed(2).replace(/\.?0+$/, "");
+  }
+
   async function loadSteelSnapshot() {
     if (steelCache) return steelCache;
     const inline = window[STEEL_DATA_JS_GLOBAL];
@@ -506,7 +511,10 @@
       for (let i = 0; i < rows.length; i++) {
         const r = rows[i] || {};
         const tr = document.createElement("tr");
-        const cells = [r.date, r.fp, r.sp];
+        const fp = Number(r.fp);
+        const sp = Number(r.sp);
+        const basis = Number.isFinite(sp) && Number.isFinite(fp) ? sp - fp : null;
+        const cells = [r.date, r.fp, r.sp, fmtBasis(basis)];
         for (let j = 0; j < cells.length; j++) {
           const td = document.createElement("td");
           td.textContent = cells[j] != null ? String(cells[j]) : "";
