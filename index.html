@@ -74,8 +74,8 @@
     button.primary:disabled { opacity: 0.55; cursor: not-allowed; }
     .links { font-size: 0.85rem; margin-top: 0.75rem; }
     .links a { color: var(--accent); }
-    #msg { margin: 0.5rem 0; font-size: 0.9rem; white-space: pre-wrap; }
-    #msg.err { color: var(--err); }
+    #msg, #steelMsg { margin: 0.5rem 0; font-size: 0.9rem; white-space: pre-wrap; }
+    #msg.err, #steelMsg.err { color: var(--err); }
     .table-wrap { overflow: auto; max-height: 62vh; border: 1px solid var(--border); border-radius: 8px; }
     table { border-collapse: collapse; width: 100%; font-size: 0.82rem; }
     th, td { padding: 0.35rem 0.5rem; border-bottom: 1px solid var(--border); text-align: right; white-space: nowrap; }
@@ -146,6 +146,47 @@
       <dl id="supportDl"></dl>
     </div>
 
+    <div class="card">
+      <h2>钢材现货每日价格</h2>
+      <div class="row">
+        <div>
+          <label for="steelVariety">品种</label>
+          <select id="steelVariety">
+            <option value="螺纹钢" selected>螺纹钢</option>
+            <option value="热轧卷板">热轧卷板</option>
+            <option value="线材">线材</option>
+            <option value="不锈钢">不锈钢</option>
+            <option value="硅铁">硅铁</option>
+            <option value="锰硅">锰硅</option>
+            <option value="焦炭">焦炭</option>
+            <option value="焦煤">焦煤</option>
+          </select>
+        </div>
+        <div>
+          <label for="steelBeg">开始日期</label>
+          <input id="steelBeg" maxlength="10" value="2024-01-01" placeholder="YYYY-MM-DD" />
+        </div>
+        <div>
+          <label for="steelEnd">结束日期</label>
+          <input id="steelEnd" maxlength="10" value="2050-01-01" placeholder="YYYY-MM-DD" />
+        </div>
+        <button type="button" class="primary" id="steelGo">查询钢材现货</button>
+      </div>
+      <div class="links">
+        <a href="https://www.99qh.com/data/spotTrend" target="_blank" rel="noopener">打开 99 期货现货走势页</a>
+      </div>
+      <p id="steelMsg"></p>
+    </div>
+
+    <div class="card table-wrap" id="steelTableHost" hidden>
+      <table>
+        <thead>
+          <tr><th>日期</th><th>期货收盘价</th><th>现货价格</th></tr>
+        </thead>
+        <tbody id="steelTbody"></tbody>
+      </table>
+    </div>
+
     <details>
       <summary>说明</summary>
       <p>新浪源仅<strong>日 K</strong>。东财<strong>周/月 K</strong>下不运行支撑算法（算法按日线设计）。数据不足约 22 根时无法计算，请把开始日期往前调。</p>
@@ -175,6 +216,10 @@
   const extlink = $("extlink");
   const supportCard = $("supportCard");
   const supportDl = $("supportDl");
+  const steelMsg = $("steelMsg");
+  const steelGo = $("steelGo");
+  const steelTableHost = $("steelTableHost");
+  const steelTbody = $("steelTbody");
 
   function setMsg(text, isErr) {
     msg.textContent = text;
@@ -184,6 +229,11 @@
   function hideSupport() {
     supportCard.hidden = true;
     supportDl.innerHTML = "";
+  }
+
+  function setSteelMsg(text, isErr) {
+    steelMsg.textContent = text;
+    steelMsg.className = isErr ? "err" : "";
   }
 
   function saveFormPrefs() {
@@ -357,6 +407,125 @@
     const mo = String(d.getMonth() + 1).padStart(2, "0");
     const da = String(d.getDate()).padStart(2, "0");
     return y + mo + da;
+  }
+
+  function normalizeDateDash(s) {
+    const t = String(s || "").trim();
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(t)) return "";
+    return t;
+  }
+
+  async function fetchSteelVarietyMap() {
+    const url = "https://www.99qh.com/data/spotTrend";
+    const res = await fetch(url);
+    if (!res.ok) throw new Error("获取品种表失败: HTTP " + res.status);
+    const html = await res.text();
+    const m = html.match(/<script id="__NEXT_DATA__" type="application\/json">([\s\S]*?)<\/script>/);
+    if (!m || !m[1]) throw new Error("解析品种表失败");
+    const obj = JSON.parse(m[1]);
+    const groups = obj && obj.props && obj.props.pageProps && obj.props.pageProps.data && obj.props.pageProps.data.varietyListData;
+    if (!Array.isArray(groups)) throw new Error("品种表结构异常");
+    const map = Object.create(null);
+    for (let i = 0; i < groups.length; i++) {
+      const list = groups[i] && groups[i].productList;
+      if (!Array.isArray(list)) continue;
+      for (let j = 0; j < list.length; j++) {
+        const row = list[j] || {};
+        if (row.name != null && row.productId != null) {
+          map[String(row.name)] = String(row.productId);
+        }
+      }
+    }
+    return map;
+  }
+
+  async function fetchSteelToken() {
+    const res = await fetch("https://centerapi.fx168api.com/app/common/v.js", {
+      headers: {
+        Origin: "https://www.99qh.com",
+        Referer: "https://www.99qh.com",
+      },
+    });
+    if (!res.ok) throw new Error("获取 token 失败: HTTP " + res.status);
+    const token = res.headers.get("_pcc");
+    if (!token) throw new Error("获取 token 失败: 缺少 _pcc");
+    return token;
+  }
+
+  async function fetchSteelSpotRows(variety, startDate, endDate) {
+    const varietyMap = await fetchSteelVarietyMap();
+    const productId = varietyMap[variety];
+    if (!productId) {
+      throw new Error("未找到品种: " + variety);
+    }
+    const token = await fetchSteelToken();
+    const params = new URLSearchParams({
+      productId: productId,
+      pageNo: "1",
+      pageSize: "50000",
+      startDate: startDate || "",
+      endDate: endDate || "2050-01-01",
+      appCategory: "web",
+    });
+    const url = "https://centerapi.fx168api.com/app/qh/api/spot/trend?" + params.toString();
+    const res = await fetch(url, {
+      headers: {
+        _pcc: token,
+        Origin: "https://www.99qh.com",
+        Referer: "https://www.99qh.com",
+      },
+    });
+    if (!res.ok) throw new Error("请求现货走势失败: HTTP " + res.status);
+    const data = await res.json();
+    const list = data && data.data && data.data.list;
+    if (!Array.isArray(list)) return [];
+    list.sort(function (a, b) {
+      return String(a.date).localeCompare(String(b.date));
+    });
+    return list;
+  }
+
+  async function runSteelQuery() {
+    const variety = $("steelVariety").value;
+    const beg = normalizeDateDash($("steelBeg").value);
+    const end = normalizeDateDash($("steelEnd").value);
+    if (!beg || !end) {
+      setSteelMsg("日期格式需为 YYYY-MM-DD。", true);
+      steelTableHost.hidden = true;
+      return;
+    }
+    steelGo.disabled = true;
+    steelTableHost.hidden = true;
+    steelTbody.replaceChildren();
+    setSteelMsg("正在请求钢材现货走势…");
+    try {
+      const rows = await fetchSteelSpotRows(variety, beg, end);
+      if (!rows.length) {
+        setSteelMsg("未返回数据，请调整品种或日期区间。", true);
+        steelGo.disabled = false;
+        return;
+      }
+      const frag = document.createDocumentFragment();
+      for (let i = 0; i < rows.length; i++) {
+        const r = rows[i] || {};
+        const tr = document.createElement("tr");
+        const cells = [r.date, r.fp, r.sp];
+        for (let j = 0; j < cells.length; j++) {
+          const td = document.createElement("td");
+          td.textContent = cells[j] != null ? String(cells[j]) : "";
+          tr.appendChild(td);
+        }
+        frag.appendChild(tr);
+      }
+      steelTbody.appendChild(frag);
+      steelTableHost.hidden = false;
+      setSteelMsg(variety + " 共 " + rows.length + " 条。");
+    } catch (e) {
+      setSteelMsg("请求失败：" + (e.message || String(e)), true);
+      steelTableHost.hidden = true;
+    } finally {
+      steelGo.disabled = false;
+    }
   }
 
   function sinaTypeFromEndYmd(end8) {
@@ -708,6 +877,7 @@
   }
 
   go.addEventListener("click", runQuery);
+  steelGo.addEventListener("click", runSteelQuery);
 })();
   </script>
 </body>
