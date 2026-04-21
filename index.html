@@ -520,27 +520,39 @@
   }
 
   function computeAutoSpreads(symbolsObj, dateText) {
-    // Prefer true semantic symbols; if missing, use conservative proxies.
-    const coldProd = pickSymbolByKeywords(symbolsObj, ["冷轧", "冷卷", "冷板"]) || "热轧卷板";
-    const coldRaw = pickSymbolByKeywords(symbolsObj, ["热轧", "热卷", "热轧卷板"]) || "螺纹钢";
-    const galvProd = pickSymbolByKeywords(symbolsObj, ["镀锌"]) || "线材";
-    const galvRaw = pickSymbolByKeywords(symbolsObj, ["螺纹", "螺纹钢"]) || "螺纹钢";
+    // Strict mode: only use true semantic symbols.
+    const coldProd = pickSymbolByKeywords(symbolsObj, ["冷轧", "冷卷", "冷板"]);
+    const coldRaw = pickSymbolByKeywords(symbolsObj, ["热轧", "热卷", "热轧卷板"]);
+    const galvProd = pickSymbolByKeywords(symbolsObj, ["镀锌"]);
+    const galvRaw = pickSymbolByKeywords(symbolsObj, ["螺纹", "螺纹钢"]);
 
-    const coldProdVal = valueByDate(symbolsObj[coldProd], dateText);
-    const coldRawVal = valueByDate(symbolsObj[coldRaw], dateText);
-    const galvProdVal = valueByDate(symbolsObj[galvProd], dateText);
-    const galvRawVal = valueByDate(symbolsObj[galvRaw], dateText);
+    const coldProdVal = coldProd ? valueByDate(symbolsObj[coldProd], dateText) : null;
+    const coldRawVal = coldRaw ? valueByDate(symbolsObj[coldRaw], dateText) : null;
+    const galvProdVal = galvProd ? valueByDate(symbolsObj[galvProd], dateText) : null;
+    const galvRawVal = galvRaw ? valueByDate(symbolsObj[galvRaw], dateText) : null;
 
     const coldHotSpread =
-      Number.isFinite(coldProdVal) && Number.isFinite(coldRawVal) ? coldProdVal - coldRawVal : null;
+      coldProd &&
+      coldRaw &&
+      coldProd !== coldRaw &&
+      Number.isFinite(coldProdVal) &&
+      Number.isFinite(coldRawVal)
+        ? coldProdVal - coldRawVal
+        : null;
     const galvRebarSpread =
-      Number.isFinite(galvProdVal) && Number.isFinite(galvRawVal) ? galvProdVal - galvRawVal : null;
+      galvProd &&
+      galvRaw &&
+      galvProd !== galvRaw &&
+      Number.isFinite(galvProdVal) &&
+      Number.isFinite(galvRawVal)
+        ? galvProdVal - galvRawVal
+        : null;
 
     return {
       coldHotSpread: coldHotSpread,
       galvRebarSpread: galvRebarSpread,
-      coldPair: coldProd + " - " + coldRaw,
-      galvPair: galvProd + " - " + galvRaw,
+      coldPair: coldProd && coldRaw ? (coldProd + " - " + coldRaw) : "缺少冷轧/热卷数据",
+      galvPair: galvProd && galvRaw ? (galvProd + " - " + galvRaw) : "缺少镀锌/螺纹数据",
     };
   }
 
@@ -723,9 +735,18 @@
       arbHost.hidden = true;
       return;
     }
+    if (coldHotSpread == null || galvRebarSpread == null) {
+      setArbMsg(
+        "评估完成：" +
+          dateText +
+          "。当前快照缺少部分核心品种（冷轧/热卷或镀锌/螺纹），对应价差未计算。",
+        true
+      );
+    } else {
+      setArbMsg("评估完成：" + dateText + "。已自动填充冷热/镀锌价差并输出信号。");
+    }
     arbTbody.innerHTML = rows.join("");
     arbHost.hidden = false;
-    setArbMsg("评估完成：" + dateText + "。已自动填充冷热/镀锌价差并输出信号。");
   }
 
   async function loadSteelSnapshot() {
