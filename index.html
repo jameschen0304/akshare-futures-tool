@@ -616,11 +616,11 @@
         reasons.push("6-7月建仓窗口");
         reasons.push("冷热价差<=350");
       }
-      if (m != null && m >= 10 && sp != null && sp >= 500) {
+      if (m != null && m >= 10 && m <= 12 && sp != null && sp >= 550) {
         signal = "red";
         advice = "冷卷正套止盈信号成立。";
         reasons.push("10-12月止盈窗口");
-        reasons.push("冷热价差>=550（当前高位）");
+        reasons.push("冷热价差>=550");
       }
       if (m != null && m >= 6 && m <= 7 && sp != null && sp > 450) {
         signal = "yellow";
@@ -652,14 +652,8 @@
       }
     }
 
-    if (basisStrong === true && strategy === "galv_rebar") {
-      reasons.push("基差走强，强化正套逻辑");
-      if (signal === "gray") {
-        signal = "green";
-        advice = "基差改善，倾向正套方向。";
-        direction = "正套（买镀锌 / 卖螺纹）";
-      }
-    }
+    // 基差与分位仅作增强提示，不改写主信号（严格按预设时间+价差逻辑）。
+    if (basisStrong === true && strategy === "galv_rebar") reasons.push("基差走强（增强项）");
 
     if (warehouseStress === true && signal === "blue") {
       signal = "yellow";
@@ -668,8 +662,8 @@
     }
 
     if (pct != null) {
-      if (pct <= 10 && signal !== "red") reasons.push("历史分位低（<=10%）偏正套机会");
-      if (pct >= 90 && signal !== "green") reasons.push("历史分位高（>=90%）偏反套机会");
+      if (pct <= 10) reasons.push("历史分位低（<=10%，增强项）");
+      if (pct >= 90) reasons.push("历史分位高（>=90%，增强项）");
     }
 
     return {
