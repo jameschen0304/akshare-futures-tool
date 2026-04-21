@@ -498,7 +498,9 @@
   }
 
   function toNumOrNull(v) {
-    const n = Number(v);
+    const s = String(v == null ? "" : v).trim();
+    if (!s) return null;
+    const n = Number(s);
     return Number.isFinite(n) ? n : null;
   }
 
