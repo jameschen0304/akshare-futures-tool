@@ -199,6 +199,13 @@
           <input id="arbDate" maxlength="10" value="2026-04-21" placeholder="YYYY-MM-DD" />
         </div>
         <div>
+          <label for="arbSpreadMode">价差输入模式</label>
+          <select id="arbSpreadMode">
+            <option value="auto" selected>自动计算</option>
+            <option value="manual">手动填入</option>
+          </select>
+        </div>
+        <div>
           <label for="arbColdHotSpread">冷热价差（自动，冷轧-热卷）</label>
           <input id="arbColdHotSpread" value="" placeholder="自动计算" readonly />
         </div>
@@ -277,6 +284,7 @@
   const arbMsg = $("arbMsg");
   const arbHost = $("arbHost");
   const arbTbody = $("arbTbody");
+  const arbSpreadMode = $("arbSpreadMode");
   const STEEL_DATA_URL = "./steel_spot_daily.json";
   const STEEL_DATA_JS_GLOBAL = "__steelSpotSnapshot";
   const STEEL_FALLBACK_URLS = [
@@ -561,6 +569,21 @@
     arbMsg.className = isErr ? "err" : "";
   }
 
+  function applySpreadModeUi() {
+    const manual = arbSpreadMode.value === "manual";
+    const coldInput = $("arbColdHotSpread");
+    const galvInput = $("arbGalvRebarSpread");
+    coldInput.readOnly = !manual;
+    galvInput.readOnly = !manual;
+    if (manual) {
+      coldInput.placeholder = "手动输入冷热价差";
+      galvInput.placeholder = "手动输入镀锌价差";
+    } else {
+      coldInput.placeholder = "自动计算";
+      galvInput.placeholder = "自动计算";
+    }
+  }
+
   function signalCell(signal) {
     if (signal === "green") return "<span class=\"signal-green\">绿色</span>";
     if (signal === "red") return "<span class=\"signal-red\">红色</span>";
@@ -678,19 +701,41 @@
     }
 
     let auto;
-    try {
-      const symbols = await loadSteelSnapshot();
-      auto = computeAutoSpreads(symbols, dateText);
-    } catch (e) {
-      setArbMsg("无法加载快照，自动计算失败：" + (e.message || String(e)), true);
-      arbHost.hidden = true;
-      return;
-    }
-    $("arbColdHotSpread").value = auto.coldHotSpread == null ? "" : fmtBasis(auto.coldHotSpread);
-    $("arbGalvRebarSpread").value = auto.galvRebarSpread == null ? "" : fmtBasis(auto.galvRebarSpread);
+    let coldHotSpread = null;
+    let galvRebarSpread = null;
+    const manualMode = arbSpreadMode.value === "manual";
 
-    const coldHotSpread = auto.coldHotSpread;
-    const galvRebarSpread = auto.galvRebarSpread;
+    if (manualMode) {
+      coldHotSpread = toNumOrNull($("arbColdHotSpread").value.trim());
+      galvRebarSpread = toNumOrNull($("arbGalvRebarSpread").value.trim());
+      auto = {
+        coldPair: "手动输入",
+        galvPair: "手动输入",
+      };
+      if ((strategy === "auto" || strategy === "cold_hot") && coldHotSpread == null) {
+        setArbMsg("手动模式下请填写冷热价差。", true);
+        arbHost.hidden = true;
+        return;
+      }
+      if ((strategy === "auto" || strategy === "galv_rebar") && galvRebarSpread == null) {
+        setArbMsg("手动模式下请填写镀锌价差。", true);
+        arbHost.hidden = true;
+        return;
+      }
+    } else {
+      try {
+        const symbols = await loadSteelSnapshot();
+        auto = computeAutoSpreads(symbols, dateText);
+      } catch (e) {
+        setArbMsg("无法加载快照，自动计算失败：" + (e.message || String(e)), true);
+        arbHost.hidden = true;
+        return;
+      }
+      $("arbColdHotSpread").value = auto.coldHotSpread == null ? "" : fmtBasis(auto.coldHotSpread);
+      $("arbGalvRebarSpread").value = auto.galvRebarSpread == null ? "" : fmtBasis(auto.galvRebarSpread);
+      coldHotSpread = auto.coldHotSpread;
+      galvRebarSpread = auto.galvRebarSpread;
+    }
 
     const basisStrong = basisStrongSel === "yes" ? true : basisStrongSel === "no" ? false : null;
     const warehouseStress = warehouseSel === "yes" ? true : warehouseSel === "no" ? false : null;
@@ -735,7 +780,7 @@
       arbHost.hidden = true;
       return;
     }
-    if (coldHotSpread == null || galvRebarSpread == null) {
+    if (!manualMode && (coldHotSpread == null || galvRebarSpread == null)) {
       setArbMsg(
         "评估完成：" +
           dateText +
@@ -1215,6 +1260,8 @@
   go.addEventListener("click", runQuery);
   steelGo.addEventListener("click", runSteelQuery);
   arbGo.addEventListener("click", runArbRadar);
+  arbSpreadMode.addEventListener("change", applySpreadModeUi);
+  applySpreadModeUi();
   initSteelVarietyOptions();
 })();
   </script>
