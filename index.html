@@ -92,6 +92,8 @@
     .signal-green { color: #15803d; font-weight: 700; }
     .signal-red { color: var(--err); font-weight: 700; }
     .signal-yellow { color: #a16207; font-weight: 700; }
+    .signal-blue { color: #1d4ed8; font-weight: 700; }
+    .signal-gray { color: var(--muted); font-weight: 700; }
   </style>
 </head>
 <body>
@@ -185,11 +187,11 @@
       <h2>钢铁套利雷达（规则引擎）</h2>
       <div class="row">
         <div>
-          <label for="arbStrategy">策略</label>
+          <label for="arbStrategy">评估模式</label>
           <select id="arbStrategy">
-            <option value="cold_hot_long">冷卷正套（冷轧-热卷）</option>
-            <option value="galv_rebar_long">镀锌正套（镀锌-螺纹）</option>
-            <option value="galv_rebar_short">镀锌反套（镀锌-螺纹）</option>
+            <option value="auto" selected>自动决策流（推荐）</option>
+            <option value="cold_hot">仅冷卷策略</option>
+            <option value="galv_rebar">仅镀锌策略</option>
           </select>
         </div>
         <div>
@@ -197,15 +199,15 @@
           <input id="arbDate" maxlength="10" value="2026-04-21" placeholder="YYYY-MM-DD" />
         </div>
         <div>
-          <label for="arbFutSpread">期货价差（元/吨）</label>
-          <input id="arbFutSpread" value="300" />
+          <label for="arbColdHotSpread">冷热价差（冷轧-热卷）</label>
+          <input id="arbColdHotSpread" value="300" />
         </div>
         <div>
-          <label for="arbSpotSpread">现货价差（元/吨，可空）</label>
-          <input id="arbSpotSpread" placeholder="例如 420" />
+          <label for="arbGalvRebarSpread">镀锌价差（镀锌-螺纹）</label>
+          <input id="arbGalvRebarSpread" value="700" />
         </div>
         <div>
-          <label for="arbPct">历史分位（0-100，可空）</label>
+          <label for="arbPct">历史分位（0-100，可空，增强信号）</label>
           <input id="arbPct" placeholder="例如 12" />
         </div>
         <div>
@@ -230,7 +232,7 @@
       <div class="table-wrap" id="arbHost" hidden>
         <table>
           <thead>
-            <tr><th>信号灯</th><th>方向建议</th><th>策略建议</th><th>触发原因</th><th>风控提示</th></tr>
+            <tr><th>策略</th><th>信号灯</th><th>方向建议</th><th>策略建议</th><th>触发原因</th><th>风控提示</th></tr>
           </thead>
           <tbody id="arbTbody"></tbody>
         </table>
@@ -500,86 +502,79 @@
   function signalCell(signal) {
     if (signal === "green") return "<span class=\"signal-green\">绿色</span>";
     if (signal === "red") return "<span class=\"signal-red\">红色</span>";
+    if (signal === "blue") return "<span class=\"signal-blue\">蓝色</span>";
+    if (signal === "gray") return "<span class=\"signal-gray\">灰色</span>";
     return "<span class=\"signal-yellow\">黄色</span>";
   }
 
   function evaluateArbRule(input) {
     const reasons = [];
     const risks = [];
-    let signal = "yellow";
+    let signal = "gray";
     let direction = "观望";
-    let advice = "条件不完整，暂不执行。";
+    let advice = "当前无强触发条件。";
 
-    const strategy = input.strategy;
+    const strategy = input.ruleKey;
     const m = input.month;
     const sp = input.spread;
-    const spotSpread = input.spotSpread;
     const pct = input.percentile;
     const basisStrong = input.basisStrong;
     const warehouseStress = input.warehouseStress;
 
-    const basisGapPositive =
-      spotSpread != null && sp != null && sp < spotSpread;
-
-    if (strategy === "cold_hot_long") {
+    if (strategy === "cold_hot") {
       direction = "正套（买冷轧 / 卖热卷）";
-      if (m != null && m >= 6 && m <= 7 && sp != null && sp >= 250 && sp <= 360) {
+      if (m != null && m >= 6 && m <= 7 && sp != null && sp <= 350) {
         signal = "green";
-        advice = "满足冷卷正套入场区，分批建仓。";
-        reasons.push("6-7月季节窗口");
-        reasons.push("价差接近300低位");
+        advice = "冷卷正套入场信号成立。";
+        reasons.push("6-7月建仓窗口");
+        reasons.push("冷热价差<=350");
       }
       if (m != null && m >= 10 && sp != null && sp >= 500) {
         signal = "red";
-        advice = "进入四季度且价差高位，优先止盈/减仓。";
-        reasons.push("四季度高位止盈窗口");
+        advice = "冷卷正套止盈信号成立。";
+        reasons.push("10-12月止盈窗口");
+        reasons.push("冷热价差>=550（当前高位）");
       }
-      if (m != null && m === 6 && sp != null && sp > 450) {
+      if (m != null && m >= 6 && m <= 7 && sp != null && sp > 450) {
         signal = "yellow";
         advice = "正套空间不足，建议暂缓入场。";
-        risks.push("6月价差>450，性价比不足");
+        risks.push("建仓窗口内价差过高(>450)");
       }
-    } else if (strategy === "galv_rebar_long") {
-      direction = "正套（买镀锌 / 卖螺纹）";
-      const seasonOk = m === 1 || m === 2;
-      const spreadOk = sp != null && sp >= 620 && sp <= 780;
-      if (seasonOk && spreadOk) {
+    } else if (strategy === "galv_rebar") {
+      direction = "正套或反套（镀锌-螺纹）";
+      if ((m === 1 || m === 2) && sp != null && sp <= 750) {
         signal = "green";
-        advice = "春节窗口 + 价差700附近，可考虑正套。";
+        direction = "正套（买镀锌 / 卖螺纹）";
+        advice = "镀锌正套入场信号成立。";
         reasons.push("春节前后季节窗口");
-        reasons.push("价差接近700");
+        reasons.push("镀锌价差<=750");
       }
-      if (basisStrong === true) reasons.push("基差走强，强化做多价差逻辑");
-      if (m != null && m === 5 && sp != null && sp >= 980) {
+      if (m === 5 && input.day != null && input.day >= 10 && input.day <= 20 && sp != null && sp >= 1000) {
         signal = "red";
-        advice = "接近5月中旬且价差达到止盈位，建议平仓。";
-        reasons.push("达到1000附近止盈阈值");
+        direction = "正套止盈";
+        advice = "镀锌正套止盈信号成立。";
+        reasons.push("5月中旬止盈窗口");
+        reasons.push("镀锌价差>=1000");
       }
-    } else if (strategy === "galv_rebar_short") {
-      direction = "反套（卖镀锌 / 买螺纹）";
-      const seasonOk = m != null && m >= 6 && m <= 7;
-      const spreadOk = sp != null && sp >= 950;
-      if (seasonOk && spreadOk) {
-        signal = "red";
-        advice = "满足高位+淡季，反套条件成立。";
-        reasons.push("6月中旬后淡季窗口");
-        reasons.push("价差约1000高位");
-      }
-      if (sp != null && sp <= 800) {
-        signal = "yellow";
-        advice = "价差已回落至700-800附近，考虑离场。";
-        reasons.push("反套止盈区");
+      if (m === 6 && sp != null && sp >= 1000) {
+        signal = "blue";
+        direction = "反套（卖镀锌 / 买螺纹）";
+        advice = "镀锌反套入场信号成立。";
+        reasons.push("6月淡季窗口");
+        reasons.push("镀锌价差>=1000");
       }
     }
 
-    if (basisGapPositive) {
-      reasons.push("期货价差小于现货价差，存在基差收敛驱动");
-      if (strategy !== "galv_rebar_short" && signal !== "red") {
+    if (basisStrong === true && strategy === "galv_rebar") {
+      reasons.push("基差走强，强化正套逻辑");
+      if (signal === "gray") {
         signal = "green";
+        advice = "基差改善，倾向正套方向。";
+        direction = "正套（买镀锌 / 卖螺纹）";
       }
     }
 
-    if (warehouseStress === true && strategy === "galv_rebar_short") {
+    if (warehouseStress === true && signal === "blue") {
       signal = "yellow";
       advice = "仓单压力异常触发一票否决，反套暂缓。";
       risks.push("原料端过剩可能继续下行，反套风险高");
@@ -602,9 +597,11 @@
   function runArbRadar() {
     const strategy = $("arbStrategy").value;
     const dateText = $("arbDate").value.trim();
+    const dateParts = String(dateText).match(/^(\d{4})-(\d{2})-(\d{2})$/);
     const month = monthFromDateText(dateText);
-    const spread = toNumOrNull($("arbFutSpread").value.trim());
-    const spotSpread = toNumOrNull($("arbSpotSpread").value.trim());
+    const day = dateParts ? parseInt(dateParts[3], 10) : null;
+    const coldHotSpread = toNumOrNull($("arbColdHotSpread").value.trim());
+    const galvRebarSpread = toNumOrNull($("arbGalvRebarSpread").value.trim());
     const percentile = toNumOrNull($("arbPct").value.trim());
     const basisStrongSel = $("arbBasisStrong").value;
     const warehouseSel = $("arbWarehouseStress").value;
@@ -614,8 +611,13 @@
       arbHost.hidden = true;
       return;
     }
-    if (spread == null) {
-      setArbMsg("请填写有效的期货价差。", true);
+    if (strategy !== "galv_rebar" && strategy !== "auto" && coldHotSpread == null) {
+      setArbMsg("请填写有效的冷热价差。", true);
+      arbHost.hidden = true;
+      return;
+    }
+    if (strategy !== "cold_hot" && strategy !== "auto" && galvRebarSpread == null) {
+      setArbMsg("请填写有效的镀锌价差。", true);
       arbHost.hidden = true;
       return;
     }
@@ -625,22 +627,52 @@
       return;
     }
 
-    const res = evaluateArbRule({
-      strategy: strategy,
-      month: month,
-      spread: spread,
-      spotSpread: spotSpread,
-      percentile: percentile,
-      basisStrong: basisStrongSel === "yes" ? true : basisStrongSel === "no" ? false : null,
-      warehouseStress: warehouseSel === "yes" ? true : warehouseSel === "no" ? false : null,
-    });
+    const basisStrong = basisStrongSel === "yes" ? true : basisStrongSel === "no" ? false : null;
+    const warehouseStress = warehouseSel === "yes" ? true : warehouseSel === "no" ? false : null;
+    const rows = [];
 
-    arbTbody.innerHTML =
-      "<tr><td>" + signalCell(res.signal) + "</td><td>" +
-      res.direction + "</td><td>" + res.advice + "</td><td>" +
-      res.reasons + "</td><td>" + res.risks + "</td></tr>";
+    if (strategy === "auto" || strategy === "cold_hot") {
+      const r1 = evaluateArbRule({
+        ruleKey: "cold_hot",
+        month: month,
+        day: day,
+        spread: coldHotSpread,
+        percentile: percentile,
+        basisStrong: basisStrong,
+        warehouseStress: warehouseStress,
+      });
+      rows.push(
+        "<tr><td>冷卷策略</td><td>" + signalCell(r1.signal) + "</td><td>" +
+        r1.direction + "</td><td>" + r1.advice + "</td><td>" +
+        r1.reasons + "</td><td>" + r1.risks + "</td></tr>"
+      );
+    }
+
+    if (strategy === "auto" || strategy === "galv_rebar") {
+      const r2 = evaluateArbRule({
+        ruleKey: "galv_rebar",
+        month: month,
+        day: day,
+        spread: galvRebarSpread,
+        percentile: percentile,
+        basisStrong: basisStrong,
+        warehouseStress: warehouseStress,
+      });
+      rows.push(
+        "<tr><td>镀锌策略</td><td>" + signalCell(r2.signal) + "</td><td>" +
+        r2.direction + "</td><td>" + r2.advice + "</td><td>" +
+        r2.reasons + "</td><td>" + r2.risks + "</td></tr>"
+      );
+    }
+
+    if (!rows.length) {
+      setArbMsg("未生成信号，请检查输入。", true);
+      arbHost.hidden = true;
+      return;
+    }
+    arbTbody.innerHTML = rows.join("");
     arbHost.hidden = false;
-    setArbMsg("评估完成：" + dateText + "，当前价差=" + fmtBasis(spread) + "。");
+    setArbMsg("评估完成：" + dateText + "。自动匹配季节窗口并输出策略信号。");
   }
 
   async function loadSteelSnapshot() {
