@@ -440,12 +440,7 @@
   }
 
   async function fetchSteelToken() {
-    const res = await fetch("https://centerapi.fx168api.com/app/common/v.js", {
-      headers: {
-        Origin: "https://www.99qh.com",
-        Referer: "https://www.99qh.com",
-      },
-    });
+    const res = await fetch("https://centerapi.fx168api.com/app/common/v.js");
     if (!res.ok) throw new Error("获取 token 失败: HTTP " + res.status);
     const token = res.headers.get("_pcc");
     if (!token) throw new Error("获取 token 失败: 缺少 _pcc");
@@ -471,8 +466,6 @@
     const res = await fetch(url, {
       headers: {
         _pcc: token,
-        Origin: "https://www.99qh.com",
-        Referer: "https://www.99qh.com",
       },
     });
     if (!res.ok) throw new Error("请求现货走势失败: HTTP " + res.status);
