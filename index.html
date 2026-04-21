@@ -214,6 +214,9 @@
   const steelTbody = $("steelTbody");
   const STEEL_DATA_URL = "./steel_spot_daily.json";
   const STEEL_DATA_JS_GLOBAL = "__steelSpotSnapshot";
+  const STEEL_FALLBACK_URLS = [
+    "https://raw.githubusercontent.com/jameschen0304/akshare/main/docs/futures-tool/steel_spot_daily.json",
+  ];
   let steelCache = null;
 
   function setMsg(text, isErr) {
@@ -417,12 +420,28 @@
       steelCache = inline.symbols;
       return steelCache;
     }
-    const res = await fetch(STEEL_DATA_URL + "?_=" + Date.now());
-    if (!res.ok) throw new Error("加载钢材快照失败: HTTP " + res.status);
-    const data = await res.json();
-    const symbols = (data && data.symbols) || {};
-    steelCache = symbols;
-    return steelCache;
+    const tryUrls = [STEEL_DATA_URL + "?_=" + Date.now()].concat(
+      STEEL_FALLBACK_URLS.map(function (u) {
+        return u + "?_=" + Date.now();
+      })
+    );
+    let lastErr = null;
+    for (let i = 0; i < tryUrls.length; i++) {
+      try {
+        const res = await fetch(tryUrls[i]);
+        if (!res.ok) {
+          lastErr = new Error("HTTP " + res.status);
+          continue;
+        }
+        const data = await res.json();
+        const symbols = (data && data.symbols) || {};
+        steelCache = symbols;
+        return steelCache;
+      } catch (e) {
+        lastErr = e;
+      }
+    }
+    throw new Error("加载钢材快照失败: " + (lastErr && lastErr.message ? lastErr.message : "未知错误"));
   }
 
   async function initSteelVarietyOptions() {
