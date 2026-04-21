@@ -89,6 +89,9 @@
     #supportCard dd { margin: 0.15rem 0 0 0; font-weight: 500; }
     .sent-bull { color: #15803d; }
     .sent-bear { color: var(--err); }
+    .signal-green { color: #15803d; font-weight: 700; }
+    .signal-red { color: var(--err); font-weight: 700; }
+    .signal-yellow { color: #a16207; font-weight: 700; }
   </style>
 </head>
 <body>
@@ -178,6 +181,62 @@
       </table>
     </div>
 
+    <div class="card">
+      <h2>钢铁套利雷达（规则引擎）</h2>
+      <div class="row">
+        <div>
+          <label for="arbStrategy">策略</label>
+          <select id="arbStrategy">
+            <option value="cold_hot_long">冷卷正套（冷轧-热卷）</option>
+            <option value="galv_rebar_long">镀锌正套（镀锌-螺纹）</option>
+            <option value="galv_rebar_short">镀锌反套（镀锌-螺纹）</option>
+          </select>
+        </div>
+        <div>
+          <label for="arbDate">评估日期</label>
+          <input id="arbDate" maxlength="10" value="2026-04-21" placeholder="YYYY-MM-DD" />
+        </div>
+        <div>
+          <label for="arbFutSpread">期货价差（元/吨）</label>
+          <input id="arbFutSpread" value="300" />
+        </div>
+        <div>
+          <label for="arbSpotSpread">现货价差（元/吨，可空）</label>
+          <input id="arbSpotSpread" placeholder="例如 420" />
+        </div>
+        <div>
+          <label for="arbPct">历史分位（0-100，可空）</label>
+          <input id="arbPct" placeholder="例如 12" />
+        </div>
+        <div>
+          <label for="arbBasisStrong">基差走强（现货抗跌）</label>
+          <select id="arbBasisStrong">
+            <option value="auto" selected>未知/自动</option>
+            <option value="yes">是</option>
+            <option value="no">否</option>
+          </select>
+        </div>
+        <div>
+          <label for="arbWarehouseStress">仓单压力异常（05）</label>
+          <select id="arbWarehouseStress">
+            <option value="auto" selected>未知/自动</option>
+            <option value="yes">是</option>
+            <option value="no">否</option>
+          </select>
+        </div>
+        <button type="button" class="primary" id="arbGo">评估套利信号</button>
+      </div>
+      <p id="arbMsg"></p>
+      <div class="table-wrap" id="arbHost" hidden>
+        <table>
+          <thead>
+            <tr><th>信号灯</th><th>方向建议</th><th>策略建议</th><th>触发原因</th><th>风控提示</th></tr>
+          </thead>
+          <tbody id="arbTbody"></tbody>
+        </table>
+      </div>
+    </div>
+
     <details>
       <summary>说明</summary>
       <p>新浪源仅<strong>日 K</strong>。东财<strong>周/月 K</strong>下不运行支撑算法（算法按日线设计）。数据不足约 22 根时无法计算，请把开始日期往前调。</p>
@@ -212,6 +271,10 @@
   const steelGo = $("steelGo");
   const steelTableHost = $("steelTableHost");
   const steelTbody = $("steelTbody");
+  const arbGo = $("arbGo");
+  const arbMsg = $("arbMsg");
+  const arbHost = $("arbHost");
+  const arbTbody = $("arbTbody");
   const STEEL_DATA_URL = "./steel_spot_daily.json";
   const STEEL_DATA_JS_GLOBAL = "__steelSpotSnapshot";
   const STEEL_FALLBACK_URLS = [
@@ -416,6 +479,168 @@
   function fmtBasis(v) {
     if (v == null || Number.isNaN(v)) return "";
     return Number(v).toFixed(2).replace(/\.?0+$/, "");
+  }
+
+  function monthFromDateText(s) {
+    const m = String(s || "").match(/^(\d{4})-(\d{2})-(\d{2})$/);
+    if (!m) return null;
+    return parseInt(m[2], 10);
+  }
+
+  function toNumOrNull(v) {
+    const n = Number(v);
+    return Number.isFinite(n) ? n : null;
+  }
+
+  function setArbMsg(text, isErr) {
+    arbMsg.textContent = text;
+    arbMsg.className = isErr ? "err" : "";
+  }
+
+  function signalCell(signal) {
+    if (signal === "green") return "<span class=\"signal-green\">绿色</span>";
+    if (signal === "red") return "<span class=\"signal-red\">红色</span>";
+    return "<span class=\"signal-yellow\">黄色</span>";
+  }
+
+  function evaluateArbRule(input) {
+    const reasons = [];
+    const risks = [];
+    let signal = "yellow";
+    let direction = "观望";
+    let advice = "条件不完整，暂不执行。";
+
+    const strategy = input.strategy;
+    const m = input.month;
+    const sp = input.spread;
+    const spotSpread = input.spotSpread;
+    const pct = input.percentile;
+    const basisStrong = input.basisStrong;
+    const warehouseStress = input.warehouseStress;
+
+    const basisGapPositive =
+      spotSpread != null && sp != null && sp < spotSpread;
+
+    if (strategy === "cold_hot_long") {
+      direction = "正套（买冷轧 / 卖热卷）";
+      if (m != null && m >= 6 && m <= 7 && sp != null && sp >= 250 && sp <= 360) {
+        signal = "green";
+        advice = "满足冷卷正套入场区，分批建仓。";
+        reasons.push("6-7月季节窗口");
+        reasons.push("价差接近300低位");
+      }
+      if (m != null && m >= 10 && sp != null && sp >= 500) {
+        signal = "red";
+        advice = "进入四季度且价差高位，优先止盈/减仓。";
+        reasons.push("四季度高位止盈窗口");
+      }
+      if (m != null && m === 6 && sp != null && sp > 450) {
+        signal = "yellow";
+        advice = "正套空间不足，建议暂缓入场。";
+        risks.push("6月价差>450，性价比不足");
+      }
+    } else if (strategy === "galv_rebar_long") {
+      direction = "正套（买镀锌 / 卖螺纹）";
+      const seasonOk = m === 1 || m === 2;
+      const spreadOk = sp != null && sp >= 620 && sp <= 780;
+      if (seasonOk && spreadOk) {
+        signal = "green";
+        advice = "春节窗口 + 价差700附近，可考虑正套。";
+        reasons.push("春节前后季节窗口");
+        reasons.push("价差接近700");
+      }
+      if (basisStrong === true) reasons.push("基差走强，强化做多价差逻辑");
+      if (m != null && m === 5 && sp != null && sp >= 980) {
+        signal = "red";
+        advice = "接近5月中旬且价差达到止盈位，建议平仓。";
+        reasons.push("达到1000附近止盈阈值");
+      }
+    } else if (strategy === "galv_rebar_short") {
+      direction = "反套（卖镀锌 / 买螺纹）";
+      const seasonOk = m != null && m >= 6 && m <= 7;
+      const spreadOk = sp != null && sp >= 950;
+      if (seasonOk && spreadOk) {
+        signal = "red";
+        advice = "满足高位+淡季，反套条件成立。";
+        reasons.push("6月中旬后淡季窗口");
+        reasons.push("价差约1000高位");
+      }
+      if (sp != null && sp <= 800) {
+        signal = "yellow";
+        advice = "价差已回落至700-800附近，考虑离场。";
+        reasons.push("反套止盈区");
+      }
+    }
+
+    if (basisGapPositive) {
+      reasons.push("期货价差小于现货价差，存在基差收敛驱动");
+      if (strategy !== "galv_rebar_short" && signal !== "red") {
+        signal = "green";
+      }
+    }
+
+    if (warehouseStress === true && strategy === "galv_rebar_short") {
+      signal = "yellow";
+      advice = "仓单压力异常触发一票否决，反套暂缓。";
+      risks.push("原料端过剩可能继续下行，反套风险高");
+    }
+
+    if (pct != null) {
+      if (pct <= 10 && signal !== "red") reasons.push("历史分位低（<=10%）偏正套机会");
+      if (pct >= 90 && signal !== "green") reasons.push("历史分位高（>=90%）偏反套机会");
+    }
+
+    return {
+      signal: signal,
+      direction: direction,
+      advice: advice,
+      reasons: reasons.length ? reasons.join("；") : "—",
+      risks: risks.length ? risks.join("；") : "—",
+    };
+  }
+
+  function runArbRadar() {
+    const strategy = $("arbStrategy").value;
+    const dateText = $("arbDate").value.trim();
+    const month = monthFromDateText(dateText);
+    const spread = toNumOrNull($("arbFutSpread").value.trim());
+    const spotSpread = toNumOrNull($("arbSpotSpread").value.trim());
+    const percentile = toNumOrNull($("arbPct").value.trim());
+    const basisStrongSel = $("arbBasisStrong").value;
+    const warehouseSel = $("arbWarehouseStress").value;
+
+    if (month == null) {
+      setArbMsg("评估日期格式应为 YYYY-MM-DD。", true);
+      arbHost.hidden = true;
+      return;
+    }
+    if (spread == null) {
+      setArbMsg("请填写有效的期货价差。", true);
+      arbHost.hidden = true;
+      return;
+    }
+    if (percentile != null && (percentile < 0 || percentile > 100)) {
+      setArbMsg("历史分位需在 0-100 之间。", true);
+      arbHost.hidden = true;
+      return;
+    }
+
+    const res = evaluateArbRule({
+      strategy: strategy,
+      month: month,
+      spread: spread,
+      spotSpread: spotSpread,
+      percentile: percentile,
+      basisStrong: basisStrongSel === "yes" ? true : basisStrongSel === "no" ? false : null,
+      warehouseStress: warehouseSel === "yes" ? true : warehouseSel === "no" ? false : null,
+    });
+
+    arbTbody.innerHTML =
+      "<tr><td>" + signalCell(res.signal) + "</td><td>" +
+      res.direction + "</td><td>" + res.advice + "</td><td>" +
+      res.reasons + "</td><td>" + res.risks + "</td></tr>";
+    arbHost.hidden = false;
+    setArbMsg("评估完成：" + dateText + "，当前价差=" + fmtBasis(spread) + "。");
   }
 
   async function loadSteelSnapshot() {
@@ -883,6 +1108,7 @@
 
   go.addEventListener("click", runQuery);
   steelGo.addEventListener("click", runSteelQuery);
+  arbGo.addEventListener("click", runArbRadar);
   initSteelVarietyOptions();
 })();
   </script>
