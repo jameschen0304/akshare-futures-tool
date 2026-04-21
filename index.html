@@ -790,7 +790,11 @@
         true
       );
     } else {
-      setArbMsg("评估完成：" + dateText + "。已自动填充冷热/镀锌价差并输出信号。");
+      if (manualMode) {
+        setArbMsg("评估完成：" + dateText + "。已按手动输入价差输出信号。");
+      } else {
+        setArbMsg("评估完成：" + dateText + "。已自动填充冷热/镀锌价差并输出信号。");
+      }
     }
     arbTbody.innerHTML = rows.join("");
     arbHost.hidden = false;
