@@ -199,12 +199,12 @@
           <input id="arbDate" maxlength="10" value="2026-04-21" placeholder="YYYY-MM-DD" />
         </div>
         <div>
-          <label for="arbColdHotSpread">冷热价差（冷轧-热卷）</label>
-          <input id="arbColdHotSpread" value="300" />
+          <label for="arbColdHotSpread">冷热价差（自动，冷轧-热卷）</label>
+          <input id="arbColdHotSpread" value="" placeholder="自动计算" readonly />
         </div>
         <div>
-          <label for="arbGalvRebarSpread">镀锌价差（镀锌-螺纹）</label>
-          <input id="arbGalvRebarSpread" value="700" />
+          <label for="arbGalvRebarSpread">镀锌价差（自动，镀锌-螺纹）</label>
+          <input id="arbGalvRebarSpread" value="" placeholder="自动计算" readonly />
         </div>
         <div>
           <label for="arbPct">历史分位（0-100，可空，增强信号）</label>
@@ -494,6 +494,56 @@
     return Number.isFinite(n) ? n : null;
   }
 
+  function pickSymbolByKeywords(symbolsObj, keywords) {
+    const names = Object.keys(symbolsObj || {});
+    for (let i = 0; i < names.length; i++) {
+      const nm = names[i];
+      for (let j = 0; j < keywords.length; j++) {
+        if (nm.indexOf(keywords[j]) >= 0) return nm;
+      }
+    }
+    return null;
+  }
+
+  function valueByDate(rows, dateText) {
+    if (!Array.isArray(rows)) return null;
+    const d8 = String(dateText || "").replace(/-/g, "");
+    for (let i = rows.length - 1; i >= 0; i--) {
+      const r = rows[i] || {};
+      const rd8 = String(r.date || "").replace(/-/g, "");
+      if (rd8 === d8) {
+        const v = Number(r.fp);
+        return Number.isFinite(v) ? v : null;
+      }
+    }
+    return null;
+  }
+
+  function computeAutoSpreads(symbolsObj, dateText) {
+    // Prefer true semantic symbols; if missing, use conservative proxies.
+    const coldProd = pickSymbolByKeywords(symbolsObj, ["冷轧", "冷卷", "冷板"]) || "热轧卷板";
+    const coldRaw = pickSymbolByKeywords(symbolsObj, ["热轧", "热卷", "热轧卷板"]) || "螺纹钢";
+    const galvProd = pickSymbolByKeywords(symbolsObj, ["镀锌"]) || "线材";
+    const galvRaw = pickSymbolByKeywords(symbolsObj, ["螺纹", "螺纹钢"]) || "螺纹钢";
+
+    const coldProdVal = valueByDate(symbolsObj[coldProd], dateText);
+    const coldRawVal = valueByDate(symbolsObj[coldRaw], dateText);
+    const galvProdVal = valueByDate(symbolsObj[galvProd], dateText);
+    const galvRawVal = valueByDate(symbolsObj[galvRaw], dateText);
+
+    const coldHotSpread =
+      Number.isFinite(coldProdVal) && Number.isFinite(coldRawVal) ? coldProdVal - coldRawVal : null;
+    const galvRebarSpread =
+      Number.isFinite(galvProdVal) && Number.isFinite(galvRawVal) ? galvProdVal - galvRawVal : null;
+
+    return {
+      coldHotSpread: coldHotSpread,
+      galvRebarSpread: galvRebarSpread,
+      coldPair: coldProd + " - " + coldRaw,
+      galvPair: galvProd + " - " + galvRaw,
+    };
+  }
+
   function setArbMsg(text, isErr) {
     arbMsg.textContent = text;
     arbMsg.className = isErr ? "err" : "";
@@ -594,14 +644,12 @@
     };
   }
 
-  function runArbRadar() {
+  async function runArbRadar() {
     const strategy = $("arbStrategy").value;
     const dateText = $("arbDate").value.trim();
     const dateParts = String(dateText).match(/^(\d{4})-(\d{2})-(\d{2})$/);
     const month = monthFromDateText(dateText);
     const day = dateParts ? parseInt(dateParts[3], 10) : null;
-    const coldHotSpread = toNumOrNull($("arbColdHotSpread").value.trim());
-    const galvRebarSpread = toNumOrNull($("arbGalvRebarSpread").value.trim());
     const percentile = toNumOrNull($("arbPct").value.trim());
     const basisStrongSel = $("arbBasisStrong").value;
     const warehouseSel = $("arbWarehouseStress").value;
@@ -611,21 +659,26 @@
       arbHost.hidden = true;
       return;
     }
-    if (strategy !== "galv_rebar" && strategy !== "auto" && coldHotSpread == null) {
-      setArbMsg("请填写有效的冷热价差。", true);
-      arbHost.hidden = true;
-      return;
-    }
-    if (strategy !== "cold_hot" && strategy !== "auto" && galvRebarSpread == null) {
-      setArbMsg("请填写有效的镀锌价差。", true);
-      arbHost.hidden = true;
-      return;
-    }
     if (percentile != null && (percentile < 0 || percentile > 100)) {
       setArbMsg("历史分位需在 0-100 之间。", true);
       arbHost.hidden = true;
       return;
     }
+
+    let auto;
+    try {
+      const symbols = await loadSteelSnapshot();
+      auto = computeAutoSpreads(symbols, dateText);
+    } catch (e) {
+      setArbMsg("无法加载快照，自动计算失败：" + (e.message || String(e)), true);
+      arbHost.hidden = true;
+      return;
+    }
+    $("arbColdHotSpread").value = auto.coldHotSpread == null ? "" : fmtBasis(auto.coldHotSpread);
+    $("arbGalvRebarSpread").value = auto.galvRebarSpread == null ? "" : fmtBasis(auto.galvRebarSpread);
+
+    const coldHotSpread = auto.coldHotSpread;
+    const galvRebarSpread = auto.galvRebarSpread;
 
     const basisStrong = basisStrongSel === "yes" ? true : basisStrongSel === "no" ? false : null;
     const warehouseStress = warehouseSel === "yes" ? true : warehouseSel === "no" ? false : null;
@@ -644,7 +697,7 @@
       rows.push(
         "<tr><td>冷卷策略</td><td>" + signalCell(r1.signal) + "</td><td>" +
         r1.direction + "</td><td>" + r1.advice + "</td><td>" +
-        r1.reasons + "</td><td>" + r1.risks + "</td></tr>"
+        ("价差来源: " + auto.coldPair + "；" + r1.reasons) + "</td><td>" + r1.risks + "</td></tr>"
       );
     }
 
@@ -661,7 +714,7 @@
       rows.push(
         "<tr><td>镀锌策略</td><td>" + signalCell(r2.signal) + "</td><td>" +
         r2.direction + "</td><td>" + r2.advice + "</td><td>" +
-        r2.reasons + "</td><td>" + r2.risks + "</td></tr>"
+        ("价差来源: " + auto.galvPair + "；" + r2.reasons) + "</td><td>" + r2.risks + "</td></tr>"
       );
     }
 
@@ -672,7 +725,7 @@
     }
     arbTbody.innerHTML = rows.join("");
     arbHost.hidden = false;
-    setArbMsg("评估完成：" + dateText + "。自动匹配季节窗口并输出策略信号。");
+    setArbMsg("评估完成：" + dateText + "。已自动填充冷热/镀锌价差并输出信号。");
   }
 
   async function loadSteelSnapshot() {
