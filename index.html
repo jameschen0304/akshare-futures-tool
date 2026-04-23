@@ -170,7 +170,7 @@
         </div>
         <button type="button" class="primary" id="steelGo">查询钢材现货</button>
       </div>
-      <div class="links">数据源：仓库内置快照（由 AkShare 采集 99qh 生成），避免浏览器跨域失败。<strong>本地快照模式 v20260421</strong></div>
+      <div class="links" id="steelSnapshotMeta">数据源：仓库内置快照（由 AkShare 采集 99qh 生成），避免浏览器跨域失败。<strong>本地快照模式（自动识别）</strong></div>
       <p id="steelMsg"></p>
     </div>
 
@@ -280,6 +280,7 @@
   const steelGo = $("steelGo");
   const steelTableHost = $("steelTableHost");
   const steelTbody = $("steelTbody");
+  const steelSnapshotMeta = $("steelSnapshotMeta");
   const arbGo = $("arbGo");
   const arbMsg = $("arbMsg");
   const arbHost = $("arbHost");
@@ -287,10 +288,12 @@
   const arbSpreadMode = $("arbSpreadMode");
   const STEEL_DATA_URL = "./steel_spot_daily.json";
   const STEEL_DATA_JS_GLOBAL = "__steelSpotSnapshot";
+  const STEEL_AUTO_REFRESH_KEY = "akSteelSnapshotAutoRefreshDateV1";
   const STEEL_FALLBACK_URLS = [
     "https://raw.githubusercontent.com/jameschen0304/akshare/main/docs/futures-tool/steel_spot_daily.json",
   ];
   let steelCache = null;
+  let steelSnapshotInfo = null;
 
   function setMsg(text, isErr) {
     msg.textContent = text;
@@ -491,10 +494,69 @@
     return Number(v).toFixed(2).replace(/\.?0+$/, "");
   }
 
+  function todayDash() {
+    const d = new Date();
+    const y = d.getFullYear();
+    const m = String(d.getMonth() + 1).padStart(2, "0");
+    const da = String(d.getDate()).padStart(2, "0");
+    return y + "-" + m + "-" + da;
+  }
+
   function monthFromDateText(s) {
     const m = String(s || "").match(/^(\d{4})-(\d{2})-(\d{2})$/);
     if (!m) return null;
     return parseInt(m[2], 10);
+  }
+
+  function normalizeDateCell(s) {
+    const t = String(s || "").trim();
+    if (/^\d{4}-\d{2}-\d{2}$/.test(t)) return t;
+    if (/^\d{8}$/.test(t)) return t.slice(0, 4) + "-" + t.slice(4, 6) + "-" + t.slice(6, 8);
+    return "";
+  }
+
+  function latestDateFromRows(rows) {
+    if (!Array.isArray(rows) || !rows.length) return "";
+    let latest = "";
+    for (let i = 0; i < rows.length; i++) {
+      const d = normalizeDateCell(rows[i] && rows[i].date);
+      if (d && (!latest || d > latest)) latest = d;
+    }
+    return latest;
+  }
+
+  function latestDateFromSymbols(symbols, preferredVariety) {
+    if (!symbols || typeof symbols !== "object") return "";
+    if (preferredVariety && Array.isArray(symbols[preferredVariety])) {
+      return latestDateFromRows(symbols[preferredVariety]);
+    }
+    let latest = "";
+    const keys = Object.keys(symbols);
+    for (let i = 0; i < keys.length; i++) {
+      const d = latestDateFromRows(symbols[keys[i]]);
+      if (d && (!latest || d > latest)) latest = d;
+    }
+    return latest;
+  }
+
+  function syncSteelEndDate(preferredVariety) {
+    const latest = latestDateFromSymbols(steelCache, preferredVariety);
+    if (latest) $("steelEnd").value = latest;
+  }
+
+  function updateSteelSnapshotMeta() {
+    if (!steelSnapshotMeta) return;
+    const info = steelSnapshotInfo || {};
+    const src = info.sourceText || "仓库内置快照";
+    const latest = info.latestDate || latestDateFromSymbols(steelCache, $("steelVariety").value) || "未知";
+    const ver = info.versionText ? ("，版本 " + info.versionText) : "";
+    steelSnapshotMeta.innerHTML =
+      "数据源：" +
+      src +
+      "（由 AkShare 采集 99qh 生成），避免浏览器跨域失败。<strong>最新日期 " +
+      latest +
+      ver +
+      "</strong>";
   }
 
   function toNumOrNull(v) {
@@ -797,18 +859,20 @@
     arbHost.hidden = false;
   }
 
-  async function loadSteelSnapshot() {
-    if (steelCache) return steelCache;
-    const inline = window[STEEL_DATA_JS_GLOBAL];
-    if (inline && inline.symbols) {
-      steelCache = inline.symbols;
-      return steelCache;
-    }
-    const tryUrls = [STEEL_DATA_URL + "?_=" + Date.now()].concat(
-      STEEL_FALLBACK_URLS.map(function (u) {
-        return u + "?_=" + Date.now();
-      })
-    );
+  async function loadSteelSnapshot(opts) {
+    const options = opts || {};
+    const force = options.force === true;
+    const preferRemote = options.preferRemote === true;
+    if (steelCache && !force) return steelCache;
+
+    const baseUrls = [STEEL_DATA_URL].concat(STEEL_FALLBACK_URLS);
+    const orderedUrls = preferRemote
+      ? baseUrls.slice(1).concat(baseUrls[0])
+      : baseUrls;
+    const tryUrls = orderedUrls.map(function (u) {
+      return u + "?_=" + Date.now();
+    });
+
     let lastErr = null;
     for (let i = 0; i < tryUrls.length; i++) {
       try {
@@ -820,12 +884,50 @@
         const data = await res.json();
         const symbols = (data && data.symbols) || {};
         steelCache = symbols;
+        const plainUrl = orderedUrls[i] || "";
+        steelSnapshotInfo = {
+          sourceText: plainUrl === STEEL_DATA_URL ? "仓库内置快照" : "远端快照",
+          latestDate: latestDateFromSymbols(symbols, $("steelVariety").value),
+          versionText:
+            (data && (data.version || data.snapshot_version || data.snapshotDate || data.snapshot_date)) || "",
+        };
+        updateSteelSnapshotMeta();
         return steelCache;
       } catch (e) {
         lastErr = e;
       }
     }
+    const inline = window[STEEL_DATA_JS_GLOBAL];
+    if (inline && inline.symbols) {
+      steelCache = inline.symbols;
+      steelSnapshotInfo = {
+        sourceText: "页面内置快照",
+        latestDate: latestDateFromSymbols(steelCache, $("steelVariety").value),
+        versionText:
+          (inline && (inline.version || inline.snapshot_version || inline.snapshotDate || inline.snapshot_date)) || "",
+      };
+      updateSteelSnapshotMeta();
+      return steelCache;
+    }
     throw new Error("加载钢材快照失败: " + (lastErr && lastErr.message ? lastErr.message : "未知错误"));
+  }
+
+  async function autoRefreshSteelDailyOnOpen() {
+    const today = todayDash();
+    let last = "";
+    try {
+      last = localStorage.getItem(STEEL_AUTO_REFRESH_KEY) || "";
+    } catch (e) {
+      last = "";
+    }
+    if (last === today) return;
+    setSteelMsg("每日首次打开，正在自动刷新钢材快照…");
+    await loadSteelSnapshot({ force: true, preferRemote: true });
+    try {
+      localStorage.setItem(STEEL_AUTO_REFRESH_KEY, today);
+    } catch (e) {
+      /* ignore */
+    }
   }
 
   async function initSteelVarietyOptions() {
@@ -851,6 +953,8 @@
         op.textContent = names[i];
         sel.appendChild(op);
       }
+      syncSteelEndDate(sel.value);
+      updateSteelSnapshotMeta();
     } catch (e) {
       steelGo.disabled = true;
       setSteelMsg("初始化失败：" + (e.message || String(e)), true);
@@ -1262,10 +1366,25 @@
 
   go.addEventListener("click", runQuery);
   steelGo.addEventListener("click", runSteelQuery);
+  $("steelVariety").addEventListener("change", function () {
+    syncSteelEndDate($("steelVariety").value);
+    updateSteelSnapshotMeta();
+  });
   arbGo.addEventListener("click", runArbRadar);
   arbSpreadMode.addEventListener("change", applySpreadModeUi);
   applySpreadModeUi();
-  initSteelVarietyOptions();
+  async function initPage() {
+    const today = todayDash();
+    if ($("steelEnd").value === "2050-01-01") $("steelEnd").value = today;
+    try {
+      await autoRefreshSteelDailyOnOpen();
+    } catch (e) {
+      setSteelMsg("自动刷新失败，已回退本地快照：" + (e.message || String(e)), true);
+    }
+    await initSteelVarietyOptions();
+    await runSteelQuery();
+  }
+  initPage();
 })();
   </script>
 </body>
