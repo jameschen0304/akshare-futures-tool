@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
   <title>国内期货历史 K 线（静态页）</title>
   <style>
     :root {
@@ -94,6 +96,17 @@
     .signal-yellow { color: #a16207; font-weight: 700; }
     .signal-blue { color: #1d4ed8; font-weight: 700; }
     .signal-gray { color: var(--muted); font-weight: 700; }
+    .algo-ver {
+      display: inline-block;
+      margin-left: 0.5rem;
+      padding: 0.1rem 0.45rem;
+      font-size: 0.78rem;
+      font-weight: 600;
+      vertical-align: middle;
+      color: var(--muted);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+    }
   </style>
 </head>
 <body>
@@ -146,8 +159,8 @@
     </div>
 
     <div class="card" id="supportCard" hidden>
-      <h2>支撑点位（自动识别）</h2>
-      <p class="sub" style="margin-bottom: 0.75rem;"><strong>L1</strong>＝过去 15 日、<strong>L2</strong>＝过去 60 日（均不含今日）量能峰值；<strong>核心支撑区</strong>为 L2 峰值 ±10 点；<strong>ATR(14)</strong> 比率 &gt;1.2 时延伸系数 2.0，否则 1.5；下跌日结合<strong>持仓增减</strong>（新浪直读 / 东财由持仓量差分）给出可靠性；<strong>VWAP 乖离</strong> &gt;5% 提示超买换手。以区间内<strong>最后一根 K 线为「今日」</strong>做收盘后判定。</p>
+      <h2>支撑点位（自动识别）<span class="algo-ver" id="algoVerBadge">算法 v2</span></h2>
+      <p class="sub" style="margin-bottom: 0.75rem;"><strong>L1</strong>＝过去 15 日、<strong>L2</strong>＝过去 60 日（均不含今日）量能峰值；<strong>核心支撑区</strong>为 L2 峰值 ±10 点；<strong>ATR(14)</strong> 比率 &gt;1.2 时延伸系数 2.0，否则 1.5；下跌日结合<strong>持仓增减</strong>（新浪直读 / 东财由持仓量差分）给出可靠性；<strong>VWAP 乖离</strong> &gt;5% 提示超买换手。以区间内<strong>最后一根 K 线为「今日」</strong>做收盘后判定。若说明里仍只有单一「量能峰值」而无 L1/L2，说明页面为缓存，请<strong>Ctrl+F5</strong> 强制刷新或无痕窗口重开。</p>
       <dl id="supportDl"></dl>
     </div>
 
@@ -1334,6 +1347,7 @@
         ? "—"
         : Number(res.atrRatio).toFixed(3) + "（阈值 " + res.atrRatioThreshold + "）";
     const h =
+      "<dt>逻辑版本</dt><dd>v2 — L1/L2、动态 ATR 系数、持仓可靠性、VWAP 乖离</dd>" +
       "<dt>L1 短期量能峰值（" +
       res.lookbackL1 +
       "日）</dt><dd>" +
