@@ -99,7 +99,7 @@
 <body>
   <div class="wrap">
     <h1>国内期货历史 K 线</h1>
-    <p class="sub">默认使用<strong>新浪财经</strong>日 K；主连、汉字品种等请选<strong>东方财富</strong>。查询成功后可计算<strong>支撑点位</strong>（与仓库 <code>examples/futures_support_levels.py</code> 同逻辑）。仅供学习研究，不构成投资建议。</p>
+    <p class="sub">默认使用<strong>新浪财经</strong>日 K；主连、汉字品种等请选<strong>东方财富</strong>。查询成功后可计算<strong>支撑点位</strong>（量能峰值带 + 区间 VWAP + ATR 下破延伸）。仅供学习研究，不构成投资建议。</p>
 
     <div class="card">
       <div class="row">
@@ -147,7 +147,7 @@
 
     <div class="card" id="supportCard" hidden>
       <h2>支撑点位（自动识别）</h2>
-      <p class="sub" style="margin-bottom: 0.75rem;">参数：N1=10，N2=20，放量阈值 1.5×MA20，密集区 [Min_Low, Min_Low+15] 至少 5 日。以区间内<strong>最后一根 K 线为「今日」</strong>做收盘后判定。</p>
+      <p class="sub" style="margin-bottom: 0.75rem;">参数：回看 <strong>60</strong> 个交易日（不含今日）做量能分布峰值与 VWAP；<strong>ATR(14)</strong> 取至今日收盘；若<strong>今收 &lt; 量能峰值价</strong>，下一量化支撑 = 峰值 − <strong>1.5×ATR</strong>，否则下一支撑取峰值价。以区间内<strong>最后一根 K 线为「今日」</strong>做收盘后判定。</p>
       <dl id="supportDl"></dl>
     </div>
 
@@ -1057,73 +1057,143 @@
     });
   }
 
+  /** 典型价（分箱与 VWAP 用） */
+  function typicalPrice(r) {
+    return (r.high + r.low + r.close) / 3;
+  }
+
   /**
-   * 与 examples/futures_support_levels.py 一致：日线 OHLCV，最后一根为「今日」。
+   * 过去 lookback 根已完成 K 线（不含最后一根「今日」）上，按典型价分箱的 Volume Profile 峰值价。
    */
-  function computeSupportLevels(rows, n1, n2, tVol, densityRange, densityMin) {
-    const need = Math.max(n1, n2) + 2;
+  function findHighVolumePeak(rows, lookback, numBins) {
+    if (rows.length < lookback + 1) return null;
+    const past = rows.slice(-(lookback + 1), -1);
+    let minL = Infinity;
+    let maxH = -Infinity;
+    for (let i = 0; i < past.length; i++) {
+      minL = Math.min(minL, past[i].low);
+      maxH = Math.max(maxH, past[i].high);
+    }
+    if (!(minL < Infinity) || !(maxH > -Infinity)) return null;
+    const span = maxH - minL;
+    const width = span > 0 ? span / numBins : 1e-9;
+    const bins = new Array(numBins);
+    for (let b = 0; b < numBins; b++) bins[b] = 0;
+    for (let i = 0; i < past.length; i++) {
+      const r = past[i];
+      const v = r.volume;
+      if (!(v > 0) || !isFinite(v)) continue;
+      const tp = typicalPrice(r);
+      let idx = Math.floor((tp - minL) / width);
+      if (idx < 0) idx = 0;
+      if (idx >= numBins) idx = numBins - 1;
+      bins[idx] += v;
+    }
+    let maxIdx = 0;
+    let maxV = bins[0];
+    for (let j = 1; j < numBins; j++) {
+      if (bins[j] > maxV) {
+        maxV = bins[j];
+        maxIdx = j;
+      }
+    }
+    if (!(maxV > 0)) return null;
+    const peakPrice = minL + (maxIdx + 0.5) * width;
+    return { peakPrice: peakPrice, peakVol: maxV, minL: minL, maxH: maxH };
+  }
+
+  /** 同上窗口的成交量加权均价 */
+  function calculateVwap(rows, lookback) {
+    if (rows.length < lookback + 1) return null;
+    const past = rows.slice(-(lookback + 1), -1);
+    let sumPV = 0;
+    let sumV = 0;
+    for (let i = 0; i < past.length; i++) {
+      const r = past[i];
+      const v = r.volume;
+      if (!(v > 0) || !isFinite(v)) continue;
+      sumPV += typicalPrice(r) * v;
+      sumV += v;
+    }
+    return sumV > 0 ? sumPV / sumV : null;
+  }
+
+  /** Wilder ATR，返回最后一根 K 线对应的 ATR（含今日） */
+  function calculateAtr(rows, period) {
+    if (rows.length < period + 1) return null;
+    const trList = [];
+    for (let i = 1; i < rows.length; i++) {
+      const h = rows[i].high;
+      const l = rows[i].low;
+      const pc = rows[i - 1].close;
+      const tr = Math.max(h - l, Math.abs(h - pc), Math.abs(l - pc));
+      trList.push(tr);
+    }
+    let atr = 0;
+    for (let k = 0; k < period; k++) atr += trList[k];
+    atr /= period;
+    for (let k = period; k < trList.length; k++) {
+      atr = (atr * (period - 1) + trList[k]) / period;
+    }
+    return atr;
+  }
+
+  /**
+   * 日线 OHLCV，最后一根为「今日」：量能峰值带 + VWAP + ATR 下破延伸。
+   */
+  function computeSupportLevels(rows) {
+    const lookback = 60;
+    const atrPeriod = 14;
+    const atrMult = 1.5;
+    const vpBins = 56;
+    const need = Math.max(lookback + 1, atrPeriod + 2);
     if (rows.length < need) {
-      return { ok: false, reason: "区间内仅 " + rows.length + " 根K线，需至少约 " + need + " 根（请把开始日期往前调）。" };
+      return {
+        ok: false,
+        reason: "区间内仅 " + rows.length + " 根K线，需至少约 " + need + " 根（请把开始日期往前调）。",
+      };
     }
     const today = rows[rows.length - 1];
-    const lowsN1 = rows.slice(-n1).map(function (r) {
-      return r.low;
-    });
-    const minLow = Math.min.apply(null, lowsN1);
-    let densityCnt = 0;
-    for (let i = 0; i < lowsN1.length; i++) {
-      const lo = lowsN1[i];
-      if (lo >= minLow && lo <= minLow + densityRange) densityCnt++;
+    const currentPrice = today.close;
+    const vp = findHighVolumePeak(rows, lookback, vpBins);
+    if (vp == null) {
+      return { ok: false, reason: "回看窗口内无有效成交量，无法构造量能分布峰值。" };
     }
-    const densityOk = densityCnt >= densityMin;
-    const level2 = densityOk ? minLow : null;
+    const supportZone = vp.peakPrice;
+    const vwapVal = calculateVwap(rows, lookback);
+    const atr = calculateAtr(rows, atrPeriod);
+    if (atr == null || !(atr > 0) || !isFinite(atr)) {
+      return { ok: false, reason: "ATR 计算无效，请延长区间后重试。" };
+    }
+    const nextSupport = currentPrice < supportZone ? supportZone - atr * atrMult : supportZone;
 
-    const priorHighSlice = rows.slice(-(n1 + 1), -1);
-    const maxHigh = Math.max.apply(
-      null,
-      priorHighSlice.map(function (r) {
-        return r.high;
-      })
-    );
-    const level1Res = today.close > maxHigh ? maxHigh : null;
-
-    const priorVolSlice = rows.slice(-(n2 + 1), -1);
-    const sumV = priorVolSlice.reduce(function (a, r) {
-      return a + r.volume;
-    }, 0);
-    const ma20 = sumV / priorVolSlice.length;
-    const dynamic = today.volume > ma20 * tVol ? today.low : null;
-
-    const parts = [];
-    if (level1Res != null) parts.push(level1Res);
-    if (dynamic != null) parts.push(dynamic);
-    const level1 = parts.length ? Math.max.apply(null, parts) : null;
-
-    let sentiment = "未触发文档中的多空情绪模板，请结合 Level_1/Level_2 人工判断。";
+    let sentiment = "今收在量能峰值之上，峰值带作下方参考；结合 VWAP 观察资金成本。";
     let sentClass = "";
-    if (level1 != null && today.close > level1 && today.volume > ma20) {
-      sentiment = "放量突破，上行通道开启，建议买入/持仓";
+    if (currentPrice < supportZone) {
+      sentiment = "今收已低于量能峰值带，按规则下看下一量化支撑（峰值 − " + atrMult + "×ATR）。";
+      sentClass = "sent-bear";
+    } else if (vwapVal != null && currentPrice > vwapVal && currentPrice >= supportZone) {
+      sentiment = "今收高于 VWAP 且不低于量能峰值，相对偏强；峰值与 VWAP 为回踩参考。";
       sentClass = "sent-bull";
-    } else if (level1 != null && today.close < level1) {
-      sentiment = "短期趋势走弱，回踩第二支撑位";
+    } else if (vwapVal != null && currentPrice < vwapVal) {
+      sentiment = "今收低于区间 VWAP，资金成本偏空；关注量能峰值与下一量化支撑。";
       sentClass = "sent-bear";
     }
 
     return {
       ok: true,
-      level1: level1,
-      level2: level2,
-      level1Res: level1Res,
-      dynamic: dynamic,
-      module1MinLow: minLow,
-      densityCnt: densityCnt,
-      densityOk: densityOk,
-      ma20: ma20,
-      todayClose: today.close,
-      todayVol: today.volume,
+      lookback: lookback,
+      vpBins: vpBins,
+      supportZone: supportZone,
+      vwapVal: vwapVal,
+      atr: atr,
+      atrMult: atrMult,
+      nextSupport: nextSupport,
+      currentPrice: currentPrice,
+      belowPeak: currentPrice < supportZone,
+      peakVol: vp.peakVol,
       sentiment: sentiment,
       sentClass: sentClass,
-      priorMaxHigh: maxHigh,
     };
   }
 
@@ -1140,32 +1210,31 @@
       return x == null ? "—" : Number(x).toFixed(4).replace(/\.?0+$/, "");
     };
     const h =
-      "<dt>Level_1 Support（第一支撑）</dt><dd>" +
-      fmt(res.level1) +
-      "（max(压力转支撑, 动态资金位)）</dd>" +
-      "<dt>　· 压力转支撑（前10日不含今日 Max_High，今收突破）</dt><dd>" +
-      fmt(res.level1Res) +
-      "，前高=" +
-      fmt(res.priorMaxHigh) +
+      "<dt>量能峰值带（Volume Profile Peak）</dt><dd>" +
+      fmt(res.supportZone) +
+      "（过去 " +
+      res.lookback +
+      " 日不含今日，典型价 " +
+      res.vpBins +
+      " 档分箱成交量最大档中心）</dd>" +
+      "<dt>区间 VWAP（同窗口）</dt><dd>" +
+      fmt(res.vwapVal) +
       "</dd>" +
-      "<dt>　· 动态资金位（今量&gt;1.5×MA20 时取今日最低）</dt><dd>" +
-      fmt(res.dynamic) +
+      "<dt>ATR(14)</dt><dd>" +
+      fmt(res.atr) +
+      "；延伸系数 " +
+      fmt(res.atrMult) +
       "</dd>" +
-      "<dt>Level_2 Support（绝对支撑）</dt><dd>" +
-      fmt(res.level2) +
-      (res.level2 == null ? "（密集区未达标）" : "") +
+      "<dt>下一量化支撑</dt><dd>" +
+      fmt(res.nextSupport) +
+      (res.belowPeak
+        ? "（今收 &lt; 峰值：峰值 − " + fmt(res.atrMult) + "×ATR）"
+        : "（今收 ≥ 峰值：取峰值价）") +
       "</dd>" +
-      "<dt>模块一</dt><dd>10日 Min_Low=" +
-      fmt(res.module1MinLow) +
-      "，[Min_Low, Min_Low+15] 命中 " +
-      res.densityCnt +
-      " 天" +
-      (res.densityOk ? "（达标）" : "（未达标）") +
-      "</dd>" +
-      "<dt>MA20 成交量（不含今日）</dt><dd>" +
-      fmt(res.ma20) +
-      "；今日成交量=" +
-      fmt(res.todayVol) +
+      "<dt>今收</dt><dd>" +
+      fmt(res.currentPrice) +
+      "；峰值档累计成交量=" +
+      fmt(res.peakVol) +
       "</dd>" +
       "<dt>市场情绪</dt><dd class=\"" +
       res.sentClass +
@@ -1190,7 +1259,7 @@
       );
       return;
     }
-    const r = computeSupportLevels(normRows, 10, 20, 1.5, 15, 5);
+    const r = computeSupportLevels(normRows);
     renderSupportPanel(r, "日 K");
   }
 
