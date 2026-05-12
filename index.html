@@ -99,7 +99,7 @@
 <body>
   <div class="wrap">
     <h1>国内期货历史 K 线</h1>
-    <p class="sub">默认使用<strong>新浪财经</strong>日 K；主连、汉字品种等请选<strong>东方财富</strong>。查询成功后可计算<strong>支撑点位</strong>（量能峰值带 + 区间 VWAP + ATR 下破延伸）。仅供学习研究，不构成投资建议。</p>
+    <p class="sub">默认使用<strong>新浪财经</strong>日 K；主连、汉字品种等请选<strong>东方财富</strong>。查询成功后可计算<strong>支撑点位</strong>（双层量能峰值、核心区间、动态 ATR、VWAP 乖离、持仓变化可靠性）。仅供学习研究，不构成投资建议。</p>
 
     <div class="card">
       <div class="row">
@@ -147,7 +147,7 @@
 
     <div class="card" id="supportCard" hidden>
       <h2>支撑点位（自动识别）</h2>
-      <p class="sub" style="margin-bottom: 0.75rem;">参数：回看 <strong>60</strong> 个交易日（不含今日）做量能分布峰值与 VWAP；<strong>ATR(14)</strong> 取至今日收盘；若<strong>今收 &lt; 量能峰值价</strong>，下一量化支撑 = 峰值 − <strong>1.5×ATR</strong>，否则下一支撑取峰值价。以区间内<strong>最后一根 K 线为「今日」</strong>做收盘后判定。</p>
+      <p class="sub" style="margin-bottom: 0.75rem;"><strong>L1</strong>＝过去 15 日、<strong>L2</strong>＝过去 60 日（均不含今日）量能峰值；<strong>核心支撑区</strong>为 L2 峰值 ±10 点；<strong>ATR(14)</strong> 比率 &gt;1.2 时延伸系数 2.0，否则 1.5；下跌日结合<strong>持仓增减</strong>（新浪直读 / 东财由持仓量差分）给出可靠性；<strong>VWAP 乖离</strong> &gt;5% 提示超买换手。以区间内<strong>最后一根 K 线为「今日」</strong>做收盘后判定。</p>
       <dl id="supportDl"></dl>
     </div>
 
@@ -1098,8 +1098,10 @@
       }
     }
     if (!(maxV > 0)) return null;
+    let totalVol = 0;
+    for (let b = 0; b < numBins; b++) totalVol += bins[b];
     const peakPrice = minL + (maxIdx + 0.5) * width;
-    return { peakPrice: peakPrice, peakVol: maxV, minL: minL, maxH: maxH };
+    return { peakPrice: peakPrice, peakVol: maxV, totalVol: totalVol, binWidth: width, minL: minL, maxH: maxH };
   }
 
   /** 同上窗口的成交量加权均价 */
@@ -1118,35 +1120,61 @@
     return sumV > 0 ? sumPV / sumV : null;
   }
 
-  /** Wilder ATR，返回最后一根 K 线对应的 ATR（含今日） */
-  function calculateAtr(rows, period) {
-    if (rows.length < period + 1) return null;
-    const trList = [];
-    for (let i = 1; i < rows.length; i++) {
+  /** 每个索引 i 上 Wilder ATR(14) 的收盘值；i &lt; period 为 null。 */
+  function buildAtrSeries(rows, period) {
+    const n = rows.length;
+    const atrAt = new Array(n);
+    for (let i = 0; i < n; i++) atrAt[i] = null;
+    if (n < period + 1) return atrAt;
+    const tr = [];
+    for (let i = 1; i < n; i++) {
       const h = rows[i].high;
       const l = rows[i].low;
       const pc = rows[i - 1].close;
-      const tr = Math.max(h - l, Math.abs(h - pc), Math.abs(l - pc));
-      trList.push(tr);
+      tr.push(Math.max(h - l, Math.abs(h - pc), Math.abs(l - pc)));
     }
-    let atr = 0;
-    for (let k = 0; k < period; k++) atr += trList[k];
-    atr /= period;
-    for (let k = period; k < trList.length; k++) {
-      atr = (atr * (period - 1) + trList[k]) / period;
+    let a = 0;
+    for (let k = 0; k < period; k++) a += tr[k];
+    a /= period;
+    atrAt[period] = a;
+    for (let i = period + 1; i < n; i++) {
+      a = (a * (period - 1) + tr[i - 1]) / period;
+      atrAt[i] = a;
     }
-    return atr;
+    return atrAt;
+  }
+
+  /** 不含今日收盘的过去 count 根 K 线对应的 ATR 简单平均（atrAt 下标为各日收盘后）。 */
+  function meanAtrBeforeToday(atrAt, count) {
+    const n = atrAt.length;
+    let s = 0;
+    let c = 0;
+    for (let k = 1; k <= count; k++) {
+      const idx = n - 1 - k;
+      const v = atrAt[idx];
+      if (v != null && isFinite(v) && v > 0) {
+        s += v;
+        c++;
+      }
+    }
+    return c > 0 ? s / c : null;
   }
 
   /**
-   * 日线 OHLCV，最后一根为「今日」：量能峰值带 + VWAP + ATR 下破延伸。
+   * 日线 OHLCV（可选 oiChange 持仓增减）：L1/L2 量能峰值、动态 ATR 延伸、OI 可靠性、VWAP 乖离、回踩状态。
    */
   function computeSupportLevels(rows) {
-    const lookback = 60;
+    const lookbackL2 = 60;
+    const lookbackL1 = 15;
     const atrPeriod = 14;
-    const atrMult = 1.5;
+    const atrMultBase = 1.5;
+    const atrMultExpand = 2.0;
+    const atrRatioThreshold = 1.2;
+    const atrMeanDays = 60;
     const vpBins = 56;
-    const need = Math.max(lookback + 1, atrPeriod + 2);
+    const coreHalfBand = 10;
+    const vwapOverheatPct = 0.05;
+    const need = Math.max(lookbackL2 + 1, lookbackL1 + 1, atrPeriod + atrMeanDays + 1);
     if (rows.length < need) {
       return {
         ok: false,
@@ -1154,44 +1182,132 @@
       };
     }
     const today = rows[rows.length - 1];
+    const prev = rows[rows.length - 2];
     const currentPrice = today.close;
-    const vp = findHighVolumePeak(rows, lookback, vpBins);
-    if (vp == null) {
+    const prevClose = prev.close;
+
+    const vpL2 = findHighVolumePeak(rows, lookbackL2, vpBins);
+    const vpL1 = findHighVolumePeak(rows, lookbackL1, vpBins);
+    if (vpL2 == null || vpL1 == null) {
       return { ok: false, reason: "回看窗口内无有效成交量，无法构造量能分布峰值。" };
     }
-    const supportZone = vp.peakPrice;
-    const vwapVal = calculateVwap(rows, lookback);
-    const atr = calculateAtr(rows, atrPeriod);
+
+    const supportL2 = vpL2.peakPrice;
+    const supportL1 = vpL1.peakPrice;
+    const coreLow = supportL2 - coreHalfBand;
+    const coreHigh = supportL2 + coreHalfBand;
+
+    const vwapVal = calculateVwap(rows, lookbackL2);
+    const atrSeries = buildAtrSeries(rows, atrPeriod);
+    const atr = atrSeries[rows.length - 1];
     if (atr == null || !(atr > 0) || !isFinite(atr)) {
       return { ok: false, reason: "ATR 计算无效，请延长区间后重试。" };
     }
-    const nextSupport = currentPrice < supportZone ? supportZone - atr * atrMult : supportZone;
 
-    let sentiment = "今收在量能峰值之上，峰值带作下方参考；结合 VWAP 观察资金成本。";
+    const atrMeanPast = meanAtrBeforeToday(atrSeries, atrMeanDays);
+    let atrRatio = null;
+    if (atrMeanPast != null && atrMeanPast > 0) {
+      atrRatio = atr / atrMeanPast;
+    }
+    const atrMultDynamic =
+      atrRatio != null && atrRatio > atrRatioThreshold ? atrMultExpand : atrMultBase;
+
+    const belowL2 = currentPrice < supportL2;
+    const belowL1 = currentPrice < supportL1;
+    const nextSupportL2 = belowL2 ? supportL2 - atr * atrMultDynamic : supportL2;
+    const nextSupportL1 = belowL1 ? supportL1 - atr * atrMultDynamic : supportL1;
+
+    let pullbackStatus = "";
+    if (currentPrice < prevClose && currentPrice > supportL2) {
+      pullbackStatus = "回踩测试（强势区内回调）";
+      const pullbackStrength = (prevClose - currentPrice) / atr;
+      if (pullbackStrength > 1) {
+        pullbackStatus = "高波动下跌，警惕 L2 支撑失效";
+      }
+    }
+
+    let vwapDeviation = null;
+    let vwapWarn = "";
+    if (vwapVal != null && vwapVal > 0) {
+      vwapDeviation = (currentPrice - vwapVal) / vwapVal;
+      if (vwapDeviation > vwapOverheatPct) {
+        vwapWarn = "今收相对区间 VWAP 乖离超过 " + vwapOverheatPct * 100 + "%，强趋势下注意超买与减仓节奏。";
+      }
+    }
+
+    const oiDelta = today.oiChange;
+    const hasOi = oiDelta != null && isFinite(oiDelta);
+    const downDay = currentPrice < prevClose;
+    let reliability = "无持仓增减数据（请用新浪源或东财日 K，东财为持仓量日差分）";
+    if (hasOi) {
+      if (downDay) {
+        if (oiDelta > 0) reliability = "强支撑倾向（下跌日增仓，资金接盘/对锁）";
+        else if (oiDelta < 0) reliability = "弱支撑倾向（下跌日减仓，多头撤退）";
+        else reliability = "中性（下跌日持仓变动接近零）";
+      } else {
+        reliability = "中性（非下跌日，未触发 OI 背离模板）";
+      }
+    }
+
+    const peakWeight = vpL2.totalVol > 0 ? vpL2.peakVol / vpL2.totalVol : 0;
+    let oiGrowthRate = 0;
+    if (hasOi && today.volume > 0) {
+      oiGrowthRate = Math.max(-1, Math.min(1, oiDelta / today.volume));
+    }
+    const strengthScore = peakWeight * (1 + oiGrowthRate);
+
+    let sentiment = "";
     let sentClass = "";
-    if (currentPrice < supportZone) {
-      sentiment = "今收已低于量能峰值带，按规则下看下一量化支撑（峰值 − " + atrMult + "×ATR）。";
-      sentClass = "sent-bear";
-    } else if (vwapVal != null && currentPrice > vwapVal && currentPrice >= supportZone) {
-      sentiment = "今收高于 VWAP 且不低于量能峰值，相对偏强；峰值与 VWAP 为回踩参考。";
+    if (currentPrice >= supportL1) {
+      sentiment =
+        "价格在 L1（" +
+        lookbackL1 +
+        "日峰值）之上，短期强势；L2 作中期分水岭，未跌破 L1 前可弱化远端 L2 距离感。";
       sentClass = "sent-bull";
-    } else if (vwapVal != null && currentPrice < vwapVal) {
-      sentiment = "今收低于区间 VWAP，资金成本偏空；关注量能峰值与下一量化支撑。";
+    } else if (currentPrice >= supportL2) {
+      sentiment = "已跌破 L1，尚在 L2 与核心区间之上，关注 L2 与动态下沿。";
+      sentClass = "";
+    } else {
+      sentiment = "已低于 L2 量能峰值，下一量化支撑采用 L2 峰值 − 动态系数×ATR。";
       sentClass = "sent-bear";
+    }
+    if (vwapWarn) {
+      sentiment += " " + vwapWarn;
     }
 
     return {
       ok: true,
-      lookback: lookback,
+      lookbackL1: lookbackL1,
+      lookbackL2: lookbackL2,
       vpBins: vpBins,
-      supportZone: supportZone,
+      supportL1: supportL1,
+      supportL2: supportL2,
+      coreLow: coreLow,
+      coreHigh: coreHigh,
+      coreHalfBand: coreHalfBand,
       vwapVal: vwapVal,
+      vwapDeviation: vwapDeviation,
+      vwapWarn: vwapWarn,
       atr: atr,
-      atrMult: atrMult,
-      nextSupport: nextSupport,
+      atrMeanPast: atrMeanPast,
+      atrRatio: atrRatio,
+      atrRatioThreshold: atrRatioThreshold,
+      atrMultDynamic: atrMultDynamic,
+      atrMultBase: atrMultBase,
+      atrMeanDays: atrMeanDays,
+      nextSupportL1: nextSupportL1,
+      nextSupportL2: nextSupportL2,
+      belowL1: belowL1,
+      belowL2: belowL2,
       currentPrice: currentPrice,
-      belowPeak: currentPrice < supportZone,
-      peakVol: vp.peakVol,
+      prevClose: prevClose,
+      peakVolL2: vpL2.peakVol,
+      peakWeight: peakWeight,
+      oiDelta: oiDelta,
+      oiGrowthRate: oiGrowthRate,
+      strengthScore: strengthScore,
+      reliability: reliability,
+      pullbackStatus: pullbackStatus,
       sentiment: sentiment,
       sentClass: sentClass,
     };
@@ -1209,33 +1325,80 @@
     const fmt = function (x) {
       return x == null ? "—" : Number(x).toFixed(4).replace(/\.?0+$/, "");
     };
+    const fmtPct = function (x) {
+      if (x == null || !isFinite(x)) return "—";
+      return (x * 100).toFixed(2) + "%";
+    };
+    const atrRatioStr =
+      res.atrRatio == null || !isFinite(res.atrRatio)
+        ? "—"
+        : Number(res.atrRatio).toFixed(3) + "（阈值 " + res.atrRatioThreshold + "）";
     const h =
-      "<dt>量能峰值带（Volume Profile Peak）</dt><dd>" +
-      fmt(res.supportZone) +
-      "（过去 " +
-      res.lookback +
-      " 日不含今日，典型价 " +
-      res.vpBins +
-      " 档分箱成交量最大档中心）</dd>" +
-      "<dt>区间 VWAP（同窗口）</dt><dd>" +
-      fmt(res.vwapVal) +
+      "<dt>L1 短期量能峰值（" +
+      res.lookbackL1 +
+      "日）</dt><dd>" +
+      fmt(res.supportL1) +
+      "；下一量化支撑（L1 规则）=" +
+      fmt(res.nextSupportL1) +
       "</dd>" +
-      "<dt>ATR(14)</dt><dd>" +
+      "<dt>L2 中期量能峰值（" +
+      res.lookbackL2 +
+      "日）与核心支撑区</dt><dd>峰值 " +
+      fmt(res.supportL2) +
+      "；区间 [" +
+      fmt(res.coreLow) +
+      ", " +
+      fmt(res.coreHigh) +
+      "]（±" +
+      res.coreHalfBand +
+      " 点）</dd>" +
+      "<dt>L2 下一量化支撑</dt><dd>" +
+      fmt(res.nextSupportL2) +
+      (res.belowL2
+        ? "（今收 &lt; L2：L2 − 动态系数×ATR）"
+        : "（今收 ≥ L2：取 L2 峰值）") +
+      "</dd>" +
+      "<dt>波动率偏离（动态系数）</dt><dd>ATR(14)=" +
       fmt(res.atr) +
-      "；延伸系数 " +
-      fmt(res.atrMult) +
+      "；过去 " +
+      res.atrMeanDays +
+      " 日 ATR 均值=" +
+      fmt(res.atrMeanPast) +
+      "；比率=" +
+      atrRatioStr +
+      " → 延伸系数 <strong>" +
+      fmt(res.atrMultDynamic) +
+      "</strong>（基础 " +
+      fmt(res.atrMultBase) +
+      " / 扩张 " +
+      fmt(res.atrMultExpand) +
+      "）</dd>" +
+      "<dt>区间 VWAP 与乖离</dt><dd>VWAP=" +
+      fmt(res.vwapVal) +
+      "；乖离率=" +
+      fmtPct(res.vwapDeviation) +
+      (res.vwapWarn ? " — " + res.vwapWarn : "") +
       "</dd>" +
-      "<dt>下一量化支撑</dt><dd>" +
-      fmt(res.nextSupport) +
-      (res.belowPeak
-        ? "（今收 &lt; 峰值：峰值 − " + fmt(res.atrMult) + "×ATR）"
-        : "（今收 ≥ 峰值：取峰值价）") +
-      "</dd>" +
-      "<dt>今收</dt><dd>" +
+      "<dt>今收 / 昨收</dt><dd>" +
       fmt(res.currentPrice) +
-      "；峰值档累计成交量=" +
-      fmt(res.peakVol) +
+      " / " +
+      fmt(res.prevClose) +
       "</dd>" +
+      "<dt>回踩与波动</dt><dd>" +
+      (res.pullbackStatus ? res.pullbackStatus : "—") +
+      "</dd>" +
+      "<dt>持仓变化与可靠性</dt><dd>" +
+      (res.oiDelta != null && isFinite(res.oiDelta) ? "今日持仓增减（或估算）=" + fmt(res.oiDelta) : "—") +
+      " — " +
+      res.reliability +
+      "</dd>" +
+      "<dt>支撑强度量化（示意）</dt><dd>峰值集中度=" +
+      fmtPct(res.peakWeight) +
+      "；OI/量比（截断 ±1）=" +
+      fmt(res.oiGrowthRate) +
+      "；强度分=" +
+      fmt(res.strengthScore) +
+      "（≈ 集中度×(1+OI/量比)）</dd>" +
       "<dt>市场情绪</dt><dd class=\"" +
       res.sentClass +
       "\">" +
@@ -1327,6 +1490,7 @@
             low: parseFloat(o.l),
             close: parseFloat(o.c),
             volume: parseFloat(o.v),
+            oiChange: o.p != null && String(o.p).trim() !== "" ? parseFloat(o.p) : null,
           });
           const tr = document.createElement("tr");
           const cells = [o.d, o.o, o.h, o.l, o.c, o.v, o.p, o.s];
@@ -1397,12 +1561,21 @@
             high: parseFloat(p[3]),
             low: parseFloat(p[4]),
             volume: parseFloat(p[5]),
+            openInterest: p[12] != null && String(p[12]).trim() !== "" ? parseFloat(p[12]) : null,
+            oiChange: null,
             _p: p,
           });
         }
         normRows.sort(function (a, b) {
           return toCompactDate(a.date).localeCompare(toCompactDate(b.date));
         });
+        for (let ii = 1; ii < normRows.length; ii++) {
+          const cOi = normRows[ii].openInterest;
+          const pOi = normRows[ii - 1].openInterest;
+          if (cOi != null && pOi != null && isFinite(cOi) && isFinite(pOi)) {
+            normRows[ii].oiChange = cOi - pOi;
+          }
+        }
         const frag = document.createDocumentFragment();
         let cnt = 0;
         for (let i = 0; i < normRows.length; i++) {
