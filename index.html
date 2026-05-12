@@ -112,7 +112,7 @@
 <body>
   <div class="wrap">
     <h1>国内期货历史 K 线</h1>
-    <p class="sub">默认使用<strong>新浪财经</strong>日 K；主连、汉字品种等请选<strong>东方财富</strong>。查询成功后可计算<strong>支撑点位</strong>（双层量能峰值、核心区间、动态 ATR、VWAP 乖离、持仓变化可靠性）。仅供学习研究，不构成投资建议。</p>
+    <p class="sub">默认使用<strong>新浪财经</strong>日 K；主连、汉字品种等请选<strong>东方财富</strong>。查询成功后可计算<strong>支撑点位</strong>（双层量能峰值、核心区间、动态 ATR、VWAP 乖离、持仓可靠性、<strong>LVN 压力真空</strong>）。仅供学习研究，不构成投资建议。</p>
 
     <div class="card">
       <div class="row">
@@ -159,8 +159,8 @@
     </div>
 
     <div class="card" id="supportCard" hidden>
-      <h2>支撑点位（自动识别）<span class="algo-ver" id="algoVerBadge">算法 v2</span></h2>
-      <p class="sub" style="margin-bottom: 0.75rem;"><strong>L1</strong>＝过去 15 日、<strong>L2</strong>＝过去 60 日（均不含今日）量能峰值；<strong>核心支撑区</strong>为 L2 峰值 ±10 点；<strong>ATR(14)</strong> 比率 &gt;1.2 时延伸系数 2.0，否则 1.5；下跌日结合<strong>持仓增减</strong>（新浪直读 / 东财由持仓量差分）给出可靠性；<strong>VWAP 乖离</strong> &gt;5% 提示超买换手。以区间内<strong>最后一根 K 线为「今日」</strong>做收盘后判定。若说明里仍只有单一「量能峰值」而无 L1/L2，说明页面为缓存，请<strong>Ctrl+F5</strong> 强制刷新或无痕窗口重开。</p>
+      <h2>支撑点位（自动识别）<span class="algo-ver" id="algoVerBadge">算法 v2.1</span></h2>
+      <p class="sub" style="margin-bottom: 0.75rem;"><strong>L1</strong>＝过去 15 日、<strong>L2</strong>＝过去 60 日（均不含今日）量能峰值；<strong>核心支撑区</strong>为 L2 峰值 ±10 点；<strong>ATR(14)</strong> 比率 &gt;1.2 时延伸系数 2.0，否则 1.5；下跌日结合<strong>持仓增减</strong>（新浪直读 / 东财由持仓量差分）给出可靠性；<strong>VWAP 乖离</strong> &gt;5% 提示超买换手；<strong>POC 上方 LVN 稀薄带</strong>用于压力真空与诱多警示。以区间内<strong>最后一根 K 线为「今日」</strong>做收盘后判定。若说明里仍只有单一「量能峰值」而无 L1/L2，说明页面为缓存，请<strong>Ctrl+F5</strong> 强制刷新或无痕窗口重开。</p>
       <dl id="supportDl"></dl>
     </div>
 
@@ -1076,9 +1076,10 @@
   }
 
   /**
-   * 过去 lookback 根已完成 K 线（不含最后一根「今日」）上，按典型价分箱的 Volume Profile 峰值价。
+   * 构建与 findHighVolumePeak 相同窗口的量能分布。
+   * @returns {{bins:number[],minL:number,maxH:number,width:number,numBins:number,peakIdx:number,maxV:number,totalVol:number,peakPrice:number}|null}
    */
-  function findHighVolumePeak(rows, lookback, numBins) {
+  function buildVolumeProfile(rows, lookback, numBins) {
     if (rows.length < lookback + 1) return null;
     const past = rows.slice(-(lookback + 1), -1);
     let minL = Infinity;
@@ -1102,19 +1103,114 @@
       if (idx >= numBins) idx = numBins - 1;
       bins[idx] += v;
     }
-    let maxIdx = 0;
+    let peakIdx = 0;
     let maxV = bins[0];
     for (let j = 1; j < numBins; j++) {
       if (bins[j] > maxV) {
         maxV = bins[j];
-        maxIdx = j;
+        peakIdx = j;
       }
     }
     if (!(maxV > 0)) return null;
     let totalVol = 0;
     for (let b = 0; b < numBins; b++) totalVol += bins[b];
-    const peakPrice = minL + (maxIdx + 0.5) * width;
-    return { peakPrice: peakPrice, peakVol: maxV, totalVol: totalVol, binWidth: width, minL: minL, maxH: maxH };
+    const peakPrice = minL + (peakIdx + 0.5) * width;
+    return {
+      bins: bins,
+      minL: minL,
+      maxH: maxH,
+      width: width,
+      numBins: numBins,
+      peakIdx: peakIdx,
+      maxV: maxV,
+      totalVol: totalVol,
+      peakPrice: peakPrice,
+    };
+  }
+
+  /**
+   * 过去 lookback 根已完成 K 线（不含最后一根「今日」）上，按典型价分箱的 Volume Profile 峰值价。
+   */
+  function findHighVolumePeak(rows, lookback, numBins) {
+    const p = buildVolumeProfile(rows, lookback, numBins);
+    if (!p) return null;
+    return {
+      peakPrice: p.peakPrice,
+      peakVol: p.maxV,
+      totalVol: p.totalVol,
+      binWidth: p.width,
+      minL: p.minL,
+      maxH: p.maxH,
+    };
+  }
+
+  /**
+   * POC 上方首个低量节点（LVN）稀薄带：上沿 lvnZoneTop 之上视为「压力真空」；峰值带之上为压力转支撑语境。
+   */
+  function analyzePressureVacuum(profile, currentPrice) {
+    if (!profile || !(profile.maxV > 0)) {
+      return {
+        lvnThr: null,
+        lvnZoneBottom: null,
+        lvnZoneTop: null,
+        hasLvnRun: false,
+        pressureVacuum: false,
+        pressureMessage: "",
+        thinBandNote: "",
+        resistanceFlipNote: "",
+      };
+    }
+    const bins = profile.bins;
+    const minL = profile.minL;
+    const width = profile.width;
+    const numBins = profile.numBins;
+    const peakIdx = profile.peakIdx;
+    const maxV = profile.maxV;
+    const totalVol = profile.totalVol;
+    const avgV = totalVol / Math.max(1, numBins);
+    const lvnThr = Math.max(maxV * 0.22, avgV * 0.55);
+
+    let firstSolid = numBins;
+    for (let j = peakIdx + 1; j < numBins; j++) {
+      if (bins[j] > lvnThr) {
+        firstSolid = j;
+        break;
+      }
+    }
+
+    const hasLvnRun = firstSolid > peakIdx + 1;
+    const lvnZoneBottom = hasLvnRun ? minL + (peakIdx + 1) * width : null;
+    const lvnZoneTop = hasLvnRun ? minL + firstSolid * width : null;
+
+    let pressureMessage = "";
+    let pressureVacuum = false;
+    let thinBandNote = "";
+
+    if (hasLvnRun && lvnZoneTop != null && lvnZoneBottom != null) {
+      if (currentPrice > lvnZoneTop) {
+        pressureVacuum = true;
+        pressureMessage =
+          "进入压力真空区（今收已高于 POC 上方低量稀薄区上沿），谨防高位诱多与快速回撤。";
+      } else if (currentPrice > lvnZoneBottom && currentPrice <= lvnZoneTop) {
+        thinBandNote = "今收处于 POC 与下一密集区之间的成交稀薄带内，波动易放大，注意假突破。";
+      }
+    }
+
+    const resistanceFlipNote =
+      currentPrice > profile.peakPrice
+        ? "现价高于 L2 量能峰值（成本密集区），历史上方压力带可转为下方支撑参考；若放量跌回峰值带以下则压力再现。"
+        : "";
+
+    return {
+      lvnThr: lvnThr,
+      lvnZoneBottom: lvnZoneBottom,
+      lvnZoneTop: lvnZoneTop,
+      hasLvnRun: hasLvnRun,
+      pressureVacuum: pressureVacuum,
+      pressureMessage: pressureMessage,
+      thinBandNote: thinBandNote,
+      resistanceFlipNote: resistanceFlipNote,
+    };
   }
 
   /** 同上窗口的成交量加权均价 */
@@ -1174,7 +1270,7 @@
   }
 
   /**
-   * 日线 OHLCV（可选 oiChange 持仓增减）：L1/L2 量能峰值、动态 ATR 延伸、OI 可靠性、VWAP 乖离、回踩状态。
+   * 日线 OHLCV（可选 oiChange）：L1/L2、动态 ATR、OI、VWAP、回踩、LVN 压力真空与压力转支撑说明。
    */
   function computeSupportLevels(rows) {
     const lookbackL2 = 60;
@@ -1199,11 +1295,19 @@
     const currentPrice = today.close;
     const prevClose = prev.close;
 
-    const vpL2 = findHighVolumePeak(rows, lookbackL2, vpBins);
+    const profL2 = buildVolumeProfile(rows, lookbackL2, vpBins);
     const vpL1 = findHighVolumePeak(rows, lookbackL1, vpBins);
-    if (vpL2 == null || vpL1 == null) {
+    if (!profL2 || vpL1 == null) {
       return { ok: false, reason: "回看窗口内无有效成交量，无法构造量能分布峰值。" };
     }
+    const vpL2 = {
+      peakPrice: profL2.peakPrice,
+      peakVol: profL2.maxV,
+      totalVol: profL2.totalVol,
+      binWidth: profL2.width,
+      minL: profL2.minL,
+      maxH: profL2.maxH,
+    };
 
     const supportL2 = vpL2.peakPrice;
     const supportL1 = vpL1.peakPrice;
@@ -1269,6 +1373,8 @@
     }
     const strengthScore = peakWeight * (1 + oiGrowthRate);
 
+    const pressure = analyzePressureVacuum(profL2, currentPrice);
+
     let sentiment = "";
     let sentClass = "";
     if (currentPrice >= supportL1) {
@@ -1286,6 +1392,18 @@
     }
     if (vwapWarn) {
       sentiment += " " + vwapWarn;
+    }
+    if (pressure.pressureMessage) {
+      sentiment += " " + pressure.pressureMessage;
+    }
+    if (pressure.thinBandNote) {
+      sentiment += " " + pressure.thinBandNote;
+    }
+    if (pressure.resistanceFlipNote) {
+      sentiment += " " + pressure.resistanceFlipNote;
+    }
+    if (pressure.pressureVacuum) {
+      sentClass = "sent-bear";
     }
 
     return {
@@ -1321,6 +1439,14 @@
       strengthScore: strengthScore,
       reliability: reliability,
       pullbackStatus: pullbackStatus,
+      lvnThr: pressure.lvnThr,
+      lvnZoneBottom: pressure.lvnZoneBottom,
+      lvnZoneTop: pressure.lvnZoneTop,
+      hasLvnRun: pressure.hasLvnRun,
+      pressureVacuum: pressure.pressureVacuum,
+      pressureMessage: pressure.pressureMessage,
+      thinBandNote: pressure.thinBandNote,
+      resistanceFlipNote: pressure.resistanceFlipNote,
       sentiment: sentiment,
       sentClass: sentClass,
     };
@@ -1347,7 +1473,7 @@
         ? "—"
         : Number(res.atrRatio).toFixed(3) + "（阈值 " + res.atrRatioThreshold + "）";
     const h =
-      "<dt>逻辑版本</dt><dd>v2 — L1/L2、动态 ATR 系数、持仓可靠性、VWAP 乖离</dd>" +
+      "<dt>逻辑版本</dt><dd>v2.1 — L1/L2、动态 ATR、OI、VWAP、<strong>LVN 压力真空</strong></dd>" +
       "<dt>L1 短期量能峰值（" +
       res.lookbackL1 +
       "日）</dt><dd>" +
@@ -1371,6 +1497,20 @@
       (res.belowL2
         ? "（今收 &lt; L2：L2 − 动态系数×ATR）"
         : "（今收 ≥ L2：取 L2 峰值）") +
+      "</dd>" +
+      "<dt>压力区 / LVN（L2 窗口）</dt><dd>" +
+      (res.hasLvnRun
+        ? "低量判定阈值≈" +
+          fmt(res.lvnThr) +
+          "（分箱量）；稀薄带 [" +
+          fmt(res.lvnZoneBottom) +
+          ", " +
+          fmt(res.lvnZoneTop) +
+          "]（POC 上方至下一相对密集档）"
+        : "POC 上方未识别出明显连续稀薄带（或紧邻即进入相对高量档）。") +
+      (res.pressureMessage ? " — <strong>" + res.pressureMessage + "</strong>" : "") +
+      (res.thinBandNote && !res.pressureMessage ? " — " + res.thinBandNote : "") +
+      (res.resistanceFlipNote ? " " + res.resistanceFlipNote : "") +
       "</dd>" +
       "<dt>波动率偏离（动态系数）</dt><dd>ATR(14)=" +
       fmt(res.atr) +
