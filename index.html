@@ -112,7 +112,7 @@
 <body>
   <div class="wrap">
     <h1>国内期货历史 K 线</h1>
-    <p class="sub">默认使用<strong>新浪财经</strong>日 K；主连、汉字品种等请选<strong>东方财富</strong>。查询成功后可计算<strong>支撑点位</strong>、<strong>趋势倾向度</strong>、<strong>VSI 稳态</strong>与<strong>ATR 目标位</strong>（均为模型辅助）。仅供学习研究，不构成投资建议。</p>
+    <p class="sub">默认使用<strong>新浪财经</strong>日 K；主连、汉字品种等请选<strong>东方财富</strong>。支撑/倾向度/<strong>v2.4 常态化目标带</strong>（±1.0/1.5/2.0×ATR）均为模型辅助。仅供学习研究，不构成投资建议。</p>
 
     <div class="card">
       <div class="row">
@@ -159,8 +159,8 @@
     </div>
 
     <div class="card" id="supportCard" hidden>
-      <h2>支撑点位（自动识别）<span class="algo-ver" id="algoVerBadge">算法 v2.3</span></h2>
-      <p class="sub" style="margin-bottom: 0.75rem;"><strong>v2.3</strong>：在 v2.2 基础上增加 <strong>VSI</strong>（ATR/60 日均）稳态标签、目标位对高波动自动缩幅、乖离&gt;4% 时上方目标打折；含 <strong>Target Projection v1.0</strong> 看板。<strong>非投资建议</strong>。</p>
+      <h2>支撑点位（自动识别）<span class="algo-ver" id="algoVerBadge">算法 v2.4</span></h2>
+      <p class="sub" style="margin-bottom: 0.75rem;"><strong>v2.4</strong>：目标看板改为<strong>盘中正常 ±1.0×ATR</strong>、<strong>波动放大 ±1.5×ATR</strong>、<strong>极端 ±2.0×ATR</strong>（对称）；锚定日常涨跌幅，避免单用高倍 ATR 显得过远。VSI&gt;1.3 时各档同比例缩窄。<strong>非投资建议</strong>。</p>
       <dl id="supportDl"></dl>
     </div>
 
@@ -1409,54 +1409,55 @@
   }
 
   /**
-   * Target Projection v1.0：今收 ± 动态系数×ATR，叠加 VSI 缩幅、VWAP 乖离上方打折、偏多动能溢价。
+   * Target Projection v2.4：常态化三档（±1.0 / ±1.5 / ±2.0 × ATR）锚定日常波动；
+   * VSI&gt;1.3 时对有效 ATR 乘 shrink，缩窄各档以防「区间虚大」。
    */
   function computeTargetProjection(p) {
     const close = p.currentPrice;
     const atr = p.atr;
-    const k1 = p.atrMultDynamic;
-    const k2 = p.atrMultExpand;
-    const tb = p.trendBias100;
-    const dev = p.vwapDeviation;
     const vsiShrink = p.vsiShrink != null && p.vsiShrink > 0 ? p.vsiShrink : 1;
+    const effAtr = atr * vsiShrink;
 
-    let vwapDisc = 1;
-    if (dev != null && isFinite(dev) && dev > 0.04) {
-      vwapDisc = 0.85;
+    const kN = 1.0;
+    const kW = 1.5;
+    const kE = 2.0;
+
+    const normalLow = close - kN * effAtr;
+    const normalHigh = close + kN * effAtr;
+    const warnLow = close - kW * effAtr;
+    const warnHigh = close + kW * effAtr;
+    const extremeLow = close - kE * effAtr;
+    const extremeHigh = close + kE * effAtr;
+
+    const amp = close > 0 ? (atr / close) * 100 : null;
+    const ampEff = close > 0 ? (effAtr / close) * 100 : null;
+    let ampMean60 = null;
+    if (p.atrMeanPast != null && isFinite(p.atrMeanPast) && close > 0) {
+      ampMean60 = (p.atrMeanPast / close) * 100;
     }
-
-    let upExt = k1 * atr * vsiShrink * vwapDisc;
-    if (tb > 20) {
-      upExt += 0.5 * atr * vsiShrink * vwapDisc;
-    }
-    const downExt = k1 * atr * vsiShrink;
-
-    const upExt2 = k2 * atr * vsiShrink * vwapDisc;
-    const downExt2 = k2 * atr * vsiShrink;
-
-    const halfSym = k1 * atr * vsiShrink;
 
     return {
       close: close,
-      kDyn: k1,
-      kExpand: k2,
       atr: atr,
       vsiShrink: vsiShrink,
-      vwapDisc: vwapDisc,
-      vwapDiscounted: vwapDisc < 1,
-      momentumBump: tb > 20,
-      halfSym: halfSym,
-      upExt1: upExt,
-      downExt1: downExt,
-      target1Up: close + upExt,
-      target1Dn: close - downExt,
-      target2Up: close + upExt2,
-      target2Dn: close - downExt2,
+      effAtr: effAtr,
+      kNormal: kN,
+      kWarn: kW,
+      kExt: kE,
+      normalLow: normalLow,
+      normalHigh: normalHigh,
+      warnLow: warnLow,
+      warnHigh: warnHigh,
+      extremeLow: extremeLow,
+      extremeHigh: extremeHigh,
+      atrPctOfClose: amp,
+      effAtrPctOfClose: ampEff,
+      atrMeanPctOfClose: ampMean60,
     };
   }
 
   /**
-   * 日线 OHLCV（可选 oiChange）：v2.3 — L1/L2、ATR、OI、VWAP、LVN、Prediction + VSI + Target Projection。
+   * 日线 OHLCV（可选 oiChange）：v2.4 — L1/L2、ATR、OI、VWAP、LVN、Prediction + VSI + Target（常态化三档）。
    */
   function computeSupportLevels(rows) {
     const lookbackL2 = 60;
@@ -1614,14 +1615,11 @@
     const targetProjection = computeTargetProjection({
       currentPrice: currentPrice,
       atr: atr,
-      atrMultDynamic: atrMultDynamic,
-      atrMultExpand: atrMultExpand,
-      trendBias100: prediction.trendBias100,
-      vwapDeviation: vwapDeviation,
       vsiShrink: vsiInfo.shrink,
+      atrMeanPast: atrMeanPast,
     });
-    prediction.predLow = targetProjection.target1Dn;
-    prediction.predHigh = targetProjection.target1Up;
+    prediction.predLow = targetProjection.normalLow;
+    prediction.predHigh = targetProjection.normalHigh;
 
     return {
       ok: true,
@@ -1710,7 +1708,7 @@
       "</dd>";
 
     const h =
-      "<dt>逻辑版本</dt><dd>v2.3 — Prediction Engine v1.0、<strong>VSI</strong>、<strong>Target Projection v1.0</strong></dd>" +
+      "<dt>逻辑版本</dt><dd>v2.4 — Prediction Engine v1.0、VSI、<strong>Target v2.4</strong>（±1.0/1.5/2.0×ATR 常态化三档）</dd>" +
       "<dt>L1 短期量能峰值（" +
       res.lookbackL1 +
       "日）</dt><dd>" +
@@ -1844,7 +1842,7 @@
       "）</strong>并伴随持仓显著增加，需警惕趋势反转。";
 
     const hPred =
-      "<dt>📈 涨跌趋势倾向（Prediction Engine v1.0 · v2.3）</dt><dd>" +
+      "<dt>📈 涨跌趋势倾向（Prediction Engine v1.0 · v2.4）</dt><dd>" +
       "<p style=\"margin:0 0 0.6rem 0;color:var(--muted);font-size:0.88rem;\">模型辅助参考，<strong>非投资建议</strong>；不保证涨跌，请独立风控。</p>" +
       "<strong>标准化倾向度［−100，+100］</strong>：" +
       wsign(pr.trendBias100) +
@@ -1869,7 +1867,7 @@
       "，E ATR×10%=" +
       wsign(pr.contribE) +
       "<br/>" +
-      "<strong>预测带宽（Target Projection 目标一，已含 VSI/VWAP/动能修正）</strong>：[" +
+      "<strong>预测带宽（常态化：±1.0×ATR，已含 VSI 有效尺度）</strong>：[" +
       fmt(pr.predLow) +
       ", " +
       fmt(pr.predHigh) +
@@ -1885,92 +1883,65 @@
       "</dd>";
 
     const tp = res.targetProjection;
-    const pctFromClose = function (px) {
-      if (px == null || !isFinite(px) || !(res.currentPrice > 0)) return "—";
-      const r = ((px - res.currentPrice) / res.currentPrice) * 100;
-      return (r >= 0 ? "+" : "") + r.toFixed(2) + "%";
+    const symPctTier = function (k) {
+      if (tp.effAtrPctOfClose == null || !isFinite(tp.effAtrPctOfClose)) return "—";
+      const p = k * tp.effAtrPctOfClose;
+      return "±" + p.toFixed(2) + "%";
     };
-    const halfPct =
-      tp && tp.close > 0 && tp.halfSym != null
-        ? ((tp.halfSym / tp.close) * 100).toFixed(2) + "%"
-        : "—";
-    let tpNote = "延伸系数 k=" + fmt(tp.kDyn) + "（极限档 k=" + fmt(tp.kExpand) + "）。";
-    if (tp.vwapDiscounted) {
-      tpNote += " 因 VWAP 乖离&gt;4%，上方延伸已 ×" + fmt(tp.vwapDisc) + " 打折。";
-    }
-    if (tp.momentumBump) {
-      tpNote += " 倾向度&gt;+20，上方已加 0.5×ATR 动能溢价。";
-    }
-    if (tp.vsiShrink < 1) {
-      tpNote += " VSI&gt;1.3 已整体 ×" + fmt(tp.vsiShrink) + " 缩幅。";
-    }
+
+    const calib =
+      "ATR(14)/今收 ≈ <strong>" +
+      (tp.atrPctOfClose != null && isFinite(tp.atrPctOfClose) ? tp.atrPctOfClose.toFixed(2) : "—") +
+      "%</strong>；60 日 ATR 均值/今收 ≈ <strong>" +
+      (tp.atrMeanPctOfClose != null && isFinite(tp.atrMeanPctOfClose) ? tp.atrMeanPctOfClose.toFixed(2) : "—") +
+      "%</strong>。" +
+      (tp.vsiShrink < 1
+        ? " VSI 高风险下有效尺度 ×" + tp.vsiShrink + "，各档同步收窄。"
+        : "");
 
     const watchUp =
       res.lvnZoneTop != null && isFinite(res.lvnZoneTop)
-        ? "可观察盘中 <strong>" + fmt(res.lvnZoneTop) + "</strong> 附近是否出现集中减仓/换手。"
-        : "可结合前高与盘口观察是否出现集中获利了结。";
+        ? " 上沿可盯 <strong>" + fmt(res.lvnZoneTop) + "</strong> 附近是否集中换手。"
+        : " 上沿结合前高与盘口观察获利了结。";
 
-    const scenUp =
-      "增幅情景：目标一 <strong>" +
-      fmt(tp.target1Up) +
-      "</strong>（约 " +
-      pctFromClose(tp.target1Up) +
-      "）为首要测量阻力带；若量能未背离，延伸可参考目标二 <strong>" +
-      fmt(tp.target2Up) +
-      "</strong>（约 " +
-      pctFromClose(tp.target2Up) +
-      "）。" +
-      (res.pressureVacuum ? " 现价若在压力真空区，不宜线性外推空间。" : "") +
-      " " +
-      watchUp;
-
-    const scenDn =
-      "减幅情景：目标一 <strong>" +
-      fmt(tp.target1Dn) +
-      "</strong>（约 " +
-      pctFromClose(tp.target1Dn) +
-      "）视为短周期回撤测试带；若跌破 <strong>L1（" +
+    const scen =
+      "<strong>分级解读</strong>：±1.0× 档作<strong>日常噪声</strong>参考；触及 ±1.5× 视为<strong>波动放大/异动警戒</strong>；±2.0× 为<strong>尾部/极端</strong>小概率，不宜作日常期望。" +
+      watchUp +
+      " 结构关键位：<strong>L1 " +
       fmt(res.supportL1) +
-      "）</strong>，模型由延伸多头逻辑转向区间震荡/再评估。";
+      "</strong>。";
 
     const hTarget =
-      "<dt>🎯 目标位预测看板（Target Projection v1.0）</dt><dd>" +
-      "<p style=\"margin:0 0 0.5rem 0;color:var(--muted);font-size:0.88rem;\">预测周期：<strong>下一交易日</strong>（收盘后静态推演）。统计波动模型，<strong>非投资建议</strong>。</p>" +
-      "<strong>当前基准价（今收）</strong>：" +
-      fmt(tp.close) +
-      "<br/>" +
-      "<strong>对称半幅（k×ATR×VSI 系数）</strong>：±" +
-      fmt(tp.halfSym) +
-      "（约 ±" +
-      halfPct +
-      " 波动宽，不含 VWAP 上方打折与动能溢价）<br/>" +
-      "<strong>上涨 · 目标一（压力）</strong>：" +
-      fmt(tp.target1Up) +
-      "（相对今收 " +
-      pctFromClose(tp.target1Up) +
-      "）<br/>" +
-      "<strong>上涨 · 目标二（极限）</strong>：" +
-      fmt(tp.target2Up) +
-      "（" +
-      pctFromClose(tp.target2Up) +
-      "）<br/>" +
-      "<strong>下跌 · 防守一（支撑）</strong>：" +
-      fmt(tp.target1Dn) +
-      "（" +
-      pctFromClose(tp.target1Dn) +
-      "）<br/>" +
-      "<strong>下跌 · 防守二（关键结构）</strong>：<strong>L1 " +
-      fmt(res.supportL1) +
-      "</strong>（" +
-      pctFromClose(res.supportL1) +
-      "）<br/>" +
-      "<strong>参数摘要</strong>：" +
-      tpNote +
+      "<dt>🎯 目标位预测看板（Target v2.4）</dt><dd>" +
+      "<p style=\"margin:0 0 0.5rem 0;color:var(--muted);font-size:0.88rem;\">预测周期：<strong>下一交易日</strong>。对称三档以 <strong>1.0×ATR</strong> 为常态锚。<strong>非投资建议</strong>。</p>" +
+      "<strong>校准</strong>：" +
+      calib +
       "<br/><br/>" +
-      "<strong>动态解读</strong><br/>" +
-      scenUp +
-      "<br/>" +
-      scenDn +
+      "<table style=\"width:100%;border-collapse:collapse;font-size:0.92rem;margin:0.25rem 0 0.5rem 0;\">" +
+      "<thead><tr><th style=\"text-align:left;border-bottom:1px solid var(--border);padding:0.2rem 0.5rem 0.2rem 0;\">阶梯</th><th style=\"text-align:left;border-bottom:1px solid var(--border);padding:0.2rem 0.5rem 0.2rem 0;\">区间</th><th style=\"text-align:left;border-bottom:1px solid var(--border);padding:0.2rem 0;\">单边尺度（相对今收）</th></tr></thead><tbody>" +
+      "<tr><td style=\"padding:0.3rem 0.5rem 0.3rem 0;border-bottom:1px solid var(--border);\">盘中正常波动</td><td style=\"padding:0.3rem 0.5rem 0.3rem 0;border-bottom:1px solid var(--border);\">[" +
+      fmt(tp.normalLow) +
+      ", " +
+      fmt(tp.normalHigh) +
+      "]</td><td style=\"padding:0.3rem 0;border-bottom:1px solid var(--border);\">" +
+      symPctTier(1) +
+      "</td></tr>" +
+      "<tr><td style=\"padding:0.3rem 0.5rem 0.3rem 0;border-bottom:1px solid var(--border);\">波动放大警戒</td><td style=\"padding:0.3rem 0.5rem 0.3rem 0;border-bottom:1px solid var(--border);\">[" +
+      fmt(tp.warnLow) +
+      ", " +
+      fmt(tp.warnHigh) +
+      "]</td><td style=\"padding:0.3rem 0;border-bottom:1px solid var(--border);\">" +
+      symPctTier(1.5) +
+      "</td></tr>" +
+      "<tr><td style=\"padding:0.3rem 0.5rem 0.3rem 0;\">极端极限位</td><td style=\"padding:0.3rem 0.5rem 0.3rem 0;\">[" +
+      fmt(tp.extremeLow) +
+      ", " +
+      fmt(tp.extremeHigh) +
+      "]</td><td style=\"padding:0.3rem 0;\">" +
+      symPctTier(2) +
+      "</td></tr>" +
+      "</tbody></table>" +
+      scen +
       "</dd>";
 
     supportDl.innerHTML = h + hPred + hTarget;
