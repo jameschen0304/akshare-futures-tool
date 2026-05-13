@@ -112,7 +112,7 @@
 <body>
   <div class="wrap">
     <h1>国内期货历史 K 线</h1>
-    <p class="sub">默认使用<strong>新浪财经</strong>日 K；主连、汉字品种等请选<strong>东方财富</strong>。查询成功后可计算<strong>支撑点位</strong>与<strong>趋势倾向度（模型辅助）</strong>。仅供学习研究，不构成投资建议。</p>
+    <p class="sub">默认使用<strong>新浪财经</strong>日 K；主连、汉字品种等请选<strong>东方财富</strong>。查询成功后可计算<strong>支撑点位</strong>、<strong>趋势倾向度</strong>、<strong>VSI 稳态</strong>与<strong>ATR 目标位</strong>（均为模型辅助）。仅供学习研究，不构成投资建议。</p>
 
     <div class="card">
       <div class="row">
@@ -159,8 +159,8 @@
     </div>
 
     <div class="card" id="supportCard" hidden>
-      <h2>支撑点位（自动识别）<span class="algo-ver" id="algoVerBadge">算法 v2.2</span></h2>
-      <p class="sub" style="margin-bottom: 0.75rem;"><strong>L1</strong>＝15 日、<strong>L2</strong>＝60 日量能峰值（不含今日）；<strong>核心区</strong> L2±10；<strong>ATR</strong> 比率&gt;1.2 时延伸系数 2.0；<strong>OI</strong>、<strong>VWAP 乖离</strong>、<strong>LVN 真空</strong>；底部 <strong>Prediction Engine v1.0</strong> 输出倾向度刻度与 ATR 带宽。<strong>非投资建议</strong>。无「涨跌趋势倾向」时请 <strong>Ctrl+F5</strong>。</p>
+      <h2>支撑点位（自动识别）<span class="algo-ver" id="algoVerBadge">算法 v2.3</span></h2>
+      <p class="sub" style="margin-bottom: 0.75rem;"><strong>v2.3</strong>：在 v2.2 基础上增加 <strong>VSI</strong>（ATR/60 日均）稳态标签、目标位对高波动自动缩幅、乖离&gt;4% 时上方目标打折；含 <strong>Target Projection v1.0</strong> 看板。<strong>非投资建议</strong>。</p>
       <dl id="supportDl"></dl>
     </div>
 
@@ -1374,8 +1374,89 @@
     };
   }
 
+  /** VSI = ATR(14) / 过去 60 日 ATR 均值（与「ATR 比率」同值）。 */
+  function analyzeVsi(atrRatio) {
+    if (atrRatio == null || !isFinite(atrRatio) || atrRatio <= 0) {
+      return {
+        vsi: null,
+        label: "—",
+        advice: "缺少有效 ATR 比率，无法计算 VSI。",
+        shrink: 1,
+        hiConf: false,
+      };
+    }
+    const vsi = atrRatio;
+    let label = "";
+    let advice = "";
+    let shrink = 1;
+    let hiConf = false;
+    if (vsi < 0.9) {
+      label = "极度缩量";
+      advice = "波动异常偏小，警惕变盘前夜；目标位宜降权参考。";
+    } else if (vsi <= 1.1) {
+      label = "常态波动";
+      advice = "处于 [0.9,1.1] 稳态区间，增减幅更接近「正常呼吸」，目标带宽可参考性相对较高。";
+      hiConf = true;
+    } else if (vsi <= 1.3) {
+      label = "活跃波动";
+      advice = "波动高于常态，区间会变宽；应理解为风险溢价上升，而非单纯「空间更大」。";
+    } else {
+      label = "高风险波动";
+      advice = "波动显著异动，模型易过敏；已对目标位幅度自动 ×0.8 收缩（震荡防守）。";
+      shrink = 0.8;
+    }
+    return { vsi: vsi, label: label, advice: advice, shrink: shrink, hiConf: hiConf };
+  }
+
   /**
-   * 日线 OHLCV（可选 oiChange）：L1/L2、动态 ATR、OI、VWAP、LVN、压力转支撑 + Prediction Engine v1.0。
+   * Target Projection v1.0：今收 ± 动态系数×ATR，叠加 VSI 缩幅、VWAP 乖离上方打折、偏多动能溢价。
+   */
+  function computeTargetProjection(p) {
+    const close = p.currentPrice;
+    const atr = p.atr;
+    const k1 = p.atrMultDynamic;
+    const k2 = p.atrMultExpand;
+    const tb = p.trendBias100;
+    const dev = p.vwapDeviation;
+    const vsiShrink = p.vsiShrink != null && p.vsiShrink > 0 ? p.vsiShrink : 1;
+
+    let vwapDisc = 1;
+    if (dev != null && isFinite(dev) && dev > 0.04) {
+      vwapDisc = 0.85;
+    }
+
+    let upExt = k1 * atr * vsiShrink * vwapDisc;
+    if (tb > 20) {
+      upExt += 0.5 * atr * vsiShrink * vwapDisc;
+    }
+    const downExt = k1 * atr * vsiShrink;
+
+    const upExt2 = k2 * atr * vsiShrink * vwapDisc;
+    const downExt2 = k2 * atr * vsiShrink;
+
+    const halfSym = k1 * atr * vsiShrink;
+
+    return {
+      close: close,
+      kDyn: k1,
+      kExpand: k2,
+      atr: atr,
+      vsiShrink: vsiShrink,
+      vwapDisc: vwapDisc,
+      vwapDiscounted: vwapDisc < 1,
+      momentumBump: tb > 20,
+      halfSym: halfSym,
+      upExt1: upExt,
+      downExt1: downExt,
+      target1Up: close + upExt,
+      target1Dn: close - downExt,
+      target2Up: close + upExt2,
+      target2Dn: close - downExt2,
+    };
+  }
+
+  /**
+   * 日线 OHLCV（可选 oiChange）：v2.3 — L1/L2、ATR、OI、VWAP、LVN、Prediction + VSI + Target Projection。
    */
   function computeSupportLevels(rows) {
     const lookbackL2 = 60;
@@ -1529,6 +1610,19 @@
       atrMultExpand: atrMultExpand,
     });
 
+    const vsiInfo = analyzeVsi(atrRatio);
+    const targetProjection = computeTargetProjection({
+      currentPrice: currentPrice,
+      atr: atr,
+      atrMultDynamic: atrMultDynamic,
+      atrMultExpand: atrMultExpand,
+      trendBias100: prediction.trendBias100,
+      vwapDeviation: vwapDeviation,
+      vsiShrink: vsiInfo.shrink,
+    });
+    prediction.predLow = targetProjection.target1Dn;
+    prediction.predHigh = targetProjection.target1Up;
+
     return {
       ok: true,
       lookbackL1: lookbackL1,
@@ -1574,6 +1668,8 @@
       sentClass: sentClass,
       prediction: prediction,
       hasOi: hasOi,
+      vsi: vsiInfo,
+      targetProjection: targetProjection,
     };
   }
 
@@ -1597,8 +1693,24 @@
       res.atrRatio == null || !isFinite(res.atrRatio)
         ? "—"
         : Number(res.atrRatio).toFixed(3) + "（阈值 " + res.atrRatioThreshold + "）";
+
+    const vsi = res.vsi;
+    const vsiNumStr = vsi && vsi.vsi != null && isFinite(vsi.vsi) ? Number(vsi.vsi).toFixed(3) : "—";
+    const vsiHtml =
+      "<dt>📊 波动率稳态监控（VSI v1.0）</dt><dd>VSI = ATR(14)/ATR(" +
+      res.atrMeanDays +
+      "日均) = <strong>" +
+      vsiNumStr +
+      "</strong> — 「" +
+      (vsi ? vsi.label : "—") +
+      "」" +
+      (vsi ? vsi.advice : "") +
+      (vsi && vsi.hiConf ? " <em>高置信度窗口（稳态）</em>" : "") +
+      (vsi && vsi.shrink < 1 ? " <strong>目标位幅度已 ×" + vsi.shrink + " 收缩。</strong>" : "") +
+      "</dd>";
+
     const h =
-      "<dt>逻辑版本</dt><dd>v2.2 — L1/L2、动态 ATR、OI、VWAP、LVN、<strong>Prediction Engine v1.0</strong></dd>" +
+      "<dt>逻辑版本</dt><dd>v2.3 — Prediction Engine v1.0、<strong>VSI</strong>、<strong>Target Projection v1.0</strong></dd>" +
       "<dt>L1 短期量能峰值（" +
       res.lookbackL1 +
       "日）</dt><dd>" +
@@ -1652,6 +1764,7 @@
       " / 扩张 " +
       fmt(res.atrMultExpand) +
       "）</dd>" +
+      vsiHtml +
       "<dt>区间 VWAP 与乖离</dt><dd>VWAP=" +
       fmt(res.vwapVal) +
       "；乖离率=" +
@@ -1731,7 +1844,7 @@
       "）</strong>并伴随持仓显著增加，需警惕趋势反转。";
 
     const hPred =
-      "<dt>📈 涨跌趋势倾向（Prediction Engine v1.0）</dt><dd>" +
+      "<dt>📈 涨跌趋势倾向（Prediction Engine v1.0 · v2.3）</dt><dd>" +
       "<p style=\"margin:0 0 0.6rem 0;color:var(--muted);font-size:0.88rem;\">模型辅助参考，<strong>非投资建议</strong>；不保证涨跌，请独立风控。</p>" +
       "<strong>标准化倾向度［−100，+100］</strong>：" +
       wsign(pr.trendBias100) +
@@ -1756,7 +1869,7 @@
       "，E ATR×10%=" +
       wsign(pr.contribE) +
       "<br/>" +
-      "<strong>预测带宽（今收 ± 动态系数×ATR）</strong>：[" +
+      "<strong>预测带宽（Target Projection 目标一，已含 VSI/VWAP/动能修正）</strong>：[" +
       fmt(pr.predLow) +
       ", " +
       fmt(pr.predHigh) +
@@ -1771,7 +1884,96 @@
       guide +
       "</dd>";
 
-    supportDl.innerHTML = h + hPred;
+    const tp = res.targetProjection;
+    const pctFromClose = function (px) {
+      if (px == null || !isFinite(px) || !(res.currentPrice > 0)) return "—";
+      const r = ((px - res.currentPrice) / res.currentPrice) * 100;
+      return (r >= 0 ? "+" : "") + r.toFixed(2) + "%";
+    };
+    const halfPct =
+      tp && tp.close > 0 && tp.halfSym != null
+        ? ((tp.halfSym / tp.close) * 100).toFixed(2) + "%"
+        : "—";
+    let tpNote = "延伸系数 k=" + fmt(tp.kDyn) + "（极限档 k=" + fmt(tp.kExpand) + "）。";
+    if (tp.vwapDiscounted) {
+      tpNote += " 因 VWAP 乖离&gt;4%，上方延伸已 ×" + fmt(tp.vwapDisc) + " 打折。";
+    }
+    if (tp.momentumBump) {
+      tpNote += " 倾向度&gt;+20，上方已加 0.5×ATR 动能溢价。";
+    }
+    if (tp.vsiShrink < 1) {
+      tpNote += " VSI&gt;1.3 已整体 ×" + fmt(tp.vsiShrink) + " 缩幅。";
+    }
+
+    const watchUp =
+      res.lvnZoneTop != null && isFinite(res.lvnZoneTop)
+        ? "可观察盘中 <strong>" + fmt(res.lvnZoneTop) + "</strong> 附近是否出现集中减仓/换手。"
+        : "可结合前高与盘口观察是否出现集中获利了结。";
+
+    const scenUp =
+      "增幅情景：目标一 <strong>" +
+      fmt(tp.target1Up) +
+      "</strong>（约 " +
+      pctFromClose(tp.target1Up) +
+      "）为首要测量阻力带；若量能未背离，延伸可参考目标二 <strong>" +
+      fmt(tp.target2Up) +
+      "</strong>（约 " +
+      pctFromClose(tp.target2Up) +
+      "）。" +
+      (res.pressureVacuum ? " 现价若在压力真空区，不宜线性外推空间。" : "") +
+      " " +
+      watchUp;
+
+    const scenDn =
+      "减幅情景：目标一 <strong>" +
+      fmt(tp.target1Dn) +
+      "</strong>（约 " +
+      pctFromClose(tp.target1Dn) +
+      "）视为短周期回撤测试带；若跌破 <strong>L1（" +
+      fmt(res.supportL1) +
+      "）</strong>，模型由延伸多头逻辑转向区间震荡/再评估。";
+
+    const hTarget =
+      "<dt>🎯 目标位预测看板（Target Projection v1.0）</dt><dd>" +
+      "<p style=\"margin:0 0 0.5rem 0;color:var(--muted);font-size:0.88rem;\">预测周期：<strong>下一交易日</strong>（收盘后静态推演）。统计波动模型，<strong>非投资建议</strong>。</p>" +
+      "<strong>当前基准价（今收）</strong>：" +
+      fmt(tp.close) +
+      "<br/>" +
+      "<strong>对称半幅（k×ATR×VSI 系数）</strong>：±" +
+      fmt(tp.halfSym) +
+      "（约 ±" +
+      halfPct +
+      " 波动宽，不含 VWAP 上方打折与动能溢价）<br/>" +
+      "<strong>上涨 · 目标一（压力）</strong>：" +
+      fmt(tp.target1Up) +
+      "（相对今收 " +
+      pctFromClose(tp.target1Up) +
+      "）<br/>" +
+      "<strong>上涨 · 目标二（极限）</strong>：" +
+      fmt(tp.target2Up) +
+      "（" +
+      pctFromClose(tp.target2Up) +
+      "）<br/>" +
+      "<strong>下跌 · 防守一（支撑）</strong>：" +
+      fmt(tp.target1Dn) +
+      "（" +
+      pctFromClose(tp.target1Dn) +
+      "）<br/>" +
+      "<strong>下跌 · 防守二（关键结构）</strong>：<strong>L1 " +
+      fmt(res.supportL1) +
+      "</strong>（" +
+      pctFromClose(res.supportL1) +
+      "）<br/>" +
+      "<strong>参数摘要</strong>：" +
+      tpNote +
+      "<br/><br/>" +
+      "<strong>动态解读</strong><br/>" +
+      scenUp +
+      "<br/>" +
+      scenDn +
+      "</dd>";
+
+    supportDl.innerHTML = h + hPred + hTarget;
     supportCard.hidden = false;
   }
 
