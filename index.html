@@ -112,7 +112,7 @@
 <body>
   <div class="wrap">
     <h1>国内期货历史 K 线</h1>
-    <p class="sub">默认使用<strong>新浪财经</strong>日 K；主连、汉字品种等请选<strong>东方财富</strong>。查询成功后可计算<strong>支撑点位</strong>（双层量能峰值、核心区间、动态 ATR、VWAP 乖离、持仓可靠性、<strong>LVN 压力真空</strong>）。仅供学习研究，不构成投资建议。</p>
+    <p class="sub">默认使用<strong>新浪财经</strong>日 K；主连、汉字品种等请选<strong>东方财富</strong>。查询成功后可计算<strong>支撑点位</strong>与<strong>趋势倾向度（模型辅助）</strong>。仅供学习研究，不构成投资建议。</p>
 
     <div class="card">
       <div class="row">
@@ -159,8 +159,8 @@
     </div>
 
     <div class="card" id="supportCard" hidden>
-      <h2>支撑点位（自动识别）<span class="algo-ver" id="algoVerBadge">算法 v2.1</span></h2>
-      <p class="sub" style="margin-bottom: 0.75rem;"><strong>L1</strong>＝过去 15 日、<strong>L2</strong>＝过去 60 日（均不含今日）量能峰值；<strong>核心支撑区</strong>为 L2 峰值 ±10 点；<strong>ATR(14)</strong> 比率 &gt;1.2 时延伸系数 2.0，否则 1.5；下跌日结合<strong>持仓增减</strong>（新浪直读 / 东财由持仓量差分）给出可靠性；<strong>VWAP 乖离</strong> &gt;5% 提示超买换手；<strong>POC 上方 LVN 稀薄带</strong>用于压力真空与诱多警示。以区间内<strong>最后一根 K 线为「今日」</strong>做收盘后判定。若说明里仍只有单一「量能峰值」而无 L1/L2，说明页面为缓存，请<strong>Ctrl+F5</strong> 强制刷新或无痕窗口重开。</p>
+      <h2>支撑点位（自动识别）<span class="algo-ver" id="algoVerBadge">算法 v2.2</span></h2>
+      <p class="sub" style="margin-bottom: 0.75rem;"><strong>L1</strong>＝15 日、<strong>L2</strong>＝60 日量能峰值（不含今日）；<strong>核心区</strong> L2±10；<strong>ATR</strong> 比率&gt;1.2 时延伸系数 2.0；<strong>OI</strong>、<strong>VWAP 乖离</strong>、<strong>LVN 真空</strong>；底部 <strong>Prediction Engine v1.0</strong> 输出倾向度刻度与 ATR 带宽。<strong>非投资建议</strong>。无「涨跌趋势倾向」时请 <strong>Ctrl+F5</strong>。</p>
       <dl id="supportDl"></dl>
     </div>
 
@@ -1270,7 +1270,112 @@
   }
 
   /**
-   * 日线 OHLCV（可选 oiChange）：L1/L2、动态 ATR、OI、VWAP、回踩、LVN 压力真空与压力转支撑说明。
+   * Prediction Engine v1.0：五因子 raw 分 × 权重 → 加权综合分；再线性映射至 [-100,+100]。
+   */
+  function computeTrendBiasPrediction(p) {
+    const wA = 0.3;
+    const wB = 0.2;
+    const wC = 0.2;
+    const wD = 0.2;
+    const wE = 0.1;
+
+    let A = 0;
+    if (p.currentPrice > p.supportL1) A = 30;
+    else if (p.currentPrice > p.supportL2) A = 10;
+
+    let B = 0;
+    const dev = p.vwapDeviation;
+    if (p.vwapVal != null && p.vwapVal > 0 && dev != null && isFinite(dev)) {
+      if (dev > 0.05) B = -20;
+      else if (dev >= 0.02) B = 10;
+      else if (dev >= -0.02) B = 20;
+      else if (dev >= -0.05) B = 10;
+      else B = 0;
+    }
+
+    let C = 0;
+    if (p.pressureVacuum) {
+      C = -15;
+    } else if (
+      p.hasLvnRun &&
+      p.lvnZoneBottom != null &&
+      p.lvnZoneTop != null &&
+      p.currentPrice > p.lvnZoneBottom &&
+      p.currentPrice <= p.lvnZoneTop
+    ) {
+      C = -8;
+    }
+
+    let D = 0;
+    const upDay = p.currentPrice > p.prevClose;
+    const downDay = p.currentPrice < p.prevClose;
+    if (p.hasOi && p.oiDelta != null && isFinite(p.oiDelta) && p.oiDelta > 0) {
+      if (upDay) D = 20;
+      else if (downDay) D = -20;
+    }
+
+    let E = 0;
+    if (p.atrMultDynamic >= p.atrMultExpand - 0.01) E = -10;
+    else E = 10;
+
+    const cA = A * wA;
+    const cB = B * wB;
+    const cC = C * wC;
+    const cD = D * wD;
+    const cE = E * wE;
+    const weightedSum = cA + cB + cC + cD + cE;
+
+    const W_MAX = 30 * wA + 20 * wB + 0 * wC + 20 * wD + 10 * wE;
+    const W_MIN = 0 * wA + -20 * wB + -15 * wC + -20 * wD + -10 * wE;
+
+    let trendBias100 = 0;
+    if (weightedSum >= 0) {
+      trendBias100 = W_MAX > 0 ? (weightedSum / W_MAX) * 100 : 0;
+    } else {
+      const denom = Math.abs(W_MIN);
+      trendBias100 = denom > 0 ? (weightedSum / denom) * 100 : 0;
+    }
+    trendBias100 = Math.max(-100, Math.min(100, trendBias100));
+
+    let regime = "";
+    if (trendBias100 > 20) regime = "坚定偏多";
+    else if (trendBias100 < -20) regime = "偏空 · 防守";
+    else regime = "震荡 / 高波动平衡";
+
+    let biasLabel = "";
+    if (trendBias100 > 20) biasLabel = "坚定偏多";
+    else if (trendBias100 > 5) biasLabel = "小幅偏多";
+    else if (trendBias100 >= -5) biasLabel = "弱势平衡";
+    else if (trendBias100 >= -20) biasLabel = "小幅偏空";
+    else biasLabel = "偏空 · 防守";
+
+    const bandLow = p.currentPrice - p.atr * p.atrMultDynamic;
+    const bandHigh = p.currentPrice + p.atr * p.atrMultDynamic;
+
+    return {
+      factorA: A,
+      factorB: B,
+      factorC: C,
+      factorD: D,
+      factorE: E,
+      contribA: cA,
+      contribB: cB,
+      contribC: cC,
+      contribD: cD,
+      contribE: cE,
+      weightedSum: weightedSum,
+      trendBias100: trendBias100,
+      regime: regime,
+      biasLabel: biasLabel,
+      predLow: bandLow,
+      predHigh: bandHigh,
+      wMax: W_MAX,
+      wMin: W_MIN,
+    };
+  }
+
+  /**
+   * 日线 OHLCV（可选 oiChange）：L1/L2、动态 ATR、OI、VWAP、LVN、压力转支撑 + Prediction Engine v1.0。
    */
   function computeSupportLevels(rows) {
     const lookbackL2 = 60;
@@ -1406,6 +1511,24 @@
       sentClass = "sent-bear";
     }
 
+    const prediction = computeTrendBiasPrediction({
+      currentPrice: currentPrice,
+      prevClose: prevClose,
+      supportL1: supportL1,
+      supportL2: supportL2,
+      vwapVal: vwapVal,
+      vwapDeviation: vwapDeviation,
+      hasOi: hasOi,
+      oiDelta: oiDelta,
+      pressureVacuum: pressure.pressureVacuum,
+      hasLvnRun: pressure.hasLvnRun,
+      lvnZoneBottom: pressure.lvnZoneBottom,
+      lvnZoneTop: pressure.lvnZoneTop,
+      atr: atr,
+      atrMultDynamic: atrMultDynamic,
+      atrMultExpand: atrMultExpand,
+    });
+
     return {
       ok: true,
       lookbackL1: lookbackL1,
@@ -1449,6 +1572,8 @@
       resistanceFlipNote: pressure.resistanceFlipNote,
       sentiment: sentiment,
       sentClass: sentClass,
+      prediction: prediction,
+      hasOi: hasOi,
     };
   }
 
@@ -1473,7 +1598,7 @@
         ? "—"
         : Number(res.atrRatio).toFixed(3) + "（阈值 " + res.atrRatioThreshold + "）";
     const h =
-      "<dt>逻辑版本</dt><dd>v2.1 — L1/L2、动态 ATR、OI、VWAP、<strong>LVN 压力真空</strong></dd>" +
+      "<dt>逻辑版本</dt><dd>v2.2 — L1/L2、动态 ATR、OI、VWAP、LVN、<strong>Prediction Engine v1.0</strong></dd>" +
       "<dt>L1 短期量能峰值（" +
       res.lookbackL1 +
       "日）</dt><dd>" +
@@ -1561,7 +1686,92 @@
       "<dt>周期</dt><dd>" +
       periodLabel +
       "</dd>";
-    supportDl.innerHTML = h;
+
+    const pr = res.prediction;
+    const wsign = function (x) {
+      if (x == null || !isFinite(x)) return "—";
+      const n = Number(x);
+      return (n >= 0 ? "+" : "") + n.toFixed(1);
+    };
+
+    const predObsParts = [];
+    if (res.pressureVacuum) {
+      predObsParts.push("LVN 压力真空抬高回撤预警权重，不宜单纯用「价在高位」线性外推");
+    }
+    if (
+      res.hasLvnRun &&
+      res.lvnZoneBottom != null &&
+      res.lvnZoneTop != null &&
+      res.currentPrice > res.lvnZoneBottom &&
+      res.currentPrice <= res.lvnZoneTop
+    ) {
+      predObsParts.push("今收位于 POC 上方稀薄带内，易出现快涨快跌与假突破");
+    }
+    if (res.vwapDeviation != null && isFinite(res.vwapDeviation)) {
+      if (res.vwapDeviation > 0.05) {
+        predObsParts.push("VWAP 正乖离超过 5%，超买侧性价比与容错变差");
+      } else if (res.vwapDeviation >= 0.02) {
+        predObsParts.push("VWAP 乖离介于 2%～5%，健康与警惕区间过渡");
+      }
+    }
+    if (!predObsParts.length) {
+      predObsParts.push("因子未极端分化，宜以 L1/L2 与 OI 变化作主验证");
+    }
+    const predObs = predObsParts.join("；") + "。";
+
+    const decisionStatus =
+      pr.regime +
+      " — 刻度规则：&gt; +20 偏强看多，&lt; −20 偏防守，其间视为震荡 / 高波动平衡。";
+
+    const guide =
+      "若下一交易时段回踩 <strong>L1（" +
+      fmt(res.supportL1) +
+      "）</strong>不破、且未出现异常增仓打压，则趋势延续概率相对较高；若<strong>放量跌破核心支撑下沿（约 " +
+      fmt(res.coreLow) +
+      "）</strong>并伴随持仓显著增加，需警惕趋势反转。";
+
+    const hPred =
+      "<dt>📈 涨跌趋势倾向（Prediction Engine v1.0）</dt><dd>" +
+      "<p style=\"margin:0 0 0.6rem 0;color:var(--muted);font-size:0.88rem;\">模型辅助参考，<strong>非投资建议</strong>；不保证涨跌，请独立风控。</p>" +
+      "<strong>标准化倾向度［−100，+100］</strong>：" +
+      wsign(pr.trendBias100) +
+      "（" +
+      pr.biasLabel +
+      "）<br/>" +
+      "<strong>加权综合分</strong>：" +
+      wsign(pr.weightedSum) +
+      "（满度约 [" +
+      wsign(pr.wMin) +
+      ", " +
+      wsign(pr.wMax) +
+      "]）<br/>" +
+      "明细：A 价格×30%=" +
+      wsign(pr.contribA) +
+      "，B VWAP×20%=" +
+      wsign(pr.contribB) +
+      "，C LVN×20%=" +
+      wsign(pr.contribC) +
+      "，D OI×20%=" +
+      wsign(pr.contribD) +
+      "，E ATR×10%=" +
+      wsign(pr.contribE) +
+      "<br/>" +
+      "<strong>预测带宽（今收 ± 动态系数×ATR）</strong>：[" +
+      fmt(pr.predLow) +
+      ", " +
+      fmt(pr.predHigh) +
+      "]<br/>" +
+      "<strong>当前状态</strong>：" +
+      decisionStatus +
+      "<br/>" +
+      "<strong>核心观察</strong>：" +
+      predObs +
+      "<br/>" +
+      "<strong>操作指引（纪律向）</strong>：" +
+      guide +
+      "</dd>";
+
+    supportDl.innerHTML = h + hPred;
     supportCard.hidden = false;
   }
 
