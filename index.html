@@ -198,61 +198,95 @@
 
     <div class="card">
       <h2>钢铁套利雷达（规则引擎）</h2>
+      <p class="sub" style="margin-bottom: 0.75rem;">每日收盘后评估：螺纹/热卷期现基差（与上方钢材现货表同源 <code>sp−fp</code>）、冷热/镀冷价差。数据缺失时对应策略强制<strong>灰灯</strong>并挂起。</p>
       <div class="row">
         <div>
           <label for="arbStrategy">评估模式</label>
           <select id="arbStrategy">
-            <option value="auto" selected>自动决策流（推荐）</option>
-            <option value="cold_hot">仅冷卷策略</option>
-            <option value="galv_rebar">仅镀锌策略</option>
+            <option value="auto" selected>全部策略（自动决策流）</option>
+            <option value="rb_basis">策略1：螺纹期现基差</option>
+            <option value="hc_basis">策略2：热卷期现基差</option>
+            <option value="cold_hot">策略3：冷热价差</option>
+            <option value="galv_cold">策略4：镀冷价差</option>
           </select>
         </div>
         <div>
           <label for="arbDate">评估日期</label>
-          <input id="arbDate" maxlength="10" value="2026-04-21" placeholder="YYYY-MM-DD" />
+          <input id="arbDate" maxlength="10" placeholder="YYYY-MM-DD" />
         </div>
         <div>
-          <label for="arbSpreadMode">价差输入模式</label>
+          <label for="arbSpreadMode">数据输入模式</label>
           <select id="arbSpreadMode">
-            <option value="auto" selected>自动计算</option>
+            <option value="auto" selected>自动（钢材快照）</option>
             <option value="manual">手动填入</option>
           </select>
         </div>
         <div>
-          <label for="arbColdHotSpread">冷热价差（自动，冷轧-热卷）</label>
-          <input id="arbColdHotSpread" value="" placeholder="自动计算" readonly />
+          <label for="arbBasisRbEast">螺纹基差（现货 sp − 期货 fp）</label>
+          <input id="arbBasisRbEast" placeholder="自动" readonly />
         </div>
         <div>
-          <label for="arbGalvRebarSpread">镀锌价差（自动，镀锌-螺纹）</label>
-          <input id="arbGalvRebarSpread" value="" placeholder="自动计算" readonly />
+          <label for="arbBasisHc">热卷基差（现货 sp − 期货 fp）</label>
+          <input id="arbBasisHc" placeholder="自动" readonly />
         </div>
         <div>
-          <label for="arbPct">历史分位（0-100，可空，增强信号）</label>
-          <input id="arbPct" placeholder="例如 12" />
+          <label for="arbSpreadCrHr">冷热价差 S_CR−S_HR</label>
+          <input id="arbSpreadCrHr" placeholder="自动" readonly />
         </div>
         <div>
-          <label for="arbBasisStrong">基差走强（现货抗跌）</label>
-          <select id="arbBasisStrong">
-            <option value="auto" selected>未知/自动</option>
+          <label for="arbSpreadGiCr">镀冷价差 S_GI−S_CR</label>
+          <input id="arbSpreadGiCr" placeholder="自动" readonly />
+        </div>
+        <div>
+          <label for="arbPct">历史分位 P_Hist（0-100，可空=自动估算）</label>
+          <input id="arbPct" placeholder="留空则按近3年价差序列估算" />
+        </div>
+        <div>
+          <label for="arbSlopeEast">华东去库斜率 Slope_East</label>
+          <select id="arbSlopeEast">
+            <option value="auto" selected>未知</option>
+            <option value="fast">加速去库</option>
+            <option value="flat">平缓</option>
+            <option value="build">累库</option>
+          </select>
+        </div>
+        <div>
+          <label for="arbReceiptAlert">仓单压力异常 Receipt_Alert</label>
+          <select id="arbReceiptAlert">
+            <option value="auto" selected>未知</option>
             <option value="yes">是</option>
             <option value="no">否</option>
           </select>
         </div>
         <div>
-          <label for="arbWarehouseStress">仓单压力异常（05）</label>
-          <select id="arbWarehouseStress">
-            <option value="auto" selected>未知/自动</option>
+          <label for="arbZincStrong">LME锌价坚挺（策略3）</label>
+          <select id="arbZincStrong">
+            <option value="auto" selected>未知</option>
             <option value="yes">是</option>
             <option value="no">否</option>
           </select>
         </div>
-        <button type="button" class="primary" id="arbGo">评估套利信号</button>
+        <div>
+          <label for="arbRbLongOpen">已持有螺纹正套头寸（策略1黄灯）</label>
+          <select id="arbRbLongOpen">
+            <option value="no" selected>否</option>
+            <option value="yes">是</option>
+          </select>
+        </div>
+        <div>
+          <label for="arbHcLongOpen">已持有热卷正套头寸（策略2黄灯）</label>
+          <select id="arbHcLongOpen">
+            <option value="no" selected>否</option>
+            <option value="yes">是</option>
+          </select>
+        </div>
+        <button type="button" class="primary" id="arbGo">评估套利信号（15:30 收盘后）</button>
       </div>
       <p id="arbMsg"></p>
       <div class="table-wrap" id="arbHost" hidden>
         <table>
           <thead>
-            <tr><th>策略</th><th>信号灯</th><th>方向建议</th><th>策略建议</th><th>触发原因</th><th>风控提示</th></tr>
+            <tr><th>策略</th><th>信号灯</th><th>方向建议</th><th>策略动作</th><th>触发原因</th><th>风险控制</th></tr>
           </thead>
           <tbody id="arbTbody"></tbody>
         </table>
@@ -590,6 +624,31 @@
     return null;
   }
 
+  /** 品种名须同时命中每组关键词中的至少一个 */
+  function pickSymbolByKeywordGroups(symbolsObj, groups) {
+    const names = Object.keys(symbolsObj || {});
+    for (let i = 0; i < names.length; i++) {
+      const nm = names[i];
+      let ok = true;
+      for (let g = 0; g < groups.length; g++) {
+        const grp = groups[g];
+        let hit = false;
+        for (let k = 0; k < grp.length; k++) {
+          if (nm.indexOf(grp[k]) >= 0) {
+            hit = true;
+            break;
+          }
+        }
+        if (!hit) {
+          ok = false;
+          break;
+        }
+      }
+      if (ok) return nm;
+    }
+    return null;
+  }
+
   function valueByDate(rows, dateText) {
     if (!Array.isArray(rows)) return null;
     const d8 = String(dateText || "").replace(/-/g, "");
@@ -604,40 +663,186 @@
     return null;
   }
 
-  function computeAutoSpreads(symbolsObj, dateText) {
-    // Strict mode: only use true semantic symbols.
-    const coldProd = pickSymbolByKeywords(symbolsObj, ["冷轧", "冷卷", "冷板"]);
-    const coldRaw = pickSymbolByKeywords(symbolsObj, ["热轧", "热卷", "热轧卷板"]);
-    const galvProd = pickSymbolByKeywords(symbolsObj, ["镀锌"]);
-    const galvRaw = pickSymbolByKeywords(symbolsObj, ["螺纹", "螺纹钢"]);
+  /** 与钢材现货表一致：按日期取整行 { date, fp, sp } */
+  function rowByDate(rows, dateText) {
+    if (!Array.isArray(rows)) return null;
+    const d8 = String(dateText || "").replace(/-/g, "");
+    for (let i = rows.length - 1; i >= 0; i--) {
+      const r = rows[i] || {};
+      const rd8 = String(r.date || "").replace(/-/g, "");
+      if (rd8 === d8) return r;
+    }
+    return null;
+  }
 
-    const coldProdVal = coldProd ? valueByDate(symbolsObj[coldProd], dateText) : null;
-    const coldRawVal = coldRaw ? valueByDate(symbolsObj[coldRaw], dateText) : null;
-    const galvProdVal = galvProd ? valueByDate(symbolsObj[galvProd], dateText) : null;
-    const galvRawVal = galvRaw ? valueByDate(symbolsObj[galvRaw], dateText) : null;
+  function resolveRbSteelVariety(symbolsObj, preferred) {
+    if (preferred && symbolsObj[preferred] && /螺纹/.test(preferred)) return preferred;
+    if (symbolsObj["螺纹钢"]) return "螺纹钢";
+    return pickSymbolByKeywords(symbolsObj, ["螺纹", "螺纹钢"]);
+  }
 
-    const coldHotSpread =
-      coldProd &&
-      coldRaw &&
-      coldProd !== coldRaw &&
-      Number.isFinite(coldProdVal) &&
-      Number.isFinite(coldRawVal)
-        ? coldProdVal - coldRawVal
-        : null;
-    const galvRebarSpread =
-      galvProd &&
-      galvRaw &&
-      galvProd !== galvRaw &&
-      Number.isFinite(galvProdVal) &&
-      Number.isFinite(galvRawVal)
-        ? galvProdVal - galvRawVal
-        : null;
+  function resolveHcSteelVariety(symbolsObj, preferred) {
+    if (preferred && symbolsObj[preferred] && /热轧|热卷/.test(preferred)) return preferred;
+    if (symbolsObj["热轧卷板"]) return "热轧卷板";
+    return pickSymbolByKeywords(symbolsObj, ["热轧卷板", "热卷", "热轧"]);
+  }
+
+  /** 期现基差：与 runSteelQuery 相同，basis = sp − fp */
+  function basisFromSnapshot(symbolsObj, dateText, variety) {
+    if (!variety) {
+      return { basis: null, variety: null, sp: null, fp: null };
+    }
+    const row = rowByDate(symbolsObj[variety], dateText);
+    if (!row) {
+      return { basis: null, variety: variety, sp: null, fp: null };
+    }
+    const sp = Number(row.sp);
+    const fp = Number(row.fp);
+    const basis = Number.isFinite(sp) && Number.isFinite(fp) ? sp - fp : null;
+    return { basis: basis, variety: variety, sp: sp, fp: fp };
+  }
+
+  function rbBasisFromSnapshot(symbolsObj, dateText, preferredVariety) {
+    return basisFromSnapshot(symbolsObj, dateText, resolveRbSteelVariety(symbolsObj, preferredVariety));
+  }
+
+  function hcBasisFromSnapshot(symbolsObj, dateText, preferredVariety) {
+    return basisFromSnapshot(symbolsObj, dateText, resolveHcSteelVariety(symbolsObj, preferredVariety));
+  }
+
+  function snapPairText(snap, missingLabel) {
+    return snap.variety
+      ? snap.variety + "（快照 sp=" + fmtBasis(snap.sp) + "，fp=" + fmtBasis(snap.fp) + "）"
+      : missingLabel;
+  }
+
+  const ARB_SPOT_GROUPS = {
+    S_HR: [["热轧", "热卷", "热轧卷板"], ["上海"]],
+    S_CR: [["冷轧", "冷卷", "冷板"], ["上海"]],
+    S_GI: [["镀锌"], ["上海"]],
+    S_RB_HZ: [["螺纹", "螺纹钢"], ["杭州", "华东"]],
+    S_RB_BJ: [["螺纹", "螺纹钢"], ["北京", "北方"]],
+  };
+
+  function resolveArbSpotLabels(symbolsObj) {
+    const out = {};
+    const keys = Object.keys(ARB_SPOT_GROUPS);
+    for (let i = 0; i < keys.length; i++) {
+      const k = keys[i];
+      out[k] = pickSymbolByKeywordGroups(symbolsObj, ARB_SPOT_GROUPS[k]) ||
+        (k === "S_RB_HZ"
+          ? pickSymbolByKeywords(symbolsObj, ["螺纹", "螺纹钢"])
+          : null);
+    }
+    if (!out.S_RB_HZ) {
+      out.S_RB_HZ = pickSymbolByKeywords(symbolsObj, ["螺纹", "螺纹钢"]);
+    }
+    return out;
+  }
+
+  function dateMinusYears(dateText, years) {
+    const m = String(dateText || "").match(/^(\d{4})-(\d{2})-(\d{2})$/);
+    if (!m) return "";
+    const y = parseInt(m[1], 10) - (years || 3);
+    return y + "-" + m[2] + "-" + m[3];
+  }
+
+  function buildSpreadSeries(symbolsObj, prodKey, rawKey, labels, maxYears) {
+    const prodNm = labels[prodKey];
+    const rawNm = labels[rawKey];
+    if (!prodNm || !rawNm || prodNm === rawNm) return [];
+    const prodRows = symbolsObj[prodNm];
+    const rawRows = symbolsObj[rawNm];
+    if (!Array.isArray(prodRows) || !Array.isArray(rawRows)) return [];
+    const rawMap = Object.create(null);
+    for (let i = 0; i < rawRows.length; i++) {
+      const d = normalizeDateCell(rawRows[i] && rawRows[i].date);
+      if (!d) continue;
+      const v = Number(rawRows[i].fp);
+      if (Number.isFinite(v)) rawMap[d] = v;
+    }
+    const series = [];
+    for (let j = 0; j < prodRows.length; j++) {
+      const d = normalizeDateCell(prodRows[j] && prodRows[j].date);
+      if (!d || rawMap[d] == null) continue;
+      const pv = Number(prodRows[j].fp);
+      if (!Number.isFinite(pv)) continue;
+      series.push({ date: d, spread: pv - rawMap[d] });
+    }
+    series.sort(function (a, b) {
+      return a.date < b.date ? -1 : a.date > b.date ? 1 : 0;
+    });
+    if (maxYears && series.length) {
+      const cut = dateMinusYears(series[series.length - 1].date, maxYears);
+      return series.filter(function (r) {
+        return r.date >= cut;
+      });
+    }
+    return series;
+  }
+
+  function percentileFromSeries(series, dateText, value) {
+    if (value == null || !Number.isFinite(value) || !series.length) return null;
+    const hist = [];
+    for (let i = 0; i < series.length; i++) {
+      if (series[i].date <= dateText) hist.push(series[i].spread);
+    }
+    if (hist.length < 20) return null;
+    let le = 0;
+    for (let j = 0; j < hist.length; j++) {
+      if (hist[j] <= value) le++;
+    }
+    return (le / hist.length) * 100;
+  }
+
+  function buildArbMarketInputs(symbolsObj, dateText, steelVariety) {
+    const labels = resolveArbSpotLabels(symbolsObj);
+    const spot = {};
+    const keys = Object.keys(labels);
+    for (let i = 0; i < keys.length; i++) {
+      const k = keys[i];
+      const nm = labels[k];
+      spot[k] = nm ? valueByDate(symbolsObj[nm], dateText) : null;
+    }
+
+    const S_HR = spot.S_HR;
+    const S_CR = spot.S_CR;
+    const S_GI = spot.S_GI;
+    const rbSnap = rbBasisFromSnapshot(symbolsObj, dateText, steelVariety);
+    const hcSnap = hcBasisFromSnapshot(symbolsObj, dateText, steelVariety);
+
+    const spreadCrHr =
+      Number.isFinite(S_CR) && Number.isFinite(S_HR) ? S_CR - S_HR : null;
+    const spreadGiCr =
+      Number.isFinite(S_GI) && Number.isFinite(S_CR) ? S_GI - S_CR : null;
+    const basisRbEast = rbSnap.basis;
+    const basisHc = hcSnap.basis;
+
+    const coldHotSeries = buildSpreadSeries(symbolsObj, "S_CR", "S_HR", labels, 5);
+    const galvColdSeries = buildSpreadSeries(symbolsObj, "S_GI", "S_CR", labels, 5);
 
     return {
-      coldHotSpread: coldHotSpread,
-      galvRebarSpread: galvRebarSpread,
-      coldPair: coldProd && coldRaw ? (coldProd + " - " + coldRaw) : "缺少冷轧/热卷数据",
-      galvPair: galvProd && galvRaw ? (galvProd + " - " + galvRaw) : "缺少镀锌/螺纹数据",
+      labels: labels,
+      rbSnap: rbSnap,
+      hcSnap: hcSnap,
+      spreadCrHr: spreadCrHr,
+      spreadGiCr: spreadGiCr,
+      basisRbEast: basisRbEast,
+      basisHc: basisHc,
+      pctCrHr: percentileFromSeries(coldHotSeries, dateText, spreadCrHr),
+      pctGiCr: percentileFromSeries(galvColdSeries, dateText, spreadGiCr),
+      missing: {
+        rb_basis: !Number.isFinite(basisRbEast),
+        hc_basis: !Number.isFinite(basisHc),
+        cold_hot: !Number.isFinite(spreadCrHr),
+        galv_cold: !Number.isFinite(spreadGiCr),
+      },
+      pairText: {
+        cold_hot: labels.S_CR && labels.S_HR ? labels.S_CR + " − " + labels.S_HR : "缺少冷轧/热卷",
+        galv_cold: labels.S_GI && labels.S_CR ? labels.S_GI + " − " + labels.S_CR : "缺少镀锌/冷轧",
+        rb_basis: snapPairText(rbSnap, "缺少螺纹钢快照品种"),
+        hc_basis: snapPairText(hcSnap, "缺少热卷/热轧快照品种"),
+      },
     };
   }
 
@@ -648,16 +853,12 @@
 
   function applySpreadModeUi() {
     const manual = arbSpreadMode.value === "manual";
-    const coldInput = $("arbColdHotSpread");
-    const galvInput = $("arbGalvRebarSpread");
-    coldInput.readOnly = !manual;
-    galvInput.readOnly = !manual;
-    if (manual) {
-      coldInput.placeholder = "手动输入冷热价差";
-      galvInput.placeholder = "手动输入镀锌价差";
-    } else {
-      coldInput.placeholder = "自动计算";
-      galvInput.placeholder = "自动计算";
+    const ids = ["arbBasisRbEast", "arbBasisHc", "arbSpreadCrHr", "arbSpreadGiCr"];
+    for (let i = 0; i < ids.length; i++) {
+      const el = $(ids[i]);
+      if (!el) continue;
+      el.readOnly = !manual;
+      el.placeholder = manual ? "手动输入" : "自动计算";
     }
   }
 
@@ -669,207 +870,335 @@
     return "<span class=\"signal-yellow\">黄色</span>";
   }
 
-  function evaluateArbRule(input) {
+  function slopeEastText() {
+    const v = $("arbSlopeEast").value;
+    if (v === "fast") return "加速去库";
+    if (v === "flat") return "平缓";
+    if (v === "build") return "累库";
+    return null;
+  }
+
+  function grayArbResult(name, reason, risk) {
+    return {
+      signal: "gray",
+      direction: "无建议",
+      advice: "保持观望",
+      reasons: reason || "核心变量缺失，规则引擎挂起。",
+      risks: risk || "请补全行情后重新评估。",
+      strategyName: name,
+    };
+  }
+
+  function evaluateRbBasisStrategy(ctx) {
+    const name = "策略1：螺纹期现基差";
+    if (ctx.missing.rb_basis) {
+      return grayArbResult(name, "螺纹钢快照该日 sp/fp 缺失。", "规则引擎挂起，请先在上方钢材现货表核对品种与日期。");
+    }
+    const b = ctx.basisRbEast;
+    const slope = ctx.slopeEast;
+    const hasLong = ctx.rbLongOpen === true;
     const reasons = [];
     const risks = [];
-    let signal = "gray";
+    let signal = "yellow";
     let direction = "观望";
-    let advice = "当前无强触发条件。";
+    let advice = "暂无强触发；继续监控基差与去库。";
 
-    const strategy = input.ruleKey;
-    const m = input.month;
-    const sp = input.spread;
-    const pct = input.percentile;
-    const basisStrong = input.basisStrong;
-    const warehouseStress = input.warehouseStress;
+    reasons.push("Basis_RB_East=" + fmtBasis(b) + " 元/吨");
+    if (slope) reasons.push("Slope_East=" + slope);
 
-    if (strategy === "cold_hot") {
-      direction = "正套（买冷轧 / 卖热卷）";
-      if (m != null && m >= 6 && m <= 7 && sp != null && sp <= 350) {
-        signal = "green";
-        advice = "冷卷正套入场信号成立。";
-        reasons.push("6-7月建仓窗口");
-        reasons.push("冷热价差<=350");
-      }
-      if (m != null && m >= 10 && m <= 12 && sp != null && sp >= 550) {
-        signal = "red";
-        advice = "冷卷正套止盈信号成立。";
-        reasons.push("10-12月止盈窗口");
-        reasons.push("冷热价差>=550");
-      }
-      if (m != null && m >= 6 && m <= 7 && sp != null && sp > 450) {
-        signal = "yellow";
-        advice = "正套空间不足，建议暂缓入场。";
-        risks.push("建仓窗口内价差过高(>450)");
-      }
-    } else if (strategy === "galv_rebar") {
-      direction = "正套或反套（镀锌-螺纹）";
-      if ((m === 1 || m === 2) && sp != null && sp <= 750) {
-        signal = "green";
-        direction = "正套（买镀锌 / 卖螺纹）";
-        advice = "镀锌正套入场信号成立。";
-        reasons.push("春节前后季节窗口");
-        reasons.push("镀锌价差<=750");
-      }
-      if (m === 5 && input.day != null && input.day >= 10 && input.day <= 20 && sp != null && sp >= 1000) {
-        signal = "red";
-        direction = "正套止盈";
-        advice = "镀锌正套止盈信号成立。";
-        reasons.push("5月中旬止盈窗口");
-        reasons.push("镀锌价差>=1000");
-      }
-      if (m === 6 && sp != null && sp >= 1000) {
-        signal = "blue";
-        direction = "反套（卖镀锌 / 买螺纹）";
-        advice = "镀锌反套入场信号成立。";
-        reasons.push("6月淡季窗口");
-        reasons.push("镀锌价差>=1000");
-      }
-    }
-
-    // 基差与分位仅作增强提示，不改写主信号（严格按预设时间+价差逻辑）。
-    if (basisStrong === true && strategy === "galv_rebar") reasons.push("基差走强（增强项）");
-
-    if (warehouseStress === true && signal === "blue") {
+    if (b < 20 && slope === "加速去库") {
+      signal = "green";
+      direction = "正套（买现货，卖期货）";
+      advice = "买杭州螺纹现货，卖 RB10 期货";
+      reasons.push("基差极窄且华东加速去库");
+      risks.push("实重锁死：现货须过磅实重，防止理计缩水");
+    } else if (b > 100 && hasLong) {
       signal = "yellow";
-      advice = "仓单压力异常触发一票否决，反套暂缓。";
-      risks.push("原料端过剩可能继续下行，反套风险高");
+      direction = "正套平仓 / 滚动";
+      advice = "平仓离场，锁定利润";
+      reasons.push("基差已拉大，正套利润充分兑现");
+      risks.push("不建议盲目开反套，等待基差收敛");
+    } else {
+      risks.push("正套入场需 Basis<20 且加速去库；平仓需 Basis>100 且已持仓");
     }
-
-    if (pct != null) {
-      if (pct <= 10) reasons.push("历史分位低（<=10%，增强项）");
-      if (pct >= 90) reasons.push("历史分位高（>=90%，增强项）");
+    if (ctx.receiptAlert === true) {
+      reasons.push("仓单压力异常（Receipt_Alert=是）");
+      risks.push("交割/注册压力可能压制盘面，谨慎加仓");
     }
+    return { signal: signal, direction: direction, advice: advice, reasons: reasons.join("；"), risks: risks.join("；"), strategyName: name };
+  }
 
-    return {
-      signal: signal,
-      direction: direction,
-      advice: advice,
-      reasons: reasons.length ? reasons.join("；") : "—",
-      risks: risks.length ? risks.join("；") : "—",
-    };
+  function evaluateHcBasisStrategy(ctx) {
+    const name = "策略2：热卷期现基差";
+    if (ctx.missing.hc_basis) {
+      return grayArbResult(name, "热卷快照该日 sp/fp 缺失。", "规则引擎挂起，请确认快照中含热轧/热卷品种且该日有数据。");
+    }
+    const b = ctx.basisHc;
+    const slope = ctx.slopeEast;
+    const hasLong = ctx.hcLongOpen === true;
+    const reasons = [];
+    const risks = [];
+    let signal = "yellow";
+    let direction = "观望";
+    let advice = "暂无强触发；继续监控基差与去库。";
+
+    reasons.push("Basis_HC=" + fmtBasis(b) + " 元/吨");
+    if (slope) reasons.push("Slope_East=" + slope);
+
+    if (b < 20 && slope === "加速去库") {
+      signal = "green";
+      direction = "正套（买现货，卖期货）";
+      advice = "买热卷现货，卖 HC10 期货";
+      reasons.push("基差极窄且华东加速去库");
+      risks.push("实重锁死：现货须过磅实重，防止理计缩水");
+    } else if (b > 100 && hasLong) {
+      signal = "yellow";
+      direction = "正套平仓 / 滚动";
+      advice = "平仓离场，锁定利润";
+      reasons.push("基差已拉大，正套利润充分兑现");
+      risks.push("不建议盲目开反套，等待基差收敛");
+    } else {
+      risks.push("正套入场需 Basis<20 且加速去库；平仓需 Basis>100 且已持仓");
+    }
+    if (ctx.receiptAlert === true) {
+      reasons.push("仓单压力异常（Receipt_Alert=是）");
+      risks.push("热卷仓单注册偏高时谨慎加仓");
+    }
+    return { signal: signal, direction: direction, advice: advice, reasons: reasons.join("；"), risks: risks.join("；"), strategyName: name };
+  }
+
+  function evaluateColdHotStrategy(ctx) {
+    const name = "策略3：冷热价差";
+    if (ctx.missing.cold_hot) {
+      return grayArbResult(name, "S_CR 或 S_HR 缺失。", "自动提醒风控补全冷轧/热卷行情。");
+    }
+    const sp = ctx.spreadCrHr;
+    const pct = ctx.pctCrHr;
+    const reasons = [];
+    const risks = [];
+    let signal = "yellow";
+    let direction = "观望";
+    let advice = "价差未达极值区间，暂不操作。";
+
+    reasons.push("Spread_CR_HR=" + fmtBasis(sp) + "（标准 400-800）");
+    if (pct != null) reasons.push("P_Hist≈" + pct.toFixed(1) + "%");
+
+    if (sp < 420 && pct != null && pct < 15) {
+      signal = "green";
+      direction = "正套（买 CR，卖 HR）";
+      advice = "买入冷轧，卖空热卷";
+      reasons.push("价差处历史极低分位，冷轧成本支撑强");
+      risks.push("关注冷轧库存高位与需求低迷压制");
+    } else if (sp > 780 && pct != null && pct > 90) {
+      signal = "red";
+      direction = "反套（卖 CR，买 HR）";
+      advice = "卖空冷轧，买入热卷";
+      reasons.push("价差严重超买，均值回归概率高");
+      risks.push("冷轧排产意外中断须立刻止损");
+    } else {
+      if (sp >= 420 && sp <= 780) reasons.push("价差处于常规区间");
+      if (pct == null) risks.push("历史分位样本不足，建议手动填写 P_Hist");
+    }
+    return { signal: signal, direction: direction, advice: advice, reasons: reasons.join("；"), risks: risks.join("；"), strategyName: name };
+  }
+
+  function evaluateGalvColdStrategy(ctx) {
+    const name = "策略4：镀冷价差";
+    if (ctx.missing.galv_cold) {
+      return grayArbResult(name, "S_GI 或 S_CR 缺失。", "请补全镀锌/冷轧现货。");
+    }
+    const sp = ctx.spreadGiCr;
+    const pct = ctx.pctGiCr;
+    const zinc = ctx.zincStrong;
+    const reasons = [];
+    const risks = [];
+    let signal = "yellow";
+    let direction = "观望";
+    let advice = "镀冷价差未触发极值。";
+
+    reasons.push("Spread_GI_CR=" + fmtBasis(sp) + "（标准 200-500）");
+    if (pct != null) reasons.push("P_Hist≈" + pct.toFixed(1) + "%");
+
+    if (sp < 210 && zinc === true) {
+      signal = "green";
+      direction = "正套（买 GI，卖 CR）";
+      advice = "买入镀锌，卖空冷轧";
+      reasons.push("镀冷价差极窄且锌价坚挺");
+      risks.push("关注环保政策对镀锌厂开工的临时冲击");
+    } else if (sp > 480 && pct != null && pct > 88) {
+      signal = "red";
+      direction = "反套（卖 GI，买 CR）";
+      advice = "卖出镀锌，买入冷轧";
+      reasons.push("价差处历史极高位，均值回归压力大");
+      risks.push("全球锌价暴涨导致附加费跳涨时暂停反套");
+    } else {
+      if (sp < 210 && zinc !== true) risks.push("绿灯需 LME 锌价坚挺=是");
+      if (sp > 480 && (pct == null || pct <= 88)) risks.push("红灯需 P_Hist>88%");
+    }
+    return { signal: signal, direction: direction, advice: advice, reasons: reasons.join("；"), risks: risks.join("；"), strategyName: name };
+  }
+
+  function fillArbMetricFields(mkt) {
+    $("arbBasisRbEast").value = mkt.basisRbEast == null ? "" : fmtBasis(mkt.basisRbEast);
+    $("arbBasisHc").value = mkt.basisHc == null ? "" : fmtBasis(mkt.basisHc);
+    $("arbSpreadCrHr").value = mkt.spreadCrHr == null ? "" : fmtBasis(mkt.spreadCrHr);
+    $("arbSpreadGiCr").value = mkt.spreadGiCr == null ? "" : fmtBasis(mkt.spreadGiCr);
+  }
+
+  function buildArbAlertText(dateText, mkt, grayFlags) {
+    const parts = [];
+    if (grayFlags.rb_basis) parts.push("螺纹期现");
+    if (grayFlags.hc_basis) parts.push("热卷期现");
+    if (grayFlags.cold_hot) parts.push("冷轧/热卷");
+    if (grayFlags.galv_cold) parts.push("镀锌/冷轧");
+    if (!parts.length) return "";
+    return (
+      "[" +
+      dateText +
+      " 评估完成提示]：" +
+      parts.join("、") +
+      "数据缺失，对应策略已自动挂起（灰灯），请手动校对或确认补全。"
+    );
   }
 
   async function runArbRadar() {
     const strategy = $("arbStrategy").value;
-    const dateText = $("arbDate").value.trim();
-    const dateParts = String(dateText).match(/^(\d{4})-(\d{2})-(\d{2})$/);
-    const month = monthFromDateText(dateText);
-    const day = dateParts ? parseInt(dateParts[3], 10) : null;
-    const percentile = toNumOrNull($("arbPct").value.trim());
-    const basisStrongSel = $("arbBasisStrong").value;
-    const warehouseSel = $("arbWarehouseStress").value;
-
-    if (month == null) {
-      setArbMsg("评估日期格式应为 YYYY-MM-DD。", true);
-      arbHost.hidden = true;
-      return;
+    let dateText = $("arbDate").value.trim();
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(dateText)) {
+      dateText = todayDash();
+      $("arbDate").value = dateText;
     }
-    if (percentile != null && (percentile < 0 || percentile > 100)) {
+    const pctOverride = toNumOrNull($("arbPct").value.trim());
+    if (pctOverride != null && (pctOverride < 0 || pctOverride > 100)) {
       setArbMsg("历史分位需在 0-100 之间。", true);
       arbHost.hidden = true;
       return;
     }
 
-    let auto;
-    let coldHotSpread = null;
-    let galvRebarSpread = null;
-    const spreadModeText = arbSpreadMode.options[arbSpreadMode.selectedIndex]
-      ? String(arbSpreadMode.options[arbSpreadMode.selectedIndex].textContent || "")
-      : "";
-    const manualMode = arbSpreadMode.value === "manual" || spreadModeText.indexOf("手动") >= 0;
+    const manualMode = arbSpreadMode.value === "manual";
+    arbGo.disabled = true;
+    setArbMsg("正在加载行情并运行规则引擎…");
 
-    if (manualMode) {
-      coldHotSpread = toNumOrNull($("arbColdHotSpread").value.trim());
-      galvRebarSpread = toNumOrNull($("arbGalvRebarSpread").value.trim());
-      auto = {
-        coldPair: "手动输入",
-        galvPair: "手动输入",
-      };
-      if ((strategy === "auto" || strategy === "cold_hot") && coldHotSpread == null) {
-        setArbMsg("手动模式下请填写冷热价差。", true);
-        arbHost.hidden = true;
-        return;
-      }
-      if ((strategy === "auto" || strategy === "galv_rebar") && galvRebarSpread == null) {
-        setArbMsg("手动模式下请填写镀锌价差。", true);
-        arbHost.hidden = true;
-        return;
-      }
-    } else {
-      try {
-        const symbols = await loadSteelSnapshot();
-        auto = computeAutoSpreads(symbols, dateText);
-      } catch (e) {
-        setArbMsg("无法加载快照，自动计算失败：" + (e.message || String(e)), true);
-        arbHost.hidden = true;
-        return;
-      }
-      $("arbColdHotSpread").value = auto.coldHotSpread == null ? "" : fmtBasis(auto.coldHotSpread);
-      $("arbGalvRebarSpread").value = auto.galvRebarSpread == null ? "" : fmtBasis(auto.galvRebarSpread);
-      coldHotSpread = auto.coldHotSpread;
-      galvRebarSpread = auto.galvRebarSpread;
-    }
-
-    const basisStrong = basisStrongSel === "yes" ? true : basisStrongSel === "no" ? false : null;
-    const warehouseStress = warehouseSel === "yes" ? true : warehouseSel === "no" ? false : null;
-    const rows = [];
-
-    if (strategy === "auto" || strategy === "cold_hot") {
-      const r1 = evaluateArbRule({
-        ruleKey: "cold_hot",
-        month: month,
-        day: day,
-        spread: coldHotSpread,
-        percentile: percentile,
-        basisStrong: basisStrong,
-        warehouseStress: warehouseStress,
-      });
-      rows.push(
-        "<tr><td>冷卷策略</td><td>" + signalCell(r1.signal) + "</td><td>" +
-        r1.direction + "</td><td>" + r1.advice + "</td><td>" +
-        ("价差来源: " + auto.coldPair + "；" + r1.reasons) + "</td><td>" + r1.risks + "</td></tr>"
-      );
-    }
-
-    if (strategy === "auto" || strategy === "galv_rebar") {
-      const r2 = evaluateArbRule({
-        ruleKey: "galv_rebar",
-        month: month,
-        day: day,
-        spread: galvRebarSpread,
-        percentile: percentile,
-        basisStrong: basisStrong,
-        warehouseStress: warehouseStress,
-      });
-      rows.push(
-        "<tr><td>镀锌策略</td><td>" + signalCell(r2.signal) + "</td><td>" +
-        r2.direction + "</td><td>" + r2.advice + "</td><td>" +
-        ("价差来源: " + auto.galvPair + "；" + r2.reasons) + "</td><td>" + r2.risks + "</td></tr>"
-      );
-    }
-
-    if (!rows.length) {
-      setArbMsg("未生成信号，请检查输入。", true);
+    let symbols = {};
+    const rbVariety = $("steelVariety").value || "";
+    try {
+      symbols = await loadSteelSnapshot();
+    } catch (e) {
+      setArbMsg("数据加载失败：" + (e.message || String(e)), true);
       arbHost.hidden = true;
+      arbGo.disabled = false;
       return;
     }
-    if (!manualMode && (coldHotSpread == null || galvRebarSpread == null)) {
-      setArbMsg(
-        "评估完成：" +
-          dateText +
-          "。当前快照缺少部分核心品种（冷轧/热卷或镀锌/螺纹），对应价差未计算。",
-        true
-      );
+
+    const mkt = buildArbMarketInputs(symbols, dateText, rbVariety);
+    if (manualMode) {
+      const spCH = toNumOrNull($("arbSpreadCrHr").value.trim());
+      const spGC = toNumOrNull($("arbSpreadGiCr").value.trim());
+      const basisRb = toNumOrNull($("arbBasisRbEast").value.trim());
+      const basisHc = toNumOrNull($("arbBasisHc").value.trim());
+      if (spCH != null) mkt.spreadCrHr = spCH;
+      if (spGC != null) mkt.spreadGiCr = spGC;
+      if (basisRb != null) mkt.basisRbEast = basisRb;
+      if (basisHc != null) mkt.basisHc = basisHc;
+      mkt.missing.cold_hot = !Number.isFinite(mkt.spreadCrHr);
+      mkt.missing.galv_cold = !Number.isFinite(mkt.spreadGiCr);
+      mkt.missing.rb_basis = !Number.isFinite(mkt.basisRbEast);
+      mkt.missing.hc_basis = !Number.isFinite(mkt.basisHc);
     } else {
-      if (manualMode) {
-        setArbMsg("评估完成：" + dateText + "。[手动模式] 已按手动输入价差输出信号。");
-      } else {
-        setArbMsg("评估完成：" + dateText + "。[自动模式] 已自动填充冷热/镀锌价差并输出信号。");
-      }
+      fillArbMetricFields(mkt);
     }
+
+    if (pctOverride != null) {
+      mkt.pctCrHr = pctOverride;
+      mkt.pctGiCr = pctOverride;
+    }
+
+    const evalCtx = {
+      basisRbEast: mkt.basisRbEast,
+      basisHc: mkt.basisHc,
+      spreadCrHr: mkt.spreadCrHr,
+      spreadGiCr: mkt.spreadGiCr,
+      pctCrHr: mkt.pctCrHr,
+      pctGiCr: mkt.pctGiCr,
+      missing: mkt.missing,
+      slopeEast: slopeEastText(),
+      receiptAlert: $("arbReceiptAlert").value === "yes" ? true : $("arbReceiptAlert").value === "no" ? false : null,
+      zincStrong: $("arbZincStrong").value === "yes" ? true : $("arbZincStrong").value === "no" ? false : null,
+      rbLongOpen: $("arbRbLongOpen").value === "yes",
+      hcLongOpen: $("arbHcLongOpen").value === "yes",
+    };
+
+    const rows = [];
+    const grayFlags = { rb_basis: false, hc_basis: false, cold_hot: false, galv_cold: false };
+
+    function pushRow(r, pairHint) {
+      const hint = pairHint ? "数据来源：" + pairHint + "；" : "";
+      rows.push(
+        "<tr><td>" +
+          r.strategyName +
+          "</td><td>" +
+          signalCell(r.signal) +
+          "</td><td>" +
+          r.direction +
+          "</td><td>" +
+          r.advice +
+          "</td><td>" +
+          hint +
+          r.reasons +
+          "</td><td>" +
+          r.risks +
+          "</td></tr>"
+      );
+    }
+
+    if (strategy === "auto" || strategy === "rb_basis") {
+      const r = evaluateRbBasisStrategy(evalCtx);
+      if (r.signal === "gray") grayFlags.rb_basis = true;
+      pushRow(r, mkt.pairText.rb_basis);
+    }
+    if (strategy === "auto" || strategy === "hc_basis") {
+      const r = evaluateHcBasisStrategy(evalCtx);
+      if (r.signal === "gray") grayFlags.hc_basis = true;
+      pushRow(r, mkt.pairText.hc_basis);
+    }
+    if (strategy === "auto" || strategy === "cold_hot") {
+      const r = evaluateColdHotStrategy(evalCtx);
+      if (r.signal === "gray") grayFlags.cold_hot = true;
+      pushRow(r, mkt.pairText.cold_hot);
+    }
+    if (strategy === "auto" || strategy === "galv_cold") {
+      const r = evaluateGalvColdStrategy(evalCtx);
+      if (r.signal === "gray") grayFlags.galv_cold = true;
+      pushRow(r, mkt.pairText.galv_cold);
+    }
+    if (!rows.length) {
+      setArbMsg("未生成信号，请检查评估模式。", true);
+      arbHost.hidden = true;
+      arbGo.disabled = false;
+      return;
+    }
+
     arbTbody.innerHTML = rows.join("");
     arbHost.hidden = false;
+
+    let msg =
+      "评估完成：" +
+      dateText +
+      "。" +
+      (manualMode
+        ? "[手动模式]"
+        : "[自动模式：螺纹=" +
+          (mkt.rbSnap.variety || "—") +
+          "，热卷=" +
+          (mkt.hcSnap.variety || "—") +
+          "]");
+    const alert = buildArbAlertText(dateText, mkt, grayFlags);
+    if (alert) {
+      msg += "\n\n" + alert;
+      console.warn("[钢铁套利雷达]", alert);
+    }
+    setArbMsg(msg, !!alert);
+    arbGo.disabled = false;
   }
 
   async function loadSteelSnapshot(opts) {
@@ -2155,6 +2484,7 @@
   async function initPage() {
     const today = todayDash();
     if ($("steelEnd").value === "2050-01-01") $("steelEnd").value = today;
+    if (!$("arbDate").value.trim()) $("arbDate").value = today;
     try {
       await autoRefreshSteelDailyOnOpen();
     } catch (e) {
