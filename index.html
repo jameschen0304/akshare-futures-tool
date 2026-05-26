@@ -112,7 +112,7 @@
 <body>
   <div class="wrap">
     <h1>国内期货历史 K 线</h1>
-    <p class="sub">默认使用<strong>新浪财经</strong>日 K；主连、汉字品种等请选<strong>东方财富</strong>。支撑/倾向度/<strong>v2.4 常态化目标带</strong>（±1.0/1.5/2.0×ATR）均为模型辅助。仅供学习研究，不构成投资建议。</p>
+    <p class="sub">默认使用<strong>新浪财经</strong>日 K；主连、汉字品种等请选<strong>东方财富</strong>。支撑/倾向度/<strong>v2.5 目标带</strong>（含 V 底非对称恐慌下沿）均为模型辅助。仅供学习研究，不构成投资建议。</p>
 
     <div class="card">
       <div class="row">
@@ -159,8 +159,8 @@
     </div>
 
     <div class="card" id="supportCard" hidden>
-      <h2>支撑点位（自动识别）<span class="algo-ver" id="algoVerBadge">算法 v2.4</span></h2>
-      <p class="sub" style="margin-bottom: 0.75rem;"><strong>v2.4</strong>：目标看板改为<strong>盘中正常 ±1.0×ATR</strong>、<strong>波动放大 ±1.5×ATR</strong>、<strong>极端 ±2.0×ATR</strong>（对称）；锚定日常涨跌幅，避免单用高倍 ATR 显得过远。VSI&gt;1.3 时各档同比例缩窄。<strong>非投资建议</strong>。</p>
+      <h2>支撑点位（自动识别）<span class="algo-ver" id="algoVerBadge">算法 v2.5</span></h2>
+      <p class="sub" style="margin-bottom: 0.75rem;"><strong>v2.5</strong>：常态 <strong>±1.0/1.5/2.0×ATR</strong>；<strong>VSI&gt;1.3 且价低于 VWAP</strong> 时上沿缩窄、下沿放宽至 <strong>−2.5～2.8×ATR 恐慌出清位</strong>；并叠加 OI 出清、衰竭得分与「V 底待确立」预测权重。<strong>非投资建议</strong>。</p>
       <dl id="supportDl"></dl>
     </div>
 
@@ -1909,10 +1909,205 @@
     return c > 0 ? s / c : null;
   }
 
+  const VSI_EXTREME = 1.3;
+  const VSI_PANIC = 1.5;
+  const OI_LIQ_LOOKBACK = 20;
+  const TAIL_RATIO_MIN = 0.6;
+
+  /** POC 下方低量区（LVN）穿透后收回 → 单边拒绝 */
+  function analyzeLvnRejectionBelow(profile, today) {
+    if (!profile || !(profile.maxV > 0) || !today) {
+      return { lvnRejectionBelow: false, lvnBelowBottom: null, lvnBelowTop: null };
+    }
+    const bins = profile.bins;
+    const peakIdx = profile.peakIdx;
+    const minL = profile.minL;
+    const width = profile.width;
+    const maxV = profile.maxV;
+    const numBins = profile.numBins;
+    const avgV = profile.totalVol / Math.max(1, numBins);
+    const lvnThr = Math.max(maxV * 0.22, avgV * 0.55);
+    if (peakIdx < 1) {
+      return { lvnRejectionBelow: false, lvnBelowBottom: null, lvnBelowTop: null };
+    }
+    let runEnd = -1;
+    for (let j = peakIdx - 1; j >= 0; j--) {
+      if (bins[j] <= lvnThr) runEnd = j;
+      else if (runEnd >= 0) break;
+    }
+    if (runEnd < 0) {
+      return { lvnRejectionBelow: false, lvnBelowBottom: null, lvnBelowTop: null };
+    }
+    let runStart = runEnd;
+    for (let j = runEnd - 1; j >= 0; j--) {
+      if (bins[j] <= lvnThr) runStart = j;
+      else break;
+    }
+    const lvnBelowBottom = minL + runStart * width;
+    const lvnBelowTop = minL + (peakIdx) * width;
+    const low = today.low;
+    const close = today.close;
+    const pierced = low != null && low <= lvnBelowTop && low >= lvnBelowBottom - width * 0.5;
+    const rejected = pierced && close != null && close > lvnBelowTop;
+    return { lvnRejectionBelow: rejected, lvnBelowBottom: lvnBelowBottom, lvnBelowTop: lvnBelowTop };
+  }
+
+  function computeTailRatio(bar) {
+    if (!bar) return null;
+    const h = bar.high;
+    const l = bar.low;
+    const range = h - l;
+    if (!(range > 0) || !isFinite(range)) return null;
+    const bodyLow = Math.min(bar.open, bar.close);
+    return (bodyLow - l) / range;
+  }
+
+  /** 近几日 VWAP 乖离的一阶/二阶变化，识别抛售高潮（Climax） */
+  function computeVwapDeviationAccel(rows, lookback) {
+    const devs = [];
+    const maxPts = 5;
+    for (let end = rows.length; end > rows.length - maxPts && end > lookback + 1; end--) {
+      const slice = rows.slice(0, end);
+      const vwap = calculateVwap(slice, lookback);
+      const close = slice[slice.length - 1].close;
+      if (vwap != null && vwap > 0 && close != null) {
+        devs.push((close - vwap) / vwap);
+      }
+    }
+    if (devs.length < 3) {
+      return { accel: null, climax: false, latestDev: devs.length ? devs[devs.length - 1] : null };
+    }
+    const d1 = devs[devs.length - 1] - devs[devs.length - 2];
+    const d2 = devs[devs.length - 2] - devs[devs.length - 3];
+    const accel = d1 - d2;
+    const latest = devs[devs.length - 1];
+    const climax = latest < -0.02 && d1 < -0.008 && accel < 0;
+    return { accel: accel, climax: climax, latestDev: latest, velocity: d1 };
+  }
+
+  /** 阶段新低 + OI 近 N 日最大减仓 → 去杠杆/爆仓出清 */
+  function computeOiLiquidation(rows, lookback) {
+    const n = rows.length;
+    if (n < 3) {
+      return {
+        liquidation: false,
+        stageLow: false,
+        oiLiquidationCoef: 0,
+        maxOiDrop: null,
+        todayOi: null,
+      };
+    }
+    const lb = Math.min(lookback, n - 1);
+    const window = rows.slice(n - lb);
+    const today = rows[n - 1];
+    let minLow = Infinity;
+    for (let i = 0; i < window.length; i++) {
+      if (window[i].low != null && window[i].low < minLow) minLow = window[i].low;
+    }
+    const stageLow = today.low != null && today.low <= minLow * 1.0001;
+    let maxOiDrop = 0;
+    let hasOi = false;
+    for (let i = 0; i < window.length; i++) {
+      const d = window[i].oiChange;
+      if (d == null || !isFinite(d)) continue;
+      hasOi = true;
+      if (d < maxOiDrop) maxOiDrop = d;
+    }
+    const todayOi = today.oiChange;
+    const nearMaxDrop =
+      hasOi &&
+      todayOi != null &&
+      maxOiDrop < 0 &&
+      todayOi <= maxOiDrop * 1.05;
+    const liquidation = stageLow && nearMaxDrop && todayOi < 0;
+    let coef = 0;
+    if (todayOi != null && maxOiDrop < 0) {
+      coef = Math.min(1, Math.abs(todayOi) / Math.abs(maxOiDrop));
+    }
+    return {
+      liquidation: liquidation,
+      stageLow: stageLow,
+      oiLiquidationCoef: coef,
+      maxOiDrop: hasOi ? maxOiDrop : null,
+      todayOi: todayOi,
+    };
+  }
+
+  function computeExhaustionScore(p) {
+    let s = 0;
+    if (p.climax) s += 35;
+    if (p.tailRatio != null && p.tailRatio >= TAIL_RATIO_MIN) s += 35;
+    if (p.lvnRejectionBelow) s += 30;
+    return Math.min(100, s);
+  }
+
+  /**
+   * V 底待确立模式：OI 出清 + 下影拒绝 + VWAP 乖离修复（非线性权重）。
+   */
+  function computeTrendBiasPredictionVBottom(p) {
+    let oiRaw = 0;
+    if (p.oiLiquidation) oiRaw = 40;
+    else if (p.hasOi && p.oiDelta != null && p.oiDelta < 0 && p.downDay) oiRaw = 18;
+    else if (p.hasOi && p.oiDelta != null && p.oiDelta < 0) oiRaw = 8;
+
+    let tailRaw = 0;
+    if (p.tailRatio != null && p.tailRatio >= TAIL_RATIO_MIN) tailRaw = 30;
+    else if (p.tailRatio != null && p.tailRatio >= 0.45) tailRaw = 12;
+    if (p.lvnRejectionBelow && tailRaw < 30) tailRaw = Math.max(tailRaw, 22);
+
+    let vwapRaw = 0;
+    if (p.vwapDeviation != null && p.vwapDeviation >= -0.02) vwapRaw = 20;
+    else if (p.vwapVelocity != null && p.vwapVelocity > 0) vwapRaw = 14;
+    else if (p.vBottomConfirmed) vwapRaw = 20;
+
+    let otherRaw = 0;
+    if (p.currentPrice >= p.supportL2) otherRaw = 10;
+    else if (p.currentPrice >= p.coreLow) otherRaw = 4;
+
+    const weightedSum = oiRaw * 0.4 + tailRaw * 0.3 + vwapRaw * 0.2 + otherRaw * 0.1;
+    const W_MAX = 40 * 0.4 + 30 * 0.3 + 20 * 0.2 + 10 * 0.1;
+    const trendBias100 = W_MAX > 0 ? Math.max(-100, Math.min(100, (weightedSum / W_MAX) * 100)) : 0;
+
+    let regime = "V底待确立 · 极端波动";
+    if (p.vBottomConfirmed && trendBias100 > 20) regime = "V底右侧确认 · 反弹权重上调";
+    else if (trendBias100 > 35) regime = "恐慌出清后偏多修复";
+
+    let biasLabel = trendBias100 > 20 ? "V底修复偏多" : trendBias100 > 5 ? "左侧观察" : "极端防守";
+
+    return {
+      engineMode: "v_bottom",
+      factorA: otherRaw,
+      factorB: vwapRaw,
+      factorC: tailRaw,
+      factorD: oiRaw,
+      factorE: p.exhaustionScore,
+      contribA: otherRaw * 0.1,
+      contribB: vwapRaw * 0.2,
+      contribC: tailRaw * 0.3,
+      contribD: oiRaw * 0.4,
+      contribE: 0,
+      weightedSum: weightedSum,
+      trendBias100: trendBias100,
+      regime: regime,
+      biasLabel: biasLabel,
+      predLow: p.panicClearLow != null ? p.panicClearLow : p.currentPrice - p.atr * 2,
+      predHigh: p.currentPrice + p.atr * (p.vsiShrink || 0.8),
+      wMax: W_MAX,
+      wMin: 0,
+      exhaustionScore: p.exhaustionScore,
+      oiLiquidation: p.oiLiquidation,
+      vBottomConfirmed: p.vBottomConfirmed,
+    };
+  }
+
   /**
    * Prediction Engine v1.0：五因子 raw 分 × 权重 → 加权综合分；再线性映射至 [-100,+100]。
+   * v2.5：VSI&gt;1.3 且跌破 L2 核心下沿时切换 V 底待确立子模式。
    */
   function computeTrendBiasPrediction(p) {
+    if (p.vBottomMode) {
+      return computeTrendBiasPredictionVBottom(p);
+    }
     const wA = 0.3;
     const wB = 0.2;
     const wC = 0.2;
@@ -2030,6 +2225,7 @@
     let advice = "";
     let shrink = 1;
     let hiConf = false;
+    let extremeVol = false;
     if (vsi < 0.9) {
       label = "极度缩量";
       advice = "波动异常偏小，警惕变盘前夜；目标位宜降权参考。";
@@ -2042,32 +2238,65 @@
       advice = "波动高于常态，区间会变宽；应理解为风险溢价上升，而非单纯「空间更大」。";
     } else {
       label = "高风险波动";
-      advice = "波动显著异动，模型易过敏；已对目标位幅度自动 ×0.8 收缩（震荡防守）。";
+      advice =
+        "波动显著异动；上沿目标 ×0.8 缩窄。若价低于 VWAP，下沿切换为<strong>非对称恐慌出清位</strong>（−2.5～2.8×ATR，不再同步缩窄）。";
       shrink = 0.8;
+      extremeVol = true;
     }
-    return { vsi: vsi, label: label, advice: advice, shrink: shrink, hiConf: hiConf };
+    return {
+      vsi: vsi,
+      label: label,
+      advice: advice,
+      shrink: shrink,
+      hiConf: hiConf,
+      extremeVol: extremeVol,
+    };
   }
 
   /**
-   * Target Projection v2.4：常态化三档（±1.0 / ±1.5 / ±2.0 × ATR）锚定日常波动；
-   * VSI&gt;1.3 时对有效 ATR 乘 shrink，缩窄各档以防「区间虚大」。
+   * Target Projection v2.5：常态对称三档；VSI&gt;1.3 且价&lt;VWAP 时上沿缩窄、下沿放宽恐慌锚定。
    */
   function computeTargetProjection(p) {
     const close = p.currentPrice;
     const atr = p.atr;
+    const vsi = p.vsi;
     const vsiShrink = p.vsiShrink != null && p.vsiShrink > 0 ? p.vsiShrink : 1;
     const effAtr = atr * vsiShrink;
+    const belowVwap =
+      p.vwapVal != null && p.vwapVal > 0 && close != null && close < p.vwapVal;
+    const asymmetric = vsi != null && vsi > VSI_EXTREME && belowVwap;
 
     const kN = 1.0;
     const kW = 1.5;
     const kE = 2.0;
+    const kPanic = vsi != null && vsi > VSI_PANIC ? 2.8 : 2.5;
 
-    const normalLow = close - kN * effAtr;
-    const normalHigh = close + kN * effAtr;
-    const warnLow = close - kW * effAtr;
-    const warnHigh = close + kW * effAtr;
-    const extremeLow = close - kE * effAtr;
-    const extremeHigh = close + kE * effAtr;
+    let normalLow;
+    let normalHigh;
+    let warnLow;
+    let warnHigh;
+    let extremeLow;
+    let extremeHigh;
+    let panicClearLow = null;
+
+    if (asymmetric) {
+      const upAtr = effAtr;
+      const downAtr = atr;
+      normalHigh = close + kN * upAtr;
+      warnHigh = close + kW * upAtr;
+      extremeHigh = close + kE * upAtr;
+      panicClearLow = close - kPanic * downAtr;
+      normalLow = panicClearLow;
+      warnLow = close - kW * downAtr;
+      extremeLow = close - kE * downAtr;
+    } else {
+      normalLow = close - kN * effAtr;
+      normalHigh = close + kN * effAtr;
+      warnLow = close - kW * effAtr;
+      warnHigh = close + kW * effAtr;
+      extremeLow = close - kE * effAtr;
+      extremeHigh = close + kE * effAtr;
+    }
 
     const amp = close > 0 ? (atr / close) * 100 : null;
     const ampEff = close > 0 ? (effAtr / close) * 100 : null;
@@ -2084,6 +2313,9 @@
       kNormal: kN,
       kWarn: kW,
       kExt: kE,
+      kPanic: kPanic,
+      asymmetric: asymmetric,
+      panicClearLow: panicClearLow,
       normalLow: normalLow,
       normalHigh: normalHigh,
       warnLow: warnLow,
@@ -2097,7 +2329,7 @@
   }
 
   /**
-   * 日线 OHLCV（可选 oiChange）：v2.4 — L1/L2、ATR、OI、VWAP、LVN、Prediction + VSI + Target（常态化三档）。
+   * 日线 OHLCV（可选 oiChange）：v2.5 — L1/L2、ATR、OI 出清、VWAP 衰竭、V 底模式 + Target 非对称档。
    */
   function computeSupportLevels(rows) {
     const lookbackL2 = 60;
@@ -2201,6 +2433,23 @@
     const strengthScore = peakWeight * (1 + oiGrowthRate);
 
     const pressure = analyzePressureVacuum(profL2, currentPrice);
+    const lvnBelow = analyzeLvnRejectionBelow(profL2, today);
+    const tailRatio = computeTailRatio(today);
+    const vwapAccel = computeVwapDeviationAccel(rows, lookbackL2);
+    const oiLiq = computeOiLiquidation(rows, OI_LIQ_LOOKBACK);
+    const exhaustionScore = computeExhaustionScore({
+      climax: vwapAccel.climax,
+      tailRatio: tailRatio,
+      lvnRejectionBelow: lvnBelow.lvnRejectionBelow,
+    });
+
+    const vsiInfo = analyzeVsi(atrRatio);
+    const vBottomWatch = vsiInfo.vsi != null && vsiInfo.vsi > VSI_EXTREME;
+    const vBottomMode = vBottomWatch && currentPrice < coreLow;
+    const vBottomConfirmed =
+      vBottomWatch &&
+      currentPrice >= supportL2 &&
+      (exhaustionScore >= 35 || oiLiq.liquidation || (tailRatio != null && tailRatio >= 0.55));
 
     let sentiment = "";
     let sentClass = "";
@@ -2233,15 +2482,27 @@
       sentClass = "sent-bear";
     }
 
+    const targetProjection = computeTargetProjection({
+      currentPrice: currentPrice,
+      atr: atr,
+      vsi: vsiInfo.vsi,
+      vwapVal: vwapVal,
+      vsiShrink: vsiInfo.shrink,
+      atrMeanPast: atrMeanPast,
+    });
+
     const prediction = computeTrendBiasPrediction({
       currentPrice: currentPrice,
       prevClose: prevClose,
       supportL1: supportL1,
       supportL2: supportL2,
+      coreLow: coreLow,
       vwapVal: vwapVal,
       vwapDeviation: vwapDeviation,
+      vwapVelocity: vwapAccel.velocity,
       hasOi: hasOi,
       oiDelta: oiDelta,
+      downDay: downDay,
       pressureVacuum: pressure.pressureVacuum,
       hasLvnRun: pressure.hasLvnRun,
       lvnZoneBottom: pressure.lvnZoneBottom,
@@ -2249,14 +2510,15 @@
       atr: atr,
       atrMultDynamic: atrMultDynamic,
       atrMultExpand: atrMultExpand,
-    });
-
-    const vsiInfo = analyzeVsi(atrRatio);
-    const targetProjection = computeTargetProjection({
-      currentPrice: currentPrice,
-      atr: atr,
+      vBottomMode: vBottomMode,
+      vBottomConfirmed: vBottomConfirmed,
+      oiLiquidation: oiLiq.liquidation,
+      oiLiquidationCoef: oiLiq.oiLiquidationCoef,
+      tailRatio: tailRatio,
+      lvnRejectionBelow: lvnBelow.lvnRejectionBelow,
+      exhaustionScore: exhaustionScore,
+      panicClearLow: targetProjection.panicClearLow,
       vsiShrink: vsiInfo.shrink,
-      atrMeanPast: atrMeanPast,
     });
     prediction.predLow = targetProjection.normalLow;
     prediction.predHigh = targetProjection.normalHigh;
@@ -2308,6 +2570,13 @@
       hasOi: hasOi,
       vsi: vsiInfo,
       targetProjection: targetProjection,
+      tailRatio: tailRatio,
+      vwapAccel: vwapAccel,
+      oiLiq: oiLiq,
+      lvnBelow: lvnBelow,
+      exhaustionScore: exhaustionScore,
+      vBottomMode: vBottomMode,
+      vBottomConfirmed: vBottomConfirmed,
     };
   }
 
@@ -2333,6 +2602,7 @@
         : Number(res.atrRatio).toFixed(3) + "（阈值 " + res.atrRatioThreshold + "）";
 
     const vsi = res.vsi;
+    const tpEarly = res.targetProjection || {};
     const vsiNumStr = vsi && vsi.vsi != null && isFinite(vsi.vsi) ? Number(vsi.vsi).toFixed(3) : "—";
     const vsiHtml =
       "<dt>📊 波动率稳态监控（VSI v1.0）</dt><dd>VSI = ATR(14)/ATR(" +
@@ -2344,11 +2614,58 @@
       "」" +
       (vsi ? vsi.advice : "") +
       (vsi && vsi.hiConf ? " <em>高置信度窗口（稳态）</em>" : "") +
-      (vsi && vsi.shrink < 1 ? " <strong>目标位幅度已 ×" + vsi.shrink + " 收缩。</strong>" : "") +
+      (vsi && vsi.shrink < 1 && !tpEarly.asymmetric
+        ? " <strong>上沿目标位已 ×" + vsi.shrink + " 缩窄。</strong>"
+        : vsi && vsi.extremeVol && tpEarly.asymmetric
+          ? " <strong>已启用非对称 Target（下沿恐慌出清位）。</strong>"
+          : "") +
       "</dd>";
 
+    const oiLiq = res.oiLiq || {};
+    const exScore = res.exhaustionScore;
+    const tailPct =
+      res.tailRatio != null && isFinite(res.tailRatio)
+        ? (res.tailRatio * 100).toFixed(0) + "%"
+        : "—";
+
+    let hVbottom = "";
+    if (res.vBottomMode) {
+      hVbottom =
+        "<dt>⚠️ 极端波动 · V底潜在区域（v2.5）</dt><dd>" +
+        "<strong>VSI</strong>=" +
+        vsiNumStr +
+        "（" +
+        (vsi ? vsi.label : "—") +
+        "）；" +
+        (tpEarly.asymmetric
+          ? "非对称 Target 已启用：上沿缩窄，<strong>恐慌出清位</strong>=" +
+            fmt(tpEarly.panicClearLow) +
+            "（−" +
+            fmt(tpEarly.kPanic) +
+            "×ATR）"
+          : "待价低于 VWAP 后触发非对称下沿") +
+        "。<br/>" +
+        "<strong>OI 出清</strong>：" +
+        (oiLiq.liquidation
+          ? "是（阶段新低 + 近 " + OI_LIQ_LOOKBACK + " 日最大减仓，系数≈" + fmt(oiLiq.oiLiquidationCoef) + "）"
+          : "否") +
+        "；<strong>衰竭得分</strong>=" +
+        (exScore != null ? exScore.toFixed(0) : "—") +
+        "/100（Climax=" +
+        (res.vwapAccel && res.vwapAccel.climax ? "是" : "否") +
+        "，下影线占比=" +
+        tailPct +
+        "，下方LVN拒绝=" +
+        (res.lvnBelow && res.lvnBelow.lvnRejectionBelow ? "是" : "否") +
+        "）。" +
+        (res.vBottomConfirmed
+          ? " <strong class=\"sent-bull\">右侧：已收复 L2 核心区，V底确认权重上调。</strong>"
+          : " 左侧：关注下影线 + OI 出清后能否收复 L2（" + fmt(res.supportL2) + "）。") +
+        "</dd>";
+    }
+
     const h =
-      "<dt>逻辑版本</dt><dd>v2.4 — Prediction Engine v1.0、VSI、<strong>Target v2.4</strong>（±1.0/1.5/2.0×ATR 常态化三档）</dd>" +
+      "<dt>逻辑版本</dt><dd>v2.5 — Prediction v1.0 + <strong>V底待确立模式</strong>、OI 出清、衰竭得分、<strong>Target 非对称</strong>（±1.0/1.5/2.0×ATR）</dd>" +
       "<dt>L1 短期量能峰值（" +
       res.lookbackL1 +
       "日）</dt><dd>" +
@@ -2421,6 +2738,9 @@
       (res.oiDelta != null && isFinite(res.oiDelta) ? "今日持仓增减（或估算）=" + fmt(res.oiDelta) : "—") +
       " — " +
       res.reliability +
+      (oiLiq.liquidation
+        ? " <strong>【OI 出清系数≈" + fmt(oiLiq.oiLiquidationCoef) + "：阶段新低+近" + OI_LIQ_LOOKBACK + "日最大减仓】</strong>"
+        : "") +
       "</dd>" +
       "<dt>支撑强度量化（示意）</dt><dd>峰值集中度=" +
       fmtPct(res.peakWeight) +
@@ -2465,6 +2785,17 @@
         predObsParts.push("VWAP 乖离介于 2%～5%，健康与警惕区间过渡");
       }
     }
+    if (res.vBottomMode) {
+      if (res.oiLiq && res.oiLiq.liquidation) {
+        predObsParts.push("OI 断崖式出清，最后一跌概率上升，不宜线性追空");
+      }
+      if (res.tailRatio != null && res.tailRatio >= TAIL_RATIO_MIN) {
+        predObsParts.push("长下影表明低位承接增强");
+      }
+      if (res.vBottomConfirmed) {
+        predObsParts.push("已收复 L2，右侧 V 底确认条件改善");
+      }
+    }
     if (!predObsParts.length) {
       predObsParts.push("因子未极端分化，宜以 L1/L2 与 OI 变化作主验证");
     }
@@ -2481,8 +2812,13 @@
       fmt(res.coreLow) +
       "）</strong>并伴随持仓显著增加，需警惕趋势反转。";
 
+    const predModeNote =
+      pr.engineMode === "v_bottom"
+        ? "<br/><strong>引擎模式</strong>：V底待确立（权重 OI 40% / 下影·拒绝 30% / VWAP修复 20% / 其它 10%）"
+        : "";
+
     const hPred =
-      "<dt>📈 涨跌趋势倾向（Prediction Engine v1.0 · v2.4）</dt><dd>" +
+      "<dt>📈 涨跌趋势倾向（Prediction Engine v1.0 · v2.5）</dt><dd>" +
       "<p style=\"margin:0 0 0.6rem 0;color:var(--muted);font-size:0.88rem;\">模型辅助参考，<strong>非投资建议</strong>；不保证涨跌，请独立风控。</p>" +
       "<strong>标准化倾向度［−100，+100］</strong>：" +
       wsign(pr.trendBias100) +
@@ -2506,8 +2842,14 @@
       wsign(pr.contribD) +
       "，E ATR×10%=" +
       wsign(pr.contribE) +
+      (pr.exhaustionScore != null
+        ? "；<strong>衰竭得分</strong>=" + pr.exhaustionScore.toFixed(0) + "/100"
+        : "") +
+      predModeNote +
       "<br/>" +
-      "<strong>预测带宽（常态化：±1.0×ATR，已含 VSI 有效尺度）</strong>：[" +
+      "<strong>预测带宽（" +
+      (tpEarly.asymmetric ? "非对称：下沿恐慌出清" : "常态化 ±1.0×ATR") +
+      "）</strong>：[" +
       fmt(pr.predLow) +
       ", " +
       fmt(pr.predHigh) +
@@ -2535,9 +2877,11 @@
       "%</strong>；60 日 ATR 均值/今收 ≈ <strong>" +
       (tp.atrMeanPctOfClose != null && isFinite(tp.atrMeanPctOfClose) ? tp.atrMeanPctOfClose.toFixed(2) : "—") +
       "%</strong>。" +
-      (tp.vsiShrink < 1
-        ? " VSI 高风险下有效尺度 ×" + tp.vsiShrink + "，各档同步收窄。"
-        : "");
+      (tp.asymmetric
+        ? " <strong>非对称模式</strong>：上沿 ×" + tp.vsiShrink + " 缩窄；下沿恐慌锚定 −" + fmt(tp.kPanic) + "×ATR（" + fmt(tp.panicClearLow) + "）。"
+        : tp.vsiShrink < 1
+          ? " VSI 高风险下有效尺度 ×" + tp.vsiShrink + "，对称各档收窄。"
+          : "");
 
     const watchUp =
       res.lvnZoneTop != null && isFinite(res.lvnZoneTop)
@@ -2551,14 +2895,23 @@
       fmt(res.supportL1) +
       "</strong>。";
 
+    const panicRow = tp.asymmetric
+      ? "<tr><td style=\"padding:0.3rem 0.5rem 0.3rem 0;border-bottom:1px solid var(--border);\">恐慌出清位（V底左侧）</td><td style=\"padding:0.3rem 0.5rem 0.3rem 0;border-bottom:1px solid var(--border);\"><strong>" +
+        fmt(tp.panicClearLow) +
+        "</strong> 起</td><td style=\"padding:0.3rem 0;border-bottom:1px solid var(--border);\">−" +
+        fmt(tp.kPanic) +
+        "×ATR（下沿不缩窄）</td></tr>"
+      : "";
+
     const hTarget =
-      "<dt>🎯 目标位预测看板（Target v2.4）</dt><dd>" +
-      "<p style=\"margin:0 0 0.5rem 0;color:var(--muted);font-size:0.88rem;\">预测周期：<strong>下一交易日</strong>。对称三档以 <strong>1.0×ATR</strong> 为常态锚。<strong>非投资建议</strong>。</p>" +
+      "<dt>🎯 目标位预测看板（Target v2.5）</dt><dd>" +
+      "<p style=\"margin:0 0 0.5rem 0;color:var(--muted);font-size:0.88rem;\">预测周期：<strong>下一交易日</strong>。常态以 <strong>1.0×ATR</strong> 为锚；极端下跌时启用<strong>非对称下沿</strong>。<strong>非投资建议</strong>。</p>" +
       "<strong>校准</strong>：" +
       calib +
       "<br/><br/>" +
       "<table style=\"width:100%;border-collapse:collapse;font-size:0.92rem;margin:0.25rem 0 0.5rem 0;\">" +
       "<thead><tr><th style=\"text-align:left;border-bottom:1px solid var(--border);padding:0.2rem 0.5rem 0.2rem 0;\">阶梯</th><th style=\"text-align:left;border-bottom:1px solid var(--border);padding:0.2rem 0.5rem 0.2rem 0;\">区间</th><th style=\"text-align:left;border-bottom:1px solid var(--border);padding:0.2rem 0;\">单边尺度（相对今收）</th></tr></thead><tbody>" +
+      panicRow +
       "<tr><td style=\"padding:0.3rem 0.5rem 0.3rem 0;border-bottom:1px solid var(--border);\">盘中正常波动</td><td style=\"padding:0.3rem 0.5rem 0.3rem 0;border-bottom:1px solid var(--border);\">[" +
       fmt(tp.normalLow) +
       ", " +
@@ -2584,7 +2937,7 @@
       scen +
       "</dd>";
 
-    supportDl.innerHTML = h + hPred + hTarget;
+    supportDl.innerHTML = h + hVbottom + hPred + hTarget;
     supportCard.hidden = false;
   }
 
