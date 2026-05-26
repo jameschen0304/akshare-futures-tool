@@ -107,6 +107,20 @@
       border: 1px solid var(--border);
       border-radius: 4px;
     }
+    .vbottom-verdict-box {
+      margin: 0 0 0.85rem 0;
+      padding: 0.75rem 0.9rem;
+      border-radius: 8px;
+      border: 2px solid var(--border);
+      background: color-mix(in srgb, var(--card) 92%, var(--accent) 8%);
+    }
+    .vbottom-verdict-box.verdict-confirmed { border-color: #15803d; background: color-mix(in srgb, #15803d 12%, var(--card)); }
+    .vbottom-verdict-box.verdict-pending { border-color: #a16207; background: color-mix(in srgb, #a16207 10%, var(--card)); }
+    .vbottom-verdict-box.verdict-negative { border-color: var(--err); background: color-mix(in srgb, var(--err) 8%, var(--card)); }
+    .vbottom-verdict-box.verdict-neutral { border-color: var(--muted); }
+    .vbottom-verdict-title { font-size: 1.05rem; font-weight: 700; margin: 0 0 0.35rem 0; line-height: 1.35; }
+    .vbottom-verdict-meta { font-size: 0.82rem; color: var(--muted); margin: 0 0 0.4rem 0; }
+    .vbottom-verdict-body { font-size: 0.92rem; margin: 0; line-height: 1.5; }
   </style>
 </head>
 <body>
@@ -160,7 +174,7 @@
 
     <div class="card" id="supportCard" hidden>
       <h2>支撑点位（自动识别）<span class="algo-ver" id="algoVerBadge">算法 v2.5</span></h2>
-      <p class="sub" style="margin-bottom: 0.75rem;"><strong>v2.5</strong>：常态 <strong>±1.0/1.5/2.0×ATR</strong>；<strong>VSI&gt;1.3 且价低于 VWAP</strong> 时上沿缩窄、下沿放宽至 <strong>−2.5～2.8×ATR 恐慌出清位</strong>；并叠加 OI 出清、衰竭得分与「V 底待确立」预测权重。<strong>非投资建议</strong>。</p>
+      <p class="sub" style="margin-bottom: 0.75rem;"><strong>v2.5</strong>：面板顶部给出 <strong>V 字底明确结论</strong>（已确认 / 左侧待确认 / 暂未形成等）；极端波动时非对称目标带 + OI 出清与衰竭共振。<strong>非投资建议</strong>。</p>
       <dl id="supportDl"></dl>
     </div>
 
@@ -2041,6 +2055,176 @@
     return Math.min(100, s);
   }
 
+  /** 统计左侧/出清类共振信号个数 */
+  function countVBottomLeftSignals(p) {
+    let n = 0;
+    if (p.oiLiquidation) n++;
+    if (p.exhaustionScore != null && p.exhaustionScore >= 40) n++;
+    if (p.tailRatio != null && p.tailRatio >= 0.55) n++;
+    if (p.climax) n++;
+    if (p.lvnRejectionBelow) n++;
+    return n;
+  }
+
+  /**
+   * V 字底明确结论（非模糊描述）：五档 verdict + 操作建议。
+   */
+  function evaluateVBottomVerdict(p) {
+    const sigN = countVBottomLeftSignals(p);
+    const fmtP = function (x) {
+      return x == null ? "—" : Number(x).toFixed(2).replace(/\.?0+$/, "");
+    };
+
+    if (!p.vBottomWatch) {
+      return {
+        code: "no",
+        boxClass: "verdict-neutral",
+        titleClass: "",
+        title: "结论：非 V 字底监测环境",
+        subtitle: "VSI ≤ " + VSI_EXTREME + "（常态波动）",
+        verdict:
+          "当前波动未达极端阈值，不适用 V 底左侧/右侧判定框架；请按常规模型理解 L1/L2 与目标带。",
+        action: "以 Prediction 常规模型 + ±1.0/1.5/2.0×ATR 对称目标带为主。",
+        confidence: "不适用",
+      };
+    }
+
+    const panicTxt =
+      p.panicClearLow != null
+        ? "恐慌出清参考位 " + fmtP(p.panicClearLow)
+        : "恐慌出清位待触发";
+
+    if (
+      p.vBottomConfirmed &&
+      p.currentPrice >= p.supportL2 &&
+      sigN >= 2 &&
+      p.trendBias100 != null &&
+      p.trendBias100 >= 20
+    ) {
+      return {
+        code: "confirmed",
+        boxClass: "verdict-confirmed",
+        titleClass: "sent-bull",
+        title: "结论：V 字底已确认（右侧成立）",
+        subtitle:
+          "VSI=" +
+          fmtP(p.vsi) +
+          " · 已收复 L2 " +
+          fmtP(p.supportL2) +
+          " · 倾向度 " +
+          (p.trendBias100 >= 0 ? "+" : "") +
+          p.trendBias100.toFixed(1),
+        verdict:
+          "极端恐慌后筹码出清（共振 " +
+          sigN +
+          "/5：OI出清=" +
+          (p.oiLiquidation ? "是" : "否") +
+          "，衰竭=" +
+          (p.exhaustionScore != null ? p.exhaustionScore.toFixed(0) : "—") +
+          "，下影=" +
+          (p.tailRatio != null ? (p.tailRatio * 100).toFixed(0) + "%" : "—") +
+          "），价格已站回 L2 量能峰值之上，符合「左侧出清 + 右侧确认」的 V 底完成形态。",
+        action:
+          "偏多修复：回落不破 L2（" +
+          fmtP(p.supportL2) +
+          "）可视作右侧延续；放量跌回核心下沿（" +
+          fmtP(p.coreLow) +
+          "）以下则结论作废，转防守。",
+        confidence: sigN >= 3 && p.trendBias100 >= 35 ? "高" : "中高",
+      };
+    }
+
+    if (p.vBottomConfirmed) {
+      return {
+        code: "confirmed_weak",
+        boxClass: "verdict-confirmed",
+        titleClass: "sent-bull",
+        title: "结论：V 字底初步确认（强度偏弱）",
+        subtitle: "已收复 L2，但出清/衰竭共振不足或倾向度偏低",
+        verdict:
+          "价格已回到 L2（" +
+          fmtP(p.supportL2) +
+          "）上方，但左侧信号仅 " +
+          sigN +
+          "/5 项达标（建议≥2 且倾向度≥20）。可能是弱反弹而非完整 V 底。",
+        action: "可小仓试多，需次日放量站稳 L2 且 OI 不再急降；否则按震荡处理。",
+        confidence: "中",
+      };
+    }
+
+    if (p.vBottomMode && sigN >= 2) {
+      return {
+        code: "pending_left",
+        boxClass: "verdict-pending",
+        titleClass: "signal-yellow",
+        title: "结论：V 字底左侧成立，等待右侧确认",
+        subtitle:
+          "价在 L2 核心下沿以下 · " + panicTxt + " · 共振 " + sigN + "/5",
+        verdict:
+          "处于极端波动杀跌段：出清/衰竭/下影已出现 " +
+          sigN +
+          " 项共振，但收盘尚未收复 L2（" +
+          fmtP(p.supportL2) +
+          "）。定义为<strong>左侧探底进行中</strong>，V 底<strong>未最终确认</strong>。",
+        action:
+          "禁止追空。可观察是否触及 " +
+          panicTxt +
+          " 并出现长下影；<strong>右侧确认条件</strong>：收盘 ≥ L2（" +
+          fmtP(p.supportL2) +
+          "）且衰竭≥35 或 OI 出清。",
+        confidence: sigN >= 3 ? "中偏高" : "中",
+      };
+    }
+
+    if (p.vBottomMode) {
+      return {
+        code: "pending_left_weak",
+        boxClass: "verdict-pending",
+        titleClass: "signal-yellow",
+        title: "结论：疑似 V 底区域，左侧信号不足",
+        subtitle: "已跌破 L2 核心下沿，但出清/衰竭共振仅 " + sigN + "/5",
+        verdict:
+          "价格在 L2 下方且 VSI 极高，但缺少典型的「最后一跌」特征（OI 断崖、长下影、Climax 等）。更可能是下跌中继，不宜提前定性为 V 底。",
+        action:
+          "观望为主；若急跌触及 " +
+          panicTxt +
+          " 且下影≥60%、OI 大幅减仓，再升级为「左侧成立」。",
+        confidence: "低",
+      };
+    }
+
+    if (p.vBottomWatch && p.currentPrice >= p.supportL2 && sigN >= 2) {
+      return {
+        code: "repair_not_v",
+        boxClass: "verdict-pending",
+        titleClass: "",
+        title: "结论：极端波动下的修复反弹，非标准 V 底",
+        subtitle: "VSI 极高但价在 L2 之上，未经历典型「破核心后收回」",
+        verdict:
+          "高波动环境中的反弹修复，未完整经历「跌破 L2 核心 → 恐慌出清 → 收复 L2」的 V 形路径，不按 V 底已确认处理。",
+        action: "按常态偏多/震荡规则；上方仍受 VWAP 与 LVN 压力约束。",
+        confidence: "中",
+      };
+    }
+
+    return {
+      code: "watch",
+      boxClass: "verdict-negative",
+      titleClass: "sent-bear",
+      title: "结论：暂未形成 V 字底",
+      subtitle: "VSI=" + fmtP(p.vsi) + " 极高，但结构/出清条件未满足",
+      verdict:
+        "极端波动已触发监测，但当前 K 线组合不符合 V 底左侧或右侧定义（共振 " +
+        sigN +
+        "/5）。倾向为<strong>高波动下的趋势延续或无序震荡</strong>，而非 V 形反转。",
+      action:
+        "空仓观望；仅当出现 OI 出清 + 长下影 + 收复 L2 三连击时再评估 V 底。关注 " +
+        panicTxt +
+        "。",
+      confidence: "低",
+    };
+  }
+
   /**
    * V 底待确立模式：OI 出清 + 下影拒绝 + VWAP 乖离修复（非线性权重）。
    */
@@ -2523,6 +2707,23 @@
     prediction.predLow = targetProjection.normalLow;
     prediction.predHigh = targetProjection.normalHigh;
 
+    const vBottomVerdict = evaluateVBottomVerdict({
+      vsi: vsiInfo.vsi,
+      vBottomWatch: vBottomWatch,
+      vBottomMode: vBottomMode,
+      vBottomConfirmed: vBottomConfirmed,
+      currentPrice: currentPrice,
+      supportL2: supportL2,
+      coreLow: coreLow,
+      panicClearLow: targetProjection.panicClearLow,
+      oiLiquidation: oiLiq.liquidation,
+      exhaustionScore: exhaustionScore,
+      tailRatio: tailRatio,
+      climax: vwapAccel.climax,
+      lvnRejectionBelow: lvnBelow.lvnRejectionBelow,
+      trendBias100: prediction.trendBias100,
+    });
+
     return {
       ok: true,
       lookbackL1: lookbackL1,
@@ -2577,6 +2778,7 @@
       exhaustionScore: exhaustionScore,
       vBottomMode: vBottomMode,
       vBottomConfirmed: vBottomConfirmed,
+      vBottomVerdict: vBottomVerdict,
     };
   }
 
@@ -2628,40 +2830,60 @@
         ? (res.tailRatio * 100).toFixed(0) + "%"
         : "—";
 
+    const vb = res.vBottomVerdict || {};
+    const hVerdict =
+      "<dt>V 字底结论（明确）</dt><dd>" +
+      "<div class=\"vbottom-verdict-box " +
+      (vb.boxClass || "verdict-neutral") +
+      "\" role=\"status\">" +
+      "<p class=\"vbottom-verdict-title " +
+      (vb.titleClass || "") +
+      "\">" +
+      (vb.title || "V 字底结论") +
+      "</p>" +
+      "<p class=\"vbottom-verdict-meta\">" +
+      (vb.subtitle || "") +
+      " · 置信度：" +
+      (vb.confidence || "—") +
+      "</p>" +
+      "<p class=\"vbottom-verdict-body\"><strong>判定：</strong>" +
+      (vb.verdict || "—") +
+      "</p>" +
+      "<p class=\"vbottom-verdict-body\" style=\"margin-top:0.45rem;\"><strong>操作：</strong>" +
+      (vb.action || "—") +
+      "</p>" +
+      "</div></dd>";
+
     let hVbottom = "";
-    if (res.vBottomMode) {
+    if (res.vBottomWatch) {
       hVbottom =
-        "<dt>⚠️ 极端波动 · V底潜在区域（v2.5）</dt><dd>" +
+        "<dt>极端波动 · V底因子明细（v2.5）</dt><dd>" +
         "<strong>VSI</strong>=" +
         vsiNumStr +
         "（" +
         (vsi ? vsi.label : "—") +
         "）；" +
         (tpEarly.asymmetric
-          ? "非对称 Target 已启用：上沿缩窄，<strong>恐慌出清位</strong>=" +
+          ? "非对称 Target：恐慌出清位=" +
             fmt(tpEarly.panicClearLow) +
             "（−" +
             fmt(tpEarly.kPanic) +
             "×ATR）"
-          : "待价低于 VWAP 后触发非对称下沿") +
+          : "对称目标带") +
         "。<br/>" +
-        "<strong>OI 出清</strong>：" +
-        (oiLiq.liquidation
-          ? "是（阶段新低 + 近 " + OI_LIQ_LOOKBACK + " 日最大减仓，系数≈" + fmt(oiLiq.oiLiquidationCoef) + "）"
-          : "否") +
-        "；<strong>衰竭得分</strong>=" +
+        "OI 出清=" +
+        (oiLiq.liquidation ? "是" : "否") +
+        "；衰竭=" +
         (exScore != null ? exScore.toFixed(0) : "—") +
-        "/100（Climax=" +
-        (res.vwapAccel && res.vwapAccel.climax ? "是" : "否") +
-        "，下影线占比=" +
+        "/100；下影=" +
         tailPct +
-        "，下方LVN拒绝=" +
+        "；下方LVN拒绝=" +
         (res.lvnBelow && res.lvnBelow.lvnRejectionBelow ? "是" : "否") +
-        "）。" +
-        (res.vBottomConfirmed
-          ? " <strong class=\"sent-bull\">右侧：已收复 L2 核心区，V底确认权重上调。</strong>"
-          : " 左侧：关注下影线 + OI 出清后能否收复 L2（" + fmt(res.supportL2) + "）。") +
-        "</dd>";
+        "；L2=" +
+        fmt(res.supportL2) +
+        "；核心下沿=" +
+        fmt(res.coreLow) +
+        "。</dd>";
     }
 
     const h =
@@ -2814,8 +3036,13 @@
 
     const predModeNote =
       pr.engineMode === "v_bottom"
-        ? "<br/><strong>引擎模式</strong>：V底待确立（权重 OI 40% / 下影·拒绝 30% / VWAP修复 20% / 其它 10%）"
-        : "";
+        ? "<br/><strong>引擎模式</strong>：V底待确立（权重 OI 40% / 下影·拒绝 30% / VWAP修复 20% / 其它 10%）" +
+          (res.vBottomVerdict && res.vBottomVerdict.title
+            ? " · <strong>" + res.vBottomVerdict.title + "</strong>"
+            : "")
+        : res.vBottomVerdict && res.vBottomVerdict.code !== "no"
+          ? "<br/><strong>V底监测</strong>：" + res.vBottomVerdict.title
+          : "";
 
     const hPred =
       "<dt>📈 涨跌趋势倾向（Prediction Engine v1.0 · v2.5）</dt><dd>" +
@@ -2937,7 +3164,7 @@
       scen +
       "</dd>";
 
-    supportDl.innerHTML = h + hVbottom + hPred + hTarget;
+    supportDl.innerHTML = hVerdict + h + hVbottom + hPred + hTarget;
     supportCard.hidden = false;
   }
 
