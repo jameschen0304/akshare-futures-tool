@@ -126,7 +126,7 @@
 <body>
   <div class="wrap">
     <h1>国内期货历史 K 线</h1>
-    <p class="sub">默认使用<strong>新浪财经</strong>日 K；主连、汉字品种等请选<strong>东方财富</strong>。支撑/倾向度/<strong>v2.5 目标带</strong>（含 V 底非对称恐慌下沿）均为模型辅助。仅供学习研究，不构成投资建议。</p>
+    <p class="sub">默认使用<strong>新浪财经</strong>日 K；主连、汉字品种等请选<strong>东方财富</strong>。支撑看板 <strong>v2.5 优化版</strong>：VSI 三档、动态阻力/支撑、V 底明确结论。仅供学习研究，不构成投资建议。</p>
 
     <div class="card">
       <div class="row">
@@ -173,8 +173,8 @@
     </div>
 
     <div class="card" id="supportCard" hidden>
-      <h2>支撑点位（自动识别）<span class="algo-ver" id="algoVerBadge">算法 v2.5</span></h2>
-      <p class="sub" style="margin-bottom: 0.75rem;"><strong>v2.5</strong>：面板顶部给出 <strong>V 字底明确结论</strong>（已确认 / 左侧待确认 / 暂未形成等）；极端波动时非对称目标带 + OI 出清与衰竭共振。<strong>非投资建议</strong>。</p>
+      <h2>支撑点位与波幅预测看板<span class="algo-ver" id="algoVerBadge">v2.5 优化版</span></h2>
+      <p class="sub" style="margin-bottom: 0.75rem;"><strong>v2.5 优化版</strong>：VSI 三档（常态稳态 / 活跃偏离 / 极端恐慌）；关键位随现价动态标注<strong>支撑或阻力</strong>；报告按「状态 → 结构 → 资金 → 目标」排布。<strong>非投资建议</strong>。</p>
       <dl id="supportDl"></dl>
     </div>
 
@@ -1923,6 +1923,7 @@
     return c > 0 ? s / c : null;
   }
 
+  const VSI_STEADY = 1.2;
   const VSI_EXTREME = 1.3;
   const VSI_PANIC = 1.5;
   const OI_LIQ_LOOKBACK = 20;
@@ -2076,15 +2077,32 @@
     };
 
     if (!p.vBottomWatch) {
+      const tierName =
+        p.vsiTier === "active" ? "活跃偏离" : p.vsiTier === "steady" ? "常态稳态" : "—";
+      const modelName = p.vsiTier === "active" ? "活跃波动" : "常态稳态";
       return {
         code: "no",
         boxClass: "verdict-neutral",
         titleClass: "",
-        title: "结论：非 V 字底监测环境",
-        subtitle: "VSI ≤ " + VSI_EXTREME + "（常态波动）",
+        title: "结论：非 V 字底监测环境（未达极端恐慌标准）",
+        subtitle:
+          "VSI = " +
+          fmtP(p.vsi) +
+          "（处于「" +
+          tierName +
+          "」区间，未达 " +
+          VSI_EXTREME +
+          " 极端阈值）",
         verdict:
-          "当前波动未达极端阈值，不适用 V 底左侧/右侧判定框架；请按常规模型理解 L1/L2 与目标带。",
-        action: "以 Prediction 常规模型 + ±1.0/1.5/2.0×ATR 对称目标带为主。",
+          "波动未达<strong>极端恐慌</strong>标准，不适用 V 底左侧/右侧判定框架；请按常规<strong>" +
+          modelName +
+          "</strong>模型理解 L1/L2 与目标带。",
+        action:
+          "以 Prediction 常规模型 + " +
+          (p.vsiTier === "active"
+            ? "对称目标带（活跃偏离，风险溢价上升）"
+            : "±1.0/1.5/2.0×ATR 对称通道") +
+          " 为主。",
         confidence: "不适用",
       };
     }
@@ -2393,42 +2411,158 @@
     };
   }
 
-  /** VSI = ATR(14) / 过去 60 日 ATR 均值（与「ATR 比率」同值）。 */
+  /** 关键位相对现价：低于为阻力，高于为支撑 */
+  function levelRole(price, level) {
+    if (price == null || level == null || !isFinite(price) || !isFinite(level)) return "—";
+    return price < level ? "阻力" : "支撑";
+  }
+
+  function buildStructureContext(res) {
+    const p = res.currentPrice;
+    const belowL1 = res.belowL1;
+    const belowL2 = res.belowL2;
+    const flipped = belowL1 && belowL2;
+    const pTxt = p == null ? "—" : String(Number(p).toFixed(2).replace(/\.?0+$/, ""));
+    return {
+      belowL1: belowL1,
+      belowL2: belowL2,
+      flipped: flipped,
+      l1Role: levelRole(p, res.supportL1),
+      l2Role: levelRole(p, res.supportL2),
+      l1Title: belowL1 ? "短期强阻力 (L1 峰值)" : "短期支撑 (L1 峰值)",
+      l2Title: belowL2 ? "中期核心阻力区 (L2)" : "中期核心支撑区 (L2)",
+      flipNote: flipped
+        ? "今收（<strong>" +
+          pTxt +
+          "</strong>）已低于 L1 与 L2 核心区，上述量能峰值已由<strong>支撑转为阻力</strong>；下方「量化目标」为向下延伸位。"
+        : belowL1
+          ? "今收（<strong>" +
+            pTxt +
+            "</strong>）已跌破 L1，L1 由支撑转为<strong>阻力</strong>；L2 仍为支撑参考。"
+          : "今收在 L1 之上，L1/L2 峰值仍作支撑/分水岭参考。",
+    };
+  }
+
+  /** 按现价与关键位关系生成纪律性操作指引（避免「跌破后仍写回踩不破」） */
+  function buildTradeDisciplineGuide(res, fmt) {
+    const st = buildStructureContext(res);
+    const l1 = fmt(res.supportL1);
+    const l2 = fmt(res.supportL2);
+    const coreLo = fmt(res.coreLow);
+    const coreHi = fmt(res.coreHigh);
+    const nL1 = fmt(res.nextSupportL1);
+    const nL2 = fmt(res.nextSupportL2);
+    const parts = [];
+
+    if (st.flipped) {
+      parts.push(
+        "1. <strong>向上反弹</strong>：若下一交易日反弹，首要观察能否<strong>放量收复</strong> L1 强阻力位（" +
+          l1 +
+          "）。若反弹无量且在此处遇阻，表明多头反攻受限，弱势震荡仍将延续。"
+      );
+      parts.push(
+        "进一步需有效突破 L2 核心阻力区 [" +
+          coreLo +
+          ", " +
+          coreHi +
+          "]（峰值 " +
+          l2 +
+          "），方可讨论中期结构修复。"
+      );
+      parts.push(
+        "2. <strong>向下测试</strong>：若价格继续下探，重点观察下方量化位 L1 规则=" +
+          nL1 +
+          "、L2 延伸=" +
+          nL2 +
+          "。"
+      );
+      if (res.hasOi && res.oiDelta != null && res.oiDelta > 0 && res.currentPrice < res.prevClose) {
+        parts.push(
+          "今收低于关键位且<strong>下跌日增仓</strong>，显示低位有资金接盘或空头锁仓；若回踩下沿时 OI 停止增加或开始缩量，可视为潜在的短线企稳信号。"
+        );
+      } else if (res.hasOi && res.oiDelta != null && res.oiDelta < 0 && res.currentPrice < res.prevClose) {
+        parts.push("下跌日减仓，空头有所兑现；反弹需仍以上方 L1/L2 阻力收复为验真条件。");
+      }
+    } else if (!st.belowL1) {
+      parts.push(
+        "1. <strong>趋势延续</strong>：价格在 L1（" +
+          l1 +
+          "）之上，若下一时段<strong>回踩 L1 不破</strong>且未出现异常增仓打压，趋势延续概率相对较高。"
+      );
+      parts.push(
+        "2. <strong>结构转弱</strong>：若<strong>放量跌破</strong> L2 核心下沿（约 " +
+          coreLo +
+          "）并伴随持仓显著增加，需警惕趋势反转。"
+      );
+    } else {
+      parts.push(
+        "1. <strong>向上反弹</strong>：已跌破 L1，首要关注能否收复 L1 阻力（" +
+          l1 +
+          "）；未收复前勿按「强势回踩」理解。"
+      );
+      parts.push(
+        "2. <strong>向下测试</strong>：若反弹失败，下方关注 L2 核心支撑区 [" +
+          coreLo +
+          ", " +
+          coreHi +
+          "] 与延伸位 " +
+          nL2 +
+          "。"
+      );
+    }
+    return parts.join("<br/>");
+  }
+
+  /**
+   * VSI 三档：≤1.2 常态稳态 | (1.2,1.3] 活跃偏离 | >1.3 极端恐慌（V底通道）
+   */
   function analyzeVsi(atrRatio) {
     if (atrRatio == null || !isFinite(atrRatio) || atrRatio <= 0) {
       return {
         vsi: null,
+        tier: null,
         label: "—",
         advice: "缺少有效 ATR 比率，无法计算 VSI。",
         shrink: 1,
         hiConf: false,
+        extremeVol: false,
       };
     }
     const vsi = atrRatio;
+    let tier = "steady";
     let label = "";
     let advice = "";
     let shrink = 1;
     let hiConf = false;
     let extremeVol = false;
-    if (vsi < 0.9) {
-      label = "极度缩量";
-      advice = "波动异常偏小，警惕变盘前夜；目标位宜降权参考。";
-    } else if (vsi <= 1.1) {
-      label = "常态波动";
-      advice = "处于 [0.9,1.1] 稳态区间，增减幅更接近「正常呼吸」，目标带宽可参考性相对较高。";
-      hiConf = true;
-    } else if (vsi <= 1.3) {
-      label = "活跃波动";
-      advice = "波动高于常态，区间会变宽；应理解为风险溢价上升，而非单纯「空间更大」。";
-    } else {
-      label = "高风险波动";
+
+    if (vsi <= VSI_STEADY) {
+      tier = "steady";
+      label = "常态稳态";
       advice =
-        "波动显著异动；上沿目标 ×0.8 缩窄。若价低于 VWAP，下沿切换为<strong>非对称恐慌出清位</strong>（−2.5～2.8×ATR，不再同步缩窄）。";
+        "常规噪声区间，采用<strong>对称通道</strong>理解目标带；增减幅接近正常波动。";
+      if (vsi <= 1.1) hiConf = true;
+      if (vsi < 0.9) {
+        advice += " 波动偏低，警惕变盘前夜。";
+      }
+    } else if (vsi <= VSI_EXTREME) {
+      tier = "active";
+      label = "活跃偏离";
+      advice =
+        "波动高于常态，<strong>风险溢价上升</strong>；因未达 " +
+        VSI_EXTREME +
+        " 极端阈值，<strong>不激活</strong> V 底非对称出清通道，仍用对称目标带。";
+    } else {
+      tier = "panic";
+      label = "极端恐慌";
+      advice =
+        "触发 V 底监测与非对称出清通道；上沿目标 ×0.8 缩窄。价低于 VWAP 时下沿放宽至恐慌出清位（−2.5～2.8×ATR）。";
       shrink = 0.8;
       extremeVol = true;
     }
     return {
       vsi: vsi,
+      tier: tier,
       label: label,
       advice: advice,
       shrink: shrink,
@@ -2641,13 +2775,27 @@
       sentiment =
         "价格在 L1（" +
         lookbackL1 +
-        "日峰值）之上，短期强势；L2 作中期分水岭，未跌破 L1 前可弱化远端 L2 距离感。";
+        "日峰值）之上，L1/L2 仍作支撑参考；短期偏强，L2 为中期分水岭。";
       sentClass = "sent-bull";
     } else if (currentPrice >= supportL2) {
-      sentiment = "已跌破 L1，尚在 L2 与核心区间之上，关注 L2 与动态下沿。";
+      sentiment =
+        "已跌破 L1（" +
+        supportL1.toFixed(2) +
+        "），L1 转为<strong>阻力</strong>；尚在 L2 核心支撑区之上，关注能否收复 L1。";
       sentClass = "";
+    } else if (currentPrice >= coreLow) {
+      sentiment =
+        "已跌破 L2 峰值（" +
+        supportL2.toFixed(2) +
+        "），L1/L2 均已转为<strong>上方阻力</strong>；下方关注核心下沿与延伸量化位。";
+      sentClass = "sent-bear";
     } else {
-      sentiment = "已低于 L2 量能峰值，下一量化支撑采用 L2 峰值 − 动态系数×ATR。";
+      sentiment =
+        "今收低于 L2 核心下沿（" +
+        coreLow.toFixed(2) +
+        "），上方 L1/L2 均为阻力；下一量化目标 L2 延伸=" +
+        nextSupportL2.toFixed(2) +
+        "。";
       sentClass = "sent-bear";
     }
     if (vwapWarn) {
@@ -2709,6 +2857,7 @@
 
     const vBottomVerdict = evaluateVBottomVerdict({
       vsi: vsiInfo.vsi,
+      vsiTier: vsiInfo.tier,
       vBottomWatch: vBottomWatch,
       vBottomMode: vBottomMode,
       vBottomConfirmed: vBottomConfirmed,
@@ -2805,24 +2954,8 @@
 
     const vsi = res.vsi;
     const tpEarly = res.targetProjection || {};
-    const vsiNumStr = vsi && vsi.vsi != null && isFinite(vsi.vsi) ? Number(vsi.vsi).toFixed(3) : "—";
-    const vsiHtml =
-      "<dt>📊 波动率稳态监控（VSI v1.0）</dt><dd>VSI = ATR(14)/ATR(" +
-      res.atrMeanDays +
-      "日均) = <strong>" +
-      vsiNumStr +
-      "</strong> — 「" +
-      (vsi ? vsi.label : "—") +
-      "」" +
-      (vsi ? vsi.advice : "") +
-      (vsi && vsi.hiConf ? " <em>高置信度窗口（稳态）</em>" : "") +
-      (vsi && vsi.shrink < 1 && !tpEarly.asymmetric
-        ? " <strong>上沿目标位已 ×" + vsi.shrink + " 缩窄。</strong>"
-        : vsi && vsi.extremeVol && tpEarly.asymmetric
-          ? " <strong>已启用非对称 Target（下沿恐慌出清位）。</strong>"
-          : "") +
-      "</dd>";
-
+    const pr = res.prediction;
+    const st = buildStructureContext(res);
     const oiLiq = res.oiLiq || {};
     const exScore = res.exhaustionScore;
     const tailPct =
@@ -2854,133 +2987,141 @@
       "</p>" +
       "</div></dd>";
 
-    let hVbottom = "";
-    if (res.vBottomWatch) {
-      hVbottom =
-        "<dt>极端波动 · V底因子明细（v2.5）</dt><dd>" +
-        "<strong>VSI</strong>=" +
-        vsiNumStr +
-        "（" +
-        (vsi ? vsi.label : "—") +
-        "）；" +
-        (tpEarly.asymmetric
-          ? "非对称 Target：恐慌出清位=" +
-            fmt(tpEarly.panicClearLow) +
-            "（−" +
-            fmt(tpEarly.kPanic) +
-            "×ATR）"
-          : "对称目标带") +
-        "。<br/>" +
-        "OI 出清=" +
-        (oiLiq.liquidation ? "是" : "否") +
-        "；衰竭=" +
-        (exScore != null ? exScore.toFixed(0) : "—") +
-        "/100；下影=" +
-        tailPct +
-        "；下方LVN拒绝=" +
-        (res.lvnBelow && res.lvnBelow.lvnRejectionBelow ? "是" : "否") +
-        "；L2=" +
-        fmt(res.supportL2) +
-        "；核心下沿=" +
-        fmt(res.coreLow) +
-        "。</dd>";
-    }
+    const vsiNumStr = vsi && vsi.vsi != null && isFinite(vsi.vsi) ? Number(vsi.vsi).toFixed(3) : "—";
+    const chgPct =
+      res.prevClose > 0
+        ? (((res.currentPrice - res.prevClose) / res.prevClose) * 100).toFixed(2) + "%"
+        : "—";
+    const chgDir = res.currentPrice >= res.prevClose ? "上涨" : "下跌";
 
-    const h =
-      "<dt>逻辑版本</dt><dd>v2.5 — Prediction v1.0 + <strong>V底待确立模式</strong>、OI 出清、衰竭得分、<strong>Target 非对称</strong>（±1.0/1.5/2.0×ATR）</dd>" +
-      "<dt>L1 短期量能峰值（" +
-      res.lookbackL1 +
-      "日）</dt><dd>" +
+    const hSection1 =
+      "<dt>1. 核心状态与 V 底监测</dt><dd>" +
+      "<strong>收盘基准</strong>：今收 " +
+      fmt(res.currentPrice) +
+      " / 昨收 " +
+      fmt(res.prevClose) +
+      "（" +
+      chgDir +
+      " " +
+      chgPct +
+      "）<br/>" +
+      "<strong>V 字底状态</strong>：" +
+      (vb.title || "—") +
+      "<br/>" +
+      "<strong>波动率 (VSI)</strong>：VSI = " +
+      vsiNumStr +
+      "（<strong>" +
+      (vsi ? vsi.label : "—") +
+      "</strong>；" +
+      (vsi ? vsi.advice : "") +
+      (vsi && vsi.hiConf ? " <em>高置信参考窗口</em>" : "") +
+      "）<br/>" +
+      "<strong>当前状态分类</strong>：" +
+      pr.regime +
+      "（标准化倾向度 " +
+      (pr.trendBias100 >= 0 ? "+" : "") +
+      pr.trendBias100.toFixed(1) +
+      "）<br/>" +
+      "ATR(14)=" +
+      fmt(res.atr) +
+      "；动态延伸系数=" +
+      fmt(res.atrMultDynamic) +
+      "；VWAP=" +
+      fmt(res.vwapVal) +
+      "（乖离 " +
+      fmtPct(res.vwapDeviation) +
+      "）" +
+      "</dd>";
+
+    const hSection2 =
+      "<dt>2. 量化结构关键位（动态阻力/支撑）</dt><dd>" +
+      st.flipNote +
+      "<ul style=\"margin:0.45rem 0 0 1rem;padding:0;\">" +
+      "<li><strong>" +
+      st.l1Title +
+      "</strong>：" +
       fmt(res.supportL1) +
-      "；下一量化支撑（L1 规则）=" +
-      fmt(res.nextSupportL1) +
-      "</dd>" +
-      "<dt>L2 中期量能峰值（" +
-      res.lookbackL2 +
-      "日）与核心支撑区</dt><dd>峰值 " +
-      fmt(res.supportL2) +
-      "；区间 [" +
+      "（相对现价：<strong>" +
+      st.l1Role +
+      "</strong>）</li>" +
+      "<li><strong>" +
+      st.l2Title +
+      "</strong>：[" +
       fmt(res.coreLow) +
       ", " +
       fmt(res.coreHigh) +
-      "]（±" +
-      res.coreHalfBand +
-      " 点）</dd>" +
-      "<dt>L2 下一量化支撑</dt><dd>" +
+      "]（峰值 " +
+      fmt(res.supportL2) +
+      "；相对现价 L2 峰值作<strong>" +
+      st.l2Role +
+      "</strong>）</li>" +
+      "<li><strong>下方量化目标 (L1 规则)</strong>：" +
+      fmt(res.nextSupportL1) +
+      (st.flipped ? "（延伸支撑，临近现价）" : "") +
+      "</li>" +
+      "<li><strong>下方量化目标 (L2 延伸)</strong>：" +
       fmt(res.nextSupportL2) +
-      (res.belowL2
-        ? "（今收 &lt; L2：L2 − 动态系数×ATR）"
-        : "（今收 ≥ L2：取 L2 峰值）") +
-      "</dd>" +
-      "<dt>压力区 / LVN（L2 窗口）</dt><dd>" +
+      "</li>" +
+      "</ul>" +
       (res.hasLvnRun
-        ? "低量判定阈值≈" +
-          fmt(res.lvnThr) +
-          "（分箱量）；稀薄带 [" +
+        ? "LVN 稀薄带 [" +
           fmt(res.lvnZoneBottom) +
           ", " +
           fmt(res.lvnZoneTop) +
-          "]（POC 上方至下一相对密集档）"
-        : "POC 上方未识别出明显连续稀薄带（或紧邻即进入相对高量档）。") +
-      (res.pressureMessage ? " — <strong>" + res.pressureMessage + "</strong>" : "") +
-      (res.thinBandNote && !res.pressureMessage ? " — " + res.thinBandNote : "") +
-      (res.resistanceFlipNote ? " " + res.resistanceFlipNote : "") +
-      "</dd>" +
-      "<dt>波动率偏离（动态系数）</dt><dd>ATR(14)=" +
-      fmt(res.atr) +
-      "；过去 " +
-      res.atrMeanDays +
-      " 日 ATR 均值=" +
-      fmt(res.atrMeanPast) +
-      "；比率=" +
-      atrRatioStr +
-      " → 延伸系数 <strong>" +
-      fmt(res.atrMultDynamic) +
-      "</strong>（基础 " +
-      fmt(res.atrMultBase) +
-      " / 扩张 " +
-      fmt(res.atrMultExpand) +
-      "）</dd>" +
-      vsiHtml +
-      "<dt>区间 VWAP 与乖离</dt><dd>VWAP=" +
-      fmt(res.vwapVal) +
-      "；乖离率=" +
-      fmtPct(res.vwapDeviation) +
-      (res.vwapWarn ? " — " + res.vwapWarn : "") +
-      "</dd>" +
-      "<dt>今收 / 昨收</dt><dd>" +
-      fmt(res.currentPrice) +
-      " / " +
-      fmt(res.prevClose) +
-      "</dd>" +
-      "<dt>回踩与波动</dt><dd>" +
-      (res.pullbackStatus ? res.pullbackStatus : "—") +
-      "</dd>" +
-      "<dt>持仓变化与可靠性</dt><dd>" +
-      (res.oiDelta != null && isFinite(res.oiDelta) ? "今日持仓增减（或估算）=" + fmt(res.oiDelta) : "—") +
+          "]。" +
+          (res.pressureMessage ? " " + res.pressureMessage : "")
+        : "") +
+      "</dd>";
+
+    const hSection3 =
+      "<dt>3. 资金、持仓与情绪验证</dt><dd>" +
+      "<strong>持仓增减 (OI)</strong>：" +
+      (res.oiDelta != null && isFinite(res.oiDelta) ? fmt(res.oiDelta) : "—") +
       " — " +
       res.reliability +
       (oiLiq.liquidation
-        ? " <strong>【OI 出清系数≈" + fmt(oiLiq.oiLiquidationCoef) + "：阶段新低+近" + OI_LIQ_LOOKBACK + "日最大减仓】</strong>"
+        ? " <strong>【OI 出清：阶段新低 + 近" + OI_LIQ_LOOKBACK + "日最大减仓】</strong>"
         : "") +
-      "</dd>" +
-      "<dt>支撑强度量化（示意）</dt><dd>峰值集中度=" +
-      fmtPct(res.peakWeight) +
-      "；OI/量比（截断 ±1）=" +
-      fmt(res.oiGrowthRate) +
-      "；强度分=" +
+      "<br/>" +
+      "<strong>支撑强度得分</strong>：" +
       fmt(res.strengthScore) +
-      "（≈ 集中度×(1+OI/量比)）</dd>" +
-      "<dt>市场情绪</dt><dd class=\"" +
+      "（峰值集中度 " +
+      fmtPct(res.peakWeight) +
+      "；OI/量比截断 " +
+      fmt(res.oiGrowthRate) +
+      "）<br/>" +
+      "<strong>市场情绪</strong>：<span class=\"" +
       res.sentClass +
       "\">" +
       res.sentiment +
-      "</dd>" +
-      "<dt>周期</dt><dd>" +
-      periodLabel +
+      "</span>" +
+      (res.pullbackStatus ? "<br/><strong>日内结构</strong>：" + res.pullbackStatus : "") +
       "</dd>";
 
-    const pr = res.prediction;
+    const disciplineGuide = buildTradeDisciplineGuide(res, fmt);
+    const hSection4 =
+      "<dt>4. 交易操作指引（纪律向）</dt><dd>" + disciplineGuide + "</dd>";
+
+    let hVbottom = "";
+    if (res.vBottomWatch) {
+      hVbottom =
+        "<dt>附：极端恐慌 · V底因子明细</dt><dd>" +
+        "衰竭=" +
+        (exScore != null ? exScore.toFixed(0) : "—") +
+        "/100；下影=" +
+        tailPct +
+        "；OI出清=" +
+        (oiLiq.liquidation ? "是" : "否") +
+        (tpEarly.asymmetric
+          ? "；恐慌出清位=" + fmt(tpEarly.panicClearLow)
+          : "") +
+        "。</dd>";
+    }
+
+    const hMeta =
+      "<dt>版本 / 周期</dt><dd>逻辑 v2.5 优化版 · " +
+      periodLabel +
+      " · 预测周期：下一交易日</dd>";
     const wsign = function (x) {
       if (x == null || !isFinite(x)) return "—";
       const n = Number(x);
@@ -3026,13 +3167,6 @@
     const decisionStatus =
       pr.regime +
       " — 刻度规则：&gt; +20 偏强看多，&lt; −20 偏防守，其间视为震荡 / 高波动平衡。";
-
-    const guide =
-      "若下一交易时段回踩 <strong>L1（" +
-      fmt(res.supportL1) +
-      "）</strong>不破、且未出现异常增仓打压，则趋势延续概率相对较高；若<strong>放量跌破核心支撑下沿（约 " +
-      fmt(res.coreLow) +
-      "）</strong>并伴随持仓显著增加，需警惕趋势反转。";
 
     const predModeNote =
       pr.engineMode === "v_bottom"
@@ -3086,9 +3220,6 @@
       "<br/>" +
       "<strong>核心观察</strong>：" +
       predObs +
-      "<br/>" +
-      "<strong>操作指引（纪律向）</strong>：" +
-      guide +
       "</dd>";
 
     const tp = res.targetProjection;
@@ -3098,17 +3229,21 @@
       return "±" + p.toFixed(2) + "%";
     };
 
+    const channelNote = tp.asymmetric
+      ? "当前为<strong>非对称通道</strong>（极端恐慌 + 价低于 VWAP）。"
+      : vsi && vsi.tier === "active"
+        ? "当前 VSI 处于<strong>活跃偏离</strong>，未达 1.3 恐慌标准，采用<strong>对称目标带</strong>。"
+        : "当前采用<strong>对称目标带</strong>。";
     const calib =
-      "ATR(14)/今收 ≈ <strong>" +
+      channelNote +
+      " ATR(14)/今收 ≈ <strong>" +
       (tp.atrPctOfClose != null && isFinite(tp.atrPctOfClose) ? tp.atrPctOfClose.toFixed(2) : "—") +
-      "%</strong>；60 日 ATR 均值/今收 ≈ <strong>" +
-      (tp.atrMeanPctOfClose != null && isFinite(tp.atrMeanPctOfClose) ? tp.atrMeanPctOfClose.toFixed(2) : "—") +
-      "%</strong>。" +
+      "%</strong>；波动单边尺度基准约 <strong>±" +
+      (tp.effAtrPctOfClose != null && isFinite(tp.effAtrPctOfClose) ? tp.effAtrPctOfClose.toFixed(2) : "—") +
+      "%</strong>（有效 ATR 校准）。" +
       (tp.asymmetric
-        ? " <strong>非对称模式</strong>：上沿 ×" + tp.vsiShrink + " 缩窄；下沿恐慌锚定 −" + fmt(tp.kPanic) + "×ATR（" + fmt(tp.panicClearLow) + "）。"
-        : tp.vsiShrink < 1
-          ? " VSI 高风险下有效尺度 ×" + tp.vsiShrink + "，对称各档收窄。"
-          : "");
+        ? " 下沿恐慌锚定 −" + fmt(tp.kPanic) + "×ATR（" + fmt(tp.panicClearLow) + "）。"
+        : "");
 
     const watchUp =
       res.lvnZoneTop != null && isFinite(res.lvnZoneTop)
@@ -3116,11 +3251,8 @@
         : " 上沿结合前高与盘口观察获利了结。";
 
     const scen =
-      "<strong>分级解读</strong>：±1.0× 档作<strong>日常噪声</strong>参考；触及 ±1.5× 视为<strong>波动放大/异动警戒</strong>；±2.0× 为<strong>尾部/极端</strong>小概率，不宜作日常期望。" +
-      watchUp +
-      " 结构关键位：<strong>L1 " +
-      fmt(res.supportL1) +
-      "</strong>。";
+      "<strong>触发定性</strong>：1.0× 为正常噪声；1.5× 为波动放大/异动警戒；2.0× 为极端尾部小概率。" +
+      watchUp;
 
     const panicRow = tp.asymmetric
       ? "<tr><td style=\"padding:0.3rem 0.5rem 0.3rem 0;border-bottom:1px solid var(--border);\">恐慌出清位（V底左侧）</td><td style=\"padding:0.3rem 0.5rem 0.3rem 0;border-bottom:1px solid var(--border);\"><strong>" +
@@ -3131,40 +3263,41 @@
       : "";
 
     const hTarget =
-      "<dt>🎯 目标位预测看板（Target v2.5）</dt><dd>" +
-      "<p style=\"margin:0 0 0.5rem 0;color:var(--muted);font-size:0.88rem;\">预测周期：<strong>下一交易日</strong>。常态以 <strong>1.0×ATR</strong> 为锚；极端下跌时启用<strong>非对称下沿</strong>。<strong>非投资建议</strong>。</p>" +
+      "<dt>5. 明日波动预测看板</dt><dd>" +
+      "<p style=\"margin:0 0 0.5rem 0;color:var(--muted);font-size:0.88rem;\"><strong>非投资建议</strong>。</p>" +
       "<strong>校准</strong>：" +
       calib +
       "<br/><br/>" +
       "<table style=\"width:100%;border-collapse:collapse;font-size:0.92rem;margin:0.25rem 0 0.5rem 0;\">" +
-      "<thead><tr><th style=\"text-align:left;border-bottom:1px solid var(--border);padding:0.2rem 0.5rem 0.2rem 0;\">阶梯</th><th style=\"text-align:left;border-bottom:1px solid var(--border);padding:0.2rem 0.5rem 0.2rem 0;\">区间</th><th style=\"text-align:left;border-bottom:1px solid var(--border);padding:0.2rem 0;\">单边尺度（相对今收）</th></tr></thead><tbody>" +
+      "<thead><tr><th style=\"text-align:left;border-bottom:1px solid var(--border);padding:0.2rem 0.5rem 0.2rem 0;\">波动阶梯</th><th style=\"text-align:left;border-bottom:1px solid var(--border);padding:0.2rem 0.5rem 0.2rem 0;\">波动区间</th><th style=\"text-align:left;border-bottom:1px solid var(--border);padding:0.2rem 0;\">触发定性</th></tr></thead><tbody>" +
       panicRow +
-      "<tr><td style=\"padding:0.3rem 0.5rem 0.3rem 0;border-bottom:1px solid var(--border);\">盘中正常波动</td><td style=\"padding:0.3rem 0.5rem 0.3rem 0;border-bottom:1px solid var(--border);\">[" +
+      "<tr><td style=\"padding:0.3rem 0.5rem 0.3rem 0;border-bottom:1px solid var(--border);\"><strong>盘中正常波动 (1.0×ATR)</strong></td><td style=\"padding:0.3rem 0.5rem 0.3rem 0;border-bottom:1px solid var(--border);\">[" +
       fmt(tp.normalLow) +
       ", " +
       fmt(tp.normalHigh) +
-      "]</td><td style=\"padding:0.3rem 0;border-bottom:1px solid var(--border);\">" +
+      "]</td><td style=\"padding:0.3rem 0;border-bottom:1px solid var(--border);\">正常噪声，不宜盲目追涨杀跌（" +
       symPctTier(1) +
-      "</td></tr>" +
-      "<tr><td style=\"padding:0.3rem 0.5rem 0.3rem 0;border-bottom:1px solid var(--border);\">波动放大警戒</td><td style=\"padding:0.3rem 0.5rem 0.3rem 0;border-bottom:1px solid var(--border);\">[" +
+      "）</td></tr>" +
+      "<tr><td style=\"padding:0.3rem 0.5rem 0.3rem 0;border-bottom:1px solid var(--border);\"><strong>波动放大警戒 (1.5×ATR)</strong></td><td style=\"padding:0.3rem 0.5rem 0.3rem 0;border-bottom:1px solid var(--border);\">[" +
       fmt(tp.warnLow) +
       ", " +
       fmt(tp.warnHigh) +
-      "]</td><td style=\"padding:0.3rem 0;border-bottom:1px solid var(--border);\">" +
+      "]</td><td style=\"padding:0.3rem 0;border-bottom:1px solid var(--border);\">市场异动；上沿防冲高回落，下沿防异常刺穿（" +
       symPctTier(1.5) +
-      "</td></tr>" +
-      "<tr><td style=\"padding:0.3rem 0.5rem 0.3rem 0;\">极端极限位</td><td style=\"padding:0.3rem 0.5rem 0.3rem 0;\">[" +
+      "）</td></tr>" +
+      "<tr><td style=\"padding:0.3rem 0.5rem 0.3rem 0;\"><strong>极端尾部极限 (2.0×ATR)</strong></td><td style=\"padding:0.3rem 0.5rem 0.3rem 0;\">[" +
       fmt(tp.extremeLow) +
       ", " +
       fmt(tp.extremeHigh) +
-      "]</td><td style=\"padding:0.3rem 0;\">" +
+      "]</td><td style=\"padding:0.3rem 0;\">极端小概率；若触及常伴随日内情绪修复（" +
       symPctTier(2) +
-      "</td></tr>" +
+      "）</td></tr>" +
       "</tbody></table>" +
       scen +
       "</dd>";
 
-    supportDl.innerHTML = hVerdict + h + hVbottom + hPred + hTarget;
+    supportDl.innerHTML =
+      hVerdict + hSection1 + hSection2 + hSection3 + hSection4 + hPred + hTarget + hVbottom + hMeta;
     supportCard.hidden = false;
   }
 
