@@ -197,7 +197,7 @@
         </div>
         <button type="button" class="primary" id="steelGo">查询钢材现货</button>
       </div>
-      <div class="links" id="steelSnapshotMeta">数据源：仓库内置快照（由 AkShare 采集 99qh 生成），避免浏览器跨域失败。<strong>本地快照模式（自动识别）</strong></div>
+      <div class="links" id="steelSnapshotMeta">数据源：仓库内置快照（AkShare 离线 JSON，非实时）。<strong>各品种最新交易日可能不同</strong>；螺纹偏 99qh 易滞后，可用 <code>build_steel_spot_daily.py --refresh-rb</code> 补齐。</div>
       <p id="steelMsg"></p>
     </div>
 
@@ -614,15 +614,32 @@
     if (!steelSnapshotMeta) return;
     const info = steelSnapshotInfo || {};
     const src = info.sourceText || "仓库内置快照";
-    const latest = info.latestDate || latestDateFromSymbols(steelCache, $("steelVariety").value) || "未知";
-    const ver = info.versionText ? ("，版本 " + info.versionText) : "";
+    const variety = $("steelVariety").value;
+    const latest =
+      info.latestDate || latestDateFromSymbols(steelCache, variety) || "未知";
+    const ver = info.generatedAt
+      ? "，快照生成 " + info.generatedAt.slice(0, 10)
+      : info.versionText
+        ? "，版本 " + info.versionText
+        : "";
+    let staleHint = "";
+    if (latest && latest !== "未知" && latest < todayDash()) {
+      staleHint =
+        " <span style=\"color:var(--err);\">该品种数据截至 " +
+        latest +
+        "，可运行 <code>python build_steel_spot_daily.py --refresh-rb</code> 或全量更新快照。</span>";
+    }
     steelSnapshotMeta.innerHTML =
       "数据源：" +
       src +
-      "（由 AkShare 采集 99qh 生成），避免浏览器跨域失败。<strong>最新日期 " +
+      "（AkShare 离线快照）。当前品种 <strong>" +
+      (variety || "—") +
+      "</strong> 最新交易日：<strong>" +
       latest +
+      "</strong>" +
       ver +
-      "</strong>";
+      staleHint +
+      "。各品种截止日可能不同（螺纹=99qh，热卷=100ppi）。";
   }
 
   function toNumOrNull(v) {
@@ -1555,6 +1572,7 @@
         steelSnapshotInfo = {
           sourceText: plainUrl === STEEL_DATA_URL ? "仓库内置快照" : "远端快照",
           latestDate: latestDateFromSymbols(symbols, $("steelVariety").value),
+          generatedAt: (data && data.generated_at) || "",
           versionText:
             (data && (data.version || data.snapshot_version || data.snapshotDate || data.snapshot_date)) || "",
         };
@@ -1674,7 +1692,20 @@
       }
       steelTbody.appendChild(frag);
       steelTableHost.hidden = false;
-      setSteelMsg(variety + " 区间内 " + rows.length + " 条（快照总计 " + allRows.length + " 条）。");
+      const lastInView = rows.length ? rows[rows.length - 1].date : "";
+      let tail =
+        variety +
+        " 区间内 " +
+        rows.length +
+        " 条（快照总计 " +
+        allRows.length +
+        " 条）";
+      if (lastInView) tail += "，表内最后交易日 " + lastInView;
+      const snapLast = latestDateFromRows(allRows);
+      if (snapLast && snapLast !== lastInView) {
+        tail += "；该品种快照最新 " + snapLast;
+      }
+      setSteelMsg(tail + "。");
     } catch (e) {
       setSteelMsg("请求失败：" + (e.message || String(e)), true);
       steelTableHost.hidden = true;

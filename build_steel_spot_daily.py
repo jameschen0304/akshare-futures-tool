@@ -123,6 +123,38 @@ def merge_rows(existing: list[dict] | None, fresh: list[dict]) -> list[dict]:
     return [by_date[k] for k in sorted(by_date)]
 
 
+def rows_from_rb_hybrid(start: str, end: str, ppi_lookback_days: int | None = None) -> tuple[list[dict], str]:
+    """螺纹钢：优先 99qh 全历史，再用 100ppi(RB) 补齐近端交易日（99qh 常滞后数天）。"""
+    qh_rows: list[dict] = []
+    try:
+        qh_rows = rows_from_99qh(VAR_RB)
+        print(f"  99qh {VAR_RB}: {len(qh_rows)} 条，末行 {qh_rows[-1]['date'] if qh_rows else '—'}")
+    except Exception as exc:
+        print(f"  警告: 99qh {VAR_RB} 失败 ({exc})，将仅用 100ppi")
+    ppi_start = start
+    if ppi_lookback_days and ppi_lookback_days > 0:
+        from datetime import timedelta
+
+        end_d = datetime.strptime(end[:10], "%Y-%m-%d").date()
+        ppi_start = (end_d - timedelta(days=ppi_lookback_days)).isoformat()
+    ppi_rows = rows_from_100ppi("RB", ppi_start, end)
+    print(f"  100ppi RB: {len(ppi_rows)} 条，末行 {ppi_rows[-1]['date'] if ppi_rows else '—'}")
+    merged = merge_rows(qh_rows, ppi_rows)
+    if qh_rows and ppi_rows:
+        return merged, "99qh+100ppi"
+    if qh_rows:
+        return merged, "99qh"
+    return merged, "100ppi"
+
+
+def symbol_latest_dates(symbols: dict) -> dict[str, str]:
+    out: dict[str, str] = {}
+    for name, rows in symbols.items():
+        if isinstance(rows, list) and rows and rows[-1].get("date"):
+            out[name] = str(rows[-1]["date"])
+    return out
+
+
 def build_coated_varieties(hc_rows: list[dict], anchor_dates: list[date], em_prices: dict[str, list[float | None]]) -> tuple[list[dict], list[dict]]:
     """由热卷日度 sp + 东财冷热/镀冷月度价差锚点，生成冷轧板、镀锌板日度 sp。"""
     daily_dates = [r["date"] for r in hc_rows if r.get("sp") is not None]
@@ -169,11 +201,26 @@ def load_json(path: Path) -> dict:
 def main() -> None:
     parser = argparse.ArgumentParser(description="生成/更新 steel_spot_daily.json")
     parser.add_argument("--out", type=Path, default=DEFAULT_OUT)
-    parser.add_argument("--start", default="2023-01-01", help="100ppi 日度回补起始日")
+    parser.add_argument(
+        "--start",
+        default="2023-01-01",
+        help="100ppi 日度回补起始日（--refresh-rb 时用于近端补齐）",
+    )
+    parser.add_argument(
+        "--rb-ppi-days",
+        type=int,
+        default=120,
+        help="--refresh-rb 时 100ppi 仅拉最近 N 个自然日（加快更新）",
+    )
     parser.add_argument(
         "--coated-only",
         action="store_true",
         help="仅补齐冷轧板/镀锌板（复用快照中已有热卷序列，最快）",
+    )
+    parser.add_argument(
+        "--refresh-rb",
+        action="store_true",
+        help="刷新螺纹钢（99qh+100ppi 混合，解决仅更新到数日前的问题）",
     )
     args = parser.parse_args()
 
@@ -185,17 +232,15 @@ def main() -> None:
     anchor_dates, em_prices = fetch_em_steel_monthly()
 
     end = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    if args.refresh_rb or not args.coated_only:
+        print(f"更新 {VAR_RB}（99qh + 100ppi 混合，{args.start} ~ {end}）…")
+        ppi_days = args.rb_ppi_days if args.refresh_rb else None
+        symbols[VAR_RB], sources[VAR_RB] = rows_from_rb_hybrid(args.start, end, ppi_days)
     if not args.coated_only:
         print(f"更新 100ppi 日度 {VAR_HC} ({args.start} ~ {end})…")
         symbols[VAR_HC] = merge_rows(symbols.get(VAR_HC), rows_from_100ppi("HC", args.start, end))
         sources[VAR_HC] = "100ppi"
-        print(f"更新 99qh {VAR_RB}…")
-        try:
-            symbols[VAR_RB] = merge_rows(symbols.get(VAR_RB), rows_from_99qh(VAR_RB))
-            sources[VAR_RB] = "99qh"
-        except Exception as exc:
-            print(f"  警告: 99qh 螺纹钢失败，保留已有数据 ({exc})")
-    else:
+    elif not args.refresh_rb:
         print(f"跳过期货日度回补（--coated-only），沿用快照 {VAR_HC}")
 
     hc_rows = symbols.get(VAR_HC) or []
@@ -212,6 +257,7 @@ def main() -> None:
     data["generated_at"] = datetime.now(timezone.utc).isoformat()
     data["symbols"] = symbols
     data["sources"] = sources
+    data["latest_dates"] = symbol_latest_dates(symbols)
 
     with args.out.open("w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
@@ -221,6 +267,10 @@ def main() -> None:
     sample_g = [r for r in gi_rows if r["date"] == "2026-05-21"]
     print(f"已写入 {args.out}")
     print(f"  品种: {', '.join(sorted(symbols))}")
+    for name in sorted(symbols):
+        rows = symbols[name]
+        if rows:
+            print(f"  最新 {name}: {rows[-1]['date']}")
     if sample:
         print(f"  2026-05-21 {VAR_CR} sp={sample[0]['sp']}")
     if sample_g:
