@@ -198,7 +198,7 @@
 
     <div class="card">
       <h2>钢铁套利雷达（规则引擎）</h2>
-      <p class="sub" style="margin-bottom: 0.75rem;">每日收盘后评估：螺纹/热卷期现基差（与上方钢材现货表同源 <code>sp−fp</code>）、冷热/镀冷价差。数据缺失时对应策略强制<strong>灰灯</strong>并挂起。</p>
+      <p class="sub" style="margin-bottom: 0.75rem;">每日收盘后评估：螺纹/热卷期现基差（与上方钢材现货表同源 <code>sp−fp</code>）、冷热/镀冷价差。冷轧板/镀锌板需写入本地快照（<code>python build_steel_spot_daily.py --coated-only</code>，东财月度价差+热卷日度）；数据缺失时对应策略强制<strong>灰灯</strong>并挂起。</p>
       <div class="row">
         <div>
           <label for="arbStrategy">评估模式</label>
@@ -244,7 +244,7 @@
         <div>
           <label for="arbSlopeEast">华东去库斜率 Slope_East</label>
           <select id="arbSlopeEast">
-            <option value="auto" selected>未知</option>
+            <option value="auto" selected>自动（库存周环比）</option>
             <option value="fast">加速去库</option>
             <option value="flat">平缓</option>
             <option value="build">累库</option>
@@ -253,15 +253,15 @@
         <div>
           <label for="arbReceiptAlert">仓单压力异常 Receipt_Alert</label>
           <select id="arbReceiptAlert">
-            <option value="auto" selected>未知</option>
+            <option value="auto" selected>自动（东财仓单）</option>
             <option value="yes">是</option>
             <option value="no">否</option>
           </select>
         </div>
         <div>
-          <label for="arbZincStrong">LME锌价坚挺（策略3）</label>
+          <label for="arbZincStrong">LME锌价坚挺（策略4）</label>
           <select id="arbZincStrong">
-            <option value="auto" selected>未知</option>
+            <option value="auto" selected>自动（新浪 LME ZSD）</option>
             <option value="yes">是</option>
             <option value="no">否</option>
           </select>
@@ -282,6 +282,7 @@
         </div>
         <button type="button" class="primary" id="arbGo">评估套利信号（15:30 收盘后）</button>
       </div>
+      <p id="arbFactorsMeta" class="sub" style="margin:0.35rem 0 0.5rem;"></p>
       <p id="arbMsg"></p>
       <div class="table-wrap" id="arbHost" hidden>
         <table>
@@ -333,6 +334,10 @@
   const arbHost = $("arbHost");
   const arbTbody = $("arbTbody");
   const arbSpreadMode = $("arbSpreadMode");
+  const arbFactorsMeta = $("arbFactorsMeta");
+  const EM_DC_API = "https://datacenter-web.eastmoney.com/api/data/v1/get";
+  const LME_ZINC_USD_THRESHOLD = 3200;
+  const RECEIPT_ALERT_RATIO = 1.2;
   const STEEL_DATA_URL = "./steel_spot_daily.json";
   const STEEL_DATA_JS_GLOBAL = "__steelSpotSnapshot";
   const STEEL_AUTO_REFRESH_KEY = "akSteelSnapshotAutoRefreshDateV1";
@@ -687,6 +692,39 @@
     return pickSymbolByKeywords(symbolsObj, ["热轧卷板", "热卷", "热轧"]);
   }
 
+  function resolveCrSteelVariety(symbolsObj, preferred) {
+    if (symbolsObj["冷轧板"]) return "冷轧板";
+    if (preferred && symbolsObj[preferred] && /冷轧|冷卷|冷板/.test(preferred)) return preferred;
+    return pickSymbolByKeywords(symbolsObj, ["冷轧板", "冷轧", "冷卷", "冷板"]);
+  }
+
+  function resolveGiSteelVariety(symbolsObj, preferred) {
+    if (symbolsObj["镀锌板"]) return "镀锌板";
+    if (preferred && symbolsObj[preferred] && /镀锌/.test(preferred)) return preferred;
+    return pickSymbolByKeywords(symbolsObj, ["镀锌板", "镀锌"]);
+  }
+
+  function listMissingArbVarieties(symbolsObj) {
+    const miss = [];
+    if (!resolveCrSteelVariety(symbolsObj, "")) miss.push("冷轧板（冷轧）");
+    if (!resolveGiSteelVariety(symbolsObj, "")) miss.push("镀锌板（镀锌）");
+    if (!resolveHcSteelVariety(symbolsObj, "")) miss.push("热轧卷板（热卷）");
+    return miss;
+  }
+
+  function spotSnapFromSnapshot(symbolsObj, dateText, variety) {
+    if (!variety) return { variety: null, sp: null, fp: null };
+    const row = rowByDate(symbolsObj[variety], dateText);
+    if (!row) return { variety: variety, sp: null, fp: null };
+    const sp = Number(row.sp);
+    const fp = Number(row.fp);
+    return {
+      variety: variety,
+      sp: Number.isFinite(sp) ? sp : null,
+      fp: Number.isFinite(fp) ? fp : null,
+    };
+  }
+
   /** 期现基差：与 runSteelQuery 相同，basis = sp − fp */
   function basisFromSnapshot(symbolsObj, dateText, variety) {
     if (!variety) {
@@ -747,9 +785,7 @@
     return y + "-" + m[2] + "-" + m[3];
   }
 
-  function buildSpreadSeries(symbolsObj, prodKey, rawKey, labels, maxYears) {
-    const prodNm = labels[prodKey];
-    const rawNm = labels[rawKey];
+  function buildSpreadSeriesByVariety(symbolsObj, prodNm, rawNm, maxYears) {
     if (!prodNm || !rawNm || prodNm === rawNm) return [];
     const prodRows = symbolsObj[prodNm];
     const rawRows = symbolsObj[rawNm];
@@ -758,14 +794,14 @@
     for (let i = 0; i < rawRows.length; i++) {
       const d = normalizeDateCell(rawRows[i] && rawRows[i].date);
       if (!d) continue;
-      const v = Number(rawRows[i].fp);
+      const v = Number(rawRows[i].sp);
       if (Number.isFinite(v)) rawMap[d] = v;
     }
     const series = [];
     for (let j = 0; j < prodRows.length; j++) {
       const d = normalizeDateCell(prodRows[j] && prodRows[j].date);
       if (!d || rawMap[d] == null) continue;
-      const pv = Number(prodRows[j].fp);
+      const pv = Number(prodRows[j].sp);
       if (!Number.isFinite(pv)) continue;
       series.push({ date: d, spread: pv - rawMap[d] });
     }
@@ -779,6 +815,245 @@
       });
     }
     return series;
+  }
+
+  async function fetchEmWarrantSeries(securityCode) {
+    const params = new URLSearchParams({
+      reportName: "RPT_FUTU_STOCKDATA",
+      columns: "SECURITY_CODE,TRADE_DATE,ON_WARRANT_NUM",
+      filter: '(SECURITY_CODE="' + securityCode + '")(TRADE_DATE>=\'2020-10-28\')',
+      pageNumber: "1",
+      pageSize: "500",
+      sortTypes: "-1",
+      sortColumns: "TRADE_DATE",
+      source: "WEB",
+      client: "WEB",
+    });
+    const res = await fetch(EM_DC_API + "?" + params.toString());
+    if (!res.ok) throw new Error("东财仓单 HTTP " + res.status);
+    const data = await res.json();
+    const rows = (data && data.result && data.result.data) || [];
+    const out = [];
+    for (let i = rows.length - 1; i >= 0; i--) {
+      const r = rows[i] || {};
+      const d = normalizeDateCell(String(r.TRADE_DATE || "").slice(0, 10));
+      const q = Number(r.ON_WARRANT_NUM);
+      if (d && Number.isFinite(q)) out.push({ date: d, qty: q });
+    }
+    out.sort(function (a, b) {
+      return a.date < b.date ? -1 : a.date > b.date ? 1 : 0;
+    });
+    return out;
+  }
+
+  function isoWeekKey(dateText) {
+    const d = new Date(String(dateText).replace(/-/g, "/"));
+    if (Number.isNaN(d.getTime())) return "";
+    const t = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()));
+    const day = t.getUTCDay() || 7;
+    t.setUTCDate(t.getUTCDate() + 4 - day);
+    const yearStart = new Date(Date.UTC(t.getUTCFullYear(), 0, 1));
+    const week = Math.ceil(((t - yearStart) / 86400000 + 1) / 7);
+    return t.getUTCFullYear() + "-W" + String(week).padStart(2, "0");
+  }
+
+  function weeklyQtySeries(dailyRows) {
+    const byWeek = Object.create(null);
+    for (let i = 0; i < dailyRows.length; i++) {
+      const r = dailyRows[i];
+      const wk = isoWeekKey(r.date);
+      if (!wk) continue;
+      byWeek[wk] = r.qty;
+    }
+    const keys = Object.keys(byWeek).sort();
+    return keys.map(function (k) {
+      return { week: k, qty: byWeek[k] };
+    });
+  }
+
+  function computeSlopeEastFromInventory(dailyRows, dateText) {
+    const weeks = weeklyQtySeries(dailyRows);
+    if (weeks.length < 2) return null;
+    const targetWeek = isoWeekKey(dateText);
+    let idx = -1;
+    for (let i = weeks.length - 1; i >= 0; i--) {
+      if (weeks[i].week <= targetWeek) {
+        idx = i;
+        break;
+      }
+    }
+    if (idx < 1) idx = weeks.length - 1;
+    const thisW = weeks[idx].qty;
+    const lastW = weeks[idx - 1].qty;
+    if (!(lastW > 0)) return null;
+    const slopePct = ((thisW - lastW) / lastW) * 100;
+    let text = "平缓";
+    if (slopePct < -3) text = "加速去库";
+    else if (slopePct > 0) text = "累库";
+    return { text: text, pct: slopePct, thisW: thisW, lastW: lastW };
+  }
+
+  function mdFromDateText(dateText) {
+    const m = String(dateText || "").match(/^(\d{4})-(\d{2})-(\d{2})$/);
+    if (!m) return null;
+    return { month: parseInt(m[2], 10), day: parseInt(m[3], 10) };
+  }
+
+  function computeReceiptAlertFromSeries(dailyRows, dateText) {
+    const md = mdFromDateText(dateText);
+    if (!md || !dailyRows.length) return null;
+    const cur = dailyRows.filter(function (r) {
+      return r.date === dateText;
+    });
+    const current = cur.length ? cur[cur.length - 1].qty : dailyRows[dailyRows.length - 1].qty;
+    const targetYear = parseInt(String(dateText).slice(0, 4), 10);
+    const hist = [];
+    for (let i = 0; i < dailyRows.length; i++) {
+      const r = dailyRows[i];
+      const y = parseInt(String(r.date).slice(0, 4), 10);
+      if (y >= targetYear) continue;
+      if (y < targetYear - 3) continue;
+      const m2 = mdFromDateText(r.date);
+      if (!m2) continue;
+      if (m2.month === md.month && Math.abs(m2.day - md.day) <= 7) hist.push(r.qty);
+    }
+    if (hist.length < 3) {
+      const tail = dailyRows.slice(-220);
+      for (let j = 0; j < tail.length; j++) hist.push(tail[j].qty);
+    }
+    if (!hist.length) return null;
+    let sum = 0;
+    for (let k = 0; k < hist.length; k++) sum += hist[k];
+    const mean = sum / hist.length;
+    const alert = current > mean * RECEIPT_ALERT_RATIO;
+    return { alert: alert, current: current, mean: mean, ratio: mean > 0 ? current / mean : null };
+  }
+
+  async function fetchLmeZincUsd() {
+    return new Promise(function (resolve, reject) {
+      const s = document.createElement("script");
+      s.charset = "gbk";
+      s.onerror = function () {
+        reject(new Error("新浪 LME 锌加载失败"));
+      };
+      s.onload = function () {
+        setTimeout(function () {
+          const payload = window.hq_str_hf_ZSD;
+          if (!payload) {
+            reject(new Error("新浪 LME 锌返回空"));
+            return;
+          }
+          const usd = parseFloat(String(payload).split(",")[0]);
+          if (!Number.isFinite(usd)) reject(new Error("LME 锌价解析失败"));
+          else resolve({ usd: usd, symbol: "ZSD", source: "新浪 hf_ZSD" });
+        }, 120);
+      };
+      s.src = "https://hq.sinajs.cn/list=hf_ZSD&_=" + Date.now();
+      document.head.appendChild(s);
+    });
+  }
+
+  let arbFactorsCache = null;
+
+  async function computeArbFactors(dateText) {
+    const factors = {
+      slopeEast: null,
+      slopePct: null,
+      receiptRb: null,
+      receiptHc: null,
+      receiptAlert: null,
+      zincUsd: null,
+      zincStrong: null,
+      metaLines: [],
+      errors: [],
+    };
+    try {
+      const rbInv = await fetchEmWarrantSeries("RB");
+      const slope = computeSlopeEastFromInventory(rbInv, dateText);
+      if (slope) {
+        factors.slopeEast = slope.text;
+        factors.slopePct = slope.pct;
+        factors.metaLines.push(
+          "Slope_East=" +
+            slope.text +
+            "（螺纹注册仓单周环比 " +
+            slope.pct.toFixed(2) +
+            "%，本周 " +
+            slope.thisW +
+            " / 上周 " +
+            slope.lastW +
+            "）"
+        );
+      }
+      const rbRc = computeReceiptAlertFromSeries(rbInv, dateText);
+      if (rbRc) factors.receiptRb = rbRc.alert;
+      try {
+        const hcInv = await fetchEmWarrantSeries("HC");
+        const hcRc = computeReceiptAlertFromSeries(hcInv, dateText);
+        if (hcRc) factors.receiptHc = hcRc.alert;
+      } catch (eHc) {
+        factors.errors.push("HC仓单:" + (eHc.message || String(eHc)));
+      }
+      if (factors.receiptRb != null || factors.receiptHc != null) {
+        factors.receiptAlert = factors.receiptRb === true || factors.receiptHc === true;
+        factors.metaLines.push(
+          "Receipt_Alert=" +
+            (factors.receiptAlert ? "是" : "否") +
+            "（RB=" +
+            (factors.receiptRb == null ? "—" : factors.receiptRb ? "异常" : "正常") +
+            "，HC=" +
+            (factors.receiptHc == null ? "—" : factors.receiptHc ? "异常" : "正常") +
+            "，阈值×" +
+            RECEIPT_ALERT_RATIO +
+            "）"
+        );
+      }
+    } catch (eInv) {
+      factors.errors.push("库存/仓单:" + (eInv.message || String(eInv)));
+    }
+    try {
+      const zinc = await fetchLmeZincUsd();
+      factors.zincUsd = zinc.usd;
+      factors.zincStrong = zinc.usd > LME_ZINC_USD_THRESHOLD;
+      factors.metaLines.push(
+        "LME锌=" +
+          zinc.usd.toFixed(2) +
+          " USD/t（" +
+          (factors.zincStrong ? "坚挺" : "未达阈值") +
+          "，阈值 " +
+          LME_ZINC_USD_THRESHOLD +
+          "）"
+      );
+    } catch (eZn) {
+      factors.errors.push("LME锌:" + (eZn.message || String(eZn)));
+    }
+    arbFactorsCache = factors;
+    return factors;
+  }
+
+  function resolveFactorSelect(selId, autoVal) {
+    const v = $(selId).value;
+    if (v === "auto") return autoVal;
+    if (selId === "arbSlopeEast") {
+      if (v === "fast") return "加速去库";
+      if (v === "flat") return "平缓";
+      if (v === "build") return "累库";
+      return autoVal;
+    }
+    if (v === "yes" || v === "on") return true;
+    if (v === "no" || v === "off") return false;
+    return autoVal;
+  }
+
+  function updateArbFactorsMeta(factors) {
+    if (!arbFactorsMeta) return;
+    if (!factors) {
+      arbFactorsMeta.textContent = "";
+      return;
+    }
+    let t = factors.metaLines.join("；");
+    if (factors.errors.length) t += (t ? "；" : "") + "部分因子未拉取：" + factors.errors.join("；");
+    arbFactorsMeta.textContent = t || "";
   }
 
   function percentileFromSeries(series, dateText, value) {
@@ -796,20 +1071,23 @@
   }
 
   function buildArbMarketInputs(symbolsObj, dateText, steelVariety) {
-    const labels = resolveArbSpotLabels(symbolsObj);
-    const spot = {};
-    const keys = Object.keys(labels);
-    for (let i = 0; i < keys.length; i++) {
-      const k = keys[i];
-      const nm = labels[k];
-      spot[k] = nm ? valueByDate(symbolsObj[nm], dateText) : null;
-    }
-
-    const S_HR = spot.S_HR;
-    const S_CR = spot.S_CR;
-    const S_GI = spot.S_GI;
     const rbSnap = rbBasisFromSnapshot(symbolsObj, dateText, steelVariety);
     const hcSnap = hcBasisFromSnapshot(symbolsObj, dateText, steelVariety);
+    const crSnap = spotSnapFromSnapshot(
+      symbolsObj,
+      dateText,
+      resolveCrSteelVariety(symbolsObj, steelVariety)
+    );
+    const giSnap = spotSnapFromSnapshot(
+      symbolsObj,
+      dateText,
+      resolveGiSteelVariety(symbolsObj, steelVariety)
+    );
+
+    /** 数据总线：S_HR 唯一映射热卷期现快照 sp（与策略2同源） */
+    const S_HR = hcSnap.sp;
+    const S_CR = crSnap.sp;
+    const S_GI = giSnap.sp;
 
     const spreadCrHr =
       Number.isFinite(S_CR) && Number.isFinite(S_HR) ? S_CR - S_HR : null;
@@ -818,13 +1096,22 @@
     const basisRbEast = rbSnap.basis;
     const basisHc = hcSnap.basis;
 
-    const coldHotSeries = buildSpreadSeries(symbolsObj, "S_CR", "S_HR", labels, 5);
-    const galvColdSeries = buildSpreadSeries(symbolsObj, "S_GI", "S_CR", labels, 5);
+    const crNm = crSnap.variety;
+    const giNm = giSnap.variety;
+    const hrNm = hcSnap.variety;
+    const coldHotSeries = buildSpreadSeriesByVariety(symbolsObj, crNm, hrNm, 5);
+    const galvColdSeries = buildSpreadSeriesByVariety(symbolsObj, giNm, crNm, 5);
+
+    const coldPair =
+      crNm && hrNm ? crNm + " − " + hrNm + "（S_CR−S_HR，热卷 sp 来自 " + hrNm + "）" : "缺少冷轧或热卷现货";
+    const galvPair = giNm && crNm ? giNm + " − " + crNm : "缺少镀锌或冷轧";
 
     return {
-      labels: labels,
+      dataBus: { S_HR: S_HR, S_CR: S_CR, S_GI: S_GI },
       rbSnap: rbSnap,
       hcSnap: hcSnap,
+      crSnap: crSnap,
+      giSnap: giSnap,
       spreadCrHr: spreadCrHr,
       spreadGiCr: spreadGiCr,
       basisRbEast: basisRbEast,
@@ -838,8 +1125,8 @@
         galv_cold: !Number.isFinite(spreadGiCr),
       },
       pairText: {
-        cold_hot: labels.S_CR && labels.S_HR ? labels.S_CR + " − " + labels.S_HR : "缺少冷轧/热卷",
-        galv_cold: labels.S_GI && labels.S_CR ? labels.S_GI + " − " + labels.S_CR : "缺少镀锌/冷轧",
+        cold_hot: coldPair,
+        galv_cold: galvPair,
         rb_basis: snapPairText(rbSnap, "缺少螺纹钢快照品种"),
         hc_basis: snapPairText(hcSnap, "缺少热卷/热轧快照品种"),
       },
@@ -921,8 +1208,8 @@
     } else {
       risks.push("正套入场需 Basis<20 且加速去库；平仓需 Basis>100 且已持仓");
     }
-    if (ctx.receiptAlert === true) {
-      reasons.push("仓单压力异常（Receipt_Alert=是）");
+    if (ctx.receiptRb === true) {
+      reasons.push("螺纹仓单压力异常（Receipt_Alert=是）");
       risks.push("交割/注册压力可能压制盘面，谨慎加仓");
     }
     return { signal: signal, direction: direction, advice: advice, reasons: reasons.join("；"), risks: risks.join("；"), strategyName: name };
@@ -960,8 +1247,8 @@
     } else {
       risks.push("正套入场需 Basis<20 且加速去库；平仓需 Basis>100 且已持仓");
     }
-    if (ctx.receiptAlert === true) {
-      reasons.push("仓单压力异常（Receipt_Alert=是）");
+    if (ctx.receiptHc === true) {
+      reasons.push("热卷仓单压力异常（Receipt_Alert=是）");
       risks.push("热卷仓单注册偏高时谨慎加仓");
     }
     return { signal: signal, direction: direction, advice: advice, reasons: reasons.join("；"), risks: risks.join("；"), strategyName: name };
@@ -970,7 +1257,11 @@
   function evaluateColdHotStrategy(ctx) {
     const name = "策略3：冷热价差";
     if (ctx.missing.cold_hot) {
-      return grayArbResult(name, "S_CR 或 S_HR 缺失。", "自动提醒风控补全冷轧/热卷行情。");
+      return grayArbResult(
+        name,
+        "S_CR 或 S_HR（热卷 sp）缺失。",
+        "请确认冷轧与热卷快照均有该日 sp；S_HR 已与热卷期现策略绑定。"
+      );
     }
     const sp = ctx.spreadCrHr;
     const pct = ctx.pctCrHr;
@@ -1045,19 +1336,27 @@
     $("arbSpreadGiCr").value = mkt.spreadGiCr == null ? "" : fmtBasis(mkt.spreadGiCr);
   }
 
-  function buildArbAlertText(dateText, mkt, grayFlags) {
+  function buildArbAlertText(dateText, mkt, grayFlags, symbolsObj) {
     const parts = [];
     if (grayFlags.rb_basis) parts.push("螺纹期现");
     if (grayFlags.hc_basis) parts.push("热卷期现");
     if (grayFlags.cold_hot) parts.push("冷轧/热卷");
     if (grayFlags.galv_cold) parts.push("镀锌/冷轧");
     if (!parts.length) return "";
+    const missVar = listMissingArbVarieties(symbolsObj || {});
+    const hint =
+      missVar.length > 0
+        ? " 快照缺品种：" +
+          missVar.join("、") +
+          "。请在本机运行 python build_steel_spot_daily.py 生成冷轧板/镀锌板（东财月度价差+热卷日度），或切换「手动填入」输入价差。"
+        : " 请确认该日 sp 已写入快照，或切换「手动填入」。";
     return (
       "[" +
       dateText +
       " 评估完成提示]：" +
       parts.join("、") +
-      "数据缺失，对应策略已自动挂起（灰灯），请手动校对或确认补全。"
+      "数据缺失，对应策略已自动挂起（灰灯），请手动校对或确认补全。" +
+      hint
     );
   }
 
@@ -1090,6 +1389,15 @@
       return;
     }
 
+    setArbMsg("正在自动计算去库斜率、仓单压力、LME 锌价…");
+    let factors = null;
+    try {
+      factors = await computeArbFactors(dateText);
+      updateArbFactorsMeta(factors);
+    } catch (eFac) {
+      updateArbFactorsMeta({ metaLines: [], errors: [eFac.message || String(eFac)] });
+    }
+
     const mkt = buildArbMarketInputs(symbols, dateText, rbVariety);
     if (manualMode) {
       const spCH = toNumOrNull($("arbSpreadCrHr").value.trim());
@@ -1113,6 +1421,7 @@
       mkt.pctGiCr = pctOverride;
     }
 
+    const autoFactors = factors || arbFactorsCache || {};
     const evalCtx = {
       basisRbEast: mkt.basisRbEast,
       basisHc: mkt.basisHc,
@@ -1121,9 +1430,11 @@
       pctCrHr: mkt.pctCrHr,
       pctGiCr: mkt.pctGiCr,
       missing: mkt.missing,
-      slopeEast: slopeEastText(),
-      receiptAlert: $("arbReceiptAlert").value === "yes" ? true : $("arbReceiptAlert").value === "no" ? false : null,
-      zincStrong: $("arbZincStrong").value === "yes" ? true : $("arbZincStrong").value === "no" ? false : null,
+      slopeEast: resolveFactorSelect("arbSlopeEast", autoFactors.slopeEast),
+      receiptRb: resolveFactorSelect("arbReceiptAlert", autoFactors.receiptRb),
+      receiptHc: resolveFactorSelect("arbReceiptAlert", autoFactors.receiptHc),
+      receiptAlert: resolveFactorSelect("arbReceiptAlert", autoFactors.receiptAlert),
+      zincStrong: resolveFactorSelect("arbZincStrong", autoFactors.zincStrong),
       rbLongOpen: $("arbRbLongOpen").value === "yes",
       hcLongOpen: $("arbHcLongOpen").value === "yes",
     };
@@ -1192,7 +1503,7 @@
           "，热卷=" +
           (mkt.hcSnap.variety || "—") +
           "]");
-    const alert = buildArbAlertText(dateText, mkt, grayFlags);
+    const alert = buildArbAlertText(dateText, mkt, grayFlags, symbols);
     if (alert) {
       msg += "\n\n" + alert;
       console.warn("[钢铁套利雷达]", alert);
@@ -1263,8 +1574,8 @@
       last = "";
     }
     if (last === today) return;
-    setSteelMsg("每日首次打开，正在自动刷新钢材快照…");
-    await loadSteelSnapshot({ force: true, preferRemote: true });
+    setSteelMsg("每日首次打开，正在刷新钢材快照（优先本地 steel_spot_daily.json）…");
+    await loadSteelSnapshot({ force: true, preferRemote: false });
     try {
       localStorage.setItem(STEEL_AUTO_REFRESH_KEY, today);
     } catch (e) {
