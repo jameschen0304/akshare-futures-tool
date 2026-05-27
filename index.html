@@ -1957,6 +1957,9 @@
   const VSI_STEADY = 1.2;
   const VSI_EXTREME = 1.3;
   const VSI_PANIC = 1.5;
+  // VSI 恐慌通道：加入滞后缓冲，避免临界值频繁切换
+  const VSI_PANIC_ACT = 1.3; // >= 激活
+  const VSI_PANIC_DEACT = 1.25; // <= 解除
   const OI_LIQ_LOOKBACK = 20;
   const TAIL_RATIO_MIN = 0.6;
 
@@ -2031,6 +2034,21 @@
     return { accel: accel, climax: climax, latestDev: latest, velocity: d1 };
   }
 
+  function meanAbsOiChange(rows, lookback) {
+    if (!Array.isArray(rows) || rows.length < 2) return null;
+    const n = rows.length;
+    const lb = Math.min(lookback || 5, n - 1);
+    let s = 0;
+    let c = 0;
+    for (let i = n - lb; i < n; i++) {
+      const d = rows[i] && rows[i].oiChange;
+      if (d == null || !isFinite(d)) continue;
+      s += Math.abs(d);
+      c++;
+    }
+    return c > 0 ? s / c : null;
+  }
+
   /** 阶段新低 + OI 近 N 日最大减仓 → 去杠杆/爆仓出清 */
   function computeOiLiquidation(rows, lookback) {
     const n = rows.length;
@@ -2060,6 +2078,10 @@
       if (d < maxOiDrop) maxOiDrop = d;
     }
     const todayOi = today.oiChange;
+    const oiAbsMean5 = meanAbsOiChange(rows, 5);
+    const oiStrong = oiAbsMean5 != null && Math.abs(todayOi || 0) >= oiAbsMean5 * 1.1;
+    const oiConfirm = oiStrong && todayOi != null && todayOi > 0; // 增仓暴洗
+    const oiDeplete = oiStrong && todayOi != null && todayOi < 0; // 大幅减仓假恐慌
     const nearMaxDrop =
       hasOi &&
       todayOi != null &&
@@ -2076,6 +2098,10 @@
       oiLiquidationCoef: coef,
       maxOiDrop: hasOi ? maxOiDrop : null,
       todayOi: todayOi,
+      oiAbsMean5: oiAbsMean5,
+      oiStrong: oiStrong,
+      oiConfirm: oiConfirm,
+      oiDeplete: oiDeplete,
     };
   }
 
@@ -2166,7 +2192,11 @@
         verdict:
           "极端恐慌后筹码出清（共振 " +
           sigN +
-          "/5：OI出清=" +
+          "/5：OI确认=" +
+          (p.oiConfirm ? "是" : "否") +
+          "，OI减仓假恐慌=" +
+          (p.oiDeplete ? "是" : "否") +
+          "，OI出清=" +
           (p.oiLiquidation ? "是" : "否") +
           "，衰竭=" +
           (p.exhaustionScore != null ? p.exhaustionScore.toFixed(0) : "—") +
@@ -2279,7 +2309,9 @@
    */
   function computeTrendBiasPredictionVBottom(p) {
     let oiRaw = 0;
-    if (p.oiLiquidation) oiRaw = 40;
+    if (p.oiConfirm) oiRaw = 40;
+    else if (p.oiDeplete) oiRaw = 6;
+    else if (p.oiLiquidation) oiRaw = 30;
     else if (p.hasOi && p.oiDelta != null && p.oiDelta < 0 && p.downDay) oiRaw = 18;
     else if (p.hasOi && p.oiDelta != null && p.oiDelta < 0) oiRaw = 8;
 
@@ -2329,6 +2361,8 @@
       wMin: 0,
       exhaustionScore: p.exhaustionScore,
       oiLiquidation: p.oiLiquidation,
+      oiConfirm: p.oiConfirm,
+      oiDeplete: p.oiDeplete,
       vBottomConfirmed: p.vBottomConfirmed,
     };
   }
@@ -2544,13 +2578,71 @@
     return parts.join("<br/>");
   }
 
+  function percentileLinear(sortedAsc, q) {
+    if (!Array.isArray(sortedAsc) || !sortedAsc.length) return null;
+    const n = sortedAsc.length;
+    if (q <= 0) return sortedAsc[0];
+    if (q >= 1) return sortedAsc[n - 1];
+    const pos = (n - 1) * q;
+    const lo = Math.floor(pos);
+    const hi = Math.ceil(pos);
+    const w = pos - lo;
+    return sortedAsc[lo] * (1 - w) + sortedAsc[hi] * w;
+  }
+
+  function parseFutYearMonth(sym) {
+    const s = String(sym || "").trim().toUpperCase();
+    const m = s.match(/(\d{2})(\d{2})$/); // like RB2505 -> yy=25, mm=05
+    if (!m) return null;
+    const yy = parseInt(m[1], 10);
+    const mm = parseInt(m[2], 10);
+    if (!Number.isFinite(yy) || !Number.isFinite(mm) || mm < 1 || mm > 12) return null;
+    return { year: 2000 + yy, month: mm };
+  }
+
+  function parseYmdToDate(ymd) {
+    if (!ymd) return null;
+    const m = String(ymd).match(/^(\d{4})-(\d{2})-(\d{2})$/);
+    if (!m) return null;
+    const y = parseInt(m[1], 10);
+    const mo = parseInt(m[2], 10) - 1;
+    const d = parseInt(m[3], 10);
+    const dt = new Date(y, mo, d);
+    if (Number.isNaN(dt.getTime())) return null;
+    return dt;
+  }
+
+  // 路线A：基于合约月份 + 日历窗口识别换月干扰（05->09：4月底；09->01：8月底，前后约两周）
+  function isRolloverGapWindow(sym, lastDateText) {
+    const ym = parseFutYearMonth(sym);
+    if (!ym) return false;
+    const dt = parseYmdToDate(lastDateText);
+    if (!dt) return false;
+    if (dt.getFullYear() !== ym.year) return false;
+    const m = ym.month;
+    // 05 换 09：4/25 前后两周 => [4/11, 5/9]
+    if (m === 5) {
+      const start = new Date(ym.year, 3, 11); // April
+      const end = new Date(ym.year, 4, 9); // May
+      return dt >= start && dt <= end;
+    }
+    // 09 换 01：8/25 前后两周 => [8/11, 9/8]
+    if (m === 9) {
+      const start = new Date(ym.year, 7, 11); // August
+      const end = new Date(ym.year, 8, 8); // Sep
+      return dt >= start && dt <= end;
+    }
+    return false;
+  }
+
   /**
    * VSI 三档：≤1.2 常态稳态 | (1.2,1.3] 活跃偏离 | >1.3 极端恐慌（V底通道）
    */
-  function analyzeVsi(atrRatio) {
+  function analyzeVsi(atrRatio, symbolKey, dynP75, dynP93, rolloverActive) {
     if (atrRatio == null || !isFinite(atrRatio) || atrRatio <= 0) {
       return {
         vsi: null,
+        panicActive: false,
         tier: null,
         label: "—",
         advice: "缺少有效 ATR 比率，无法计算 VSI。",
@@ -2560,6 +2652,31 @@
       };
     }
     const vsi = atrRatio;
+
+    const p75 = dynP75 != null && isFinite(dynP75) && dynP75 > 0 ? dynP75 : VSI_STEADY;
+    const p93 = dynP93 != null && isFinite(dynP93) && dynP93 > 0 ? dynP93 : VSI_EXTREME;
+    const effP93 = rolloverActive ? p93 * 1.1 : p93; // 换月干扰：阈值上调 10%
+
+    // VSI 恐慌通道：滞后缓冲（等价原先的 1.30 / 1.25，变为 dynamic）
+    let panicActive = false;
+    const sk = symbolKey ? String(symbolKey) : "global";
+    const storeKey = "akVsiPanicActive:v3.1:" + sk;
+    try {
+      panicActive = localStorage.getItem(storeKey) === "1";
+    } catch (e) {
+      panicActive = false;
+    }
+
+    if (!panicActive && vsi >= effP93) panicActive = true;
+    else if (panicActive && vsi <= effP93 - 0.05) panicActive = false;
+
+    try {
+      if (panicActive) localStorage.setItem(storeKey, "1");
+      else localStorage.setItem(storeKey, "0");
+    } catch (e) {
+      /* ignore */
+    }
+
     let tier = "steady";
     let label = "";
     let advice = "";
@@ -2567,32 +2684,31 @@
     let hiConf = false;
     let extremeVol = false;
 
-    if (vsi <= VSI_STEADY) {
-      tier = "steady";
-      label = "常态稳态";
-      advice =
-        "常规噪声区间，采用<strong>对称通道</strong>理解目标带；增减幅接近正常波动。";
-      if (vsi <= 1.1) hiConf = true;
-      if (vsi < 0.9) {
-        advice += " 波动偏低，警惕变盘前夜。";
-      }
-    } else if (vsi <= VSI_EXTREME) {
-      tier = "active";
-      label = "活跃偏离";
-      advice =
-        "波动高于常态，<strong>风险溢价上升</strong>；因未达 " +
-        VSI_EXTREME +
-        " 极端阈值，<strong>不激活</strong> V 底非对称出清通道，仍用对称目标带。";
-    } else {
+    if (panicActive) {
       tier = "panic";
       label = "极端恐慌";
       advice =
-        "触发 V 底监测与非对称出清通道；上沿目标 ×0.8 缩窄。价低于 VWAP 时下沿放宽至恐慌出清位（−2.5～2.8×ATR）。";
+        "V 底监测通道已激活（动态滚动分位：P93= " +
+        p93.toFixed(3) +
+        (rolloverActive ? "，换月上调后阈值=×1.1）" : "）") +
+        "；滞后解除：<= P93−0.05。上沿目标 ×0.8 缩窄；价低于 VWAP 时下沿放宽至恐慌出清位（−2.5～2.8×ATR）。";
       shrink = 0.8;
       extremeVol = true;
+    } else if (vsi >= p75) {
+      tier = "active";
+      label = "活跃偏离";
+      advice =
+        "波动处于动态 P75~P93 区间（活跃偏离），风险溢价上升；尚未达恐慌通道阈值（>= P93）。";
+    } else {
+      tier = "steady";
+      label = "常态稳态";
+      advice =
+        "波动处于动态 P75 以下（常态稳态）。采用<strong>对称通道</strong>理解目标带；增减幅接近正常波动。";
+      if (vsi <= p75 * 0.85) hiConf = true;
     }
     return {
       vsi: vsi,
+      panicActive: panicActive,
       tier: tier,
       label: label,
       advice: advice,
@@ -2613,7 +2729,7 @@
     const effAtr = atr * vsiShrink;
     const belowVwap =
       p.vwapVal != null && p.vwapVal > 0 && close != null && close < p.vwapVal;
-    const asymmetric = vsi != null && vsi > VSI_EXTREME && belowVwap;
+    const asymmetric = p.vsiPanicActive === true && belowVwap;
 
     const kN = 1.0;
     const kW = 1.5;
@@ -2734,6 +2850,44 @@
     if (atrMeanPast != null && atrMeanPast > 0) {
       atrRatio = atr / atrMeanPast;
     }
+    // VSI 动态阈值：Rolling Percentile（过去约 250 日）
+    let dynP75 = VSI_STEADY;
+    let dynP93 = VSI_EXTREME;
+    let rolloverActive = false;
+    try {
+      rolloverActive = isRolloverGapWindow($("symbol").value, normalizeDateCell(today.date));
+    } catch (e) {
+      rolloverActive = false;
+    }
+    if (atrSeries && atrSeries.length > atrMeanDays + 5) {
+      const vsiSeries = [];
+      for (let idx = atrMeanDays + 1; idx < atrSeries.length; idx++) {
+        const a = atrSeries[idx];
+        if (a == null || !(a > 0) || !isFinite(a)) continue;
+        let s = 0;
+        let c = 0;
+        for (let j = idx - atrMeanDays; j < idx; j++) {
+          const v = atrSeries[j];
+          if (v != null && isFinite(v) && v > 0) {
+            s += v;
+            c++;
+          }
+        }
+        if (c <= 0) continue;
+        const m = s / c;
+        if (m > 0) vsiSeries.push(a / m);
+      }
+      const tail = vsiSeries.slice(-250);
+      if (tail.length >= 60) {
+        const sorted = tail.slice().sort(function (x, y) {
+          return x - y;
+        });
+        const p75 = percentileLinear(sorted, 0.75);
+        const p93 = percentileLinear(sorted, 0.93);
+        if (p75 != null && isFinite(p75) && p75 > 0) dynP75 = p75;
+        if (p93 != null && isFinite(p93) && p93 > 0) dynP93 = p93;
+      }
+    }
     const atrMultDynamic =
       atrRatio != null && atrRatio > atrRatioThreshold ? atrMultExpand : atrMultBase;
 
@@ -2792,8 +2946,8 @@
       lvnRejectionBelow: lvnBelow.lvnRejectionBelow,
     });
 
-    const vsiInfo = analyzeVsi(atrRatio);
-    const vBottomWatch = vsiInfo.vsi != null && vsiInfo.vsi > VSI_EXTREME;
+    const vsiInfo = analyzeVsi(atrRatio, $("symbol").value, dynP75, dynP93, rolloverActive);
+    const vBottomWatch = vsiInfo.panicActive === true;
     const vBottomMode = vBottomWatch && currentPrice < coreLow;
     const vBottomConfirmed =
       vBottomWatch &&
@@ -2851,6 +3005,7 @@
       vsi: vsiInfo.vsi,
       vwapVal: vwapVal,
       vsiShrink: vsiInfo.shrink,
+      vsiPanicActive: vsiInfo.panicActive,
       atrMeanPast: atrMeanPast,
     });
 
@@ -2876,6 +3031,8 @@
       vBottomMode: vBottomMode,
       vBottomConfirmed: vBottomConfirmed,
       oiLiquidation: oiLiq.liquidation,
+      oiConfirm: oiLiq.oiConfirm,
+      oiDeplete: oiLiq.oiDeplete,
       oiLiquidationCoef: oiLiq.oiLiquidationCoef,
       tailRatio: tailRatio,
       lvnRejectionBelow: lvnBelow.lvnRejectionBelow,
@@ -2897,6 +3054,8 @@
       coreLow: coreLow,
       panicClearLow: targetProjection.panicClearLow,
       oiLiquidation: oiLiq.liquidation,
+      oiConfirm: oiLiq.oiConfirm,
+      oiDeplete: oiLiq.oiDeplete,
       exhaustionScore: exhaustionScore,
       tailRatio: tailRatio,
       climax: vwapAccel.climax,
@@ -2959,6 +3118,9 @@
       vBottomMode: vBottomMode,
       vBottomConfirmed: vBottomConfirmed,
       vBottomVerdict: vBottomVerdict,
+      vsiDynP75: dynP75,
+      vsiDynP93: dynP93,
+      rolloverActive: rolloverActive,
     };
   }
 
@@ -3025,6 +3187,16 @@
         : "—";
     const chgDir = res.currentPrice >= res.prevClose ? "上涨" : "下跌";
 
+    const dynThrTxt =
+      res.vsiDynP75 != null && res.vsiDynP93 != null
+        ? "（动态阈值：P75=" +
+          res.vsiDynP75.toFixed(3) +
+          "，P93=" +
+          res.vsiDynP93.toFixed(3) +
+          (res.rolloverActive ? "，换月过滤+10%" : "") +
+          "）"
+        : "";
+
     const hSection1 =
       "<dt>1. 核心状态与 V 底监测</dt><dd>" +
       "<strong>收盘基准</strong>：今收 " +
@@ -3045,6 +3217,7 @@
       (vsi ? vsi.label : "—") +
       "</strong>；" +
       (vsi ? vsi.advice : "") +
+      dynThrTxt +
       (vsi && vsi.hiConf ? " <em>高置信参考窗口</em>" : "") +
       "）<br/>" +
       "<strong>当前状态分类</strong>：" +
@@ -3064,45 +3237,119 @@
       "）" +
       "</dd>";
 
-    const hSection2 =
-      "<dt>2. 量化结构关键位（动态阻力/支撑）</dt><dd>" +
-      st.flipNote +
-      "<ul style=\"margin:0.45rem 0 0 1rem;padding:0;\">" +
-      "<li><strong>" +
-      st.l1Title +
-      "</strong>：" +
-      fmt(res.supportL1) +
-      "（相对现价：<strong>" +
-      st.l1Role +
-      "</strong>）</li>" +
-      "<li><strong>" +
-      st.l2Title +
-      "</strong>：[" +
-      fmt(res.coreLow) +
-      ", " +
-      fmt(res.coreHigh) +
-      "]（峰值 " +
-      fmt(res.supportL2) +
-      "；相对现价 L2 峰值作<strong>" +
-      st.l2Role +
-      "</strong>）</li>" +
-      "<li><strong>下方量化目标 (L1 规则)</strong>：" +
-      fmt(res.nextSupportL1) +
-      (st.flipped ? "（延伸支撑，临近现价）" : "") +
-      "</li>" +
-      "<li><strong>下方量化目标 (L2 延伸)</strong>：" +
-      fmt(res.nextSupportL2) +
-      "</li>" +
-      "</ul>" +
-      (res.hasLvnRun
-        ? "LVN 稀薄带 [" +
-          fmt(res.lvnZoneBottom) +
-          ", " +
-          fmt(res.lvnZoneTop) +
-          "]。" +
-          (res.pressureMessage ? " " + res.pressureMessage : "")
-        : "") +
-      "</dd>";
+    const hSection2 = (function () {
+      const price = res.currentPrice;
+      const eps = 1e-9;
+      const pct = function (v) {
+        if (!(v != null && isFinite(v)) || !(price > 0)) return "--";
+        const d = ((v - price) / price) * 100;
+        const s = d >= 0 ? "+" : "";
+        return s + d.toFixed(2) + "%";
+      };
+      const roleDir = function (v) {
+        if (!(v != null && isFinite(v))) return "--";
+        if (v > price + eps) return "阻力/向上收复目标";
+        if (v < price - eps) return "支撑/向下测试防守";
+        return "--";
+      };
+      const items = [
+        {
+          name: "L2 核心阻力上限",
+          v: res.coreHigh,
+          note: "中期核心阻力区上沿（L2 核心区）",
+        },
+        {
+          name: "L2 核心阻力（峰值）",
+          v: res.supportL2,
+          note: "量能峰值 POC（峰值/分水岭）",
+        },
+        {
+          name: "L2 核心支撑下限",
+          v: res.coreLow,
+          note: "中期核心支撑区下沿（L2 核心区）",
+        },
+        {
+          name: "L1 强阻力峰值",
+          v: res.supportL1,
+          note: "短期量能峰值（L1 规则）",
+        },
+        {
+          name: "L2 延伸修复位（动态）",
+          v: res.nextSupportL2,
+          note: "L2 下一量化位（跌破后延伸/未跌破则取峰值）",
+        },
+        {
+          name: "L1 规则延伸位（动态）",
+          v: res.nextSupportL1,
+          note: "L1 下一量化位（跌破后延伸/未跌破则取峰值）",
+        },
+        {
+          name: "当前收盘价",
+          v: res.currentPrice,
+          note: "基准价（用于排序与方向判定）",
+        },
+      ];
+      const dedup = {};
+      const uniq = [];
+      for (let i = 0; i < items.length; i++) {
+        const it = items[i];
+        const key = it.name + ":" + (it.v != null ? it.v : "");
+        if (dedup[key]) continue;
+        dedup[key] = true;
+        uniq.push(it);
+      }
+      uniq.sort(function (a, b) {
+        return (
+          Math.abs(a.v - price) - Math.abs(b.v - price) ||
+          a.name.localeCompare(b.name)
+        );
+      });
+      const rows = [];
+      for (let i = 0; i < uniq.length; i++) {
+        const it = uniq[i];
+        const v = it.v;
+        const drole = roleDir(v);
+        const dp = pct(v);
+        rows.push(
+          "<tr>" +
+            "<td style=\"text-align:left;padding:0.28rem 0.45rem;border-bottom:1px solid var(--border);\">"+ it.name +"</td>" +
+            "<td style=\"padding:0.28rem 0.45rem;border-bottom:1px solid var(--border);white-space:nowrap;\">"+ fmt(v) +"</td>" +
+            "<td style=\"padding:0.28rem 0.45rem;border-bottom:1px solid var(--border);white-space:nowrap;\">"+ dp +"</td>" +
+            "<td style=\"padding:0.28rem 0.45rem;border-bottom:1px solid var(--border);\">"+ drole +"</td>" +
+            "<td style=\"padding:0.28rem 0.45rem;border-bottom:1px solid var(--border);\">"+ it.note +"</td>" +
+            "</tr>"
+        );
+      }
+      const table =
+        "<table style=\"width:100%;border-collapse:collapse;font-size:0.9rem;\">" +
+        "<thead>" +
+        "<tr>" +
+        "<th style=\"text-align:left;border-bottom:1px solid var(--border);padding:0.2rem 0.45rem;\">位置名称</th>" +
+        "<th style=\"text-align:left;border-bottom:1px solid var(--border);padding:0.2rem 0.45rem;\">价格点位</th>" +
+        "<th style=\"text-align:left;border-bottom:1px solid var(--border);padding:0.2rem 0.45rem;\">相对空间</th>" +
+        "<th style=\"text-align:left;border-bottom:1px solid var(--border);padding:0.2rem 0.45rem;\">属性判定</th>" +
+        "<th style=\"text-align:left;border-bottom:1px solid var(--border);padding:0.2rem 0.45rem;\">筹码/量化规则说明</th>" +
+        "</tr>" +
+        "</thead>" +
+        "<tbody>" +
+        rows.join("") +
+        "</tbody>" +
+        "</table>";
+      return (
+        "<dt>2. 动态关键位矩阵（基于现价排序 + 阻力/支撑方向纠偏）</dt><dd>" +
+        st.flipNote +
+        table +
+        (res.hasLvnRun
+          ? "LVN 稀薄带 [" +
+            fmt(res.lvnZoneBottom) +
+            ", " +
+            fmt(res.lvnZoneTop) +
+            "]。" +
+            (res.pressureMessage ? " " + res.pressureMessage : "")
+          : "") +
+        "</dd>"
+      );
+    })();
 
     const hSection3 =
       "<dt>3. 资金、持仓与情绪验证</dt><dd>" +
@@ -3110,6 +3357,8 @@
       (res.oiDelta != null && isFinite(res.oiDelta) ? fmt(res.oiDelta) : "—") +
       " — " +
       res.reliability +
+      (oiLiq.oiConfirm ? " <strong>【VSI 强验证：增仓暴洗确认】</strong>" : "") +
+      (oiLiq.oiDeplete ? " <strong>【VSI 降权：大幅减仓假恐慌】</strong>" : "") +
       (oiLiq.liquidation
         ? " <strong>【OI 出清：阶段新低 + 近" + OI_LIQ_LOOKBACK + "日最大减仓】</strong>"
         : "") +
