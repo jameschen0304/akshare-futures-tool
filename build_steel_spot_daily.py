@@ -29,6 +29,17 @@ VAR_GI = "镀锌板"
 VAR_HC = "热轧卷板"
 VAR_RB = "螺纹钢"
 
+# 与快照中中文名一致 → 100ppi symbol（螺纹钢由 hybrid 单独处理）
+PPI_VARIETIES: dict[str, str] = {
+    VAR_HC: "HC",
+    "线材": "WR",
+    "不锈钢": "SS",
+    "硅铁": "SF",
+    "锰硅": "SM",
+    "焦炭": "J",
+    "焦煤": "JM",
+}
+
 EM_STEEL = {
     VAR_HC: "热轧板卷",
     VAR_CR: "冷轧板",
@@ -93,9 +104,7 @@ def interpolate_spread(daily_dates: list[str], anchor_dates: list[date], anchor_
     return out
 
 
-def rows_from_100ppi(symbol: str, start: str, end: str) -> list[dict]:
-    df = ak.futures_spot_price_daily(start_day=start, end_day=end)
-    sub = df[df["symbol"] == symbol][["date", "spot_price", "dominant_contract_price"]]
+def _rows_from_100ppi_df(sub: pd.DataFrame) -> list[dict]:
     rows = []
     for _, r in sub.iterrows():
         d = pd.Timestamp(r["date"]).strftime("%Y-%m-%d")
@@ -103,6 +112,40 @@ def rows_from_100ppi(symbol: str, start: str, end: str) -> list[dict]:
         fp = float(r["dominant_contract_price"]) if pd.notna(r["dominant_contract_price"]) else None
         rows.append({"date": d, "fp": fp, "sp": sp})
     return rows
+
+
+def rows_from_100ppi(symbol: str, start: str, end: str) -> list[dict]:
+    df = ak.futures_spot_price_daily(start_day=start, end_day=end)
+    sub = df[df["symbol"] == symbol][["date", "spot_price", "dominant_contract_price"]]
+    return _rows_from_100ppi_df(sub)
+
+
+def fetch_100ppi_batch(start: str, end: str) -> dict[str, list[dict]]:
+    """一次请求 100ppi，按 symbol 分组（供日更多品种）。"""
+    df = ak.futures_spot_price_daily(start_day=start, end_day=end)
+    out: dict[str, list[dict]] = {}
+    for symbol, sub in df.groupby("symbol"):
+        out[str(symbol)] = _rows_from_100ppi_df(
+            sub[["date", "spot_price", "dominant_contract_price"]]
+        )
+    return out
+
+
+def refresh_ppi_varieties(
+    symbols: dict,
+    sources: dict,
+    batch: dict[str, list[dict]],
+    ppi_map: dict[str, str],
+) -> None:
+    for cn_name, code in ppi_map.items():
+        fresh = batch.get(code) or []
+        if not fresh:
+            if cn_name in symbols:
+                print(f"  警告: 100ppi 近端无 {code}（{cn_name}），沿用快照")
+            continue
+        symbols[cn_name] = merge_rows(symbols.get(cn_name), fresh)
+        sources[cn_name] = "100ppi"
+        print(f"  {cn_name} ({code}): 末行 {fresh[-1]['date']}")
 
 
 def rows_from_99qh(symbol: str) -> list[dict]:
@@ -204,7 +247,13 @@ def main() -> None:
     parser.add_argument(
         "--start",
         default="2023-01-01",
-        help="100ppi 日度回补起始日（--refresh-rb 时用于近端补齐）",
+        help="100ppi 日度回补起始日（未指定 --lookback-days 时生效）",
+    )
+    parser.add_argument(
+        "--lookback-days",
+        type=int,
+        default=0,
+        help="100ppi 仅拉最近 N 个自然日并与快照合并（日更推荐 120）",
     )
     parser.add_argument(
         "--rb-ppi-days",
@@ -232,14 +281,21 @@ def main() -> None:
     anchor_dates, em_prices = fetch_em_steel_monthly()
 
     end = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    ppi_start = args.start
+    if args.lookback_days and args.lookback_days > 0:
+        from datetime import timedelta
+
+        end_d = datetime.strptime(end[:10], "%Y-%m-%d").date()
+        ppi_start = (end_d - timedelta(days=args.lookback_days)).isoformat()
+
     if args.refresh_rb or not args.coated_only:
         print(f"更新 {VAR_RB}（99qh + 100ppi 混合，{args.start} ~ {end}）…")
         ppi_days = args.rb_ppi_days if args.refresh_rb else None
         symbols[VAR_RB], sources[VAR_RB] = rows_from_rb_hybrid(args.start, end, ppi_days)
     if not args.coated_only:
-        print(f"更新 100ppi 日度 {VAR_HC} ({args.start} ~ {end})…")
-        symbols[VAR_HC] = merge_rows(symbols.get(VAR_HC), rows_from_100ppi("HC", args.start, end))
-        sources[VAR_HC] = "100ppi"
+        print(f"更新 100ppi 全品种（{ppi_start} ~ {end}）…")
+        batch = fetch_100ppi_batch(ppi_start, end)
+        refresh_ppi_varieties(symbols, sources, batch, PPI_VARIETIES)
     elif not args.refresh_rb:
         print(f"跳过期货日度回补（--coated-only），沿用快照 {VAR_HC}")
 

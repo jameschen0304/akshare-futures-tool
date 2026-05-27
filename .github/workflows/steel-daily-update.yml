@@ -30,13 +30,12 @@ jobs:
       - name: Install dependencies
         run: pip install --upgrade pip akshare pandas
 
-      - name: Update steel snapshot
+      - name: Update all steel varieties to today
         run: |
           python build_steel_spot_daily.py \
             --refresh-rb \
-            --start 2024-06-01 \
-            --rb-ppi-days 90 \
-            --coated-only
+            --lookback-days 120 \
+            --rb-ppi-days 90
 
       - name: Commit and push if changed
         run: |
