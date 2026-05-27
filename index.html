@@ -2519,6 +2519,37 @@
     const nL2 = fmt(res.nextSupportL2);
     const parts = [];
 
+    const num = function (x) {
+      const n = Number(x);
+      return Number.isFinite(n) ? n : null;
+    };
+    const cp = num(res.currentPrice);
+    const upTargets = [];
+    const downTargets = [];
+    const addUp = function (label, vTxt) {
+      upTargets.push(label + "（" + vTxt + "）");
+    };
+    const addDown = function (label, vTxt) {
+      downTargets.push(label + "（" + vTxt + "）");
+    };
+    if (cp != null) {
+      const vL1 = num(res.supportL1);
+      const vL2 = num(res.supportL2);
+      const vCoreLo = num(res.coreLow);
+      const vCoreHi = num(res.coreHigh);
+      const vNL1 = num(res.nextSupportL1);
+      const vNL2 = num(res.nextSupportL2);
+      if (vNL2 != null && vNL2 > cp) addUp("局部修复位/动态目标", nL2);
+      if (vL1 != null && vL1 > cp) addUp("L1 强阻力", l1);
+      if (vCoreLo != null && vCoreHi != null && vCoreLo > cp) {
+        addUp("L2 核心阻力区", "[" + coreLo + ", " + coreHi + "]");
+      } else if (vL2 != null && vL2 > cp) {
+        addUp("L2 峰值阻力", l2);
+      }
+      if (vNL1 != null && vNL1 < cp) addDown("L1 规则延伸防守", nL1);
+      if (vNL2 != null && vNL2 < cp) addDown("L2 延伸防守", nL2);
+    }
+
     if (st.flipped) {
       parts.push(
         "1. <strong>向上反弹</strong>：若下一交易日反弹，首要观察能否<strong>放量收复</strong> L1 强阻力位（" +
@@ -2535,12 +2566,15 @@
           "），方可讨论中期结构修复。"
       );
       parts.push(
-        "2. <strong>向下测试</strong>：若价格继续下探，重点观察下方量化位 L1 规则=" +
-          nL1 +
-          "、L2 延伸=" +
-          nL2 +
+        "2. <strong>向下测试</strong>：仅关注<strong>现价下方</strong>的防守位：" +
+          (downTargets.length ? downTargets.join("，") : "—") +
           "。"
       );
+      if (upTargets.length) {
+        parts.push(
+          "（补充）<strong>向上收复目标</strong>：" + upTargets.join("，") + "。"
+        );
+      }
       if (res.hasOi && res.oiDelta != null && res.oiDelta > 0 && res.currentPrice < res.prevClose) {
         parts.push(
           "今收低于关键位且<strong>下跌日增仓</strong>，显示低位有资金接盘或空头锁仓；若回踩下沿时 OI 停止增加或开始缩量，可视为潜在的短线企稳信号。"
@@ -2751,9 +2785,12 @@
       warnHigh = close + kW * upAtr;
       extremeHigh = close + kE * upAtr;
       panicClearLow = close - kPanic * downAtr;
-      normalLow = panicClearLow;
+      // 非对称通道：避免阶梯倒挂
+      // - 1.0× 与 1.5× 下沿保持常规 -1.0/-1.5×ATR
+      // - 恐慌出清位作为极端尾部的下沿锚定（比 -2.0× 更宽）
+      normalLow = close - kN * downAtr;
       warnLow = close - kW * downAtr;
-      extremeLow = close - kE * downAtr;
+      extremeLow = panicClearLow;
     } else {
       normalLow = close - kN * effAtr;
       normalHigh = close + kN * effAtr;
@@ -3237,6 +3274,60 @@
       "）" +
       "</dd>";
 
+    const hVsig = (function () {
+      if (!res.vBottomWatch) return "";
+      const hitPanic = tpEarly && tpEarly.panicClearLow != null && res.currentPrice <= tpEarly.panicClearLow;
+      const tailHit = res.tailRatio != null && isFinite(res.tailRatio) && res.tailRatio >= 0.6;
+      const climaxHit = res.vwapAccel && res.vwapAccel.climax === true;
+      const lvnRej = res.lvnBelow && res.lvnBelow.lvnRejectionBelow === true;
+      const oiC = res.oiLiq && res.oiLiq.oiConfirm === true;
+      const oiD = res.oiLiq && res.oiLiq.oiDeplete === true;
+      const oiL = res.oiLiq && res.oiLiq.liquidation === true;
+      const hits = [
+        ["价格触及恐慌区", hitPanic ? "是" : "否"],
+        ["K线下影拒绝（≥60%）", tailHit ? "是" : "否"],
+        ["VWAP 乖离加速（Climax）", climaxHit ? "是" : "否"],
+        ["下方 LVN 拒绝", lvnRej ? "是" : "否"],
+        ["OI 强验证（增仓暴洗）", oiC ? "是" : "否"],
+        ["OI 假恐慌（大幅减仓）", oiD ? "是" : "否"],
+        ["OI 出清（阶段新低+最大减仓）", oiL ? "是" : "否"],
+      ];
+      // 0/5 透明度：按核心 5 项展示（不含 oiDeplete/oiLiquidation 的补充项）
+      const five = [
+        ["价格触及恐慌区", hitPanic ? "是" : "否"],
+        ["K线下影拒绝（≥60%）", tailHit ? "是" : "否"],
+        ["VWAP Climax", climaxHit ? "是" : "否"],
+        ["下方 LVN 拒绝", lvnRej ? "是" : "否"],
+        ["OI 强验证（增仓暴洗）", oiC ? "是" : "否"],
+      ];
+      let cnt = 0;
+      for (let i = 0; i < five.length; i++) if (five[i][1] === "是") cnt++;
+      const rows = five
+        .map(function (x, i) {
+          return (
+            "<tr><td style=\"text-align:left;padding:0.22rem 0.45rem;border-bottom:1px solid var(--border);\">" +
+            (i + 1) +
+            ". " +
+            x[0] +
+            "</td><td style=\"padding:0.22rem 0.45rem;border-bottom:1px solid var(--border);\"><strong>" +
+            x[1] +
+            "</strong></td></tr>"
+          );
+        })
+        .join("");
+      return (
+        "<dt>📋 V 底左侧 5 重共振对账单（当前 " +
+        cnt +
+        "/5）</dt><dd>" +
+        "<table style=\"width:100%;border-collapse:collapse;font-size:0.9rem;\">" +
+        "<thead><tr><th style=\"text-align:left;border-bottom:1px solid var(--border);padding:0.2rem 0.45rem;\">因子</th><th style=\"text-align:left;border-bottom:1px solid var(--border);padding:0.2rem 0.45rem;\">是否满足</th></tr></thead>" +
+        "<tbody>" +
+        rows +
+        "</tbody></table>" +
+        "</dd>"
+      );
+    })();
+
     const hSection2 = (function () {
       const price = res.currentPrice;
       const eps = 1e-9;
@@ -3252,24 +3343,28 @@
         if (v < price - eps) return "支撑/向下测试防守";
         return "--";
       };
+      const nameByRole = function (baseSupportName, baseResistName, v) {
+        const dir = roleDir(v);
+        return dir.indexOf("阻力") >= 0 ? baseResistName : baseSupportName;
+      };
       const items = [
         {
-          name: "L2 核心阻力上限",
+          name: nameByRole("L2 核心支撑上限", "L2 核心阻力上限", res.coreHigh),
           v: res.coreHigh,
           note: "中期核心阻力区上沿（L2 核心区）",
         },
         {
-          name: "L2 核心阻力（峰值）",
+          name: nameByRole("L2 核心支撑（峰值）", "L2 核心阻力（峰值）", res.supportL2),
           v: res.supportL2,
           note: "量能峰值 POC（峰值/分水岭）",
         },
         {
-          name: "L2 核心支撑下限",
+          name: nameByRole("L2 核心支撑下限", "L2 核心阻力下沿", res.coreLow),
           v: res.coreLow,
           note: "中期核心支撑区下沿（L2 核心区）",
         },
         {
-          name: "L1 强阻力峰值",
+          name: nameByRole("L1 支撑峰值", "L1 强阻力峰值", res.supportL1),
           v: res.supportL1,
           note: "短期量能峰值（L1 规则）",
         },
@@ -3577,7 +3672,7 @@
       "</dd>";
 
     supportDl.innerHTML =
-      hVerdict + hSection1 + hSection2 + hSection3 + hSection4 + hPred + hTarget + hVbottom + hMeta;
+      hVerdict + hSection1 + hVsig + hSection2 + hSection3 + hSection4 + hPred + hTarget + hVbottom + hMeta;
     supportCard.hidden = false;
   }
 
