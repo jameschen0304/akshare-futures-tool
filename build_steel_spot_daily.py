@@ -40,6 +40,16 @@ PPI_VARIETIES: dict[str, str] = {
     "焦煤": "JM",
 }
 
+INVENTORY_EM_SYMBOLS: dict[str, str] = {
+    VAR_RB: "螺纹钢",
+    VAR_HC: "热卷",
+    "不锈钢": "不锈钢",
+    "硅铁": "硅铁",
+    "锰硅": "锰硅",
+    "焦炭": "焦炭",
+    "焦煤": "焦煤",
+}
+
 EM_STEEL = {
     VAR_HC: "热轧板卷",
     VAR_CR: "冷轧板",
@@ -146,6 +156,51 @@ def refresh_ppi_varieties(
         symbols[cn_name] = merge_rows(symbols.get(cn_name), fresh)
         sources[cn_name] = "100ppi"
         print(f"  {cn_name} ({code}): 末行 {fresh[-1]['date']}")
+
+
+def build_inventory_wow_rows(df: pd.DataFrame) -> list[dict]:
+    """东财库存序列转标准结构，并计算周环比。"""
+    if df is None or df.empty:
+        return []
+    out = []
+    hist: list[tuple[date, float]] = []
+    for _, r in df.iterrows():
+        ds = pd.Timestamp(r.iloc[0]).strftime("%Y-%m-%d")
+        qty = pd.to_numeric(r.iloc[1], errors="coerce")
+        if not pd.notna(qty):
+            continue
+        d = datetime.strptime(ds, "%Y-%m-%d").date()
+        qty_val = float(qty)
+        out.append({"date": ds, "inventory": round(qty_val, 2), "wow_pct": None})
+        hist.append((d, qty_val))
+
+    for row in out:
+        d = datetime.strptime(row["date"], "%Y-%m-%d").date()
+        prev_target = d.toordinal() - 7
+        prev_qty = None
+        for hd, hq in reversed(hist):
+            if hd.toordinal() <= prev_target:
+                prev_qty = hq
+                break
+        if prev_qty is not None and prev_qty != 0:
+            row["wow_pct"] = round((row["inventory"] - prev_qty) / prev_qty * 100, 2)
+    return out
+
+
+def fetch_inventory_em_batch() -> tuple[dict[str, list[dict]], dict[str, str]]:
+    inventory: dict[str, list[dict]] = {}
+    latest_dates: dict[str, str] = {}
+    for cn_name, em_symbol in INVENTORY_EM_SYMBOLS.items():
+        try:
+            df = ak.futures_inventory_em(symbol=em_symbol)
+            rows = build_inventory_wow_rows(df)
+            if rows:
+                inventory[cn_name] = rows
+                latest_dates[cn_name] = rows[-1]["date"]
+                print(f"  库存 {cn_name}: 末行 {rows[-1]['date']}")
+        except Exception as exc:
+            print(f"  警告: 东财库存 {cn_name} 拉取失败 ({exc})")
+    return inventory, latest_dates
 
 
 def rows_from_99qh(symbol: str) -> list[dict]:
@@ -308,12 +363,16 @@ def main() -> None:
     symbols[VAR_GI] = gi_rows
     sources[VAR_CR] = "eastmoney_spread+100ppi_hc"
     sources[VAR_GI] = "eastmoney_spread+100ppi_hc"
+    print("拉取东财库存并计算周环比…")
+    inventory_rows, inventory_latest_dates = fetch_inventory_em_batch()
 
     data["source"] = "99qh primary + 100ppi fallback + EM coated proxy"
     data["generated_at"] = datetime.now(timezone.utc).isoformat()
     data["symbols"] = symbols
     data["sources"] = sources
     data["latest_dates"] = symbol_latest_dates(symbols)
+    data["inventory"] = inventory_rows
+    data["inventory_latest_dates"] = inventory_latest_dates
 
     with args.out.open("w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)

@@ -204,7 +204,7 @@
     <div class="card table-wrap" id="steelTableHost" hidden>
       <table>
         <thead>
-          <tr><th>日期</th><th>期货收盘价</th><th>现货价格</th><th>基差</th></tr>
+          <tr><th>日期</th><th>期货收盘价</th><th>现货价格</th><th>基差</th><th>库存</th><th>库存周环比</th></tr>
         </thead>
         <tbody id="steelTbody"></tbody>
       </table>
@@ -359,6 +359,7 @@
     "https://raw.githubusercontent.com/jameschen0304/akshare/main/docs/futures-tool/steel_spot_daily.json",
   ];
   let steelCache = null;
+  let steelInventoryCache = null;
   let steelSnapshotInfo = null;
 
   function setMsg(text, isErr) {
@@ -558,6 +559,13 @@
   function fmtBasis(v) {
     if (v == null || Number.isNaN(v)) return "";
     return Number(v).toFixed(2).replace(/\.?0+$/, "");
+  }
+
+  function fmtWowPct(v) {
+    if (v == null || Number.isNaN(v)) return "";
+    const n = Number(v);
+    const sign = n > 0 ? "+" : "";
+    return sign + n.toFixed(2).replace(/\.?0+$/, "") + "%";
   }
 
   function todayDash() {
@@ -1568,6 +1576,7 @@
         const data = await res.json();
         const symbols = (data && data.symbols) || {};
         steelCache = symbols;
+        steelInventoryCache = (data && data.inventory) || {};
         const plainUrl = orderedUrls[i] || "";
         steelSnapshotInfo = {
           sourceText: plainUrl === STEEL_DATA_URL ? "仓库内置快照" : "远端快照",
@@ -1585,6 +1594,7 @@
     const inline = window[STEEL_DATA_JS_GLOBAL];
     if (inline && inline.symbols) {
       steelCache = inline.symbols;
+      steelInventoryCache = inline.inventory || {};
       steelSnapshotInfo = {
         sourceText: "页面内置快照",
         latestDate: latestDateFromSymbols(steelCache, $("steelVariety").value),
@@ -1662,6 +1672,12 @@
     try {
       const symbols = await loadSteelSnapshot();
       const allRows = symbols[variety] || [];
+      const inventoryRows = (steelInventoryCache && steelInventoryCache[variety]) || [];
+      const inventoryByDate = {};
+      for (let k = 0; k < inventoryRows.length; k++) {
+        const iv = inventoryRows[k];
+        if (iv && iv.date) inventoryByDate[iv.date] = iv;
+      }
       const rows = allRows.filter(function (r) {
         return r && r.date >= beg && r.date <= end;
       });
@@ -1682,7 +1698,15 @@
         const fp = Number(r.fp);
         const sp = Number(r.sp);
         const basis = Number.isFinite(sp) && Number.isFinite(fp) ? sp - fp : null;
-        const cells = [r.date, r.fp, r.sp, fmtBasis(basis)];
+        const inv = inventoryByDate[r.date] || null;
+        const cells = [
+          r.date,
+          r.fp,
+          r.sp,
+          fmtBasis(basis),
+          inv && inv.inventory != null ? inv.inventory : "",
+          fmtWowPct(inv && inv.wow_pct),
+        ];
         for (let j = 0; j < cells.length; j++) {
           const td = document.createElement("td");
           td.textContent = cells[j] != null ? String(cells[j]) : "";
