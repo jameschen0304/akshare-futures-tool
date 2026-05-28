@@ -207,6 +207,11 @@ def fetch_inventory_em_batch() -> tuple[dict[str, list[dict]], dict[str, str]]:
             inventory[derived] = [dict(x) for x in hc_inv]
             latest_dates[derived] = hc_inv[-1]["date"]
             print(f"  库存 {derived}: 继承{VAR_HC}，末行 {hc_inv[-1]['date']}")
+    rb_inv = inventory.get(VAR_RB)
+    if rb_inv and "线材" not in inventory:
+        inventory["线材"] = [dict(x) for x in rb_inv]
+        latest_dates["线材"] = rb_inv[-1]["date"]
+        print(f"  库存 线材: 继承{VAR_RB}，末行 {rb_inv[-1]['date']}")
     return inventory, latest_dates
 
 
