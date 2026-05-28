@@ -50,6 +50,16 @@ INVENTORY_EM_SYMBOLS: dict[str, str] = {
     "焦煤": "焦煤",
 }
 
+INVENTORY_99_SYMBOLS: dict[str, str] = {
+    VAR_RB: VAR_RB,
+    "线材": "线材",
+    "不锈钢": "不锈钢",
+    "硅铁": "硅铁",
+    "锰硅": "锰硅",
+    "焦炭": "焦炭",
+    "焦煤": "焦煤",
+}
+
 EM_STEEL = {
     VAR_HC: "热轧板卷",
     VAR_CR: "冷轧板",
@@ -200,18 +210,68 @@ def fetch_inventory_em_batch() -> tuple[dict[str, list[dict]], dict[str, str]]:
                 print(f"  库存 {cn_name}: 末行 {rows[-1]['date']}")
         except Exception as exc:
             print(f"  警告: 东财库存 {cn_name} 拉取失败 ({exc})")
+    return inventory, latest_dates
+
+
+def fetch_inventory_99_batch() -> tuple[dict[str, list[dict]], dict[str, str]]:
+    inventory: dict[str, list[dict]] = {}
+    latest_dates: dict[str, str] = {}
+    for cn_name, symbol99 in INVENTORY_99_SYMBOLS.items():
+        try:
+            df = ak.futures_inventory_99(symbol=symbol99)
+            rows = build_inventory_wow_rows(df)
+            if rows:
+                inventory[cn_name] = rows
+                latest_dates[cn_name] = rows[-1]["date"]
+                print(f"  库存99 {cn_name}: 末行 {rows[-1]['date']}")
+        except Exception as exc:
+            print(f"  警告: 99库存 {cn_name} 拉取失败 ({exc})")
+    return inventory, latest_dates
+
+
+def merge_inventory_rows(
+    base_rows: list[dict] | None, override_rows: list[dict] | None
+) -> list[dict]:
+    by_date: dict[str, dict] = {}
+    for r in base_rows or []:
+        d = r.get("date")
+        if d:
+            by_date[d] = {"date": d, "inventory": r.get("inventory"), "wow_pct": r.get("wow_pct")}
+    for r in override_rows or []:
+        d = r.get("date")
+        if d:
+            by_date[d] = {"date": d, "inventory": r.get("inventory"), "wow_pct": r.get("wow_pct")}
+    return [by_date[k] for k in sorted(by_date)]
+
+
+def fetch_inventory_all() -> tuple[dict[str, list[dict]], dict[str, str]]:
+    inv99, _ = fetch_inventory_99_batch()
+    inv_em, _ = fetch_inventory_em_batch()
+    inventory: dict[str, list[dict]] = {}
+    keys = sorted(set(inv99.keys()) | set(inv_em.keys()))
+    for k in keys:
+        merged = merge_inventory_rows(inv99.get(k), inv_em.get(k))
+        if merged:
+            inventory[k] = merged
+
     # 冷轧板/镀锌板无稳定独立库存口径，继承热卷库存用于表格展示周度库存方向
     hc_inv = inventory.get(VAR_HC)
+    rb_inv = inventory.get(VAR_RB)
+    if not hc_inv and rb_inv:
+        hc_inv = [dict(x) for x in rb_inv]
+        inventory[VAR_HC] = hc_inv
+        print(f"  库存 {VAR_HC}: 无独立历史，继承{VAR_RB}，末行 {hc_inv[-1]['date']}")
     if hc_inv:
         for derived in (VAR_CR, VAR_GI):
             inventory[derived] = [dict(x) for x in hc_inv]
-            latest_dates[derived] = hc_inv[-1]["date"]
             print(f"  库存 {derived}: 继承{VAR_HC}，末行 {hc_inv[-1]['date']}")
-    rb_inv = inventory.get(VAR_RB)
     if rb_inv and "线材" not in inventory:
         inventory["线材"] = [dict(x) for x in rb_inv]
-        latest_dates["线材"] = rb_inv[-1]["date"]
         print(f"  库存 线材: 继承{VAR_RB}，末行 {rb_inv[-1]['date']}")
+    latest_dates: dict[str, str] = {}
+    for name, rows in inventory.items():
+        if rows:
+            latest_dates[name] = rows[-1]["date"]
     return inventory, latest_dates
 
 
@@ -375,8 +435,8 @@ def main() -> None:
     symbols[VAR_GI] = gi_rows
     sources[VAR_CR] = "eastmoney_spread+100ppi_hc"
     sources[VAR_GI] = "eastmoney_spread+100ppi_hc"
-    print("拉取东财库存并计算周环比…")
-    inventory_rows, inventory_latest_dates = fetch_inventory_em_batch()
+    print("拉取库存（99历史 + 东财近端）并计算周环比…")
+    inventory_rows, inventory_latest_dates = fetch_inventory_all()
 
     data["source"] = "99qh primary + 100ppi fallback + EM coated proxy"
     data["generated_at"] = datetime.now(timezone.utc).isoformat()

@@ -1682,6 +1682,7 @@
       const symbols = await loadSteelSnapshot();
       const allRows = symbols[variety] || [];
       const inventoryRows = (steelInventoryCache && steelInventoryCache[variety]) || [];
+      const rbInventoryRows = (steelInventoryCache && steelInventoryCache["螺纹钢"]) || [];
       const rows = allRows.filter(function (r) {
         return r && r.date >= beg && r.date <= end;
       });
@@ -1702,7 +1703,13 @@
         const fp = Number(r.fp);
         const sp = Number(r.sp);
         const basis = Number.isFinite(sp) && Number.isFinite(fp) ? sp - fp : null;
-        const inv = inventoryAtOrBeforeDate(inventoryRows, r.date);
+        let inv = inventoryAtOrBeforeDate(inventoryRows, r.date);
+        if (
+          !inv &&
+          (variety === "热轧卷板" || variety === "冷轧板" || variety === "镀锌板")
+        ) {
+          inv = inventoryAtOrBeforeDate(rbInventoryRows, r.date);
+        }
         const cells = [
           r.date,
           r.fp,
