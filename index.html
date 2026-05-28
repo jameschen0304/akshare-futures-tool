@@ -568,6 +568,15 @@
     return sign + n.toFixed(2).replace(/\.?0+$/, "") + "%";
   }
 
+  function inventoryAtOrBeforeDate(inventoryRows, dateText) {
+    if (!Array.isArray(inventoryRows) || !inventoryRows.length || !dateText) return null;
+    for (let i = inventoryRows.length - 1; i >= 0; i--) {
+      const r = inventoryRows[i];
+      if (r && r.date && r.date <= dateText) return r;
+    }
+    return null;
+  }
+
   function todayDash() {
     const d = new Date();
     const y = d.getFullYear();
@@ -1673,11 +1682,6 @@
       const symbols = await loadSteelSnapshot();
       const allRows = symbols[variety] || [];
       const inventoryRows = (steelInventoryCache && steelInventoryCache[variety]) || [];
-      const inventoryByDate = {};
-      for (let k = 0; k < inventoryRows.length; k++) {
-        const iv = inventoryRows[k];
-        if (iv && iv.date) inventoryByDate[iv.date] = iv;
-      }
       const rows = allRows.filter(function (r) {
         return r && r.date >= beg && r.date <= end;
       });
@@ -1698,7 +1702,7 @@
         const fp = Number(r.fp);
         const sp = Number(r.sp);
         const basis = Number.isFinite(sp) && Number.isFinite(fp) ? sp - fp : null;
-        const inv = inventoryByDate[r.date] || null;
+        const inv = inventoryAtOrBeforeDate(inventoryRows, r.date);
         const cells = [
           r.date,
           r.fp,

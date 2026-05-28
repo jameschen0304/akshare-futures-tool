@@ -200,6 +200,13 @@ def fetch_inventory_em_batch() -> tuple[dict[str, list[dict]], dict[str, str]]:
                 print(f"  库存 {cn_name}: 末行 {rows[-1]['date']}")
         except Exception as exc:
             print(f"  警告: 东财库存 {cn_name} 拉取失败 ({exc})")
+    # 冷轧板/镀锌板无稳定独立库存口径，继承热卷库存用于表格展示周度库存方向
+    hc_inv = inventory.get(VAR_HC)
+    if hc_inv:
+        for derived in (VAR_CR, VAR_GI):
+            inventory[derived] = [dict(x) for x in hc_inv]
+            latest_dates[derived] = hc_inv[-1]["date"]
+            print(f"  库存 {derived}: 继承{VAR_HC}，末行 {hc_inv[-1]['date']}")
     return inventory, latest_dates
 
 
