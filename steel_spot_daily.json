@@ -85265,27 +85265,27 @@
       {
         "date": "2026-02-24",
         "inventory": 1420.0,
-        "wow_pct": null
+        "wow_pct": -15.58
       },
       {
         "date": "2026-02-25",
         "inventory": 1420.0,
-        "wow_pct": null
+        "wow_pct": -15.58
       },
       {
         "date": "2026-02-26",
         "inventory": 1420.0,
-        "wow_pct": null
+        "wow_pct": -15.58
       },
       {
         "date": "2026-02-27",
         "inventory": 1420.0,
-        "wow_pct": null
+        "wow_pct": -15.58
       },
       {
         "date": "2026-03-02",
         "inventory": 1420.0,
-        "wow_pct": null
+        "wow_pct": -15.58
       },
       {
         "date": "2026-03-03",
@@ -85385,12 +85385,12 @@
       {
         "date": "2026-03-30",
         "inventory": 20.0,
-        "wow_pct": -98.11
+        "wow_pct": null
       },
       {
         "date": "2026-03-31",
         "inventory": 0.0,
-        "wow_pct": -100.0
+        "wow_pct": null
       },
       {
         "date": "2026-04-01",
@@ -97602,12 +97602,12 @@
       {
         "date": "2026-03-11",
         "inventory": 600.0,
-        "wow_pct": 200.0
+        "wow_pct": null
       },
       {
         "date": "2026-03-12",
         "inventory": 800.0,
-        "wow_pct": 300.0
+        "wow_pct": null
       },
       {
         "date": "2026-03-13",
@@ -97632,7 +97632,7 @@
       {
         "date": "2026-03-19",
         "inventory": 0.0,
-        "wow_pct": -100.0
+        "wow_pct": null
       },
       {
         "date": "2026-04-08",
@@ -97662,7 +97662,7 @@
       {
         "date": "2026-04-15",
         "inventory": 556.0,
-        "wow_pct": 178.0
+        "wow_pct": null
       },
       {
         "date": "2026-04-16",
@@ -97672,7 +97672,7 @@
       {
         "date": "2026-04-17",
         "inventory": 0.0,
-        "wow_pct": -100.0
+        "wow_pct": null
       },
       {
         "date": "2026-04-30",
@@ -97687,27 +97687,27 @@
       {
         "date": "2026-05-07",
         "inventory": 2650.0,
-        "wow_pct": 5200.0
+        "wow_pct": null
       },
       {
         "date": "2026-05-08",
         "inventory": 2450.0,
-        "wow_pct": 4800.0
+        "wow_pct": null
       },
       {
         "date": "2026-05-11",
         "inventory": 2850.0,
-        "wow_pct": 5600.0
+        "wow_pct": null
       },
       {
         "date": "2026-05-12",
         "inventory": 3349.0,
-        "wow_pct": 6598.0
+        "wow_pct": null
       },
       {
         "date": "2026-05-13",
         "inventory": 3099.0,
-        "wow_pct": 6098.0
+        "wow_pct": null
       },
       {
         "date": "2026-05-14",
@@ -97727,37 +97727,37 @@
       {
         "date": "2026-05-19",
         "inventory": 850.0,
-        "wow_pct": -74.62
+        "wow_pct": null
       },
       {
         "date": "2026-05-20",
         "inventory": 500.0,
-        "wow_pct": -83.87
+        "wow_pct": null
       },
       {
         "date": "2026-05-21",
         "inventory": 500.0,
-        "wow_pct": -85.38
+        "wow_pct": null
       },
       {
         "date": "2026-05-22",
         "inventory": 200.0,
-        "wow_pct": -94.2
+        "wow_pct": null
       },
       {
         "date": "2026-05-25",
         "inventory": 49.0,
-        "wow_pct": -96.7
+        "wow_pct": null
       },
       {
         "date": "2026-05-26",
         "inventory": 49.0,
-        "wow_pct": -94.24
+        "wow_pct": null
       },
       {
         "date": "2026-05-27",
         "inventory": 0.0,
-        "wow_pct": -100.0
+        "wow_pct": null
       }
     ],
     "硅铁": [
@@ -110899,17 +110899,17 @@
       {
         "date": "2026-02-24",
         "inventory": 8083.0,
-        "wow_pct": null
+        "wow_pct": 47.18
       },
       {
         "date": "2026-02-25",
         "inventory": 8056.0,
-        "wow_pct": null
+        "wow_pct": 46.69
       },
       {
         "date": "2026-02-26",
         "inventory": 3425.0,
-        "wow_pct": null
+        "wow_pct": -37.64
       },
       {
         "date": "2026-02-27",
@@ -110944,7 +110944,7 @@
       {
         "date": "2026-03-09",
         "inventory": 6698.0,
-        "wow_pct": 239.83
+        "wow_pct": null
       },
       {
         "date": "2026-03-10",
@@ -113616,7 +113616,7 @@
       {
         "date": "2020-01-03",
         "inventory": 3957.0,
-        "wow_pct": null
+        "wow_pct": 11.75
       },
       {
         "date": "2020-01-10",
@@ -113626,17 +113626,17 @@
       {
         "date": "2020-01-17",
         "inventory": 3595.0,
-        "wow_pct": 0.67
+        "wow_pct": -10.26
       },
       {
         "date": "2020-01-23",
         "inventory": 3500.0,
-        "wow_pct": -1.99
+        "wow_pct": -12.63
       },
       {
         "date": "2020-02-07",
         "inventory": 3769.0,
-        "wow_pct": -5.92
+        "wow_pct": 7.69
       },
       {
         "date": "2020-02-14",
@@ -113646,12 +113646,12 @@
       {
         "date": "2020-02-21",
         "inventory": 3485.0,
-        "wow_pct": 2.56
+        "wow_pct": -7.93
       },
       {
         "date": "2020-02-28",
         "inventory": 3666.0,
-        "wow_pct": -3.14
+        "wow_pct": 5.19
       },
       {
         "date": "2020-03-06",
@@ -113701,7 +113701,7 @@
       {
         "date": "2020-05-08",
         "inventory": 3452.0,
-        "wow_pct": 2.52
+        "wow_pct": -20.73
       },
       {
         "date": "2020-05-15",
@@ -113731,12 +113731,12 @@
       {
         "date": "2020-06-19",
         "inventory": 3940.0,
-        "wow_pct": -9.53
+        "wow_pct": 8.66
       },
       {
         "date": "2020-06-24",
         "inventory": 3937.0,
-        "wow_pct": -9.6
+        "wow_pct": 8.58
       },
       {
         "date": "2020-07-03",
@@ -113746,12 +113746,12 @@
       {
         "date": "2020-07-10",
         "inventory": 3690.0,
-        "wow_pct": 1.96
+        "wow_pct": -6.56
       },
       {
         "date": "2020-07-17",
         "inventory": 3858.0,
-        "wow_pct": -2.3
+        "wow_pct": 4.55
       },
       {
         "date": "2020-07-24",
@@ -113761,7 +113761,7 @@
       {
         "date": "2020-07-31",
         "inventory": 3777.0,
-        "wow_pct": 0.8
+        "wow_pct": -5.55
       },
       {
         "date": "2020-08-07",
@@ -113776,12 +113776,12 @@
       {
         "date": "2020-08-21",
         "inventory": 4065.0,
-        "wow_pct": 1.65
+        "wow_pct": 7.0
       },
       {
         "date": "2020-08-28",
         "inventory": 3734.0,
-        "wow_pct": -1.3
+        "wow_pct": -8.14
       },
       {
         "date": "2020-09-04",
@@ -113806,7 +113806,7 @@
       {
         "date": "2020-09-30",
         "inventory": 3827.0,
-        "wow_pct": -5.85
+        "wow_pct": 6.22
       },
       {
         "date": "2020-10-09",
@@ -113821,7 +113821,7 @@
       {
         "date": "2020-10-23",
         "inventory": 3616.0,
-        "wow_pct": -0.44
+        "wow_pct": -7.28
       },
       {
         "date": "2020-10-30",
@@ -113841,7 +113841,7 @@
       {
         "date": "2020-11-20",
         "inventory": 4250.0,
-        "wow_pct": 8.97
+        "wow_pct": 10.68
       },
       {
         "date": "2020-11-27",
@@ -113851,12 +113851,12 @@
       {
         "date": "2020-12-04",
         "inventory": 3900.0,
-        "wow_pct": -0.61
+        "wow_pct": -9.28
       },
       {
         "date": "2020-12-11",
         "inventory": 4367.0,
-        "wow_pct": 1.58
+        "wow_pct": 11.97
       },
       {
         "date": "2020-12-18",
@@ -114451,12 +114451,12 @@
       {
         "date": "2023-05-05",
         "inventory": 3622.0,
-        "wow_pct": -1.04
+        "wow_pct": -19.08
       },
       {
         "date": "2023-05-12",
         "inventory": 4080.0,
-        "wow_pct": -8.85
+        "wow_pct": 12.64
       },
       {
         "date": "2023-05-19",
@@ -114561,12 +114561,12 @@
       {
         "date": "2023-10-13",
         "inventory": 3620.0,
-        "wow_pct": -1.9
+        "wow_pct": -3.42
       },
       {
         "date": "2023-10-20",
         "inventory": 3909.0,
-        "wow_pct": 4.3
+        "wow_pct": 7.98
       },
       {
         "date": "2023-10-27",
@@ -115136,7 +115136,7 @@
       {
         "date": "2024-09-06",
         "inventory": 3051.0,
-        "wow_pct": -5.31
+        "wow_pct": -7.1
       },
       {
         "date": "2024-09-13",
@@ -115146,7 +115146,7 @@
       {
         "date": "2024-09-20",
         "inventory": 3490.0,
-        "wow_pct": 6.27
+        "wow_pct": 9.4
       },
       {
         "date": "2024-09-27",
@@ -115536,17 +115536,17 @@
       {
         "date": "2026-03-03",
         "inventory": 9328.0,
-        "wow_pct": -52.4
+        "wow_pct": null
       },
       {
         "date": "2026-03-04",
         "inventory": 9328.0,
-        "wow_pct": -52.4
+        "wow_pct": null
       },
       {
         "date": "2026-03-05",
         "inventory": 9328.0,
-        "wow_pct": -52.4
+        "wow_pct": null
       },
       {
         "date": "2026-03-06",
@@ -115566,27 +115566,27 @@
       {
         "date": "2026-03-11",
         "inventory": 26403.0,
-        "wow_pct": 183.05
+        "wow_pct": null
       },
       {
         "date": "2026-03-12",
         "inventory": 26403.0,
-        "wow_pct": 183.05
+        "wow_pct": null
       },
       {
         "date": "2026-03-13",
         "inventory": 35551.0,
-        "wow_pct": 113.57
+        "wow_pct": null
       },
       {
         "date": "2026-03-16",
         "inventory": 40125.0,
-        "wow_pct": 136.71
+        "wow_pct": null
       },
       {
         "date": "2026-03-17",
         "inventory": 41649.0,
-        "wow_pct": 145.7
+        "wow_pct": null
       },
       {
         "date": "2026-03-18",
@@ -115796,27 +115796,27 @@
       {
         "date": "2026-05-20",
         "inventory": 17223.0,
-        "wow_pct": -81.83
+        "wow_pct": null
       },
       {
         "date": "2026-05-21",
         "inventory": 17223.0,
-        "wow_pct": -81.83
+        "wow_pct": null
       },
       {
         "date": "2026-05-22",
         "inventory": 17223.0,
-        "wow_pct": -82.0
+        "wow_pct": null
       },
       {
         "date": "2026-05-25",
         "inventory": 18721.0,
-        "wow_pct": -79.79
+        "wow_pct": null
       },
       {
         "date": "2026-05-26",
         "inventory": 20218.0,
-        "wow_pct": -78.17
+        "wow_pct": null
       },
       {
         "date": "2026-05-27",
@@ -120148,17 +120148,17 @@
       {
         "date": "2026-03-03",
         "inventory": 9328.0,
-        "wow_pct": -52.4
+        "wow_pct": null
       },
       {
         "date": "2026-03-04",
         "inventory": 9328.0,
-        "wow_pct": -52.4
+        "wow_pct": null
       },
       {
         "date": "2026-03-05",
         "inventory": 9328.0,
-        "wow_pct": -52.4
+        "wow_pct": null
       },
       {
         "date": "2026-03-06",
@@ -120178,27 +120178,27 @@
       {
         "date": "2026-03-11",
         "inventory": 26403.0,
-        "wow_pct": 183.05
+        "wow_pct": null
       },
       {
         "date": "2026-03-12",
         "inventory": 26403.0,
-        "wow_pct": 183.05
+        "wow_pct": null
       },
       {
         "date": "2026-03-13",
         "inventory": 35551.0,
-        "wow_pct": 113.57
+        "wow_pct": null
       },
       {
         "date": "2026-03-16",
         "inventory": 40125.0,
-        "wow_pct": 136.71
+        "wow_pct": null
       },
       {
         "date": "2026-03-17",
         "inventory": 41649.0,
-        "wow_pct": 145.7
+        "wow_pct": null
       },
       {
         "date": "2026-03-18",
@@ -120408,27 +120408,27 @@
       {
         "date": "2026-05-20",
         "inventory": 17223.0,
-        "wow_pct": -81.83
+        "wow_pct": null
       },
       {
         "date": "2026-05-21",
         "inventory": 17223.0,
-        "wow_pct": -81.83
+        "wow_pct": null
       },
       {
         "date": "2026-05-22",
         "inventory": 17223.0,
-        "wow_pct": -82.0
+        "wow_pct": null
       },
       {
         "date": "2026-05-25",
         "inventory": 18721.0,
-        "wow_pct": -79.79
+        "wow_pct": null
       },
       {
         "date": "2026-05-26",
         "inventory": 20218.0,
-        "wow_pct": -78.17
+        "wow_pct": null
       },
       {
         "date": "2026-05-27",

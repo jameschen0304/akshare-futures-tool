@@ -168,33 +168,56 @@ def refresh_ppi_varieties(
         print(f"  {cn_name} ({code}): 末行 {fresh[-1]['date']}")
 
 
+# 周环比：与 7 日前库存相比；若量级差异过大（口径切换）则置空
+WOW_COMPARE_DAYS = 7
+WOW_LEVEL_RATIO_MIN = 0.5
+WOW_LEVEL_RATIO_MAX = 2.0
+
+
+def inventory_at_or_before(rows: list[dict], date_text: str) -> float | None:
+    qty = None
+    for r in rows:
+        d = r.get("date")
+        if d and d <= date_text and r.get("inventory") is not None:
+            qty = float(r["inventory"])
+    return qty
+
+
+def recompute_inventory_wow(rows: list[dict]) -> list[dict]:
+    """按最终库存水平重算周环比，过滤数据源口径切换造成的失真。"""
+    if not rows:
+        return rows
+    out: list[dict] = []
+    for r in rows:
+        d = r.get("date")
+        cur = r.get("inventory")
+        wow: float | None = None
+        if d and cur is not None:
+            from datetime import timedelta
+
+            cur_d = datetime.strptime(d, "%Y-%m-%d").date()
+            prev_d = (cur_d - timedelta(days=WOW_COMPARE_DAYS)).isoformat()
+            prev_qty = inventory_at_or_before(out, prev_d)
+            if prev_qty is not None and prev_qty > 0:
+                ratio = float(cur) / prev_qty
+                if WOW_LEVEL_RATIO_MIN <= ratio <= WOW_LEVEL_RATIO_MAX:
+                    wow = round((float(cur) - prev_qty) / prev_qty * 100, 2)
+        out.append({"date": d, "inventory": cur, "wow_pct": wow})
+    return out
+
+
 def build_inventory_wow_rows(df: pd.DataFrame) -> list[dict]:
-    """东财库存序列转标准结构，并计算周环比。"""
+    """东财库存序列转标准结构（周环比由 recompute_inventory_wow 统一计算）。"""
     if df is None or df.empty:
         return []
-    out = []
-    hist: list[tuple[date, float]] = []
+    out: list[dict] = []
     for _, r in df.iterrows():
         ds = pd.Timestamp(r.iloc[0]).strftime("%Y-%m-%d")
         qty = pd.to_numeric(r.iloc[1], errors="coerce")
         if not pd.notna(qty):
             continue
-        d = datetime.strptime(ds, "%Y-%m-%d").date()
-        qty_val = float(qty)
-        out.append({"date": ds, "inventory": round(qty_val, 2), "wow_pct": None})
-        hist.append((d, qty_val))
-
-    for row in out:
-        d = datetime.strptime(row["date"], "%Y-%m-%d").date()
-        prev_target = d.toordinal() - 7
-        prev_qty = None
-        for hd, hq in reversed(hist):
-            if hd.toordinal() <= prev_target:
-                prev_qty = hq
-                break
-        if prev_qty is not None and prev_qty != 0:
-            row["wow_pct"] = round((row["inventory"] - prev_qty) / prev_qty * 100, 2)
-    return out
+        out.append({"date": ds, "inventory": round(float(qty), 2), "wow_pct": None})
+    return recompute_inventory_wow(out)
 
 
 def fetch_inventory_em_batch() -> tuple[dict[str, list[dict]], dict[str, str]]:
@@ -236,12 +259,20 @@ def merge_inventory_rows(
     for r in base_rows or []:
         d = r.get("date")
         if d:
-            by_date[d] = {"date": d, "inventory": r.get("inventory"), "wow_pct": r.get("wow_pct")}
+            by_date[d] = {"date": d, "inventory": r.get("inventory"), "wow_pct": None}
     for r in override_rows or []:
         d = r.get("date")
-        if d:
-            by_date[d] = {"date": d, "inventory": r.get("inventory"), "wow_pct": r.get("wow_pct")}
-    return [by_date[k] for k in sorted(by_date)]
+        fresh = r.get("inventory")
+        if not d or fresh is None:
+            continue
+        old = by_date.get(d, {}).get("inventory")
+        if old is not None and old > 0:
+            ratio = float(fresh) / float(old)
+            if ratio < WOW_LEVEL_RATIO_MIN or ratio > WOW_LEVEL_RATIO_MAX:
+                continue
+        by_date[d] = {"date": d, "inventory": fresh, "wow_pct": None}
+    merged = [by_date[k] for k in sorted(by_date)]
+    return recompute_inventory_wow(merged)
 
 
 def fetch_inventory_all() -> tuple[dict[str, list[dict]], dict[str, str]]:
@@ -262,17 +293,17 @@ def fetch_inventory_all() -> tuple[dict[str, list[dict]], dict[str, str]]:
         hc_inv = inventory[VAR_HC]
         print(f"  库存 {VAR_HC}: 螺纹历史打底 + 热卷近端覆盖，末行 {hc_inv[-1]['date']}")
     elif not hc_inv and rb_inv:
-        hc_inv = [dict(x) for x in rb_inv]
+        hc_inv = recompute_inventory_wow([dict(x) for x in rb_inv])
         inventory[VAR_HC] = hc_inv
         print(f"  库存 {VAR_HC}: 无独立历史，继承{VAR_RB}，末行 {hc_inv[-1]['date']}")
 
     # 冷轧板/镀锌板无稳定独立库存口径，继承热卷库存用于表格展示周度库存方向
     if hc_inv:
         for derived in (VAR_CR, VAR_GI):
-            inventory[derived] = [dict(x) for x in hc_inv]
+            inventory[derived] = recompute_inventory_wow([dict(x) for x in hc_inv])
             print(f"  库存 {derived}: 继承{VAR_HC}，末行 {hc_inv[-1]['date']}")
     if rb_inv and "线材" not in inventory:
-        inventory["线材"] = [dict(x) for x in rb_inv]
+        inventory["线材"] = recompute_inventory_wow([dict(x) for x in rb_inv])
         print(f"  库存 线材: 继承{VAR_RB}，末行 {rb_inv[-1]['date']}")
     latest_dates: dict[str, str] = {}
     for name, rows in inventory.items():
@@ -461,8 +492,8 @@ def main() -> None:
     if rb_hist:
         merged_inventory[VAR_HC] = merge_inventory_rows(rb_hist, merged_inventory.get(VAR_HC))
         hc_hist = merged_inventory[VAR_HC]
-        merged_inventory[VAR_CR] = [dict(x) for x in hc_hist]
-        merged_inventory[VAR_GI] = [dict(x) for x in hc_hist]
+        merged_inventory[VAR_CR] = recompute_inventory_wow([dict(x) for x in hc_hist])
+        merged_inventory[VAR_GI] = recompute_inventory_wow([dict(x) for x in hc_hist])
         merged_inventory["线材"] = merge_inventory_rows(rb_hist, merged_inventory.get("线材"))
     data["inventory"] = merged_inventory
     merged_inventory_latest_dates: dict[str, str] = {}
