@@ -254,13 +254,19 @@ def fetch_inventory_all() -> tuple[dict[str, list[dict]], dict[str, str]]:
         if merged:
             inventory[k] = merged
 
-    # 冷轧板/镀锌板无稳定独立库存口径，继承热卷库存用于表格展示周度库存方向
-    hc_inv = inventory.get(VAR_HC)
+    # 热卷库存历史不足：使用螺纹历史打底，再由热卷近端覆盖
     rb_inv = inventory.get(VAR_RB)
-    if not hc_inv and rb_inv:
+    hc_inv = inventory.get(VAR_HC)
+    if rb_inv and hc_inv:
+        inventory[VAR_HC] = merge_inventory_rows(rb_inv, hc_inv)
+        hc_inv = inventory[VAR_HC]
+        print(f"  库存 {VAR_HC}: 螺纹历史打底 + 热卷近端覆盖，末行 {hc_inv[-1]['date']}")
+    elif not hc_inv and rb_inv:
         hc_inv = [dict(x) for x in rb_inv]
         inventory[VAR_HC] = hc_inv
         print(f"  库存 {VAR_HC}: 无独立历史，继承{VAR_RB}，末行 {hc_inv[-1]['date']}")
+
+    # 冷轧板/镀锌板无稳定独立库存口径，继承热卷库存用于表格展示周度库存方向
     if hc_inv:
         for derived in (VAR_CR, VAR_GI):
             inventory[derived] = [dict(x) for x in hc_inv]
@@ -403,6 +409,7 @@ def main() -> None:
     data = load_json(args.out)
     symbols: dict = data.setdefault("symbols", {})
     sources: dict = data.setdefault("sources", {})
+    existing_inventory: dict = data.get("inventory") or {}
 
     print("拉取东财钢铁月度锚点…")
     anchor_dates, em_prices = fetch_em_steel_monthly()
@@ -443,8 +450,26 @@ def main() -> None:
     data["symbols"] = symbols
     data["sources"] = sources
     data["latest_dates"] = symbol_latest_dates(symbols)
-    data["inventory"] = inventory_rows
-    data["inventory_latest_dates"] = inventory_latest_dates
+    merged_inventory: dict[str, list[dict]] = {}
+    for k in sorted(set(existing_inventory.keys()) | set(inventory_rows.keys())):
+        merged = merge_inventory_rows(existing_inventory.get(k), inventory_rows.get(k))
+        if merged:
+            merged_inventory[k] = merged
+
+    # 最终兜底：若近端源缺失历史，使用螺纹库存为热卷/冷轧/镀锌/线材补历史
+    rb_hist = merged_inventory.get(VAR_RB)
+    if rb_hist:
+        merged_inventory[VAR_HC] = merge_inventory_rows(rb_hist, merged_inventory.get(VAR_HC))
+        hc_hist = merged_inventory[VAR_HC]
+        merged_inventory[VAR_CR] = [dict(x) for x in hc_hist]
+        merged_inventory[VAR_GI] = [dict(x) for x in hc_hist]
+        merged_inventory["线材"] = merge_inventory_rows(rb_hist, merged_inventory.get("线材"))
+    data["inventory"] = merged_inventory
+    merged_inventory_latest_dates: dict[str, str] = {}
+    for name, rows in merged_inventory.items():
+        if rows:
+            merged_inventory_latest_dates[name] = rows[-1]["date"]
+    data["inventory_latest_dates"] = merged_inventory_latest_dates
 
     with args.out.open("w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
