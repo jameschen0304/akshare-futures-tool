@@ -360,6 +360,7 @@
   ];
   let steelCache = null;
   let steelInventoryCache = null;
+  let steelFullData = null;
   let steelSnapshotInfo = null;
 
   function setMsg(text, isErr) {
@@ -998,28 +999,22 @@
     return { alert: alert, current: current, mean: mean, ratio: mean > 0 ? current / mean : null };
   }
 
+  function lmeZincFromSnapshot() {
+    const data = steelFullData || window[STEEL_DATA_JS_GLOBAL] || null;
+    const z = data && data.lme_zinc;
+    const usd = z && Number(z.usd);
+    if (!Number.isFinite(usd) || usd <= 0) return null;
+    const src = z.source || "快照";
+    const datePart = z.date ? " " + z.date : "";
+    return { usd: usd, symbol: "ZSD", source: src + datePart, date: z.date || "" };
+  }
+
   async function fetchLmeZincUsd() {
-    return new Promise(function (resolve, reject) {
-      const s = document.createElement("script");
-      s.charset = "gbk";
-      s.onerror = function () {
-        reject(new Error("新浪 LME 锌加载失败"));
-      };
-      s.onload = function () {
-        setTimeout(function () {
-          const payload = window.hq_str_hf_ZSD;
-          if (!payload) {
-            reject(new Error("新浪 LME 锌返回空"));
-            return;
-          }
-          const usd = parseFloat(String(payload).split(",")[0]);
-          if (!Number.isFinite(usd)) reject(new Error("LME 锌价解析失败"));
-          else resolve({ usd: usd, symbol: "ZSD", source: "新浪 hf_ZSD" });
-        }, 120);
-      };
-      s.src = "https://hq.sinajs.cn/list=hf_ZSD&_=" + Date.now();
-      document.head.appendChild(s);
-    });
+    const fromSnap = lmeZincFromSnapshot();
+    if (fromSnap) return fromSnap;
+    throw new Error(
+      "快照中无 LME 锌价（GitHub Pages 无法直连新浪）；请运行 build_steel_spot_daily.py 或等待 Actions 日更"
+    );
   }
 
   let arbFactorsCache = null;
@@ -1605,6 +1600,7 @@
         }
         const data = await res.json();
         const symbols = (data && data.symbols) || {};
+        steelFullData = data;
         steelCache = symbols;
         steelInventoryCache = (data && data.inventory) || {};
         const plainUrl = orderedUrls[i] || "";
@@ -1623,6 +1619,7 @@
     }
     const inline = window[STEEL_DATA_JS_GLOBAL];
     if (inline && inline.symbols) {
+      steelFullData = inline;
       steelCache = inline.symbols;
       steelInventoryCache = inline.inventory || {};
       steelSnapshotInfo = {

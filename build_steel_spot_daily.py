@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from datetime import date, datetime, timezone
 from pathlib import Path
 
@@ -398,6 +399,41 @@ def build_coated_varieties(hc_rows: list[dict], anchor_dates: list[date], em_pri
     return cr_rows, gi_rows
 
 
+def fetch_lme_zinc() -> dict | None:
+    """LME 锌 USD/t（新浪实时优先，akshare 日收盘兜底）。供前端套利雷达读取。"""
+    headers = {"Referer": "https://finance.sina.com.cn", "User-Agent": "Mozilla/5.0"}
+    try:
+        text = requests.get(
+            "https://hq.sinajs.cn/list=hf_ZSD", headers=headers, timeout=20
+        ).text
+        m = re.search(r'hq_str_hf_ZSD="([^"]*)"', text)
+        if m and m.group(1):
+            usd = float(m.group(1).split(",")[0])
+            if usd > 0:
+                today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+                return {
+                    "date": today,
+                    "usd": round(usd, 2),
+                    "source": "sinajs hf_ZSD",
+                }
+    except Exception as exc:
+        print(f"  警告: sinajs LME锌 ({exc})")
+    try:
+        df = ak.futures_foreign_hist(symbol="ZSD")
+        row = df.iloc[-1]
+        d = pd.Timestamp(row["date"]).strftime("%Y-%m-%d")
+        close = float(row["close"])
+        if close > 0:
+            return {
+                "date": d,
+                "usd": round(close, 2),
+                "source": "akshare futures_foreign_hist(ZSD)",
+            }
+    except Exception as exc:
+        print(f"  警告: akshare LME锌 ({exc})")
+    return None
+
+
 def load_json(path: Path) -> dict:
     if path.is_file():
         with path.open(encoding="utf-8") as f:
@@ -501,6 +537,14 @@ def main() -> None:
         if rows:
             merged_inventory_latest_dates[name] = rows[-1]["date"]
     data["inventory_latest_dates"] = merged_inventory_latest_dates
+
+    print("拉取 LME 锌（新浪/akshare）…")
+    lme_zinc = fetch_lme_zinc()
+    if lme_zinc:
+        data["lme_zinc"] = lme_zinc
+        print(f"  LME锌 {lme_zinc['usd']} USD/t ({lme_zinc['source']}, {lme_zinc['date']})")
+    elif data.get("lme_zinc"):
+        print("  沿用快照中 lme_zinc")
 
     with args.out.open("w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
