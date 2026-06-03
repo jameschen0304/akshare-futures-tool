@@ -2,8 +2,10 @@ name: Update steel spot snapshot
 
 on:
   schedule:
-    # 北京时间工作日 17:05（UTC 09:05，Mon–Fri）
-    - cron: "5 9 * * 1-5"
+    # 北京时间工作日 18:30（UTC 10:30，Mon–Fri）— 收盘后数据通常已发布
+    - cron: "30 10 * * 1-5"
+    # 备份 21:30（UTC 13:30）— 应对 GitHub 调度延迟或源站晚更新
+    - cron: "30 13 * * 1-5"
   workflow_dispatch:
 
 permissions:

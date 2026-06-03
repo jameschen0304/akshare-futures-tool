@@ -197,7 +197,7 @@
         </div>
         <button type="button" class="primary" id="steelGo">查询钢材现货</button>
       </div>
-      <div class="links" id="steelSnapshotMeta">数据源：仓库内置快照（AkShare 离线 JSON，非实时）。工作日约 17:05 由 GitHub Actions <strong>全品种日更至最近交易日</strong>；本地可运行 <code>python build_steel_spot_daily.py --refresh-rb --lookback-days 120</code>。</div>
+      <div class="links" id="steelSnapshotMeta">数据源：GitHub 远端快照 + 仓库内置备份（AkShare 离线 JSON，非实时）。工作日约 18:30 / 21:30 由 GitHub Actions <strong>全品种日更至最近交易日</strong>；打开页面会自动拉取最新快照。</div>
       <p id="steelMsg"></p>
     </div>
 
@@ -355,9 +355,10 @@
   const STEEL_DATA_URL = "./steel_spot_daily.json";
   const STEEL_DATA_JS_GLOBAL = "__steelSpotSnapshot";
   const STEEL_AUTO_REFRESH_KEY = "akSteelSnapshotAutoRefreshDateV1";
-  const STEEL_FALLBACK_URLS = [
-    "https://raw.githubusercontent.com/jameschen0304/akshare/main/docs/futures-tool/steel_spot_daily.json",
+  const STEEL_REMOTE_URLS = [
+    "https://raw.githubusercontent.com/jameschen0304/akshare-futures-tool/main/steel_spot_daily.json",
   ];
+  const STEEL_FALLBACK_URLS = STEEL_REMOTE_URLS;
   let steelCache = null;
   let steelInventoryCache = null;
   let steelFullData = null;
@@ -607,6 +608,43 @@
     return y + "-" + m + "-" + da;
   }
 
+  function chinaNowDate() {
+    return new Date(new Date().toLocaleString("en-US", { timeZone: "Asia/Shanghai" }));
+  }
+
+  function dateToDash(d) {
+    const y = d.getFullYear();
+    const m = String(d.getMonth() + 1).padStart(2, "0");
+    const da = String(d.getDate()).padStart(2, "0");
+    return y + "-" + m + "-" + da;
+  }
+
+  function prevTradingDay(d) {
+    const cur = new Date(d.getTime());
+    cur.setDate(cur.getDate() - 1);
+    while (cur.getDay() === 0 || cur.getDay() === 6) {
+      cur.setDate(cur.getDate() - 1);
+    }
+    return cur;
+  }
+
+  /** 按北京时间推断「应已发布」的最近交易日（17:30 前视为上一交易日） */
+  function expectedLatestTradingDay() {
+    const cn = chinaNowDate();
+    const wd = cn.getDay();
+    if (wd === 0 || wd === 6) {
+      const fri = new Date(cn.getTime());
+      while (fri.getDay() === 0 || fri.getDay() === 6) {
+        fri.setDate(fri.getDate() - 1);
+      }
+      return dateToDash(fri);
+    }
+    if (cn.getHours() < 17 || (cn.getHours() === 17 && cn.getMinutes() < 30)) {
+      return dateToDash(prevTradingDay(cn));
+    }
+    return dateToDash(cn);
+  }
+
   function monthFromDateText(s) {
     const m = String(s || "").match(/^(\d{4})-(\d{2})-(\d{2})$/);
     if (!m) return null;
@@ -661,12 +699,15 @@
       : info.versionText
         ? "，版本 " + info.versionText
         : "";
+    const expectDay = expectedLatestTradingDay();
     let staleHint = "";
-    if (latest && latest !== "未知" && latest < todayDash()) {
+    if (latest && latest !== "未知" && latest < expectDay) {
       staleHint =
         " <span style=\"color:var(--err);\">该品种数据截至 " +
         latest +
-        "，可运行 <code>python build_steel_spot_daily.py --refresh-rb --lookback-days 120</code> 同步全品种。</span>";
+        "（预期至少 " +
+        expectDay +
+        "），页面将自动拉取远端快照；也可手动运行 <code>python build_steel_spot_daily.py --refresh-rb --lookback-days 120</code>。</span>";
     }
     steelSnapshotMeta.innerHTML =
       "数据源：" +
@@ -678,7 +719,7 @@
       "</strong>" +
       ver +
       staleHint +
-      "。工作日约 17:05 GitHub Actions 执行 <code>--refresh-rb --lookback-days 120</code> 更新螺纹/热卷/煤焦等并推导冷轧/镀锌。";
+      "。工作日约 18:30 / 21:30（北京时间）GitHub Actions 自动更新全品种；打开页面会优先拉取 GitHub 最新快照。";
   }
 
   function toNumOrNull(v) {
@@ -1576,58 +1617,83 @@
     arbGo.disabled = false;
   }
 
+  function applySteelSnapshot(data, plainUrl) {
+    const symbols = (data && data.symbols) || {};
+    steelFullData = data;
+    steelCache = symbols;
+    steelInventoryCache = (data && data.inventory) || {};
+    steelSnapshotInfo = {
+      sourceText:
+        plainUrl === STEEL_DATA_URL || String(plainUrl).indexOf("./") === 0
+          ? "仓库内置快照"
+          : "GitHub 远端快照",
+      latestDate: latestDateFromSymbols(symbols, $("steelVariety").value),
+      generatedAt: (data && data.generated_at) || "",
+      versionText:
+        (data && (data.version || data.snapshot_version || data.snapshotDate || data.snapshot_date)) || "",
+    };
+    updateSteelSnapshotMeta();
+  }
+
+  function steelSnapshotFreshness(data, preferredVariety) {
+    const symbols = (data && data.symbols) || {};
+    return {
+      latest: latestDateFromSymbols(symbols, preferredVariety),
+      generated: String((data && data.generated_at) || ""),
+      data: data,
+    };
+  }
+
+  async function fetchSteelSnapshotJson(url) {
+    const sep = url.indexOf("?") >= 0 ? "&" : "?";
+    const res = await fetch(url + sep + "_=" + Date.now());
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    return res.json();
+  }
+
   async function loadSteelSnapshot(opts) {
     const options = opts || {};
     const force = options.force === true;
     const preferRemote = options.preferRemote === true;
+    const preferNewest = options.preferNewest === true;
     if (steelCache && !force) return steelCache;
 
-    const baseUrls = [STEEL_DATA_URL].concat(STEEL_FALLBACK_URLS);
-    const orderedUrls = preferRemote
-      ? baseUrls.slice(1).concat(baseUrls[0])
-      : baseUrls;
-    const tryUrls = orderedUrls.map(function (u) {
-      return u + "?_=" + Date.now();
-    });
+    const variety = $("steelVariety") && $("steelVariety").value;
+    const orderedUrls = preferNewest
+      ? STEEL_REMOTE_URLS.concat([STEEL_DATA_URL])
+      : preferRemote
+        ? STEEL_REMOTE_URLS.concat([STEEL_DATA_URL])
+        : [STEEL_DATA_URL].concat(STEEL_REMOTE_URLS);
 
+    let best = null;
+    let bestUrl = "";
     let lastErr = null;
-    for (let i = 0; i < tryUrls.length; i++) {
+    for (let i = 0; i < orderedUrls.length; i++) {
       try {
-        const res = await fetch(tryUrls[i]);
-        if (!res.ok) {
-          lastErr = new Error("HTTP " + res.status);
-          continue;
+        const data = await fetchSteelSnapshotJson(orderedUrls[i]);
+        const score = steelSnapshotFreshness(data, variety);
+        if (
+          !best ||
+          score.latest > best.latest ||
+          (score.latest === best.latest && score.generated > best.generated)
+        ) {
+          best = score;
+          bestUrl = orderedUrls[i];
         }
-        const data = await res.json();
-        const symbols = (data && data.symbols) || {};
-        steelFullData = data;
-        steelCache = symbols;
-        steelInventoryCache = (data && data.inventory) || {};
-        const plainUrl = orderedUrls[i] || "";
-        steelSnapshotInfo = {
-          sourceText: plainUrl === STEEL_DATA_URL ? "仓库内置快照" : "远端快照",
-          latestDate: latestDateFromSymbols(symbols, $("steelVariety").value),
-          generatedAt: (data && data.generated_at) || "",
-          versionText:
-            (data && (data.version || data.snapshot_version || data.snapshotDate || data.snapshot_date)) || "",
-        };
-        updateSteelSnapshotMeta();
-        return steelCache;
+        if (!preferNewest && !preferRemote && i === 0) break;
       } catch (e) {
         lastErr = e;
       }
     }
+
+    if (best && best.data) {
+      applySteelSnapshot(best.data, bestUrl);
+      return steelCache;
+    }
     const inline = window[STEEL_DATA_JS_GLOBAL];
     if (inline && inline.symbols) {
-      steelFullData = inline;
-      steelCache = inline.symbols;
-      steelInventoryCache = inline.inventory || {};
-      steelSnapshotInfo = {
-        sourceText: "页面内置快照",
-        latestDate: latestDateFromSymbols(steelCache, $("steelVariety").value),
-        versionText:
-          (inline && (inline.version || inline.snapshot_version || inline.snapshotDate || inline.snapshot_date)) || "",
-      };
+      applySteelSnapshot(inline, "inline");
+      steelSnapshotInfo.sourceText = "页面内置快照";
       updateSteelSnapshotMeta();
       return steelCache;
     }
@@ -1635,21 +1701,27 @@
   }
 
   async function autoRefreshSteelDailyOnOpen() {
-    const today = todayDash();
-    let last = "";
-    try {
-      last = localStorage.getItem(STEEL_AUTO_REFRESH_KEY) || "";
-    } catch (e) {
-      last = "";
+    const expectDay = expectedLatestTradingDay();
+    setSteelMsg("正在检查远端最新钢材快照（GitHub main）…");
+    await loadSteelSnapshot({ force: true, preferNewest: true });
+    const latest = latestDateFromSymbols(steelCache, $("steelVariety") && $("steelVariety").value);
+    if (latest && latest >= expectDay) {
+      setSteelMsg("");
+      try {
+        localStorage.setItem(STEEL_AUTO_REFRESH_KEY, todayDash());
+      } catch (e) {
+        /* ignore */
+      }
+      return;
     }
-    if (last === today) return;
-    setSteelMsg("每日首次打开，正在刷新钢材快照（优先本地 steel_spot_daily.json）…");
-    await loadSteelSnapshot({ force: true, preferRemote: false });
-    try {
-      localStorage.setItem(STEEL_AUTO_REFRESH_KEY, today);
-    } catch (e) {
-      /* ignore */
-    }
+    setSteelMsg(
+      "快照仍滞后（当前 " +
+        (latest || "—") +
+        "，预期 " +
+        expectDay +
+        "），已使用可用最新数据；GitHub Actions 约 18:30 / 21:30 自动更新。",
+      true
+    );
   }
 
   async function initSteelVarietyOptions() {
