@@ -233,7 +233,7 @@
 
     <div class="card">
       <h2>舆情窗口</h2>
-      <p class="sub" style="margin-bottom: 0.75rem;">金十快讯 + 上海金属网快讯 + 上期所库存周报摘要。数据源等同原 <code>ak.js_news(最新资讯)</code> / <code>futures_news_shmet</code> / <code>futures_stock_shfe_js</code>；静态页读取 JSON 快照，亦可尝试浏览器直连金十。</p>
+      <p class="sub" style="margin-bottom: 0.75rem;">金十快讯 + 上海金属网快讯 + 上期所库存周报摘要。打开页面先读 JSON 快照；点击<strong>刷新舆情</strong>将实时抓取金十与金属网（等同 <code>js_news</code> / <code>futures_news_shmet</code>），不再静默回退旧快照。</p>
       <div class="row">
         <div>
           <label for="sentFeed">资讯栏目</label>
@@ -407,10 +407,13 @@
     "https://raw.githubusercontent.com/jameschen0304/akshare-futures-tool/main/sentiment_feed.json",
   ];
   const JIN10_FLASH_API = "https://flash-api.jin10.com/get_flash_list";
+  const SHMET_NEWS_API = "https://www.shmet.com/api/rest/news/queryNewsflashList";
+  const CORS_PROXY_PREFIX = "https://corsproxy.io/?";
   const JIN10_HEADERS = {
     "x-app-id": "rU6QIu7JHe2gOUeR",
     "x-csrf-token": "x-csrf-token",
     "x-version": "1.0.0",
+    referer: "https://www.jin10.com/",
   };
   let steelCache = null;
   let steelInventoryCache = null;
@@ -1699,10 +1702,48 @@
     return "neutral";
   }
 
+  const STEEL_NEWS_KEYS = [
+    "螺纹", "热卷", "热轧", "冷轧", "镀锌", "钢铁", "钢材", "铁矿", "铁矿石", "焦炭", "焦煤",
+    "双焦", "钢坯", "黑色", "成材", "高炉", "铁水", "方坯", "卷板", "硅铁", "锰硅", "煤焦", "炉料", "钢厂",
+  ];
+
   function isSteelNewsLite(text) {
-    const keys = ["螺纹", "热卷", "热轧", "冷轧", "镀锌", "钢铁", "钢材", "铁矿", "焦炭", "焦煤", "双焦", "钢坯", "黑色"];
-    for (let i = 0; i < keys.length; i++) if (text.indexOf(keys[i]) >= 0) return true;
+    for (let i = 0; i < STEEL_NEWS_KEYS.length; i++) {
+      if (text.indexOf(STEEL_NEWS_KEYS[i]) >= 0) return true;
+    }
     return false;
+  }
+
+  function buildSteelHighlight(jin10List, shmetList) {
+    const merged = (jin10List || []).concat(shmetList || []).filter(function (x) {
+      return x && x.steel;
+    });
+    merged.sort(function (a, b) {
+      return a.datetime < b.datetime ? 1 : a.datetime > b.datetime ? -1 : 0;
+    });
+    const seen = Object.create(null);
+    const out = [];
+    for (let i = 0; i < merged.length; i++) {
+      const key = (merged[i].content || "").slice(0, 48);
+      if (seen[key]) continue;
+      seen[key] = true;
+      out.push(merged[i]);
+    }
+    return out;
+  }
+
+  async function fetchJsonWithCors(url, opts) {
+    const options = opts || {};
+    try {
+      const res = await fetch(url, options);
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      return await res.json();
+    } catch (eDirect) {
+      const proxyUrl = CORS_PROXY_PREFIX + encodeURIComponent(url);
+      const res2 = await fetch(proxyUrl, { headers: options.headers });
+      if (!res2.ok) throw new Error("代理 HTTP " + res2.status);
+      return await res2.json();
+    }
   }
 
   function normalizeJin10Items(rawList) {
@@ -1727,19 +1768,24 @@
 
   async function fetchJin10FlashLive(pages) {
     const out = [];
+    const seen = Object.create(null);
     let maxTime = "";
-    const n = pages || 5;
+    const n = pages || 8;
     for (let p = 0; p < n; p++) {
       const url =
         JIN10_FLASH_API +
         "?channel=-8200&vip=1&max_time=" +
         encodeURIComponent(maxTime);
-      const res = await fetch(url, { headers: JIN10_HEADERS });
-      if (!res.ok) throw new Error("金十 HTTP " + res.status);
-      const data = await res.json();
+      const data = await fetchJsonWithCors(url, { headers: JIN10_HEADERS });
       const batch = (data && data.data) || [];
       if (!batch.length) break;
-      out.push.apply(out, normalizeJin10Items(batch));
+      const normalized = normalizeJin10Items(batch);
+      for (let i = 0; i < normalized.length; i++) {
+        const key = normalized[i].datetime + "|" + normalized[i].content.slice(0, 40);
+        if (seen[key]) continue;
+        seen[key] = true;
+        out.push(normalized[i]);
+      }
       maxTime = batch[batch.length - 1].time || "";
       if (!maxTime) break;
     }
@@ -1747,6 +1793,95 @@
       return a.datetime < b.datetime ? 1 : a.datetime > b.datetime ? -1 : 0;
     });
     return out;
+  }
+
+  function normalizeShmetItems(dataList) {
+    const out = [];
+    const list = dataList || [];
+    for (let i = 0; i < list.length; i++) {
+      const row = list[i] || {};
+      const ms = Number(row[3]);
+      let dtText = "";
+      if (Number.isFinite(ms)) {
+        const d = new Date(ms);
+        dtText =
+          d.getFullYear() +
+          "-" +
+          String(d.getMonth() + 1).padStart(2, "0") +
+          "-" +
+          String(d.getDate()).padStart(2, "0") +
+          " " +
+          String(d.getHours()).padStart(2, "0") +
+          ":" +
+          String(d.getMinutes()).padStart(2, "0") +
+          ":" +
+          String(d.getSeconds()).padStart(2, "0");
+      }
+      const content = String(row[5] || "").trim();
+      if (!content) continue;
+      out.push({
+        datetime: dtText,
+        content: content,
+        important: 0,
+        source: "shmet",
+        sentiment: tagSentimentLite(content),
+        steel: isSteelNewsLite(content),
+      });
+    }
+    out.sort(function (a, b) {
+      return a.datetime < b.datetime ? 1 : a.datetime > b.datetime ? -1 : 0;
+    });
+    return out;
+  }
+
+  async function fetchShmetLive() {
+    const res = await fetch(SHMET_NEWS_API, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ currentPage: 1, pageSize: 100 }),
+    });
+    if (!res.ok) throw new Error("金属网 HTTP " + res.status);
+    const data = await res.json();
+    const list = (data && data.data && data.data.dataList) || [];
+    return normalizeShmetItems(list);
+  }
+
+  async function crawlSentimentLive() {
+    const errors = [];
+    let jin10 = [];
+    let shmet = [];
+    const tasks = [
+      fetchJin10FlashLive(8)
+        .then(function (rows) {
+          jin10 = rows;
+        })
+        .catch(function (e) {
+          errors.push("金十:" + (e.message || String(e)));
+        }),
+      fetchShmetLive()
+        .then(function (rows) {
+          shmet = rows;
+        })
+        .catch(function (e) {
+          errors.push("金属网:" + (e.message || String(e)));
+        }),
+    ];
+    await Promise.all(tasks);
+    if (!jin10.length && !shmet.length) {
+      throw new Error(errors.join("；") || "实时抓取失败");
+    }
+    const feed = {
+      source: "live",
+      generated_at: new Date().toISOString(),
+      jin10: jin10,
+      shmet: shmet,
+      steel_highlight: buildSteelHighlight(jin10, shmet),
+      weekly_stock: sentFeedCache && sentFeedCache.weekly_stock,
+      _loadedFrom: "实时抓取",
+      _liveErrors: errors,
+    };
+    sentFeedCache = feed;
+    return feed;
   }
 
   async function fetchSentimentJson(url) {
@@ -1758,29 +1893,7 @@
 
   async function loadSentimentFeed(opts) {
     const force = opts && opts.force === true;
-    const preferLive = opts && opts.preferLive === true;
-    if (sentFeedCache && !force && !preferLive) return sentFeedCache;
-
-    if (preferLive) {
-      try {
-        const live = await fetchJin10FlashLive(6);
-        if (live.length) {
-          sentFeedCache = {
-            source: "jin10 live",
-            generated_at: new Date().toISOString(),
-            jin10: live,
-            shmet: (sentFeedCache && sentFeedCache.shmet) || [],
-            steel_highlight: live.filter(function (x) {
-              return x.steel;
-            }),
-            weekly_stock: sentFeedCache && sentFeedCache.weekly_stock,
-          };
-          return sentFeedCache;
-        }
-      } catch (eLive) {
-        console.warn("[舆情] 金十直连失败，回退 JSON 快照", eLive);
-      }
-    }
+    if (sentFeedCache && !force) return sentFeedCache;
 
     const urls = SENT_REMOTE_URLS.concat([SENT_DATA_URL]);
     let best = null;
@@ -1808,18 +1921,23 @@
     const el = $("sentMeta");
     if (!el || !feed) return;
     const gen = feed.generated_at ? String(feed.generated_at).slice(0, 19).replace("T", " ") + " UTC" : "—";
-    const from = feed._loadedFrom
-      ? String(feed._loadedFrom).indexOf("github") >= 0
-        ? "GitHub 远端"
-        : "本地快照"
-      : feed.source || "—";
+    let from = "—";
+    if (feed._loadedFrom === "实时抓取" || feed.source === "live") {
+      from = "实时抓取（浏览器）";
+    } else if (feed._loadedFrom && String(feed._loadedFrom).indexOf("github") >= 0) {
+      from = "GitHub 远端快照";
+    } else if (feed._loadedFrom) {
+      from = "本地快照";
+    } else {
+      from = feed.source || "—";
+    }
     const jn = (feed.jin10 || []).length;
     const sm = (feed.shmet || []).length;
     const st = (feed.steel_highlight || []).length;
-    el.textContent =
+    let text =
       "数据源：" +
       from +
-      "；生成 " +
+      "；更新 " +
       gen +
       "；金十 " +
       jn +
@@ -1827,7 +1945,14 @@
       sm +
       " 条 / 黑色精选 " +
       st +
-      " 条。本地更新：python build_sentiment_feed.py";
+      " 条。";
+    if (feed._liveErrors && feed._liveErrors.length) {
+      text += " 部分源失败：" + feed._liveErrors.join("；") + "。";
+    }
+    if (from.indexOf("快照") >= 0) {
+      text += " 点击「刷新舆情」可实时抓取；离线批量：python build_sentiment_feed.py";
+    }
+    el.textContent = text;
   }
 
   function filterSentItems(items, filterMode) {
@@ -1921,12 +2046,25 @@
   async function runSentimentFeed(opts) {
     const feedSel = $("sentFeed").value;
     const filterMode = $("sentFilter").value;
-    const preferLive = !(opts && opts.skipLive);
+    const liveCrawl = opts && opts.liveCrawl === true;
+    const useCacheOnly = opts && opts.useCacheOnly === true;
     $("sentGo").disabled = true;
-    setSentMsg("正在加载舆情…");
+    setSentMsg(liveCrawl ? "正在实时抓取金十 + 金属网快讯…" : "正在加载舆情…");
     $("sentTableHost").hidden = true;
     try {
-      const feed = await loadSentimentFeed({ force: true, preferLive: preferLive });
+      let feed;
+      if (liveCrawl) {
+        if (feedSel === "weekly_stock") {
+          feed = await loadSentimentFeed({ force: true });
+          setSentMsg("库存周报来自日更快照（无浏览器实时接口），已加载最新 JSON。", false);
+        } else {
+          feed = await crawlSentimentLive();
+        }
+      } else if (useCacheOnly && sentFeedCache) {
+        feed = sentFeedCache;
+      } else {
+        feed = await loadSentimentFeed({ force: !useCacheOnly });
+      }
       updateSentMeta(feed);
       if (feedSel === "weekly_stock") {
         renderWeeklyStockTable(feed.weekly_stock);
@@ -1937,6 +2075,12 @@
         else items = feed.steel_highlight || [];
         items = filterSentItems(items, filterMode);
         renderSentNewsRows(items);
+        if (liveCrawl && feed._liveErrors && feed._liveErrors.length) {
+          setSentMsg(
+            "共 " + items.length + " 条（部分源失败：" + feed._liveErrors.join("；") + "）",
+            true
+          );
+        }
       }
     } catch (e) {
       setSentMsg("舆情加载失败：" + (e.message || String(e)), true);
@@ -4228,9 +4372,9 @@
   arbGo.addEventListener("click", runArbRadar);
   arbSpreadMode.addEventListener("change", applySpreadModeUi);
   applySpreadModeUi();
-  $("sentGo").addEventListener("click", function () { runSentimentFeed(); });
-  $("sentFeed").addEventListener("change", function () { runSentimentFeed({ skipLive: true }); });
-  $("sentFilter").addEventListener("change", function () { runSentimentFeed({ skipLive: true }); });
+  $("sentGo").addEventListener("click", function () { runSentimentFeed({ liveCrawl: true }); });
+  $("sentFeed").addEventListener("change", function () { runSentimentFeed({ useCacheOnly: true }); });
+  $("sentFilter").addEventListener("change", function () { runSentimentFeed({ useCacheOnly: true }); });
   async function initPage() {
     const today = todayDash();
     if ($("steelEnd").value === "2050-01-01") $("steelEnd").value = today;
@@ -4243,7 +4387,7 @@
     await initSteelVarietyOptions();
     await runSteelQuery();
     try {
-      await runSentimentFeed({ skipLive: true });
+      await runSentimentFeed();
     } catch (eSent) {
       setSentMsg("舆情初始化失败：" + (eSent.message || String(eSent)), true);
     }
