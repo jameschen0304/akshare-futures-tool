@@ -41,14 +41,17 @@ jobs:
             --lookback-days 120 \
             --rb-ppi-days 90
 
+      - name: Update sentiment feed
+        run: python build_sentiment_feed.py
+
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add steel_spot_daily.json
+          git add steel_spot_daily.json sentiment_feed.json
           if git diff --cached --quiet; then
-            echo "No changes to steel_spot_daily.json"
+            echo "No changes to steel_spot_daily.json or sentiment_feed.json"
             exit 0
           fi
-          git commit -m "chore: auto-update steel snapshot $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git commit -m "chore: auto-update steel snapshot and sentiment feed $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push

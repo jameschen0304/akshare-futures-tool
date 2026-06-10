@@ -121,6 +121,27 @@
     .vbottom-verdict-title { font-size: 1.05rem; font-weight: 700; margin: 0 0 0.35rem 0; line-height: 1.35; }
     .vbottom-verdict-meta { font-size: 0.82rem; color: var(--muted); margin: 0 0 0.4rem 0; }
     .vbottom-verdict-body { font-size: 0.92rem; margin: 0; line-height: 1.5; }
+    .sent-feed-wrap { max-height: 52vh; }
+    .sent-feed-wrap td.content-cell {
+      text-align: left;
+      white-space: normal;
+      max-width: 42rem;
+      line-height: 1.45;
+      word-break: break-word;
+    }
+    .sent-tag {
+      display: inline-block;
+      font-size: 0.72rem;
+      padding: 0.05rem 0.35rem;
+      border-radius: 4px;
+      margin-right: 0.35rem;
+      font-weight: 600;
+      vertical-align: middle;
+      border: 1px solid var(--border);
+      color: var(--muted);
+    }
+    .sent-tag.steel { color: var(--accent); border-color: color-mix(in srgb, var(--accent) 50%, var(--border)); }
+    .sent-tag.important { color: #a16207; border-color: #a16207; }
   </style>
 </head>
 <body>
@@ -208,6 +229,42 @@
         </thead>
         <tbody id="steelTbody"></tbody>
       </table>
+    </div>
+
+    <div class="card">
+      <h2>舆情窗口</h2>
+      <p class="sub" style="margin-bottom: 0.75rem;">金十快讯 + 上海金属网快讯 + 上期所库存周报摘要。数据源等同原 <code>ak.js_news(最新资讯)</code> / <code>futures_news_shmet</code> / <code>futures_stock_shfe_js</code>；静态页读取 JSON 快照，亦可尝试浏览器直连金十。</p>
+      <div class="row">
+        <div>
+          <label for="sentFeed">资讯栏目</label>
+          <select id="sentFeed">
+            <option value="steel" selected>黑色系精选（螺纹/热卷/双焦等）</option>
+            <option value="jin10">金十快讯（全市场）</option>
+            <option value="shmet">上海金属网快讯</option>
+            <option value="weekly_stock">上期所库存周报</option>
+          </select>
+        </div>
+        <div>
+          <label for="sentFilter">筛选</label>
+          <select id="sentFilter">
+            <option value="all" selected>全部</option>
+            <option value="bull">偏多关键词</option>
+            <option value="bear">偏空关键词</option>
+            <option value="important">金十重要</option>
+          </select>
+        </div>
+        <button type="button" class="primary" id="sentGo">刷新舆情</button>
+      </div>
+      <p id="sentMeta" class="links" style="margin-top:0.5rem;"></p>
+      <div class="table-wrap sent-feed-wrap" id="sentTableHost" hidden>
+        <table>
+          <thead id="sentThead">
+            <tr><th>时间</th><th>内容</th></tr>
+          </thead>
+          <tbody id="sentTbody"></tbody>
+        </table>
+      </div>
+      <p id="sentMsg"></p>
     </div>
 
     <div class="card">
@@ -345,10 +402,21 @@
     "https://raw.githubusercontent.com/jameschen0304/akshare-futures-tool/main/steel_spot_daily.json",
   ];
   const STEEL_FALLBACK_URLS = STEEL_REMOTE_URLS;
+  const SENT_DATA_URL = "./sentiment_feed.json";
+  const SENT_REMOTE_URLS = [
+    "https://raw.githubusercontent.com/jameschen0304/akshare-futures-tool/main/sentiment_feed.json",
+  ];
+  const JIN10_FLASH_API = "https://flash-api.jin10.com/get_flash_list";
+  const JIN10_HEADERS = {
+    "x-app-id": "rU6QIu7JHe2gOUeR",
+    "x-csrf-token": "x-csrf-token",
+    "x-version": "1.0.0",
+  };
   let steelCache = null;
   let steelInventoryCache = null;
   let steelFullData = null;
   let steelSnapshotInfo = null;
+  let sentFeedCache = null;
 
   function setMsg(text, isErr) {
     msg.textContent = text;
@@ -1599,6 +1667,281 @@
         "），已使用可用最新数据；GitHub Actions 约 17:35 / 18:30 / 21:30 自动更新。",
       true
     );
+  }
+
+  function setSentMsg(text, isErr) {
+    const el = $("sentMsg");
+    if (!el) return;
+    el.textContent = text;
+    el.className = isErr ? "err" : "";
+  }
+
+  function stripHtmlLite(s) {
+    return String(s || "")
+      .replace(/<br\s*\/?>/gi, "\n")
+      .replace(/<[^>]+>/g, "")
+      .replace(/&nbsp;/g, " ")
+      .replace(/&lt;/g, "<")
+      .replace(/&gt;/g, ">")
+      .replace(/&amp;/g, "&")
+      .trim();
+  }
+
+  function tagSentimentLite(text) {
+    if (!text) return "neutral";
+    let score = 0;
+    const bull = ["上涨", "反弹", "走强", "去库", "限产", "涨价", "拉升", "利多", "超预期"];
+    const bear = ["下跌", "走弱", "累库", "下调", "利空", "暴跌", "下挫", "承压", "过剩"];
+    for (let i = 0; i < bull.length; i++) if (text.indexOf(bull[i]) >= 0) score++;
+    for (let j = 0; j < bear.length; j++) if (text.indexOf(bear[j]) >= 0) score--;
+    if (score > 0) return "bull";
+    if (score < 0) return "bear";
+    return "neutral";
+  }
+
+  function isSteelNewsLite(text) {
+    const keys = ["螺纹", "热卷", "热轧", "冷轧", "镀锌", "钢铁", "钢材", "铁矿", "焦炭", "焦煤", "双焦", "钢坯", "黑色"];
+    for (let i = 0; i < keys.length; i++) if (text.indexOf(keys[i]) >= 0) return true;
+    return false;
+  }
+
+  function normalizeJin10Items(rawList) {
+    const out = [];
+    const list = rawList || [];
+    for (let i = 0; i < list.length; i++) {
+      const item = list[i] || {};
+      const payload = item.data || {};
+      const content = stripHtmlLite(payload.content || payload.title || "");
+      if (!content) continue;
+      out.push({
+        datetime: item.time || "",
+        content: content,
+        important: Number(item.important) || 0,
+        source: "jin10",
+        sentiment: tagSentimentLite(content),
+        steel: isSteelNewsLite(content),
+      });
+    }
+    return out;
+  }
+
+  async function fetchJin10FlashLive(pages) {
+    const out = [];
+    let maxTime = "";
+    const n = pages || 5;
+    for (let p = 0; p < n; p++) {
+      const url =
+        JIN10_FLASH_API +
+        "?channel=-8200&vip=1&max_time=" +
+        encodeURIComponent(maxTime);
+      const res = await fetch(url, { headers: JIN10_HEADERS });
+      if (!res.ok) throw new Error("金十 HTTP " + res.status);
+      const data = await res.json();
+      const batch = (data && data.data) || [];
+      if (!batch.length) break;
+      out.push.apply(out, normalizeJin10Items(batch));
+      maxTime = batch[batch.length - 1].time || "";
+      if (!maxTime) break;
+    }
+    out.sort(function (a, b) {
+      return a.datetime < b.datetime ? 1 : a.datetime > b.datetime ? -1 : 0;
+    });
+    return out;
+  }
+
+  async function fetchSentimentJson(url) {
+    const sep = url.indexOf("?") >= 0 ? "&" : "?";
+    const res = await fetch(url + sep + "_=" + Date.now());
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    return res.json();
+  }
+
+  async function loadSentimentFeed(opts) {
+    const force = opts && opts.force === true;
+    const preferLive = opts && opts.preferLive === true;
+    if (sentFeedCache && !force && !preferLive) return sentFeedCache;
+
+    if (preferLive) {
+      try {
+        const live = await fetchJin10FlashLive(6);
+        if (live.length) {
+          sentFeedCache = {
+            source: "jin10 live",
+            generated_at: new Date().toISOString(),
+            jin10: live,
+            shmet: (sentFeedCache && sentFeedCache.shmet) || [],
+            steel_highlight: live.filter(function (x) {
+              return x.steel;
+            }),
+            weekly_stock: sentFeedCache && sentFeedCache.weekly_stock,
+          };
+          return sentFeedCache;
+        }
+      } catch (eLive) {
+        console.warn("[舆情] 金十直连失败，回退 JSON 快照", eLive);
+      }
+    }
+
+    const urls = SENT_REMOTE_URLS.concat([SENT_DATA_URL]);
+    let best = null;
+    let lastErr = null;
+    for (let i = 0; i < urls.length; i++) {
+      try {
+        const data = await fetchSentimentJson(urls[i]);
+        const gen = String((data && data.generated_at) || "");
+        if (!best || gen > best.gen) {
+          best = { gen: gen, data: data, url: urls[i] };
+        }
+      } catch (e) {
+        lastErr = e;
+      }
+    }
+    if (best && best.data) {
+      sentFeedCache = best.data;
+      sentFeedCache._loadedFrom = best.url;
+      return sentFeedCache;
+    }
+    throw new Error("加载舆情快照失败: " + (lastErr && lastErr.message ? lastErr.message : "未知"));
+  }
+
+  function updateSentMeta(feed) {
+    const el = $("sentMeta");
+    if (!el || !feed) return;
+    const gen = feed.generated_at ? String(feed.generated_at).slice(0, 19).replace("T", " ") + " UTC" : "—";
+    const from = feed._loadedFrom
+      ? String(feed._loadedFrom).indexOf("github") >= 0
+        ? "GitHub 远端"
+        : "本地快照"
+      : feed.source || "—";
+    const jn = (feed.jin10 || []).length;
+    const sm = (feed.shmet || []).length;
+    const st = (feed.steel_highlight || []).length;
+    el.textContent =
+      "数据源：" +
+      from +
+      "；生成 " +
+      gen +
+      "；金十 " +
+      jn +
+      " 条 / 金属网 " +
+      sm +
+      " 条 / 黑色精选 " +
+      st +
+      " 条。本地更新：python build_sentiment_feed.py";
+  }
+
+  function filterSentItems(items, filterMode) {
+    const list = items || [];
+    if (filterMode === "bull") return list.filter(function (x) { return x.sentiment === "bull"; });
+    if (filterMode === "bear") return list.filter(function (x) { return x.sentiment === "bear"; });
+    if (filterMode === "important") return list.filter(function (x) { return Number(x.important) > 0; });
+    return list;
+  }
+
+  function renderSentNewsRows(items) {
+    const host = $("sentTableHost");
+    const thead = $("sentThead");
+    const tbody = $("sentTbody");
+    if (!host || !tbody) return;
+    thead.innerHTML = "<tr><th>时间</th><th>内容</th></tr>";
+    tbody.replaceChildren();
+    if (!items.length) {
+      host.hidden = true;
+      setSentMsg("当前筛选下暂无资讯。", true);
+      return;
+    }
+    const frag = document.createDocumentFragment();
+    for (let i = 0; i < items.length; i++) {
+      const it = items[i] || {};
+      const tr = document.createElement("tr");
+      const tdT = document.createElement("td");
+      tdT.textContent = it.datetime || "";
+      const tdC = document.createElement("td");
+      tdC.className = "content-cell";
+      if (it.steel) {
+        const tag = document.createElement("span");
+        tag.className = "sent-tag steel";
+        tag.textContent = "黑色";
+        tdC.appendChild(tag);
+      }
+      if (Number(it.important) > 0) {
+        const tagI = document.createElement("span");
+        tagI.className = "sent-tag important";
+        tagI.textContent = "重要";
+        tdC.appendChild(tagI);
+      }
+      const span = document.createElement("span");
+      if (it.sentiment === "bull") span.className = "sent-bull";
+      else if (it.sentiment === "bear") span.className = "sent-bear";
+      span.textContent = it.content || "";
+      tdC.appendChild(span);
+      tr.appendChild(tdT);
+      tr.appendChild(tdC);
+      frag.appendChild(tr);
+    }
+    tbody.appendChild(frag);
+    host.hidden = false;
+    setSentMsg("共 " + items.length + " 条。");
+  }
+
+  function renderWeeklyStockTable(ws) {
+    const host = $("sentTableHost");
+    const thead = $("sentThead");
+    const tbody = $("sentTbody");
+    if (!host || !tbody) return;
+    if (!ws || !ws.rows || !ws.rows.length) {
+      host.hidden = true;
+      setSentMsg("库存周报暂无数据（请运行 build_sentiment_feed.py 或稍后重试）。", true);
+      return;
+    }
+    const cols = ws.columns || Object.keys(ws.rows[0] || {});
+    let head = "<tr>";
+    for (let c = 0; c < cols.length; c++) head += "<th>" + cols[c] + "</th>";
+    head += "</tr>";
+    thead.innerHTML = head;
+    tbody.replaceChildren();
+    const frag = document.createDocumentFragment();
+    for (let i = 0; i < ws.rows.length; i++) {
+      const row = ws.rows[i] || {};
+      const tr = document.createElement("tr");
+      for (let j = 0; j < cols.length; j++) {
+        const td = document.createElement("td");
+        const v = row[cols[j]];
+        td.textContent = v == null ? "" : String(v);
+        if (j === 0) td.style.textAlign = "left";
+        tr.appendChild(td);
+      }
+      frag.appendChild(tr);
+    }
+    tbody.appendChild(frag);
+    host.hidden = false;
+    setSentMsg("上期所库存周报 " + (ws.date || "") + "，共 " + ws.rows.length + " 行。");
+  }
+
+  async function runSentimentFeed(opts) {
+    const feedSel = $("sentFeed").value;
+    const filterMode = $("sentFilter").value;
+    const preferLive = !(opts && opts.skipLive);
+    $("sentGo").disabled = true;
+    setSentMsg("正在加载舆情…");
+    $("sentTableHost").hidden = true;
+    try {
+      const feed = await loadSentimentFeed({ force: true, preferLive: preferLive });
+      updateSentMeta(feed);
+      if (feedSel === "weekly_stock") {
+        renderWeeklyStockTable(feed.weekly_stock);
+      } else {
+        let items;
+        if (feedSel === "jin10") items = feed.jin10 || [];
+        else if (feedSel === "shmet") items = feed.shmet || [];
+        else items = feed.steel_highlight || [];
+        items = filterSentItems(items, filterMode);
+        renderSentNewsRows(items);
+      }
+    } catch (e) {
+      setSentMsg("舆情加载失败：" + (e.message || String(e)), true);
+    }
+    $("sentGo").disabled = false;
   }
 
   async function initSteelVarietyOptions() {
@@ -3885,6 +4228,9 @@
   arbGo.addEventListener("click", runArbRadar);
   arbSpreadMode.addEventListener("change", applySpreadModeUi);
   applySpreadModeUi();
+  $("sentGo").addEventListener("click", function () { runSentimentFeed(); });
+  $("sentFeed").addEventListener("change", function () { runSentimentFeed({ skipLive: true }); });
+  $("sentFilter").addEventListener("change", function () { runSentimentFeed({ skipLive: true }); });
   async function initPage() {
     const today = todayDash();
     if ($("steelEnd").value === "2050-01-01") $("steelEnd").value = today;
@@ -3896,6 +4242,11 @@
     }
     await initSteelVarietyOptions();
     await runSteelQuery();
+    try {
+      await runSentimentFeed({ skipLive: true });
+    } catch (eSent) {
+      setSentMsg("舆情初始化失败：" + (eSent.message || String(eSent)), true);
+    }
   }
   initPage();
 })();
