@@ -1,10 +1,738 @@
 {
   "source": "jin10 flash + shmet + shfe weekly stock",
-  "generated_at": "2026-06-11T13:08:20.719219+00:00",
+  "generated_at": "2026-06-11T14:29:19.448135+00:00",
   "jin10": [
     {
+      "datetime": "2026-06-11 22:26:55",
+      "content": "《涉外情报监视法》短期延期法案未能在美国众议院获得通过所需的2/3赞成票；投票仍在进行中。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 22:25:02",
+      "content": "亚马逊(AMZN.O)创始人贝索斯：考虑让“普罗米修斯”（Prometheus）上市还为时尚早。团队将继续扩张。将提前推出产品，敬请关注具体时间。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 22:20:00",
+      "content": "美国至6月5日当周EIA天然气库存将于十分钟后公布。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 22:19:25",
+      "content": "亚马逊(AMZN.O)创始人贝索斯：我认为由于人工智能，我们将面临劳动力短缺。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 22:19:05",
+      "content": "亚马逊(AMZN.O)创始人贝索斯：对于Prometheus而言，工程师就是客户。我们还有很长的路要走，仍处于早期阶段。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 22:18:45",
+      "content": "亚马逊(AMZN.O)创始人贝索斯：斥资410亿美元成立的全新人工智能实验室“普罗米修斯”（Prometheus），将借助人工智能技术推动制造业与工程领域变革。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 22:13:54",
+      "content": "加拿大美加贸易事务部长勒布朗：对美国总统特朗普不会在7月1日续签美墨加协定（USMCA）并不感到意外。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 22:13:23",
+      "content": "【埃夫特：决定对旗下喷涂机器人全系列产品等实施价格调整 整体价格上调5%—8%】金十数据6月11日讯，埃夫特机器人发布产品调价通知函，当前全球供应链持续紧张，核心元器件、原材料、能源及国际物流成本显著上升，叠加地缘政治带来的运输与交付不确定性，导致公司喷涂机器人产品的制造成本持续增加，成本压力已超出内部优化所能消化的范围。为持续保障产品质量、交付稳定性及技术研发投入，埃夫特决定对旗下喷涂机器人全系列产品及相关选件、软件与工作站方案实施价格调整。整体价格上调5%—8%。具体型号及最新价格以埃夫特正式报价单为准。本次价格调整自2026年7月1日（含）起生效。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 22:13:21",
+      "content": "加拿大美加贸易事务部长勒布朗：在美加墨三边框架之外，加拿大与美国、墨西哥之间还将存在双边安排。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 22:10:18",
+      "content": "美国国土安全部部长穆林：（在被问及世界杯和签证问题时表示）我们向国际足联说明了被拒签者的情况，并解释了拒签的原因。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 22:09:45",
+      "content": "金十数据6月11日讯，伊朗议会国家安全委员会负责人回应美国总统特朗普对伊朗的威胁：他将面临更强烈和更痛苦的反击。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 22:09:35",
+      "content": "金十图示：2026年06月11日（周四）全球股市指数-美洲市场（盘初）",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 22:09:27",
+      "content": "金十图示：2026年06月11日（周四）华尔街恐惧与贪婪指数（美盘初）",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 22:08:28",
+      "content": "【金十整理：欧洲央行利率决议及发布会要点一览——“保险式”加息落地 成为主要央行中加息以抗击通胀“第一人”】\n利率决议\n1. 利率决定：如期将三大利率上调25个基点，为近三年来首次，符合市场预期。\n2. 通胀前景：通胀存在上行风险。预计2026年通胀率为3%，2027年为2.3%，2028年为2.0%（3月预期分别为2.6%、2%、2.1%）；2026年核心通胀为2.5%，2027年为2.5%，2028年为2.2%（3月预期分别为2.3%、2.2%、2.1%）。\n3. 经济前景：经济增长面临下行风险。预计2026年GDP增长率为0.8%，2027年为1.2%，2028年为1.5%。（3月预期分别为0.9%、1.3%、1.4%）。\n4. 指引前瞻：将密切关注形势，并采取依赖数据和逐次会议的方式来确定适当的货币政策立场，未对特定利率路径作出预先承诺。\n5. 中东影响：前景仍然不确定，中东战争正在产生通胀压力。在多种情景下，提升利率的决定在应对冲击演变及其对欧元区中期前景的影响方面是稳健的。\n6. 市场反应：欧元兑美元小幅走高，欧元区债券收益率小幅回落。\n拉加德发布会\n1. 利率决定：决定是一致通过的。未讨论任何其他提议（即既没有讨论维持利率不变，也没有讨论加息50个基点）。讨论内容完全不涉及预防性加息。\n2. 前瞻指引：不会有预设的利率路径。今天的决定并非激进的举措。25个基点的加息是一个信号，且是必要的。尚未讨论中性利率和中性区间。主要风险在于不加息。如果让通胀失控，重新控制将更加困难。\n3. 经济情况：调查显示经济放缓，尤其是在服务业。消费应继续成为增长的主要驱动力。国内需求将弱于3月份的预期。开始看到能源冲击在整个经济中扩散。\n4. 通胀前景：开始看到通胀的广泛上升。能源价格上涨将进一步推高通胀，预计2027年上半年将在2%以上，而下半年将回归目标水平。短期通胀预期上升，长期通胀预期总体稳定在目标水平。尚未看到与工资相关的二次效应。\n5. 就业市场：劳动力需求进一步降温。工资增长预计将在一年内放缓。薪资追踪指标继续显示2026年劳动力成本将有所缓和。\n6. 中东冲突：伊朗冲突正在影响经济活动。一些潜在通胀指标因能源冲击而上升。中东战争是增长的下行风险之一。如果能源价格上涨幅度更大或持续时间更长，通胀将进一步上升。伊朗战争带来的间接成本也在显现。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 22:08:23",
+      "content": "加拿大隐私事务专员：xAI违反了加拿大隐私法。X公司和xAI推出了Grok AI驱动的图像生成工具，但未实施适当的安全措施。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 22:06:49",
+      "content": "墨西哥内政部长罗德里格斯：墨西哥保证世界杯赛事的安全。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 22:06:31",
+      "content": "【陆挺：财政支出应向社会保障、消费补贴等倾斜】金十数据6月11日讯，6月11日，野村证券中国首席经济学家陆挺在北京的媒体交流会上表示，从中长期来看，促进消费还需要通过完善社保体系等中长期制度性改革。陆挺表示，完善社保体系能降低约3亿灵活就业人员对未来的焦虑感、减少他们的预防性储蓄，这样能有效拉动消费。完善社保体系是我国迈向中等发达国家的必经之路，未来几年也是社保体系改革的重要窗口期。陆挺建议，中央财政支出应当向社会保障、基础医疗、普惠养老及全民消费补贴大幅倾斜。他认为，只有通过中央层面的真金白银注入，帮助普通家庭修复资产负债表，解除老百姓在教育、医疗、养老等民生领域的后顾之忧，才能从根本上扭转防御性储蓄高企的心理预期，从而驱动高水平、内生性的民生消费内循环增长。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 22:06:29",
+      "content": "美国最高法院裁定投资基金免受股东诉讼。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 22:05:14",
+      "content": "【财政部公示新一轮国家综合货运枢纽补链强链提升行动第一批城市名单】金十数据6月11日讯，根据《财政部交通运输部关于支持新一轮国家综合货运枢纽补链强链提升行动的通知》（财建〔2026〕62号）、《交通运输部办公厅财政部办公厅国家铁路局综合司中国民航局综合司国家邮政局办公室关于做好新一轮国家综合货运枢纽补链强链提升行动实施工作的通知》（交办规划函〔2026〕902号），交通运输部、财政部近期组织开展了2026年新一轮国家综合货运枢纽补链强链提升行动竞争性评审工作。经过评审，拟纳入第一批支持范围的城市名单如下（按照行政区划排序）：北京；呼和浩特和包头；南京；杭州；合肥和芜湖；烟台；商丘；贵阳。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 22:02:22",
+      "content": "由于谷歌方面的担忧，Crusoe在怀俄明州人工智能项目中被边缘化。谷歌正与剩余合作伙伴商谈使用怀俄明州数据中心事宜。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 22:01:36",
+      "content": "欧元区债券收益率继续下跌，德国10年期国债收益率最新下跌4.5个基点，报3.023%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 22:00:26",
+      "content": "加拿大美加贸易事务部长勒布朗：加拿大正在解决美国对非关税壁垒的关切。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 22:00:04",
+      "content": "沪锡2607盘中拉升，涨幅扩大至1.51%，最新报404900元/吨；成交额约243.79亿元，日内增仓超3800手，量仓活跃度同步抬升。伦锡日内涨幅达1.52%，现报52752美元/吨。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:59:06",
+      "content": "墨西哥主要股票指数早盘上涨1.5%，此前连续六天下跌。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:58:45",
+      "content": "美元兑加元USD/CAD突破1.40，为去年12月以来首次，日内涨0.41%。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:57:59",
+      "content": "美国国债继续上涨，10年期和30年期收益率创本周新低。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:56:23",
+      "content": "美股高开高走，纳斯达克100指数涨幅扩大至1.5%。道指现涨0.9%，标普500指数涨0.8%。光伏板块涨逾7%，3倍做多韩国ETF(KORU.N)涨17.4%。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:54:43",
+      "content": "【专家：只要内塔尼亚胡在任，美伊谈判注定摇摇欲坠】金十数据6月11日讯，意大利都灵大学历史教授卡梅尔指出，美伊谈判的“房间里的大象”始终未变：只要以色列总理内塔尼亚胡还在位，和平就难有进展。“至少在以色列10月大选前，内塔尼亚胡不会允许对伊战争结束。谈判注定摇摇欲坠，类似局面每隔几天或几周就会重演，”他表示，“他需要这场战争来塑造自己‘战时不可或缺的领导人’形象。”卡梅尔还称，特朗普是“助长以色列右翼气焰的关键推手。上周泄露的通话也好，其他事态也罢，很大程度上都是一场秀——意在展示特朗普对内塔尼亚胡还能说得上话。”",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:54:38",
+      "content": "金十图示：2026年06月11日（周四）美盘市场行情一览",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:53:20",
+      "content": "费城半导体指数涨超4%，英特尔(INTC.O)涨超10%，Arm(ARM.O)涨超8%，AMD(AMD.O)涨超5%。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:51:53",
+      "content": "亚马逊(AMZN.O)：Alexa+在加拿大全境推出法语和英语版本。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:50:15",
+      "content": "伊朗研判美军忌惮地面战伤亡风险，采取拖延博弈策略，致使谈判陷入深度停滞。前兰德研究员撰文指出，哈尔克岛是伊朗难以规避的经济软肋，分级打击可倒逼伊朗让步。点击查看",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:49:05",
+      "content": "金十图示：2026年06月11日（周四）美股热门股票行情一览",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:48:36",
+      "content": "【欧洲央行发布三大情景假设】金十数据6月11日讯，欧洲央行发布三大情景假设。①不利情景：预计2026年通胀率为3.3%，2027年为3%，2028年为2.3%。预计2026年经济增长为0.7%，2027年为0.9%，2028年为1.5%。②温和情景：预计2026年通胀为2.9%，2027年为1.8%，2028年为1.8%。③严峻情景：预计2026年通胀率将达到4%，2027年为5.3%，2028年为3%。预计2026年经济增长为0.5%，2027年为0.4%，2028年为1.6%。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:48:22",
+      "content": "通灵股份在互动平台表示，公司的主营业务为太阳能光伏组件接线盒及其他配件等产品的研发、生产和销售，以及汽车内外饰件等汽车零部件产品的研发、生产和销售。暂未布局AI功率电感赛道和研发TLVR样品。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:45:50",
+      "content": "美通胀创下3年新高之际，加息氛围浓厚，沃什会否背刺特朗普？点击观看金十研究员高阳直播分析",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:45:45",
+      "content": "据悉阿联酋与伊朗已进行面对面会谈以缓解紧张局势。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:43:09",
+      "content": "【分析师：美伊互不相让，都想耗出更好的协议】金十数据6月11日讯，分析师Torbjorn Soltvedt指出，美伊之间虽有脆弱的休战，但低强度冲突持续施压停火，近几日已演变为更激烈的交火。谈判仍在继续，但问题在于双方都想从实力地位出发去谈。美方认为可以加大对伊朗施压，等一等反而筹码更足；而伊朗则觉得封锁霍尔木兹海峡就能掐住全球经济咽喉，足以耗到更好的协议——这一策略已见成效，许多国家都感受到了经济冲击。“眼下美国通胀正触及三年高点，”Soltvedt警告，若无法达成正式协议，当前“极不稳定的环境随时可能崩溃”。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:41:36",
+      "content": "金十图示：2026年06月11日（周四）热门中概股行情一览",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:39:48",
+      "content": "【美国批发通胀再次飙升，持续给企业和经济带来压力】金十数据6月11日讯，美国5月的批发价格创下2022年以来最大幅度的连续上涨，使企业面临更大压力，同时他们正努力应对新一轮的美国通胀。数据显示，上月PPI环比上涨了1.1%，高于市场预期的0.7%。过去12个月，批发价格上涨了6.5%，创下自2022年底以来的最大年度涨幅。尽管自身成本不断上升，企业至今仍未试图将这些新增开支全部转嫁给顾客，而顾客在经历了五年高通胀后，已对支付更多费用表现出抵触情绪。然而，批发价格上涨的一部分必然会传导到消费者身上。批发价格是通胀最先显现的地方，这些价格往往预示着未来消费者支付价格的变化。金融服务提供商TruStage的首席经济学家Steve Rick表示：“通胀正变得难以完全消除，尽管价格已从峰值回落，但企业仍面临劳动力、运输和能源成本上升的问题，其中部分成本最终会转嫁给消费者。”",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:37:58",
+      "content": "欧洲央行行长拉加德的新闻发布会结束。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:35:39",
+      "content": "世界银行：预计新兴市场和发展中经济体2026年GDP增速为3.6%（较1月份的预测下调0.4个百分点）。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:35:00",
+      "content": "世界银行：全球增长和贸易前景面临的风险“相当大”。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:34:49",
+      "content": "世界银行：将2027年美国经济增长预测从1.9%上调至2.1%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:34:40",
+      "content": "欧洲央行行长拉加德：短期通胀预期上升。长期通胀预期总体稳定在目标水平。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:34:12",
+      "content": "世界银行：预计全球经济活动将在2027-2028年回暖，年均GDP增长率为2.8%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:33:57",
+      "content": "世界银行：下调三分之二发展中国家的增长预测。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:33:41",
+      "content": "世界银行：如果能源供应中断更加严重并伴随重大金融压力，2026年全球GDP增速可能放缓至1.3%。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:33:05",
+      "content": "金十图示：2026年06月11日（周四）各大货币对表现",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:33:02",
+      "content": "世界银行：将2026年美国经济增长预测维持在2.2%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:32:51",
+      "content": "世界银行：预测2026年欧元区GDP增长为0.8%（1月份预测0.9%）。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:32:30",
+      "content": "世界银行：将2026年中东地区GDP增长预测下调至1.6%（1月份预测4.3%）。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:31:56",
+      "content": "道琼斯指数6月11日（周四）开盘上涨239.09点，涨幅0.48%，报50157.87点；\n标普500指数6月11日（周四）开盘上涨26.13点，涨幅0.36%，报7293.12点；\n纳斯达克综合指数6月11日（周四）开盘上涨116.30点，涨幅0.46%，报25285.80点。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:31:48",
+      "content": "欧洲央行行长拉加德：主要风险在于不加息。如果让通胀失控，重新控制将更加困难。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:31:34",
+      "content": "【特朗普：美国曾试图向伊朗人民提供武器 但地区盟友“让人失望”】金十数据6月11日讯，据福克斯新闻，美国总统特朗普证实，美国曾试图向伊朗人民提供武器，以推翻德黑兰政权，但地区盟友“让人失望了”。特朗普称，美国向伊朗的地区对手——库尔德武装——提供了武器，但他认为库尔德人私自保留了武器，而非分发武器。特朗普说：“库尔德人让我们失望了。我会记住的，库尔德人。”他接着表示，他最初反对该计划，就是怀疑库尔德人会“保留这些武器”。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:31:20",
+      "content": "世界银行将全球经济增长预期下调至2.5%，创新冠疫情后新低。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:31:06",
+      "content": "伊朗局势骤然升级，现货黄金能否稳守4000大关？点击观看GMA指标直播分析",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:30:48",
+      "content": "超微电脑(SMCI.O)跌0.5%，公司以50美元/ADS的价格定价发行7500万股存托股份。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:30:29",
+      "content": "美股开盘，道指涨0.42%，标普500指数涨0.5%，纳指涨0.5%。甲骨文(ORCL.N)大跌11%，公司新财年计划融资翻倍至400亿美元。英特尔(INTC.O)涨7%，美银将其评级上调至“买入”。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:26:46",
+      "content": "【中国科学院院士陈十一：CAE是物理AI进入工业世界的关键底座】金十数据6月11日讯，6月11日，第四届软件创新发展大会在武汉举行。宁波东方理工大学校长、中国科学院院士陈十一在会上表示，物理AI的核心不是“生成内容”，而是理解、预测和影响真实物理世界。CAE提供物理规律、仿真数据、工程约束和验证闭环，是物理AI进入工业世界的关键底座。AI正在重构CAE，使其从专家工具进化为可交互、可推理、可执行的工业智能体。抓住AI+CAE融合窗口，有望形成中国自主工业软件与AI平台新优势。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:26:26",
+      "content": "黄金价格在4000-4100美元间走横，筹码峰值POC-40XX正压制现价，下方需防守密集区下边缘40XX，才有潜在止跌可能...",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:26:12",
+      "content": "欧洲央行行长拉加德：通胀将在2027年秋季回归目标。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:26:03",
+      "content": "【三安光电：控股股东三安电子被申请破产重整】金十数据6月11日讯，三安光电公告，公司控股股东三安电子被债权人林素真申请破产重整。三安电子持有公司11.3亿股，占总股本22.65%，其中6.25亿股被质押，股份被多次轮候冻结。公司目前生产经营管理正常，该事项不会对公司经营产生重大不利影响，但若三安电子进入破产重整程序，可能对公司股权结构及控制权产生影响。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:25:40",
+      "content": "【特朗普：今晚对伊朗的轰炸规模将更大 伊朗完了】金十数据6月11日讯，美国总统特朗普接受福克斯新闻的采访时表示，伊朗正在就达成协议与美国谈判，并对此感到自豪。我希望现在就达成协议。不过，与三四周前相比，我现在没那么想与伊朗达成协议。我一直倾向于夺取哈尔克岛，不确定美国是不是有这个胃口。我不太愿意攻击伊朗的桥梁和发电厂，那样人们将无法饮用自来水，我不想那样。今晚对伊朗会有更多轰炸，规模更大，威力更强。伊朗完了。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:25:19",
+      "content": "欧洲央行行长拉加德：今天的决定是一个“好决定”。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:25:13",
+      "content": "【谷歌据悉正与三星洽谈 共同研发下一代芯片】金十数据6月11日讯，据The Information报道，随着当前制造产能短缺，芯片企业正纷纷寻找台积电以外的供应商。据悉，谷歌(GOOG.O)正考虑让三星电子在生产其最先进的未来AI芯片中承担关键角色。报道称，谷歌正与三星洽谈，拟采用三星2nm工艺制造其下一代TPU（代号“Icefish”）的部分组件。与谷歌达成的合作或将提升三星在先进芯片制造领域的地位。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:23:18",
+      "content": "欧洲央行行长拉加德：我们开始看到通胀的广泛上升。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:23:12",
+      "content": "结合CPI数据来看，能源冲击推高美国整体物价，核心通胀表现相对平稳，为美联储保持观望提供了理由.......点击查看...",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:22:42",
+      "content": "国际黄金接连下挫，险守4000美元关口，是否意味着长期逻辑已失效？金十研究员Nancy正在直播中，点击马上看！",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:21:02",
+      "content": "金十图示：2026年06月11日（周四）新闻联播今日要点",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:19:30",
+      "content": "欧洲央行行长拉加德：我们不应自满。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:18:45",
+      "content": "欧洲央行行长拉加德：我们处于一个增长缺失或增长受到威胁的环境之中。但增长并未面临重大威胁。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:16:18",
+      "content": "欧洲央行行长拉加德：尚未讨论中性利率和中性区间。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:15:36",
+      "content": "欧洲央行行长拉加德：今天的决定并非激进的举措。25个基点的加息是一个信号，且是必要的。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:15:33",
+      "content": "半导体晶圆代工新锐重金布局12英寸车规级芯片；医药“老大哥”出手回购；精密连接器企业拟切入“液冷散热”赛道……今日盘后有哪些值得关注的公告？",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:13:31",
+      "content": "英国政府：国防计划将提供军队所需的能力。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:13:25",
+      "content": "欧洲央行行长拉加德：尚未看到与工资相关的二次效应。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:13:06",
+      "content": "英国政府：因斯塔默所作的决定，国家变得更加安全。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:12:59",
+      "content": "欧洲央行行长拉加德：我们无法判断服务价格上涨是仅归因于直接影响，还是也包括间接影响。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:12:33",
+      "content": "英国政府：将继续以国家利益为重。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:12:29",
+      "content": "欧洲央行行长拉加德：如果不加息，通胀将在中期内维持在目标之上。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:12:14",
+      "content": "新街研究：首次覆盖SpaceX，目标价定为165美元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:10:16",
+      "content": "欧洲央行行长拉加德：在所有三种情景假设下，决策都非常稳健。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:09:59",
+      "content": "欧洲央行行长拉加德：欧洲央行将发布三种情景假设，其中包括一种温和性前景。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:09:48",
+      "content": "【机构：欧洲央行的加息可能收效甚微】金十数据6月11日讯，道富投资管理公司的分析师Simona Mocuta在一份报告中指出，欧洲央行加息的决定很可能收效甚微。这位首席经济学家表示，与政策目标背道而驰的是，货币政策的收紧可能导致经济疲软——该做法更可能损害经济增长，而非缓解通胀。“事实上，加息很可能无法有效抵御由供给冲击引发的通胀压力。”她表示，鉴于工资通胀已得到良好控制，且消费者信心和消费支出低迷，无论如何，第二轮通胀效应的空间都十分有限。与此同时，该机构认为，央行在今年秋季再次加息的可能性最大。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:09:44",
+      "content": "黄金前低支撑逐一告破，4000整数会是下一关口吗？如何寻找有效区间？金十研究员Steven正在直播，立即观看>>",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:09:23",
+      "content": "欧洲央行行长拉加德：讨论内容完全不涉及预防性加息。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:09:11",
+      "content": "欧洲央行行长拉加德：开始看到能源冲击在整个经济中扩散。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:09:08",
+      "content": "欧洲央行行长拉加德：伊朗战争带来的间接成本也在显现。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:08:56",
+      "content": "【DeepSeek API 缓存计费系统出故障后主动向用户退款 赠金已到账】金十数据6月11日讯，有开发者反馈称，DeepSeek开放平台已就其缓存计费系统的数据错误向API用户自动返还了相应金额。根据用户收到的通知，2026年5月13日至2026年6月9日期间，DeepSeek的缓存计费系统出现了部分错误，部分用户的API计费受到了一定影响。为此，DeepSeek团队将相应金额以赠金形式自动返还至受影响用户的账户，并明确表示API计费扣款将优先从赠金账户扣除。当充值余额与赠送余额同时存在时，系统优先扣减赠送余额，这一机制确保了返还赠金能够在后续调用中率先发挥作用。用户可登录DeepSeek开放平台查看具体到账情况，DeepSeek团队在通知中也就此次事件向用户表示了歉意。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 21:08:05",
+      "content": "欧洲央行行长拉加德：不会有预设的利率路径。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
       "datetime": "2026-06-11 21:06:53",
-      "content": "欧洲央行行长拉加德：（今天的）决定是一致通过的。未讨论任何其他提议。",
+      "content": "欧洲央行行长拉加德：（今天的）决定是一致通过的。未讨论任何其他提议（即既没有讨论维持利率不变，也没有讨论加息50个基点）。",
       "important": 1,
       "source": "jin10",
       "sentiment": "neutral",
@@ -372,7 +1100,7 @@
     },
     {
       "datetime": "2026-06-11 20:50:22",
-      "content": "美国总统特朗普：伊朗在战斗方面表现不佳。",
+      "content": "【特朗普：伊朗只会搞宣传，不会打仗】金十数据6月11日讯，美国总统特朗普在福克斯新闻接受采访时表示，伊朗只擅长宣传，而不擅长战斗。他们在战斗方面表现不佳。美国摧毁了他们的雷达和导弹，美国的飞机正在德黑兰上空飞行，而他们毫不知情。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
@@ -481,743 +1209,87 @@
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:43:35",
-      "content": "国际黄金遭大幅抛售，市场到底发生了什么？若要回弹需满足哪些条件？金十研究员Nancy正在多角度解析中，点击马上看！",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:43:28",
-      "content": "美国财长贝森特：伊朗将输掉它正在进行的零和游戏。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:43:22",
-      "content": "受伊朗冲突及霍尔木兹海峡封锁影响，全球能源通胀卷土重来。欧洲央行率先加息25个基点，成为本轮变局中首个行动的主要央行，折射出防通胀与保增长间的艰难平衡。点击查看",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:43:16",
-      "content": "美国财长贝森特：对海湾盟友的任何损害将由伊朗资金支付。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:42:53",
-      "content": "金十图示：欧洲央行在最新经济预测中，上调今明两年通胀预期，同时下调今明两年GDP预期",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:41:37",
-      "content": "【分析师：形势已变但欧央行仍称“处于有利位置”，拉加德需给出解释】金十数据6月11日讯，分析师Horobin表示，关于“处于有利位置”应对不确定性的表述，最早出现在欧洲央行3月（伊朗遭袭后）的声明中。今天声明中几乎没有解释为什么这一判断仍然成立。4月份，该行曾部分将其归因于经济韧性以及危机前通胀接近2%的情况。这将是拉加德在新闻发布会上需要关注的一个关键问题——为什么在形势发生变化的情况下，欧洲央行仍认为自己“处于有利位置”？这对未来的政策又意味着什么？",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:41:22",
-      "content": "金十数据6月11日讯，据悉SpaceX IPO已吸引超过700亿美元的散户订单。SpaceX将至少分配20%的IPO股份给散户投资者，将分配不到10%的IPO股份给国际订单。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:39:38",
-      "content": "土耳其财政部：通过发行黄金挂钩债券融资1.98吨黄金，通过发行黄金挂钩伊斯兰债券融资8.79吨黄金。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:36:16",
-      "content": "CPI唱罢，PPI登场，这次会否再超预期？点击观看金十研究员高阳直播分析",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:35:59",
-      "content": "美国数据发布后，标普500指数期货和纳斯达克100指数期货涨幅收窄。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:35:00",
-      "content": "欧洲央行行长拉加德将于十分钟后召开货币政策新闻发布会。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:32:50",
-      "content": "路透社调查：预计2026年美国30年期抵押贷款平均利率为6.3%，2027年为6.2%，2028年为6.0%（一季度调查时分别为6.0%、6.0%和5.8%）。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:32:28",
-      "content": "【欧佩克数据显示，伊朗上月石油产量下降19%】金十数据6月11日讯，根据欧佩克最新公布的数据，伊朗上月原油产量下降了19%，因美国在持续的冲突期间封锁了该国的港口。周四发布的月度报告数据显示，伊朗日产量下降了54.6万桶，降至每日233万桶。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:32:21",
-      "content": "【分析师：通胀上调、经济增速下调，欧洲央行最新预测描绘“严峻图景”】金十数据6月11日讯，分析师Migliaccio表示，欧洲央行最新的经济预测上调了2026年和2027年的通胀预期，原因是“能源价格走势上升，预计在某种程度上将传导至食品、商品和服务通胀”。此外，由于战争对大宗商品价格、实际收入和消费者信心的影响，同期经济增速预计将放缓。这一最新经济预测描绘了一幅严峻的图景。更高的通胀将强化欧洲央行的信念，即需要加息来履行其价格稳定的使命。然而，增长放缓可能会让一些国家抱怨紧缩过度。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:32:02",
-      "content": "路透社调查：2026年美国平均房价预计上涨1.2%，2027年上涨2.0%（一季度调查时分别为1.8%和2.5%）。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:31:02",
-      "content": "美元指数DXY短线波动不大，最新报100.11。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:30:18",
-      "content": "美国至6月6日当周初请失业金人数录得22.9万人，为2026年2月7日当周以来新高。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:30:07",
-      "content": "美国5月核心PPI月率 0.4%，预期0.5%，前值由1.00%修正为0.7%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:30:06",
-      "content": "美国5月PPI月率 1.1%，预期0.7%，前值由1.40%修正为1.1%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:30:06",
-      "content": "美国5月核心PPI年率 4.9%，预期5.4%，前值由5.20%修正为4.9%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:30:06",
-      "content": "美国5月PPI年率 6.5%，预期6.4%，前值由6.00%修正为5.7%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:30:04",
-      "content": "加拿大4月营建许可月率 -7.6%，预期-3.5%，前值由10.30%修正为10.6%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:30:03",
-      "content": "美国至5月30日当周续请失业金人数 179.5万人，预期178万人，前值由177.7万人修正为177.1万人。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:30:03",
-      "content": "美国至6月6日当周初请失业金人数四周均值 21.9万人，前值21.475万人。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:30:03",
-      "content": "美国至6月6日当周初请失业金人数 22.9万人，预期21.9万人，前值22.5万人。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:29:07",
-      "content": "美国10年期国债收益率下跌0.8个基点，报4.532%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:28:36",
-      "content": "【欧洲央行上调通胀预期，同时下调增长前景】金十数据6月11日讯，欧洲央行周四公布了利率决议，同时上调了通胀预期，并下调了部分增长预测，因为伊朗战争引发的能源危机正在波及这个由21个国家组成的货币联盟。上个月，欧元区通胀率飙升至超过3%，随着能源价格上涨，从汽车燃料到度假套餐等各类商品，消费者价格很可能进一步上升。由于通胀已显而易见，且担心第二轮影响持续扩大，欧洲央行上调了利率，金融投资者预计未来一年该行还将再加息两次。更高的价格和增加的借贷成本削弱了消费者的购买力，并降低了企业的利润空间，抑制了经济的整体增长，而其经济在战争开始前就已勉强扩张。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:27:28",
-      "content": "【特朗普：今晚将严厉打击伊朗，并在某个时候夺取哈尔克岛】金十数据6月11日讯，特朗普发文称，今晚美国将对伊朗进行严厉打击（伊朗的海军、空军、雷达、防空以及所有其他形式的防御系统，连同其大部分进攻能力，都已不复存在！）。在不久将来的某个时候，我们将夺取哈尔克岛及其他石油基础设施要点，并全面控制其石油和天然气市场，就像我们在委内瑞拉所做的那样——这对委内瑞拉和美利坚合众国双方都取得了极好的效果。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:25:52",
-      "content": "欧洲央行加息25个基点，成为首个因能源价格上涨而收紧政策的主要央行。最新预测显示，欧元区2026年整体通胀或达3%，核心通胀为2.5%，经济增长下调至0.8%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:24:40",
-      "content": "【欧洲央行近三年首次加息，声明措辞谨慎】金十数据6月11日讯，欧洲央行近三年来首次加息，认为通胀压力加剧下不能再对伊朗战争坐视不理。存款利率从2%上调至2.25%，符合市场预期，投资者普遍预计9月将再加25基点。但欧洲央行态度谨慎，重申不会对未来行动做预先承诺。欧洲央行在声明中称：“前景仍然不确定，通胀面临上行风险，经济增长面临下行风险。战争对中期通胀和增长的全面影响将取决于能源价格冲击的强度和持续时间，以及其间接和第二轮效应的规模。”此次加息是主要央行对中东冲突引发的油价飙升的首次政策反应。随着战事进入第四个月，欧元区官员担心通胀正向非能源领域扩散，即便美伊很快达成和平协议，也难轻易抑制通胀。最新季度预测显示，今年通胀升温快于先前预期，2028年方可回落至2%。但更凸显欧央行困境的是，新的展望还指出随着通胀和借贷成本上升削弱购买力，经济增长正在放缓。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:24:31",
-      "content": "【欧洲央行加息以抑制通胀，美联储恐随其后】金十数据6月11日讯，据外媒报道，周四，欧洲央行加息25个基点，此举可能预示着美联储及其他中央银行将采取类似措施，以应对不断上升的通胀压力。自2023年9月以来，欧洲央行没有进行过加息行动。但由于伊朗战争，欧元区5月通胀率上升至3.2%，迫使欧洲央行着手应对物价压力。花旗分析师阿尔诺·马雷斯表示：“本周会议的真正重点在于，沟通可能透露出未来政策动向。”他预计欧洲央行将在7月的下一次会议上再次加息。欧洲央行的加息决定可能让市场窥视美国市场的走势，市场预计美联储在今年年底前至少一次加息的概率为66%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:24:14",
-      "content": "现货黄金短线走低20美元，报4069.45美元/盎司。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:23:31",
-      "content": "美、布两油短线拉升约2美元，现分别报90.92美元/桶和92.84美元/桶。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:23:17",
-      "content": "美国总统特朗普：将完全控制伊朗的石油和天然气市场。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:23:07",
-      "content": "美国总统特朗普：美国将拿下哈尔克岛。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:22:43",
-      "content": "美国总统特朗普：美国今晚将对伊朗采取强硬措施。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:21:16",
-      "content": "【欧洲央行成为自通胀卷土重来以来首家加息的主要央行】金十数据6月11日讯，欧洲央行首次在近三年来上调利率，成为发达国家央行中应对伊朗战争引发的通胀的先锋。该行今日将主要利率从2%上调至2.25%，这一举措市场早有预期，但也凸显了由于霍尔木兹海峡长期关闭导致能源价格上涨而给主要经济体带来的挑战。投资者普遍认为，欧洲央行今年至少还会再次加息一次。这一决定也使欧洲央行成为首个为应对能源价格上涨而收紧货币政策的主要央行，能源价格的上涨已导致欧元区通胀率超过3%。预计美联储下周在主席沃什的领导下将维持利率不变，而沃什正面临特朗普对低利率的诉求与不断上升的通胀压力之间的两难处境；英国央行下周也预计将保持利率不变。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:21:06",
-      "content": "德国10年期国债收益率报3.047%，较欧洲央行加息前的3.039%下跌2.2个基点。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:20:57",
-      "content": "欧元区债券收益率在欧洲央行加息25个基点后小幅回落。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:20:00",
-      "content": "美国至6月6日当周初请失业金人数、5月PPI月率及年率将于十分钟后公布。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:19:15",
-      "content": "欧洲央行：战争对中期通胀和经济增长的全面影响将取决于能源价格冲击的强度和持续时间，以及其间接和二次效应的规模。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:18:59",
-      "content": "欧洲央行：不确定性也体现在欧元体系工作人员编制的最新说明性情景中，通胀和增长结果的区间范围广泛。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:17:49",
-      "content": "欧洲央行：前景仍然不确定，通胀存在上行风险，经济增长面临下行风险。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:17:44",
-      "content": "欧洲央行：在多种情景下，提升利率的决定在应对冲击演变及其对欧元区中期前景的影响方面是稳健的。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:17:35",
-      "content": "欧洲央行：通过今天的决定，管理委员会在应对因战争带来的不确定性方面仍然处于良好位置。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:17:26",
-      "content": "欧洲央行：中东战争正在产生通胀压力。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:17:12",
-      "content": "欧洲央行：未对特定利率路径作出预先承诺。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:17:00",
-      "content": "欧洲央行：将密切关注形势，并采取依赖数据和逐次会议的方式来确定适当的货币政策立场。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:16:58",
-      "content": "欧洲央行如期加息25个基点，欧元兑美元EUR/USD短线小幅上扬，报1.1537。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:16:50",
-      "content": "欧洲央行：预计2026年GDP增长率为0.8%，2027年为1.2%，2028年为1.5%。（3月预期分别为0.9%、1.3%、1.4%）。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:16:24",
-      "content": "欧洲央行：预计2026年通胀率为3%，2027年为2.3%，2028年为2.0%。（3月预期分别为2.6%、2%、2.1%）。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:15:44",
-      "content": "欧洲央行：2026年核心通胀为2.5%，2027年为2.5%，2028年为2.2%。（3月预期分别为2.3%、2.2%、2.1%）",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:15:15",
-      "content": "欧元区至6月11日欧洲央行边际贷款利率 2.65%，预期2.65%，前值2.40%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:15:10",
-      "content": "【欧洲央行近三年来首次加息】金十数据6月11日讯，欧洲央行将存款机制利率从2.00%上调至2.25%，为近三年来首次上调利率，符合市场预期。主要再融资利率和边际贷款利率分别上调至2.40%和2.65%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:15:05",
-      "content": "欧元区至6月11日欧洲央行主要再融资利率 2.4%，预期2.40%，前值2.15%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:15:05",
-      "content": "欧元区至6月11日欧洲央行存款机制利率 2.25%，预期2.25%，前值2.00%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:14:42",
-      "content": "【代号“飞鱼”，小鹏要造游艇了？小鹏方面：对此事尚不了解】金十数据6月11日讯，日前，有消息称，小鹏正在拓展新的业务版图，已正式进入游艇领域，并启动代号为“飞鱼”的游艇项目。同时，小鹏于今年年初组建了专门研发团队，目前团队规模已接近百人，项目负责人为小鹏汽车整车架构负责人钱占伟。不过，目前该项目仍处于研发阶段，具体产品细节、技术参数、上市时间均未对外披露。对此，小鹏方面表示“对此事尚不了解”。尽管小鹏方面未对打造游艇的消息进行置评，但车企涉足游艇领域并非新鲜事。此前，奔驰AMG、兰博基尼、保时捷、雷克萨斯等品牌早已涉足这一领域，且参与方式各异。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:14:40",
-      "content": "黄金失守4100美元！空头情绪笼罩市场？阿汤哥、顺姐正在直播，点击观看",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:14:35",
-      "content": "该打打该谈谈？据路透社援引多方消息，美伊在相互空袭的同时加速谈判，目前围绕百亿冻结资金释放细则展开博弈。但伊朗谈判团队消息人士随后否认相关报道。点击查看...",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:13:20",
-      "content": "金十图示：2026年06月11日（周四）中国工商银行账户贵金属行情",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:13:03",
-      "content": "【金十整理：欧佩克月报四大看点一览】\n1. 欧佩克日产量：4月修正为1900.5万桶，5月为1882.9万桶，较上月减少17.7万桶。\n2. 中国石油制品净进口（变化）：4月为减少290万桶/日至965万桶/日，3月为减少130万桶/日。\n3. 印度石油制品净进口（变化）：4月为增加51万桶/日至465万桶/日，3月为减少91万桶/日。\n4. 美国石油制品净进口（变化）：5月为减少11万桶/日至-576万桶/日，4月为减少266万桶/日。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:10:33",
-      "content": "根据最新经纪商挂单数据，国际现货黄金低位震荡，现价上方有多单挂单密集区域；国际现货白银逼近64关口，上方空单挂单密集区域较远……点击查看最新报告...",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:10:23",
-      "content": "黄金半年吐回全部涨幅，若无新催化，下行势能会否继续释放？金十研究员Steven正在直播，立即观看>>",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:10:02",
-      "content": "【欧佩克再次下调2026年全球石油需求增速预测】金十数据6月11日讯，欧佩克最新的月度报告显示，该机构周四将2026年全球石油需求增速预期下调至97万桶/日，这是其连续第二次下调预测。自伊朗战争爆发以来，该生产集团认为冲突对消费的影响持续小于美国能源信息署和国际能源署等其他预测机构。两者均预计2026年需求将下降。此外报告指出，这个石油输出国组织上调了对2027年石油需求增速的预测。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:09:41",
-      "content": "欧佩克月报：二手资料显示，5月委内瑞拉原油产量增加3.6万桶/日，至107.2万桶/日。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:09:30",
-      "content": "【中科曙光：将发布新一代高性能通用计算平台】金十数据6月11日讯，中科曙光于微信公众号发布预告，6月15日，新一代高性能通用计算平台即将发布。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:09:26",
-      "content": "欧佩克月报：二手资料显示，5月沙特原油产量增加15.7万桶/日，至691.2万桶/日。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:09:00",
-      "content": "欧佩克月报：二手资料显示，5月利比亚原油产量减少0.5万桶/日，至130.2万桶/日。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:08:29",
-      "content": "欧佩克月报：二手资料显示，5月科威特原油产量增加1.6万桶/日，至57.3万桶/日。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:08:11",
-      "content": "欧佩克月报：二手资料显示，5月欧佩克+原油产量下降18.5万桶/日，至3313万桶/日。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:07:35",
-      "content": "欧佩克月报：二手资料显示，5月伊拉克原油产量增加7.5万桶/日，至148.1万桶/日。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:07:11",
-      "content": "欧佩克月报：二手资料显示，5月伊朗原油产量减少54.6万桶/日，至233万桶/日。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:07:03",
-      "content": "【外交部发言人宣布中方对菲律宾国防部长特奥多罗及其亲属实施制裁】金十数据6月11日讯，菲律宾国防部长特奥多罗多次发表涉华谬论，损害中方正当利益，破坏中菲两国关系。为维护中国国家主权、安全、发展利益，中方决定，禁止特奥多罗及其配偶、子女入境中国内地和香港、澳门，禁止中国境内的组织、个人与特奥多罗及其配偶、子女进行任何交易、合作等活动。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:06:00",
-      "content": "科威特国防部：过去48小时内已与24架敌对无人机交战。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:05:56",
-      "content": "特朗普宣布“1亿桶原油入场”，华尔街却说“快没油了”，究竟谁在撒谎？目前油价被困在真假库存的拉锯里，打破僵局需要哪一个先变化？点击查看详细推演...",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:05:00",
-      "content": "欧洲央行将于十分钟后公布利率决议。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:04:57",
-      "content": "欧佩克月报：中国石油制品净进口较上轮统计减少290万桶/日至965万桶/日。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:04:35",
-      "content": "欧佩克月报：维持2027年非参与《合作宣言》国家供应增长预期为62万桶/日不变。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:04:34",
-      "content": "欧佩克月报：印度石油制品净进口较上轮统计增加51万桶/日至465万桶/日。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:04:15",
-      "content": "欧佩克月报：维持2026年非参与《合作宣言》国家供应增长预期为63万桶/日不变。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:04:06",
-      "content": "欧佩克月报：美国石油制品净进口较上轮统计减少11万桶/日至-576万桶/日。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 20:03:19",
-      "content": "欧佩克月报：将2026年美国经济增长预测维持在2.2%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
     }
   ],
   "shmet": [
     {
-      "datetime": "2026-06-11 21:07:49",
-      "content": "【快讯】SHMET06月11日讯，英国政府消息人士称，国防投资计划将提供我国军队所需的能力。",
+      "datetime": "2026-06-11 22:21:59",
+      "content": "【快讯】SHMET06月11日讯，美国至6月5日当周EIA天然气库存将于十分钟后公布。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-06-11 21:07:22",
-      "content": "【机构：欧洲央行政策调整难言结束】SHMET06月11日讯，资管公司Premier Miton Group伦敦首席投资官Neil Birrell表示，鉴于当前的通胀背景，欧洲央行加息25个基点的决定并不令人意外。令人欣慰的是，尽管经济增长预期已然低迷，但欧洲央行认为GDP面临的风险并不大。该行今年可能还会根据数据进一步加息，政策调整恐怕不会止步于此。",
+      "datetime": "2026-06-11 22:15:56",
+      "content": "【快讯】SHMET06月11日讯，加拿大美加贸易事务部长勒布朗：对美国总统特朗普不会在7月1日续签美墨加协定（USMCA）并不感到意外。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-06-11 21:05:58",
-      "content": "【快讯】SHMET06月11日讯，富时罗素将推出罗素9000全球指数。",
+      "datetime": "2026-06-11 22:13:28",
+      "content": "【快讯】SHMET06月11日讯，加拿大美加贸易事务部长勒布朗：在美加墨三边框架之外，加拿大与美国、墨西哥之间还将存在双边安排。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-06-11 21:03:45",
-      "content": "【快讯】SHMET06月11日讯，欧洲央行行长拉加德：资产价格的突然大幅下跌将对金融稳定构成风险。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 21:02:10",
-      "content": "【快讯】SHMET06月11日讯，提示：美国总统特朗普在福克斯新闻的采访结束。",
+      "datetime": "2026-06-11 22:10:39",
+      "content": "【快讯】SHMET06月11日讯，伊朗议会国家安全委员会负责人回应美国总统特朗普对伊朗的威胁：他将面临更强烈和更痛苦的反击。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-06-11 21:01:51",
-      "content": "【快讯】SHMET06月11日讯，俄罗斯至6月5日当周央行黄金和外汇储备 7497亿美元，前值7487亿美元。",
+      "datetime": "2026-06-11 22:07:54",
+      "content": "【快讯】SHMET06月11日讯，美国最高法院裁定投资基金免受股东诉讼。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-06-11 21:01:29",
-      "content": "【SHFE夜盘开盘_基本金属】沪铜主力开103280,沪铝主力开24100,沪铅主力开16135,沪锌主力开24190,沪锡主力开399270,沪镍主力开133480",
+      "datetime": "2026-06-11 22:06:46",
+      "content": "【财政部公示新一轮国家综合货运枢纽补链强链提升行动第一批城市名单】SHMET06月11日讯，根据《财政部交通运输部关于支持新一轮国家综合货运枢纽补链强链提升行动的通知》（财建〔2026〕62号）、《交通运输部办公厅财政部办公厅国家铁路局综合司中国民航局综合司国家邮政局办公室关于做好新一轮国家综合货运枢纽补链强链提升行动实施工作的通知》（交办规划函〔2026〕902号），交通运输部、财政部近期组织开展了2026年新一轮国家综合货运枢纽补链强链提升行动竞争性评审工作。经过评审，拟纳入第一批支持范围的城市名单如下（按照行政区划排序）：北京；呼和浩特和包头；南京；杭州；合肥和芜湖；烟台；商丘；贵阳。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-06-11 21:01:09",
-      "content": "【快讯】SHMET06月11日讯，欧洲央行行长拉加德：如果能源价格上涨幅度更大或持续时间更长，通胀将进一步上升。",
+      "datetime": "2026-06-11 22:01:18",
+      "content": "【快讯】SHMET06月11日讯，加拿大美加贸易事务部长勒布朗：加拿大正在解决美国对非关税壁垒的关切。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 22:00:49",
+      "content": "【快讯】SHMET06月11日讯，墨西哥主要股票指数早盘上涨1.5%，此前连续六天下跌。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-11 22:00:01",
+      "content": "【快讯】SHMET06月11日讯，沪锡2607盘中拉升，涨幅扩大至1.51%，最新报404900元/吨；成交额约243.79亿元，日内增仓超3800手，量仓活跃度同步抬升。伦锡日内涨幅达1.52%，现报52752美元/吨。",
       "important": 0,
       "source": "shmet",
       "sentiment": "bull",
       "steel": false
     },
     {
-      "datetime": "2026-06-11 21:00:20",
-      "content": "【快讯】SHMET06月11日讯，欧洲央行行长拉加德：长期通胀预期支持回落至2%。",
+      "datetime": "2026-06-11 22:00:00",
+      "content": "【快讯】SHMET06月11日讯，美国国债继续上涨，10年期和30年期收益率创本周新低。",
       "important": 0,
       "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-11 21:00:08",
-      "content": "【快讯】SHMET06月11日讯，美国总统特朗普：不想派遣地面部队。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
+      "sentiment": "bull",
       "steel": false
     }
   ],
