@@ -1,7 +1,455 @@
 {
   "source": "jin10 flash + shmet + shfe weekly stock",
-  "generated_at": "2026-06-15T16:13:04.824718+00:00",
+  "generated_at": "2026-06-15T18:10:12.330654+00:00",
   "jin10": [
+    {
+      "datetime": "2026-06-16 02:08:56",
+      "content": "以色列总理内塔尼亚胡：我们在黎巴嫩、加沙地带和叙利亚周围建立了深层安全区。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 02:08:41",
+      "content": "以色列总理内塔尼亚胡：我们击杀了纳斯鲁拉，并阻止了对加利利地区的入侵。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 02:08:33",
+      "content": "以色列总理内塔尼亚胡：我们实施了寻呼机行动，消灭了数千名真主党恐怖分子。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 02:06:56",
+      "content": "以色列总理内塔尼亚胡：行动尚未结束，我们必须继续增强我们的力量。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 02:06:18",
+      "content": "以色列总理内塔尼亚胡：如果没有美国和以色列的行动，伊朗将拥有核武器。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 02:06:09",
+      "content": "以色列总理内塔尼亚胡：伊朗需要数年才能恢复。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 02:05:59",
+      "content": "以色列总理内塔尼亚胡：我们对伊朗经济造成了巨大损失，有人估计高达一万亿美元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 02:05:27",
+      "content": "以色列总理内塔尼亚胡：我一生的使命是与伊朗核计划作斗争。无论是否达成协议，伊朗都不会拥有核武器。人们问我们取得了什么成就，答案是：消除了对我们生存的直接威胁。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 02:04:59",
+      "content": "以色列总理内塔尼亚胡：最重要的是，我们拯救了以色列，免受核武器毁灭的威胁。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 02:03:36",
+      "content": "以色列总理内塔尼亚胡：无论是否达成协议，伊朗都不会拥有核武器。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 02:03:19",
+      "content": "黎巴嫩真主党：向试图在黎巴嫩南部推进的以色列军队发射了火箭弹和无人机。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 02:01:50",
+      "content": "英伟达(NVDA.O)料将从投资级债券市场融资250亿美元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 01:59:50",
+      "content": "伊朗军方发言人：我们将在与美国达成协议期间增强防御力量，并保持比以往更高的战备状态。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 01:56:01",
+      "content": "SpaceX(SPCX.O)继续上涨，日内涨幅扩大至15%。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 01:54:33",
+      "content": "花旗：将3个月内黄金价格预测上调至4500美元/盎司，白银价格预测上调至70美元/盎司。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 01:53:11",
+      "content": "花旗将油价预期下调至此前看空情景水平，对2026年第三季度和第四季度的最新季度油价预测分别为每桶75美元和70美元。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 01:52:30",
+      "content": "伊朗外长在分别与黎巴嫩总统奥恩和议长贝里通电话时，讨论了美伊协议。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 01:42:24",
+      "content": "【美国战略石油储备降至43年来低位】金十数据6月16日讯，随着特朗普政府即将完成释放1.72亿桶战略石油储备（SPR）的计划，以缓解由伊朗战争引发的燃油价格飙升，美国的应急原油储备已降至1983年以来的最低水平。根据美国能源部周一发布的数据，战略石油储备（该储备成立于20世纪70年代初阿拉伯石油禁运之后）已降至约3.4亿桶，接近历史最低点。如果该计划完成，这将是该储备历史上第二大释放规模，届时储备将剩余约2.43亿桶，仅为其法定容量的三分之一左右。不断减少的库存使美国在应对未来供应中断时的灵活性降低。能源部发言人表示，政府正在按照该储备的预期用途进行管理，即帮助稳定石油市场、保护美国免受供应中断的影响，并使美国在能源方面更加安全。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 01:39:57",
+      "content": "惠誉评级：如果协议使霍尔木兹海峡完全开放，预计全球石油市场将在约一个月内恢复到供应过剩。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 01:39:23",
+      "content": "惠誉评级：（关于美国与伊朗的潜在协议）认为伊朗的核计划及核能力仍将是其与美国和以色列关系中的紧张根源。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 01:38:44",
+      "content": "惠誉评级：（关于美国与伊朗的潜在协议）即使协议签署，海湾地区的中期前景仍然具有不确定性。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 01:36:14",
+      "content": "惠誉评级：美国与伊朗潜在协议前景积极，但仍面临较高不确定性。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 01:31:33",
+      "content": "加拿大驻美国大使怀斯曼：幕后工作正在以理性、合作、灵活和务实的方式进行。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 01:31:06",
+      "content": "欧洲理事会主席科斯塔：一个团结且坚定的七国集团对于帮助结束俄乌战争、实现公正持久的和平至关重要。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 01:30:57",
+      "content": "欧洲理事会主席科斯塔：今天，我们通过开启乌克兰加入欧盟的正式谈判，朝着乌克兰在欧盟内的未来迈出了历史性的一步。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 01:30:31",
+      "content": "加拿大驻美国大使怀斯曼：与美国的讨论富有成效、严肃、信息充分且相互尊重。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 01:27:35",
+      "content": "据悉英伟达(NVDA.O)在大规模债券发行中吸引850亿美元投资者需求。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 01:25:51",
+      "content": "欧盟委员会主席冯德莱恩宣布，欧盟与加拿大峰会定于10月29日至30日举行。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 01:25:19",
+      "content": "【意大利与日本拟加快研发新一代战斗机】金十数据6月16日讯，日本首相高市早苗在罗马与意大利总理梅洛尼会谈后表示，意大利与日本有意加快“全球作战空中计划”（GCAP）项目进程，该项目旨在研制新一代战斗机。梅洛尼则表示，我们继续推进对我们具有战略意义的领域，即全球作战空中计划（GCAP）项目，在这个框架下，我们正与英国共同研发第六代战斗机。现在，该项目终于进入实施阶段。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 01:19:09",
+      "content": "美国官员：我们将以开放的心态与伊朗展开谈判，并认识到谈判的复杂性。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 01:17:07",
+      "content": "美联储在固定利率逆回购操作中总计接纳了8个对手方的5.81亿美元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 01:11:52",
+      "content": "伊朗将7月销往亚洲的轻质原油价格定为较阿曼/迪拜均价升水7.15美元/桶。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 01:08:53",
+      "content": "美国官员：与伊朗的实际技术谈判将于本周开始。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 01:08:42",
+      "content": "美国官员：伊朗的激进分子反对协议，但没有提出可行的替代方案。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 01:08:08",
+      "content": "美国官员：我们很快将了解，与伊朗达成的共识能否转化为改变地区局势的协议。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 01:06:09",
+      "content": "美国商务部长卢特尼克在致Anthropic的信中指出，最新的Mythos和Fable模型存在被转用于外国军事情报用户的风险。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 01:05:08",
+      "content": "美国官员：我们与有意改变局势的伊朗各方展开合作。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 01:04:40",
+      "content": "美国官员：与伊朗的谈判是历史上最艰难的任务之一。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 01:04:20",
+      "content": "美国官员：我们将在接下来的几天和几周内努力工作，以确保与伊朗的谈判成功。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 01:02:21",
+      "content": "金十图示：2026年06月15日（周一）美股热门股票行情一览（美股盘中）",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 01:01:37",
+      "content": "金十图示：2026年06月15日（周一）热门中概股行情一览（美股盘中）",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 00:52:15",
+      "content": "谷歌宣布2026年及2027年在美国阿拉巴马州投资15亿美元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 00:49:27",
+      "content": "据以色列N12频道：以色列总理内塔尼亚胡将于美东时间下午2点（北京时间今日02:00）召开新闻发布会。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 00:43:43",
+      "content": "亚马逊(AMZN.O)：该项目预计将创造超过400个全职数据中心工作岗位及数千个建筑工作岗位。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 00:42:48",
+      "content": "亚马逊(AMZN.O)与Arable实验室合作，提升密苏里州东北部农民的灌溉效率。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 00:42:22",
+      "content": "亚马逊(AMZN.O)：作为密苏里州数据中心投资计划的一部分，将向蒙哥马利县作出多项即时落地的投资承诺。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 00:39:43",
+      "content": "亚马逊(AMZN.O)计划在美国密苏里州投资数十亿美元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 00:31:37",
+      "content": "【特朗普：将于周五签署美伊协议后公布文本 重要的是油价跌了股市涨了】金十数据6月16日讯，特朗普在与法国总统马克龙会晤时表示，霍尔木兹海峡于周五完全开放，协议已全部（以电子方式）签署。将在周五之后公布伊朗协议文本。他强调，在伊朗履行应尽义务之前，不会解除对其制裁。他本人可能参与或不参与签署协议，而美国副总统万斯将参与签署协议。特朗普称。希望与伊朗建立良好关系，并将实施强有力的监管。他明确表示伊朗不会拥有核武器。此外，特朗普表示，确实希望解决黎巴嫩问题。他强调，重要的是油价大幅下跌而股市正在上涨。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 00:27:21",
+      "content": "【特朗普：美伊协议内容将在19日签署后公布】金十数据6月16日讯，美国总统特朗普15日在法国埃维昂莱班出席七国集团峰会期间表示，美伊协议内容将在19日正式签署后对外公布。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 00:16:52",
+      "content": "法国总统马克龙：愿意为观察任务提供帮助，并部署护卫舰。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 00:16:30",
+      "content": "法国总统马克龙：伊朗的浓缩铀应当被中和处理。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 00:15:41",
+      "content": "法国总统马克龙：法国军方已准备在霍尔木兹海峡提供帮助，具体取决于美国是否愿意接受提议。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 00:14:33",
+      "content": "美国总统特朗普：我们确实想要理顺黎巴嫩的问题。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 00:14:15",
+      "content": "美国总统特朗普：（关于伊朗及其盟友）我认为我们不需要太多帮助，但这不是个坏主意。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 00:13:50",
+      "content": "美国总统特朗普：将在周五之后的某个时间公布伊朗协议文本。在伊朗履行应尽义务之前，不会解除对其制裁。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-16 00:13:02",
+      "content": "美国总统特朗普：我可能会参与，也可能不参与伊朗协议的签署。美国副总统万斯将前往签署协议。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
     {
       "datetime": "2026-06-16 00:11:08",
       "content": "美国总统特朗普：（关于俄乌战争）看看我们能否采取行动，双方领导人似乎持开放态度。",
@@ -60,7 +508,7 @@
     },
     {
       "datetime": "2026-06-16 00:08:29",
-      "content": "美国总统特朗普：霍尔木兹海峡已于周五完全开放。协议已全部签署。",
+      "content": "美国总统特朗普：霍尔木兹海峡于周五完全开放。协议已全部签署。",
       "important": 1,
       "source": "jin10",
       "sentiment": "neutral",
@@ -745,535 +1193,87 @@
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
-    },
-    {
-      "datetime": "2026-06-15 22:27:16",
-      "content": "据AXIOS：贝莱德和黑石集团遭到美国民主党参议员沃伦的质询。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 22:26:13",
-      "content": "据AXIOS：美国民主党参议员沃伦要求获取有关数据中心私募股权交易的信息。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 22:21:50",
-      "content": "【承销商行使“绿鞋”超额配售权 SpaceX IPO融资总额升至857亿美元】金十数据6月15日讯，SpaceX(SPCX.O)承销商已正式行使首次公开募股（IPO）中的超额配售权，使此次发行的总融资规模增至857亿美元。马斯克旗下这家航天与人工智能公司于上周四首批完成750亿美元融资。包括高盛集团和摩根士丹利在内的SpaceX承销团拥有额外购买8330万股股票的选择权，该安排属于超额配售机制的一部分。这项超额配售权通常被称为“绿鞋机制（greenshoe）”，其规模超过了有记录以来几乎所有科技公司IPO的超额配售安排。当股票价格上涨时，承销商通常会选择行使超额配售权。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 22:19:39",
-      "content": "美国军方通报称，在定于6月19日与伊朗达成协议之前，美国对伊朗港口的封锁措施继续有效。美国军方公告指出，受封锁影响的船只在收到“明确指示”之前，不应试图穿越封锁区域。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 22:18:19",
-      "content": "【美国6月住宅建筑商信心降至低位 南部地区拖累明显】金十数据6月15日讯，美国住宅建筑商信心在6月进一步下滑，原因是抵押贷款利率和建筑材料成本上升，同时美国南部地区信心大幅恶化。美国全国住宅建筑商协会（NAHB）与富国银行周一公布的数据显示，衡量整体市场状况的房产市场指数本月下降2点至35，低于市场预期。作为美国最大的住宅建设区域，南部地区信心创下自2023年11月以来最大跌幅。NAHB表示，6月已是该指数连续第14个月低于40，创下2011年至2012年以来最长持续低迷纪录。从分项指标来看，当前销售状况指数下降2点至38，而未来销售预期和潜在购房者到访量指标均持平。住宅建筑商协会认为，整体指数下滑部分归因于建筑材料价格上涨、融资成本增加以及阻碍住宅建设的监管因素。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 22:18:14",
-      "content": "黎巴嫩安全消息人士及官方媒体称，以色列无人机袭击黎巴嫩南部一辆汽车，导致司机丧生。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 22:17:07",
-      "content": "SpaceX：完成总计638,888,888股A类普通股的首次公开募股。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 22:16:30",
-      "content": "佳禾智能6月15日在互动平台称，公司目前没有6G产业的布局。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 22:13:41",
-      "content": "惠誉评级：通胀与利率带来的不利因素拖累美国年中信贷展望。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 22:09:44",
-      "content": "联合国安理会投票决定将联合国阿富汗特派团的授权延长一年。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 22:08:52",
-      "content": "据CNN：特朗普抵达欧洲参加七国集团峰会。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 22:07:23",
-      "content": "据港交所文件：江苏鼎泰药物研究(集团)股份有限公司向港交所提交上市申请书。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 22:06:14",
-      "content": "欧洲防空导弹公司（EUROSAM）：正与匈牙利和科威特就替代“爱国者”防空导弹系统的方案进行谈判。双方将举行“进展情况会议”讨论欧盟审查事宜。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 22:05:25",
-      "content": "美国银行(BAC.N)：5月底信用卡逾期率为1.30%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 22:04:53",
-      "content": "市场消息：派拉蒙下周将就欧盟对华纳交易调查发布重要更新。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 22:04:04",
-      "content": "美国银行(BAC.N)：5月份信用卡坏账率为2.33%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 22:03:02",
-      "content": "伦铝日内大跌4.00%，现报3385.67美元/吨。沪铝2607跌幅扩大至1.88%，最新报23775元/吨，成交额约110.07亿元，日内增仓1.34万手，持仓变化明显。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 22:01:35",
-      "content": "欧盟外交与安全政策高级代表卡拉斯：欧盟各部长一致认为，黎巴嫩必须被纳入美伊停火协议的适用范围。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 22:01:20",
-      "content": "金十图示：2026年06月15日（周一）全球股市指数-美洲市场（盘初）",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 22:00:02",
-      "content": "美国6月NAHB房产市场指数 35，预期36，前值37。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 21:59:40",
-      "content": "欧盟外交与安全政策高级代表卡拉斯：欧盟外长未能就对以色列右翼政客本-格维尔实施制裁达成共识。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 21:58:59",
-      "content": "美国副总统万斯：除非伊朗履行其义务，否则他们拿不到一分钱。我们所谈论的资金，本质上属于制裁减免。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 21:58:43",
-      "content": "【万斯称美伊协议已于周日完成电子签署】金十数据6月15日讯，据CNN报道，美国副总统万斯表示，美国与伊朗达成的协议已于周末通过电子方式完成签署，表明协议条款现已生效，同时伊朗不会获得任何新的资金解冻。万斯在ABC电视台节目中表示：“我们昨天已经通过电子方式签署了协议，而且目前没有任何资金被释放。这一点也不会改变。”尽管在协议达成前，外界曾提出通过电子签署方式完成协议，但直至此刻才得到证实。特朗普于周日宣布，双方将在周五在瑞士举行正式签署仪式。特朗普在宣布协议时写道：“随着海峡于周五协议签署之际重新开放，为扫雷工作创造条件，石油将再次从海峡两端向该地区乃至全世界流动！”",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 21:57:03",
-      "content": "SpaceX(SPCX.O)：承销商行使了选择权，额外购买8333万股股票。SpaceX在首次公开募股中筹集约857亿美元。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 21:53:31",
-      "content": "【新乡化纤：中原资产管理有限公司拟减持不超1%股份】金十数据6月15日讯，新乡化纤公告，公司持股11.76%的股东中原资产管理有限公司拟以集中竞价方式，减持公司股份不超过1656.89万股（占公司总股本的1%）。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 21:53:01",
-      "content": "费城半导体指数涨幅扩大至超5%，再创新高。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 21:52:06",
-      "content": "金十图示：2026年06月15日（周一）华尔街恐惧与贪婪指数（美盘初）",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 21:51:43",
-      "content": "戴尔(DELL.N)涨超5%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 21:51:28",
-      "content": "【苹果首款折叠屏机型延期至2027年初上市？公司回应】金十数据6月15日讯，有消息称苹果(AAPL.O)首款折叠屏机型iPhone Ultra已从原定的2026年秋季推迟至2027年初上市发售，延期主要源于铰链设计和PCB工艺问题。苹果官方热线的接线技术顾问表示：“目前还没有收到关于折叠屏产品发布以及发布时间的消息，网上看到的媒体报道或自媒体爆料并不一定准确，不代表苹果官方的意思。如果一个月前供应链方面有消息了，比如说确定模型都做好了，那么这个产品才基本上算定了。”",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 21:50:16",
-      "content": "【分析师：霍尔木兹海峡重开进程缓慢，油价风险仍偏向上行】金十数据6月15日讯，斯巴达大宗商品公司（Sparta Commodities）的Neil Crosby在报告中表示，霍尔木兹海峡的重新开放需要时间，供应量恢复到50%以上“可能需要一个月的时间”。他表示，在近期油价大幅回落后，价格风险明显偏向上行，因为“仍有很多事情可能出错”，而如果一切按计划进行，额外的下行空间有限。“即便其余政治进程都能按计划推进，那些目前实际被困在波斯湾内的船舶，驶离该区域的过程也可能相当缓慢。还有扫雷的问题，这也快不了。”",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 21:50:00",
-      "content": "美国6月NAHB房产市场指数将于十分钟后公布。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 21:46:18",
-      "content": "金十图示：2026年06月15日（周一）美盘市场行情一览",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 21:45:18",
-      "content": "【航行警告！南海海域实弹射击】金十数据6月15日讯，据中国海事局网站消息，湛江海事局发布航行警告，6月16日至17日，每天8时至18时，南海部分海域进行实弹射击，禁止驶入。​​​",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 21:44:08",
-      "content": "【伊朗总统：伊朗与美国将于19日签署谅解备忘录】金十数据6月15日讯，据伊朗媒体15日报道，伊朗总统佩泽希齐扬表示，伊朗与美国将于19日签署谅解备忘录。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 21:43:13",
-      "content": "英国海上贸易行动办公室15日转发联合海上信息中心的一份通报称，美军针对伊朗港口的封锁仍在实施。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 21:42:36",
-      "content": "金十图示：2026年06月15日（周一）美股热门股票行情一览",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 21:40:56",
-      "content": "德国总理默茨：希望将七国集团向新伙伴开放。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 21:40:47",
-      "content": "德国总理默茨：（关于乌克兰）这是第一次，外交有可能打开一个窗口；希望在G7峰会上与美国总统特朗普讨论此事。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 21:40:36",
-      "content": "德国总理默茨：乌克兰处于新的强势地位，俄罗斯无法在军事上获胜。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 21:40:23",
-      "content": "美股太空概念股走强，KULR Technology涨11%、Rocket Lab涨6.88%、波音(BA.N)涨4%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 21:39:49",
-      "content": "【经济学家：美伊协议降低衰退风险，但并未改变前景预期】金十数据6月15日讯，牛津经济研究院的Ben May和Bridget Payne在报告中表示，尽管未来可能还会遇到波折，但美伊协议降低了石油库存持续下降并最终引发全球能源价格飙升、进而导致经济衰退的风险。不过他们表示，这并不自动意味着流经霍尔木兹海峡的石油量会比此前预期的增加得更快。“我们原本就假设通过霍尔木兹海峡的航运将在7月底恢复。尽管如此，我们目前的短期油价预测看起来仍然偏高。”他们补充说，由于霍尔木兹海峡重开很可能有助于降低通胀，但对经济增长的提振作用有限，因此这一消息进一步强化了他们的观点，即美联储和英国央行不会加息，而那些已经完成加息的其他央行也不会再次加息。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 21:37:32",
-      "content": "德国总理默茨：协议也必须在黎巴嫩得到落实。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 21:37:13",
-      "content": "美国航空股上涨，达美航空上涨4.2%，美国航空上涨3.8%，西南航空上涨4.2%。阿拉斯加航空上涨8%，捷蓝航空上涨10%，联合航空上涨6.3%。标普综合1500航空公司指数上涨5%，创七年多新高。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 21:36:50",
-      "content": "科威特民航局宣布，科威特国际机场4号航站楼已恢复对海湾、阿拉伯及外国航空公司的有限运营。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 21:36:48",
-      "content": "金十图示：2026年06月15日（周一）热门中概股行情一览",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 21:35:07",
-      "content": "【马克龙：不会屈从美方威胁而取消数字税】金十数据6月15日讯，法国总统马克龙15日回应美国总统特朗普的关税威胁时说，法国不会屈从美方威胁而取消针对美国科技巨头的数字税。马克龙当天在法国埃维昂莱班接受法国电视一台采访时说，数字税是欧洲法律体系的一部分，一些国家已经实施，美国无权替欧洲人或法国人制定法律。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 21:35:03",
-      "content": "机构指出，油价回落将缓解通胀压力，推动资金从高估值科技股流向被低估的周期性行业，美股正从“独头行情”转向更健康的全面上涨。点击查看…",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 21:34:55",
-      "content": "标普500能源指数下跌4.5%，面临自2025年以来最大跌幅。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 21:34:35",
-      "content": "标普500工业指数创下3月以来首个历史新高。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 21:34:04",
-      "content": "福克斯将以220亿美元收购流媒体平台Roku，福克斯公司股价大跌14%，创下史上最大单日跌幅，ROKU(ROKU.O)跌1.6%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 21:32:42",
-      "content": "美伊达成谅解备忘录，美国油气概念股普跌，埃克森美孚石油(XOM.N)跌5.6%、雪佛龙(CVX.N)跌4.4%，西方石油(OXY.N)跌5.4%、康菲石油(COP.N)跌4.9%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 21:31:53",
-      "content": "道琼斯指数6月15日（周一）开盘上涨634.80点，涨幅1.24%，报51837.06点；\n标普500指数6月15日（周一）开盘上涨104.15点，涨幅1.40%，报7535.61点；\n纳斯达克综合指数6月15日（周一）开盘上涨597.62点，涨幅2.31%，报26486.47点。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 21:31:51",
-      "content": "【美国5月制造业产出停滞 成本压力开始显现】金十数据6月15日讯，美国制造业产出在连续四个月增长后于5月陷入停滞，表明受伊朗战争影响而中断的供应链以及不断飙升的成本可能开始拖累制造业活动。周一数据显示，5月工厂产出基本持平。包括公用事业和采矿业在内的工业总产出增长0.1%。此前调查显示，受战争引发的客户囤货需求、国防相关订单增加以及数据中心持续建设推动，制造业活动有所回升。周一数据可能表明，成本激增开始产生影响。此前另一份报告显示，5月生产者获得的价格同比涨幅达到2022年以来最高水平。耐用品制造业与非耐用品制造业表现出现分化。非耐用品制造业出现下滑，主要反映石油和煤炭产品、塑料和橡胶制品以及纺织品产出的回落。与数据中心建设相关的行业产出则继续增长，包括计算机和电子产品、电气设备、金属制品、机械设备以及基础金属行业。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 21:30:57",
-      "content": "金十图示：2026年06月15日（周一）各大货币对表现",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 21:30:55",
-      "content": "美国最高法院将审理特朗普政府的上诉，该案涉及针对面临遣返程序的特定移民的长期拘留问题。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-15 21:30:35",
-      "content": "【美伊达成谅解备忘录 美股高开】金十数据6月15日讯，美股开盘，道指涨1.2%、标普500指数涨1.3%、纳指涨2.1%。新股SpaceX(SPCX.O)延续涨势，涨幅达6.7%。英伟达(NVDA.O)涨1.7%，公司计划通过发行高等级债券筹资至少200亿美元。纳斯达克中国金龙指数涨0.85%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
     }
   ],
   "shmet": [
     {
-      "datetime": "2026-06-16 00:11:15",
-      "content": "【快讯】SHMET06月16日讯，美国高级官员：美国预计霍尔木兹海峡的免费通行也成为最终协议的一部分。",
+      "datetime": "2026-06-16 02:07:06",
+      "content": "【快讯】SHMET06月16日讯，以色列总理内塔尼亚胡：如果没有美国和以色列的行动，伊朗将拥有核武器。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-06-16 00:10:36",
-      "content": "【快讯】SHMET06月16日讯，美国总统特朗普：伊朗不会拥有核武器。",
+      "datetime": "2026-06-16 02:07:00",
+      "content": "【快讯】SHMET06月16日讯，以色列总理内塔尼亚胡：伊朗需要数年才能恢复。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-06-16 00:10:25",
-      "content": "【快讯】SHMET06月16日讯，美国总统特朗普：（关于伊朗）希望能建立良好的关系。",
+      "datetime": "2026-06-16 02:06:43",
+      "content": "【快讯】SHMET06月16日讯，以色列总理内塔尼亚胡：我一生的使命是与伊朗核计划作斗争。无论是否达成协议，伊朗都不会拥有核武器。人们问我们取得了什么成就，答案是：消除了对我们生存的直接威胁。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-06-16 00:10:08",
-      "content": "【快讯】SHMET06月16日讯，美国总统特朗普：（谈及伊朗）将实施强有力的监管。",
+      "datetime": "2026-06-16 02:06:21",
+      "content": "【快讯】SHMET06月16日讯，以色列总理内塔尼亚胡：我们对伊朗经济造成了巨大损失，有人估计高达一万亿美元。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-06-16 00:09:45",
-      "content": "【快讯】SHMET06月16日讯，美国总统特朗普：霍尔木兹海峡已于周五完全开放。协议已全部签署。",
+      "datetime": "2026-06-16 02:06:00",
+      "content": "【快讯】SHMET06月16日讯，以色列总理内塔尼亚胡：最重要的是，我们拯救了以色列，免受核武器毁灭的威胁。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-06-16 00:09:15",
-      "content": "【快讯】SHMET06月16日讯，美国总统特朗普：重要的是油价大幅下跌而股市正在上涨。",
+      "datetime": "2026-06-16 02:05:30",
+      "content": "【快讯】SHMET06月16日讯，以色列总理内塔尼亚胡：无论是否达成协议，伊朗都不会拥有核武器。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-06-16 00:08:18",
-      "content": "【快讯】SHMET06月16日讯，法国总统马克龙：伊朗协议是非常重要的一步，霍尔木兹海峡将重新开放。",
+      "datetime": "2026-06-16 02:01:16",
+      "content": "【快讯】SHMET06月16日讯，伊朗军方发言人：我们将在与美国达成协议期间增强防御力量，并保持比以往更高的战备状态。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-06-16 00:07:04",
-      "content": "【快讯】SHMET06月16日讯，美国高级官员：制裁减免不与任何特定行为挂钩，而是取决于伊朗采取适当行动。",
+      "datetime": "2026-06-16 02:00:11",
+      "content": "【SHFE夜盘收盘_基本金属】沪铜主力跌0.14%,报105210元/吨沪铝主力跌1.80%,报23795元/吨沪铅主力涨0.62%,报16265元/吨沪锌主力涨0.32%,报24760元/吨沪镍主力涨0.17%,报135560元/吨沪锡主力涨1.52%,报424120元/吨",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-06-16 00:06:14",
-      "content": "【快讯】SHMET06月16日讯，美国高级官员：美方希望看到伊朗采取可核查且不可逆转的步骤。",
+      "datetime": "2026-06-16 01:56:57",
+      "content": "【快讯】SHMET06月16日讯，花旗：将3个月内黄金价格预测上调至4500美元/盎司，白银价格预测上调至70美元/盎司。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-06-16 00:03:11",
-      "content": "【快讯】SHMET06月16日讯，美国官员：美国可能在制裁和资金方面采取小幅度措施。美国愿意分阶段释放资金。",
+      "datetime": "2026-06-16 01:54:45",
+      "content": "【快讯】SHMET06月16日讯，花旗将油价预期下调至此前看空情景水平，对2026年第三季度和第四季度的最新季度油价预测分别为每桶75美元和70美元。",
       "important": 0,
       "source": "shmet",
-      "sentiment": "neutral",
+      "sentiment": "bear",
       "steel": false
     }
   ],
