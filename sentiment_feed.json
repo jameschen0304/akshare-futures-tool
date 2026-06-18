@@ -1,7 +1,743 @@
 {
   "source": "jin10 flash + shmet + shfe weekly stock",
-  "generated_at": "2026-06-18T12:44:36.731082+00:00",
+  "generated_at": "2026-06-18T13:56:17.710430+00:00",
   "jin10": [
+    {
+      "datetime": "2026-06-18 21:51:46",
+      "content": "【乌鲁木齐推出阶段性购房补贴政策，新房一次性补贴8000元】金十数据6月18日讯，从乌鲁木齐市住房和城乡建设局了解到，购房补贴坚持公平普惠、精准施策、便捷高效、公开透明的原则，补贴对象为在乌鲁木齐市行政区域内购房的自然人。购房者购买已取得《商品房预售许可证》或《商品房现售备案证书》的新建商品住房，在规定时间内签订购房合同并完成网签备案，即可申领补贴。政策明确划定补贴适用范围，二手住房、各类保障性住房、公寓、商铺、写字楼、车库车位等非住宅房源，均不享受本次购房补贴。补贴标准为每套新房一次性补贴8000元，同一套房屋仅限享受一次补贴。本次政策实施期自2026年6月17日起至6月30日止。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:51:46",
+      "content": "金十图示：2026年06月18日（周四）华尔街恐惧与贪婪指数（美盘初）",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:51:28",
+      "content": "WTI原油回落至73美元/桶下方，日内跌3.66%。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:51:01",
+      "content": "行业消息人士：无人机袭击损坏了莫斯科炼油厂的Euro+原油一次加工装置及其他数套装置。莫斯科炼油厂于6月18日遭到无人机袭击，这是该炼油厂一周内第二次遭受无人机袭击。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:50:00",
+      "content": "美国5月谘商会领先指标月率将于十分钟后公布。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:49:45",
+      "content": "【分析：鹰派美联储将使金价更倾向于跌破4000美元 而非收复5000关口】金十数据6月18日讯，周四，由于美元走强以及美联储发出鹰派信号，黄金的吸引力减弱，导致国际现货黄金价格回落，美元指数上涨。美联储周三维持利率不变，但政策制定者预计今年晚些时候将加息，因为通胀担忧持续上升，已超出央行的目标水平。美联储主席沃什还表示，他将启动一系列工作组，以更全面地审查中央银行的运作情况。市场分析师Han Tan表示：“鹰派美联储的政策将使现货黄金更倾向于回落至4000美元以下，而非在2026年下半年重新收复5000美元关口。”他补充道：“由于美联储也在重新审视其沟通方式，这可能会使黄金未来对美国经济数据发布产生更强烈的价格反应。”澳新银行在一份报告中表示：“黄金的投资需求疲软，ETF出现流出，持仓量也有所减少，但实物需求，尤其是来自中国的部分，以及央行的购买行为正在支撑市场。”",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:49:43",
+      "content": "【通过霍尔木兹海峡的油轮和LNG运输船增多】金十数据6月18日讯，据外媒报道，国际航运信息平台的船舶追踪数据显示，已有三艘油轮和一艘液化天然气（LNG）运输船18日通过霍尔木兹海峡。不过，路透社援引伊朗国家电视台的话报道，船舶通行霍尔木兹海峡仍需要与伊朗伊斯兰革命卫队海军进行协调。国际航运信息平台的船舶追踪数据显示，合计载有600万桶原油的三艘悬挂沙特国旗的油轮18日通过霍尔木兹海峡。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:48:21",
+      "content": "布伦特原油日内跌超2.00%，现报76.95美元/桶。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:47:27",
+      "content": "黎巴嫩总统府：奥恩总统指示谈判代表坚持国家立场，即实现永久停火、以色列撤军以及黎巴嫩军队向国际边界部署。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:47:01",
+      "content": "芝加哥商品交易所（CME）就Kalshi进军永续期货交易一事起诉美国商品期货交易委员会（CFTC）。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:46:39",
+      "content": "巴基斯坦总理：祝贺伊朗签署和平协议。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:46:20",
+      "content": "金十图示：2026年06月18日（周四）美盘市场行情一览",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:46:14",
+      "content": "标普500指数软件板块跌至两个多月低点，最新下跌2.1%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:44:41",
+      "content": "乌克兰总统泽连斯基：我们实施的长期制裁正非常有效地打击俄罗斯的石油设施和炼油厂。俄罗斯已面临燃料短缺，联邦预算收入也大幅下滑。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:43:58",
+      "content": "黎巴嫩总统府表示，奥恩总统主持会议，讨论定于6月23日至25日在华盛顿举行的下一轮黎巴嫩、美国与以色列谈判的筹备工作。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:43:39",
+      "content": "美国高级国防官员科尔比：北约盟国通过“PURL”倡议继续并加大对乌克兰的支持，这一点至关重要。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:42:43",
+      "content": "【以色列袭击黎巴嫩南部致3人死亡】金十数据6月18日讯，据黎巴嫩国家通讯社18日报道，以色列国防军无人机当天对黎南部奈拜提耶地区发动多次袭击，造成3人死亡。报道说，以军一架无人机当天袭击了奈拜提耶地区泰卜尼特村的一辆汽车，造成两人死亡。当天凌晨，另一架无人机袭击了奈拜提耶地区西部的济卜丁，造成一人死亡。与此同时，以军炮击还波及济卜丁南部山区。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:42:32",
+      "content": "金十图示：2026年06月18日（周四）美股热门股票行情一览",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:42:13",
+      "content": "北约秘书长吕特：额外的资金至关重要，但仅凭美元或欧元无法阻挡导弹或装甲车。我们需要迅速将资金转化为具备实战能力的战力。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:40:59",
+      "content": "北约秘书长吕特：俄罗斯并不比比利时和荷兰加起来强大；他们深知作为北约，我们实力强大，也知道自己无法战胜我们。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:40:10",
+      "content": "美联储加息预期升温！但黄金牛市或许仍未结束？阿汤哥、顺姐正在直播，点击观看",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:39:37",
+      "content": "北约秘书长吕特：我不会对每一位盟友所说的每一句话都发表评论。我向来不这么做。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:38:55",
+      "content": "市场消息：美国国防部长赫格塞思今天上午称北约为“纸老虎”。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:37:05",
+      "content": "俄罗斯外长拉夫罗夫：俄罗斯将对乌克兰武装部队的目标实施大规模打击；普京下达的任务正在执行中。仅靠言语不足以回应基辅的行动。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:36:33",
+      "content": "以色列总理内塔尼亚胡：必须捍卫安全利益，维护对美关系。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:36:27",
+      "content": "金十图示：2026年06月18日（周四）热门中概股行情一览",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:36:04",
+      "content": "Cognizant下跌 7.3%，IBM(IBM.N)下跌 5.5%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:35:27",
+      "content": "比亚迪执行副总裁李柯：比亚迪计划在年底前将热销SUV引入欧洲市场。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:35:18",
+      "content": "VIP·618最低价直降1000元，领《新手交易法则》精华课2件礼，前瞻2026下半年，最后3小时抢>>",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:33:32",
+      "content": "伊朗称南部港口航运已恢复正常。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:32:51",
+      "content": "摩根大通预计英国央行将在2026年11月加息25个基点，而此前预测的加息时间为7月。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:32:33",
+      "content": "费城半导体指数盘初涨超5%。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:32:08",
+      "content": "西部数据(WDC.O)涨9.5%、希捷科技(STX.O)涨6.5%。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:31:26",
+      "content": "道琼斯指数6月18日（周四）开盘上涨441.42点，涨幅0.86%，报51933.97点；\n标普500指数6月18日（周四）开盘上涨86.10点，涨幅1.16%，报7506.20点；\n纳斯达克综合指数6月18日（周四）开盘上涨374.31点，涨幅1.44%，报26395.96点。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:30:55",
+      "content": "金十图示：2026年06月18日（周四）各大货币对表现",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:30:52",
+      "content": "乌克兰总统泽连斯基呼吁盟友开发更多金融工具，以长期支持乌克兰军队。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:30:36",
+      "content": "【美伊远程签署谅解备忘录 美股高开】金十数据6月18日讯，美股开盘，道指涨0.77%、标普500指数涨1.1%、纳指涨1.56%。半导体概念股表现强势，英特尔(INTC.O)涨8%、迈威尔科技(MRVL.O)涨4.7%、美光科技(MU.O)涨6%。SpaceX(SPCX.O)延续跌势，跌幅达2%。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:30:10",
+      "content": "【李成钢会见中国美国商会会员企业代表团】金十数据6月18日讯，6月17日，李成钢国际贸易谈判代表兼副部长会见由中国美国商会董事会主席吉莫曼、会长何迈可率领的会员企业代表团，就中美经贸关系、美国企业在华发展等议题进行了交流。李成钢表示，今年5月，中美两国元首在北京举行历史性会晤，共同确定了中美建设性战略稳定关系的新定位，为两国经贸关系发展提供战略指引，进一步指明了航向。自去年以来，中美经贸团队已进行七轮经贸磋商，达成了一系列积极成果，这对两国以及双方企业都是好消息。中国开放的大门只会越开越大，中方始终欢迎包括美资企业在内的各国企业投资中国，共享发展机遇。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:29:06",
+      "content": "美联储、美国财政部及其他机构提议制定规则，以落实《Genius法案》关于客户身份识别计划的要求。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:28:59",
+      "content": "【科威特启动石油增产并立即解除所有不可抗力声明】金十数据6月18日讯，随着美伊临时和平协议促使霍尔木兹海峡重新开放，科威特已开始提高石油产量，并计划在一周内将日产量恢复至200万桶。科威特石油公司（KPC）首席执行官萨巴赫在接受采访时表示，该国已完成足够多的受损能源基础设施修复工作，因此能够比此前预期更快地将产量恢复至战前水平。战争期间，由于科威特油田遭到袭击，加之霍尔木兹海峡关闭，科威特石油产量一度降至日产50万桶。萨巴赫表示，战争期间发布的所有不可抗力通知都将立即解除。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:27:46",
+      "content": "乌克兰总统泽连斯基：乌克兰迫切需要远程火炮和无人驾驶车辆。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:27:03",
+      "content": "【澜起科技：近日成功送样DDR5第六子代RCD芯片】金十数据6月18日讯，澜起科技在互动平台表示，公司已于近日成功向客户送样DDR5第六子代RCD芯片，该芯片支持高达9200 MT/s的数据传输速率，较上一代产品提升15%，可满足下一代服务器平台对高带宽的严苛要求。公司是DDR5 RCD芯片国际标准的牵头制定者。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:25:48",
+      "content": "俄罗斯外交部长：俄罗斯将定期打击影响乌克兰武装部队作战能力的目标。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:25:40",
+      "content": "美联储新任主席沃什首秀释放强烈鹰派信号。资深策略师亚德尼指出，沃什重申2%通胀目标的严正立场，预示着加息窗口可能再次开启。点击查看…",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:25:36",
+      "content": "乌克兰总统泽连斯基：15个北约国家和12个非北约国家与乌克兰达成无人机交易。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:25:17",
+      "content": "【高盛：沃什鹰派立场将加剧美债短端波动】金十数据6月18日讯，高盛资产管理的Kay Haigh表示，沃什“毫不含糊的鹰派”信息令市场感到意外，因为他明确将短期内遏制通胀置于优先位置。交易员迅速加大押注，认为决策者将比此前预期更早加息。数据显示，市场目前认为美联储9月会议加息的概率已超过80%，并且市场已计入到10月加息超过一次的预期。而就在周二，市场仍认为最早要到12月才有加息可能。Haigh表示：“未来2年期国债品种的波动性将显著增加。首先是因为市场重新聚焦通胀问题，从而使收益率曲线长端趋于稳定并出现趋平走势。其次，美联储关于前瞻指引的评论表明未来将减少此类指引，更加依赖数据，而这些变化很大程度上都会转化为2年期的波动。”反映市场对美联储政策预期的2年期美债收益率在美联储决议后大幅上涨，周四出现波动。该收益率周三飙升13个基点，创下自2025年4月以来的最大涨幅，并追平了自2008年以来美联储议息日单日最大涨幅。周四，30年期美债收益率触及两个月低点。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:22:07",
+      "content": "国际现货黄金陷入震荡！加息赔率回升！沃什释放“鹰派”信号？金十交易学院正在直播中，立即观看！",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:21:52",
+      "content": "乌克兰总统泽连斯基：德国和乌克兰国防部长签署反弹道能力协议。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:20:47",
+      "content": "英国向乌克兰提供的援助包括350枚防空导弹和地面雷达系统。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:20:37",
+      "content": "声明显示，英国将在年底前向乌克兰提供15万架无人机，这是7.52亿英镑援助计划的一部分。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:19:43",
+      "content": "以色列总理内塔尼亚胡：伊朗绝不会拥有核武器。只要我担任以色列总理，这种情况就绝不会发生。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:19:30",
+      "content": "以色列总理内塔尼亚胡：正如我们恢复了“加沙地带周边地区”的安全与繁荣，我们也必将恢复北部定居点的安全与繁荣。这需要维持在黎巴嫩南部的“安全区”；只要以色列的安全需求有此必要，我们就不能撤离该地区。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:19:01",
+      "content": "以色列总理内塔尼亚胡：斗争尚未结束，更多挑战在前方等待。我们将继续以智慧和判断力前行。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:18:17",
+      "content": "【报告：直播电商行业加速迭代 迈入精细化运营新阶段】金十数据6月18日讯，6月18日，中国经济信息社联合美腕发布《中国直播电商发展报告（2026）》。报告显示，当前，我国直播电商行业加速迭代，正式迈入精细化运营新阶段。2025年国内直播电商交易规模突破6万亿元，同比增长20%。行业从粗放式流量竞争转向高质量、精细化发展，已成为驱动线上零售增长的关键引擎。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:15:44",
+      "content": "英国取消针对本国公民前往大多数海湾国家的旅行警告。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:14:48",
+      "content": "【农尚环境回应芯片业务转型进展：受多重因素影响落地不及预期】金十数据6月18日讯，农尚环境6月18日在互动平台表示，公司自布局半导体相关业务以来，持续统筹产业资源、完善业务落地配套条件，前期推进过程中受行业周期、资金、产业链配套等多重外部因素影响，项目落地节奏不及市场预期。后续若芯片业务取得具备披露条件的阶段性实质进展，公司将严格按照监管要求，及时履行信息披露义务。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:14:02",
+      "content": "沃什的美联储决议后，对各类资产有何影响？国际金方向怎么判断？Richard直播中将梳理关键因素，点击马上观看！",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:13:49",
+      "content": "谷歌(GOOG.O)：面向发布商推出 Ask Ad Manager，一款基于 Gemini 构建的 AI 智能体。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:13:26",
+      "content": "谷歌(GOOG.O)在Google Ad Manager中推出Ask Ad Manager AI智能体。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:12:40",
+      "content": "受《侠盗猎车手VI》将于6月25日开启预购的消息提振，Take-Two股价大涨6.5%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:11:23",
+      "content": "应对特朗普施压，古巴做出有利于市场的变革。古巴领导层批准了一份涵盖23个核心领域的广泛清单，其中包括176项市场自由化措施。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:11:01",
+      "content": "美国防长在布鲁塞尔向北约盟友发出最后通牒。因不满欧洲在伊朗战事中支持不力，美方将开启为期半年的驻欧军力审查，并威胁削减核心装备投入及成员国会费。点击查看…",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:09:31",
+      "content": "美、布两油短线走低0.6美元，科威特石油公司称科威特将立即解除所有不可抗力声明。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:07:50",
+      "content": "美国银行：预计2027年布伦特原油平均价格为70美元/桶。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:07:22",
+      "content": "科威特石油公司：科威特将“立即”解除所有不可抗力声明。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:07:00",
+      "content": "科威特开始提高石油产量，预计一周内将超过每日200万桶。科威特石油产量增长速度快于此前预期。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:06:23",
+      "content": "【中国长城资产等签署战略合作协议 “十五五”时期投入百亿级资金服务上海科创产业】金十数据6月18日讯，从中国长城资产了解到，在2026陆家嘴论坛上，该公司与中国银行、中国中信金融资产、中国东方资产、上海国投公司签署了科创金融生态共建合作框架协议，在“十五五”时期，合作各方将协同投入百亿级规模资金赋能上海科创产业，聚焦服务上海集成电路、人工智能、生物医药三大先导产业。根据协议，各方将创新打造全国首个集“创新创业股权投资+银行综合服务赋能+AMC资本盘活接续”于一体的科创金融生态共建新模式，助推上海打造全球标杆性科创金融高地。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:06:20",
+      "content": "欧盟预计最早将在下周公布初步调查结果，称AWS和Azure似乎符合《数字市场法》的要求。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:06:09",
+      "content": "美国银行：霍尔木兹海峡全面重开，可能使布伦特原油价格在今年达到82美元/桶，预计2026年下半年大部分时间将在70-80美元区间内波动。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:05:59",
+      "content": "金十图示：2026年06月18日（周四）投机情绪指数",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:03:37",
+      "content": "据港交所文件：数说故事人工智能科技股份有限公司向港交所提交上市申请书。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:03:33",
+      "content": "连续5年财报虚假记载！昔日牛股遭监管重罚！A股一医药股实控人被取保候审；半导体巨头联手国资向子公司增资114亿……今日盘后有哪些值得关注的公告？",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:03:28",
+      "content": "Adobe(ADBE.O)：在Premiere、Photoshop、Illustrator、InDesign和Frame.io中推出配备AI助手的创意智能体。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:03:18",
+      "content": "【欧洲央行首席经济学家：欧元区通胀仍将长期高于目标水平】金十数据6月18日讯，欧洲央行首席经济学家连恩周四表示，尽管近期能源价格回落，欧元区通胀仍将维持在较高水平。为应对自2月底中东冲突爆发以来能源价格的跳涨，欧洲央行上周近三年来首次加息。不过，随着伊朗与美国宣布达成和平协议，石油和天然气价格随后大幅下跌。连恩表示，欧洲央行对加息决定的正确性毫不怀疑，并且仍预计通胀将在较长时期内高于2%的目标水平。他说：“我们认为食品价格会上涨，商品和服务价格也会上涨。即便是在油价回落的较温和情景下，加息也是合理的。”",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:02:30",
+      "content": "印度5月柴油出口同比下降36.8%，至150万吨。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:02:19",
+      "content": "印度5月汽油出口同比下降37.4%，至90万吨。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:02:12",
+      "content": "印度5月原油进口量同比增长1.1%，至2160万吨。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:01:57",
+      "content": "美国电池企业QuantumScape：就固态电池技术与本田达成合作协议。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:00:24",
+      "content": "美联储放鹰，油价降温的利好已经被消化？黄金还会继续回落吗？金十研究员Steven正在直播，立即观看>>",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:00:18",
+      "content": "【欧洲央行首席经济学家：欧元区中性利率区间上限已升至2.50%】金十数据6月18日讯，欧洲央行首席经济学家连恩周四表示，欧元区利率中性区间的上限已从2.25%升至2.50%。连恩表示：“我认为，我们对中性利率的测算适用于冲击结束后的最终利率水平。”“我们参考了一系列中性利率模型，我们认为该区间的上限已经从2.25%逐步升至2.50%。”",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 20:57:24",
+      "content": "伊朗议会议长卡利巴夫：我知道如何让美国人明白事理。那就是凭借伊朗如今所展现出的实力逻辑。在与美国签署的谅解备忘录所规定的60天“免收费”期结束后，我们将向通过霍尔木兹海峡的船只收取费用。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 20:56:41",
+      "content": "【内塔尼亚胡欲借右翼媒体与美国亲以参议员影响美伊最终协议】金十数据6月18日讯，据外媒报道，一名以色列消息人士透露，以色列总理内塔尼亚胡正试图影响最终的伊朗协议，并利用右翼媒体人士以及美国参议员向特朗普施压。在整个谈判期间，内塔尼亚胡始终对伊朗的意图持怀疑态度，认为伊朗从未真心诚意地进行谈判。内塔尼亚胡仍然认为，美国与伊朗最终不会达成协议，而且伊朗不会真正同意对核计划施加限制。内塔尼亚胡正试图借助支持以色列的播客主持人Mark Levin等右翼媒体人士传播自己的立场。Levin周三表示，该协议“毫无道理”。内塔尼亚胡还试图依靠支持以色列的美国参议员来说服特朗普。不过，即便是此前主张对伊朗发动更多打击的共和党参议员格雷厄姆也已改变立场。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 20:53:26",
+      "content": "西班牙油企雷普索尔：与委内瑞拉达成的协议包括开发新的Horcon油田。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 20:53:15",
+      "content": "【三部门印发消费类网联摄像头网络安全标识实施规则】金十数据6月18日讯，国家网信办、工业和信息化部、公安部近日印发消费类网联摄像头网络安全标识实施规则。规则明确，消费类网联摄像头的网络安全标识对应的网络安全能力由低到高依次为基础级、增强级、领先级三个级别，相应的标识等级分别用一星、二星、三星表示。规则适用于消费类网联摄像头的网络安全标识的备案和使用。消费类网联摄像头是指消费者个人或组织购买、使用，为个人或组织提供音视频信息采集和处理服务、具有互联网联网功能的独立摄像头。不适用于公共安全领域的摄像头。规则提出，消费类网联摄像头网络安全标识包括产品生产者名称、产品规格型号、网络安全能力等级、网络安全标识有效期、检测实验室名称、依据的国家标准或技术文件编号、备案信息码等内容。根据规则，备案机构应向社会公众提供产品网络安全标识信息查询服务，及时公告产品生产者和检测机构的违规行为。(新华社)",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 20:52:16",
+      "content": "亚马逊：Alexa+在巴西抢先体验计划期间将免费提供。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 20:50:22",
+      "content": "靴子落地，沃什时代正式开启！国际黄金冲高回落，后市会继续走弱吗？金十研究员Nancy正在多角度解析中，点击马上看！",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 20:50:04",
+      "content": "亚马逊：将于2027年将Alexa+扩展至另外十多个国家。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 20:48:54",
+      "content": "据Marine Traffic：周四迄今已有七艘船只穿越霍尔木兹海峡。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 20:48:15",
+      "content": "欧洲央行首席经济学家连恩：欧洲央行与美联储采取分化的利率路径是可行的。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 20:48:02",
+      "content": "消息人士：以色列总理内塔尼亚胡正试图通过右翼媒体人物和友好参议员对美国总统特朗普施加压力，影响最终的伊朗协议。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 20:45:44",
+      "content": "欧洲央行首席经济学家连恩：我们将采取必要行动，就像美联储将会做的那样。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 20:43:43",
+      "content": "波兰即将与瑞典达成潜艇交易。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
     {
       "datetime": "2026-06-18 20:43:36",
       "content": "欧洲央行首席经济学家连恩：欧元升值仍对价格施加下行压力。",
@@ -369,823 +1105,87 @@
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
-    },
-    {
-      "datetime": "2026-06-18 20:24:44",
-      "content": "【辽宁：加快规上工业企业“智改数转”诊断 推动改造项目落地实施】金十数据6月18日讯，辽宁日报消息，6月18日，辽宁省政府召开经济运行分析会议，按照省委部署要求，分析1—5月全省经济运行情况，研究安排下步重点工作。省委副书记、省长王新伟主持会议并讲话。王新伟强调，坚持省市联动，谋深谋实“六张网”和五个重点领域基础设施项目，市场化、法治化、专业化盘活闲置资产，让有限资源产出更大效益。要坚持以科技创新引领三次产业协同发展，千方百计推动工业稳存量扩增量，专班化抓好稳车稳油稳钢，加快规上工业企业“智改数转”诊断，推动改造项目落地实施，抓实产业链图谱绘制运用，强化场景应用、基金撬动，优化提升传统产业、发展壮大新兴产业、前瞻布局未来产业。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 20:24:13",
-      "content": "美联储新班子释放强硬信号，全球资金或将抱团？未来推动市场走势的核心是什么？Richard正在多角度解析中，点击马上看直播！",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 20:24:03",
-      "content": "嘉信理财首席执行官Wurster：SpaceX(SPCX.O)的需求来自各类投资者。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 20:23:49",
-      "content": "欧佩克：需求的主要驱动因素是非经合组织国家。增长受道路运输、航空和石化行业推动。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 20:20:41",
-      "content": "【华为公布Wi-Fi 7专利许可费率 每台设备0.5美元】金十数据6月18日讯，华为今日公布将其Wi-Fi7设备的专利许可费率设定为每台设备0.5美元。使用者可通过双边许可协议或专利池，以公平、合理、无歧视（FRAND）原则获取许可。截至2024年底，超过12亿部消费类电子设备在Wi-Fi领域获得了华为的专利授权。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 20:20:32",
-      "content": "美国民主党参议员达克沃斯：散户投资者希望参与创新。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 20:20:21",
-      "content": "欧佩克：电力生产预计将增长超过85%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 20:20:15",
-      "content": "美国民主党参议员达克沃斯：联邦航空管理局（FAA）必须顶住白宫压力，拒绝批准“特朗普拱门”项目。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 20:20:00",
-      "content": "美国至6月13日当周初请失业金人数、6月费城联储制造业指数将于十分钟后公布。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 20:19:38",
-      "content": "嘉信理财首席执行官Wurster：SpaceX的需求“高得惊人”，且热度仍在持续。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 20:19:04",
-      "content": "【伊朗外长与科威特外交大臣通话 介绍伊美谅解备忘录进展】金十数据6月18日讯，当地时间6月18日，伊朗外交部长阿拉格齐与科威特外交大臣杰拉赫举行电话会谈，就伊美谅解备忘录、地区局势以及双边关系等问题交换意见并进行讨论。在通话中，阿拉格齐介绍了该谅解备忘录的内容以及相关最新进展。阿拉格齐还表示，伊朗高度重视睦邻友好政策，并希望该协议能够推动地区和平与稳定的恢复。他同时强调，有必要与波斯湾沿岸国家开展对话，以加强相互合作并消除现有误解。双方还就双边关系中的若干重要议题交换了意见，并同意继续通过外交渠道保持磋商，推进相关事项的落实。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 20:18:49",
-      "content": "意大利经济部长：针对涉及锡耶纳牧山银行（Monte Paschi）的并购举措，意大利将持中立立场。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 20:16:29",
-      "content": "欧佩克：未来太阳能将在可再生能源中实现最快、最大增长。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 20:16:17",
-      "content": "欧佩克：随着环境法规收紧，煤炭被视为唯一收缩的能源来源。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 20:13:44",
-      "content": "金十图示：2026年06月18日（周四）新闻联播今日要点",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 20:13:36",
-      "content": "挪威石油服务业工会将244名工人的罢工行动延长。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 20:12:27",
-      "content": "重要新闻\n1. 美伊谅解备忘录文本：伊朗将安排船舶安全通行，60天内免收费。\n个股新闻\n1. 博通(AVGO.O)将收购要约的考虑上限从25亿美元提高至30亿美元。\n2. 谷歌A(GOOGL.O)著名研究员Noam Shazeer宣布离职并加盟OpenAI。\n3. 必和必拓(BHP.N)将对其庞大的詹森钾肥项目进行23亿美元的资产减值准备。\n4. 特朗普表示，苹果(AAPL.O)已同意与英特尔(INTC.O)合作，在美国设计和制造其芯片。\n5. 据华尔街日报：苹果(AAPL.O)CEO库克表示，由于内存和存储成本飙升，苹果将提价。\n6. 星巴克(SBUX.O)与塔塔集团的合资企业塔塔星巴克计划每年在印度新增50至100家门店。\n7. 苹果(AAPL.O)正在为2027年春季发布第二代iPhone Air做准备；iPhone Air原型机将配备第二后置摄像头并升级电池。\n8. 阿斯麦(ASML.O)CEO克里斯托夫·富凯表示，公司必须确保在为埃隆·马斯克的Terafab等新项目提供服务时不会面临供应短缺的问题。\n9. 阿尔凯默斯(ALKS.O)在巴尔的摩举行的睡眠医学年会上公布，其实验性药物alixorexton在2型嗜睡症患者中显著改善了觉醒维持能力，并减少了日间过度嗜睡。\n10. 市场消息：美国司法部调查人员已开始着手调查包括摩根大通(JPM.N)和花旗集团(C.N)在内的美国金融机构是否参与了穆杰塔巴监管的公司之间的大额资金转移。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 20:11:17",
-      "content": "金十图示：2026年06月18日（周四）中国工商银行账户贵金属行情",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 20:11:12",
-      "content": "沃什时代正式开启！黄金重定价后如何布局？阿汤哥、顺姐正在直播，点击观看",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 20:11:04",
-      "content": "巴基斯坦与土耳其外长表示希望实现“地区持久和平”。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 20:10:49",
-      "content": "俄罗斯提议增加向东盟国家出口肥料、药品及其他高附加值产品。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 20:10:35",
-      "content": "宝马监事会主席表示，宝马对美国市场非常有信心，市场稳定且重要。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 20:09:49",
-      "content": "【智谱等中国大模型何时赶上Fable水平？马斯克：或在2027年一季度】金十数据6月18日讯，6月18日，有网友在社交媒体提问称：“中国大模型预计何时能够达到Anthropic的Fable水平？智谱GLM-5.2无疑缩小了差距。”特斯拉CEO马斯克对此回复称：“可能在（2027年）一季度。”对于马斯克的言论，有AI业内人士认为，马斯克的预测相对保守，中美模型水平的时间差可能短于7个月。谷歌DeepMind首席执行官德米斯·哈萨比斯此前也表示，中国的人工智能模型在能力上可能“只差几个月”就能赶上海外。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 20:09:18",
-      "content": "【欧佩克维持石油需求强劲增长预测 称需求仍未见顶】金十数据6月18日讯，据路透社报道，欧佩克周四维持其对未来四年全球石油需求强劲增长的预测，并小幅上调长期需求展望。该组织表示，全球范围内正转向更支持石油消费的政策环境，且没有任何迹象显示石油需求将见顶。欧佩克在其《2026年世界石油展望》中表示，预计全球石油需求将从2025年的1.051亿桶/日增至2030年的1.133亿桶/日。与去年报告相比，2025年需求预测基本没有变化，2030年的预测则维持不变。欧佩克表示，美国、欧洲及其他地区政府政策的变化，以及印度、中东、非洲和拉丁美洲的长期增长，将推动石油需求扩张。报告称：“对能源安全和能源可负担性的关注不断增强，已经改变了全球能源政策格局。这一变化体现在政策调整和政策逆转上，而这些变化预计将在中长期支持石油需求。”在长期展望方面，欧佩克预计到2050年全球石油需求将达到1.24亿桶/日，高于去年预测的1.229亿桶/日，并重申其观点，即石油需求见顶并不在可预见范围内。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 20:05:54",
-      "content": "加息预期再升温，黄金反弹彻底结束？关键支撑在哪里？金十研究员Steven正在直播，立即观看>>",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 20:05:24",
-      "content": "美国对埃塞俄比亚部分个人实施签证限制。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 20:04:48",
-      "content": "俄罗斯外交部：（谈及英国发生的与首相基尔·斯塔默名下房产有关的纵火袭击事件）无需处处寻找克里姆林宫的影子。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 20:03:47",
-      "content": "欧佩克：美国页岩油产量可能在2025年达到峰值，预计到2030年美国页岩油总供应量增长有限，之后将趋于平稳。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 20:03:29",
-      "content": "俄罗斯总统普京：俄罗斯寻求与东南亚建立战略伙伴关系。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 20:03:04",
-      "content": "【中央网信办开展“清朗·整治账号名称信息乱象”专项行动】金十数据6月18日讯，中央网信办发布关于开展“清朗·整治账号名称信息乱象”专项行动的通知。坚持问题导向和效果导向，通过开展专项行动，集中整治账号名称信息存在的突出问题。针对名称冒充、身份伪装、夹带违规信息、名称信息黑灰产等4类问题，督促网站平台严格落实主体责任，进一步完善账号名称信息全流程管理，持续营造清朗网络空间。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 20:02:44",
-      "content": "欧佩克：石油需求尚未见顶，并将2050年石油需求预期上调至每日1.24亿桶。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 20:02:26",
-      "content": "一份报告显示，欧佩克在其《2026年世界石油展望》中预测，到2030年全球石油需求将达到每日11330万桶，这一预测与去年的报告相比保持不变。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 20:02:10",
-      "content": "波罗的海干散货指数上涨0.23%，至2659点。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 20:01:12",
-      "content": "美联储利率维持不变！年内加息概率过半？国际金周五大幅震荡！金十交易学院正在直播中，立即观看！",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 20:00:44",
-      "content": "【机构：英国央行下一步更可能降息而非加息】金十数据6月18日讯，英格兰及威尔士特许会计师协会的Suren Thiru表示，英国央行的下一步行动更有可能是降息，而非加息。在英国央行周四将利率维持在3.75%不变后，Thiru表示，该央行可能将进入较长时间的政策观望期，以评估地缘政治不确定性以及国内政治局势的不稳定因素。“英国货币政策目前正处于十字路口。”Thiru称，美伊和平协议提升了市场对通胀缓解的预期，但如果敌对行动再次爆发，“局势可能迅速重新倾向于加息”。不过他表示，鉴于全球动荡水平仍然较高，英国央行不太可能在明年之前启动降息。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 20:00:19",
-      "content": "根据最新经纪商挂单数据，国际现货黄金延续下行，上方空单挂单密集；镑美留意下方空单密集区……点击查看最新报告",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 20:00:00",
-      "content": "【追觅：2026年1-5月营收同比增长80%】金十数据6月18日讯，追觅科技发布数据显示，公司2026年1-5月主营业务实现同比增长80%，延续了自成立以来连续9年营收高速增长的态势。此前，追觅科技并未披露过详细的总营收数据。6月初，追觅科技开启新一轮Pre-IPO直接融资窗口，据媒体报道，本轮融资整体释放股权份额区间为5%至10%，以700亿元投前估值测算，对应整体融资规模约35亿元至70亿元。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:59:53",
-      "content": "俄罗斯总统普京：中东局势稳定将有利于能源市场。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:59:50",
-      "content": "俄罗斯总统普京：有理由相信该文件将成为未来协议的基础。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:59:12",
-      "content": "俄罗斯总统普京：俄罗斯与东盟欢迎旨在制止冲突的美伊协议。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:56:50",
-      "content": "【博瑞医药：实控人袁建栋被取保候审】金十数据6月18日讯，博瑞医药公告，公司于2026年6月18日收到公司实际控制人袁建栋先生通知，因涉嫌操纵证券市场案，根据《中华人民共和国刑事诉讼法》相关规定，苏州市公安局对袁建栋先生出具了《取保候审决定书》，期限自2026年6月18日起算。目前公司生产经营运作正常，各项工作 有序开展。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:56:38",
-      "content": "【欧盟最高外交官员回应以色列外长断联决定】金十数据6月18日讯，针对以色列外长吉迪恩·萨尔声称将与自己切断一切联系的表态，欧盟外交与安全政策高级代表卡拉斯作出回应，称欧盟仍然“致力于与以色列建立建设性关系”。此前，萨尔批评卡拉斯将以色列对待巴勒斯坦人的方式比作种族隔离时代南非的状况。萨尔表示，在卡拉斯撤回或澄清相关言论之前，自己只能切断与她的联系。卡拉斯对此表示，“欧盟与以色列之间有很多共同纽带”，她重视建立在尊重基础上的建设性接触。不过她强调，“两国方案”是实现中东和平唯一可行的道路，并重申欧盟谴责以色列在约旦河西岸被占领土建设非法定居点的立场。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:56:28",
-      "content": "辉瑞股价在盘前交易中下跌1.4%，首席财务官戴夫·登顿将辞职。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:56:04",
-      "content": "现货白银日内跌幅达2.00%，现报66.57美元/盎司。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:54:21",
-      "content": "巴林证券交易所将于6月25日至28日因节日休市。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:52:52",
-      "content": "美股仍维持在高位，但Anthropic模型突然受限、OpenAI遭多州调查，暴露了一张藏在暗处的“账单”！交易逻辑已悄然生变，一文查看AI交易的后半场节奏！",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:52:22",
-      "content": "【机构：英国央行今年可能不会加息】金十数据6月18日讯，Premier Miton Monthly Income Fund的Emma Mogford在英国央行周四将利率维持在3.75%不变后表示，英国央行今年可能不需要加息。“今年晚些时候由伊朗战争引发的价格上涨，可能会被需求走弱所抵消。此外，鉴于劳动力市场相对疲软，工资增长预期也仅属温和。”英国央行以7票赞成、2票反对的投票结果通过了该决定，两名决策者倾向于加息25个基点。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:51:00",
-      "content": "美联储加息概率飙升，国际黄金反弹乏力，接下来会再度探底吗？金十研究员Nancy正在多角度解析中，点击马上看！",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:50:48",
-      "content": "俄罗斯莫斯科市长：炼油厂火灾基本得到控制。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:50:47",
-      "content": "【机构：英国央行加息门槛依然很高】金十数据6月18日讯，施罗德投资高级经济学家George Brown表示，在维持基准利率不变的情况下，英国央行目前是在争取时间，其加息门槛“依然很高”。疲软的劳动力市场和微弱的经济增长应该会限制能源价格飙升带来的第二轮效应。重新开放霍尔木兹海峡的初步协议也应会降低能源价格面临的一些更极端的上行风险。然而，英国央行不能掉以轻心。“如果通胀预期继续走高，英国央行可能仍会被迫采取行动。”",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:49:33",
-      "content": "【深交所：本周共对149起证券异常交易行为采取了自律监管措施】金十数据6月18日讯，深交所：本周共对149起证券异常交易行为采取了自律监管措施，涉及盘中拉抬打压、虚假申报等异常交易情形；共对5起上市公司重大事项进行核查，并上报证监会4起涉嫌违法违规案件线索。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:49:08",
-      "content": "国际黄金反弹乏力，后市能重拾上行吗？Richard将解析风险事件下的走势逻辑，点击马上看直播！",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:49:01",
-      "content": "【荷兰国际：预计瑞士央行未来两年维持零利率政策】金十数据6月18日讯，荷兰国际集团的Charlotte de Montpellier在报告中表示，瑞士央行决定维持利率不变，证实其仍处于相对舒适的位置，而且相比大多数其他央行更是如此。她表示：“总体而言，前景依然温和，通胀稳稳处于瑞士央行目标区间之内。”尽管今年年初的通缩担忧已经缓解，但未来几个月通胀大幅回升的风险似乎有限。事实上，虽然瑞士央行再次表示愿意干预外汇市场，但其目的只是为了应对瑞郎升值，而非抑制通胀。这表明未来几个季度货币政策立场将保持不变，政策利率至少在未来两年内维持在0%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:48:45",
-      "content": "当“降息”从声明中消失，美联储在向市场传递什么？国际金反弹根基或尚未动摇，美日上行趋势的阻力已逐步失效？",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:47:40",
-      "content": "【沪硅产业：子公司上海新昇获国盛集团及公司合计增资114.48亿元】金十数据6月18日讯，沪硅产业6月18日公告，公司拟与持股5%以上股东国盛集团共同对子公司上海新昇进行增资，合计增资114.48亿元。其中，公司以持有的新昇晶投等三家子公司股权作价74.48亿元认购上海新昇新增注册资本；国盛集团出资40亿元（含10亿元债转股）认购新增注册资本。增资后，公司持股比例由100%降至84.48%，仍为控股股东。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:47:24",
-      "content": "印度总理莫迪：印度致力于开发能够赋能人类的AI解决方案，同时促进创新、信任和国际合作。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:47:08",
-      "content": "印度总理莫迪：与阿尔斯通首席执行官马丁·西昂进行了富有成效的交流。阿尔斯通在印度已经有了强大的存在。未来的机会将会更加美好。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:46:43",
-      "content": "印度总理莫迪：与Mistral AI的创始人Arthur Mensch先生就全球人工智能格局的演变进行了深入的讨论。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:44:55",
-      "content": "【乌克兰央行维持关键利率不变 保留加息选项】金十数据6月18日讯，乌克兰央行周四表示，由于战争带来的挑战、企业成本上升以及能源价格上涨持续推高通胀风险，决定将关键利率维持在15%不变。如有必要，将准备在未来进一步加息，以稳定通胀预期，并推动通胀率重新回归5%的目标水平。声明称，“这一决定确保了当前货币环境足够紧缩，并考虑到了市场对乌克兰货币格里夫纳储蓄工具的旺盛需求，以及与中东战争和外部融资不足相关风险的缓解”。5月通胀率同比从4月的8.6%放缓至8.2%，乌克兰央行将其归因于季节性因素。该行表示，未来几个月通胀率将维持在接近当前水平，并将在今年年底前进一步加快。该行称：“受能源价格上涨、此前格里夫纳走弱以及劳动力短缺背景下工资持续增长推动企业成本上升的影响，价格仍将面临上行压力。”乌克兰央行预计，年底通胀率约为9.4%，2027年为6.5%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:42:56",
-      "content": "【德方纳米：拟定增募资不超过29亿元用于锂电新材料一体化项目】金十数据6月18日讯，德方纳米公告，拟定增募资不超过29亿元，募集资金将用于锂电新材料一体化（一期）项目（即20万吨/年磷酸盐新材料项目）及补充流动资金。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:42:08",
-      "content": "据半岛电视台：伊朗外交消息人士表示，关于瑞士之行的最终决定尚未做出。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:40:28",
-      "content": "宏昌电子6月18日在互动平台表示，公司相关GA-686系列高速覆铜板产品已通过相关客户认证，取得小量订单生产。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:37:34",
-      "content": "伊朗外长阿拉格齐在与科威特外长通电话时强调，有必要与海湾国家进行对话，以消除现有的误解。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:37:17",
-      "content": "现货白银失守67美元/盎司，日内跌幅1.37%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:36:43",
-      "content": "阿拉伯航空将于7月4日开通沙迦至阿勒颇的每日航班。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:36:20",
-      "content": "每日汇总乾坤、瑞银、摩根三家外资期货公司的持仓数据。今日菜粕空头减持超15000手，净空仓减少....一图查看。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:35:42",
-      "content": "【莫斯科遭大规模无人机袭击】金十数据6月18日讯，俄罗斯媒体18日援引首都莫斯科市长索比亚宁发布的数据报道说，自当天零时起，俄武装部队防空系统已击落194架袭击莫斯科的无人机。索比亚宁说，莫斯科一家购物中心和一家炼油厂在袭击中受损，俄防空系统仍在运作中以应对持续来袭的无人机。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:35:11",
-      "content": "ENERGY FUELS盘前上涨8.6%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:34:55",
-      "content": "宝马监事会主席：在本地供应方面，欧洲应更多地从“欧洲制造”转向“欧洲协同制造”的思维模式。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:33:52",
-      "content": "618特惠活动仅剩4小时！订单流、资金炸弹、指标共振等多款实用工具直降1000元，还有加码好礼大放送！点击抢京东卡·抽白银>",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:33:22",
-      "content": "【经济学家：英国央行有望避免欧美央行式紧缩 但内部存在鹰派压力】金十数据6月18日讯，Aberdeen副首席经济学家Luke Bartholomew表示：“我们认为，英国央行将能够避免采取欧洲央行已经开始实施、以及美联储昨晚暗示可能采取的那种货币紧缩措施。”“两名委员投票支持加息表明，仍有一些政策制定者对潜在通胀压力感到担忧。”",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:32:39",
-      "content": "奥本海默：将SpaceX(SPCX.O)目标价从190美元上调至250美元。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:31:29",
-      "content": "【全国邮政快递业安全生产和快递员群体合法权益保障工作电视电话会议召开】金十数据6月18日讯，6月18日，国家邮政局召开全国邮政快递业安全生产和快递员合法权益保障工作电视电话会议，就进一步加强行业安全生产和快递员群体合法权益保障工作进行再动员再部署。党组书记、局长赵冲久强调，要强化责任落实，毫不放松抓好行业安全生产工作。各企业要认真履行安全生产主体责任和品牌安全保障统一管理责任，深入排查整治事故隐患，确保安全生产。各级邮政管理部门要进一步强化监管责任，切实担负起“促一方发展、保一方平安”的政治责任，落实强监管要求，坚决防止执法宽松软。要齐抓共管形成合力，充分发挥地方安委会和寄递渠道安全联合监管机制作用，强化联合监管执法，加大媒体曝光和宣传报道力度。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:31:29",
-      "content": "美国国防部与Energy Fuels签署7.25亿美元贷款承诺协议。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:30:10",
-      "content": "【中美股市明日休市 金银油交易提前结束】金十数据6月18日讯，6月19日（明日），“端午节”遇上“六月节”，中美市场双双休市。A股、港股、台股、美股均休市一日。中国国内期货交易所全天不交易。芝商所（CME）旗下贵金属、能源、外汇、股指、美债期货合约交易提前于北京时间20日01:00结束。洲际交易所（ICE）旗下布伦特原油期货合约交易提前于北京时间20日01:30结束。敬请各位投资者留意。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:29:12",
-      "content": "【伊媒：伊革命卫队海军将继续控制霍尔木兹海峡】金十数据6月18日讯，据伊朗国家广播公司18日报道，伊朗伊斯兰革命卫队海军将继续控制霍尔木兹海峡。预计有11艘船只当晚将抵达伊朗港口，其中5艘为油轮。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:28:03",
-      "content": "【国家能源局主要负责人出席第五届塔什干国际投资论坛】金十数据6月18日讯，6月16日至17日，国家能源局局长王宏志赴乌兹别克斯坦出席第五届塔什干国际投资论坛。论坛是乌规格最高、规模最大的年度经济盛会，乌总统米尔济约耶夫，阿尔巴尼亚、俄罗斯、白俄罗斯、哈萨克斯坦、吉尔吉斯斯坦、塔吉克斯坦、阿塞拜疆等多国领导人出席论坛。论坛期间，乌总统米尔济约耶夫会见王宏志、驻乌大使于骏和中方企业高级别代表。米尔济约耶夫总统高度评价两国能源合作成果，希望共同制定合作路线图，推动能源合作再上新台阶。王宏志表示将按照两国元首达成的战略共识，与乌方共同做好落实工作。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:27:56",
-      "content": "【英国央行决议公布后英镑跌至十周低点】金十数据6月18日讯，在英国央行以7比2投票决定将利率维持在3.75%不变，并就收紧政策的前景表达谨慎态度后，英镑扩大跌幅。英国央行行长贝利表示，试图过快地将通胀拉回2%的目标，可能在产出方面引发不必要的波动。他指出，鉴于实体经济疲软，以及能源价格冲击的规模和持续时间仍存在不确定性，容忍通胀暂时高于目标水平似乎是合适的做法。不过仍有两名政策制定者支持加息。英国央行决议公布后，英镑兑美元GBP/USD最低跌至1.3208，为10周以来最低水平。欧元兑英镑则创三周新高。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:25:00",
-      "content": "1. 利率水平：连续第四次会议将基准利率维持在3.75%不变，符合市场预期。\n2. 投票比例：以7:2的投票比例维持利率不变，首席经济学家皮尔和货币政策委员格林投票支持加息25个基点。委员曼恩认为，通胀上涨的风险更为突出，但鉴于政策紧缩能够迅速传导至经济，无需立即提高利率。\n3. 前瞻指引：随时准备采取必要措施，确保通胀回归2%的轨道。行长贝利表示，将对更强的二轮效应迹象迅速作出回应。\n4. 经济评估：预计第三季度CPI通胀率将略低于3%，第四季度将回升至略高于3.25%，这一预期低于4月预测。预计第二季度潜在GDP增长率约为0.2%（4月预测为0.1%）。\n5. 能源影响：能源冲击对英国经济的影响仍存在不确定性。较高能源价格持续时间越长，价格和工资制定过程中出现显著第二轮效应的风险就越大。\n6. 市场反应：决议公布后，市场维持对英国央行利率的押注，预计今年将加息35个基点。英镑小幅下挫，欧元兑英镑创下三周新高，英国国债收益率小幅下跌。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:22:36",
-      "content": "【任鸿斌会见丹麦诺和诺德基金会主席兼诺和诺德公司董事会主席索文森】金十数据6月18日讯，6月18日，中国贸促会会长任鸿斌在京会见丹麦诺和诺德基金会主席兼诺和诺德公司董事会主席索文森一行。双方就诺和诺德公司深耕中国市场、加快在华投资布局、加强生物医药领域对华合作、更好参与健康中国建设等议题进行交流。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:22:31",
-      "content": "在美伊停火协议尚存变数之际，英国央行正试图在稳经济与控通胀之间寻找微妙的平衡，并明确释放出对高通胀“零容忍”的强硬基调。点击查看...",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:22:18",
-      "content": "SPACEX股价延续跌势，盘前下跌2%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:22:04",
-      "content": "在米兰上市的斯泰兰蒂斯股票在下跌5.71%后停牌。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:20:41",
-      "content": "英镑兑美元进一步下滑，最新下跌0.63%，报1.3213，为4月初以来最低水平。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:16:15",
-      "content": "【乘联分会：预计6月狭义乘用车零售市场规模约为165万辆，环比增长9.3%】金十数据6月18日讯，乘联分会预计，6月车市将延续修复态势，尽管宏观消费疲软，高温淡季，5月末冲量透支等制约因素仍然存在，但以旧换新政策持续稳步发力，多款重磅新车集中上市，“端午“叠加”618“形成阶段性促销窗口，多重支撑下修复动能与5月基本持平。综合判断，6月车市将呈现“月初平稳、月末冲量“走势。最新调研结果显示，占市场总销量七成左右的头部厂商，零售目标环比上月增长10%左右，半年度收官节点主动加力冲击目标意愿明确。结合终端表现初步推算，6月狭义乘用车零售市场规模约为165万辆，环比增长9.3%。其中新能源零售量预计为105万辆左右，环比增长10.5%，渗透率约63.6%。新能源与传统燃油车分化持续拉大。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:16:09",
-      "content": "【伊朗总统说伊美谅解备忘录展现“相互尊重”】金十数据6月18日讯，伊朗总统佩泽希齐扬18日在社交媒体发文说，伊朗和美国签署的谅解备忘录展现了“相互尊重”。佩泽希齐扬在帖文中写道：“这是一份历史性文件，也是来自强大伊朗的信息：和平将在相互尊重的环境中得以实现。”佩泽希齐扬还说，伊朗在维护自身尊严与独立的同时，始终坚定致力于全球和平，并推动地区发展与合作。帖文同时配发了佩泽希齐扬和美国总统特朗普共同签名的谅解备忘录英文版文本。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:15:41",
-      "content": "【朝鲜谴责七国集团对朝无端政治攻击】金十数据6月18日讯，据朝中社18日报道，朝鲜劳动党中央委员会部长金与正当日发表谈话说，七国集团是破坏世界和平安全和国际核不扩散体系的主谋，没资格也没权利谈论朝鲜的主权选择。金与正说，在法国举行的七国集团峰会上，美国等西方国家对朝鲜进行无端政治攻击。她说，对七国集团直接违反朝鲜宪法的行为，“表示强烈不满和遗憾”。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:15:12",
-      "content": "【坤彩科技：实控人谢秉昆拟减持公司不超3%股份】金十数据6月18日讯，坤彩科技公告，公司控股股东、实控人谢秉昆因个人资金需求，计划通过集中竞价、大宗交易方式，合计减持公司股份不超过1965.6万股，减持比例不超过公司总股本的3%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:14:36",
-      "content": "【美国中西部多地遭龙卷风袭击 超8万用户断电】金十数据6月18日讯，据美国方面18日消息，当地时间17日晚间，美国中西部至少五个州报告遭到龙卷风袭击。其中伊利诺伊州受灾较为严重，龙卷风在当地造成部分建筑物损毁、电线杆折断、道路被倒伏的树木堵塞。据悉，截至18日清晨，美国中西部地区已有超过8万用户断电。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:13:49",
-      "content": "【枧下窝锂矿用地预审有新进展！市场人士：离正式审批还有一定距离】金十期货6月18日讯，6月18日，江西省自然资源厅发布《用地预审与选址行政许可事项（2026年6月17日）1条》公告。公告显示，许可江西省宜丰县圳口里—奉新县枧下窝锂矿采矿项目用地预审与选址。记者了解到，在工程建设项目全生命周期中，用地预审与选址意见书属于项目立项前期、规划落地首环节。该环节处于项目还没立项、还没做正式规划设计阶段，最先办的法定证件，是项目落地的第一道关口，离正式审批还有一定距离。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:12:49",
-      "content": "韦德布什：将美光科技(MU.O)目标价从550美元上调至1,300美元。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 19:12:22",
-      "content": "现货白银日内跌近1.00%，现报67.24美元/盎司。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
     }
   ],
   "shmet": [
     {
-      "datetime": "2026-06-18 20:43:47",
-      "content": "【快讯】SHMET06月18日讯，欧洲央行首席经济学家连恩：我们认为，人工智能已在投资数据中显现出来。",
+      "datetime": "2026-06-18 21:53:44",
+      "content": "【乌鲁木齐推出阶段性购房补贴政策，新房一次性补贴8000元】SHMET06月18日讯，从乌鲁木齐市住房和城乡建设局了解到，购房补贴坚持公平普惠、精准施策、便捷高效、公开透明的原则，补贴对象为在乌鲁木齐市行政区域内购房的自然人。购房者购买已取得《商品房预售许可证》或《商品房现售备案证书》的新建商品住房，在规定时间内签订购房合同并完成网签备案，即可申领补贴。政策明确划定补贴适用范围，二手住房、各类保障性住房、公寓、商铺、写字楼、车库车位等非住宅房源，均不享受本次购房补贴。补贴标准为每套新房一次性补贴8000元，同一套房屋仅限享受一次补贴。本次政策实施期自2026年6月17日起至6月30日止。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-06-18 20:41:49",
-      "content": "【快讯】SHMET06月18日讯，欧洲央行首席经济学家连恩：就业稳定，实际收入持续增长。",
+      "datetime": "2026-06-18 21:51:36",
+      "content": "【快讯】SHMET06月18日讯，美国5月谘商会领先指标月率将于十分钟后公布。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-06-18 20:40:28",
-      "content": "【美国上周初请失业金人数下降 劳动力市场仍具韧性】SHMET06月18日讯，美国上周初请失业救济人数下降，显示劳动力市场仍处于“低裁员”状态。美国劳工部周四公布的数据显示，截至6月13日当周，初请失业救济人数减少4000人至22.6万人，市场预期为22.5万人。不过，续请失业救济人数在前一周升至181万人。这些数据表明，尽管伊朗战争引发能源价格冲击，美国劳动力市场仍保持韧性。5月份强于预期的就业报告进一步印证了这一看法，报告显示美国雇主新增17.2万个就业岗位。相关数据缓解了市场对于招聘活动大幅放缓的担忧，并促使投资者进一步加大对美联储加息的押注。",
+      "datetime": "2026-06-18 21:42:54",
+      "content": "【快讯】SHMET06月18日讯，北约秘书长吕特：俄罗斯并不比比利时和荷兰加起来强大；他们深知作为北约，我们实力强大，也知道自己无法战胜我们。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-06-18 20:40:18",
-      "content": "【快讯】SHMET06月18日讯，欧洲央行首席经济学家连恩：欧洲央行在利率政策上采取更积极的行动，意味着更长期的稳定。",
+      "datetime": "2026-06-18 21:40:13",
+      "content": "【快讯】SHMET06月18日讯，北约秘书长吕特：我不会对每一位盟友所说的每一句话都发表评论。我向来不这么做。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-06-18 20:38:57",
-      "content": "【快讯】SHMET06月18日讯，英国就希思罗机场扩建启动公众咨询。",
+      "datetime": "2026-06-18 21:37:42",
+      "content": "【快讯】SHMET06月18日讯，以色列总理内塔尼亚胡：必须捍卫安全利益，维护对美关系。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-06-18 20:38:57",
-      "content": "【神火股份：云南电价同比略降，氧化铝全部外购，暂无出海计划】SHMET6月18日讯，6月17日，神火股份透露，云南电价采用市场化定价模式，随着新能源等电力供给增加，电价与去年相比略有下降，具体受省内供需关系、新能源疏导、火电分摊等政策影响。氧化铝业务方面，公司除参股广西龙州新翔生态铝业有限公司外，自身无氧化铝产能，生产所需氧化铝全部外购，通过稳定供应渠道、战略采购等降低成本波动风险。关于布局氧化铝产业，公司指出全球氧化铝供应持续增加，核心在于铝土矿资源，如有合适资源可考虑。出海投资方面，公司表示目前暂无出海计划，因项目投资金额大、回报期长且存在不可控风险，但正密切关注国际市场机会。（cnal.com）",
+      "datetime": "2026-06-18 21:36:39",
+      "content": "【快讯】SHMET06月18日讯，Cognizant下跌 7.3%，IBM(IBM.N)下跌 5.5%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-18 21:35:46",
+      "content": "【快讯】SHMET06月18日讯，伊朗称南部港口航运已恢复正常。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-06-18 20:38:49",
-      "content": "【神火煤铝双线推进：煤炭年产695万吨，铝箔项目有序推进】SHMET6月18日讯，6月17日，神火股份发布投资者关系活动记录表。煤炭板块方面，公司在产产能795万吨/年，预计全年产量695万吨，主要产品为无烟煤和贫瘦煤，精煤率约75%，价格随行就市。今年以来煤价整体企稳回升，煤炭板块盈利情况有所好转。铝加工板块方面，公司现有铝箔产能14万吨/年、铝箔坯料产能26.5万吨/年，目前商丘年产5万吨新能源电池铝箔项目正在有序推进中。（cnal.com）",
+      "datetime": "2026-06-18 21:34:36",
+      "content": "【快讯】SHMET06月18日讯，摩根大通预计英国央行将在2026年11月加息25个基点，而此前预测的加息时间为7月。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-06-18 20:38:33",
-      "content": "【埃及铝业获贷建设铝箔厂 一期年产2.5万吨铝箔】SHMET6月18日讯，据外媒6月23日报道，埃及铝业（Egyptalum）正寻求从埃及和海湾地区银行组成的财团处获得50亿埃及镑（约合1亿美元）的贷款，用于建设埃及首家铝箔制造厂。该项目一期工程预计年产2.5万吨铝箔，投资额约为9000万美元。报道称，项目扩建后总投资额将达1.35亿美元，但未透露最终产能。埃及铝业此前已在其2025-2026财年的投资预算中拨款14亿埃及镑用于该项目的第一阶段。据埃及官方统计，埃及铝箔进口额接近1.4亿美元/年。（埃及铝业）",
+      "datetime": "2026-06-18 21:33:19",
+      "content": "【快讯】SHMET06月18日讯，费城半导体指数盘初涨超5%。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-06-18 20:38:13",
-      "content": "【眉山万吨级硫酸铁钠正极基地满产】SHMET6月18日讯，近日，位于四川眉山的万吨级硫酸铁钠正极材料量产基地进入持续高产模式，产线满负荷运转，产能已迅速爬升至预设产能的90%以上。该基地由众钠能源投资建设，于2026年1月正式投产，致力于钠离子电池关键原料及电池包的规模化生产。（电池中国）",
+      "datetime": "2026-06-18 21:33:00",
+      "content": "【快讯】SHMET06月18日讯，道琼斯指数6月18日（周四）开盘上涨441.42点，涨幅0.86%，报51933.97点；标普500指数6月18日（周四）开盘上涨86.10点，涨幅1.16%，报7506.20点；纳斯达克综合指数6月18日（周四）开盘上涨374.31点，涨幅1.44%，报26395.96点。",
       "important": 0,
       "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-18 20:37:52",
-      "content": "【科力远储能业务储备超15GWh 在建项目4GWh】SHMET6月18日讯，6月15日，科力远披露储能业务进展，目前公司储能项目储备规模超过15GWh，今年上半年在建项目规模约4GWh，在山东、河北、河南等电力市场化程度较高区域落地多个项目。其中，馆陶100MW/400MWh独立储能电站已实现并网投运。公司已将新型储能确立为核心增长方向，持续布局多技术路线的混合储能项目，并推进固态电池技术的分层研发与产业化探索。（锂业新声）",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
+      "sentiment": "bull",
       "steel": false
     }
   ],
