@@ -1,7 +1,319 @@
 {
   "source": "jin10 flash + shmet + shfe weekly stock",
-  "generated_at": "2026-06-19T13:04:53.043469+00:00",
+  "generated_at": "2026-06-19T13:58:28.785711+00:00",
   "jin10": [
+    {
+      "datetime": "2026-06-19 21:56:33",
+      "content": "伊朗外交部表示，原定于周五举行的瑞士会晤已推迟，目前正筹划在未来几天内举行会晤。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-19 21:55:55",
+      "content": "【英媒称英首相被要求设定离职时间表】金十数据6月19日讯，据英国《泰晤士报》报道，英国内阁多名大臣将于当地时间今天（6月19日）下午告诉首相斯坦默，应为其离职设定“时间表”。据报道，多名内阁大臣将对斯塔默说，他的“时间到了”。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-19 21:52:57",
+      "content": "【以军称部署在黎巴嫩的前线部队将按照指示采取行动】金十数据6月19日讯，当地时间6月19日，以色列国防军发言人德弗林在通报以军最新军事行动时表示，目前部署在黎巴嫩区域的以军前线部队“拥有行动自由”。被问及以军的行动是否受到限制、是否会空袭黎巴嫩首都贝鲁特时，德弗林表示，以军行动存在一定限制，将严格按照政治领导层的指示采取行动。他称，为了消除威胁，以军有权在任何区域采取行动。德弗林还表示，任何与协议有关的事情都属于政府管辖范围，“只要我们没有接到其他命令，就会按照总参谋长的命令行事。”",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-19 21:51:11",
+      "content": "在黎以冲突骤然升级导致美伊高层会谈夭折后，多方斡旋促成紧急停火。这场波及黎南部的战火正威胁着美伊和平协议，全球航运枢纽的解封前景依然扑朔迷离。点击查看…",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-19 21:49:56",
+      "content": "市场定价显示，美联储加息押注上升，完全消化了9月加息25个基点的预期。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-19 21:48:03",
+      "content": "美军中央司令部：昨夜有超过20艘船只使用了霍尔木兹海峡的阿曼航线。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-19 21:47:19",
+      "content": "美军中央司令部：霍尔木兹海峡的船只应享有航行自由。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-19 21:46:59",
+      "content": "据《泰晤士报》报道，英国内阁大臣们将于今天下午要求英国首相斯塔默明确其离任时间表。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-19 21:46:09",
+      "content": "【美议员批美政府在伊朗搞灾难艺术】金十数据6月19日讯，当地时间6月18日，美国国会参议院民主党领袖查克·舒默批评特朗普政府在伊朗搞的是“灾难的艺术”。舒默称，伊朗用所谓的“谅解”把美国耍得团团转——特朗普本人曾批评2015年伊朗与六国达成的伊核协议“是有史以来最无能的协议之一”，如今“伊朗却轻易就让特朗普自打耳光”。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-19 21:45:24",
+      "content": "【印度证券监管机构允许企业从公开市场回购股票】金十数据6月19日讯，印度证券监管机构将重新允许企业进行公开市场股票回购，以提振股价；近期，印度股市的表现一直落后于全球同类市场。印度证券交易委员会曾于2025年逐步取消公开市场回购，理由是担心这种方式会导致股东待遇不公并引发税务问题，且被视为仅惠及少数特定股东。在周五举行理事会会议后，该监管机构发表声明称，现已实施相关管控措施以防止滥用该机制。此举有望刺激更多回购活动，尤其是对于现金充裕的企业而言；同时，在市场波动期间，这也将为股票市场提供额外的需求支撑。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-19 21:41:47",
+      "content": "【俄罗斯以13亿美元出售顶级黄金开采商股份 成交价格低于预期】金十数据6月19日讯，俄罗斯出售了一家去年从某位亿万富翁手中没收的顶级黄金开采商的股份；尽管此前曾多次尝试出售，但最终成交价仅为最初预期价格的一半左右。据俄罗斯塔斯社周五援引拍卖公告报道，总部位于莫斯科的BTS-Most Holding公司在“荷兰式拍卖”中以930亿卢布（约合13亿美元）的出价胜出，将收购Yuzhuralzoloto PJSC及其关联公司67.2%的股份。“荷兰式拍卖”是一种销售方式，即卖方逐渐降低要价，直到有买家同意购买该资产。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-19 21:40:56",
+      "content": "海湾国家外交官证实，在卡塔尔、美国和伊朗的斡旋下，黎巴嫩真主党与以色列达成停火。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-19 21:40:24",
+      "content": "【巴基斯坦外长：伊美谈判因伊斯兰教历一月到来而推迟】金十数据6月19日讯，据巴基斯坦媒体报道，巴基斯坦副总理兼外交部长达尔19日表示，原定在瑞士举行的伊朗和美国新一轮谈判因伊斯兰教历一月的到来而被推迟。达尔说，伊美两国之间的谈判将在伊斯兰教历一月结束后开启。他还说，由于谈判延期，赴瑞士参会的巴基斯坦团队已被召回，巴方若收到邀请，仍将参与接下来的谈判。（新华社）",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-19 21:37:52",
+      "content": "据AXIOS：美国白宫高级官员表示，内塔尼亚胡百分之百同意在黎巴嫩实现新一轮停火。内塔尼亚胡及其副发言人奥梅尔·曼苏尔未予证实，并保持沉默。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-19 21:36:39",
+      "content": "金十图示：2026年06月19日（周五）新闻联播今日要点",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-19 21:34:44",
+      "content": "乌克兰基辅电力公司DTEK：俄罗斯过去两天的袭击严重破坏了乌克兰第聂伯罗彼得罗夫斯克州的DTEK能源设施。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-19 21:33:04",
+      "content": "塔斯社：俄罗斯今年迄今化肥出口增长7%，达55亿美元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-19 21:30:27",
+      "content": "多伦多股市指数开盘下跌74.46点（或0.21%），报34,894.80点。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-19 21:30:15",
+      "content": "金十图示：2026年06月19日（周五）各大货币对表现",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-19 21:28:15",
+      "content": "VIP立减700元，解锁盯盘神器等40+项权益，再赠14寸便携显示屏等3件礼，多一个界面纵观全局>>",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-19 21:26:48",
+      "content": "以色列第12频道电视台19日援引一名以色列官员的话报道说，以色列与黎巴嫩真主党达成了停火。这名官员说，我们仍将留在黎巴嫩南部的“安全区”内。“如果他们攻击我们，我们将予以还击”。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-19 21:25:36",
+      "content": "以色列国防军发言人：只要以色列公民仍面临真主党的威胁，以军就将继续驻扎在“缓冲区”内。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-19 21:23:32",
+      "content": "据以色列媒体Kann news：被问及路透社关于“黎巴嫩停火协议已于16:00生效”的报道，以色列国防军发言人表示，“相关协议是在政治层面达成的，我们尚未收到任何其他指示。”",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-19 21:21:27",
+      "content": "比利时国防部长：五到十年内，欧洲在常规防务方面将基本实现自主。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-19 21:19:01",
+      "content": "现货钯金下跌3%，报每盎司1,240.47美元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-19 21:18:49",
+      "content": "以色列国防军发言人：我们将采取行动保护以色列公民。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-19 21:18:20",
+      "content": "以色列军方发言人：（在被问及以色列是否会对贝鲁特发动打击时表示）我们尊重各项协议，并根据以色列领导层的指示行事。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-19 21:17:11",
+      "content": "以色列国防军发言人：我们获准采取行动以挫败威胁。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-19 21:16:38",
+      "content": "两名黎巴嫩真主党消息人士：我们一获悉停火消息，便立即从我方着手落实。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-19 21:16:24",
+      "content": "两名黎巴嫩真主党消息人士：黎巴嫩真主党已执行原定于下午4点（北京时间21:00）生效的停火协议。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-19 21:15:37",
+      "content": "以色列国防军发言人：如有必要，随时准备在任何战线重返高强度战斗。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-19 21:15:19",
+      "content": "以色列国防军发言人：驻黎巴嫩部队有权对威胁采取行动。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-19 21:14:49",
+      "content": "以色列国防军发言人：总参谋长向北部军区下达的指示未作改变。总参谋长已指示将以军的所有作战能力提供给前线部队。在消除针对平民的威胁方面，没有任何限制。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-19 21:13:19",
+      "content": "以色列国防军发言人：军队打击了100多个真主党目标，以色列国防军将根据需要继续发动打击。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-19 21:12:09",
+      "content": "市场消息：以色列官员证实已进入停火状态，并将继续驻留安全区；若以色列遭袭击，将予以回击。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-19 21:10:46",
+      "content": "英国政府延长许可，允许公司继续与总部位于奥地利的卢克石油国际有限公司开展业务。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-19 21:05:50",
+      "content": "WTI原油跌破75美元/桶，日内跌近0.6%。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-19 21:05:15",
+      "content": "金十图示：2026年06月19日（周五）投机情绪指数",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-19 21:04:45",
+      "content": "美媒AXIOS记者称，以色列与黎巴嫩真主党已同意达成一项新的停火协议，于以色列时间16:00生效。该协议是在美国和卡塔尔分别与以色列及伊朗进行磋商并开展斡旋后达成的。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
     {
       "datetime": "2026-06-19 21:01:15",
       "content": "俄罗斯央行表示，截至6月1日，其黄金储备为7370万盎司。",
@@ -865,492 +1177,84 @@
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
-    },
-    {
-      "datetime": "2026-06-19 17:52:21",
-      "content": "英国议员安迪·伯纳姆表示：我们必须现在回应摆在我们面前的挑战。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 17:50:38",
-      "content": "挪威首相：将在格陵兰岛开设领事馆。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 17:50:08",
-      "content": "【随着投资者蜂拥进入科技股，美股录得创纪录的单周资金流入】金十数据6月19日讯，美国银行策略师称，上周美国股市吸引了创纪录的资金流入，投资者纷纷涌入科技行业。由迈克尔·哈特内特领导的团队援引EPFR Global的数据在报告中指出，在截至6月17日的一周内，有创纪录的1192亿美元资金涌入美国股票基金。他们表示，按年化计算，美国股票基金有望在2026年吸引创纪录的7390亿美元资金。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 17:48:19",
-      "content": "【玩具总动员5票房破4000万】金十数据6月19日讯，据灯塔专业版实时数据，截至6月19日17时25分，影片《玩具总动员5》票房突破4000万。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 17:48:01",
-      "content": "消息人士：印度亿万富翁穆凯什·安巴尼的Jio平台首次公开募股目标筹集约38亿美元。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 17:44:26",
-      "content": "泰国商务部：1月至5月大米出口同比下降10.75%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 17:44:07",
-      "content": "【霍尔木兹海峡18日商船通行量达4月中旬以来峰值】金十数据6月19日讯，海事数据公司AXS海运公司19日发布数据显示，18日共有25艘商船穿越霍尔木兹海峡，这是自4月中旬以来的最高单日通行量。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 17:41:35",
-      "content": "克里姆林宫：俄罗斯对乌克兰的空袭将继续，乌克兰的政策并不旨在谈判。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 17:41:27",
-      "content": "克里姆林宫表示，俄罗斯愿意与欧洲进行对话，但不会接受最后通牒。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 17:41:21",
-      "content": "克里姆林宫承认乌克兰无人机攻击仍在继续，并表示正在采取措施消除后果。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 17:41:11",
-      "content": "日本央行：日本央行行长植田和男计划参加七月货币政策会议。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 17:38:49",
-      "content": "【重庆两江四岸首次低空试飞顺利完成】金十数据6月19日讯，6月19日，重庆两江四岸低空航线验证试飞活动圆满完成，标志着中心城区低空多元化应用场景实现首次系统性落地探索。这也意味着中心城区低空观光、空中通勤、空中救援不再是空想，即将真正走进市民日常生活。本次验证试飞由重庆文化旅游集团有限公司、重庆玖洲低空产业发展集团有限公司、甘肃航空产业投资有限公司联合开展、协同落地。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 17:36:52",
-      "content": "【法国外长：解除联合国对伊朗制裁须经法国同意】金十数据6月19日讯，法国外交部长巴罗19日说，作为联合国安理会常任理事国，解除联合国对伊朗制裁须经法国同意。巴罗当天在接受法国新闻广播电台采访时表示，美国和伊朗已签署谅解备忘录，在下一步谈判中，伊朗应在涉核计划、弹道导弹、地区安全、霍尔木兹海峡等问题上作出“重大让步”后，法国才会同意解除联合国对伊制裁。巴罗重申，对伊朗发动的战争缺乏明确目标且违反国际法，法国始终表示不赞成。巴罗还敦促以色列和黎巴嫩真主党遵守备忘录中有关停火等规定，并呼吁美国就此向以色列施压。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 17:36:01",
-      "content": "乌克兰总统泽连斯基：如今，乌克兰实际上已成为北约的第二大军事力量。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 17:35:44",
-      "content": "乌克兰总统泽连斯基：毫无疑问，普京害怕他的军队回国。正因如此，他才如此惧怕战争在没有取得胜利的情况下结束。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 17:34:52",
-      "content": "德国商业银行：预计欧洲天然气价格将在年底前达到每兆瓦时45欧元（此前预期为50欧元）。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 17:34:34",
-      "content": "德国商业银行：现预计年底布伦特原油价格为每桶80美元（此前预期为85美元）。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 17:33:18",
-      "content": "世卫组织官员表示，刚果已有超过60名医护人员感染埃博拉，34人已死亡。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 17:32:02",
-      "content": "【缅甸总统敏昂莱一行到访宇树科技参观】金十数据6月19日讯，据宇树科技公众号，6月19日，缅甸总统敏昂莱一行到访宇树科技参观，交流最新机器人产品和技术成果。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 17:25:05",
-      "content": "以色列国防军：针对真主党反复违反停火协议，以色列国防军在黎巴嫩南部打击了超过80个目标，消灭了数十名真主党武装分子。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 17:24:04",
-      "content": "乌克兰总统泽连斯基：我们召开了关于乌克兰防务问题的联络小组会议，九个国家确认将为PURL计划提供支持，这些包括价值超过10亿美元的爱国者系统导弹。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 17:17:28",
-      "content": "欧洲零售业联合会表示，人工智能生成的广告应豁免于欧盟的透明度规定。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 17:16:04",
-      "content": "【英国首相斯塔默：不怕遭到挑战 将参与党魁角逐】金十数据6月19日讯，英国首相斯塔默表示，一旦工党内部触发党魁竞选，他“将参与角逐”，并强调自己绝不会“退缩”。他重申，自己“两年前获得了推动变革的授权”，并列举了在稳定经济和缩短国家医疗服务体系（NHS）候诊时间方面所做的工作。此前，斯塔默的潜在竞争对手安迪·伯纳姆（Andy Burnham）赢得了议会席位选举，这为他挑战现任党魁铺平了道路。斯塔默表示，他“尚未与伯纳姆直接交谈，但会找机会沟通”，并已向伯纳姆“表达了祝贺”。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 17:11:25",
-      "content": "据贸易消息人士透露，阿联酋阿布扎比国家石油公司ADNOC发布了第四份招标，出售6月至8月装运的原油。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 17:10:31",
-      "content": "俄罗斯莫斯科市长索比亚宁报告称，空中防御部队击落了三架飞向莫斯科的无人机。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 17:10:01",
-      "content": "俄罗斯国防部：部队在顿涅茨克地区夺取尤尔基夫卡。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 17:09:22",
-      "content": "英国首相斯塔默：还没有直接与伯纳姆交谈，但我会的。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 17:08:22",
-      "content": "英国首相斯塔默：伯纳姆补选的胜利表明，“英国改革党”的势头正在逆转，该党已达到顶峰。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 17:07:44",
-      "content": "英国首相斯塔默：不存在领导权之争。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 17:07:27",
-      "content": "英国首相斯塔默：我专注于为我的国家服务，还有大量工作要做。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 17:06:07",
-      "content": "据塔斯社：克里姆林宫助手表示，俄罗斯早已转向亚洲。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 17:03:40",
-      "content": "【由于以色列对黎巴嫩的空袭，伊朗推迟了与美国的会谈】金十数据6月19日讯，据英国金融时报，三位知情人士透露，由于以色列对黎巴嫩南部发动了一波致命空袭，伊朗与美国在瑞士的谈判被推迟。据知情人士透露，由于发生了这些袭击事件，伊朗未派代表团前往瑞士参加核问题会谈。美国与伊朗周三签署的临时协议规定，必须“立即且永久地停止”包括黎巴嫩在内的战事。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 17:01:14",
-      "content": "印度信实JIO董事会：正在启动首批英伟达GB 300图形处理器（GPU）的投用部署。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 17:00:52",
-      "content": "【乌克兰称再获40亿美元军援】金十数据6月19日讯，乌克兰国防部长费奥多罗夫18日晚在社交媒体发文说，当天伙伴国在第35次乌克兰国防联络小组会议上决定向乌再提供40亿美元军事援助。费奥多罗夫说，伙伴国提供的40亿美元军事援助资金，其中10亿美元将直接用于“乌克兰优先需求清单”计划，采购乌方急需的“爱国者”防空导弹，5.4亿美元用于采购增程火炮弹药，10亿美元用于采购乌克兰制造的无人机、无人艇等无人装备。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 16:57:53",
-      "content": "伊朗议会议长卡利巴夫：与美国的谈判将继续受德黑兰的“红线”约束。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 16:56:50",
-      "content": "印度信实JIO董事会：JIO正在评估为印度开发一套主权低地球轨道卫星系统的可能性。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 16:54:41",
-      "content": "【以军称打击黎巴嫩贝卡谷地的真主党目标】金十数据6月19日讯，以色列国防军19日上午发表声明说，鉴于黎巴嫩真主党屡次违反停火协议、继续对以军士兵发动袭击，以军“不久前”对黎东部贝卡谷地的真主党基础设施目标实施了打击。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 16:54:22",
-      "content": "巴基斯坦信息部表示，巴方驳斥了阿富汗塔利班关于阿富汗部队在两省打击武装分子藏身处的说法。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 16:50:22",
-      "content": "法国CAC40指数站上8500点，日内涨0.38%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 16:48:43",
-      "content": "印度信实工业旗下的电信公司Jio提交首次公开募股申请。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 16:43:25",
-      "content": "市场消息：外交官员称，伊朗寻求在恢复与美谈判前获得黎巴嫩敌对行动将结束的保证。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
     }
   ],
   "shmet": [
     {
-      "datetime": "2026-06-19 21:03:00",
-      "content": "【快讯】SHMET06月19日讯，俄罗斯央行表示，截至6月1日，其黄金储备为7370万盎司。",
+      "datetime": "2026-06-19 21:57:35",
+      "content": "【英媒称英首相被要求设定离职时间表】SHMET06月19日讯，据英国《泰晤士报》报道，英国内阁多名大臣将于当地时间今天（6月19日）下午告诉首相斯坦默，应为其离职设定“时间表”。据报道，多名内阁大臣将对斯塔默说，他的“时间到了”。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-06-19 21:01:53",
-      "content": "【快讯】SHMET06月19日讯，俄罗斯至6月12日当周央行黄金和外汇储备 7293亿美元，前值7497亿美元。",
+      "datetime": "2026-06-19 21:51:33",
+      "content": "【快讯】SHMET06月19日讯，市场定价显示，美联储加息押注上升，完全消化了9月加息25个基点的预期。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-06-19 21:01:00",
-      "content": "【快讯】SHMET06月19日讯，据以色列媒体Kann news：以色列国防军发言人将发表声明。",
+      "datetime": "2026-06-19 21:47:40",
+      "content": "【美议员批美政府在伊朗搞灾难艺术】SHMET06月19日讯，当地时间6月18日，美国国会参议院民主党领袖查克·舒默批评特朗普政府在伊朗搞的是“灾难的艺术”。舒默称，伊朗用所谓的“谅解”把美国耍得团团转——特朗普本人曾批评2015年伊朗与六国达成的伊核协议“是有史以来最无能的协议之一”，如今“伊朗却轻易就让特朗普自打耳光”。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-06-19 20:59:27",
-      "content": "【快讯】SHMET06月19日讯，受以色列与真主党达成停火的消息提振，新兴市场货币指数跌幅收窄。",
+      "datetime": "2026-06-19 21:47:07",
+      "content": "【快讯】SHMET06月19日讯，据《泰晤士报》报道，英国内阁大臣们将于今天下午要求英国首相斯塔默明确其离任时间表。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-06-19 20:49:29",
-      "content": "【伊朗外长说以色列唯一兴趣是战争】SHMET06月19日讯，今天（6月19日），伊朗外长阿拉格齐在社交媒体平台转发以色列国家安全部长、极右翼政治人士本-格维尔的帖文，并评论说：“这不是某个随机的‘种族灭绝疯子’的咆哮，而是以色列国家安全部长发布的一条公开帖文。以色列是全人类的威胁。它唯一的兴趣就是永无止境的战争。”",
+      "datetime": "2026-06-19 21:46:41",
+      "content": "【印度证券监管机构允许企业从公开市场回购股票】SHMET06月19日讯，印度证券监管机构将重新允许企业进行公开市场股票回购，以提振股价；近期，印度股市的表现一直落后于全球同类市场。印度证券交易委员会曾于2025年逐步取消公开市场回购，理由是担心这种方式会导致股东待遇不公并引发税务问题，且被视为仅惠及少数特定股东。在周五举行理事会会议后，该监管机构发表声明称，现已实施相关管控措施以防止滥用该机制。此举有望刺激更多回购活动，尤其是对于现金充裕的企业而言；同时，在市场波动期间，这也将为股票市场提供额外的需求支撑。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-06-19 20:48:38",
-      "content": "【快讯】SHMET06月19日讯，受霍尔木兹海峡担忧影响，欧洲天然气价格上涨幅度一度扩大至5.6%。",
+      "datetime": "2026-06-19 21:43:12",
+      "content": "【俄罗斯以13亿美元出售顶级黄金开采商股份 成交价格低于预期】SHMET06月19日讯，俄罗斯出售了一家去年从某位亿万富翁手中没收的顶级黄金开采商的股份；尽管此前曾多次尝试出售，但最终成交价仅为最初预期价格的一半左右。据俄罗斯塔斯社周五援引拍卖公告报道，总部位于莫斯科的BTS-Most Holding公司在“荷兰式拍卖”中以930亿卢布（约合13亿美元）的出价胜出，将收购Yuzhuralzoloto PJSC及其关联公司67.2%的股份。“荷兰式拍卖”是一种销售方式，即卖方逐渐降低要价，直到有买家同意购买该资产。",
       "important": 0,
       "source": "shmet",
-      "sentiment": "bull",
+      "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-06-19 20:46:20",
-      "content": "【快讯】SHMET06月19日讯，加拿大监管机构将主要银行的CET1比率下调至11%。",
+      "datetime": "2026-06-19 21:31:22",
+      "content": "【快讯】SHMET06月19日讯，多伦多股市指数开盘下跌74.46点（或0.21%），报34,894.80点。",
       "important": 0,
       "source": "shmet",
       "sentiment": "bear",
       "steel": false
     },
     {
-      "datetime": "2026-06-19 20:45:14",
-      "content": "【快讯】SHMET06月19日讯，加拿大监管机构将该国银行国内稳定缓冲要求下调至3%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 20:40:50",
-      "content": "【快讯】SHMET06月19日讯，美国总统特朗普：并非我们急于会面，而是伊朗。他们已经完了！我们会坚持60天。他们拿不到一毛钱，连一分钱都别想拿到！",
+      "datetime": "2026-06-19 21:27:46",
+      "content": "【快讯】SHMET06月19日讯，以色列国防军发言人：只要以色列公民仍面临真主党的威胁，以军就将继续驻扎在“缓冲区”内。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-06-19 20:38:30",
-      "content": "【快讯】SHMET06月19日讯，俄罗斯央行行长纳比乌琳娜：我们预计上半年GDP增长约为0.5%。",
+      "datetime": "2026-06-19 21:19:21",
+      "content": "【快讯】SHMET06月19日讯，以色列军方发言人：（在被问及以色列是否会对贝鲁特发动打击时表示）我们尊重各项协议，并根据以色列领导层的指示行事。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-06-19 20:37:51",
-      "content": "【加拿大4月零售额增长0.5%】SHMET06月19日讯，加拿大4月零售额连续第四个月增长，主要受加油站和燃料销售商销售额上升的推动。加拿大统计局周五公布的数据显示，4月零售额环比增长0.5%，经季节性调整后达到730.3亿加元（约合516.5亿美元）。这一增幅略低于该机构此前预估的0.6%，而3月份的增幅为0.9%。与去年同期相比，4月零售额增长了3.7%。该机构表示，根据初步统计数据，5月份零售额增长了1%；不过，该数据基于52.1%受访零售商的反馈，后续将会进行修正。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 20:37:11",
-      "content": "【快讯】SHMET06月19日讯，俄罗斯央行行长纳比乌琳娜：俄罗斯经济在上半年显示出适度增长。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 20:34:14",
-      "content": "【快讯】SHMET06月19日讯，在零售销售数据公布后，加元兑美元稳定在14个月低点附近，今日下跌0.1%，报1.4155。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 20:33:42",
-      "content": "【快讯】SHMET06月19日讯，俄罗斯央行行长纳比乌琳娜：目前评估美国与伊朗冲突对经济的影响为时尚早。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 20:33:34",
-      "content": "【意大利外长因特朗普的言论取消访美】SHMET06月19日讯，意大利副总理兼外长塔亚尼取消了对美国的访问，原因是美国总统特朗普据称发表了似乎嘲讽意大利总理梅洛尼的言论。原定于6月21日和22日访问美国的塔亚尼表示，特朗普总统“言辞严重且具有冒犯性……冒犯了整个意大利”。梅洛尼表示，她对特朗普向意大利La7电视台发表的言论感到“震惊”，特朗普声称梅洛尼在G7峰会上“非常渴望与我合影”，而他之所以同意，仅仅是因为“同情她”。特朗普表示，梅洛尼可能会“很高兴我与她交谈，毕竟我本不必非得跟她谈”。梅洛尼称特朗普所说的话是“编造的”，并补充道：“我和意大利从不乞求什么。”",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 20:31:13",
-      "content": "【快讯】SHMET06月19日讯，加拿大统计局初步估计，5月零售销售将增长1.0%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 20:30:41",
-      "content": "【快讯】SHMET06月19日讯，加拿大4月核心零售销售月率 0.1%，预期0.7%，前值由1.40%修正为1.2%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 20:30:17",
-      "content": "【快讯】SHMET06月19日讯，加拿大4月零售销售月率 0.5%，预期0.60%，前值0.90%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 20:29:52",
-      "content": "【快讯】SHMET06月19日讯，俄罗斯央行行长纳比乌琳娜：确认我曾得了流感。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-19 20:23:38",
-      "content": "【快讯】SHMET06月19日讯，伊朗外交部发言人：伊朗将采取一切必要措施保护其利益和盟友。",
+      "datetime": "2026-06-19 21:19:01",
+      "content": "【快讯】SHMET06月19日讯，以色列国防军发言人：我们将采取行动保护以色列公民。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
