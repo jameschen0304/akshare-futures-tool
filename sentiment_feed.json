@@ -1,7 +1,111 @@
 {
   "source": "jin10 flash + shmet + shfe weekly stock",
-  "generated_at": "2026-06-22T15:19:44.725598+00:00",
+  "generated_at": "2026-06-22T15:40:22.114382+00:00",
   "jin10": [
+    {
+      "datetime": "2026-06-22 23:38:37",
+      "content": "【日本财务大臣据悉与美财政部官员举行了紧急线上会议】金十数据6月22日讯，据JNN、日本共同社等多家日媒报道，随着日元逼近39年来的最低水平，日本财务大臣片山皋月于当地时间22日晚与美国财政部官员举行了线上会议。消息人士称，她可能与美国财长贝森特交换了意见，讨论了外汇市场的趋势以及外汇干预的可能性。此前，美元兑日元USD/JPY盘中出现急速下挫，引发市场对日本当局已出手干预的猜测。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-22 23:36:21",
+      "content": "德国DAX30指数6月22日（周一）收盘上涨107.32点，涨幅0.43%，报25132.93点；\n英国富时100指数6月22日（周一）收盘上涨70.21点，涨幅0.68%，报10433.48点；\n法国CAC40指数6月22日（周一）收盘下跌21.03点，跌幅0.25%，报8400.11点；\n欧洲斯托克50指数6月22日（周一）收盘上涨18.92点，涨幅0.30%，报6312.05点；\n西班牙IBEX35指数6月22日（周一）收盘上涨206.93点，涨幅1.07%，报19554.33点；\n意大利富时MIB指数6月22日（周一）收盘下跌42.43点，跌幅0.08%，报52806.50点。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-22 23:32:48",
+      "content": "危险！三大“宏观探照灯”同时熄火，目前第四件事正在接管市场。当市场能见度大幅降低，本周我们该如何导航？点击查看详细推演>>",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-22 23:32:06",
+      "content": "美国至6月22日3个月国债竞拍-投标倍数 2.68，前值2.47。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-22 23:32:06",
+      "content": "美国至6月22日3个月国债竞拍-得标利率配置百分比 87.55%，前值25.15%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-22 23:32:06",
+      "content": "美国至6月22日3个月国债竞拍-得标利率 3.695%，前值3.64%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-22 23:32:05",
+      "content": "美国至6月22日6个月国债竞拍-投标倍数 2.51，前值2.76。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-22 23:32:05",
+      "content": "美国至6月22日6个月国债竞拍-得标利率配置百分比 97.87%，前值14%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-22 23:32:05",
+      "content": "美国至6月22日6个月国债竞拍-得标利率 3.84%，前值3.68%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-22 23:27:28",
+      "content": "据伊朗伊斯兰共和国通讯社（IRNA）：伊朗与国际原子能机构的互动将根据现行程序继续进行。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-22 23:26:55",
+      "content": "伊朗外交部发言人：德黑兰在周日瑞士的谈判中没有就核问题进行协商，也没有接受任何新的承诺。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-22 23:24:41",
+      "content": "伊朗外交部发言人：德黑兰与国际原子能机构的互动将需获得伊朗议会的批准以及最高国家安全委员会的决策。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-22 23:20:28",
+      "content": "WTI原油跌破74美元/桶，日内跌4.22%；布伦特原油跌破77美元/桶，日内跌3.91%。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
     {
       "datetime": "2026-06-22 23:13:32",
       "content": "【SpaceX与Reflection AI签署价值逾60亿美元算力协议】金十数据6月22日讯，据CNBC查阅的材料显示，SpaceX已与Reflection AI签署了一项重要的算力合作协议，使这家开源人工智能初创公司成为最新一家接入马斯克旗下Colossus基础设施的外部企业。根据协议，Reflection将立即获得英伟达GB300芯片的使用，并同意自2026年7月1日起至2029年，每月向SpaceX支付1.5亿美元。如果协议履行完毕，付款总额将达到约63亿美元。在协议生效三个月后，任一方均可在提前90天通知的情况下终止合同。",
@@ -1097,161 +1201,81 @@
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
-    },
-    {
-      "datetime": "2026-06-22 21:02:37",
-      "content": "市场消息：美光科技(MU.O)与Anthropic达成内存和存储供应协议。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-22 21:02:01",
-      "content": "美联储理事沃勒：美元的全球角色正随着技术而变化。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-22 21:01:38",
-      "content": "欧洲央行行长拉加德：尽管达成和平协议，中东局势依然脆弱。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-22 21:01:13",
-      "content": "欧洲央行行长拉加德：欧洲央行在应对当前形势方面“处于良好位置”。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-22 21:01:04",
-      "content": "欧洲央行行长拉加德：欧洲央行无需对伊朗战争采取更强硬的应对措施。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-22 21:00:26",
-      "content": "以色列持续打击黎巴嫩！地缘危机远未平息！国际金日内震荡上行？金十交易学院正在直播中，立即观看！",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-22 21:00:18",
-      "content": "【美银：预计美联储今年将加息三次】金十数据6月22日讯，美国银行目前预计美联储今年将加息三次，这是华尔街为更激进的美联储加息做准备的最新迹象。该行经济学家此前预计美联储今年将维持利率不变。其调整预期的理由在于经济数据表现强劲以及美联储沟通措辞转向鹰派，暗示美联储将采取更积极的方式应对通胀。美国银行关于加息三次的预测仍属少数派：目前仅有19%的市场投资者预期三次加息，尽管这一比例已较一周前的3%有所攀升。投资者认为今年加息两次是最有可能的结果。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-22 21:00:13",
-      "content": "欧洲央行行长拉加德：欧洲央行必须灵活应对伊朗冲击。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-22 21:00:10",
-      "content": "夜盘开盘，国内期货主力合约跌多涨少，液化石油气（LPG）跌超2%，低硫燃料油（LU）、沥青、聚丙烯、燃料油、SC原油、短纤跌超1%，甲醇、PTA、塑料跌近1%。涨幅方面，沪锡、20号胶、沪镍涨超1%，铸造铝涨近1%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-22 20:55:53",
-      "content": "【北自科技：公司未生产人形机器人本体及零部件】金十数据6月22日讯，北自科技公告，公司股票价格连续3个交易日内（6月16日—6月18日）日收盘价格涨幅偏离值累计超过20%。公司关注到市场对人形机器人概念关注度较高，经自查，截至本公告披露日，公司聚焦产业化落地，未生产人形机器人本体及零部件，亦未发现其他可能或已经对公司股票交易价格产生影响的媒体报道、市场传闻或涉及其他热点概念的事项。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-22 20:55:52",
-      "content": "黄金超跌后反弹，此时已经筑底完成？这一信号已经出现！金十VIP正在直播，立即观看>>",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-22 20:53:45",
-      "content": "据港交所文件：潍柴雷沃智慧农业科技股份有限公司向港交所提交上市申请书。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-22 20:51:44",
-      "content": "【中通快递：拟13亿元收购TuXi Tech的剩余股份】金十数据6月22日讯，6月22日，中通快递(02057.HK)在港交所公告，买方（为本公司的全资子公司）与各卖方（Tuxi Honor、TUXI LMS、TUXI LJF、TUXI CSF、TUXI WJL及TUXI HZR）按大致相同的条款订立股份购买协议，据此，买方有条件同意购买，而各卖方有条件同意出售其各自于TuXi Tech的全部股份（即合共567,500,000股股份，总计占TuXi Tech已发行股份约36.20%），总代价约为人民币1,305.3百万元。于本公告日期，TuXi Tech为本公司的非全资子公司，买方持有TuXi Tech已发行股份约63.80%。收购事项完成后，本集团将持有TuXi Tech全部已发行股份。TuXi Tech将成为本公司的全资子公司，而TuXi Tech的财务业绩将继续合并入账至本集团的财务业绩。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-22 20:51:12",
-      "content": "惠誉：该评级基于星舰将于2026年下半年具备运营能力，并于2027年及以后开始部署卫星的假设。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-22 20:50:48",
-      "content": "欧盟委员会主席冯德莱恩：摩尔多瓦在增长计划下已完成93%的改革。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-22 20:47:56",
-      "content": "惠誉：将SpaceX(SPCX.O)拟发行的高级无担保债券评级为“BBB+”。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-22 20:46:16",
-      "content": "【加拿大5月核心CPI录得2.2% 6月数据料将回落】金十数据6月22日讯，Investinglive分析师Adam Button评加拿大CPI数据：汽油价格上涨是推高加拿大通胀的主要因素，但即便剔除汽油因素，5月核心CPI仍同比上涨了2.2%。汽油价格本身在5月份同比上涨了33.2%（4月份为28.6%），但目前这一趋势已发生逆转，因此6月份的数据将会回落。我们还观察到了油价上涨带来的次生效应：5月份航空运输价格同比上涨7.4%（此前为同比下降1.7%）；环比来看，价格上涨了6.7%。住房成本继续成为拖累加拿大CPI的主要因素，其中自有住房重置成本同比下降2.5%，环比下降0.3%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-22 20:46:08",
-      "content": "美联储：格林斯潘的“遗产”在他所指导的人、他所激励的经济学家以及他所帮助塑造的框架和实践中持续存在。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-22 20:45:52",
-      "content": "美联储：对艾伦·格林斯潘的去世“深感悲痛”。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
     }
   ],
   "shmet": [
+    {
+      "datetime": "2026-06-22 23:37:49",
+      "content": "【快讯】SHMET06月22日讯，德国DAX30指数6月22日（周一）收盘上涨107.32点，涨幅0.43%，报25132.93点；英国富时100指数6月22日（周一）收盘上涨70.21点，涨幅0.68%，报10433.48点；法国CAC40指数6月22日（周一）收盘下跌21.03点，跌幅0.25%，报8400.11点；欧洲斯托克50指数6月22日（周一）收盘上涨18.92点，涨幅0.30%，报6312.05点；西班牙IBEX35指数6月22日（周一）收盘上涨206.93点，涨幅1.07%，报19554.33点；意大利富时MIB指数6月22日（周一）收盘下跌42.43点，跌幅0.08%，报52806.50点。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-22 23:32:50",
+      "content": "【快讯】SHMET06月22日讯，美国至6月22日6个月国债竞拍-投标倍数 2.51，前值2.76。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-22 23:32:49",
+      "content": "【快讯】SHMET06月22日讯，美国至6月22日6个月国债竞拍-得标利率 3.84%，前值3.68%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-22 23:32:45",
+      "content": "【快讯】SHMET06月22日讯，美国至6月22日3个月国债竞拍-得标利率配置百分比 87.55%，前值25.15%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-22 23:32:45",
+      "content": "【快讯】SHMET06月22日讯，美国至6月22日3个月国债竞拍-得标利率 3.695%，前值3.64%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-22 23:32:27",
+      "content": "【快讯】SHMET06月22日讯，美国至6月22日6个月国债竞拍-得标利率配置百分比 97.87%，前值14%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-22 23:28:08",
+      "content": "【快讯】SHMET06月22日讯，据伊朗伊斯兰共和国通讯社（IRNA）：伊朗与国际原子能机构的互动将根据现行程序继续进行。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-22 23:27:11",
+      "content": "【快讯】SHMET06月22日讯，伊朗外交部发言人：德黑兰在周日瑞士的谈判中没有就核问题进行协商，也没有接受任何新的承诺。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-22 23:26:21",
+      "content": "【快讯】SHMET06月22日讯，伊朗外交部发言人：德黑兰与国际原子能机构的互动将需获得伊朗议会的批准以及最高国家安全委员会的决策。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
     {
       "datetime": "2026-06-22 23:12:07",
       "content": "【快讯】SHMET06月22日讯，卡塔尔能源正在对巴尔赞及周边设施的损害进行评估。",
@@ -1259,89 +1283,9 @@
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
-    },
-    {
-      "datetime": "2026-06-22 23:11:36",
-      "content": "【快讯】SHMET06月22日讯，卡塔尔能源强调此次事件为操作事故，并非破坏或敌对行为。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-22 23:07:10",
-      "content": "【快讯】SHMET06月22日讯，国际能源署署长比罗尔：伊朗能源危机将推动全球电气化。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-22 23:04:33",
-      "content": "【快讯】SHMET06月22日讯，美国国务院发言人：美国国务卿鲁比奥将在海湾之行期间讨论伊朗谅解备忘录及霍尔木兹海峡问题。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-22 23:03:45",
-      "content": "【快讯】SHMET06月22日讯，美国国务院发言人：美国国务卿鲁比奥将出席在巴林举行的海湾合作委员会会议。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-22 23:03:39",
-      "content": "【快讯】SHMET06月22日讯，美国国务院发言人：美国国务卿鲁比奥将于6月23日至25日访问阿联酋、科威特和巴林。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-22 23:02:29",
-      "content": "【快讯】SHMET06月22日讯，截至23:00收盘，国内期货主力合约跌多涨少，沥青、焦炭跌近3%，液化石油气（LPG）、丙烯跌超2%，低硫燃料油（LU）跌近2%，纸浆、燃料油、聚氯乙烯（PVC）跌超1%。涨幅方面，20号胶涨超1%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": true
-    },
-    {
-      "datetime": "2026-06-22 22:45:08",
-      "content": "【快讯】SHMET06月22日讯，美国股市延续跌势，纳指下跌1.00%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-22 22:44:26",
-      "content": "【St Barbara新斯科舍金矿项目IPD通过审查】外电6月19日消息，澳交所上市黄金矿商St Barbara宣布，其位于加拿大新斯科舍省的15-Mile Processing Hub金矿项目已向加拿大影响评估署（IAAC）提交初步项目描述（IPD），并通过一致性审查，项目正式进入规划阶段。该加工枢纽将整合三个历史矿山（15-Mile、Old Austen和Old Mitchell），采用集中加工模式，设计年处理矿石约300万吨，矿山寿命超11年。项目基于现有储量，年均产金预计超10万盎司，全维持成本约1188美元/盎司。公司首席执行官Andrew Strelein表示，项目经过近三年的重新设计和强化，充分吸纳了第一民族社区、当地利益相关方和监管机构的反馈意见。公司股价当日下跌4%至0.585澳元。（上海金属网编译）",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-22 22:44:26",
-      "content": "【Perenti获Barrick内华达Fourmile金矿2.75亿澳元合同】外电6月22日消息，澳交所上市矿业服务商Perenti旗下地下采矿业务Barminco已获得为巴里克矿业（Barrick Mining Corporation）旗下内华达Fourmile项目提供地下采矿服务的合同，合同价值2.75亿澳元，期限45个月，将于7月开工。Fourmile矿位于Goldrush项目旁，Barminco已为内华达金矿（Nevada Gold Mines）在Goldrush运营。巴里克持有内华达金矿61.5%权益，纽蒙特（Newmont）持有38.5%。Barminco将开发Fourmile的双Bullion Hill平硐入口（计划16公里地下开发），并提供支护、地面设施及相关服务。Perenti表示该合同符合公司扩展一级矿业辖区业务的战略，继续在北美市场实现增长。受消息提振，Perenti股价当日上涨2%。（上海金属网编译）",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bull",
-      "steel": false
     }
   ],
   "steel_highlight": [
-    {
-      "datetime": "2026-06-22 23:02:29",
-      "content": "【快讯】SHMET06月22日讯，截至23:00收盘，国内期货主力合约跌多涨少，沥青、焦炭跌近3%，液化石油气（LPG）、丙烯跌超2%，低硫燃料油（LU）跌近2%，纸浆、燃料油、聚氯乙烯（PVC）跌超1%。涨幅方面，20号胶涨超1%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": true
-    },
     {
       "datetime": "2026-06-22 23:00:41",
       "content": "截至23:00收盘，国内期货主力合约跌多涨少，沥青、焦炭跌近3%，液化石油气（LPG）、丙烯跌超2%，低硫燃料油（LU）跌近2%，纸浆、燃料油、聚氯乙烯（PVC）跌超1%。涨幅方面，20号胶涨超1%。",
