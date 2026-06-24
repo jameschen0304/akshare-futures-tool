@@ -1,7 +1,183 @@
 {
   "source": "jin10 flash + shmet + shfe weekly stock",
-  "generated_at": "2026-06-24T12:11:14.868608+00:00",
+  "generated_at": "2026-06-24T12:38:12.454998+00:00",
   "jin10": [
+    {
+      "datetime": "2026-06-24 20:33:27",
+      "content": "美国中央司令部：6月19日，美国中央司令部的部队在叙利亚西北部实施了一次空袭，导致一名“伊斯兰国”（ISIS）高级头目死亡。此次精准打击击毙了Ali Husayn al-‘Ulaywi，这是美国为瓦解和消灭企图袭击海外美国公民或美国本土的恐怖分子而持续开展行动的一部分。中央司令部将继续与地区合作伙伴协同行动。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-24 20:31:17",
+      "content": "交易所Top20持仓不用一家家翻！席位透视镜上线，集中呈现产业、私募、外资、散户四类席位持仓变化，一屏看清谁在增仓、谁在减仓，买卖偏向如何变化，帮助更快追踪盘后席位结构变化。点击立即体验>",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-24 20:30:09",
+      "content": "美国第一季度经常帐 -2268亿美元，预期-2150亿美元，前值由-1907亿美元修正为-2211亿美元。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-24 20:29:36",
+      "content": "【分析师：PCE和非农数据或将验证美元涨势能否持续】金十数据6月24日讯，Capital.com分析师Daniela Hathorn在一份报告中表示，即将公布的美国数据将决定美元目前的涨势是否还有进一步的空间。她表示，如果通胀和劳动力市场数据继续支持利率将在更长时间内维持高位的叙事，美元应会继续获得支撑。如果价格压力开始更快地缓解，市场可能会开始质疑目前的利率预期是否变得过于激进。PCE数据（美联储最青睐的通胀指标）和失业金申请数据将于周四公布，非农就业人数报告将于7月2日公布。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-24 20:26:59",
+      "content": "纽约期金日内大跌3.00%，现报4024.80美元/盎司。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-24 20:26:08",
+      "content": "【现货黄金日内暴跌100美元】现货黄金短线下挫超30美元，日内暴跌100.96美元，现报4008.72美元/盎司，跌幅2.46%。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-24 20:25:16",
+      "content": "现货白银日内大跌4.00%，现报59.06美元/盎司。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-24 20:23:03",
+      "content": "【机构：未来英国财长人选料将驱动英债和英镑走势】金十数据6月24日讯，MillTech分析师Nick Wood在一份报告中表示，英国投资者急切想知道谁将被任命为财政大臣，因为在本周斯塔默辞去首相职务后，现任财政大臣里夫斯很可能被替换。对于市场信心而言，财政大臣的人选可能与新首相一样重要。投资者急切想了解新领导团队的经济政策。鉴于尚未出现其他竞争者，热门人选安迪·伯纳姆似乎越来越有可能在没有竞争对手的情况下被任命为新一任首相。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-24 20:22:24",
+      "content": "据法新社：卡塔尔首相在阿曼与伊朗和海湾国家进行关于霍尔木兹海峡的会谈。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-24 20:21:14",
+      "content": "【皮尤民调：全球对特朗普及美国的信任度下降】金十数据6月24日讯，皮尤研究中心周二发布的一项最新调查显示，全球对美国总统特朗普领导能力的信心依然低迷，而对美国作为可靠伙伴的看法也持续下降。这项调查于2026年2月至5月期间进行，涵盖36个国家的42151名成年人。平均而言，只有23%的成年人表示他们相信特朗普会在国际事务中做出正确的决定，而约三分之二的人表示几乎没有信心或完全没有信心。在24个有相关趋势数据的国家中，有16个国家的信心下降，没有一个国家的信心有所改善。与此同时，人们对美国本身的看法仍然普遍负面。在36个国家中，只有37%的人对美国持好感，而57%的人持负面看法。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-24 20:21:10",
+      "content": "布伦特原油日内下跌3.00%，现报74.43美元/桶。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-24 20:20:58",
+      "content": "伊朗议会议长卡利巴夫：与阿塞拜疆总统在巴库举行了会晤。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-24 20:20:21",
+      "content": "黄金失守4100美元！市场乐观情绪或消散？阿汤哥、顺姐正在直播，点击观看",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-24 20:20:00",
+      "content": "美国第一季度经常帐将于十分钟后公布。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-24 20:19:47",
+      "content": "WTI原油日内跌幅扩大至3.00%，现报71.45美元/桶。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-24 20:18:33",
+      "content": "市场消息：摩洛哥与智利启动自由贸易谈判。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-24 20:16:04",
+      "content": "现货铂金跌超3%，报每盎司1,601美元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-24 20:14:56",
+      "content": "据福克斯新闻：美国总统特朗普表示，伊朗最初将获得5亿美元用于购买美国商品。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-24 20:14:27",
+      "content": "【国产单核心大冷量稀释制冷机成功下线】金十数据6月24日讯，在中国科学院量子信息与量子科技创新研究院授权指导下，科大国盾量子技术股份有限公司完成工程化开发的国产稀释制冷机ez-QF1500首台6月24日正式下线，为我国后续千比特可纠错超导量子计算机的研制奠定基础。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-24 20:12:50",
+      "content": "据福克斯新闻：美国总统特朗普表示，不必急于派检查人员进入伊朗设施。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-24 20:11:35",
+      "content": "据福克斯新闻：美国总统特朗普表示，检查员将被允许进入伊朗铀存放地点。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-06-24 20:10:23",
+      "content": "多头遭血洗！黄金4000大关摇摇欲坠！下方关键区看向何处？金十VIP正在直播，立即观看>>",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
     {
       "datetime": "2026-06-24 20:10:12",
       "content": "华尔街的收割机已换方向！随着2027年初前美联储加息两次的预期被计入价格，美元正在将贵金属赶下神坛。摩根大通更是放话：别再赌美元贬值了……点击查看...",
@@ -1025,340 +1201,84 @@
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
-    },
-    {
-      "datetime": "2026-06-24 18:27:02",
-      "content": "英镑兑美元GBP/USD日内下跌0.4%，至1.3156，触及去年11月26日以来的最低水平。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-24 18:25:53",
-      "content": "俄罗斯外长拉夫罗夫：美国尚未告知俄罗斯在七国集团会议后对乌克兰的未来立场。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-24 18:25:33",
-      "content": "俄罗斯外长拉夫罗夫：俄罗斯愿意继续与美国对话，但希望了解七国集团峰会上发生了什么。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-24 18:25:18",
-      "content": "俄罗斯外长拉夫罗夫：俄美双方的接触甚至未能确保被没收的俄罗斯外交财产得以归还，也未能恢复直飞航班。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-24 18:24:55",
-      "content": "俄罗斯外长拉夫罗夫：拜登时期的制裁已被延长，新制裁措施已出台，且美国正在向欧洲出售供乌克兰使用的武器。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-24 18:24:24",
-      "content": "俄罗斯外长拉夫罗夫：俄罗斯现在被告知，事情还没谈拢，再做些让步吧。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-24 18:23:57",
-      "content": "市场消息：美国国务卿鲁比奥与阿联酋总统就伊朗谅解备忘录、国防及贸易问题进行了讨论。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-24 18:23:15",
-      "content": "印度政府：双方重申了对一项平衡且具有商业意义的协议的承诺。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-24 18:22:59",
-      "content": "俄罗斯外长拉夫罗夫：俄罗斯和美国就如何结束冲突以及如何进行其他问题的讨论达成一致。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-24 18:22:48",
-      "content": "伊朗副外长：进入遭袭核设施及核材料的问题将“完全在与美国达成的最终协议框架内进行审议和解决”。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-24 18:21:56",
-      "content": "印度政府：与美国的磋商重点在于探讨达成临时协议的途径，并将其作为迈向全面双边贸易协定的重要里程碑。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-24 18:21:28",
-      "content": "俄罗斯外长拉夫罗夫：普京在去年与特朗普的阿拉斯加会晤中就乌克兰问题做出了让步，并同意了美国的提议。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-24 18:20:39",
-      "content": "印度方面表示，印度与美国重申对平衡协议的承诺。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-24 18:20:30",
-      "content": "印度方面表示，印度与美国的谈判聚焦于达成临时协议的途径。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-24 18:20:06",
-      "content": "印度方面表示，印度与美国讨论了减少非关税壁垒及供应链的问题。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-24 18:19:50",
-      "content": "印度方面表示，近期与美国的贸易谈判取得了显著进展。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-24 18:19:48",
-      "content": "【中谷物流：拟出售三艘集装箱船舶 预计总价不低于5.7亿元】金十数据6月24日讯，中谷物流公告称，公司拟通过公开挂牌拍卖、协议转让等方式出售“中谷20”轮、“中谷21”轮、“中谷成都”轮等三艘集装箱船舶，预计出售总价不低于5.7亿元。本次交易不构成关联交易及重大资产重组，已获董事会审议通过，无需提交股东会审议。交易旨在优化船队船型、船龄结构，提高节能环保型船舶比例。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-24 18:19:31",
-      "content": "印度方面表示，美国贸易代表格里尔与印度工商部长戈亚尔进行了多轮磋商，双方就扩大市场准入和数字贸易举行会谈。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-24 18:17:30",
-      "content": "市场消息：欧盟周二在布鲁塞尔与塔利班举行了技术层面会谈。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-24 18:15:31",
-      "content": "俄罗斯国防部：俄罗斯武装部队使用“天竺葵”导弹对哈尔科夫地区的铁路基础设施目标实施了一系列打击。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-24 18:14:51",
-      "content": "【长三角铁路暑期运输7月1日启动】金十数据6月24日讯，2026年铁路暑期运输将于7月1日启动，期间长三角铁路预计发送旅客1.9亿人次，创历年暑运旅客发送量新高；日均发送旅客首次突破300万人次，达306.5万人次，同比增幅超3%。当天（7月1日）上铁集团新列车运行图将同步实行，增开长三角前往山东、四川、贵州、云南、广西等多个直通方向旅客列车，努力满足暑期旅客出行需求。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-24 18:13:01",
-      "content": "【昀冢科技：拟投资15亿元建设高性能多层片式陶瓷电容器MLCC生产项目】金十数据6月24日讯，昀冢科技6月24日公告，公司控股子公司池州昀冢拟与皖江江南新兴产业集中区管委会签署招商协议，投资建设高性能多层片式陶瓷电容器生产项目，总投资额15亿元，分两期实施。首期投资7.5亿元，由池州昀冢及池州江南新兴产业基金分别增资4.5亿元、3亿元；第二期投资预计7.5亿元，将结合首期运营情况另行投资。项目旨在扩大MLCC产能，满足市场需求，但存在资金到位、技术认证及产能释放等风险。该事项尚需提交股东会审议。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
     }
   ],
   "shmet": [
     {
-      "datetime": "2026-06-24 20:05:40",
-      "content": "【快讯】SHMET06月24日讯，美国国务院：美国国务卿鲁比奥与阿联酋领导层讨论了伊朗协议、霍尔木兹海峡的安全通行以及该地区和平与稳定的重要性等问题。",
+      "datetime": "2026-06-24 20:31:55",
+      "content": "【快讯】SHMET06月24日讯，美国第一季度经常帐 -2268亿美元，预期-2150亿美元，前值由-1907亿美元修正为-2211亿美元。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-06-24 20:03:03",
-      "content": "【快讯】SHMET06月24日讯，波罗的海干散货指数下跌1.24%，至2634点。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-24 20:02:34",
-      "content": "【快讯】SHMET06月24日讯，欧洲央行：与以往情况不同，影响预计将在全年逐步累积。",
+      "datetime": "2026-06-24 20:30:52",
+      "content": "【分析师：PCE和非农数据或将验证美元涨势能否持续】SHMET06月24日讯，Capital.com分析师Daniela Hathorn在一份报告中表示，即将公布的美国数据将决定美元目前的涨势是否还有进一步的空间。她表示，如果通胀和劳动力市场数据继续支持利率将在更长时间内维持高位的叙事，美元应会继续获得支撑。如果价格压力开始更快地缓解，市场可能会开始质疑目前的利率预期是否变得过于激进。PCE数据（美联储最青睐的通胀指标）和失业金申请数据将于周四公布，非农就业人数报告将于7月2日公布。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-06-24 20:02:21",
-      "content": "【快讯】SHMET06月24日讯，上海黄金交易所黄金T+D 6月24日（周三）晚盘盘初下跌1.06%报894.0元/克；上海黄金交易所白银T+D 6月24日（周三）晚盘盘初下跌2.77%报14415.0元/千克。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-24 20:01:25",
-      "content": "【快讯】SHMET06月24日讯，欧洲央行：如果冲击持续时间更长，对经济增长的累积拖累可能会更大。",
+      "datetime": "2026-06-24 20:29:00",
+      "content": "【快讯】SHMET06月24日讯，纽约期金日内大跌3.00%，现报4024.80美元/盎司。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-06-24 20:01:07",
-      "content": "【快讯】SHMET06月24日讯，欧洲央行：预计战争导致的油价上涨将在第一年内使欧元区GDP增长减少约0.4个百分点。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-24 20:00:10",
-      "content": "【快讯】SHMET06月24日讯，纽约期银日内大跌4.00%，现报59.59美元/盎司。",
+      "datetime": "2026-06-24 20:24:12",
+      "content": "【机构：未来英国财长人选料将驱动英债和英镑走势】SHMET06月24日讯，MillTech分析师Nick Wood在一份报告中表示，英国投资者急切想知道谁将被任命为财政大臣，因为在本周斯塔默辞去首相职务后，现任财政大臣里夫斯很可能被替换。对于市场信心而言，财政大臣的人选可能与新首相一样重要。投资者急切想了解新领导团队的经济政策。鉴于尚未出现其他竞争者，热门人选安迪·伯纳姆似乎越来越有可能在没有竞争对手的情况下被任命为新一任首相。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-06-24 19:58:52",
-      "content": "【快讯】SHMET06月24日讯，美国财长贝森特：到特朗普任期结束时，赤字与GDP之比可降至4%以下。",
+      "datetime": "2026-06-24 20:23:56",
+      "content": "【快讯】SHMET06月24日讯，据法新社：卡塔尔首相在阿曼与伊朗和海湾国家进行关于霍尔木兹海峡的会谈。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-06-24 19:58:37",
-      "content": "【快讯】SHMET06月24日讯，美国财长贝森特：不确定我们今年是否会在赤字问题上取得进展。",
+      "datetime": "2026-06-24 20:22:27",
+      "content": "【皮尤民调：全球对特朗普及美国的信任度下降】SHMET06月24日讯，皮尤研究中心周二发布的一项最新调查显示，全球对美国总统特朗普领导能力的信心依然低迷，而对美国作为可靠伙伴的看法也持续下降。这项调查于2026年2月至5月期间进行，涵盖36个国家的42151名成年人。平均而言，只有23%的成年人表示他们相信特朗普会在国际事务中做出正确的决定，而约三分之二的人表示几乎没有信心或完全没有信心。在24个有相关趋势数据的国家中，有16个国家的信心下降，没有一个国家的信心有所改善。与此同时，人们对美国本身的看法仍然普遍负面。在36个国家中，只有37%的人对美国持好感，而57%的人持负面看法。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-06-24 19:57:31",
-      "content": "【快讯】SHMET06月24日讯，美国财长贝森特：（关于美国经济和GDP）认为今年可以实现3%或更高的增长。",
+      "datetime": "2026-06-24 20:21:34",
+      "content": "【快讯】SHMET06月24日讯，伊朗议会议长卡利巴夫：与阿塞拜疆总统在巴库举行了会晤。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-06-24 19:57:09",
-      "content": "【快讯】SHMET06月24日讯，美国5月建筑许可由-0.7%修正为-0.9%，年化数据修正为141万户，此前为141.3万户。",
+      "datetime": "2026-06-24 20:20:26",
+      "content": "【快讯】SHMET06月24日讯，美国第一季度经常帐将于十分钟后公布。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-06-24 19:56:14",
-      "content": "【快讯】SHMET06月24日讯，美国财长贝森特：（关于美联储及降息）美国总统特朗普对美联储主席沃什充满信心。",
+      "datetime": "2026-06-24 20:20:01",
+      "content": "【快讯】SHMET06月24日讯，市场消息：摩洛哥与智利启动自由贸易谈判。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-06-24 19:55:15",
-      "content": "【快讯】SHMET06月24日讯，美国财长贝森特：美联储主席沃什对通胀发表了强硬的言论。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-24 19:55:13",
-      "content": "【快讯】SHMET06月24日讯，美国财长贝森特：美国总统特朗普公开和私下均表示他对美联储主席沃什有信心。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-24 19:55:12",
-      "content": "【快讯】SHMET06月24日讯，美国财长贝森特：（关于美联储）还需对人工智能生产力保持开放的心态。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-24 19:54:30",
-      "content": "【快讯】SHMET06月24日讯，美国财长贝森特：可以在不导致传统通胀的情况下实现高GDP增长。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-24 19:54:20",
-      "content": "【快讯】SHMET06月24日讯，美国财长贝森特：（关于美联储）需对伊朗冲突对通胀的影响保持开放态度。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-24 19:54:08",
-      "content": "【快讯】SHMET06月24日讯，美国财长贝森特：有很大可能重演1990年代的经济扩张。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-24 19:53:46",
-      "content": "【快讯】SHMET06月24日讯，美国财长贝森特：2月份曾预计通胀率到夏季中旬将接近2%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-06-24 19:53:00",
-      "content": "【快讯】SHMET06月24日讯，美国财长贝森特：（关于美联储）我认为没有人应该做点阵图预测。",
+      "datetime": "2026-06-24 20:16:45",
+      "content": "【快讯】SHMET06月24日讯，据福克斯新闻：美国总统特朗普表示，伊朗最初将获得5亿美元用于购买美国商品。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
