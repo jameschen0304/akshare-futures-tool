@@ -1,7 +1,1103 @@
 {
   "source": "jin10 flash + shmet + shfe weekly stock",
-  "generated_at": "2026-07-09T13:33:22.036325+00:00",
+  "generated_at": "2026-07-09T16:16:16.056667+00:00",
   "jin10": [
+    {
+      "datetime": "2026-07-10 00:14:29",
+      "content": "以色列国防部长卡茨：如有必要，以色列将准备对伊朗进行“第三次”攻击。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-10 00:11:50",
+      "content": "据伊朗媒体Fars News：军事消息人士称，卡塔尔、阿联酋、约旦和沙特阿拉伯正在为大量美国战斗机航班提供后勤支持。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-10 00:09:36",
+      "content": "谷歌(GOOG.O)：推出广告主控制功能以披露生成性人工智能的使用；广告上可能会出现标签。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-10 00:06:25",
+      "content": "谷歌(GOOG.O)：向所有谷歌云客户推出AlphaEvolve人工智能代码优化代理。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-10 00:01:35",
+      "content": "房利美：美国30年期抵押贷款利率上升至6.49%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-10 00:00:00",
+      "content": "【今日重点关注的财经数据与事件：2026年7月10日 周五】\n① 待定 SK海力士ADR上市\n② 01:30 美联储洛根发表讲话\n③ 14:00 德国6月CPI月率终值\n④ 14:45 法国6月CPI月率终值\n⑤ 15:00 瑞士6月消费者信心指数\n⑥ 16:00 IEA公布月度原油市场报告\n⑦ 20:30 加拿大6月就业人数\n⑧ 次日01:00 美国至7月10日当周石油钻井总数",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:49:30",
+      "content": "美国总统特朗普：（谈及伊朗）我们在很多方面都取得胜利。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:47:10",
+      "content": "SC原油主力合约跌超3%，现报466.3元/桶。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:45:37",
+      "content": "以色列总理内塔尼亚胡：我们将建立一个规模宏大的以色列本土弹药产业——即生产我们自己的武器，从而减少对海外采购的依赖。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:45:28",
+      "content": "以色列总理内塔尼亚胡：我已决定在未来十年内向国防预算追加3500亿谢克尔。其中很大一部分资金将用于空军。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:45:10",
+      "content": "据伊朗媒体：哈马斯发言人哈齐姆·卡西姆在以色列的一次暗杀企图中幸免于难。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:44:20",
+      "content": "美国总统特朗普：（谈及伊朗）我们已经赢了，尤其是在军事领域。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:40:40",
+      "content": "以色列国防军：我们在密切监视伊朗和黎巴嫩的动向，并准备好立即采取行动。我们将对任何企图伤害我们的人予以有力回击。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:40:31",
+      "content": "以色列国防军：空军数百架飞机已处于随时待命起飞状态。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:40:09",
+      "content": "纽元兑美元NZD/USD日内涨幅达1%，现报0.5755。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:38:48",
+      "content": "以色列总理内塔尼亚胡：在对抗过程中，对敌人采取先发制人的打击是不可避免的，我们已经这样做了，并将继续下去。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:38:33",
+      "content": "玻利维亚能源部长：下周将成立工作组研究巴西石油公司重新进入玻利维亚的事宜。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:37:07",
+      "content": "【OpenAI：在与特朗普政府磋商后对GPT-5.6做出多项调整】金十数据7月9日讯，OpenAI首席执行官奥尔特曼表示，在向公众发布最新人工智能模型之前，公司在与特朗普政府的磋商中做出了多项调整。奥尔特曼表示，OpenAI在GPT-5.6全面发布前的几周里，与商务部长卢特尼克和财政部长贝森特等美国高层官员进行了协作式的双向沟通​​。在政府要求分阶段发布的压力下，新模型系列最初仅向特定合作伙伴开放。在OpenAI表示获得美国政府领导层的批准后，GPT-5.6定于周四向公众开放。奥尔特曼未详述OpenAI在此过程中所做的具体调整，但表示政府正在测试新模型并寻找潜在问题。“我认为只要过程是可理解的、公平且迅速的，就是好事。政府似乎确实认同这些目标，我猜下一次、下一个模型会更加顺畅。我们理解了流程，也更清楚该如何应对。”",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:36:59",
+      "content": "德国DAX30指数7月9日（周四）收盘上涨238.80点，涨幅0.96%，报25104.47点；\n英国富时100指数7月9日（周四）收盘下跌17.52点，跌幅0.17%，报10471.52点；\n法国CAC40指数7月9日（周四）收盘上涨73.96点，涨幅0.90%，报8326.62点；\n欧洲斯托克50指数7月9日（周四）收盘上涨73.55点，涨幅1.19%，报6278.46点；\n西班牙IBEX35指数7月9日（周四）收盘上涨263.43点，涨幅1.38%，报19312.73点；\n意大利富时MIB指数7月9日（周四）收盘上涨536.25点，涨幅1.03%，报52353.50点。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:32:53",
+      "content": "海湾合作委员会：伊朗应完全遵守与美国的谅解备忘录，并执行其中的内容。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:32:41",
+      "content": "美国至7月9日8周国债竞拍-得标利率配置百分比 68.8%，前值53.99%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:32:34",
+      "content": "美国至7月9日8周国债竞拍-得标利率 3.635%，前值3.65%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:32:27",
+      "content": "美国至7月9日8周国债竞拍-投标倍数 2.95，前值2.7。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:32:09",
+      "content": "美国至7月9日4周国债竞拍-投标倍数 2.64，前值2.72。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:32:08",
+      "content": "美国至7月9日4周国债竞拍-得标利率配置百分比 26.29%，前值46.77%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:32:08",
+      "content": "美国至7月9日4周国债竞拍-得标利率 3.63%，前值3.605%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:31:09",
+      "content": "海湾合作委员会：我们拒绝任何关于霍尔木兹海峡的单方面机制或安排。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:30:27",
+      "content": "特朗普在北约峰会上骂得最凶，但会后文件却签了完全不同的东西！当口水战褪去，市场最终交易的不是谁骂得最大声，是谁在散会后接了账单，一文查看这将如何影响欧元与金油定价>>",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:30:22",
+      "content": "海湾合作委员会：国际社会应确保霍尔木兹海峡的航行自由，不收取过境费或服务费。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:29:55",
+      "content": "海湾合作委员会：呼吁联合国安理会采取坚定立场，以确保霍尔木兹海峡的航行自由。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:29:47",
+      "content": "海湾合作委员会：伊朗对霍尔木兹海峡航运的攻击威胁全球能源和贸易安全。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:28:30",
+      "content": "伊拉克总理：我们将致力于缓和紧张局势，推动美伊两国接近与和解。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:28:22",
+      "content": "海湾合作委员会：各国有权在遭受侵略时单独或集体进行自卫。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:27:28",
+      "content": "海湾合作委员会：对任何成员国的攻击都是对所有海湾国家的直接攻击。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:27:18",
+      "content": "海湾合作委员会：各国一致站在一起，抵制这些侵略行为。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:27:10",
+      "content": "海湾合作委员会：对海湾油轮的袭击是对航行安全和安保的不可接受的侵犯。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:27:03",
+      "content": "海湾合作委员会：我们谴责伊朗对霍尔木兹海峡及该组织成员国的攻击。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:23:45",
+      "content": "以色列总理内塔尼亚胡：中东的轴心此消彼长，我们正密切关注并准备应对所有可能局面。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:22:18",
+      "content": "埃及中央银行维持隔夜贷款利率不变，仍为20%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:21:07",
+      "content": "当前全球各航线价格如何？金十VIP全球主要航线运费报告，每周更新。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:21:07",
+      "content": "以色列国防部长：我们已准备好对伊朗发动第三轮打击。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:19:08",
+      "content": "以色列总理内塔尼亚胡：保持以色列的空中优势是国家安全的根本支柱。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:17:18",
+      "content": "以色列总理内塔尼亚胡：伊朗政权已遭受重创，我们的政策非常明确——无论有无协议，伊朗都不会拥有核武器。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:15:37",
+      "content": "国内新闻\n1. 新版国家基本药物目录发布，共收录药品794种。\n2. 《人力资源和社会保障事业发展“十五五”规划》：“十五五”时期，城镇新增就业人数保持相当规模。\n3. 国家统计局：2026年6月份，全国居民消费价格同比上涨1.0%，全国工业生产者出厂价格同比上涨4.1%。\n4. 中汽协：今年1至6月份，我国新能源汽车产销量分别完成743.8万辆和744.6万辆，同比分别增长6.7%和7.3%。\n5. 国务院印发《“十五五”碳达峰行动方案》：到2030年，非化石能源消费占比达到25%，新能源汽车保有量占比力争达到30%。\n6. 国家防总将针对浙江福建的防汛防台风四级应急响应提升至三级。\n国际新闻\n1. 美光将到2035年在美投资规模扩大至逾2500亿美元。\n2. Meta推出首款付费AI开发者模型，拟打造性价比优势。\n3. 美国监管机构暂缓芝商所（CME）全天候石油合约的快速上市。\n4. 据悉SK海力士将ADR发行指导价定为149美元，较韩股收盘溢价3.1%。\n5. 美国拟探讨允许无方向盘的无人驾驶汽车上路。\n6. 中东局势—\n①美军完成新一轮对伊朗打击，连续两日打击约170个军事目标。\n②伊朗称若美再攻击将扩大回应范围。\n③美国官员透露，目前局势升级或持续一两天、一周或一个月，这取决于商船是否继续遭袭。\n④伊朗发射超重型导弹，目标为海湾国家境内美军基地。\n⑤消息人士：巴基斯坦仍在斡旋，美伊谈判窗口或再开启\n⑥以媒：消息人士称，伊朗目前无意将以色列拖入冲突。\n⑦以色列国防部长：我们的军队处于高度戒备状态，准备恢复战斗。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:14:39",
+      "content": "以色列总理内塔尼亚胡：若非我们采取行动，伊朗早已拥有核武器；战争尚未结束，新的挑战正不断浮现。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:10:37",
+      "content": "以色列总理内塔尼亚胡：我们将根据需要，继续留在黎巴嫩南部安全区。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:08:28",
+      "content": "巴基斯坦央行：巴基斯坦截至2026年7月3日的外汇总储备为240亿美元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:05:33",
+      "content": "以色列国防部长：已准备好对伊朗发动攻击以消除威胁。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:05:13",
+      "content": "以色列国防部长：我们不会从加沙、黎巴嫩和叙利亚的安全区撤出。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:04:58",
+      "content": "尽管人工智能热潮仍在延续，但科技“七巨头”的涨势几乎停滞，而它们能否重振雄风，或将直接决定标普500指数能否顺利抵达华尔街的年底目标位。点击查看...",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:03:39",
+      "content": "以色列国防部长：我们的军队处于高度戒备状态，准备恢复战斗。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:00:20",
+      "content": "截至23:00收盘，国内期货主力合约涨跌互现。纸浆涨超2%，焦煤、纯苯、焦炭跌超2%。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": true
+    },
+    {
+      "datetime": "2026-07-09 23:00:15",
+      "content": "国际货币基金组织：IMF总裁格奥尔基耶娃本周与委内瑞拉临时总统罗德里格斯进行了交谈，讨论了使用委内瑞拉3.5亿美元特别提款权配额以满足紧急人道主义需求的事宜。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:59:22",
+      "content": "市场消息：印度阿萨姆邦将为塔塔半导体工厂提供激励扶持。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:54:16",
+      "content": "惠誉：英国财政空间有限，预计将阻碍显著的政策宽松。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:46:15",
+      "content": "伊朗外长阿拉格齐：伊朗有权自卫，以应对美国军队任何进一步的冒险行为。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:45:33",
+      "content": "【台风“巴威”今晚减弱为强台风 明天白天或重新加强为超强台风】金十数据7月9日讯，据中国天气网，今晚20时，台风“巴威”减弱为强台风，中心附近最大风力15级（48米/秒），在此之前，“巴威”已连续138小时维持超强台风强度。预计明天白天，“巴威”强度将再次加强，并有望重返超强台风强度，“巴威”仍将是需要高度警惕的台风。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:45:15",
+      "content": "【期货热点追踪】集装箱运价本周再涨1000美元/FEU，跨太平洋航线累计涨幅已超3000美元——提前启动的旺季，是否意味着需求已经见顶？中东局势再度升温，红海复航前景如何？",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:45:11",
+      "content": "伊朗外长阿拉格齐：我警告美国军队不要进行任何冒险行为，并强调伊朗民族和革命卫队捍卫国家主权、领土完整和国家安全的坚定决心。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:44:53",
+      "content": "伊朗外长阿拉格齐：美国官员的言论已经承认了其不遵守该备忘录，这是美国背信弃义并延续好战政策的明显证据。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:44:31",
+      "content": "伊朗外长阿拉格齐：美国军队对伊朗多个地区发动侵略性攻击，这公然违反联合国宪章，也严重违背伊斯兰堡谅解备忘录（结束战争）条款。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:39:53",
+      "content": "市场消息：AI训练初创公司Mercor据悉讨论200亿美元估值事宜。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:39:12",
+      "content": "【CFTC正式叫停芝商所全天原油期货交易计划】金十数据7月9日讯，美国商品期货交易委员会（CFTC）发布声明：我们将行使权力，暂缓一份合约的上市，该合约本可让芝加哥商品交易所（CME）最早于明日启动原油期货的24小时全天候交易。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:35:17",
+      "content": "消息人士：俄罗斯萨拉托夫炼油厂在遭遇无人机袭击后，自周三起已暂停运营。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:34:09",
+      "content": "【国家防总针对北京、天津启动防汛四级应急响应】金十数据7月9日讯，据气象部门预报，7月9日至10日，北京、天津有大到暴雨，部分地区有短时强降雨，山洪和地质灾害、中小河流洪水以及城市内涝等灾害风险较高。根据《国家防汛抗旱应急预案》及有关规定，国家防总决定于7月9日21时针对北京、天津启动防汛四级应急响应。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:34:00",
+      "content": "自由港液化天然气公司：得克萨斯州设施已启动重大检修工程，将持续至8月下旬。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:33:43",
+      "content": "美国天然气期货跌幅扩大至4%，EIA库存增幅超预期且自由港液化天然气出口设施检修。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:30:13",
+      "content": "美国至7月3日当周EIA天然气库存变化值录得610亿立方英尺，为2026年4月10日当周以来最小增幅。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:30:07",
+      "content": "EIA天然气报告：截至7月3日当周，美国天然气库存总量为29830亿立方英尺，较此前一周增加610亿立方英尺，较去年同期减少150亿立方英尺，同比降幅0.5%，同时较5年均值高1850亿立方英尺，增幅6.6%。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:30:03",
+      "content": "美国至7月3日当周EIA天然气库存 610亿立方英尺，预期490亿立方英尺，前值870亿立方英尺。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:28:10",
+      "content": "沙特外交部：伊朗的侵犯行为削弱了国际恢复地区安全与稳定的努力。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:27:04",
+      "content": "美股三大指数涨幅收窄，标普500上涨0.2%，纳斯达克上涨0.1%，道琼斯上涨0.09%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:26:42",
+      "content": "黄金空头惨遭反杀！多头剑指何方？​《大有作V》栏目更新，3分钟解读国际金走势>>",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:26:16",
+      "content": "沙特外交部：我们拒绝伊朗侵犯兄弟国家的主权，并继续威胁地区的安全与稳定。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:24:56",
+      "content": "戴尔(DELL.N)涨超5%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:22:42",
+      "content": "【消息人士：伊朗目前无意将以色列拖入冲突】金十数据7月9日讯，据以色列i24新闻：两名以色列消息人士透露，伊朗目前无意将以色列卷入地区局势升级之中。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:21:11",
+      "content": "焦煤、焦炭主力合约跌幅扩大至逾3%，分别报1250.5元/吨、1890.5元/吨。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": true
+    },
+    {
+      "datetime": "2026-07-09 22:20:23",
+      "content": "据塔斯社：俄罗斯准备协助莫桑比克消除恐怖主义威胁。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:20:00",
+      "content": "美国至7月3日当周EIA天然气库存将于十分钟后公布。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:16:17",
+      "content": "OpenAI创始人奥尔特曼：（在被问及2026年上市计划时）“尚不清楚”。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:15:34",
+      "content": "OpenAI创始人奥尔特曼：（就美国政府持有OpenAI股份的相关报道）其中存在诸多不实之处。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:15:32",
+      "content": "随着美伊冲突导致油价剧震，散户与机构对全天候原油交易的需求与日俱增，相较于市场的“赌瘾”，美国监管机构据悉更担心市场承载力。点击查看...",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:15:15",
+      "content": "OpenAI创始人奥尔特曼：OpenAI最新的AI模型在代理型编程任务中，令牌效率提升了54%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:13:25",
+      "content": "OpenAI创始人奥尔特曼：OpenAI在与政府沟通后已做出“诸多调整”。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:12:27",
+      "content": "OpenAI创始人奥尔特曼：微软将继续是我们最大的客户之一。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:12:00",
+      "content": "声明显示：伊朗外交部长、阿曼和土耳其外长强调需通过外交渠道防止局势升级。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:11:34",
+      "content": "OpenAI创始人奥尔特曼：计算和内存成本的上升无疑是一个阻力。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:11:21",
+      "content": "OpenAI创始人奥尔特曼：预计与政府在人工智能方面的合作将更加顺利。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:10:39",
+      "content": "以色列国防军：已摧毁黎巴嫩南部迈吉达尔祖恩镇内的两条地下通道，总长约200米。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:10:33",
+      "content": "【Meta推出首款付费AI开发者模型 拟打造性价比优势】金十数据7月9日讯，Meta推出其最先进人工智能模型Muse Spark 1.1版本，其中包括面向开发者的全新付费层级，这是Meta首次向企业收取模型访问费用，开辟了新的收入来源。扎克伯格在发布前接受采访时表示，这将成为市场上最具性价比的选择之一。扎克伯格在谈到用于访问Meta AI的应用程序编程接口时表示：“由于这不是一个开源模型，我认为这是我们第一次真正认真地推出API。而且定价将非常激进且具有吸引力。”扎克伯格表示，新模型的显著改进在于其智能体能力。Muse Spark 1.1在智能体推理和工具使用方面拥有“最先进或非常接近最先进”的水平。该模型在编码方面也有显著改进。Meta还将推出新的Meta Model API系统，用于向开发者收费。其API定价约为OpenAI和Anthropic等其他高端模型报价的25%。开发者可以免费使用Meta的模型，但仅限于一定额度；一旦超过特定token阈值，就需要付费访问。他表示：“其他一些实验室的定价非常极端，利润率极高。”他强调自己的策略是让尽可能多的人接触Meta的技术。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:09:01",
+      "content": "土耳其外交部：土耳其外交部长在电话中与伊朗外长讨论了最新进展和停火事宜。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:07:10",
+      "content": "【希腊一架F-16战机起火后紧急降落】金十数据7月9日讯，据土耳其阿纳多卢通讯社，希腊一架F-16战斗机在扎金索斯岛（Zakynthos）的一处机场紧急降落。该战机起火，飞行员随后在岛上机场进行了紧急降落。报道称，飞行员已迅速撤离受损战机，目前身体状况良好。该国公民保护部门当地负责人玛丽亚·穆扎基表示，事故原因是发动机故障。她补充说，出于安全考虑，该机场将继续关闭，直至另行通知。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:06:29",
+      "content": "伊朗海军上将西亚里：伊朗巨大的民众资本，加之人民对武装力量的支持，是国家权威的最重要因素，也是挫败敌人实现其目标的关键。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:06:07",
+      "content": "市场消息：《纽约时报》申请对OpenAI实施制裁。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:04:53",
+      "content": "市场消息：美国政府与洛克希德·马丁公司及Aculight达成激光武器协议。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:04:40",
+      "content": "焦炭主力合约日内跌幅达2.00%，现报1910.50元/吨。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": true
+    },
+    {
+      "datetime": "2026-07-09 22:02:20",
+      "content": "Meta Platforms(META.O)短线拉升，跌幅收窄至0.6%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:01:33",
+      "content": "Meta：每个新Meta模型API账户均可获赠20美元额度。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:01:31",
+      "content": "有人说，市场就像一面镜子。它不会说话，却能照出一个人最真实的模样。贪婪、恐惧、冲动、犹豫、自信、自律……这些平时隐藏在生活中的性格，都会在交易中被无限放大。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:01:25",
+      "content": "Meta CEO扎克伯格：计划定价低于竞争对手。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:01:08",
+      "content": "Meta：Muse Spark 1.1 现已上线，支持思考模式，可在Meta AI应用及Meta.ai网站使用。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:00:46",
+      "content": "【Meta首次推出付费AI开发者模型】金十数据7月9日讯，Meta宣布首次推出付费AI开发者模型Muse Spark 1.1，该模型是一款具有行业竞争力的代理型与编程模型。在多项代理评估中，其表现可与GPT-5.5和Opus-4.8相媲美。即日起可通过全新Meta模型API及Meta AI平台获取使用。Meta CEO扎克伯格表示，计划定价低于竞争对手。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:00:45",
+      "content": "金十图示：2026年07月09日（周四）全球股市指数-美洲市场（盘初）",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:00:02",
+      "content": "美国6月成屋销售年化月率 -2.4%，预期1.90%，前值由3.20%修正为3.7%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 22:00:02",
+      "content": "美国6月成屋销售总数年化 409万户，预期420万户，前值由417万户修正为419万户。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 21:55:09",
+      "content": "纳斯达克100指数涨幅扩大至1.5%，创下盘中高点。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 21:53:32",
+      "content": "美国天然气期货日内跌超3.00%，现报3.103美元/百万英热。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 21:52:21",
+      "content": "金十图示：2026年07月09日（周四）华尔街恐惧与贪婪指数（美盘初）",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 21:51:56",
+      "content": "巴西众议院议长：能源委员会将于7月14日召开会议。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 21:51:16",
+      "content": "以色列总理内塔尼亚胡：我遭受着不应有的妖魔化，人们不了解我，没有人真正了解我。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 21:50:00",
+      "content": "美国6月成屋销售总数年化将于十分钟后公布。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 21:48:31",
+      "content": "以色列总理内塔尼亚胡：我与马斯克及许多人士保持频繁交流。我常问他们未来会怎样？将发生什么？趋势走向何方？因为我们必须始终领先于所有其他国家。我们的生存，源于我们的强大。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 21:47:45",
+      "content": "【消息人士：巴基斯坦仍在斡旋 美伊谈判窗口或再开启】金十数据7月9日讯，据伊朗学生通讯社报道，巴基斯坦政府消息人士称，巴基斯坦和卡塔尔已与美国和伊朗建立新的接触渠道，旨在停止军事行动并推动双方根据“伊斯兰堡谅解备忘录”重返谈判进程。尽管冲突再度升级，巴基斯坦方面仍对维持该谅解备忘录持乐观态度。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 21:47:07",
+      "content": "美联储威廉姆斯：关于美联储沟通方式持开放讨论态度。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 21:46:24",
+      "content": "美联储威廉姆斯：透明度对美联储非常有利。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 21:45:51",
+      "content": "金十图示：2026年07月09日（周四）美盘市场行情一览",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 21:44:36",
+      "content": "美联储威廉姆斯：实际工资增长具有温和的通胀抑制作用。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 21:44:25",
+      "content": "美联储威廉姆斯：对于财政部管理美联储账户的方式，我并不存在货币政策方面的担忧。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 21:44:08",
+      "content": "美联储威廉姆斯：我很期待阿根廷在世界杯上的表现。因为阿根廷总统米莱是超级明星。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 21:43:23",
+      "content": "【报告预计3年内我国数据库市场总规模将超970亿元】金十数据7月9日讯，《数据库发展研究报告（2026年）》在2026可信数据库发展大会上对外发布。报告预计，到2028年中国数据库市场总规模将达到979.74亿元，市场年复合增长率为13.06%。报告显示，2025年全球数据库市场规模达到1316亿美元。我国数据库市场规模达94.9亿美元，占全球市场7.2%。截至2026年6月，全球开源及闭源的商业产品数量基本持平，我国商用数据库占比超七成，开源数据库占比有所提升。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 21:42:34",
+      "content": "金十图示：2026年07月09日（周四）美股热门股票行情一览",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 21:42:26",
+      "content": "【机构：加拿大央行对中性利率的估计可能过高】金十数据7月9日讯，Rosenberg Research经济学家David Watt表示，加拿大的中性利率可能比加拿大央行目前的估计低半个百分点。加拿大央行估计中性利率在2.25%至3.25%之间。Watt表示，人口下降、资本存量二十年来增长停滞，以及挥之不去的美国贸易政策不确定性，已将加拿大的中性利率估计值拉低了约50个基点，至1.75%到2.75%之间。因此，加拿大央行2.25%的主要利率可能过高，为了防范油价上涨带来的通胀风险而加息将是一个错误。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 21:41:25",
+      "content": "【福建晋江火灾已致28死】金十数据7月9日讯，从相关部门了解到，福建晋江陈埭镇江头村辉腾鞋业公司厂房火灾已造成28人死亡。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 21:40:20",
+      "content": "【美伊冲突升级拖累海湾股市 卡塔尔市场领跌】金十数据7月9日讯，卡塔尔股市领跌多数主要海湾市场，延续了近期的跌势，此前美国和伊朗之间的冲突出现了自上个月双方达成60天和平协议以来的最大规模升级。国际货币基金组织的一份新报告显示，卡塔尔是受能源产出和运输受阻最直接影响的大宗商品生产国。卡塔尔的QE Index下跌0.8%，沙特阿拉伯的基准指数下跌0.4%，Dubai Financial Market General Index下跌0.2%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 21:39:23",
+      "content": "美联储威廉姆斯：常备回购操作应被视为常规业务。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 21:39:07",
+      "content": "土耳其能源部长：伊拉克至杰伊汉的石油输送将继续进行。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 21:38:46",
+      "content": "沪银主力合约涨超3%，现报14678元/千克。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 21:38:32",
+      "content": "现货白银日内涨幅扩大至3.00%，现报60.07美元/盎司。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 21:38:28",
+      "content": "土耳其能源部长：与伊拉克的管道协议已进入最后阶段。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 21:38:08",
+      "content": "美联储威廉姆斯：充裕的准备金是货币市场的一种状态，而非某个具体数值。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 21:38:03",
+      "content": "现货白银向上触及60美元/盎司，日内涨2.89%。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 21:37:45",
+      "content": "芝商所（CME）：将推出Treasury Link服务，以优化现金市场与期货市场之间的美国国债利差交易。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 21:35:37",
+      "content": "金十图示：2026年07月09日（周四）热门中概股行情一览",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 21:34:39",
+      "content": "美联储威廉姆斯：美联储工作小组为政府官员们提供了能够一个及时思考政策问题的机会。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 21:33:59",
+      "content": "【中国金茂：6月单月签约销售金额157.73亿元】金十数据7月9日讯，中国金茂(00817.HK)公告，2026年6月单月，公司及其附属公司取得签约销售金额人民币157.73亿元，签约销售建筑面积59.79万平方米。2026年1-6月累计取得签约销售金额共计人民币575亿元，累计签约销售建筑面积228.08万平方米。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 21:33:45",
+      "content": "【浙江美大：筹划控制权变更事项 10日起停牌】金十数据7月9日讯，浙江美大公告，公司收到公司实际控制人夏志生、夏鼎通知，获悉其正在筹划涉及公司控制权变更相关事项，该事项可能导致公司实际控制人发生变更。目前，各方主体正在就有关事项进行论证和磋商，具体情况以各方签订的相关协议为准。本次交易对手方所属行业为跨境电商行业，所涉及的股份转让比例范围为30%以内，交易对手方不涉及有权部门事前审批。公司股票自2026年7月10日开市起停牌，预计停牌时间不超过2个交易日。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 21:33:27",
+      "content": "美联储威廉姆斯：人工智能热潮可能推动中性利率上升。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
     {
       "datetime": "2026-07-09 21:31:55",
       "content": "道琼斯指数7月9日（周四）开盘上涨52.20点，涨幅0.10%，报52400.59点；\n标普500指数7月9日（周四）开盘上涨6.12点，涨幅0.08%，报7488.83点；\n纳斯达克综合指数7月9日（周四）开盘上涨53.00点，涨幅0.21%，报25923.65点。",
@@ -33,1228 +1129,84 @@
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:30:35",
-      "content": "【据悉SK海力士ADR发行指导价为149美元】金十数据7月9日讯，据知情人士透露，SK海力士告知投资者，计划将其美股上市的ADR发行价定为每份149美元。按该价格计算，ADR较韩国市场普通股周四收盘价溢价约3.1%。根据此前提交给美国证交会（SEC）的文件，每份SK海力士ADR相当于十分之一股普通股。知情人士表示，相关讨论仍在进行中，上市的具体细节仍可能发生变化。SK海力士发言人尚未作出回应。按每份ADR 149美元计算，此次发行将筹集约265亿美元。这将是有史以来外国公司在美股规模最大的新股发行。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:30:31",
-      "content": "美股开盘，道指开涨0.08%，标普500指数涨0.2%，纳指涨0.2%。美光科技(MU.O)涨超6%，公司到2035年在美投资规模将扩大至逾2500亿美元。高通(QCOM.O)涨1.9%，Meta Platforms(META.O)跌3.4%，公司计划于9月开始生产一款AI芯片。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:29:54",
-      "content": "【博睿数据：股东及其一致行动人合计持股比例降至10.89%】金十数据7月9日讯，博睿数据公告，2026年7月9日，股东上海元亨利汇咨询管理中心（有限合伙）通过集中竞价方式减持公司股份20万股，占总股本的0.45%。本次权益变动后，其与一致行动人孟曦东合计持股数量由503.661万股减至483.661万股，占总股本比例由11.34%降至10.89%，触及1%刻度。本次减持系履行已披露计划，未实施完毕，不会影响公司控股权，提醒投资者注意风险。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:28:52",
-      "content": "【绿的谐波：募投项目“新一代精密传动装置智能制造项目”延期至2028年12月31日】金十数据7月9日讯，绿的谐波公告，公司募投项目“新一代精密传动装置智能制造项目”延期至2028年12月31日。该项目原计划达到预定可使用状态日期为2026年12月31日。公司前期产能利用率较低，2025年审慎推进本次募投项目建设工作，聚焦消化IPO募投项目“年产50万台精密谐波减速器项目”产能，业绩提升明显。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:27:28",
-      "content": "美联储威廉姆斯：暂时未见通胀第二轮效应的迹象。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:26:36",
-      "content": "阿曼公开支持西方和航运巨头，高喊“不支持征收霍尔木兹过境费”，但留了个后手：或许也可以借鉴其他战略通道经验，探索“自愿性”收费安排。点击查看...",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:26:14",
-      "content": "波兰央行行长：我认为今年降息的可能性很大。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:26:05",
-      "content": "瑞银集团：将特斯拉公司目标价从364美元上调至442美元。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:26:00",
-      "content": "美联储威廉姆斯：美国劳动力市场表现出色，当前风险主要在通胀方面。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:25:53",
-      "content": "美联储威廉姆斯：下半年PCE环比上涨0.2%将与通胀目标相符。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:25:10",
-      "content": "美联储威廉姆斯：若通胀最终高于我的基准预测，政策将不得不作出回应。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:24:59",
-      "content": "美联储威廉姆斯：我们需要观察货币政策如何对数据做出反应。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:24:40",
-      "content": "美联储威廉姆斯：劳动力市场非常稳定。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:24:36",
-      "content": "伊拉克部长会见土耳其能源部长，讨论石油和天然气合作。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:24:22",
-      "content": "截至2026年07月09日的数据显示，美盘开盘前15分钟成交量处于7%分位，显著低于近30天平均水平，整体处于偏低区间，开盘阶段成交承接力度不足。与此同时，行情接力动能触及30日最低值，大幅低于近30天平均水平，整体处在极弱区间，行情延续能力严重不足。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:23:46",
-      "content": "美联储威廉姆斯：美联储政策需要保持数据依赖。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:23:10",
-      "content": "【美国监管机构拟阻止CME的全天候石油合约快速上市】金十数据7月9日讯，美国商品期货交易委员会（CFTC）计划阻止芝商所（CME）快速上市全天候（24x7）石油合约的申请，因担忧能源市场尚未准备好应对大量全天候衍生品合约的涌入。CME在6月表示，计划为一种以10桶为单位、与WTI原油挂钩的期货合约提供全天候交易，理由是投资者希望“在任何消息传出时”都能管理其头寸。周三，CME提交了该新产品的自我认证申请，这意味着CFTC仅有一天时间进行干预，否则该合约将可上市交易。据知情人士透露，CFTC计划阻止CME的自我认证。CFTC主席迈克尔·塞利格近几周已会见了壳牌、维多、英国石油公司和埃克森美孚等能源公司的高管。CME就同一产品提交的另一份申请（需经过45天审查期）仍在监管机构的审议中。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:22:30",
-      "content": "美联储威廉姆斯：政府层面作出技术性调整，可更好地协调PCE通胀与CPI之间的差异。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:20:24",
-      "content": "美联储威廉姆斯：关键在于审视潜在的通胀因素，而非仅仅关注某一特定指标。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:20:14",
-      "content": "美联储威廉姆斯：我们将把通胀率恢复到2%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:19:42",
-      "content": "美联储威廉姆斯：（关于人工智能）我们将看到更高的生产力，关键在于何时实现。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:19:23",
-      "content": "美联储威廉姆斯：基本情景预期人工智能的更广泛应用将提升生产力。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:17:42",
-      "content": "美联储威廉姆斯：当我们看到人工智能带来的生产力时，这将是巨大的积极供给冲击。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:16:58",
-      "content": "【ST龙元：宁波开海投资拟以1.25元/股要约收购6%股份 股票复牌】金十数据7月9日讯，ST龙元公告，公司股票将于2026年7月10日开市起复牌。停牌期间，公司收到宁波开海自有资金投资发展有限公司的要约收购报告书摘要，其拟向全体股东发出部分要约，收购股份数量为9178.6万股，要约价格为1.25元/股，完成后将最多持有公司6%股份。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:16:52",
-      "content": "美联储威廉姆斯：如果人工智能持续刺激需求，你就不能忽视这一点。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:16:45",
-      "content": "美联储威廉姆斯：美联储会议纪要反应了一种“集体反应函数”。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:16:16",
-      "content": "美联储威廉姆斯：若人工智能热潮持续且需求增速超过供给，这将成为推升通胀的又一因素。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:16:06",
-      "content": "美联储威廉姆斯：美联储正在积极讨论通胀相关的情景。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:16:03",
-      "content": "美联储威廉姆斯：我非常关注人工智能对通胀的影响。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:15:45",
-      "content": "焦煤主力合约日内跌超2.00%，现报1264.00元/吨。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": true
-    },
-    {
-      "datetime": "2026-07-09 21:15:44",
-      "content": "据英国金融时报：美国监管机构将阻止芝商所加速上市24小时石油合约的申请，原因是担忧能源市场尚未准备好应对大量全天候衍生品的涌入。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:14:46",
-      "content": "美联储威廉姆斯：关税对通胀的影响接近峰值。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:14:41",
-      "content": "美联储威廉姆斯：人工智能投资是推升通胀的因素之一。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:13:57",
-      "content": "美联储威廉姆斯：尽管油价存在不确定性，能源价格已接近峰值，预计将会下跌。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:13:54",
-      "content": "美联储威廉姆斯：货币政策关注能源价格如何影响通胀。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:13:19",
-      "content": "美联储威廉姆斯：市场仍然预计未来6到12个月油价将下跌，这一观点是合理的。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:13:05",
-      "content": "美联储威廉姆斯：美联储资产负债表政策将对监管变化做出反应。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:12:48",
-      "content": "美联储威廉姆斯：通胀水平仍然“过高”。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:12:14",
-      "content": "金十数据7月9日讯，据悉SK海力士将美国存托凭证（ADR）发行指导价定为每份149美元，较韩国收盘价溢价3.1%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:11:21",
-      "content": "美联储威廉姆斯：美联储在资产负债表方面的目标在于利率控制。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:10:36",
-      "content": "黄金多头发起反攻？上方还有多少上涨空间？金十VIP正在直播，立即观看>>",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:10:22",
-      "content": "美联储威廉姆斯：持有银行准备金的机会成本较低。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:10:02",
-      "content": "波兰央行行长：波兰今年已购入82吨黄金。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:09:19",
-      "content": "美联储威廉姆斯：资产负债表规模不应主导监管政策调整。监管规则制定应以银行稳健安全为核心。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:08:59",
-      "content": "【革命卫队：已成功摧毁约旦境内的空军基地】金十数据7月9日讯，伊朗革命卫队：已动用10枚弹道导弹，成功摧毁位于西亚地区的敌方指挥控制中心以及约旦境内的阿尔阿兹拉克空军基地。若美国再度发动侵略，区域内其他美国基地将同样无法躲避我们的猛烈火力。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:07:54",
-      "content": "【四川宜宾5.0级地震造成4人受轻微伤 震区社会秩序总体平稳】金十数据7月9日讯，7月8日6时12分，四川宜宾市高县（北纬28.52度，东经104.68度）发生5.0级地震，震源深度8千米。今天（9日）从宜宾市抗震救灾指挥部了解到，2026年7月8日高县地震发生后，市级相关部门、县（区）迅速行动，及时开展灾情排查和救灾工作。截至7月9日16时，因灾受轻微伤4人，初排房屋受损共计4309户。目前，震区社会秩序总体平稳，后续排查评估及灾后恢复工作推进中。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:07:44",
-      "content": "中东局势再次升温！黄金为何应声下跌？阿汤哥顺姐正在直播，点击观看！",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:07:36",
-      "content": "美联储威廉姆斯：不清楚美联储资产负债表还能缩减多少。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:07:33",
-      "content": "波兰央行行长：我们在黄金上拥有1275亿兹罗提的未实现利润。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:07:22",
-      "content": "“存储一哥”盈利大爆发，两大稀土龙头宣布降价，国产GPU巨头紧急辟谣：“订单排到明年”传闻不实......今日盘后有哪些值得关注的公告？",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:07:06",
-      "content": "金十图示：2026年07月09日（周四）投机情绪指数",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:06:40",
-      "content": "美联储威廉姆斯：资产负债表辩论不应围绕持仓的名义规模展开。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:06:33",
-      "content": "美联储威廉姆斯：流动性监管改革应牢记银行安全问题。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:05:33",
-      "content": "美联储威廉姆斯：我们对于调整准备金需求的方式已有良好认知。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:04:29",
-      "content": "美联储威廉姆斯：美联储的充足准备金体系旨在灵活应对，可以应对稳定币的影响。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:04:24",
-      "content": "美联储威廉姆斯：尚不清楚稳定币将如何影响储备需求。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:04:17",
-      "content": "据The Information：初创公司PrismML称已将270亿参数的AI模型压缩至可在iPhone上运行。苹果已与PrismML讨论其可能利用该技术的方式。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:04:07",
-      "content": "沪银主力合约日内涨超2.00%，现报14520.00元/千克。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:04:07",
-      "content": "过去美债是美元的天然避险托底，现在全靠追AI行情的散户热钱撑着，美元波动直接和AI产业周期绑在一起，稳定性大幅下降。点击查看...",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:03:45",
-      "content": "【美国拟探讨允许无方向盘的无人驾驶汽车上路】金十数据7月9日讯，美国最高汽车安全监管机构负责人表示，该机构“绝对”会考虑取消关于无人驾驶汽车必须配备方向盘的规定；此举若落实，将利好特斯拉及其他正在重新构想传统车辆设计的自动驾驶出租车公司。美国国家公路交通安全管理局（NHTSA）局长Jonathan Morrison周四在接受CNBC采访时表示：“如果你开发的车辆从设计之初就不打算由人类驾驶员操作，那么强制要求配备手动控制装置就毫无意义了。”NHTSA已于上个月更新了联邦安全标准，取消了自动驾驶车辆必须配备手动制动踏板的要求。这些变革是特朗普政府推动无人驾驶汽车法规现代化努力的一部分，可能为专用自动驾驶车辆（包括特斯拉的Cyber​​cab，这是一款不设方向盘或脚踏板的两座电动汽车）的推广扫清障碍。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:03:07",
-      "content": "【芯原股份：大基金拟减持不超0.2%股份】金十数据7月9日讯，芯原股份公告，公司股东国家集成电路产业投资基金因自身经营管理需要，计划通过集中竞价方式减持不超过105.18万股，占公司总股本比例不超过0.2%。减持期间为2026年7月31日至10月30日。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:01:16",
-      "content": "纽约期银日内涨幅达2.00%，现报59.87美元/盎司。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:01:09",
-      "content": "美国气象预报机构：厄尔尼诺现象仍在持续，并将持续增强至年底，有97%的概率将持续至2027年早春。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:00:05",
-      "content": "俄罗斯至7月7日当周央行黄金和外汇储备 7217亿美元，前值7152亿美元。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:00:02",
-      "content": "夜盘开盘，国内期货主力合约涨跌不一，沪锡涨超2%，沪银涨近2%，沪铜、沪锌、国际铜、纸浆、沪金涨超1%，沪镍涨近1%。跌幅方面，纯苯跌超1%，沥青跌近1%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:59:17",
-      "content": "美联储威廉姆斯：不认为稳定币会带来金融稳定性风险上升。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:58:36",
-      "content": "美联储威廉姆斯：我对稳定币所带来风险的担忧程度低于部分人士。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:58:20",
-      "content": "欧盟委员会执行副主席东布罗夫斯基斯：欧洲经济展现出韧性。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:57:09",
-      "content": "【美光将到2035年在美投资规模扩大至逾2500亿美元】金十数据7月9日讯，美光科技今日宣布，受AI时代存储需求激增推动，公司正加速推进其在美国的晶圆厂和技术投资计划，并预计到2035年将投资规模提升至逾2500亿美元。美光预计，投资增加将支持其实现美国本土生产40% DRAM的长期目标，同时创造更多直接和间接的高薪就业岗位。投资规模的扩大彰显了美光对其技术领先地位的信心，以及市场对其尖端存储产品的持续需求。美光还计划投资至多30亿美元，以发展国内半导体供应链生态系统，支持其美国制造布局。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:57:08",
-      "content": "美联储威廉姆斯：稳定币更多是关于支付，而非价值储存。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:57:03",
-      "content": "美联储威廉姆斯：关于稳定币的问题仍然处于早期阶段。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:56:58",
-      "content": "爱尔兰财政部长：需要加快从化石燃料的过渡。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:56:52",
-      "content": "欧盟委员会执行副主席东布罗夫斯基斯：由于伊朗冲突，市场面临高度不确定性和波动性。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:52:42",
-      "content": "【ST银江：因涉嫌信息披露违法违规 公司及控股股东被中国证监会立案】金十数据7月9日讯，ST银江公告，公司及控股股东银江科技集团有限公司7月9日收到中国证监会下发的《立案告知书》，因涉嫌信息披露违法违规，中国证监会决定对公司及控股股东立案。目前公司生产经营活动正常开展，该事项不会对公司生产经营产生重大影响。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:51:09",
-      "content": "阿尔及利亚国家石油公司：阿尔泽炼油厂发生一起事故，局势已完全受控。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:50:46",
-      "content": "国际黄金回落震荡，未来主线在哪里？当前风险是否已充分释放？Richard直播中将梳理关键因素，点击马上观看！",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:50:09",
-      "content": "上交所：上海燧原科技股份有限公司科创板IPO注册生效。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:50:00",
-      "content": "FOMC永久票委、纽约联储主席威廉姆斯将于十分钟后发表讲话。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:48:43",
-      "content": "美光科技(MU.O)：爱达荷州首座晶圆厂预计2027年中产出首批晶圆。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:48:29",
-      "content": "爱尔兰财政部长：希望能够全面恢复停火。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:48:24",
-      "content": "爱尔兰财政部长：看到中东局势恶化。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:48:04",
-      "content": "美光科技(MU.O)：爱达荷州项目进展迅速，预计2027年中投产。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:47:54",
-      "content": "据伊朗迈赫尔通讯社：伊朗克尔曼沙赫省遭空袭的报道不实。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:47:31",
-      "content": "黄金空头惨遭反杀！多头冲破4105后，空间已经打开？金十研究员Steven正在直播，立即观看>>",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:46:53",
-      "content": "市场消息：智利央行购入2500万美元。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:46:49",
-      "content": "【“普洱茶第一股”澜沧古茶自曝内控危机：前高管私挪千万公款，库存盘亏35吨茶叶】金十数据7月9日讯，近日，港股澜沧古茶(06911.HK)连发两条内幕消息公告，披露了公司上市后爆发的一系列重大内控危机。两名资深元老高管利用异地管理漏洞违规操作，致使上市公司卷入千万元级民间借贷纠纷、3100万元贸易担保诉讼及大批茶叶库存盘亏。系列重大治理漏洞引发港交所专项问询，也让市场对这家上市茶企的合规管控能力产生强烈质疑。7月9日，澜沧古茶官方称公司内部正在整改，具体事宜尚不清楚。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:46:44",
-      "content": "美光科技(MU.O)：在美国的多个项目预计将创造超过90,000个就业岗位。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:46:22",
-      "content": "美光科技(MU.O)：在纽约的项目预计将创造50,000个就业机会，其中包括9,000个直接就业岗位。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:46:14",
-      "content": "美光科技(MU.O)：目标是到一定时间节点，将美国本土的DRAM内存产量提升至公司全球总产量的40%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:45:53",
-      "content": "美光科技(MU.O)：计划到2035年将对美国的投资总额提升至超过2500亿美元。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:44:54",
-      "content": "欧洲天然气价格突破每兆瓦时50欧元关口，为近一个月来首次触及该水平。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:42:30",
-      "content": "国际现货黄金在基本面不利的情况下逆势上涨，但需突破...后才能摆脱不利局面；白银涨势良好，但打开局面还需克服......",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:41:42",
-      "content": "据伊朗媒体Mizan：在美军周四对伊朗发动的空袭中，有三名伊斯兰革命卫队成员丧生。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:40:43",
-      "content": "市场消息：在数艘油轮于霍尔木兹海峡遇袭后，卡塔尔已暂停其快速提升液化天然气产量的计划。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:40:37",
-      "content": "【美国初请失业金人数略有下降 劳动力市场保持稳定】金十数据7月9日讯，美国上周初请失业金人数下降，表明尽管6月就业增长放缓，劳动力市场仍保持稳定。美国劳工部周四公布的数据显示，截至7月4日当周，初请失业金人数经季节调整后减少2000人，至21.5万人（前值上修至21.7万人）。在5月底和6月初上升之后，初请失业金人数有所回落。经济学家大多认为此前的上升是噪音。尽管6月就业增长大幅放缓，且4月和5月非农就业数据被下修，但经济学家表示，劳动力市场并未发生实质性变化，仍处于“慢招聘、慢解雇”的状态。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:39:50",
-      "content": "重要新闻\n1. 伊朗发射超重型导弹，目标为海湾国家境内美军基地。\n个股新闻\n1. 美光科技(MU.O)：计划投资30亿美元，以强化美国本土半导体供应链。\n2. Meta Platforms(META.O)计划于9月开始生产一款AI芯片，作为其明年将总算力提升至14吉瓦计划的一部分。\n3. 星巴克(SBUX.O)借助人工智能减少对微软(MSFT.O)和IBM(IBM.N)软件的依赖。\n4. Meta Platforms(META.O)：宣布将在加拿大阿尔伯塔省建设一座价值130亿加元（约91.7亿美元）的数据中心。\n5. SK 海力士在美国的发行份额的认购倍数超7倍。\n6. 特斯拉(TSLA.O)三代Optimus初步定型，马斯克给供应链定下量产红线。\n7. 阿斯利康(AZN.O)表示，其与美国Ionis制药联合开发的Wainua未能达到试验主要目标。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:39:13",
-      "content": "现货白银日内涨幅扩大至2%，现报59.48美元/盎司。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:39:08",
-      "content": "百事公司首席执行官：受汽油价格上涨影响，消费者状况比预期更为糟糕。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:36:38",
-      "content": "价格在跌，散户在割，但COMEX的实物仓库正在以36年来最快的速度被搬空。贵金属行业老炮关于幕后买家身份的猜测，更令人瞠目结舌。点击查看...",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:35:19",
-      "content": "美光科技(MU.O)：将与环球晶圆探索下一代晶圆技术及工艺创新合作。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:34:06",
-      "content": "美光科技(MU.O)：与环球晶圆的供应协议将确保获得大量原始硅晶圆产能。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:33:19",
-      "content": "美光科技(MU.O)：此次融资支持旨在推进环球晶圆德州300毫米原始硅晶圆制造工厂的开发和制造能力。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:33:04",
-      "content": "美光科技(MU.O)：将与环球晶圆签署为期10年的供应协议。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:32:30",
-      "content": "【国产货运电船订单爆发】金十数据7月9日讯，据了解，模块化造船的设备成本投入大，一般用于海上大型船舶建造。近期企业内河货运电动船舶订单爆发，企业正积极推进智能化设备改造，实现全流程模块化建造，让造船周期比传统模式缩短一半以上。据业内人士介绍，目前企业已经累计接到了海内外订单有108艘，意向订单超过了400艘。24个船位已经进入满负荷运转阶段，智能制造车间2025年累计全年开工108艘，交付82艘。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:31:39",
-      "content": "美光科技(MU.O)：将为环球晶圆提供5亿美元融资。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:31:17",
-      "content": "【美银：受存储芯片产能扩张提振，Comet营收和利润率料将上升】金十数据7月9日讯，美国银行分析师表示，随着受益于存储芯片制造产能的扩张，Comet Holding的销售额到2028年底应会快速增长。总部位于瑞士的Comet生产用于制造存储芯片的零部件。随着各公司响应人工智能驱动的需求并建设新的存储芯片工厂，鉴于Comet拥有处理新订单的庞大产能，该公司将从中受益。美银上调了对Comet到2028年底盈利的营收和利润率预期。Comet股价在欧洲斯托克600指数成分股中领涨，涨幅近12%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:31:08",
-      "content": "台积电(TSM.N)：受台风影响，原定于周五公布的6月营收数据将推迟至下周一发布。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:30:43",
-      "content": "美光科技(MU.O)：计划投资30亿美元，以强化美国本土半导体供应链。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:30:03",
-      "content": "美国至6月27日当周续请失业金人数 181.4万人，预期181.5万人，前值由181.4万人修正为180.6万人。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:30:03",
-      "content": "美国至7月4日当周初请失业金人数四周均值 21.875万人，前值由22.2万人修正为22.25万人。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:30:03",
-      "content": "美国至7月4日当周初请失业金人数 21.5万人，预期21.8万人，前值由21.5万人修正为21.7万人。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:29:23",
-      "content": "【通业科技：股东天津英伟达拟减持不超过3%股份】金十数据7月9日讯，通业科技公告，持股5%以上股东天津英伟达创业投资合伙企业(有限合伙)持有公司股份2856万股(占总股本19.77%)，计划自公告披露之日起15个交易日后的3个月内，通过集中竞价、大宗交易方式减持不超过433.33万股(不超过总股本的3%)。其中，集中竞价交易方式在任意连续90个自然日内减持不超过总股本的1%(即144.44万股)，大宗交易方式不超过总股本的2%(即288.89万股)。减持原因为自身资金需求，价格根据市场价确定。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:27:48",
-      "content": "百事公司CFO：关税退款将有助于抵消商品成本。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:27:04",
-      "content": "百事公司首席执行官：伊朗战争，天然气价格正在产生全球影响。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:26:00",
-      "content": "以色列总理内塔尼亚胡：打击伊朗就如同从体内消灭癌细胞。如果你不消灭癌细胞，你就会死。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:25:46",
-      "content": "特朗普大闹北约峰会，一顿痛骂之后，会后签署的文件竟然还另有盘算？当欧洲签下天价账单之后，这会如何改写欧元与金油价格？",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:24:52",
-      "content": "霍尔木兹海峡正常化受阻！国际金上攻信心回落？中东局势再度升温有何影响？TTPS交易学院正在直播中，立即观看！",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:24:29",
-      "content": "【六周测试无重大问题 Meta计划9月量产“Iris”芯片】金十数据7月9日讯，一份内部备忘录显示，Meta Platforms计划于9月开始生产一款AI芯片，作为其明年将总算力提升至14吉瓦计划的一部分。这款代号为“Iris”的数据中心芯片是Meta训练与推理加速器（MTIA）四代自研项目的一部分。该公司计划利用定制芯片来改进其Facebook和Instagram社交媒体平台所驱动的AI能力。备忘录显示，该芯片的测试仅用时六周，未发现重大问题。这相对较快的进展，标志着这一自五年前启动以来便进展不顺的内部项目正释放出积极信号。Meta根据自身需求定制该芯片，并与博通合作设计、与台积电合作制造。该方案有望帮助公司降低庞大的计算成本，并减少对英伟达和AMD等芯片供应商的依赖。此前未有关于该芯片完成漏洞测试和生产时间的报道。Meta拒绝置评。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:23:42",
-      "content": "【伊朗革命卫队：美方袭击“严重扰乱”了海峡航运的恢复】金十数据7月9日讯，伊朗革命卫队表示，美军的打击行动不仅会引发伊朗“毁灭性的反击”，还会扰乱霍尔木兹海峡这一关键航道的交通。伊朗革命卫队在一份声明中指出，目前的航运量已恢复至战前水平的50%，并将当前的航运中断归咎于华盛顿在航线问题上的“冒险主义和干涉行径”。声明还强调：“外国势力在这片土地及霍尔木兹海峡没有任何利益可言。”",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:22:40",
-      "content": "黎巴嫩外长：任何组织或武装团体都无权垄断国家决策。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:22:29",
-      "content": "以色列总理内塔尼亚胡：必须建立新联盟、发展新关系。这正是我此刻正在与印度做的。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:21:53",
-      "content": "花旗银行：飙升的内存价格将导致广泛的需求破坏，预测2026年个人电脑出货量将下降15%，智能手机出货量将下降12%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:20:00",
-      "content": "美国至7月4日当周初请失业金人数将于十分钟后公布。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:19:59",
-      "content": "美国贸易代表格里尔：美国总统特朗普对西班牙有多种选择。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:16:25",
-      "content": "大众汽车工会主席卡瓦洛：我们正在看到德国的去工业化现象。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:16:03",
-      "content": "黄金多头反攻！站上4105后，多头剑指何方？金十研究员Steven正在直播，立即观看>>",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:15:23",
-      "content": "美国贸易代表格里尔称赞苹果与美光近期发布的制造业投资计划。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:14:34",
-      "content": "知情人士称，乌军近期一系列纵深打击激化了普京报复意愿，他决心彻底拿下顿巴斯全境。俄军方各界甚至公开讨论打击欧洲北约目标的预案。点击查看...",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:14:13",
-      "content": "Meta Platforms(META.O)盘前跌3.6%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:12:31",
-      "content": "美国贸易代表格里尔：不久后将对巴西采取最终行动。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:12:28",
-      "content": "【*ST沐邦：新增累计诉讼涉案2728.49万元 资产安全受影响】金十数据7月9日讯，*ST沐邦公告，自2026年6月5日披露相关公告后，公司及控股子公司新增累计诉讼、仲裁案件36起，涉案金额2728.49万元，占2025年度经审计归母净资产的18.71%，公司均为被告。因部分案件未判决或结案，对公司利润影响不确定，涉诉潜在偿付义务已影响资产安全。此外，公司重整、退市等均存风险，提醒投资者注意。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:12:26",
-      "content": "美国贸易代表格里尔：我们与巴西达成协议仍有很大距离。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:11:01",
-      "content": "美伊冲突再起，美元还会维持偏强走势吗？国际黄金是否进一步承压？Richard正在多角度解析中，点击马上看直播！",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:10:38",
-      "content": "【大唐发电：拟募资不超过80亿元用于多个电厂扩建项目】金十数据7月9日讯，大唐发电公告，公司拟向特定对象发行A股股票，募集资金总额不超过80亿元，扣除发行费用后净额拟用于大唐抚州电厂2×1000MW扩建工程项目、大唐吕四港2×100万千瓦扩建项目、大唐潮州电厂5-6号机组项目、台州头门港电厂项目及补充流动资金和偿还国拨资金专项应付款。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:10:24",
-      "content": "金十图示：2026年07月09日（周四）中国工商银行账户贵金属行情",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:10:23",
-      "content": "现货白银短线拉升逾0.3美元，最新报59.18美元/盎司。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:09:43",
-      "content": "美国贸易代表格里尔：最终的301调查报告应在不久后发布。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:09:04",
-      "content": "现货黄金日内涨幅扩大至1%，现报4118.26美元/盎司。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:08:45",
-      "content": "美国贸易代表格里尔：预计很快会有关于对加拿大和墨西哥301调查的结果。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:08:19",
-      "content": "英国外交大臣：伊朗意图将霍尔木兹海峡当做自己的筹码。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:07:49",
-      "content": "根据最新经纪商挂单数据，国际现货黄金徘徊在4100美元附近，上方空单密集；美日现价附近空单集中……点击查看最新报告",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:07:44",
-      "content": "【欧洲央行会议纪要：能源冲击成为一个无法忽视的因素】金十数据7月9日讯，欧洲央行6月份会议纪要显示，该行已无法忽视能源冲击，原因是预计能源价格上涨将推动中期通胀率升破其2%的目标。欧洲央行管委会上月一致决定将关键利率上调至2.25%，成为首个因伊朗战争导致能源价格高企而加息的主要央行。会议纪要称：“目前的情况显然已不再属于可以对冲击置之不理的情形。”“能源价格维持高位的时间越长，就越有可能通过间接和第二轮效应推高更广泛的通胀。这种情况会增加能源冲击固化于基本通胀以及中长期通胀预期之中的风险”。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 20:07:24",
-      "content": "【海南海药：股票异常波动 不存在未披露重大事项】金十数据7月9日讯，海南海药公告，公司股票于2026年7月7日、7月8日、7月9日连续3个交易日收盘价格跌幅偏离值累计达到20%以上，属于股票交易异常波动。经核查，公司前期披露信息无需更正、补充，近期经营正常，内外部环境无重大变化，公司、控股股东和实控人不存在应披露未披露重大事项，异常波动期间未买卖公司股票。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
     }
   ],
   "shmet": [
     {
-      "datetime": "2026-07-09 21:31:28",
-      "content": "【快讯】SHMET07月09日讯，费城半导体指数开盘上涨5%。",
+      "datetime": "2026-07-10 00:07:35",
+      "content": "【快讯】SHMET07月10日讯，麦格理恢复跟踪烟台杰瑞石油服务集团股份有限公司，评级为跑赢大盘。目标价209元人民币，即上涨24%。",
       "important": 0,
       "source": "shmet",
       "sentiment": "bull",
       "steel": false
     },
     {
-      "datetime": "2026-07-09 21:28:18",
-      "content": "【快讯】SHMET07月09日讯，美联储威廉姆斯：暂时未见通胀第二轮效应的迹象。",
+      "datetime": "2026-07-10 00:01:54",
+      "content": "【快讯】SHMET07月10日讯，据房利美，美国30年期抵押贷款利率上升至6.49%。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-09 21:27:33",
-      "content": "【快讯】SHMET07月09日讯，波兰央行行长：我认为今年降息的可能性很大。",
+      "datetime": "2026-07-09 23:57:31",
+      "content": "【快讯】SHMET07月09日讯，巴西政府决定维持石油出口税。巴西工业部表示，该决定旨在维持国内适宜的炼油条件，以保护巴西国内市场。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-09 21:26:40",
-      "content": "【快讯】SHMET07月09日讯，美联储威廉姆斯：若通胀最终高于我的基准预测，政策将不得不作出回应。",
+      "datetime": "2026-07-09 23:50:24",
+      "content": "【快讯】SHMET07月09日讯，美国总统特朗普：（谈及伊朗）我们在很多方面都取得胜利。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-09 21:26:27",
-      "content": "【快讯】SHMET07月09日讯，美联储威廉姆斯：下半年PCE环比上涨0.2%将与通胀目标相符。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-09 21:26:09",
-      "content": "【快讯】SHMET07月09日讯，美联储威廉姆斯：美国劳动力市场表现出色，当前风险主要在通胀方面。",
+      "datetime": "2026-07-09 23:48:07",
+      "content": "【快讯】SHMET07月09日讯，SC原油主力合约跌超3%，现报466.3元/桶。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-09 21:25:53",
-      "content": "【快讯】SHMET07月09日讯，美联储威廉姆斯：劳动力市场非常稳定。",
+      "datetime": "2026-07-09 23:47:43",
+      "content": "【美油、布油期货跌超2%】SHMET07月09日讯，国际油价走低，WTI原油期货价格跌2.19%，报71.909美元/桶；布伦特原油期货价格跌2.04%，报76.432美元/桶。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-09 21:25:45",
-      "content": "【快讯】SHMET07月09日讯，美联储威廉姆斯：我们需要观察货币政策如何对数据做出反应。",
+      "datetime": "2026-07-09 23:46:38",
+      "content": "【快讯】SHMET07月09日讯，以色列总理内塔尼亚胡：我已决定在未来十年内向国防预算追加3500亿谢克尔。其中很大一部分资金将用于空军。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-09 21:25:18",
-      "content": "【【国际金美盘资金温度计上新！】SHMET07月09日讯，开盘脉冲偏弱，接力动能处于30日最低水平】截至2026年07月09日的数据显示，美盘开盘前15分钟成交量处于7%分位，显著低于近30天平均水平，整体处于偏低区间，开盘阶段成交承接力度不足。与此同时，行情接力动能触及30日最低值，大幅低于近30天平均水平，整体处在极弱区间，行情延续能力严重不足。",
+      "datetime": "2026-07-09 23:45:21",
+      "content": "【快讯】SHMET07月09日讯，据伊朗媒体：哈马斯发言人哈齐姆·卡西姆在以色列的一次暗杀企图中幸免于难。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-09 21:25:03",
-      "content": "【快讯】SHMET07月09日讯，伊拉克部长会见土耳其能源部长，讨论石油和天然气合作。",
+      "datetime": "2026-07-09 23:40:52",
+      "content": "【快讯】SHMET07月09日讯，以色列总理内塔尼亚胡：在对抗过程中，对敌人采取先发制人的打击是不可避免的，我们已经这样做了，并将继续下去。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-09 23:39:09",
+      "content": "【快讯】SHMET07月09日讯，玻利维亚能源部长：下周将成立工作组研究巴西石油公司重新进入玻利维亚的事宜。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
@@ -1263,8 +1215,24 @@
   ],
   "steel_highlight": [
     {
-      "datetime": "2026-07-09 21:15:45",
-      "content": "焦煤主力合约日内跌超2.00%，现报1264.00元/吨。",
+      "datetime": "2026-07-09 23:00:20",
+      "content": "截至23:00收盘，国内期货主力合约涨跌互现。纸浆涨超2%，焦煤、纯苯、焦炭跌超2%。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": true
+    },
+    {
+      "datetime": "2026-07-09 22:21:11",
+      "content": "焦煤、焦炭主力合约跌幅扩大至逾3%，分别报1250.5元/吨、1890.5元/吨。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": true
+    },
+    {
+      "datetime": "2026-07-09 22:04:40",
+      "content": "焦炭主力合约日内跌幅达2.00%，现报1910.50元/吨。",
       "important": 1,
       "source": "jin10",
       "sentiment": "neutral",
