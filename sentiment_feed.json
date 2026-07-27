@@ -1,7 +1,903 @@
 {
   "source": "jin10 flash + shmet + shfe weekly stock",
-  "generated_at": "2026-07-27T13:29:27.384886+00:00",
+  "generated_at": "2026-07-27T16:03:25.887026+00:00",
   "jin10": [
+    {
+      "datetime": "2026-07-28 00:00:00",
+      "content": "【今日重点关注的财经数据与事件：2026年7月28日 周二】\n① 待定 以色列总理内塔尼亚胡会晤特朗普\n② 11:05 澳洲联储主席布洛克发表讲话\n③ 20:15 美国至7月11日当周ADP就业人数周度变动\n④ 21:00 美国5月FHFA房价指数月率\n⑤ 21:00 美国5月S&P/CS20座大城市房价指数年率\n⑥ 22:00 美国7月谘商会消费者信心指数\n⑦ 22:00 美国7月里奇蒙德联储制造业指数\n⑧ 次日04:30 美国至7月24日当周API原油库存",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 23:51:57",
+      "content": "据伊通社（IRNA）：巴基斯坦内政部长突访多哈，与卡塔尔同行会晤，讨论安全事务。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 23:51:21",
+      "content": "美国在封锁伊朗期间已引导17艘商船更改航向。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 23:50:34",
+      "content": "亚马逊：AWS在亚太地区（东京）推出AWS Healthomics服务。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 23:50:01",
+      "content": "【美股芯片股下挫 费城半导体指数跌约5%】金十数据7月27日讯，美股芯片股下挫，费城半导体指数现跌约5%，AMD(AMD.O)跌超8%，英伟达(NVDA.O)跌超7%，英特尔(INTC.O)跌近4%。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 23:47:27",
+      "content": "英国首相伯纳姆希望加强与科威特的防务合作。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 23:46:09",
+      "content": "【凯投宏观：到2027年美联储政策可能与欧洲央行、英国央行出现分化】金十数据7月27日讯，凯投宏观经济学家Neil Shearing在一份报告中表示，虽然市场反映了对美联储、英国央行和欧洲央行到2027年中期加息略超50个基点的预期，但到明年，政策路径可能会出现分化。他说，如果伊朗战争结束，能源价格将回落，内部经济基本面将成为货币政策的主要驱动力。然而，英国和欧元区的内在通胀压力较弱。美国的情况则有所不同，其财政政策也依然较为宽松。Shearing说，越来越难以证明市场反映的欧洲央行和英国央行紧缩预期是合理的，不过美联储可能在不久后恢复紧缩政策。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 23:46:04",
+      "content": "英国首相伯纳姆：希望加强与卡塔尔的防务关系。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 23:44:13",
+      "content": "英伟达(NVDA.O)跌幅扩大至5%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 23:41:10",
+      "content": "亚美尼亚政府：亚美尼亚总理向俄罗斯总统普京寻求解决关于俄罗斯对亚美尼亚出口限制的问题。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 23:40:59",
+      "content": "金十图示：2026年07月27日（周一）全球股市指数-欧洲市场",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 23:38:58",
+      "content": "英国首相办公室：英国首相伯纳姆与阿联酋总统通电话，表示希望加强与阿联酋的贸易联系。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 23:38:11",
+      "content": "亚美尼亚政府：俄罗斯总统普京与亚美尼亚总理帕希尼扬通电话。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 23:36:45",
+      "content": "德国DAX30指数7月27日（周一）收盘上涨280.47点，涨幅1.12%，报25372.16点；\n英国富时100指数7月27日（周一）收盘上涨46.56点，涨幅0.43%，报10782.79点；\n法国CAC40指数7月27日（周一）收盘上涨33.78点，涨幅0.40%，报8406.06点；\n欧洲斯托克50指数7月27日（周一）收盘上涨3.41点，涨幅0.05%，报6284.35点；\n西班牙IBEX35指数7月27日（周一）收盘上涨157.21点，涨幅0.80%，报19742.91点；\n意大利富时MIB指数7月27日（周一）收盘上涨253.77点，涨幅0.49%，报52056.00点。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 23:34:44",
+      "content": "美国两年期国债收益率走低，报4.315%，拍卖前为4.320%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 23:34:03",
+      "content": "美国财政部拍卖690亿美元两年期国债，得标利率4.315%，投标倍数2.66（前次为2.64）。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 23:32:08",
+      "content": "美国至7月27日6个月国债竞拍-投标倍数 3.12，前值2.94。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 23:32:08",
+      "content": "美国至7月27日6个月国债竞拍-得标利率配置百分比 36.13%，前值51.45%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 23:32:08",
+      "content": "美国至7月27日6个月国债竞拍-得标利率 3.945%，前值3.84%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 23:31:17",
+      "content": "周一油价因地缘降温而急挫，但美债收益率却不肯放弃高位；给市场定价的那只手，其实已经悄悄换人了！一文解析喊不动资金的行情为何会变成常态？",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 23:28:52",
+      "content": "KimiAI：已经开源了MoonEP，这是针对分布式MoE工作负载打造的高性能通信库。MoonEP旨在提升大规模场景下专家并行通信效率，帮助降低大型MoE模型在训练和推理系统中的通信开销。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 23:22:51",
+      "content": "英国首相伯纳姆：下次预算不会改变或取消房地产购买印花税。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 23:22:22",
+      "content": "【保时捷将在德国再裁员5000人】金十数据7月27日讯，德国跑车制造商保时捷27日宣布，将于2035年前在德国再裁减5000个工作岗位。这是该公司近期又一轮大规模裁员计划，旨在降低人力成本、提升竞争力。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 23:21:18",
+      "content": "SC原油主力合约日内大跌4.00%，现报542.40元/桶。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 23:21:17",
+      "content": "长鑫科技上市首日创下多项记录，A股新股王诞生；SpaceX高位腰斩，热门科技股博弈进入杠杆时代？",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 23:20:35",
+      "content": "Kimi AI：此外，该款模型还具有全新的模型架构，单位计算资源带来的智能水平提升了2.5倍，并非只是简单增加参数规模。与此同时，除了Kimi K3，我们还将开放更多支撑该模型运行的技术栈，包括高性能注意力计算内核、MoE通信库和支持大规模运行智能体环境的基础设施。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 23:17:19",
+      "content": "【Kimi AI发布 Kimi K3的模型权重和技术报告】金十数据7月27日讯，Kimi AI发布 Kimi K3的模型权重和技术报告。Kimi K3是我们目前能力最强的模型，这款模型拥有2.8万亿参数的 MoE（混合专家）模型，具备原生视觉理解能力，并支持100万 Token上下文窗口。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 23:12:54",
+      "content": "【特朗普：伊朗谈判窗口有限，若谈判破裂将重启军事行动】金十数据7月27日讯，美国总统特朗普表示，我们正在与伊朗进行深入谈判，谈判的窗口期有限，不会给伊朗太多谈判时间。特朗普警告称如果谈判破裂，美国将重启“威力巨大”的军事行动。特朗普表示，我决定暂停对伊朗的攻击，是因为调解方请求给予谈判的机会。应调解方的请求，我同意提供一个进行会谈的机会。我认为伊朗人想达成协议。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 23:09:32",
+      "content": "土耳其总统府：伊拉克总理应土耳其总统埃尔多安的邀请，将于周二将前往安卡拉。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 23:09:23",
+      "content": "国内新闻\n1. 市场人士：行情接入方式变更属常规操作，不针对量化交易。\n2. 商务部新闻发言人就美发布“强迫劳动”301调查最终措施答记者问。\n3. 中央结算公司：拟调降部分主营业务收费，全额免除熊猫债发行登记服务费。\n4. 商务部新闻发言人就美宣称拟对中国人工智能企业开展调查并实施制裁答记者问。\n国际新闻\n1. 英伟达拟为OpenAI数据中心项目提供2500亿美元财务担保。\n2. 据悉瑞士央行计划维持零利率至2027年底。\n3. 英伟达投资Ilya Sutskever的新AI实验室，以扩大其算力版图。\n4. 中东局势—\n①伊朗称并未要求与美国恢复谈判。\n②伊朗称与阿曼就霍尔木兹海峡进行的会谈与美国无关。\n③伊朗称不会允许美国决定和平与战争的时机。\n④沙特称拦截并摧毁了从伊拉克领土发射的无人机。\n⑤胡塞武装称打击沙特的原油运输基础设施。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 23:08:12",
+      "content": "据The Information：英伟达在OpenAI联合创始人伊利亚·苏茨克沃的安全超级智能项目中投资达数十亿美元。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 23:06:22",
+      "content": "据以色列第12频道：美国总统特朗普表示，他不会在谈判上花费太多时间；如果谈判失败，他将依靠强有力的军事措施。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 22:59:30",
+      "content": "【市场人士：行情接入方式变更属常规操作】金十数据7月27日讯，7月27日，部分券商收到交易所通知并公告：交易所机房内交易行情接入方式统一变更为广域网线路，原局域网交易线路将于2026年7月31日晚间正式关闭。券商将配合实施交易行情接入模式优化调整工作。从接近监管的市场人士处获悉，此次属于常规操作，沪深交易所会同步进行，并不针对包括量化在内的特定交易。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 22:56:08",
+      "content": "【大众汽车否认呼吁欧盟对中国混动汽车加征关税】金十数据7月27日讯，大众汽车集团发布声明称，2026年上半年财报电话会议上，大众汽车集团管理董事会主席奥博穆就自由公平的贸易环境这一话题表态。对于当下，欧洲正在讨论的拟对从中国进口至欧洲的混动车辆加征关税的议题，大众集团CEO奥博穆并未明确呼吁加征关税，而是倡导全面考量各类潜在方案，保障欧洲与全球其他地区之间形成公平的竞争环境。这其中，包括支持中国整车企业在欧洲实现本土化生产。他同时强调，若欧盟未来最终决定加征相关关税，为维护与中国的健康贸易关系，该关税税率不应超过当前对纯电车型已实施的关税水平。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 22:54:55",
+      "content": "阿姆斯特丹上市的ASML和BESI恢复交易，跌幅在7.4%-8%之间。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 22:53:42",
+      "content": "俄罗斯总统普京签署法令，增加俄罗斯武装部队人员编制2.5万人。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 22:51:58",
+      "content": "德国半导体板块走低，英飞凌跌约3%，Siltronic AG跌约4%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 22:48:06",
+      "content": "焦煤主力合约日内跌超2.00%，现报1245.00元/吨。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": true
+    },
+    {
+      "datetime": "2026-07-27 22:44:06",
+      "content": "伊朗议会议员哈兹里安：从法律角度来看，阿曼无法在未与伊朗协调的情况下开放霍尔木兹海峡。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 22:43:33",
+      "content": "阿姆斯特丹上市的ASML和贝思半导体在跌至8%至8.7%后自动停牌。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 22:40:23",
+      "content": "俄罗斯国防部：俄罗斯军队还袭击了切尔诺莫尔斯克和尼古拉耶夫的港口。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 22:39:59",
+      "content": "纳斯达克100指数跌超1%，触及自5月4日以来的最低点。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 22:39:12",
+      "content": "俄罗斯国防部：俄罗斯军队袭击了乌克兰敖德萨港的设施。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 22:35:57",
+      "content": "美联储加息概率大幅飙升，新任主席沃什的鹰派作风令市场神经紧绷。花旗策略团队警告，随着联储沟通减少、数据依赖增强，小盘股已成脆弱目标。点击查看…",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 22:34:03",
+      "content": "美国7月达拉斯联储制造业就业指数 12.2，前值13.9。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 22:33:50",
+      "content": "美国7月达拉斯联储新订单指数 6.4，前值2.3。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 22:33:38",
+      "content": "美国7月达拉斯联储制成品价格指数 25.6，前值28.6。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 22:33:32",
+      "content": "美国7月达拉斯联储制造业原材料支付价格指数 41.3，前值42.4。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 22:33:25",
+      "content": "美国7月达拉斯联储制造业装船指数 8.8，前值7.1。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 22:32:18",
+      "content": "美国7月达拉斯联储制造业产出指数 10.1，前值4.1。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 22:31:13",
+      "content": "美国7月达拉斯联储商业活动指数录得1.3，为2025年1月以来新高。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 22:31:02",
+      "content": "SpaceX(SPCX.O)跌幅扩大至5%。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 22:30:27",
+      "content": "美国7月达拉斯联储商业活动指数 1.3，前值0。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 22:30:18",
+      "content": "【奥尔特曼本周将会见特朗普政府官员，“预展”新AI模型的功能】金十数据7月27日讯，据CNBC报道，OpenAI创始人奥尔特曼本周将在华盛顿特区会见特朗普政府的高级官员、议员及经济学家，旨在预先展示该公司即将推出的一系列人工智能模型的功能。知情人士透露，除了展示OpenAI即将发布的产品外，奥尔特曼预计还将回答政策制定者关于网络安全以及公司对开放权重模型立场的问题。奥尔特曼很可能还会谈及OpenAI本月早些时候披露的一起“前所未有的网络安全事件”，该事件曾在整个科技界的研究人员和高管中引发震动。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 22:28:57",
+      "content": "【美股存储概念跌幅持续扩大】金十数据7月27日讯，美股存储概念板块回吐盘初涨幅，跌幅持续扩大，闪迪(SNDK.O)跌超11%，SK海力士(SKHY.O)跌超7%，美光科技(MU.O)跌超5%。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 22:25:13",
+      "content": "据CNBC：OpenAI创始人奥尔特曼将与美国高级官员预览新模型。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 22:24:40",
+      "content": "据纽约时报：派拉蒙CEO大卫·艾利森通过电子邮件告知与华纳兄弟的交易已暂停。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 22:24:25",
+      "content": "【汇丰：除非美联储加息，否则美元不太可能大幅上涨】金十数据7月27日讯，汇丰经济学Paul Mackel在一份报告中表示，除非美联储出人意料地加息，否则其本周的决定可能不会给美元带来新的上涨催化剂。美联储主席沃什已经承认通胀高于目标，并表达了对价格稳定的承诺。他说，如果本周会议只是符合这些观点，美元不太可能大幅上涨，因为市场已经为今年晚些时候的加息做好了准备。“不过，我们也认识到，一些人正在考虑美联储出人意料加息的想法，就像它在1994年2月突然做的那样。”他说，如果市场将其视为谨慎之举而表示欢迎，这将提振美元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 22:23:17",
+      "content": "约旦外交部：约旦副总理兼外交部长艾曼·萨法迪正在与联合国秘书长安东尼奥·古特雷斯进行广泛的会谈。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 22:20:00",
+      "content": "美国7月达拉斯联储商业活动指数将于十分钟后公布。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 22:16:59",
+      "content": "【花旗坚持押注本周美联储将按兵不动】金十数据7月27日讯，花旗集团交易员押注本周美联储将维持利率不变。据该行全球短期利率交易主管Akshay Singal透露，如果美联储维持利率稳定，其所持头寸将获利。Singal表示：“我们依然坚持预期利率将保持不变。”他补充道，美联储主席沃什已明确表态，希望市场关注数据，而数据表明美联储目前无需加息。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 22:16:09",
+      "content": "【美光科技总市值跌破万亿美元】金十数据7月27日讯，美光科技(MU.O)股价跌超4%，报881美元/股，总市值报9940亿美元。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 22:13:59",
+      "content": "红海危机正在与霍尔木兹海峡紧张局势叠加。研究人员警告，如果曼德海峡、苏伊士运河和霍尔木兹海峡同时受到影响，全球航运可能面临前所未有的“三重咽喉点危机”。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 22:12:20",
+      "content": "卡塔尔外交部：重申卡塔尔全力支持沙特为维护其主权和安全所采取的所有措施。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 22:09:09",
+      "content": "【应急管理部：抓好矿山、消防、危化、烟花爆竹、工贸等重点行业领域专项整治】金十数据7月27日讯，7月27日，应急管理部召开党委会议、部务会议。会议要求，紧盯台风“红霞”后续影响，强化监测预警，严防局地极端强降雨造成人员伤亡。要抓实“七下八上”防汛关键期各项防范工作，督促各地在高风险区预置力量、物资、装备，遇到险情快速响应、有效处置。要扎实开展中央安全生产考核巡查三季度明查暗访，督促各地各有关部门严格落实责任，抓好矿山、消防、危化、烟花爆竹、工贸等重点行业领域专项整治，强化风险研判和针对性部署，坚决稳控安全生产形势。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 22:08:39",
+      "content": "贝克休斯：预计伊朗冲突对部分项目和供应链的影响将被其他地区的强劲表现所抵消。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 22:08:16",
+      "content": "美股回吐部分涨幅，纳斯达克100指数一度转跌。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 22:07:22",
+      "content": "据Politico：欧盟委员会考虑修改大型企业税以解锁预算协议。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 22:06:32",
+      "content": "市场消息：乌克兰提请的联合国安理会紧急会议即将召开。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 22:05:50",
+      "content": "俄罗斯外交部发言人：（谈乌克兰问题）我们愿意考虑新的想法和建议。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 22:05:38",
+      "content": "贝克休斯：预计由于中东冲突，地区设施将面临更高的物流和通胀压力。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 22:04:44",
+      "content": "【工信部印发《“小快轻准”数字化产品和服务培育指引（2026年版）》】金十数据7月27日讯，工信部印发《“小快轻准”数字化产品和服务培育指引（2026年版）》，旨在引导服务商紧密围绕中小企业在创新、提质、降本、增效、绿色、安全等方面数字化转型需求，促进数字化产品与服务供需适配，加快中小企业数字化转型，为各地中小企业主管部门遴选培育“小快轻准”数字化产品和服务提供参考指引。“小快轻准”，即小型化、快速化、轻量化、精准化。指引要求，坚持需求牵引，以中小企业数字化转型需求为导向，紧扣转型痛点；鼓励地方因地制宜细化培育标准，建立分类分级培育体系；加强政策协同和资源统筹，加快构建多方参与、优势互补的中小企业数字化转型服务供给生态。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 22:01:58",
+      "content": "【伊朗最高领袖重申对真主党的支持】金十数据7月27日讯，据伊朗国家媒体公布的一封信件显示，伊朗最高领袖穆杰塔巴·哈梅内伊重申了对真主党的支持，并表示伊朗已将维护黎巴嫩领土完整，以及以色列军事行动在黎巴嫩境内彻底、无条件结束，作为其与美国达成结束战争谅解备忘录的首要条件。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 22:00:44",
+      "content": "金十图示：2026年07月27日（周一）全球股市指数-美洲市场（盘初）",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 21:58:07",
+      "content": "【高通朱元堃：个人AI必须具备三大核心能力】金十数据7月27日讯，高通公司产品技术专家朱元堃表示，个人AI必须具备个性化、全时感知、隐私安全三大核心能力，传统计算架构正迎来系统性重塑。感知、记忆、推理、工具执行四大能力模块将共同构成未来智能体体验的基础，并成为芯片软硬件设计和操作系统设计未来发展的核心命题。此外，端云协同将成为智能体充分利用云端和终端不同计算和场景优势，实现真正个性化且高效的智能体AI体验的必然方向。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 21:56:56",
+      "content": "SpaceX(SPCX.O)股价刷新上市以来低位，现跌约4%，报110.3美元。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 21:55:27",
+      "content": "纯碱主力合约日内跌幅达2.00%，现报980.00元/吨，再创上市以来新低。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 21:53:31",
+      "content": "【国务院国资委：将深入推进央企“AI+”专项行动 加快算力基础设施建设】金十数据7月27日讯，2026世界人工智能大会期间，国务院国资委在“智赋新质 全域焕新”企业人工智能高质量发展论坛正式发布第二批央企人工智能战略性高价值场景和行业高质量数据集，上线AI开源“焕新社区”2.0，启动国资央企智能软件工厂联合筑基工程。下一步，国务院国资委将深入推进央企“AI+”专项行动。聚焦高价值场景，加快人工智能赋能千行百业，主动向产业链开放场景资源，联合上下游同题共答、协同创新。加强关键要素供给，加快算力基础设施建设，深化算电协同，提升全链条数据治理能力，夯实智能化产业发展底座。推动开源开放，培育互利共赢产业生态，为加快构建现代化产业体系、打造智能经济新形态注入强劲动能。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 21:52:54",
+      "content": "贝克休斯：预计到2030年电力系统业务潜在市场规模约达1000亿美元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 21:50:56",
+      "content": "伊朗副外长加里布阿巴迪：在伊斯兰堡会谈中，美方提出了2项极端要求，并表示如果不接受这些要求，谈判就会失败，他们将离开；我们拒绝了这些要求，并告诉他们可以回去了。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 21:50:47",
+      "content": "金十图示：2026年07月27日（周一）华尔街恐惧与贪婪指数（美盘初）",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 21:49:24",
+      "content": "瑞银集团：将微软(MSFT.O)目标价从510美元下调至480美元。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 21:48:30",
+      "content": "贝克休斯：预计2026年全球上游支出将同比小幅下降。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 21:48:22",
+      "content": "贝克休斯：能源安全支持上游和基础设施市场的持续投资。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 21:48:06",
+      "content": "美国软件公司美股盘初走高，Salesforce(CRM.N)涨超3%，甲骨文(ORCL.N)涨约5%，ServiceNow(NOW.N)涨近4%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 21:47:05",
+      "content": "【住房城乡建设部：进一步加强城市桥梁安全管理工作】金十数据7月27日讯，住房城乡建设部办公厅发布关于进一步加强城市桥梁安全管理工作的通知。通知提出，加强汛期桥梁安全管理。当前，全国已全面进入汛期，城市桥梁主管部门要加强与气象、水利、自然资源等部门协同联动，扎实做好极端天气以及涉水、涉地质灾害等风险提示及防范应对工作。重点聚焦桥梁基础冲刷、边坡稳定和畅通排水设施等，全面开展防汛安全风险隐患排查。主动协调河道管理部门，及时清理河道内堆积物及可能影响桥梁安全的大型漂流物，确保行洪畅通。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 21:46:07",
+      "content": "金十图示：2026年07月27日（周一）美盘市场行情一览",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 21:45:49",
+      "content": "【美国天然气期货延续跌势】金十数据7月27日讯，美国天然气期货走低，受多种因素综合影响，包括8月份高温推动电力行业需求的风险降低，以及美国暂停对伊朗军事打击导致石油和欧洲天然气价格走低。EBW Analytics分析师Eli Rubin在一份报告中表示，液化天然气原料气需求疲软和产量增加加剧了疲软的前景。“虽然得克萨斯州的高温可能提供短期支撑，但墨西哥湾沿岸和东南部气温下降可能会抑制价格上行风险。”",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 21:45:07",
+      "content": "以色列总理内塔尼亚胡周一启程访美，计划在海湖庄园与特朗普举行首脑会晤。此次访美既是解决伊朗危机的战略磋商，也是内塔尼亚胡在大选前夕挽救政治生涯的博弈。点击查看…",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 21:44:53",
+      "content": "金十图示：2026年07月27日（周一）美股热门股票行情一览",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 21:44:46",
+      "content": "【波罗的海干散货运价指数终结三连涨，因各类型船运价全线走低】金十期货7月27日讯，据外媒报道，因所有船型运价悉数下滑，波罗的海干散货运价指数周一终结了连续三日的上涨势头。波罗的海干散货运价指数较前一交易日下跌47点，或1.7%，报2696点，为7月21日以来首次录得下跌。海岬型船运价指数下跌85点或2%，报4200点，为7月23日以来的最低水平。海岬型船日均获利下跌770美元，至34587美元。巴拿马型船运价指数下跌25点或1.2%，报1999点，触及自5月1日以来的最低点。巴拿马型船日均获利下跌223美元，至17990美元。超灵便型散货船运价指数下滑24点，或1.4%，报1670点。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 21:44:34",
+      "content": "【英伟达五年期CDS创史上最大单日涨幅】金十数据7月27日讯，周一，英伟达(NVDA.O) 的债务违约保护成本创下史上最大单日涨幅。此前有报道称，英伟达正就总额超过7500亿美元的人工智能基础设施交易进行商谈，这引发了市场对其承担更多债务负担的担忧。据ICE Data Services的数据，周一，英伟达五年期债务违约保护成本一度上涨约0.14个百分点，为该类互换合约于去年11月开始交易以来的最大盘中涨幅。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 21:43:41",
+      "content": "阿斯麦(ASML.O)跌超4%。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 21:41:08",
+      "content": "标准普尔500银行指数一度创下历史新高，涨超1%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 21:37:33",
+      "content": "联合国人权事务高级专员：黎巴嫩和以色列将于8月4日在罗马举行新的会谈。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 21:36:02",
+      "content": "瑞士央行对媒体报道称预计该行将把利率维持在零水平直到2027年底的消息未作评论。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 21:35:29",
+      "content": "金十图示：2026年07月27日（周一）热门中概股行情一览",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 21:35:19",
+      "content": "通用汽车(GM.N)涨2.8%，杰裴逊将该股评级从持有上调至增持。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 21:35:16",
+      "content": "【摩根士丹利：全球并购交易规模迈向创纪录水平】金十数据7月27日讯，摩根士丹利信用债策略师在一份报告中表示，全球并购活动不断增加，正迈向有史以来的最高规模。这些策略师表示，美国的并购活动一直很强劲，而在“欧盟委员会对行业整合的立场软化、高度分散化以及稳健的资产负债表“的支撑下，欧洲的类似交易也正在增加。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 21:34:58",
+      "content": "人工智能改变了财富创造方式，也挑战传统分配体系。有人希望通过数据贡献获得报酬，有人主张建立公共持股机制，还有人认为减少工作时间才是分享AI生产率提升的方式。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 21:34:39",
+      "content": "D-WAVE量子公司涨约11%，AT&T宣布扩大与该公司的量子计算合作。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 21:34:18",
+      "content": "【IDC王吉平：行业对智能体手机的发展路径仍处探索阶段】金十数据7月27日讯，IDC中国副总裁王吉平表示，当前行业对于智能体手机等创新终端的发展路径仍处于积极探索阶段，无论是跨应用任务执行、智能体原生系统，还是更具沉浸感和主动服务能力的新型交互形态，其本质都是围绕个人AI体验展开创新。而这些创新背后，离不开高性能、低功耗、异构计算以及跨设备连接能力的支撑。相关底层能力的持续演进，正推动智能体走向规模化落地。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 21:34:09",
+      "content": "Rivian(RIVN.O)涨3%，派杰投资将其评级从中性评级上调至超配。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 21:34:03",
+      "content": "【根据德国工厂协议，保时捷将在2035年前裁减5000个职位】金十数据7月27日讯，保时捷与劳方代表达成协议，同意在2035年前裁减5000个工作岗位。保时捷及其总劳资委员会周一表示，此次裁员将通过自然减员、扩大“部分退休”计划以及自愿离职协议等多种方式进行。针对保时捷在德国的主要生产基地的就业及厂区运营保障措施，将延长至2035年底。这项协议凸显了保时捷母公司大众汽车集团所面临的日益严峻的压力；大众汽车上周曾发出警告，随着其业务下滑加剧，集团今年的营收降幅可能高达3%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 21:33:37",
+      "content": "【国际油价回落 美国航空股上涨】金十数据7月27日讯，美国航空公司股票上涨，阿拉斯加航空和联合航空涨约4%，达美航空涨3.5%，捷蓝航空涨6.5%，西南航空涨2.4%；标普综合1500客运航空公司指数涨3.5%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 21:32:38",
+      "content": "【美股能源板块下跌 石油股走低】金十数据7月27日讯，标普500能源板块开盘下跌1%；随着国际油价回落，石油公司股价走低，雪佛龙(CVX.N)跌1.8%，埃克森美孚石油(XOM.N)跌超2%，康菲石油(COP.N)跌2.5%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 21:32:32",
+      "content": "【堃博医疗-B：一次性使用经支气管镜扩张导管获欧盟MDR CE认证】金十数据7月27日讯，堃博医疗-B(02216.HK)公告，近日公司自主研发的BroncTru途扩一次性使用经支气管镜扩张导管取得欧盟医疗器械法规（欧盟MDR）CE认证，标志着国际化注册及全球产品布局取得重要进展。该产品可在导航系统引导下对外周肺结节实现精准抵达，是实施经支气管镜下经肺实质结节抵达术（BTPNA）的核心工具。截至公告日，该产品已取得中国NMPA、美国FDA及欧盟MDRCE注册批准，并在中国台湾地区、印度尼西亚、泰国及马来西亚批准上市。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 21:31:22",
+      "content": "道琼斯指数7月27日（周一）开盘上涨587.76点，涨幅1.13%，报52535.01点；\n标普500指数7月27日（周一）开盘上涨59.15点，涨幅0.80%，报7471.11点；\n纳斯达克综合指数7月27日（周一）开盘上涨255.55点，涨幅1.02%，报25231.37点。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 21:30:27",
+      "content": "【美股三大股指高开 存储概念走高】金十数据7月27日讯，美股开盘，三大股指高开，道指涨0.9%，标普500指数涨0.7%，纳指涨1%。存储概念股走高，SK海力士(SKHY.O)涨超2%，闪迪(SNDK.O)涨1%。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 21:30:24",
+      "content": "【航行警告！渤海执行军事任务】金十数据7月27日讯，据中国海事局网站消息，唐山海事局发布航行警告，7月28日0时至7月30日24时，渤海部分海域进行实弹射击活动，禁止驶入。​​​",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 21:30:15",
+      "content": "金十图示：2026年07月27日（周一）各大货币对表现",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-07-27 21:29:01",
+      "content": "Spotify：之前的问题已解决。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
     {
       "datetime": "2026-07-27 21:28:25",
       "content": "高盛：若中东能源出口到2027年仅逐步恢复正常，预计2026年12月TTF天然气价格可能需要升至100欧元/兆瓦时以上。",
@@ -225,905 +1121,529 @@
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
-    },
+    }
+  ],
+  "shmet": [
     {
-      "datetime": "2026-07-27 20:58:01",
-      "content": "Amazon Leo已向FCC提交申请，计划部署多达5,105颗新卫星。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 20:55:37",
-      "content": "胡塞武装军事发言人：作为对沙特无人机侵犯也门领空的回应，我们使用多架无人机袭击了从沙特东部向延布（Yanbu）输送原油供应和运输系统中的多个目标及敏感设施。",
+      "datetime": "2026-07-28 00:01:09",
+      "content": "【今日重点关注的财经数据与事件：2026年7月28日 周二】SHMET07月28日讯，① 待定 以色列总理内塔尼亚胡会晤特朗普② 11:05 澳洲联储主席布洛克发表讲话③ 20:15 美国至7月11日当周ADP就业人数周度变动④ 21:00 美国5月FHFA房价指数月率⑤ 21:00 美国5月S&P/CS20座大城市房价指数年率⑥ 22:00 美国7月谘商会消费者信心指数⑦ 22:00 美国7月里奇蒙德联储制造业指数⑧ 次日04:30 美国至7月24日当周API原油库存",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 20:53:46",
-      "content": "声明显示，也门胡塞武装表示，使用无人机瞄准了沙特的原油运输基础设施。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 20:50:30",
-      "content": "【工信部：全国累计发放智能网联汽车测试示范牌照超2万张】金十数据7月27日讯，7月27日，在2026世界智能网联汽车大会媒体圆桌会上，工业和信息化部装备工业一司司长郭守刚介绍，全国各地累计发放智能网联汽车测试示范牌照超过2万张，开放测试示范道路超5.7万公里，累计测试超过2.2亿公里；20个“车路云一体化”试点城市部署各类智能化设备超6万套，服务各类车辆超过十万台。今年以来，L2级组合驾驶辅助功能乘用车渗透率达到70.5%，领航驾驶辅助（NOA）功能乘用车渗透率达到34.2%，首批L3级有条件自动驾驶车型开始在特定区域上路通行。",
+      "datetime": "2026-07-27 23:52:03",
+      "content": "【快讯】SHMET07月27日讯，美国在封锁伊朗期间已引导17艘商船更改航向。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 20:50:19",
-      "content": "VIP立减999元，赠限量《K线\"特\"玩家》扑克！红牌练基本面逻辑，蓝牌练技术面图谱，再解锁全品种趋势指标>>",
+      "datetime": "2026-07-27 23:49:00",
+      "content": "【快讯】SHMET07月27日讯，英国首相伯纳姆希望加强与科威特的防务合作。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 20:45:15",
-      "content": "【嘉立创中签号出炉 共约6.32万个】金十数据7月27日讯，嘉立创披露首次公开发行股票网上中签结果，中签号码共有63160个，每个中签号码只能认购500股嘉立创A股股票。",
+      "datetime": "2026-07-27 23:47:37",
+      "content": "【凯投宏观：到2027年美联储政策可能与欧洲央行、英国央行出现分化】SHMET07月27日讯，凯投宏观经济学家Neil Shearing在一份报告中表示，虽然市场反映了对美联储、英国央行和欧洲央行到2027年中期加息略超50个基点的预期，但到明年，政策路径可能会出现分化。他说，如果伊朗战争结束，能源价格将回落，内部经济基本面将成为货币政策的主要驱动力。然而，英国和欧元区的内在通胀压力较弱。美国的情况则有所不同，其财政政策也依然较为宽松。Shearing说，越来越难以证明市场反映的欧洲央行和英国央行紧缩预期是合理的，不过美联储可能在不久后恢复紧缩政策。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 20:41:43",
-      "content": "据港交所文件：斯坦德机器人（无锡）股份有限公司向港交所提交上市申请书。",
+      "datetime": "2026-07-27 23:46:51",
+      "content": "【快讯】SHMET07月27日讯，路易威登母公司二季度时装与皮草有机销售增长1%，分析师预期增长1.52%。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 20:40:14",
-      "content": "美伊局势风险缓和！市场聚焦本周“美联储决议”？国际金周一回归震荡走势？金十交易学院正在直播中，立即观看！",
+      "datetime": "2026-07-27 23:46:48",
+      "content": "【快讯】SHMET07月27日讯，英国首相伯纳姆：希望加强与卡塔尔的防务关系。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 20:39:57",
-      "content": "Naver：200兆瓦AI工厂预计将采用包括英伟达Vera Rubin和Blackwell平台在内的先进AI基础设施。",
+      "datetime": "2026-07-27 23:44:44",
+      "content": "【纳斯达克综合指数向下跌破25000点】SHMET07月27日讯，纳斯达克综合指数向下跌破25000点，最新报24861.26点，日内下跌0.46%",
       "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
+      "source": "shmet",
+      "sentiment": "bear",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 20:39:10",
-      "content": "Brookfield资管公司：Naver、英伟达和Brookfield将在韩国和美国投资建设吉瓦级AI云基础设施。Naver与英伟达将把世宗市的GAK Sejong AI工厂扩展至200兆瓦，目标于2028年完成。Naver计划将英伟达AI基础设施部署规模扩大至1吉瓦。",
+      "datetime": "2026-07-27 23:42:04",
+      "content": "【快讯】SHMET07月27日讯，亚美尼亚政府：亚美尼亚总理向俄罗斯总统普京寻求解决关于俄罗斯对亚美尼亚出口限制的问题。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 20:35:52",
-      "content": "【展芯股份：回拨后本次网上定价发行的最终中签率为0.016%】金十数据7月27日讯，展芯股份公告，公司首次公开发行人民币普通股（A股）并在创业板上市的申请已经深圳证券交易所上市审核委员会审议通过，并已经中国证券监督管理委员会同意注册。回拨后，网下最终发行数量为17,270,500股，占扣除最终战略配售数量后本次发行数量的60.00%；网上最终发行数量为11,513,500股，占扣除最终战略配售数量后本次发行数量的40.00%。回拨后本次网上定价发行的最终中签率为0.0159574899%，有效申购倍数为6,266.64976倍。",
+      "datetime": "2026-07-27 23:40:05",
+      "content": "【快讯】SHMET07月27日讯，英国首相办公室：英国首相伯纳姆与阿联酋总统通电话，表示希望加强与阿联酋的贸易联系。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 20:31:36",
-      "content": "因无人机入侵事件，罗马尼亚将驱逐一名俄罗斯外交官。",
+      "datetime": "2026-07-27 23:39:28",
+      "content": "【快讯】SHMET07月27日讯，亚美尼亚政府：俄罗斯总统普京与亚美尼亚总理帕希尼扬通电话。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 20:31:36",
-      "content": "【*ST集友：拟支付现金收购慧聚药业50.76%股权】金十数据7月27日讯，*ST集友公告，公司拟以支付现金方式向黄华、邹平、毕伟国、南通慧平、南通慧源购买其合计持有的江苏慧聚药业股份有限公司50.76%股权，交易价格为10.06亿元。本次交易构成重大资产重组和关联交易，不构成重组上市。交易完成后，慧聚药业将成为公司控股子公司。",
+      "datetime": "2026-07-27 23:37:41",
+      "content": "【快讯】SHMET07月27日讯，欧洲主要股指收盘集体上涨，英国富时100指数涨0.42%，法国CAC40指数涨0.81%，德国DAX30指数涨1.30%，富时意大利MIB指数涨0.49%。",
       "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 20:30:50",
-      "content": "利率决议将至，不加息预期存在变数？黄金震荡何去何从？金十研究员Stveen正在直播，立即观看>>",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 20:30:05",
-      "content": "美国6月扣除飞机非国防资本耐用品订单月率 0.9%，预期0.8%，前值由1.40%修正为1.9%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 20:30:05",
-      "content": "美国6月扣除国防的耐用品订单月率 0.3%，前值由-4.6%修正为-4.3%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 20:30:04",
-      "content": "美国6月扣除运输的耐用品订单月率 0.6%，预期0.8%，前值由1.40%修正为1.8%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 20:30:03",
-      "content": "美国6月耐用品订单月率 0.3%，预期2.5%，前值由-4.50%修正为-4%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 20:28:50",
-      "content": "沙特外交部：伊拉克政府应采取必要措施，确保其领土不被用作发动侵略的起源地。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 20:28:05",
-      "content": "【地铁设计：公司在低空经济专门领域尚处于前期业务培育阶段，营业收入占比不足0.1%】金十数据7月27日讯，地铁设计发布异动公告，公司股票交易价格连续三个交易日（2026年7月23日、2026年7月24日、2026年7月27日）收盘价格涨幅偏离值累计超过20%，属于股票交易异常波动的情形。关于在低空经济等新兴业务领域业务开展情况，公司在工程勘察、测绘测量、桥梁巡检等业务领域应用了无人机等相关技术手段；除前述应用外，公司在低空经济专门领域尚处于前期业务培育阶段，整体规模较小，营业收入占比不足0.1%，短期内对公司经营业绩不产生实质影响，业务拓展存在不确定性；",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 20:26:27",
-      "content": "Spotify：已注意到出现一些故障，正在进行核查。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 20:25:25",
-      "content": "穆迪：预计印尼资本流动和印尼盾将面临更多波动。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 20:25:07",
-      "content": "俄罗斯黑海最大原油港口在遭遇无人机袭击和风暴停运数日后，现已正式恢复装船。随着该枢纽与CPC终端双双重启，此前趋紧的全球能源供应压力将获得进一步缓解。点击查看…",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 20:22:44",
-      "content": "【ST恒信：公司及控股股东因涉嫌信披违规被证监会立案】金十数据7月27日讯，ST恒信公告，公司及控股股东、实际控制人孟宪民于2026年7月27日分别收到中国证监会下发的《立案告知书》，因涉嫌信息披露违法违规，中国证监会决定对公司及控股股东立案。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 20:22:18",
-      "content": "【美团方面否认LongCat模型负责人裴鹏离职传言】金十数据7月27日讯，7月27日，有消息显示，美团LongCat团队基础模型负责人裴鹏即将离职。向美团方面求证，对方表示，该消息不属实。公开资料显示，裴鹏毕业于北京大学，长期深耕信息检索与自然语言处理方向。2023年，裴鹏加入美团，最初出任计算和智能平台部基座模型团队预训练负责人，后担任LongCat团队基础模型负责人，全面牵头美团大语言模型、多模态模型与Agent智能体模型的研发工作。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 20:22:05",
-      "content": "重要新闻\n1. 韩国企业集团与包括英伟达(NVDA.O)在内的全球科技巨头达成协议，将开展一系列总价值达9500亿美元的合作项目。\n个股新闻\n1. Rocket Lab(RKLB.O)获得与美国太空部队价值2.66亿美元的导弹防御合同。\n2. AMD(AMD.O)将于韩国建设人工智能研究中心，并打造开放式AI基础设施生态系统。\n3. 苹果(AAPL.O)系统状态网页显示，已解决包括App Store在内所有受影响服务的故障。\n4. 英伟达(NVDA.O)：将与合作伙伴成立开源AI联盟，在GitHub上推出NOOA开源项目，旨在推动人工智能安全发展。\n5. 据华尔街日报：知情人士称，英伟达(NVDA.O)正就为OpenAI俄亥俄州数据中心项目提供约2500亿美元财务担保进行谈判。\n6. 荷兰生物科技公司Argenx SE(ARGX.O)同意以约22亿美元现金收购临床阶段生物制药公司Forte Biosciences(FBRX.O)，以扩大其免疫学药物产品组合。\n7. 阿斯利康(AZN.O)：按固定汇率计算，第二季度营收增长5%，达153.8亿美元，市场预期为153.9亿美元；调整后每股收益增长18%至2.63美元，好于市场预期的2.48美元。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 20:20:34",
-      "content": "国际金走收敛行情！周一特朗普全球关税再遭挑战？沃什放弃前瞻指引？金十交易学院正在直播中，立即观看！",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 20:20:00",
-      "content": "美国6月耐用品订单月率将于十分钟后公布。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 20:19:50",
-      "content": "因国际原油价格大幅回落，美国航空公司股票在盘前交易中涨，达美航空涨2.7%，捷蓝航空涨2.9%，西南航空上涨3.6%，美国航空涨4%，阿拉斯加航空涨3.2%，联合航空涨3.6%。",
-      "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "bull",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 20:18:12",
-      "content": "【上交所终止荣信汇科科创板IPO审核】金十数据7月27日讯，据上交所网站披露，因荣信汇科电气股份有限公司和保荐人国金证券股份有限公司向上交所提交了《荣信汇科关于撤回首次公开发行股票并在科创板上市申请文件的申请》和《国金证券关于撤回荣信汇科电气股份有限公司首次公开发行股票并在科创板上市申请文件的申请函》，申请撤回发行上市申请文件，上交所决定终止其首次公开发行股票并在科创板上市的审核。",
+      "datetime": "2026-07-27 23:36:02",
+      "content": "【快讯】SHMET07月27日讯，美国两年期国债收益率走低，报4.315%，拍卖前为4.320%。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 20:16:34",
-      "content": "【沙特称拦截并摧毁了从伊拉克领土发射的无人机】金十数据7月27日讯，沙特国防部表示，拦截并摧毁了从伊拉克领土发射的无人机，这些无人机来自伊朗支持的民兵组织，瞄准的目标是东部地区和利雅得的石油设施，沙特国防部重申沙特有权进行回应。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 20:13:25",
-      "content": "根据最新经纪商挂单数据，国际现货黄金震荡，现价上方空单密布；美日留意上方一处多单挂单密集区……点击查看最新报告",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 20:11:48",
-      "content": "【新亚制程：六氟磷酸锂销售对公司营业收入的贡献有限】金十数据7月27日讯，新亚制程发布异动公告，公司股票于2026年7月24日、7月27日连续两个交易日收盘价格涨幅偏离值累计超过20%，属于股票交易异常波动的情况。公司2025年六氟磷酸锂产量为1119.60吨，对外销售363.48吨，对外销售部分产生的营业收入为2786.93万元，占公司2025年度营业收入的1.44%。2026年1-6月六氟磷酸锂产量1682.49吨，对外销售921.53吨，对外销售部分实现的营业收入约8345万元。占公司2026年上半年度营业收入的比重约为9%，对公司营业收入的贡献有限。该业务未来可能面临行业政策以及市场环境等不确定因素的影响，可能存在行业周期、市场竞争等风险，对公司未来业绩影响具有不确定性。",
+      "datetime": "2026-07-27 23:35:22",
+      "content": "【快讯】SHMET07月27日讯，美国财政部拍卖690亿美元两年期国债，得标利率4.315%，投标倍数2.66（前次为2.64）。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 20:11:41",
-      "content": "印度央行副行长：印度的经济雄心需要金融市场动员更多长期资本，更有效地分配风险。",
+      "datetime": "2026-07-27 23:32:51",
+      "content": "【快讯】SHMET07月27日讯，美国至7月27日6个月国债竞拍-得标利率配置百分比 36.13%，前值51.45%。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 20:11:13",
-      "content": "沙特国防部：伊朗支持的民兵组织实施了无人机袭击。",
+      "datetime": "2026-07-27 23:32:15",
+      "content": "【快讯】SHMET07月27日讯，美国至7月27日6个月国债竞拍-得标利率 3.945%，前值3.84%。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 20:10:59",
-      "content": "美伊休战谈判希望重燃，国际黄金震荡格局未破？点击观看金十研究员文成直播分析>",
+      "datetime": "2026-07-27 23:30:05",
+      "content": "【快讯】SHMET07月27日讯，KimiAI：已经开源了MoonEP，这是针对分布式MoE工作负载打造的高性能通信库。MoonEP旨在提升大规模场景下专家并行通信效率，帮助降低大型MoE模型在训练和推理系统中的通信开销。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 20:10:21",
-      "content": "沙特国防部：来自伊拉克领土的无人机试图袭击沙特石油设施。",
+      "datetime": "2026-07-27 23:30:01",
+      "content": "【快讯】SHMET07月27日讯，纳斯达克中国金龙指数涨幅扩大，现涨2.5%，最新报6259.26点。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 20:10:15",
-      "content": "金十图示：2026年07月27日（周一）中国工商银行账户贵金属行情",
+      "datetime": "2026-07-27 23:24:06",
+      "content": "【快讯】SHMET07月27日讯，英国首相伯纳姆：下次预算不会改变或取消房地产购买印花税。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 20:09:47",
-      "content": "沙特国防部：拦截了来自伊拉克领土的无人机。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 20:05:44",
-      "content": "美国国防部与国防承包商L3Harris Technologies达成相关协议，旨在扩大推进系统生产能力。",
+      "datetime": "2026-07-27 23:22:28",
+      "content": "【快讯】SHMET07月27日讯，SC原油主力合约日内大跌4.00%，现报542.40元/桶。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 20:04:21",
-      "content": "Naver计划在下半年在韩国推出一款AI代理平台。",
+      "datetime": "2026-07-27 23:21:32",
+      "content": "【快讯】SHMET07月27日讯，Kimi AI：此外，该款模型还具有全新的模型架构，单位计算资源带来的智能水平提升了2.5倍，并非只是简单增加参数规模。与此同时，除了Kimi K3，我们还将开放更多支撑该模型运行的技术栈，包括高性能注意力计算内核、MoE通信库和支持大规模运行智能体环境的基础设施。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 20:03:41",
-      "content": "美伊再次停火，这次又会反转吗？黄金局势仍不明朗？金十研究员Stveen正在直播，立即观看>>",
+      "datetime": "2026-07-27 23:03:36",
+      "content": "【快讯】SHMET07月27日讯，燃油夜盘收跌约3.5%，纯碱、焦煤跌超2%，LPG跌1.7%，铁矿石跌0.3%。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
-      "steel": false
+      "steel": true
     },
     {
-      "datetime": "2026-07-27 20:03:37",
-      "content": "巴基斯坦央行行长：央行进行了央行数字货币（CBDC）的内部试点。",
+      "datetime": "2026-07-27 22:59:46",
+      "content": "【快讯】SHMET07月27日讯，纳斯达克中国金龙指数涨幅扩大至2.2%。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 20:00:40",
-      "content": "热度逐渐消散，国际现货黄金是否迎来真正交易窗口？美联储风险与资金流向共同支撑，美元下行空间有限？",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 20:00:27",
-      "content": "上海黄金交易所黄金T+D 7月27日（周一）晚盘盘初上涨1.47%报894.15元/克；\n上海黄金交易所白银T+D 7月27日（周一）晚盘盘初下跌1.49%报14250.0元/千克。",
+      "datetime": "2026-07-27 22:59:09",
+      "content": "【市场人士：行情接入方式变更属常规操作 不针对量化交易】SHMET07月27日讯，部分券商收到交易所通知并公告：交易所机房内交易行情接入方式统一变更为广域网线路，原局域网交易线路将于2026年7月31日晚间正式关闭。券商将配合实施交易行情接入模式优化调整工作。记者从接近监管的市场人士处获悉，此次属于常规操作，并不针对包括量化在内的特定交易。 (21世纪经济报道)",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 20:00:22",
-      "content": "【浙江世宝：控股股东世宝控股提前终止减持计划，已减持1.11%股份】金十数据7月27日讯，浙江世宝公告，公司控股股东浙江世宝控股集团有限公司此前计划在2026年5月22日至2026年8月19日期间，通过集中竞价及大宗交易方式合计减持不超过3%公司股份。截至公告日，世宝控股已通过集中竞价及大宗交易方式合计减持公司A股股份912.82万股，占公司总股本的1.11%，并决定提前终止本次减持计划，剩余未减持股份将不再减持。",
+      "datetime": "2026-07-27 22:55:11",
+      "content": "【快讯】SHMET07月27日讯，俄罗斯总统普京签署法令，增加俄罗斯武装部队人员编制2.5万人。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 20:00:11",
-      "content": "加拿大至7月24日全国经济信心指数 52.6，前值51.4。",
+      "datetime": "2026-07-27 22:49:23",
+      "content": "【快讯】SHMET07月27日讯，焦煤主力合约日内跌超2.00%，现报1245.00元/吨。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
-      "steel": false
+      "steel": true
     },
     {
-      "datetime": "2026-07-27 20:00:07",
-      "content": "【贝因美：控股子公司因台风暴雨停产，预计损失超2025年净利10%】金十数据7月27日讯，贝因美公告，公司控股子公司吉林贝因美位于吉林省敦化经济开发区的生产厂区近日受超强台风“巴威”带来的极端强降雨引发内涝，生产车间、仓储库房及办公区域进水受淹，导致部分资产损失，未发生人员伤亡。目前吉林贝因美生产经营活动暂停，恢复时间尚无法确定。公司初步预计本次灾害造成的财产损失金额可能超过公司2025年度经审计净利润的10%，相关受灾资产前期已购买财产保险。公司其他生产基地运营正常，已调度吉林贝因美在手订单转产工作，预计不会对公司长期发展战略及整体经营造成重大不利影响。",
+      "datetime": "2026-07-27 22:45:04",
+      "content": "【快讯】SHMET07月27日讯，伊朗议会议员哈兹里安：从法律角度来看，阿曼无法在未与伊朗协调的情况下开放霍尔木兹海峡。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 19:59:13",
-      "content": "【东方证券：拟发行A股股份及支付现金收购上海证券100%股权，交易对价251.2亿元】金十数据7月27日讯，东方证券公告，公司拟通过发行A股股份及支付现金方式购买上海证券有限责任公司100%股权，交易对价为251.2亿元。其中，以发行股份方式支付235.5亿元，以现金方式支付15.7亿元。本次交易构成关联交易，不构成重组上市。截至评估基准日2026年3月31日，上海证券股东全部权益评估值为251.2亿元，增值率24.85%。本次交易尚需经公司股东会、香港证监会、上海市国资委、上交所及中国证监会等批准。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:59:04",
-      "content": "【万国黄金：所罗门金岭矿非作业区发生局部溜坡 各项在建工程项目未受影响】金十数据7月27日讯，万国黄金(03939.HK)在港公告，本公司关注到近期网络媒体上流传有关子公司金岭矿业有限公司（GRML）（一家于所罗门群岛注册成立的公司）所在矿山非作业区发生局部溜坡。经内部核实后，本公司就该事件澄清如下。于2026年7月27日上午约12时45分（所罗门群岛时间），露天采场北一采坑，西北侧边缘，非作业一阶发生局部溜坡。事件发生前，GRML已根据现场情况，落实安全管控措施，包括对受影响区域进行封闭及警戒围封，并实施安全预警管控。本次事件未造成任何人员伤亡，亦未导致任何设备或财产损失。目前，金岭金矿采矿作业如常进行，各项在建工程项目未受影响。",
+      "datetime": "2026-07-27 22:38:59",
+      "content": "【快讯】SHMET07月27日讯，纳斯达克100指数下跌1%，触及5月4日以来最低水平。",
       "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:54:10",
-      "content": "金十图示：2026年07月27日（周一）新闻联播今日要点",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:53:08",
-      "content": "红海航运骤降，通胀担忧限制国际黄金涨幅？点击观看GMA指标直播分析>",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:52:18",
-      "content": "巴基斯坦央行行长：目前的黄金储备约为90亿美元。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:52:06",
-      "content": "【北京上半年乘用车新车L2级辅助驾驶渗透率达77.5% L3量产车型率先落地】金十数据7月27日讯，7月27日，在2026世界智能网联汽车大会媒体圆桌会上，北京市经信局副局长苏国斌介绍，2026年上半年全市乘用车新车L2级组合辅助驾驶渗透率达77.5%，高于全国70%的平均水平；北汽极狐阿尔法S成为全国首批L3级有条件自动驾驶量产车型，率先实现高级别自动驾驶合法上路和商业化落地；依托全国首个高级别自动驾驶示范区，北京累计发放测试牌照超1500张，安全测试里程突破6500万公里。京津冀协同方面，北京正联合津冀共建智能网联新能源汽车科技生态港，已吸引200余家产业链企业参与，落地签约53家。下一步，北京将围绕高级别自动驾驶产业化、“双智”4.0建设、核心技术攻关、京津冀产业协同四方面发力，打造世界级产业集群。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:50:33",
-      "content": "标普：因持续经济风险，孟加拉国前景展望被下调至负面；评级维持不变。",
-      "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "bear",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 19:49:02",
-      "content": "周一布油一度跌逾7%，最急的地缘溢价退回来了，但为何长期资金仍不肯“松手”？当市场“耐心”开始单独收费，压力会最先落在谁的身上？",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:48:08",
-      "content": "【上半年客流与销售额双增 近八成购物中心看好下半年】金十数据7月27日讯，今天（27日）了解到，中国连锁经营协会7月份对全国53家企业的1978个在营购物中心进行了摸底调查。调查显示，今年上半年75.5%的企业客流量实现增长，其中43.4%的企业增幅在5%~10%区间；17%的企业增幅在10%~15%区间；上半年客流下降的企业占比仅13.2%，且以轻微下降为主。中国连锁经营协会认为，这表明今年以来，购物中心客流整体呈现温和增长趋势，而非短期冲高，基本盘较为稳固。中国连锁经营协会的调查还显示，上半年69.8%的企业销售总额实现增长，销售总额下降的企业占比是22.6%；69.8%的企业会员消费占比实现增长，下降的占比为15.1%；43.4%的企业线上销售占比提升，线上销售占比下降的企业仅占7.5%。调查还显示，各家购物中心企业对下半年经营预期总体乐观，其中，79.2%的企业对下半年的客流持乐观态度；67.9%的企业对下半年的销售量持乐观态度。",
+      "datetime": "2026-07-27 22:35:20",
+      "content": "【快讯】SHMET07月27日讯，美国7月达拉斯联储制造业就业指数 12.2，前值13.9。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 19:43:47",
-      "content": "克里姆林宫发言人佩斯科夫：普京即将举行的会谈不会涉及特朗普，但仍具有重要意义。",
+      "datetime": "2026-07-27 22:34:56",
+      "content": "【快讯】SHMET07月27日讯，美国7月达拉斯联储制成品价格指数 25.6，前值28.6。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 19:43:23",
-      "content": "【2026世界智能网联汽车大会将于10月举办】金十数据7月27日讯，今天从工业和信息化部获悉，由工业和信息化部、交通运输部、北京市人民政府联合主办的2026世界智能网联汽车大会将于2026年10月中旬在北京举办。",
+      "datetime": "2026-07-27 22:34:39",
+      "content": "【快讯】SHMET07月27日讯，美国7月达拉斯联储新订单指数 6.4，前值2.3。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 19:42:34",
-      "content": "【安诺其：拟收购广州烽云100%股权，交易方案已调整】金十数据7月27日讯，安诺其公告，公司拟通过发行股份及支付现金方式收购广州烽云信息科技有限公司100%股权，并募集配套资金。2026年7月27日，公司董事会审议通过了交易预案（修订稿），对方案进行了调整。目前本次交易的审计、评估等工作尚未完成，公司董事会决定暂不召开股东会审议，待相关工作完成后将再次审议并提交股东会。本次交易尚需经国有资产监管程序及有权监管机构审核等，存在不确定性。",
+      "datetime": "2026-07-27 22:34:36",
+      "content": "【快讯】SHMET07月27日讯，美国7月达拉斯联储制造业原材料支付价格指数 41.3，前值42.4。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 19:42:15",
-      "content": "据以色列第12频道援引消息人士称，内塔尼亚胡将请求特朗普不要向土耳其出售武器系统和F-35战斗机。",
+      "datetime": "2026-07-27 22:33:42",
+      "content": "【快讯】SHMET07月27日讯，美国7月达拉斯联储制造业装船指数 8.8，前值7.1。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 19:42:12",
-      "content": "【蔡建春已赴中金所工作】金十数据7月27日讯，蔡建春的简历已从上交所官网“领导班子”栏目中撤下。此前，蔡建春曾担任上交所党委副书记、总经理。从多方了解到，蔡建春已于近日赴中国金融期货交易所工作。",
+      "datetime": "2026-07-27 22:33:17",
+      "content": "【快讯】SHMET07月27日讯，美国7月达拉斯联储制造业产出指数 10.1，前值4.1。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 19:41:42",
-      "content": "乌克兰总统泽连斯基抵达英国，将会见英国首相伯纳姆。",
+      "datetime": "2026-07-27 22:32:29",
+      "content": "【快讯】SHMET07月27日讯，美国7月达拉斯联储商业活动指数录得1.3，为2025年1月以来新高。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 19:41:40",
-      "content": "每日汇总高盛、瑞银、摩根三家外资期货公司的持仓数据。今日豆粕多头增持超10000手，空头减持净5000手，净多仓增加....一图查看。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:41:08",
-      "content": "据以色列第12频道援引消息来人士称，内塔尼亚胡将向特朗普提供有关伊朗迈向拥有核武器进程的最新情报信息。",
+      "datetime": "2026-07-27 22:31:23",
+      "content": "【快讯】SHMET07月27日讯，美国7月达拉斯联储商业活动指数 1.3，前值0。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 19:37:56",
-      "content": "俄罗斯总统普京：通货膨胀风险正在加大。",
+      "datetime": "2026-07-27 22:31:14",
+      "content": "【快讯】SHMET07月27日讯，标普500指数转跌，纳斯达克100指数下跌0.7%。",
       "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:37:14",
-      "content": "【泽连斯基称期待与英国开展无人机合作】金十数据7月27日讯，乌克兰总统泽连斯基27日在社交媒体发文称，他与英国新首相伯纳姆进行了通话，期待与伯纳姆举行会晤，讨论无人机合作等问题。泽连斯基称，在无人机合作方面，乌克兰希望在英国建一个基于新技术的大型无人机制造厂。乌方希望“与伙伴分享”无人机技术和实战经验。他还表示，乌方希望生产英国“风暴之影”巡航导弹或类似导弹，而英国希望得到乌克兰的无人机。乌方对此持开放态度。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:35:34",
-      "content": "据沙特阿拉伯阿拉比亚电视台：一名安全消息人士称，4架无人机袭击了位于伊拉克埃尔比勒詹姆萨里地区的伊朗库尔德斯坦自由党总部。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:35:05",
-      "content": "【特锐德：董事长于德翔提议回购不超过6亿元股份】金十数据7月27日讯，特锐德公告，公司实际控制人、董事长于德翔于2026年7月27日提议公司使用自有或自筹资金通过深圳证券交易所交易系统以集中竞价交易方式回购部分人民币普通股（A股）股票，回购资金总额不低于人民币3亿元（含）且不超过人民币6亿元（含），回购价格不超过董事会审议通过回购股份方案决议前30个交易日公司股票交易均价的150%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:34:51",
-      "content": "【罗博特科：全资子公司ficonTEC与纽交所上市公司H签订1.29亿元合同 系用于光纤阵列（FAU）等光学元器件量产的自动化制造设备及服务订单】金十数据7月27日讯，罗博特科公告，公司全资子公司ficonTEC与一家纽交所上市公司H的子公司签订日常经营重大合同，金额约1,674万欧元(折合人民币1.29亿元)，用于光纤阵列等光学元器件量产的自动化制造设备及服务。该合同占公司2025年度经审计营收的13.59%，预计将对2026年度及未来业绩产生积极影响。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:33:45",
-      "content": "据伊朗媒体：伊朗议会副议长称，伊朗将对乌克兰在里海的挑衅行为作出回应，而乌方将为此感到遗憾。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:31:46",
-      "content": "美伊停火刺激国际黄金，市场等待新引擎？点击观看直播分析>",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:31:34",
-      "content": "据伊朗媒体：伊朗军方警告称，未来任何的侵略行动都将遭到更强烈反击。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:29:32",
-      "content": "巴基斯坦央行行长：在过去三年中从市场购买了价值280亿美元的外汇以增加储备。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:29:31",
-      "content": "【OpenAI宣布在爱尔兰扩张，预计新增250个新岗位】金十数据7月27日讯，OpenAI正在扩建其位于都柏林的欧洲总部，预计将创造250个新的就业岗位。OpenAI表示，将在都柏林租赁88,000平方英尺的办公空间，以满足“来自欧洲各地用户、客户和开发者的快速增长的需求”。该公司目前在爱尔兰已拥有约100名员工。爱尔兰已经是众多大型科技公司（例如Meta、苹果和Alphabet ）的欧洲总部所在地。Anthropic公司也在都柏林扩大其员工规模。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:29:20",
-      "content": "以色列总理内塔尼亚胡：在与特朗普的会议中，将讨论议程上的所有问题，其中伊朗是重中之重。我们的目标明确——确保以色列的安全，增强以色列实力，扩大周围的和平圈。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:28:44",
-      "content": "以色列总理内塔尼亚胡：我现在正前往美国，将与特朗普举行会议。这将是我们自特朗普当选以来的第八次会晤，比其他任何国际领导人都要多。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:27:55",
-      "content": "预告：国务院新闻办公室将于2026年7月29日上午10时举行“开局起步‘十五五’”系列主题新闻发布会，请国家知识产权局新闻发言人、副局长芮文彪介绍“十五五”时期知识产权保护和运用有关情况，并答记者问。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:24:20",
-      "content": "【耀才证券回应被香港证监会罚款280万港元：诚恳接受处罚决定】金十数据7月27日讯，据香港商报网，香港证监会谴责耀才证券（香港）有限公司并处以罚款280万港元，因该公司没有实施充足而有效的内部监控程序，以监察和侦测由其客户进行的清洗交易。耀才证券回应表示，诚恳接受处罚决定，已于2025年9月全部完成改造，目前所有内控技术均已符合监管要求。相关事件不涉及技术安全问题，亦不影响任何客户的正常交易及资金安全。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:23:47",
-      "content": "汇丰控股：将IBM(IBM.N)目标价从175美元下调至174美元。",
-      "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "bear",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 19:22:24",
-      "content": "【工信部：加快编制出台智能网联新能源汽车产业发展“十五五”规划】金十数据7月27日讯，7月27日，工业和信息化部装备工业一司司长郭守刚在2026世界智能网联汽车大会媒体圆桌会上介绍了我国智能网联汽车产业发展情况。郭守刚介绍了我国智能网联汽车产业已取得的积极成效。下一步，工信部将加快编制出台智能网联新能源汽车产业发展“十五五”规划，深入贯彻落实《国家标准化发展纲要》，加快突破一批关键核心技术，加速重点标准研制、国际协调和贯彻实施，深入推进“车路云一体化”应用试点、生产准入和上路通行试点，推动建立贯通全产业链的生态体系。",
+      "datetime": "2026-07-27 22:25:23",
+      "content": "【快讯】SHMET07月27日讯，美股冲高回落，纳斯达克综合指数跌0.02%，标普500指数涨0.14%，道琼斯指数涨0.72%。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 19:21:29",
-      "content": "【金融监管总局：稳步推进中小金融机构改革化险，有效防范化解重点领域风险】金十数据7月27日讯，7月27日，金融监管总局召开系统党的建设工作会议暨2026年年中工作会议。会议强调，全系统要坚决把思想和行动统一到党中央对当前形势的科学判断和决策部署上来，统筹推进防风险、强监管、促高质量发展各项工作。树牢底线思维，稳步推进中小金融机构改革化险，有效防范化解重点领域风险，坚决守住不发生系统性金融风险底线。坚持问题导向，坚定不移推进严监管强监管，坚守监管姓监定位，做到专注监管、严格监管。强化监管引领，督促金融机构加快改革转型、实现错位发展，多措并举营造良好行业生态，有效提升经济金融适配性，以行业高质量发展促进经济社会高质量发展。会议还对做好近期安全生产、应急金融服务保障等工作作出部署。",
+      "datetime": "2026-07-27 22:24:29",
+      "content": "【汇丰：除非美联储加息，否则美元不太可能大幅上涨】SHMET07月27日讯，汇丰经济学Paul Mackel在一份报告中表示，除非美联储出人意料地加息，否则其本周的决定可能不会给美元带来新的上涨催化剂。美联储主席沃什已经承认通胀高于目标，并表达了对价格稳定的承诺。他说，如果本周会议只是符合这些观点，美元不太可能大幅上涨，因为市场已经为今年晚些时候的加息做好了准备。“不过，我们也认识到，一些人正在考虑美联储出人意料加息的想法，就像它在1994年2月突然做的那样。”他说，如果市场将其视为谨慎之举而表示欢迎，这将提振美元。",
       "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
+      "source": "shmet",
+      "sentiment": "bull",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 19:19:19",
-      "content": "【长芯博创：控股子公司签署45亿元光纤光缆长期合作协议】金十数据7月27日讯，长芯博创公告，公司控股子公司长芯盛武汉与某现有客户签署长期合作协议，预计协议有效期内销售金额约45亿元(不含税)，约占公司2025年经审计营业收入的178%。协议履行期限至2030年12月31日止。本次销售预计采用净额法确认收入，不会对公司2026年度及未来年度经营业绩产生重大影响。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:16:30",
-      "content": "【三花智控：拟以2亿元-4亿元回购公司股份】金十数据7月27日讯，三花智控公告，拟使用自有资金以集中竞价交易的方式回购公司A股股份，回购金额不低于人民币2亿元且不超过人民币4亿元，回购价格不超过人民币60元/股。按本次回购资金总额上限人民币4亿元测算，预计回购股份的数量约为666.67万股，约占公司目前总股本的0.16%；按回购总金额下限人民币2亿元测算，预计可回购股份数量约为333.33万股，约占公司目前总股本的0.08%。",
+      "datetime": "2026-07-27 22:21:48",
+      "content": "【快讯】SHMET07月27日讯，美国7月达拉斯联储商业活动指数将于十分钟后公布。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 19:15:26",
-      "content": "【群智咨询：预计七月LCD TV面板价格向下温和调整】金十数据7月27日讯，群智咨询认为，短期供应恢复力度更强，供需环境趋于宽松，预计七月LCD TV面板价格向下温和调整。各尺寸面板价格表现如下：32\"，二线市场需求显著下降，预计7月均价下降1美元；50\"，虽然50FHD需求有一定支撑，但难以扭转整体需求转弱，预计7月均价下降2美元；55\"，需求相对平稳叠加供应逐步增加，预计7月均价下降2美元。大尺寸方面，品牌需求韧性较强，但G10.5产能明显恢复，预计7月均价下降3美元。",
+      "datetime": "2026-07-27 22:18:26",
+      "content": "【花旗坚持押注本周美联储将按兵不动】SHMET07月27日讯，花旗集团交易员押注本周美联储将维持利率不变。据该行全球短期利率交易主管Akshay Singal透露，如果美联储维持利率稳定，其所持头寸将获利。Singal表示：“我们依然坚持预期利率将保持不变。”他补充道，美联储主席沃什已明确表态，希望市场关注数据，而数据表明美联储目前无需加息。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 19:13:13",
-      "content": "伯恩斯坦：将英特尔(INTC.O)目标价从100美元上调至110美元。",
+      "datetime": "2026-07-27 22:14:10",
+      "content": "【快讯】SHMET07月27日讯，费城半导体指数跌2%，报11546.47点。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 19:07:51",
-      "content": "俄罗斯总统普京：将把加强国防、解决社会问题和支持经济作为未来三年预算的关键优先事项。",
+      "datetime": "2026-07-27 22:13:07",
+      "content": "【快讯】SHMET07月27日讯，卡塔尔外交部：重申卡塔尔全力支持沙特为维护其主权和安全所采取的所有措施。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 19:07:19",
-      "content": "乌克兰外长：俄罗斯对航行自由的攻击将成为今天联合国安理会紧急会议的焦点，我们期待国际社会作出强烈反应。",
+      "datetime": "2026-07-27 22:09:54",
+      "content": "【快讯】SHMET07月27日讯，贝克休斯：预计伊朗冲突对部分项目和供应链的影响将被其他地区的强劲表现所抵消。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 19:06:30",
-      "content": "俄罗斯总统普京：俄罗斯有能力应对所有敌对行动。西方对俄罗斯的制裁在数量和无效性上都是“创纪录的”，并且这些制裁对发起制裁的国家造成了损害。",
+      "datetime": "2026-07-27 22:08:39",
+      "content": "【快讯】SHMET07月27日讯，据Politico：欧盟委员会考虑修改大型企业税以解锁预算协议。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 19:05:10",
-      "content": "【蓝盾光电：筹划发行股份及支付现金购买资产并募集配套资金事项，股票停牌】金十数据7月27日讯，蓝盾光电公告，公司正筹划发行股份及支付现金购买资产并募集配套资金事项，因有关事项尚存在不确定性，为了维护投资者利益，避免对公司证券交易造成重大影响，根据深圳证券交易所的相关规定，经公司申请，公司股票自2026年7月27日开市起停牌。公司预计在不超过10个交易日的时间内披露本次交易方案，即在2026年8月10日前按照《公开发行证券的公司信息披露内容与格式准则第26号——上市公司重大资产重组》的要求披露相关信息。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:04:54",
-      "content": "俄罗斯总统普京：俄罗斯将在特别军事行动中实现目标。",
+      "datetime": "2026-07-27 22:08:01",
+      "content": "【快讯】SHMET07月27日讯，纳斯达克100指数转跌。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 19:04:25",
-      "content": "AT&T预计2025年将减少客户网络中断时间1200万小时。",
+      "datetime": "2026-07-27 22:06:34",
+      "content": "【工信部印发《“小快轻准”数字化产品和服务培育指引（2026年版）》】SHMET07月27日讯，工信部印发《“小快轻准”数字化产品和服务培育指引（2026年版）》，旨在引导服务商紧密围绕中小企业在创新、提质、降本、增效、绿色、安全等方面数字化转型需求，促进数字化产品与服务供需适配，加快中小企业数字化转型，为各地中小企业主管部门遴选培育“小快轻准”数字化产品和服务提供参考指引。“小快轻准”，即小型化、快速化、轻量化、精准化。指引要求，坚持需求牵引，以中小企业数字化转型需求为导向，紧扣转型痛点；鼓励地方因地制宜细化培育标准，建立分类分级培育体系；加强政策协同和资源统筹，加快构建多方参与、优势互补的中小企业数字化转型服务供给生态。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 19:03:37",
-      "content": "D-WAVE美股盘前涨12%，此前AT&T宣布扩大与该公司的量子合作协议。",
+      "datetime": "2026-07-27 22:06:03",
+      "content": "【快讯】SHMET07月27日讯，贝克休斯：预计由于中东冲突，地区设施将面临更高的物流和通胀压力。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 19:03:18",
-      "content": "纳指ETF国泰：将于2026年7月28日开市起至当日10:30停牌。",
+      "datetime": "2026-07-27 22:02:25",
+      "content": "【快讯】SHMET07月27日讯，费城半导体指数跌幅扩大至1.5%，报11632.54点。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 19:03:12",
-      "content": "【路德科技：拟发行股票募集资金不超过1.52亿元用于洋河酒糟资源化利用项目等】金十数据7月27日讯，路德科技公告，拟向特定对象发行股票募集资金不超过1.52亿元，扣除相关发行费用后将用于洋河酒糟资源化利用项目及补充流动资金。本次发行股票数量不超过本次发行前公司总股本的30%。",
+      "datetime": "2026-07-27 21:56:27",
+      "content": "【快讯】SHMET07月27日讯，纯碱主力合约日内跌幅达2.00%，现报980.00元/吨，再创上市以来新低。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 19:03:05",
-      "content": "中韩半导体ETF华泰柏瑞：将于2026年7月28日开市起至当日10:30停牌。",
+      "datetime": "2026-07-27 21:54:46",
+      "content": "【快讯】SHMET07月27日讯，贝克休斯：预计到2030年电力系统业务潜在市场规模约达1000亿美元。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 19:02:59",
-      "content": "【博瑞传播：控股子公司总经理被留置】金十数据7月27日讯，博瑞传播公告，公司近日收到控股子公司四川生学教育科技有限公司的通知，生学教育总经理、董事陈长志先生被相关监察机关立案调查并实施留置。陈长志先生除担任控股子公司生学教育总经理、董事职务外，不担任公司其它任何职务。目前，公司已指定相关人员主持生学教育的经营管理工作，并对业务开展进行了妥善安排，该事项不会对公司正常经营造成影响。",
+      "datetime": "2026-07-27 21:52:23",
+      "content": "【快讯】SHMET07月27日讯，纳斯达克中国金龙指数涨幅扩大，现涨1.5%，最新报6197.2点。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 19:01:53",
-      "content": "巴基斯坦央行行长：未来将继续增加外汇储备。",
+      "datetime": "2026-07-27 21:52:14",
+      "content": "【快讯】SHMET07月27日讯，伊朗副外长加里布阿巴迪：在伊斯兰堡会谈中，美方提出了2项极端要求，并表示如果不接受这些要求，谈判就会失败，他们将离开；我们拒绝了这些要求，并告诉他们可以回去了。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 19:01:40",
-      "content": "全球芯片LOF：将于2026年7月28日开市起停牌，自2026年7月28日10:30起复牌，停牌期间本基金赎回业务照常办理。",
+      "datetime": "2026-07-27 21:49:51",
+      "content": "【三大白电2026年8月排产数据发布】SHMET07月27日讯，据产业在线最新发布的三大白电排产报告显示，2026年8月空冰洗排产合计总量为2833万台，较去年同期生产实绩下降6.3%。分产品来看，8月份家用空调排产1073万台，较去年同期生产实绩下滑16.7%;冰箱排产877万台，较去年同期生产实绩微增0.7%:洗衣机排产883.0万台，较去年同期生产实绩增长2.3%。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 19:01:22",
-      "content": "美国电信运营商AT&T已与D-Wave签署协议，计划扩大其量子计算技术在网络运营领域的使用。",
+      "datetime": "2026-07-27 21:49:27",
+      "content": "【快讯】SHMET07月27日讯，贝克休斯：预计2026年全球上游支出将同比小幅下降。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 19:00:49",
-      "content": "金十图示：2026年07月27日（周一）欧盘市场行情一览",
+      "datetime": "2026-07-27 21:48:52",
+      "content": "【快讯】SHMET07月27日讯，贝克休斯：能源安全支持上游和基础设施市场的持续投资。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 18:58:01",
-      "content": "德意志银行：将特斯拉(TSLA.O)目标价从465美元下调至420美元。",
+      "datetime": "2026-07-27 21:48:15",
+      "content": "【住房城乡建设部：进一步加强城市桥梁安全管理工作】SHMET07月27日讯，住房城乡建设部办公厅发布关于进一步加强城市桥梁安全管理工作的通知。通知提出，加强汛期桥梁安全管理。当前，全国已全面进入汛期，城市桥梁主管部门要加强与气象、水利、自然资源等部门协同联动，扎实做好极端天气以及涉水、涉地质灾害等风险提示及防范应对工作。重点聚焦桥梁基础冲刷、边坡稳定和畅通排水设施等，全面开展防汛安全风险隐患排查。主动协调河道管理部门，及时清理河道内堆积物及可能影响桥梁安全的大型漂流物，确保行洪畅通。",
       "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
+      "source": "shmet",
+      "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 18:57:46",
-      "content": "市场消息：俄罗斯总统普京正在与国家杜马成员举行会议。",
+      "datetime": "2026-07-27 21:42:38",
+      "content": "【快讯】SHMET07月27日讯，标准普尔500银行指数一度创下历史新高，涨超1%。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 18:56:40",
-      "content": "【机构：上半年动力电池装机量约334.7GWh 同比增长16%】金十数据7月27日讯，高工产业研究院(GGII)根据新能源汽车交强险口径数据统计显示，在免征购置税减半征收政策、市场和季节等多重因素影响下，2026年上半年新能源汽车销售约510.8万辆，同比下降10%；但在新能源专用车市场单车平均带电量提升的带动下，2026年上半年电池装机量约334.7GWh，较去年同期增长16%。",
+      "datetime": "2026-07-27 21:41:06",
+      "content": "【快讯】SHMET07月27日讯，标普500银行指数触及历史高点，最新上涨1.3%。",
       "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
+      "source": "shmet",
+      "sentiment": "bull",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 18:56:23",
-      "content": "【理想汽车产品线负责人：7月中下旬i6产量减少，整车生产现已恢复正常】金十数据7月27日讯，7月27日，理想汽车产品线负责人李昕旸发文称，第16万辆理想i6上周正式下线。7月中下旬，受前大灯供应短暂波动影响，理想i6产量较原计划减少约4000辆。目前，前大灯供应和整车生产已经恢复正常，我们也在和供应链伙伴一起加快追回生产进度，让已下单用户的交付时间不受影响。",
+      "datetime": "2026-07-27 21:40:16",
+      "content": "【快讯】SHMET07月27日讯，罗素2000指数涨幅扩大至1.3%。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 18:53:03",
-      "content": "【明新旭腾：控股子公司辽宁富新停产】金十数据7月27日讯，明新旭腾公告，因外部经营环境变化导致生产条件受限，公司控股子公司辽宁富新新材料有限公司产线停产，预计短期内无法恢复生产。辽宁富新主要从事皮革生产加工业务，生产过程中产生的污水经厂区预处理后排入所在园区污水处理厂集中处理。近期，园区污水处理厂因其实际处理能力局限，要求对辽宁富新排放限值进行协商调整。2026年6月27日起，园区污水处理厂进一步提高了排放指标要求，该指标远超辽宁富新现有污水处理系统能力极限。辽宁富新与当地主管部门、园区管委会等多方持续进行沟通、交涉和协商，力求尽快解决该事项。目前尚未就最新排放限值达成一致意见，受此外部客观因素影响，辽宁富新生产设施被迫暂停运行，正常经营秩序暂时中断。公司经审慎评估后确认短期内不具备恢复生产的条件，最终于2026年7月27日作出停产决定。",
+      "datetime": "2026-07-27 21:37:16",
+      "content": "【快讯】SHMET07月27日讯，瑞士央行对媒体报道称预计该行将把利率维持在零水平直到2027年底的消息未作评论。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 18:53:03",
-      "content": "爱尔兰副总理哈里斯：下个月在美国的G20财长会议上将与英国财政大臣希利会面。",
+      "datetime": "2026-07-27 21:35:11",
+      "content": "【摩根士丹利：全球并购交易规模迈向创纪录水平】SHMET07月27日讯，摩根士丹利信用债策略师在一份报告中表示，全球并购活动不断增加，正迈向有史以来的最高规模。这些策略师表示，美国的并购活动一直很强劲，而在“欧盟委员会对行业整合的立场软化、高度分散化以及稳健的资产负债表“的支撑下，欧洲的类似交易也正在增加。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 18:52:41",
-      "content": "【价格成本和认证中心与国家新型储能创新中心座谈交流】金十数据7月27日讯，7月23日，价格成本和认证中心与国家新型储能创新中心开展座谈。双方围绕电网侧独立新型储能电站成本收益等问题进行深入交流。新能源价格成本处有关同志参加会议。",
+      "datetime": "2026-07-27 21:33:04",
+      "content": "【美银：8月或开启美股今年“最艰难的三个月”】SHMET07月27日讯，美国银行证券技术分析师Paul Ciana在最新季节性报告中指出，基于数十年市场数据，8月至10月历史上是标普500指数表现最弱的滚动三个月区间，与此同时，美元、黄金和美债在同一窗口期往往跑赢大市。这一历史规律印证了美国银行自5月底以来持续维持的防御性立场。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 18:51:39",
-      "content": "巴基斯坦央行维持基准利率在11.5%不变。",
+      "datetime": "2026-07-27 21:32:30",
+      "content": "【快讯】SHMET07月27日讯，道琼斯指数7月27日（周一）开盘上涨587.76点，涨幅1.13%，报52535.01点；标普500指数7月27日（周一）开盘上涨59.15点，涨幅0.80%，报7471.11点；纳斯达克综合指数7月27日（周一）开盘上涨255.55点，涨幅1.02%，报25231.37点。",
       "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
+      "source": "shmet",
+      "sentiment": "bull",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 18:51:32",
-      "content": "爱尔兰副总理哈里斯：邀请英国财政大臣希利参加9月的欧盟会议。",
+      "datetime": "2026-07-27 21:28:44",
+      "content": "【快讯】SHMET07月27日讯，高盛表示，在中东能源出口仅逐步正常化并持续至2027年的情景下，其估计2026年12月天然气期货价格可能需要升至100欧元/兆瓦时以上。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-07-27 18:48:33",
-      "content": "气候事件可能演变成经济考验。智库报告显示，潜在超级厄尔尼诺或造成约6860亿美元即时损失，而投资减少带来的长期影响，可能让未来五年损失扩大至3.1万亿美元。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 18:47:14",
-      "content": "【国家能源局：按照天然气“全国一张网”规划及实施方案 推进鄂东区域煤层气输气管网建设】金十数据7月27日讯，国家能源局印发《鄂尔多斯盆地东部区域煤层气增储上产行动方案（2026—2030年）》。其中提出，统筹管输设施建设。按照天然气“全国一张网”规划及实施方案，推进鄂东区域煤层气输气管网建设。在大宁—吉县、米脂北、神府、大牛地等区块，依托现有油气田基础设施，加强集输网络互联互通，支持就近接入陕京线、西气东输、榆济线等国家干线管网。推广数字化、智能化场站建设，提升运行效率和精细化管理水平。鼓励规划建设地下储气库等储气设施，服务区块稳产，提升调峰保供能力。",
+      "datetime": "2026-07-27 21:28:26",
+      "content": "【快讯】SHMET07月27日讯，高盛：我们近期的TTF预测风险仍然是双向的，但整体偏向上行。",
       "important": 0,
-      "source": "jin10",
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": false
-    }
-  ],
-  "shmet": [
+    },
     {
       "datetime": "2026-07-27 21:28:00",
       "content": "【快讯】SHMET07月27日讯，高盛：如果在未来几天或几周内美伊达成新协议，我们预计TTF的风险溢价将大幅下降，可能低于50欧元/兆瓦时。",
@@ -1167,14 +1687,6 @@
     {
       "datetime": "2026-07-27 21:22:43",
       "content": "【据悉瑞士央行计划维持零利率至2027年底】SHMET07月27日讯，据知情人士透露，瑞士央行计划将关键利率维持在零水平直至2027年底，随后才可能开始加息。这一观点主要基于当前的通胀预测，并假设不会出现重大的新冲击。他们指出，瑞郎兑欧元汇率近期走软以及瑞士与欧元区之间的利率差，也是影响这一预期的因素。知情人士称，如果经济前景遭遇新的冲击，实施负利率仍是一个备选方案，但他们强调这并非当前预期的基准情境。他们补充道，零利率水平并未对瑞士银行业的利润造成严重损害。瑞士央行在6月份的会议上维持利率不变，预计明年年底前将维持利率不变。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 21:14:54",
-      "content": "【恒大汽车委任董事及公司秘书】SHMET07月27日讯，恒大汽车(00708.HK)在港交所公告，自2026年7月27日起，陈乐燕已获委任为非执行董事；卢家麒、陈庆浲及吕思豪已获委任为独立非执行董事；彭韦豪（原名彭伟正）已获委任为公司之公司秘书。公司股份将继续暂停买卖，直至进一步通知。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
@@ -1263,14 +1775,6 @@
     {
       "datetime": "2026-07-27 20:52:02",
       "content": "【明泰铝业鸿晟新材三条高端产线投产】SHMET7月27日讯，近日，明泰铝业子公司鸿晟新材第二条气垫炉、首条化学处理线与辊底炉相继顺利投产，实现气垫炉、辊底炉、化学处理线“三线齐开”，打通了高端铝材热处理、高强合金成型、精密表面处理的全工艺闭环。其中，新增投产的第二条气垫炉采用无接触悬浮加热技术，双线并行后高端薄板热处理产能实现翻倍增长。全新投产的辊底炉专攻高强铝合金厚板固溶淬火工艺，依托高精度智能温控系统，精准把控铝材力学性能，有效提升产品强度、韧性与抗疲劳性，成功突破航空装备、低空经济、机器人、储能结构件等领域高强铝材的产能瓶颈。依托全新产线的工艺优势，产品可广泛应用于新能源汽车轻量化、低空飞行器、航空航天、储能温控、高端装备制造、电子新材料等高附加值领域。（明泰铝业）",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 20:51:51",
-      "content": "【LME铝库存降至271275吨，为本世纪最低】SHMET7月27日讯，7月27日，伦敦金属交易所（LME）铅库存减少1050吨，铝库存减少1500吨，铜库存减少3800吨，镍库存持平，锌库存减少2075吨，锡库存减少375吨。伦敦金属交易所铝库存降至本世纪最低水平，为271275吨，原因是受地缘冲突影响的中东地区供应受限，导致消费者纷纷从库存中提取金属以确保供应。（财联社）",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
@@ -1419,513 +1923,33 @@
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
-    },
-    {
-      "datetime": "2026-07-27 20:32:16",
-      "content": "【Technology Minerals西班牙铜钴镍项目勘探许可续期两年，有效期至2028年】外电7月27日消息，伦敦上市关键矿产公司Technology Minerals宣布，其位于西班牙西北部阿斯图里亚斯（Asturias）的St Patrick研究许可已获两年延期，有效期至2028年6月21日。该许可涵盖历史悠久的Aramo铜钴镍矿山，由公司全资西班牙子公司Asturmet Recursos持有。铜、钴、镍均为英国指定关键矿产，但英国目前没有这些矿产的初级生产。该许可延期为公司与潜在合作伙伴共同评估资产规模、品位连续性和潜在价值提供了时间窗口。延期不构成公司重大进一步支出的承诺，任何下一阶段工作将按照资本纪律与合作伙伴共同规划。（上海金属网编译）",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 20:32:16",
-      "content": "【Technology Minerals历史矿山采样显示铜品位高达28%】外电7月27日消息，Technology Minerals在St Patrick许可区的历史Aramo矿已完成多项勘探工作，包括岩石地球化学特征采样调查确认高品位铜钴镍矿化、地下采样、3D激光测量以及多个矿脉和蚀变带的抓样分析。抓样化验结果显示铜品位高达28%、钴品位高达1.88%、镍品位在0.1%至1.68%之间。公司勘探与开发主管Lester Kemp表示，St Patrick有潜力成为欧洲同类铜钴镍项目的旗舰资产，工作成果为后续评估提供了坚实基础。（上海金属网编译）",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 20:32:16",
-      "content": "【Technology Minerals推进Mantle战略以强化英国关键矿产供应】外电7月27日消息，Technology Minerals通过其Mantle战略，将上游资源与下游加工相结合，以增强英国获取关键矿产和电池金属的能力。St Patrick项目正按照明确标准进行评估：其对英国和欧洲铜、钴、镍供应安全的潜在贡献，其对未来国内加工和制造能力的支持能力，以及作为行业和政府战略合作伙伴项目的吸引力。St Patrick是欧洲少数能够同时贡献铜、钴、镍三种金属的资产之一。该许可原于2019年6月授予，2026年5月提交延期申请并获批准，但计划中的Aramo矿地下钻探仍需另行获得区域采矿当局的单独授权。（上海金属网编译）",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 20:30:49",
-      "content": "【快讯】SHMET07月27日讯，美国6月扣除国防的耐用品订单月率 0.3%，前值由-4.6%修正为-4.3%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 20:30:48",
-      "content": "【快讯】SHMET07月27日讯，沙特外交部：伊拉克政府应采取必要措施，确保其领土不被用作发动侵略的起源地。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 20:30:18",
-      "content": "【快讯】SHMET07月27日讯，美国6月耐用品订单月率 0.3%，预期2.5%，前值由-4.50%修正为-4%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 20:30:01",
-      "content": "【快讯】SHMET07月27日讯，美国6月扣除运输的耐用品订单月率 0.6%，预期0.8%，前值由1.40%修正为1.8%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 20:26:01",
-      "content": "【快讯】SHMET07月27日讯，穆迪：预计印尼资本流动和印尼盾将面临更多波动。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 20:21:35",
-      "content": "【快讯】SHMET07月27日讯，美国6月耐用品订单月率将于十分钟后公布。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 20:21:33",
-      "content": "【以色列总理内塔尼亚胡启程赴美访问】SHMET07月27日讯，以色列总理内塔尼亚胡当地时间27日正式启程赴美访问。在启程前，他发表声明称，他将会晤美国总统特朗普，双方将就包括伊朗问题在内的地区多项核心议题展开讨论。 (央视新闻)",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 20:18:55",
-      "content": "【上交所终止荣信汇科科创板IPO审核】SHMET07月27日讯，据上交所网站披露，因荣信汇科电气股份有限公司和保荐人国金证券股份有限公司向上交所提交了《荣信汇科关于撤回首次公开发行股票并在科创板上市申请文件的申请》和《国金证券关于撤回荣信汇科电气股份有限公司首次公开发行股票并在科创板上市申请文件的申请函》，申请撤回发行上市申请文件，上交所决定终止其首次公开发行股票并在科创板上市的审核。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 20:15:48",
-      "content": "【中国信通院葛雨明：自动驾驶研发对极端场景工况等高质量数据存在更大诉求】SHMET07月27日讯，“我们也注意到当前自动驾驶研发数据已不单纯以量取胜，而是对极端场景工况等高质量数据存在更大诉求。”在7月27日2026世界智能网联汽车大会媒体圆桌会上，中国信息通信研究院车联网与智慧交通研究部主任葛雨明回答记者等媒体的问题时说。如何补上自动驾驶企业高质量数据缺口？他认为企业和国家要共同发力解决这个问题。从企业层面看，一是加速供给模式向多元协同演进；二是加强生成式自动驾驶数据生产技术研发与应用；三是探索可信可控的数据跨主体流通。从国家层面看，一是深化试点验证引领；二是组织核心技术攻关；三是加快核心标准制定；四是注重国际协作。 (澎湃)",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 20:12:41",
-      "content": "【快讯】SHMET07月27日讯，印度央行副行长：印度的经济雄心需要金融市场动员更多长期资本，更有效地分配风险。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 20:04:15",
-      "content": "【中证核能精选指数将于7月28日正式发布】SHMET07月27日讯，中证指数有限公司公告，将于2026年7月28日正式发布中证核能精选指数，为市场提供更丰富的投资标的。中证核能精选指数选取涉及核能投资运营、核能设计建设、核燃料循环及配套、核技术应用、核能装备、核能材料等核能产业代表性上市公司证券作为指数样本，反映核能产业上市公司证券的整体表现。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 20:03:21",
-      "content": "【2连板新亚制程：1-6月六氟磷酸锂对外销售营收占比约为9% 对营业收入贡献有限】SHMET07月27日讯，新亚制程(002388.SZ)发布异动公告，公司主要从事电子信息产品销售服务、化工材料-胶粘剂制造、锂离子电池材料制造业务。公司业务不涉及碳酸亚乙烯酯的研发、生产。公司2025年六氟磷酸锂产量为1119.60吨，对外销售363.48吨，对外销售部分产生的营业收入为2786.93万元，占公司2025年度营业收入的1.44%。2026年1-6月六氟磷酸锂产量1682.49吨，对外销售921.53吨，对外销售部分实现的营业收入约8345万元。占公司2026年上半年度营业收入的比重约为9%，对公司营业收入的贡献有限。该业务未来可能面临行业政策以及市场环境等不确定因素的影响，可能存在行业周期、市场竞争等风险，对公司未来业绩影响具有不确定性。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 20:01:07",
-      "content": "【快讯】SHMET07月27日讯，上海黄金交易所黄金T+D 7月27日（周一）晚盘盘初上涨1.47%报894.15元/克；上海黄金交易所白银T+D 7月27日（周一）晚盘盘初下跌1.49%报14250.0元/千克。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 20:00:55",
-      "content": "【快讯】SHMET07月27日讯，加拿大至7月24日全国经济信心指数 52.6，前值51.4。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:55:38",
-      "content": "【东方证券：拟发行股份及支付现金收购上海证券100%股权 交易对价251.2亿元】SHMET07月27日讯，东方证券(600958.SH)公告称，公司拟通过发行A股股份及支付现金方式，收购百联集团、国泰海通等交易对方合计持有的上海证券100%股权，交易对价为251.2亿元。其中，股份对价235.5亿元，现金对价15.7亿元。本次发行股份价格为10.29元/股，合计发行约22.89亿股。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:54:54",
-      "content": "【贝因美：控股子公司吉林贝因美因台风受灾停产】SHMET07月27日讯，贝因美(002570.SZ)公告称，公司控股子公司吉林贝因美位于吉林敦化的生产厂区因超强台风“巴威”引发内涝，导致生产车间、仓储库房等受损，生产经营暂停，恢复时间待定。初步预计财产损失金额超2025年净利润10%，相关资产已投保，具体损失待排查和理赔确定。公司其他基地运营正常，已调度转产，预计不影响长期发展。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:52:11",
-      "content": "【北京上半年乘用车新车L2级辅助驾驶渗透率达77.5% L3量产车型率先落地】SHMET07月27日讯，7月27日，在2026世界智能网联汽车大会媒体圆桌会上，北京市经信局副局长苏国斌介绍，2026年上半年全市乘用车新车L2级组合辅助驾驶渗透率达77.5%，高于全国70%的平均水平；北汽极狐阿尔法S成为全国首批L3级有条件自动驾驶量产车型，率先实现高级别自动驾驶合法上路和商业化落地；依托全国首个高级别自动驾驶示范区，北京累计发放测试牌照超1500张，安全测试里程突破6500万公里。京津冀协同方面，北京正联合津冀共建智能网联新能源汽车科技生态港，已吸引200余家产业链企业参与，落地签约53家。下一步，北京将围绕高级别自动驾驶产业化、“双智”4.0建设、核心技术攻关、京津冀产业协同四方面发力，打造世界级产业集群。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:52:10",
-      "content": "【快讯】SHMET07月27日讯，标普：因持续经济风险，孟加拉国前景展望被下调至负面；评级维持不变。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:52:05",
-      "content": "【快讯】SHMET07月27日讯，标普将 标普全球评级将孟加拉国评级展望下调至负面，维持现有信用评级\"B+/B\"不变。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:51:38",
-      "content": "【快讯】SHMET07月27日讯，LME伦铜涨幅扩大，现涨1.0%，最新报13781.0美元/吨。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:48:00",
-      "content": "【快讯】SHMET07月27日讯，现货白银向上触及59美元/盎司，日内上涨1.41%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:45:24",
-      "content": "【快讯】SHMET07月27日讯，克里姆林宫发言人佩斯科夫：普京即将举行的会谈不会涉及特朗普，但仍具有重要意义。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:44:44",
-      "content": "【2026世界智能网联汽车大会将于10月举办】SHMET07月27日讯，今天从工业和信息化部获悉，由工业和信息化部、交通运输部、北京市人民政府联合主办的2026世界智能网联汽车大会将于2026年10月中旬在北京举办。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:42:22",
-      "content": "【蔡建春已赴中金所工作】SHMET07月27日讯，蔡建春的简历已从上交所官网“领导班子”栏目中撤下。此前，蔡建春曾担任上交所党委副书记、总经理。从多方了解到，蔡建春已于近日赴中国金融期货交易所工作。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:42:03",
-      "content": "【快讯】SHMET07月27日讯，据以色列第12频道援引消息来人士称，内塔尼亚胡将向特朗普提供有关伊朗迈向拥有核武器进程的最新情报信息。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:39:18",
-      "content": "【快讯】SHMET07月27日讯，俄罗斯总统普京：通货膨胀风险正在加大。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:37:36",
-      "content": "【国家防总针对湖北四川启动防汛四级应急响应】SHMET07月27日讯，据气象部门预报，7月27日至28日，湖北中南部、四川盆地等地有大到暴雨、局地大暴雨，山洪和地质灾害、中小河流洪水等灾害风险较高。根据《国家防汛抗旱应急预案》及有关规定，国家防总决定于7月27日18时针对湖北、四川启动防汛四级应急响应。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:29:10",
-      "content": "【快讯】SHMET07月27日讯，巴西央行调查显示，经济学家预计巴西2026年GDP增长率为1.99%，与上次调查一致；2027年GDP增长率为1.6%，上次调查为1.65%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:28:26",
-      "content": "【深圳再添两个百亿级半导体项目】SHMET07月27日讯，两大电子产业链龙头企业相继披露重大投资计划，项目双双落子深圳，合计规划投资规模超过200亿元，分别瞄准AI服务器电路板和半导体大尺寸硅片两大高成长赛道。臻鼎科技集团在深圳宝安举行鹏鼎控股第三园区动土典礼。该项目由臻鼎科技集团旗下核心上市主体——鹏鼎控股（深圳）股份有限公司投资，总投资超100亿元，将打造人工智能高阶类载板及柔性电路板智造基地。TCL中环发布公告，拟以控股子公司中环领先的子公司——深圳中环领先为主体，投资建设“集成电路用半导体大硅片深圳项目”，投资总额预计约为119.6亿元。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:26:54",
-      "content": "【预告】SHMET07月27日讯，国务院新闻办公室将于2026年7月29日（星期三）上午10时举行“开局起步‘十五五’”系列主题新闻发布会，请国家知识产权局新闻发言人、副局长芮文彪介绍“十五五”时期知识产权保护和运用有关情况，并答记者问。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:24:30",
-      "content": "【快讯】SHMET07月27日讯，汇丰控股：将IBM(IBM.N)目标价从175美元下调至174美元。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:20:38",
-      "content": "【工信部：将加快编制出台智能网联新能源汽车产业发展“十五五”规划】SHMET07月27日讯，工业和信息化部装备工业一司司长郭守刚7月27日在2026世界智能网联汽车大会媒体圆桌会上介绍了我国智能网联汽车产业发展情况。下一步，工信部将加快编制出台智能网联新能源汽车产业发展“十五五”规划，深入贯彻落实《国家标准化发展纲要》，加快突破一批关键核心技术，加速重点标准研制、国际协调和贯彻实施，深入推进“车路云一体化”应用试点、生产准入和上路通行试点，推动建立贯通全产业链的生态体系。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:19:36",
-      "content": "【人工智能从试验走向创造价值 摩根士丹利看好AI采用者的盈利前景】SHMET07月27日讯，摩根士丹利策略师表示，整合人工智能(AI)技术能力的美国企业有望实现更为强劲的利润率。他预计，到2027年，有约100个基点的净利润率扩张与采纳人工智能有关。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:17:45",
-      "content": "【两部门紧急预拨1.8亿元资金 支持6省防汛防台风应急抢险救灾】SHMET07月27日讯，财政部、应急管理部紧急预拨1.8亿元中央自然灾害救灾资金，支持广东、福建、江西、湖南、辽宁、吉林等6省开展防汛防台风应急抢险救灾工作，重点做好搜救转移安置受灾人员、排危除险等应急处置、次生灾害隐患排查整治、倒损民房修复等工作，切实保障人民群众生命财产安全。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:16:40",
-      "content": "【群智咨询：预计七月LCD TV面板价格向下温和调整】SHMET07月27日讯，群智咨询认为，短期供应恢复力度更强，供需环境趋于宽松，预计七月LCD TV面板价格向下温和调整。各尺寸面板价格表现如下：32\"，二线市场需求显著下降，预计7月均价下降1美元；50\"，虽然50FHD需求有一定支撑，但难以扭转整体需求转弱，预计7月均价下降2美元；55\"，需求相对平稳叠加供应逐步增加，预计7月均价下降2美元。大尺寸方面，品牌需求韧性较强，但G10.5产能明显恢复，预计7月均价下降3美元。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:15:44",
-      "content": "【长芯博创：控股子公司签署45亿元光纤光缆长期合作协议】SHMET07月27日讯，长芯博创(300548.SZ)公告称，公司控股子公司长芯盛武汉与某现有客户签署长期合作协议，预计协议有效期内销售金额约45亿元(不含税)，约占公司2025年经审计营业收入的178%。协议履行期限至2030年12月31日止。本次销售预计采用净额法确认收入，不会对公司2026年度及未来年度经营业绩产生重大影响。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:12:58",
-      "content": "【第一创业常务副总裁青美平措辞任 已履新创金合信基金董事长】SHMET07月27日讯，第一创业证券公告称，公司副董事长、常务副总裁青美平措因工作调整辞去常务副总裁职务，辞任后，青美平措仍担任公司副董事长、创金合信基金董事长及第一创业创新资本董事。目前，青美平措已正式出任创金合信基金董事长，原董事长钱龙海因退休离任。青美平措2024年6月加入第一创业，拥有银行、国资等多家机构任职经历。2026年以来，已有中信建投、长江证券等部分券商中存在兼任券商与公募基金双重要职的高管，卸任其中一端职务以实现专职化。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:09:51",
-      "content": "【快讯】SHMET07月27日讯，俄罗斯总统普京：将把加强国防、解决社会问题和支持经济作为未来三年预算的关键优先事项。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:08:49",
-      "content": "【德国二季度插电式电动车市占率达37.7%】SHMET07月27日讯，2026年第二季度，德国新车市场中插电式电动车（包括纯电动车和插电式混合动力车）的市场份额达到37.7%，较2025年同期的28.6%显著上升。其中，纯电动车（BEV）占比为26.5%，插电式混合动力车（PHEV）占比为11.2%。相比之下，2025年第二季度这两类车型的市场份额分别为18.4%和10.2%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:07:43",
-      "content": "【快讯】SHMET07月27日讯，俄罗斯总统普京：俄罗斯有能力应对所有敌对行动。西方对俄罗斯的制裁在数量和无效性上都是“创纪录的”，并且这些制裁对发起制裁的国家造成了损害。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:04:08",
-      "content": "【快讯】SHMET07月27日讯，纳指ETF国泰(513100)将于2026年7月28日开市起至当日10:30停牌。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 19:02:37",
-      "content": "【快讯】SHMET07月27日讯，美国电信运营商AT&T已与D-Wave签署协议，计划扩大其量子计算技术在网络运营领域的使用。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 18:58:20",
-      "content": "【快讯】SHMET07月27日讯，市场消息：俄罗斯总统普京正在与国家杜马成员举行会议。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 18:55:05",
-      "content": "【机构：上半年动力电池装机量约334.7GWh 同比增长16%】SHMET07月27日讯，高工产业研究院(GGII)根据新能源汽车交强险口径数据统计显示，在免征购置税减半征收政策、市场和季节等多重因素影响下，2026年上半年新能源汽车销售约510.8万辆，同比下降10%；但在新能源专用车市场单车平均带电量提升的带动下，2026年上半年电池装机量约334.7GWh，较去年同期增长16%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 18:53:47",
-      "content": "【明新旭腾：控股子公司辽宁富新因环保问题停产 预计减值约1000万元】SHMET07月27日讯，明新旭腾(605068.SH)公告称，公司控股子公司辽宁富新新材料有限公司因园区污水处理厂提高排放指标要求，超出其现有处理能力，导致产线停产，预计短期内无法恢复生产。辽宁富新2025年度营收2.58亿元，净利润316.33万元。公司预计此次停产将计提资产减值准备约1000万元，但现有库存及集团内其他基地可满足订单交付，不会对整体经营产生重大影响。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 18:53:21",
-      "content": "【快讯】SHMET07月27日讯，爱尔兰副总理哈里斯：下个月在美国的G20财长会议上将与英国财政大臣希利会面。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 18:52:45",
-      "content": "【机构：供需环境趋于宽松 预计七月面板价格向下温和调整】SHMET07月27日讯，群智咨询发文称，七月，供应增长幅度强于需求恢复力度，影响电视面板市场供需环境趋于宽松，七月LCD TV面板价格向下温和调整。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 18:52:17",
-      "content": "【快讯】SHMET07月27日讯，爱尔兰副总理哈里斯：邀请英国财政大臣希利参加9月的欧盟会议。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 18:43:19",
-      "content": "【快讯】SHMET07月27日讯，惠誉：预计日本政府将保持赤字与债务在五年预测期内持续下降的一致性。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 18:41:52",
-      "content": "【快讯】SHMET07月27日讯，惠誉评级：日本的新财政政策仍符合减债路径。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 18:34:31",
-      "content": "【德国工商大会：能源价格冲击正抑制投资】SHMET07月27日讯，为了规避德国国内不断攀升的能源成本，越来越多的德国企业正推迟投资，并考虑将生产转移至海外。德国工商大会（DIHK）周一发布的一项年度调查显示，过去一年中，近半数企业的电价上涨，超过三分之二企业的供暖成本增加。在接受调查的3000多家企业中，约三分之一表示因能源价格高昂而推迟了投资；近五分之一的企业表示正考虑削减在德产能或将生产转移至海外，甚至已有企业采取了此类行动。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 18:31:33",
-      "content": "【快讯】SHMET07月27日讯，花旗集团将雷神目标股价从226美元上调至240美元。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 18:30:43",
-      "content": "【韩国上半年查获价值7.2万亿韩元的非法外汇交易】SHMET07月27日讯，韩国关税厅周一表示，上半年共查获价值7.2万亿韩元（约49.2亿美元）的非法外汇交易。韩国关税厅表示，今年1月至6月共查获792起非法外汇交易案件，涉及非法向境外转移外汇、隐匿海外资产等违法行为。部分案件涉及出口企业以加密货币而非美元等法定货币收取出口货款，从而未将出口所得外汇汇回韩国。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 18:30:39",
-      "content": "【预告：国新办7月28日就所谓“产能过剩”问题中方立场有关情况举行新闻发布会】SHMET07月27日讯，国务院新闻办公室定于2026年7月28日（星期二）下午3时举行新闻发布会，请商务部副部长鄢东介绍所谓“产能过剩”问题中方立场有关情况，并答记者问。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 18:28:38",
-      "content": "【商务部新闻发言人就美宣称拟对中国人工智能企业开展调查并实施制裁答记者问】SHMET07月27日讯，记者问：近日，美国一些高级官员公开表示将针对中国人工智能企业所谓“蒸馏”美前沿模型开展调查，并可能以“窃取美国知识产权”等为由制裁中国企业。请问中方对此有何评论？\n\n商务部答：我们注意到有关情况。中方一贯反对美方将科技经贸问题政治化、工具化，以各种莫须有的理由污名化中国企业并实施制裁。美方罔顾有关中国企业人工智能模型与美前沿模型发布时间非常接近、中国部分模型能力已处于领先地位等事实，给中国企业扣上所谓依靠“蒸馏”“窃取美国知识产权”等帽子，还威胁进行打压制裁。这些做法缺乏事实依据，没有法理支撑，在实践上搞双重标准，属于典型的人工智能霸权主义行径。\n\n创新不是任何一方的专利。中国人工智能企业长期深耕基础研究，坚持科技自立自强与开放合作并重，秉持共商、共建、共享理念，推动人工智能技术快速发展，在前端代码能力等越来越多的领域取得喜人成就。据了解，很多美国人工智能企业在研发和训练中蒸馏了中国的模型。值得注意的是，美业界众多企业公开反对美国威胁制裁中国人工智能企业。近200家美国初创企业敦促美国政府不要切断对中国开源模型的访问，认为这将削弱美国企业竞争力。一些美国大型跨国企业表示，模型蒸馏是一种行业广泛应用的技术，应允许美国企业使用中国开源人工智能模型。\n\n中方敦促美方倾听中美两国业界客观、理性声音，纠正霸权思维，停止对中国企业的抹黑和制裁威胁。对于任何实质性损害中方利益的行为，中方将采取一切必要措施，坚定维护自身正当合法权益。希望美方切实落实两国元首共识，同中方相向而行，加强人工智能对话、沟通，共同推动人工智能向上向善，通过推进并完善人工智能治理造福两国和世界。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 18:28:10",
-      "content": "【快讯】SHMET07月27日讯，波兰总理表示，该国或将于夏末下调燃油终端售价。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 18:26:52",
-      "content": "【快讯】SHMET07月27日讯，波兰总理图斯克：我们可能会采取措施再次降低燃油价格。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 18:23:04",
-      "content": "【快讯】SHMET07月27日讯，哈萨克斯坦能源部：在CPC终端关闭后，哈萨克斯坦石油日产量减半。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 18:19:34",
-      "content": "【快讯】SHMET07月27日讯，哈萨克斯坦能源部：黑海里海管道联盟（CPC）码头的石油装载已恢复。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-07-27 18:18:49",
-      "content": "【快讯】SHMET07月27日讯，香港特区政府：香港6月至内地的黄金净出口量为50.679吨，前值53.674吨。香港6月至内地的黄金总出口量为78.147吨，前值65.562吨。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
     }
   ],
   "steel_highlight": [
+    {
+      "datetime": "2026-07-27 23:03:36",
+      "content": "【快讯】SHMET07月27日讯，燃油夜盘收跌约3.5%，纯碱、焦煤跌超2%，LPG跌1.7%，铁矿石跌0.3%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": true
+    },
+    {
+      "datetime": "2026-07-27 22:49:23",
+      "content": "【快讯】SHMET07月27日讯，焦煤主力合约日内跌超2.00%，现报1245.00元/吨。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": true
+    },
+    {
+      "datetime": "2026-07-27 22:48:06",
+      "content": "焦煤主力合约日内跌超2.00%，现报1245.00元/吨。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": true
+    },
     {
       "datetime": "2026-07-27 20:51:38",
       "content": "【太钢N08825镍基合金成功交付中东】SHMET7月27日讯，近日，太钢不锈热轧厂传来捷报：高端镍基合金 N08825 中板成功交付中东海外客户，并一次性通过德国莱茵 TÜV 3.2 认证。此前，太钢已于 2026 年 4 月正式拿下中东国际知名能源企业的合格供应商资质，标志着太钢凭借过硬的全流程管控能力，成功突破中东高端油气供应链的“顶级门槛”，获得国际市场认可。 针对中东油气田高温、高压、强腐蚀的极端工况，以及耐酸、耐氯离子“双腐蚀”的技术难题，太钢不锈热轧厂组建攻关团队，依托 4300mm 大功率可逆式轧机，打破传统工艺惯性，通过优化加热曲线、严控开轧温度及精分轧制道次，实现了一次贯通轧制。该工艺不仅攻克了坯料分层、表面裂纹等行业痛点，更确保了产品表面、尺寸及内部质量的“零偏差”，实现了 100% 合格率，完成了从“合格”到“标杆”的跨越。 此次成功交付不仅是太钢高端耐蚀合金从“国内领先”迈向“国际认可”的标志性跨越，更为后续中东市场的批量订单奠定了坚实的口碑基础。未来，太钢将继续秉持“极限制造”理念，以创新工艺深耕全球高端市场，让更多“中国智造”闪耀世界能源版图。（中国钢铁工业协会不锈钢分会）",
