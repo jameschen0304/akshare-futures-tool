@@ -1,7 +1,23 @@
 {
   "source": "jin10 flash + shmet + shfe weekly stock",
-  "generated_at": "2026-08-28T21:02:01.905122+00:00",
+  "generated_at": "2026-08-28T21:15:27.547409+00:00",
   "jin10": [
+    {
+      "datetime": "2026-08-29 05:13:21",
+      "content": "伊朗外长阿拉格齐：我们的导弹经受住了考验，出色地保卫了国家，国内生产的一切装备都发挥了最佳效能。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 05:01:28",
+      "content": "惠誉确认法国评级为 'A+'；展望稳定。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
     {
       "datetime": "2026-08-29 05:01:22",
       "content": "【伊朗：持续控制霍尔木兹海峡 船只未经协调不得通过】金十数据8月29日讯，当地时间8月28日，伊朗伊斯兰革命卫队海军发表声明称，美国官员关于霍尔木兹海峡开放的声明为谎言，其目的只是为了控制油价并掩盖其失败。声明强调，革命卫队对这一战略水道的控制权绝对稳固。伊朗已下令，所有未经伊朗协调而试图通过霍尔木兹海峡的船只均不得通行。革命卫队海军表示，这一行动将持续进行，直至美国对伊朗的军事行动彻底终结并履行其应尽的义务。",
@@ -1129,17 +1145,25 @@
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
-    },
-    {
-      "datetime": "2026-08-29 00:32:01",
-      "content": "金十图示：2026年08月28日（周五）美股热门股票行情一览（美股盘中）",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
     }
   ],
   "shmet": [
+    {
+      "datetime": "2026-08-29 05:02:17",
+      "content": "【快讯】SHMET08月29日讯，惠誉确认法国评级为 'A+'；展望稳定。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 05:01:49",
+      "content": "【拉美四国签署联合声明推动关键矿产合作】SHMET08月29日讯，智利、阿根廷、玻利维亚和秘鲁四国矿业主管部门官员，28日在智利首都圣地亚哥召开部长级会议并签署联合声明，呼吁加强区域合作，推动关键矿产可持续开发、技术交流与投资，共同提升该地区在全球关键矿产供应链中的地位。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
     {
       "datetime": "2026-08-29 04:54:35",
       "content": "【快讯】SHMET08月29日讯，俄罗斯石油公司：上半年油气凝析油产量为8980万吨，即369万桶/日。",
@@ -1199,22 +1223,6 @@
     {
       "datetime": "2026-08-29 04:27:27",
       "content": "【快讯】SHMET08月29日讯，伊朗革命卫队：所有未经伊朗协调而试图通行的船只，都将被以全部力量和绝对权威封锁在霍尔木兹海峡之外。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-08-29 04:25:33",
-      "content": "【快讯】SHMET08月29日讯，伊朗革命卫队：美方官员关于霍尔木兹海峡“保持开放”的表态是赤裸裸的谎言，唯一目的就是操控油价、掩盖自身失败。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-08-29 04:24:28",
-      "content": "【快讯】SHMET08月29日讯，Pinterest美股盘后跌3.2%，该公司CFO离职。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
