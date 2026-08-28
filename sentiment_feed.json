@@ -1,7 +1,47 @@
 {
   "source": "jin10 flash + shmet + shfe weekly stock",
-  "generated_at": "2026-08-28T21:15:27.547409+00:00",
+  "generated_at": "2026-08-28T23:11:52.723359+00:00",
   "jin10": [
+    {
+      "datetime": "2026-08-29 05:56:25",
+      "content": "【美媒：美国国防部长赫格塞思考虑2028年竞选美国总统】金十数据8月29日讯，据NBC新闻援引两名知情人士报道，美国国防部长皮特·赫格塞思近几个月一直在和亲近人士讨论2028年竞选美国总统的可能性。赫格塞思及其妻子认为，他与特朗普有一些相似之处，包括作风强硬、敢于对抗，以及在社会议题上立场保守，因此可能获得MAGA基本盘的支持。本月，赫格塞思还前往爱荷华州为共和党议员助选。爱荷华州长期是美国总统选举的重要前哨，因此这次行程进一步引发外界对他准备竞选总统的猜测。如果参选，赫格塞思可能与副总统JD·万斯、国务卿鲁比奥等人竞争。不过，五角大楼发言人否认相关说法，称“赫格塞思部长不会竞选总统”，其首要任务仍是领导国防部。报道指出，正在进行的伊朗战争可能成为赫格塞思的一大政治包袱，目前已有18名美军人员死亡，美国平均汽油价格也从每加仑不到3美元升至略高于4美元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 05:51:56",
+      "content": "【安联首席经济顾问：美债曲线趋平释放双重信号】金十数据8月29日讯，安联首席经济顾问穆罕默德·埃尔-埃利安表示，今日美债收益率曲线的变动释放了两个信号。2年期与10年期利差收窄约7个基点，2年期与30年期利差收窄约10个基点，呈现趋平态势。埃利安认为，这反映出固定收益市场的双重解读：短期来看，这是美联储主席沃什对通胀目标的坚定承诺之后，市场进行的鹰派重新定价；长期来看，则是对美联储长期公信力的认可。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 05:46:18",
+      "content": "据NBC新闻：美国国防部长赫格塞思正在考虑参加2028年总统竞选。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 05:33:41",
+      "content": "【德银预计美联储9月和12月各加息25个基点】金十数据8月29日讯，德意志银行经济学家预计，美联储将在9月和12月各加息25个基点。美联储主席沃什在杰克逊霍尔讲话中强调，需要让通胀回到2%目标，并释放明显鹰派信号。德银认为，除非未来公布的经济数据“明显弱于预期”，否则要避免9月加息25个基点的门槛已经很高。市场也迅速上调加息押注：CME数据显示，到12月累计加息50个基点或以上的概率升至51%，前一天仅为29%；累计加息25个基点的概率为38%，维持利率不变的概率仅为11%。沃什讲话后，市场对9月加息的押注也明显升温。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 05:23:29",
+      "content": "美国总统特朗普批评纽约州州长霍赫尔“站在加拿大一边”，不愿使用“美国湖”这一名称、“宁愿让加拿大赢”，并力挺布莱克曼成为纽约州下一任州长。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
     {
       "datetime": "2026-08-29 05:13:21",
       "content": "伊朗外长阿拉格齐：我们的导弹经受住了考验，出色地保卫了国家，国内生产的一切装备都发挥了最佳效能。",
@@ -1097,57 +1137,65 @@
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
-    },
-    {
-      "datetime": "2026-08-29 00:44:08",
-      "content": "美联储古尔斯比：同意通胀是美联储目前的主要问题。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-08-29 00:44:00",
-      "content": "美联储古尔斯比：同意美联储主席沃什关于经济细节的看法。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-08-29 00:43:00",
-      "content": "【南非核电站因汽轮机跳闸停机】金十数据8月29日讯，南非国家电力公司27日晚间发布声明说，该国库贝赫核电站1号机组当天凌晨在出现汽轮机跳闸后按照既定程序安全停机。这意味着该核电站暂时处于完全停运状态。声明说，库贝赫核电站1号机组暂停向电网供电不会对南非全国电力供应构成风险，电网运行依然安全稳定。事件未对核安全造成影响，也未对员工、公众和环境构成风险。汽轮机跳闸的原因正在调查中。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-08-29 00:41:04",
-      "content": "世卫组织总干事确定，刚果民主共和国的埃博拉疫情仍符合国际关注的公共卫生紧急事件标准，但不符合大流行紧急事件的标准。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-08-29 00:38:41",
-      "content": "英伟达(NVDA.O)支持的Lambda公司签署10亿美元私募债务协议，用于芯片交易。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-08-29 00:35:38",
-      "content": "现货白银延续跌势，日内跌幅扩大至4%，现报66.49美元/盎司。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
     }
   ],
   "shmet": [
+    {
+      "datetime": "2026-08-29 06:50:20",
+      "content": "【快讯】SHMET08月29日讯，美国总统特朗普表示，刚刚与委内瑞拉达成石油协议，美国获得了对650亿桶石油中多数的控制权。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 06:23:00",
+      "content": "【新疆阿克苏地区温宿县发生4.2级地震】SHMET08月29日讯，中国地震台网正式测定：08月29日06时07分在新疆阿克苏地区温宿县（北纬42.20度，东经80.52度）发生4.2级地震，震源深度10千米。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 06:06:22",
+      "content": "【快讯】SHMET08月29日讯，巴西电力监管机构将9月份电费定为“黄色”警戒级别。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 05:53:07",
+      "content": "【安联首席经济顾问：美债曲线趋平释放双重信号】SHMET08月29日讯，安联首席经济顾问穆罕默德·埃尔-埃利安表示，今日美债收益率曲线的变动释放了两个信号。2年期与10年期利差收窄约7个基点，2年期与30年期利差收窄约10个基点，呈现趋平态势。埃利安认为，这反映出固定收益市场的双重解读：短期来看，这是美联储主席沃什对通胀目标的坚定承诺之后，市场进行的鹰派重新定价；长期来看，则是对美联储长期公信力的认可。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 05:35:28",
+      "content": "【德银预计美联储9月和12月各加息25个基点】SHMET08月29日讯，德意志银行经济学家预计，美联储将在9月和12月各加息25个基点。美联储主席沃什在杰克逊霍尔讲话中强调，需要让通胀回到2%目标，并释放明显鹰派信号。德银认为，除非未来公布的经济数据“明显弱于预期”，否则要避免9月加息25个基点的门槛已经很高。市场也迅速上调加息押注：CME数据显示，到12月累计加息50个基点或以上的概率升至51%，前一天仅为29%；累计加息25个基点的概率为38%，维持利率不变的概率仅为11%。沃什讲话后，市场对9月加息的押注也明显升温。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 05:24:33",
+      "content": "【快讯】SHMET08月29日讯，美国总统特朗普批评纽约州州长霍赫尔“站在加拿大一边”，不愿使用“美国湖”这一名称、“宁愿让加拿大赢”，并力挺布莱克曼成为纽约州下一任州长。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 05:16:42",
+      "content": "【快讯】SHMET08月29日讯，富时中国A50指数期货夜盘收跌0.31%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
     {
       "datetime": "2026-08-29 05:02:17",
       "content": "【快讯】SHMET08月29日讯，惠誉确认法国评级为 'A+'；展望稳定。",
@@ -1223,6 +1271,670 @@
     {
       "datetime": "2026-08-29 04:27:27",
       "content": "【快讯】SHMET08月29日讯，伊朗革命卫队：所有未经伊朗协调而试图通行的船只，都将被以全部力量和绝对权威封锁在霍尔木兹海峡之外。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 04:25:33",
+      "content": "【快讯】SHMET08月29日讯，伊朗革命卫队：美方官员关于霍尔木兹海峡“保持开放”的表态是赤裸裸的谎言，唯一目的就是操控油价、掩盖自身失败。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 04:24:28",
+      "content": "【快讯】SHMET08月29日讯，Pinterest美股盘后跌3.2%，该公司CFO离职。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 04:24:04",
+      "content": "【快讯】SHMET08月29日讯，伊朗革命卫队：伊朗战士对霍尔木兹海峡这一战略水道的控制完全且不容置疑。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 04:23:33",
+      "content": "【据悉五角大楼正与委内瑞拉大亨洽谈巨额石油交易 涉及多达17个油田】SHMET08月29日讯，据知情人士透露，美国政府正寻求获得委内瑞拉石油储备的重大权益，五角大楼正与能源投资者亚历杭德罗·贝坦库尔特（Alejandro Betancourt）洽谈潜在合作，涉及横跨委内瑞拉主要石油产区的多达17个油田，包括奥里诺科重油带胡宁地区和马拉开波湖周边油田。讨论中的方案包括由五角大楼战略资本办公室（OSC）监督投资，甚至可能由美国取得长达100年的租约。华盛顿目前实际上控制着委内瑞拉石油销售，并已放松制裁允许美国企业进入。随着美国与伊朗战争扰乱中东供应、推高全球能源价格，美国希望加快恢复委内瑞拉石油产量。不过，OSC并无直接持有项目股权的明确权限，相关计划预计将在美委两国引发法律和政治争议。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 04:18:07",
+      "content": "【快讯】SHMET08月29日讯，美联储数据显示，美国上周银行存款19.532万亿美元，之前一周19.534万亿美元。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 04:12:35",
+      "content": "【快讯】SHMET08月29日讯，晨星DBRS确认荷兰评级为AAA，趋势稳定。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 04:11:38",
+      "content": "【快讯】SHMET08月29日讯，标普：预计霍尔木兹海峡的干扰将导致能源价格上涨，对2026年葡萄牙经济产生适度影响。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 04:08:42",
+      "content": "【快讯】SHMET08月29日讯，标普：葡萄牙'A+/A-1'评级得到确认；展望因经济增长强劲而保持积极。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 04:04:31",
+      "content": "【快讯】SHMET08月29日讯，道琼斯指数8月28日（周五）收盘下跌10.10点，跌幅0.02%，报53559.34点；标普500指数8月28日（周五）收盘下跌19.52点，跌幅0.25%，报7711.47点；纳斯达克综合指数8月28日（周五）收盘下跌138.93点，跌幅0.52%，报26402.42点。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 03:58:18",
+      "content": "【快讯】SHMET08月29日讯，消息人士：五角大楼正与委内瑞拉大亨洽谈巨额石油交易。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 03:57:20",
+      "content": "【伊朗总统：备忘录执行期间出口近9000万桶石油】SHMET08月29日讯，伊朗总统佩泽希齐扬表示，根据签署的《伊斯兰堡谅解备忘录》，对方原本承诺解除封锁以及对石油和石化行业的制裁，并归还被冻结的资金。如果对方履行承诺，我们也会履行承诺。在这一过程中可以进行对话，因为我们不可能100%实现自己的所有要求，对方也不可能100%实现他们的所有要求。就在谅解备忘录期间，我们出口了近9000万桶石油。但现在已经无法做到这一点。根据谅解备忘录，银行业制裁被解除，对石化行业的制裁也被取消，我们当时正在陆续收回被冻结的资金，但这需要时间，并不是一件简单的事情。对方原计划投资3000亿美元，我们也与卡塔尔和阿联酋方面进行了讨论，以促成此事。但如果战争继续，这一切都不会发生。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 03:54:13",
+      "content": "【快讯】SHMET08月29日讯，据每日电讯报：如果英国不增加国防开支，美国可能会重新考虑其对英国福克兰群岛主权声索的立场。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 03:51:44",
+      "content": "【快讯】SHMET08月29日讯，美国风险投资公司Andreessen Horowitz为AI硬件基金融资11亿美元。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 03:40:46",
+      "content": "【快讯】SHMET08月29日讯，伊朗总统佩泽希齐扬：在过渡协议实施期间，伊朗售出了约9000万桶石油。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 03:38:50",
+      "content": "【快讯】SHMET08月29日讯，伊朗总统佩泽希齐扬：不应将谈判非黑即白地看待。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 03:38:33",
+      "content": "【国际油价28日微跌】SHMET08月29日讯，国际油价28日微跌。截至当天收盘，纽约商品交易所10月交货的轻质原油期货价格下跌13美分，收于每桶83.40美元，跌幅为0.16%；10月交货的伦敦布伦特原油期货价格下跌39美分，收于每桶89.31美元，跌幅为0.43%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 03:34:51",
+      "content": "【快讯】SHMET08月29日讯，美国商品期货交易委员会（CFTC）：截至8月25日当周，股票基金经理将CME标普500指数期货净多头头寸减少5,608手至946,814手。股票基金投机者将CME标普500指数期货净空头头寸增加35,462手至302,971手。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 03:33:34",
+      "content": "【快讯】SHMET08月29日讯，美国商品期货交易委员会（CFTC）：截至8月25日当周，CBOT美国5年期国债期货投机者将净空头头寸减少15,044手至1,259,061手。CBOT美国长期国债期货投机者将净空头头寸减少31,769手至187,243手。CBOT美国超长期国债期货投机者将净空头头寸增加59,321手至406,045手。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 03:33:27",
+      "content": "【快讯】SHMET08月29日讯，美国商品期货交易委员会（CFTC）：截至8月25日当周，NYMEX和ICE四大市场天然气投机者将净空头头寸减少27,238手至39,598手。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 03:33:22",
+      "content": "【快讯】SHMET08月29日讯，美国商品期货交易委员会（CFTC）：截至8月25日当周，CBOT美国2年期国债期货投机者将净空头头寸减少66,041手至861,296手。CBOT美国10年期国债期货投机者将净空头头寸减少107,986手至838,975手。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 03:33:19",
+      "content": "【快讯】SHMET08月29日讯，美国商品期货交易委员会（CFTC）：截至8月25日当周，日元净空头头寸为63,298手。欧元净空头头寸为36,352手。英镑净空头头寸为44,524手。瑞士法郎净空头头寸为19,946手。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 03:32:50",
+      "content": "【快讯】SHMET08月29日讯，美国商品期货交易委员会（CFTC）：截至8月25日当周，COMEX黄金投机者将净多头头寸增加5,393手至151,315手。COMEX白银投机者将净多头头寸增加2,467手至13,235手。COMEX铜投机者将净多头头寸减少2,780手至76,446手。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 03:31:52",
+      "content": "【美元指数28日上涨】SHMET08月29日讯，衡量美元对六种主要货币的美元指数当天上涨0.55%，在汇市尾市收于99.703。截至纽约汇市尾市，1欧元兑换1.1580美元，低于前一交易日的1.1649美元；1英镑兑换1.3531美元，低于前一交易日的1.3589美元。1美元兑换160.14日元，高于前一交易日的159.43日元；1美元兑换0.8096瑞士法郎，高于前一交易日的0.8043瑞士法郎；1美元兑换1.3907加元，高于前一交易日的1.3858加元；1美元兑换9.6137瑞典克朗，高于前一交易日的9.5220瑞典克朗。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 03:29:00",
+      "content": "【贝森特表示日元的无序波动将导致美国利率上升】SHMET08月29日讯，美国财政部长斯科特·贝森特8月27日致信民主党参议员伊丽莎白·沃伦，为其上月动用外汇稳定基金（ESF）干预日元汇率进行辩护。贝森特表示，日元市场出现无序波动可能引发日本作为美债主要持有国的被迫平仓，从而破坏全球市场稳定，最终推高美国家庭和企业的借贷成本。他拒绝透露干预投入资金规模，仅确认使用ESF现有外币资产购买日元，并曾暗示动用欧元。日本上月为支撑日元投入创纪录的964亿美元。贝森特强调行动合法合规，美方未向日方提供任何信贷。信中他多次挖苦沃伦，建议她“上国际金融入门课程”。两人在国会听证会上素有紧张交锋。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 03:25:42",
+      "content": "【快讯】SHMET08月29日讯，伊朗总统佩泽希齐扬：由于美国的制裁和封锁，伊朗的出口和进口已减少至多35%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 03:24:24",
+      "content": "【快讯】SHMET08月29日讯，美国众议院据悉将于下周二就临时拨款法案进行表决，表决将在暂停议事规则的程序下开展。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 03:20:14",
+      "content": "【LME夜盘收盘】LME铜跌0.15%,报14285.0美元/吨LME铝涨0.56%,报3242.0美元/吨LME铅跌0.39%,报1905.0美元/吨LME锌跌0.23%,报3879.5美元/吨LME镍跌0.62%,报16770美元/吨LME锡跌1.86%,报54495美元/吨",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 03:19:48",
+      "content": "【快讯】SHMET08月29日讯，联合国官员表示，今年前八个月，近20万人被强制遣返回海地，比去年同期增长10%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 03:18:07",
+      "content": "【快讯】SHMET08月29日讯，伊朗议会议长卡利巴夫：最高领袖的指示是全体国家官员的准则。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 03:10:50",
+      "content": "【快讯】SHMET08月29日讯，伊朗总统佩泽希齐扬：承诺内容包括解除燃料及石化制裁、解冻资金，以及恢复投资。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 03:05:40",
+      "content": "【快讯】SHMET08月29日讯，伊朗总统佩泽希齐扬：伊朗愿意与包括沙特阿拉伯和阿联酋在内的地区国家开展合作与相互理解。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 03:05:37",
+      "content": "【快讯】SHMET08月29日讯，伊朗总统佩泽希齐扬：霍尔木兹海峡通行路线已达成内部共识。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 03:00:46",
+      "content": "【快讯】SHMET08月29日讯，恒生指数主连夜盘收跌0.2%，恒生科技指数主连夜盘收跌0.16%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 03:00:40",
+      "content": "【快讯】SHMET08月29日讯，伊朗总统佩泽希齐扬：战争加剧了伊朗的燃料短缺。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 02:56:32",
+      "content": "【阿根廷外长暗示该国或将退出南共市】SHMET08月29日讯，阿根廷外交部长巴勃罗·基尔诺27日暗示，阿根廷或将退出南方共同市场（南共市）。基尔诺当天在布宜诺斯艾利斯律师协会总部出席一场活动时称，南共市“没有实现其最初的目标”。他表示，若南共市改革无法推进，阿根廷将推进自身贸易进程。阿根廷总统米莱此前曾多次表示，如果南共市阻止阿根廷与其他国家展开自由贸易协定谈判，阿根廷将退出这一组织。南共市由阿根廷、巴西、巴拉圭、乌拉圭创立，1995年正式启动，玻利维亚于2023年正式加入。南共市章程规定，只有所有成员国达成共识后，南共市才能与组织外国家签署自由贸易协定。 (央视新闻)",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 02:56:07",
+      "content": "【快讯】SHMET08月29日讯，据伊朗方面消息，伊朗总统佩泽希齐扬表示伊朗将提高汽油价格。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 02:47:58",
+      "content": "【快讯】SHMET08月29日讯，巴克莱和法国兴业银行预测美联储将在9月和12月加息。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 02:44:23",
+      "content": "【快讯】SHMET08月29日讯，据塔斯尼姆通讯社：阿曼方面同意霍尔木兹海峡应根据伊斯兰堡谅解备忘录进行管理。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 02:37:30",
+      "content": "【安联首席经济顾问：日元再破160或引发干预】SHMET08月29日讯，安联首席经济顾问穆罕默德·埃尔-埃利安表示，关于日元有两点值得关注。首先，日元再度跌至1美元兑160日元，势必加剧市场对日本干预汇市的猜测。其次，美国财长贝森特在8月27日致参议员伊丽莎白·沃伦的信中提及，“日本是美国国债的主要持有方，日元市场失序可能引发强制平仓，进而破坏全球市场稳定，最终推高美国家庭和企业的借贷成本。”",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 02:31:54",
+      "content": "【快讯】SHMET08月29日讯，上海黄金交易所黄金T+D 8月28日（周五）晚盘收盘下跌2.64%报964.55元/克；上海黄金交易所白银T+D 8月28日（周五）晚盘收盘下跌3.89%报16187.0元/千克。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 02:31:32",
+      "content": "【快讯】SHMET08月29日讯，上期所原油期货2610合约夜盘收涨3.66%，报614元人民币/桶。沪金夜盘收跌2.65%，沪银收跌3.62%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 02:30:59",
+      "content": "【快讯】SHMET08月29日讯，蓝猫资本（Blue Owl）确认为IREN提供24亿美元融资。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 02:19:32",
+      "content": "【贝森特为干预行动辩护 表示日元“失序”可能推高美国利率】SHMET08月29日讯，美国财政部长贝森特为自己上个月支持日元的行动进行了辩护，称日元出现任何极端波动都可能传导至美国，推高美国的利率。8月27日，贝森特在回应民主党参议员伊丽莎白·沃伦近期就日元操作所提出询问的信中表示：“日本是一个重要的美国国债持有者。日元市场一旦出现失序，可能引发被迫平仓，进而扰乱全球市场，并最终提高美国家庭和企业的借贷成本。”贝森特周五=发布了这封信。他拒绝说明美国在7月底干预行动中动用了多少资金，但表示该行动使用了“外汇稳定基金现有的外币资产买入日元”。本月早些时候，他曾暗示美国财政部使用了欧元。同样在周五，日本公布，过去一个月为支持日元投入了创纪录的964亿美元。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 02:16:14",
+      "content": "【快讯】SHMET08月29日讯，伊朗外长阿拉格齐：伊朗与埃及之间不存在任何分歧。只要我们在埃及的朋友达成共识并准备好恢复关系，我们也随时准备就绪。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 02:13:04",
+      "content": "【快讯】SHMET08月29日讯，伊朗外长阿拉格齐：对于违反停火协议的行为，我们绝不会姑息。我们不会允许敌人以一种让违反协议成为习惯的方式行事，因此我们进行了反击。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 02:11:01",
+      "content": "【快讯】SHMET08月29日讯，英国外交部：英国派遣快速反应小组前往尼泊尔，支持受洪水影响的英国公民。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 02:00:14",
+      "content": "【SHFE夜盘收盘_基本金属】沪铜主力跌0.05%,报108570元/吨沪铝主力跌0.02%,报23925元/吨沪铅主力跌0.06%,报16230元/吨沪锌主力涨0.38%,报26375元/吨沪镍主力跌1.13%,报126750元/吨沪锡主力跌1.00%,报417760元/吨",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 01:49:59",
+      "content": "【快讯】SHMET08月29日讯，俄罗斯联邦安全委员会副主席梅德韦杰夫：美国多次宣称已“战胜伊朗”，但现实中此事从未发生。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 01:47:05",
+      "content": "【伊朗最高领袖：禁止任何有损社会凝聚力的行为】SHMET08月29日讯，当地时间8月28日，伊朗最高领袖穆杰塔巴·哈梅内伊发表声明。声明中，穆杰塔巴赞扬了政府在面对美以限制和阴谋、制裁和围困加剧情况下所采取的行动和工作。他强调，伊朗必须展现实力和力量，同时避免出现任何令人失望、削弱民族和公众精神等言论，任何有损社会凝聚力的行为都是被禁止的。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 01:46:42",
+      "content": "【快讯】SHMET08月29日讯，伊朗外长阿拉格齐：我们绝不会忘记领袖流下的鲜血。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 01:43:46",
+      "content": "【现货黄金跌幅扩大至3%】SHMET08月29日讯，国际贵金属持续走低，现货黄金价格跌3%，报4464.39美元/盎司；现货白银价格跌3.64%，报66.73美元/盎司。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 01:42:56",
+      "content": "【快讯】SHMET08月29日讯，据Politico：据两位知情官员透露，印度总理莫迪计划出席12月举行的欧盟峰会。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 01:36:38",
+      "content": "【快讯】SHMET08月29日讯，伊朗最高领袖哈梅内伊呼吁政府应对经济困难。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 01:36:26",
+      "content": "【快讯】SHMET08月29日讯，纽约证券交易所（NYSE）向美国证券交易委员会（SEC）提议，延长部分期权的交易时间。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 01:27:59",
+      "content": "【快讯】SHMET08月29日讯，伊朗最高领袖：解决所有问题的关键，在于进一步依靠国内生产。当然，确保公共和专用商品的充足供应是绝对必要的，在此基础上，当国内生产不足时，应正确且明智地利用进口。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 01:25:58",
+      "content": "【快讯】SHMET08月29日讯，伊朗最高领袖：必须重点应对通胀、失业和物价等民生问题，同时推动经济增长、增加投资、促进生产，逐步削弱美元的重要作用，并以“抵抗经济”政策为核心。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 01:24:59",
+      "content": "【快讯】SHMET08月29日讯，白宫发布公告，宣布成立美国太空学院。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 01:22:49",
+      "content": "【快讯】SHMET08月29日讯，据Politico：气候与人工智能将成为欧盟委员会主席冯德莱恩发表“盟情咨文”时的重点议题。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 01:21:03",
+      "content": "【快讯】SHMET08月29日讯，塞尔维亚能源部长：美国再次给予塞尔维亚豁免，暂缓对其俄资控股的塞尔维亚石油工业公司（NIS）实施制裁。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 01:20:59",
+      "content": "【快讯】SHMET08月29日讯，加拿大央行9月2日利率决议将不设置媒体封闭发布会。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 01:16:29",
+      "content": "【快讯】SHMET08月29日讯，美联储隔夜逆回购协议（RRP）周五使用规模为1.75亿美元（交易对手1家），上个交易日报4.56亿美元。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 01:16:06",
+      "content": "【快讯】SHMET08月29日讯，欧洲央行科赫尔：当前欧洲经济正展现出更强的动能。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 01:12:42",
+      "content": "【快讯】SHMET08月29日讯，欧洲央行科赫尔：经济韧性强于预期。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 01:11:30",
+      "content": "【快讯】SHMET08月29日讯，伊朗最高领袖：禁止“任何损害社会凝聚力的行为”。敦促有关部门避免发表任何“打击士气、削弱国家和公众动力的言论”。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 01:11:17",
+      "content": "【快讯】SHMET08月29日讯，欧洲央行科赫尔：通胀持续时间的长短至关重要。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 01:11:11",
+      "content": "【快讯】SHMET08月29日讯，欧洲央行科赫尔：价格稳定面临威胁。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 01:11:09",
+      "content": "【快讯】SHMET08月29日讯，欧洲央行科赫尔：保持警惕，绝不掉以轻心。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 01:05:30",
+      "content": "【快讯】SHMET08月29日讯，贝克休斯：美国能源公司在最新一周的钻井平台数量保持不变。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 01:03:50",
+      "content": "【快讯】SHMET08月29日讯，美国至8月28日当周总钻井总数 588口，前值588口。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 01:03:49",
+      "content": "【快讯】SHMET08月29日讯，太平洋煤气电力股价跌幅扩大至10%。爱迪生国际股价也跌至当日低点，下跌4%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 01:03:15",
+      "content": "【氧化铝夜盘收涨2.24%】SHMET08月29日讯，国际铜夜盘收涨0.10%，沪铜收跌0.05%，沪铝收跌0.02%，沪锌收涨0.38%，沪铅收跌0.06%，沪镍收跌1.13%，沪锡收跌1.00%。氧化铝夜盘收涨2.24%，铝合金收涨0.65%。不锈钢夜盘收跌0.18%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 01:02:54",
+      "content": "【快讯】SHMET08月29日讯，美国至8月28日当周石油钻井总数 447口，前值452口。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 01:02:48",
+      "content": "【快讯】SHMET08月29日讯，美国参议员Collins要求卢特尼克和格里尔恢复与加拿大的谈判。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 01:02:35",
+      "content": "【快讯】SHMET08月29日讯，美国至8月28日当周天然气钻井总数 132口，前值127口。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 01:00:24",
+      "content": "【快讯】SHMET08月29日讯，美国参议员柯林斯敦促美国商务部长卢特尼克、美国贸易代表格里尔重启与加拿大的谈判。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 00:59:41",
+      "content": "【快讯】SHMET08月29日讯，美国法官驳回特朗普将已经判决的“封口费”案移交联邦法院审理的请求。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 00:57:49",
+      "content": "【快讯】SHMET08月29日讯，美国总统特朗普：我们将在我的任期结束前让美国宇航员重返月球表面，并在首个美国永久月球定居点所在地插上美国国旗。他们正在月球上建设一个定居点，而我们不会止步于此。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 00:53:17",
+      "content": "【LME期铜收涨12美元】SHMET08月29日讯，LME期铜收涨12美元，报14294美元/吨。LME期铝收涨8美元，报3242美元/吨。LME期锌收跌1美元，报3883美元/吨。LME期铅收跌10美元，报1906美元/吨。LME期镍收跌17美元，报16861美元/吨。LME期锡收跌131美元，报55223美元/吨。LME期钴收平，报56290美元/吨。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 00:53:08",
+      "content": "【快讯】SHMET08月29日讯，美国总统特朗普：将很快为美国太空学院选定地点。太空学院将为航天产业和军方提供支持。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 00:52:40",
+      "content": "【快讯】SHMET08月29日讯，美联储古尔斯比：我不会说我对通货膨胀失去了耐心。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 00:52:07",
+      "content": "【快讯】SHMET08月29日讯，美联储古尔斯比：不认为美联储与美国财政部的政策目标相互冲突。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 00:51:40",
+      "content": "【快讯】SHMET08月29日讯，美国至8月28日当周石油钻井总数将于十分钟后公布。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-29 00:51:25",
+      "content": "【快讯】SHMET08月29日讯，据华盛顿邮报：美国将入股委内瑞拉17个油田。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
