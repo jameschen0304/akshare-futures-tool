@@ -1,7 +1,87 @@
 {
   "source": "jin10 flash + shmet + shfe weekly stock",
-  "generated_at": "2026-08-31T17:16:17.447727+00:00",
+  "generated_at": "2026-08-31T17:43:52.769614+00:00",
   "jin10": [
+    {
+      "datetime": "2026-09-01 01:40:02",
+      "content": "据日经新闻：日本寻求争取承办全面进步跨太平洋伙伴关系协定（CPTPP）秘书处。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-01 01:37:32",
+      "content": "市场消息：Nscale为德克萨斯州沃德县和麦迪逊县的AI部署项目完成了约30亿美元的融资。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-01 01:36:13",
+      "content": "伊朗武装力量：将对任何利用地区国家领土、领空或海域攻击伊朗的行动予以“远超对等”的回击。美军除了撤出该地区别无选择。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-01 01:31:08",
+      "content": "俄罗斯总统普京在比什凯克出席上海合作组织峰会期间与哈萨克斯坦总统托卡耶夫举行会晤。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-01 01:30:01",
+      "content": "俄罗斯国防部：当天俄境内多个地区共击落180架乌克兰无人机。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-01 01:29:20",
+      "content": "英国保守党表示，克里斯·菲尔普（Chris Philp）将继续担任影子内政大臣。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-01 01:27:50",
+      "content": "【伊朗：结束战争很简单 仅需美国履行承诺】金十数据9月1日讯，伊朗外长阿拉格齐：美方违反“伊斯兰堡谅解备忘录”导致当前局势，结束战争的办法很明确，美国恢复履行其总统签署的承诺，局势才能重回正轨。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-01 01:24:13",
+      "content": "市场消息：投资机构Dragoneer计划利用所持OpenAI和SpaceX等资产，为一只旨在继续长期持有现有资产的新基金募集20亿美元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-01 01:21:24",
+      "content": "瑞士议会委员会：关于资本要求的最终决定可能要到2027年才能作出。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-01 01:16:02",
+      "content": "美联储在固定利率逆回购操作中总计接纳了4个对手方的67.26亿美元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
     {
       "datetime": "2026-09-01 01:15:08",
       "content": "国际货币基金组织发言人：国际货币基金组织赴塞内加尔代表团的工作已取得“实质性进展”。",
@@ -1057,65 +1137,81 @@
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
-    },
-    {
-      "datetime": "2026-08-31 22:33:53",
-      "content": "【期货热点追踪】随着新作交割临近，7-8月美豆大单呈现爆发式放量，两月累计成交突破756万吨；其中8月下旬以来，中国买家与未知买家……点击了解。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-08-31 22:32:51",
-      "content": "美国财长贝森特：伊朗冲突将会得到解决。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-08-31 22:32:36",
-      "content": "宏光半导体(06908.HK)：2026年上半年本集团收益增加至约人民币5160万元，同比增长约55.9%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-08-31 22:32:09",
-      "content": "美国8月达拉斯联储制成品价格指数 22.7，前值25.6。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-08-31 22:32:05",
-      "content": "美国8月达拉斯联储新订单指数 22，前值6.4。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-08-31 22:31:45",
-      "content": "美国8月达拉斯联储制造业就业指数 8，前值12.2。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-08-31 22:31:44",
-      "content": "美国8月达拉斯联储制造业原材料支付价格指数 44.1，前值41.3。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
     }
   ],
   "shmet": [
+    {
+      "datetime": "2026-09-01 01:41:30",
+      "content": "【快讯】SHMET09月01日讯，据日经新闻：日本寻求争取承办全面进步跨太平洋伙伴关系协定（CPTPP）秘书处。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-01 01:39:06",
+      "content": "【快讯】SHMET09月01日讯，市场消息：Nscale为德克萨斯州沃德县和麦迪逊县的AI部署项目完成了约30亿美元的融资。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-01 01:32:20",
+      "content": "【快讯】SHMET09月01日讯，俄罗斯总统普京在比什凯克出席上海合作组织峰会期间与哈萨克斯坦总统托卡耶夫举行会晤。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-01 01:30:55",
+      "content": "【快讯】SHMET09月01日讯，英国保守党表示，克里斯·菲尔普（Chris Philp）将继续担任影子内政大臣。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-01 01:29:50",
+      "content": "【快讯】SHMET09月01日讯，伊朗外长阿拉格齐：美方违反“伊斯兰堡谅解备忘录”导致当前局势，结束战争的办法很明确，美国恢复履行其总统签署的承诺，局势才能重回正轨。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-01 01:22:24",
+      "content": "【快讯】SHMET09月01日讯，瑞士议会委员会：关于资本要求的最终决定可能要到2027年才能作出。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-01 01:16:36",
+      "content": "【快讯】SHMET09月01日讯，国际货币基金组织发言人：国际货币基金组织赴塞内加尔代表团的工作已取得“实质性进展”。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-01 01:15:30",
+      "content": "【快讯】SHMET09月01日讯，瑞士议会委员会主席：这不是瑞银(UBS.N)的胜利，而是服务于瑞士的解决方案。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-01 01:15:26",
+      "content": "【快讯】SHMET09月01日讯，消息人士：国际货币基金组织（IMF）完成对塞内加尔的考察后，预计将取得“积极进展”。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
     {
       "datetime": "2026-09-01 01:10:36",
       "content": "【快讯】SHMET09月01日讯，瑞士议会委员会：该提案不应使瑞银(UBS.N)在普通股一级资本（CET1）方面增加成本，但会在额外一级资本（AT1）方面产生影响。",
@@ -1195,9 +1291,665 @@
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
+    },
+    {
+      "datetime": "2026-09-01 00:24:59",
+      "content": "【快讯】SHMET09月01日讯，德国财政部长克林贝尔：即使俄罗斯参加G20，也不意味着德国与俄罗斯的关系已经恢复“正常”。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-01 00:19:33",
+      "content": "【快讯】SHMET09月01日讯，德国财政部长克林贝尔：记者被禁止参加G20会议是不可接受的。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-01 00:13:02",
+      "content": "【快讯】SHMET09月01日讯，美国战略石油储备的原油库存上周减少约310万桶，降至2.866亿桶。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-01 00:01:31",
+      "content": "【今日重点关注的财经数据与事件：2026年9月1日 周二】SHMET09月01日讯，① 待定 上合组织成员国元首理事会会议举行② 09:45 中国8月RatingDog制造业PMI③ 14:00 英国8月Nationwide房价指数月率④ 14:30 瑞士7月实际零售销售年率⑤ 15:50 法国8月制造业PMI终值⑥ 15:55 德国8月制造业PMI终值⑦ 16:00 欧元区8月制造业PMI终值⑧ 16:30 英国8月制造业PMI终值⑨ 16:30 英国7月央行抵押贷款许可⑩ 17:00 欧元区8月CPI年率初值⑪ 17:00 欧元区8月CPI月率初值⑫ 17:00 欧元区7月失业率⑬ 21:05 美联储巴尔发表讲话⑭ 21:45 美国8月标普全球制造业PMI终值⑮ 22:00 美国8月ISM制造业PMI⑯ 22:00 美国7月JOLTs职位空缺⑰ 22:00 美国7月营建支出月率⑱ 次日04:30 美国至8月28日当周API原油库存",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-01 00:01:06",
+      "content": "【摩根大通对不同非农结果下的美股表现进行推演 认为美股跌的几率更大】SHMET09月01日讯，摩根大通市场情报团队认为，周五美国非农就业数据公布后，标普500指数走弱的可能性更大。以Andrew Tyler为首的摩根大通团队预计，就业数据公布后可能出现“好消息就是坏消息”的市场环境，并认为新增就业3万至7万人是对市场而言恰如其分的区间。分析师预期新增5.5万人。“更强劲的非农就业数据可能推高债券收益率，拖累股市。其逻辑是，就业增加会带来更多消费，而这种整体强劲态势又会增强企业进一步招聘的信心，”该团队在报告中称。“不过，如果数据大幅低于预期，例如再次出现就业人数下降，则可能重新引发市场对滞胀的担忧。”",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-01 00:00:29",
+      "content": "【快讯】SHMET09月01日讯，美联储主席沃什：美国将继续以改革为导向推进银行监管。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 23:57:34",
+      "content": "【快讯】SHMET08月31日讯，据Axios：美国财长贝森特呼吁减少监管以支持小型银行。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 23:53:01",
+      "content": "【快讯】SHMET08月31日讯，特斯拉(TSLA.O)盘中涨幅扩大至5%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 23:52:46",
+      "content": "【快讯】SHMET08月31日讯，特斯拉涨幅扩大至5%，创逾一个月以来新高。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 23:49:56",
+      "content": "【快讯】SHMET08月31日讯，麦加协议联合声明：三国同意加强各自的防御能力。合作将涵盖国防工业、生产能力提升以及技术开发。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 23:46:51",
+      "content": "【快讯】SHMET08月31日讯，麦加协议联合声明：三国重申相互尊重国家主权的原则。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 23:45:12",
+      "content": "【快讯】SHMET08月31日讯，麦加协议联合声明：今天的会议是将麦加协议从签署推向实施的重要一步。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 23:43:55",
+      "content": "【快讯】SHMET08月31日讯，麦加协议联合声明：三国将继续努力降低紧张局势和保持克制。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 23:43:48",
+      "content": "【快讯】SHMET08月31日讯，麦加协议联合声明：我们决心落实协议，以实现地区的和平与稳定。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 23:43:45",
+      "content": "【快讯】SHMET08月31日讯，麦加协议联合声明：国同意采取进一步措施，将合作机制制度化。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 23:42:49",
+      "content": "【快讯】SHMET08月31日讯，据福克斯新闻：美国贸易代表格里尔本周将与众议院共和党人共进午餐。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 23:41:32",
+      "content": "【快讯】SHMET08月31日讯，以色列总理内塔尼亚胡称与希腊达成的防务协议是“以色列防务和技术产业巨大能力的证明”。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 23:39:06",
+      "content": "【快讯】SHMET08月31日讯，市场消息：美国钢铁工人联合会暂时延长与美国钢铁(X.N)、克利夫兰-克里夫斯公司的合同，各方将继续进行工会谈判。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": true
+    },
+    {
+      "datetime": "2026-08-31 23:37:59",
+      "content": "【快讯】SHMET08月31日讯，欧洲主要股指收盘多数下跌，英国富时100指数涨0.29%，法国CAC40指数跌0.65%，德国DAX30指数跌1.09%，富时意大利MIB指数跌0.01%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 23:37:36",
+      "content": "【快讯】SHMET08月31日讯，市场消息：美国在一项法院裁决后，解除了针对海地及其他74个国家的签证暂停措施。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 23:32:52",
+      "content": "【快讯】SHMET08月31日讯，美国至8月31日6个月国债竞拍-得标利率配置百分比 49.27%，前值59.64%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 23:32:51",
+      "content": "【快讯】SHMET08月31日讯，美国至8月31日3个月国债竞拍-得标利率配置百分比 66.77%，前值97.66%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 23:32:50",
+      "content": "【快讯】SHMET08月31日讯，美国至8月31日6个月国债竞拍-得标利率 3.885%，前值3.79%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 23:32:19",
+      "content": "【快讯】SHMET08月31日讯，美国至8月31日3个月国债竞拍-得标利率 3.77%，前值3.72%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 23:32:03",
+      "content": "【快讯】SHMET08月31日讯，美国至8月31日6个月国债竞拍-投标倍数 2.63，前值3.05。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 23:24:18",
+      "content": "【快讯】SHMET08月31日讯，美国副总统万斯在谈到伊朗时表示，特朗普正在发出警告，伊朗停止行动，否则后果自负。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 23:23:57",
+      "content": "【快讯】SHMET08月31日讯，美国副总统万斯：（谈及委内瑞拉石油交易）我们将看到产量大幅提升。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 23:22:51",
+      "content": "【快讯】SHMET08月31日讯，美国副总统万斯：（关于伊朗）认为美国总统特朗普通过有关哈尔克岛的帖子向伊朗传递信息。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 23:22:17",
+      "content": "【快讯】SHMET08月31日讯，美国副总统万斯：美国总统特朗普正在向伊朗传递一个信息——停止（挑衅）否则将面临后果。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 23:20:18",
+      "content": "【快讯】SHMET08月31日讯，纳斯达克中国金龙指数跌幅扩大，现跌1.5%，最新报6115.33点。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 23:15:38",
+      "content": "【快讯】SHMET08月31日讯，市场消息：阿布扎比国家石油公司在遭受战争影响后恢复至满负荷生产。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 23:12:59",
+      "content": "【快讯】SHMET08月31日讯，据CNBC：美国财政部发言人称，美国财长贝森特谈到了特朗普与俄罗斯的和平计划。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 23:10:18",
+      "content": "【快讯】SHMET08月31日讯，高盛首席执行官：我认为目前金融系统状况非常良好。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 23:09:26",
+      "content": "【快讯】SHMET08月31日讯，高盛首席执行官：我们必须持续推动更高水平的经济增长，以应对我们的支出和债务水平。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 23:07:29",
+      "content": "【快讯】SHMET08月31日讯，据伊朗努尔新闻：伊朗总统佩泽希齐扬欢迎麦加防御协议。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 23:07:05",
+      "content": "【快讯】SHMET08月31日讯，提示：美联储主席沃什在北卡罗来纳州举行的G20会议上发言。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 23:07:03",
+      "content": "【快讯】SHMET08月31日讯，高盛首席执行官：目前，我在信贷系统中没有看到太多风险。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 23:06:11",
+      "content": "【快讯】SHMET08月31日讯，据福克斯商业新闻：美国财长贝森特正在与俄罗斯代表团会晤。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 23:05:32",
+      "content": "【快讯】SHMET08月31日讯，高盛首席执行官：（谈及美国经济）认为贸易政策和关税在某种程度上是逆风。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 23:05:20",
+      "content": "【快讯】SHMET08月31日讯，美联储主席沃什：美国经济增长似乎已有所增强。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 23:04:04",
+      "content": "【快讯】SHMET08月31日讯，高盛首席执行官：（谈及美国经济）经济表现良好。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 23:03:58",
+      "content": "【快讯】SHMET08月31日讯，特斯拉(TSLA.O)股价刷新逾一周以来新高，现涨4.5%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 23:03:29",
+      "content": "【快讯】SHMET08月31日讯，高盛首席执行官：关税对经济构成阻力。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 23:00:59",
+      "content": "【快讯】SHMET08月31日讯，伊朗议会国家安全和外交政策委员会主席阿齐兹：霍尔木兹海峡的安全仅由伊朗这唯一一个主权国家来保障。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 22:48:40",
+      "content": "【快讯】SHMET08月31日讯，法国总统马克龙：其他欧洲盟友可能会随后加入“护卫舰俱乐部”。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 22:45:23",
+      "content": "【美国财长贝森特：无法改变债券均衡价格 将与沃特推进财政整合】SHMET08月31日讯，美国财长贝森特表示，他与美联储主席沃什在债券问题上的看法一致，并称自美国总统特朗普上任以来，10年期美债收益率基本持平。贝森特强调，他从未表示试图改变债券市场走势，也认为政府无法改变债券的均衡价格，不会猜测美联储下一步可能采取的行动。他表示，核心通胀仍较为温和，传统上美联储在遭遇供应冲击时不会加息。贝森特还透露，自己目前尚未买入任何债券，并正与预算主管沃特合作制定财政整合方案。他表示，美国或因债券回购计划成为全球顶级债券市场，并称对冲基金经理喜欢“加快进程”。对于近期批评美国财政部债券回购政策的投资人斯坦利·德鲁肯米勒，贝森特称自己在其发表专栏文章后曾与他交谈，并表示“我认为德鲁肯米勒在发表那篇社论的当天亏了钱”。此外，贝森特指出，惠誉已重申美国信用评级。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 22:43:04",
+      "content": "【快讯】SHMET08月31日讯，瑞典首相克里斯特松：护卫舰是我们国防的长期投资。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 22:42:52",
+      "content": "【快讯】SHMET08月31日讯，瑞典正式签署43亿欧元协议购买法国护卫舰。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 22:42:40",
+      "content": "【快讯】SHMET08月31日讯，美国财长贝森特：加拿大总理卡尼没有为加拿大人民做出最佳选择。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 22:42:21",
+      "content": "【快讯】SHMET08月31日讯，美国财长贝森特：我们与加拿大没有战争。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 22:42:14",
+      "content": "【快讯】SHMET08月31日讯，日元兑美元日内涨0.2187%，现报159.7。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 22:42:00",
+      "content": "【快讯】SHMET08月31日讯，美国财长贝森特：不幸的是，加拿大总理卡尼将此事变成了争吵。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 22:41:55",
+      "content": "【快讯】SHMET08月31日讯，美国财长贝森特：将在G20会议上与加拿大财长会晤。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 22:41:21",
+      "content": "【快讯】SHMET08月31日讯，美国财长贝森特：我认为日元市场现在已经反映了预期。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 22:41:01",
+      "content": "【快讯】SHMET08月31日讯，美国财长贝森特再次就参议员沃伦关于日元干预的质询提出批评。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 22:40:40",
+      "content": "【快讯】SHMET08月31日讯，美国财长贝森特：我认为德鲁肯米勒在发表那篇社论的那天亏了钱。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 22:40:18",
+      "content": "【快讯】SHMET08月31日讯，美国财长贝森特：自德鲁肯米勒发表专栏文章以来，我已与他进行过交谈。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 22:39:09",
+      "content": "【快讯】SHMET08月31日讯，美国财长贝森特：对冲基金经理喜欢“加快进程”。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 22:38:53",
+      "content": "【快讯】SHMET08月31日讯，美国财长贝森特：（关于债券市场）我还没有买入任何债券。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 22:38:39",
+      "content": "【快讯】SHMET08月31日讯，美国财长贝森特：与预算主管沃特合作制定财政整合方案。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 22:38:25",
+      "content": "【快讯】SHMET08月31日讯，美国财长贝森特：或许美国因回购消息成为顶级债券市场。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 22:37:04",
+      "content": "【快讯】SHMET08月31日讯，美国财长贝森特：传统上，在遭遇供应冲击时不会加息。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 22:36:17",
+      "content": "【快讯】SHMET08月31日讯，美国财长贝森特：核心通胀保持非常温和。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 22:36:09",
+      "content": "【快讯】SHMET08月31日讯，美国财长贝森特：惠誉重申了美国信用评级。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 22:35:51",
+      "content": "【快讯】SHMET08月31日讯，美国财长贝森特：（关于美国债券市场）我认为无法改变均衡价格。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 22:35:44",
+      "content": "【快讯】SHMET08月31日讯，美国财长贝森特：自美国总统特朗普上任以来，10年期国债收益率基本持平。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 22:35:19",
+      "content": "【快讯】SHMET08月31日讯，美国财长贝森特：我并没有说过我试图改变债券的走向。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 22:35:02",
+      "content": "【快讯】SHMET08月31日讯，美国财长贝森特：不打算对美联储可能采取的行动进行猜测。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 22:34:46",
+      "content": "【快讯】SHMET08月31日讯，美国财长贝森特：美联储主席沃什和我在债券问题上意见一致。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 22:34:05",
+      "content": "【快讯】SHMET08月31日讯，美国财长贝森特：伊朗冲突将会得到解决。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 22:33:40",
+      "content": "【快讯】SHMET08月31日讯，宏光半导体(06908.HK)：2026年上半年本集团收益增加至约人民币5160万元，同比增长约55.9%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 22:33:15",
+      "content": "【快讯】SHMET08月31日讯，美国8月达拉斯联储制成品价格指数 22.7，前值25.6。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 22:32:53",
+      "content": "【快讯】SHMET08月31日讯，美国8月达拉斯联储新订单指数 22，前值6.4。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 22:32:20",
+      "content": "【快讯】SHMET08月31日讯，美国8月达拉斯联储制造业装船指数 14.1，前值8.8。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 22:32:18",
+      "content": "【快讯】SHMET08月31日讯，美国8月达拉斯联储制造业产出指数 16.1，前值10.1。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 22:32:07",
+      "content": "【快讯】SHMET08月31日讯，美国8月达拉斯联储制造业就业指数 8，前值12.2。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 22:32:00",
+      "content": "【快讯】SHMET08月31日讯，美国8月达拉斯联储制造业原材料支付价格指数 44.1，前值41.3。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 22:31:57",
+      "content": "【快讯】SHMET08月31日讯，美国财长贝森特：美国总统特朗普一直在说伊朗还没有准备好达成协议。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 22:31:31",
+      "content": "【快讯】SHMET08月31日讯，美国8月达拉斯联储商业活动指数 11.6，前值1.3。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 22:30:51",
+      "content": "【快讯】SHMET08月31日讯，巴西规划部长莫雷蒂：2027年与今年相比，初级余额改善将达到GDP的0.5%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-08-31 22:30:32",
+      "content": "【快讯】SHMET08月31日讯，巴西规划部长莫雷蒂：巴西总统卢拉知道在他的下一个任期内，他需要加快财政整合进程。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
     }
   ],
   "steel_highlight": [
+    {
+      "datetime": "2026-08-31 23:39:06",
+      "content": "【快讯】SHMET08月31日讯，市场消息：美国钢铁工人联合会暂时延长与美国钢铁(X.N)、克利夫兰-克里夫斯公司的合同，各方将继续进行工会谈判。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": true
+    },
     {
       "datetime": "2026-08-31 23:37:32",
       "content": "市场消息：美国钢铁工人联合会暂时延长与美国钢铁(X.N)、克利夫兰-克里夫斯公司的合同，各方将继续进行工会谈判。",
