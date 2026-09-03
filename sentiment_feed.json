@@ -1,7 +1,431 @@
 {
   "source": "jin10 flash + shmet + shfe weekly stock",
-  "generated_at": "2026-09-03T13:54:16.265241+00:00",
+  "generated_at": "2026-09-03T14:47:47.146784+00:00",
   "jin10": [
+    {
+      "datetime": "2026-09-03 22:46:00",
+      "content": "加拿大总理卡尼：与美国的任何贸易协议必须保持稳定性和可信度。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:45:56",
+      "content": "匈牙利10年期国债收益率持续走低，日内跌14个基点。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:45:34",
+      "content": "加拿大总理卡尼：与美国在贸易方面“达成协议是有可能的”。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:44:21",
+      "content": "现货钯金涨幅达3%，报1385.98美元/盎司。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:44:18",
+      "content": "【中远海运特运拜访比亚迪】金十数据9月3日讯，据中远海运特运公众号消息，9月2日下午，中远海运特运总经理顾卫东带队拜访比亚迪汽车工业有限公司，与比亚迪计划处总经理尹振龙进行了会谈。双方围绕全球运力航线布局、长期合作保障、支线中转方案等方面展开深入交流，一致表示将完善常态化沟通协调机制，进一步深化战略合作，推动全球汽车供应链转型升级。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:44:04",
+      "content": "【匈牙利据悉将暂停降息，并把通胀目标下调至2.5%】金十数据9月3日讯，知情人士透露，继连续三个月每次降息25个基点后，匈牙利央行可能在9月22日的下一次政策会议上将基准利率维持在5.5%。暂停货币宽松的决定将与新一轮通胀预测的预定发布同时进行。该人士表示，新的通胀目标将从目前的3%下调至2.5%。会议最终结果仍可能根据市场状况发生变化。此举将使匈牙利的通胀目标更接近欧洲央行2%的目标。此前，匈牙利总理毛焦尔领导的政府宣布有意推动匈牙利加入欧元区。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:44:01",
+      "content": "加拿大总理卡尼：当华盛顿准备就绪时，加方愿意坐下来与其达成一项贸易协议。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:40:44",
+      "content": "俄罗斯外交部：俄罗斯向挪威大使提出抗议；将寻求释放该船只。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:39:22",
+      "content": "据俄新社：俄罗斯因挪威扣押俄罗斯船只一事召见挪威大使。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:38:04",
+      "content": "美联储理事沃勒注意到通胀的缓和迹象，9月是否加息将高度取决于8月CPI；英伟达同意以129.303亿美元收购Hugging Face。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:37:26",
+      "content": "【尼泊尔泥石流已致1259人死亡 5083人失联】金十数据9月3日讯，尼泊尔国家减少灾害风险管理局3日在社交媒体发文说，截至当地时间当天19时，该国泥石流受灾地区已发现1259具遇难者遗体，另有5083人失联。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:36:29",
+      "content": "匈牙利福林兑欧元上涨1%，此前消息称匈牙利将暂停降息并下调通胀目标。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:34:54",
+      "content": "【法国迎来今年第五轮热浪】金十数据9月3日讯，法国正准备迎接今年第五轮热浪。此次酷暑重创森林、打击旅游业旺季，并摧毁了这个欧洲最大农业生产国的农作物。法国气象局首席执行官Virginie Schwarz表示，法国经历了有记录以来最炎热的夏季，热浪持续时间也创下最长纪录，今年法国已经出现53天极端高温天气。法国还遭遇了严重干旱和森林火灾，目前已有超过9.6万公顷植被被烧毁，是2025年全年过火面积的2.5倍以上。法国生态部长Monique Barbut表示，今年热浪可能给法国造成超过150亿欧元（173亿美元）的损失。法国计划未来几天公布一项价值数亿欧元的援助方案，以补偿今年夏季因干旱和热浪而遭受严重农作物损失的农民。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:33:57",
+      "content": "市场消息：匈牙利将暂停降息并下调通胀目标。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:30:47",
+      "content": "欧盟委员会发布针对主导企业的新指南，调整反垄断规则以增强欧盟的“韧性”。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:30:06",
+      "content": "EIA天然气报告：截至8月28日当周，美国天然气库存总量为32140亿立方英尺，较此前一周增加300亿立方英尺，较去年同期减少500亿立方英尺，同比降幅1.5%，同时较5年均值高1600亿立方英尺，增幅5.2%。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:30:03",
+      "content": "美国至8月28日当周EIA天然气库存 300亿立方英尺，预期310亿立方英尺，前值150亿立方英尺。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:28:40",
+      "content": "【美媒：特朗普曾建议陆军部长留任至中期选举】金十数据9月3日讯，美国媒体2日报道，美国总统特朗普曾建议日前辞职的陆军部长丹尼尔·德里斯科尔至少留任到今年11月国会中期选举结束，但暂不清楚特朗普为何提出这一建议。美国《华盛顿邮报》援引知情人士的说法报道，德里斯科尔上周在白宫告诉特朗普他决定辞职，特朗普建议他至少可以留任到中期选举。德里斯科尔当时还向特朗普表达担忧，称国防部长赫格塞思正在削弱陆军。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:26:49",
+      "content": "【美媒：德国防长将与美国防长会面，此前曾遭拒访】金十数据9月3日讯，据Politico报道，德国国防部长皮斯托里乌斯本月将在华盛顿与美国国防部长赫格塞思会面。今年早些时候，赫格塞思曾拒绝皮斯托里乌斯的访问请求，此番安排出现出人意料的转变。两名知情的北约防务官员和一名美国国防官员透露，皮斯托里乌斯此次访美期间将参加德国采购的F-35战斗机下线仪式，并将与赫格塞思举行会谈。鉴于赫格塞思此前曾拒绝与皮斯托里乌斯会面，而美德两国又因伊朗和乌克兰战争存在紧张关系，此次会谈意义重大。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:25:07",
+      "content": "法国工会呼吁公务员于9月29日罢工。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:25:02",
+      "content": "委内瑞拉反对派领袖马查多未明确拒绝石油交易。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:24:57",
+      "content": "委内瑞拉反对派领袖马查多：支持委内瑞拉与美国的关系。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:21:46",
+      "content": "据Politico：德国国防部长本月将与美国国防部长赫格塞思会晤。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:20:48",
+      "content": "沃勒最新表态让9月加息预期重新回到五五开，8月非农将决定市场以多鹰的姿态进入下一份CPI。若失业率、私人招聘与工资同步走弱，沃什对劳工市场的判断将面临直接挑战。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:20:28",
+      "content": "【美国PMI数据显示三季度经济增长反弹】金十数据9月3日讯，今日公布的数据显示，美国标普全球8月服务业PMI从54.6升至56.5，低于初值56.8，但仍录得大幅增长，为2024年12月以来最高水平，服务业活动强劲增长的同时，制造业持续增长但增速放缓。从调查数据来看，美国经济目前的表现领先于全球其他经济体。而美国供应管理协会（ISM）8月服务业PMI从54.1升至55.4，高于预期的54.1，为2026年2月以来最高水平。标普全球市场情报经济学家Usamah Bhatti表示：“8月，美国私营部门整体商业活动增速加快，标志着美国经济明显换挡提速。不过，供应延迟仍处于较高水平，制造商面临的延迟尤为明显，而整体价格压力也仍高于历史平均水平。”",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:20:00",
+      "content": "美国至8月28日当周EIA天然气库存将于十分钟后公布。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:17:59",
+      "content": "美国量子计算公司Quantinuum与沙特阿美签署谅解备忘录，旨在应对能源行业挑战。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:17:41",
+      "content": "美国量子计算公司Quantinuum与沙特阿美将探讨量子计算的应用案例。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:13:05",
+      "content": "【珠免集团：格力集团将通过海投公司间接持有公司44.95%股权，成为公司间接控股股东】金十数据9月3日讯，珠免集团公告，公司收到间接控股股东华发集团通知，珠海市国资委原则同意华发集团将其直接或间接持有的海投公司96.28%股权和免税集团23%股权等资产转让给格力集团。本次变动后，格力集团将通过海投公司间接持有公司44.95%股权，成为公司间接控股股东；公司控股股东及实际控制人未发生变化。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:12:59",
+      "content": "尽管财政赤字和债务攀升对债市构成长期利空，但机构策略师认为，通胀回落、AI投资降温及央行政策干预，可能让未来一年全球债市出现意外转折。点击查看...",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:10:23",
+      "content": "爱尔兰总理马丁：欧洲需要更加创新。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:07:35",
+      "content": "加拿大总理卡尼：加拿大政府将投资47亿加元制造和维护313辆VIA铁路客车。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:07:13",
+      "content": "加拿大总理卡尼：加拿大VIA铁路公司的客车将在加拿大生产，这将是40年来首次；这些客车过去一直在美国生产。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:05:54",
+      "content": "【刘捷在杭州专题调研人工智能产业发展工作】金十数据9月3日讯，3日，浙江省委副书记、省长刘捷在杭州专题调研人工智能产业发展工作。刘捷强调，人工智能产业发展日新月异。要积极推进通用大模型和垂直领域大模型研发，推动AI智能体应用加速落地，构建高质量数据集，让人工智能更好赋能千行百业。要开放更多高价值场景，促进人工智能规模化、商业化应用，推动芯片、大模型、智能体、应用服务等全产业链协同发展，加快人工智能创新成果转化落地。要深化拓展“人工智能+制造”，大力推进人工智能科技创新、产业发展和赋能应用，支持企业加快技术改造、深化数实融合，实现绿色化智能化融合化发展。要加大要素保障力度，引导更多长期资本、耐心资本投入，统筹算力服务、算网数电协同，强化知识产权保护，培养更多懂行业、懂人工智能的复合型人才，全力营造一流人工智能创新生态。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:02:58",
+      "content": "金十图示：2026年09月03日（周四）新闻联播今日要点",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:02:44",
+      "content": "【外交部：希望韩国政府切实践行一个中国原则】金十数据9月3日讯，有记者问：中方策展团队因韩国光州双年展涉台错误做法宣布撤展，表达强烈抗议。中国驻韩国大使馆已就此发声。中方对此有何评论?外交部发言人郭嘉昆：中韩建交公报明确指出，大韩民国政府承认中华人民共和国政府为中国的唯一合法政府，并尊重中方只有一个中国、台湾是中国的一部分之立场。今年以来，韩方多次明确表示，坚持一个中国的立场没有变化。此次韩国光州双年展主办方顽固坚持错误做法，纵容中国台湾地区使用完全不符合其身份的名称参展，公然违反一个中国原则，中方对此坚决反对，并已向韩方提出严正交涉，要求有关方面立即纠正错误做法。我们希望韩国政府恪守政治承诺，切实负起责任，以实际行动践行一个中国原则。民进党当局借文化交流、会议展览等场合搞政治操弄，进行谋“独”挑衅，用心险恶，手段卑劣，其政治图谋不会得逞。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:02:16",
+      "content": "美国国债收益率在ISM非制造业数据公布后略微收窄跌幅；10年期国债收益率最新下跌4个基点，报4.754%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:02:12",
+      "content": "真正进入持仓状态以后会发现，仓位本身就会改变人的判断。仓位越重，情绪越容易被价格牵动；仓位越合理，越容易保持客观。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:02:10",
+      "content": "金十图示：2026年09月03日（周四）全球股市指数-美洲市场（盘初）",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:02:03",
+      "content": "黄金剧烈反弹，关键位置在哪？​《大有作V》栏目更新，3分钟解读国际金走势>>",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:02:01",
+      "content": "埃及总理：埃及计划每年减少15亿至20亿美元的外债。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:01:41",
+      "content": "美国8月ISM非制造业供应商交付指数 51.3，前值52.8。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:01:32",
+      "content": "美国8月ISM非制造业库存指数 56.7，前值51.4。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:00:02",
+      "content": "美国8月ISM非制造业物价指数 72.6，前值70.3。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:00:02",
+      "content": "美国8月ISM非制造业就业指数 47.8，前值47.4。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:00:02",
+      "content": "美国8月ISM非制造业PMI 55.4，预期54.2，前值54.1。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:00:02",
+      "content": "美国8月ISM非制造业新订单指数 60.9，前值57.2。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 21:59:46",
+      "content": "据Axios：美国众议院取消9月21日至10月1日的投票安排。9月14日至17日将是美国中期选举前最后几个开会日。众议院将于11月9日恢复开会。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 21:59:20",
+      "content": "【中国贸促会副会长聂文慧会见香港美国商会主席毕大卫一行】金十数据9月3日讯，9月3日，中国贸促会副会长聂文慧在京会见香港美国商会主席毕大卫一行。双方就加强中美工商界交流、推动产业链供应链融合、深化商事法律服务合作、参与APEC系列工商界活动等议题进行交流。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 21:59:15",
+      "content": "市场消息：芯片制造商江波龙据悉在香港上市的定价为每股236港元。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 21:57:56",
+      "content": "【乌克兰袭击用于维修黑海关键石油码头的船只】金十数据9月3日讯，一名知情人士表示，乌克兰袭击了一艘参与里海管道联盟（CPC）石油码头维修工作的服务船。该码头对哈萨克斯坦原油出口至关重要。知情人士透露，Nefrit号此前已基本完成一个码头的维修工作，并准备开始更换另一个码头的部分设备。此次袭击使原定维修工作陷入停滞，也增加了CPC未来原油装载作业的不确定性。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 21:57:39",
+      "content": "市场消息：美国众议院取消9月最后两周的投票安排。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 21:54:46",
+      "content": "金十图示：2026年09月03日（周四）华尔街恐惧与贪婪指数（美盘初）",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
     {
       "datetime": "2026-09-03 21:53:25",
       "content": "【美联储沃勒“鸽派”表态后，美债收益率全线下行】金十数据9月3日讯，美联储理事沃勒表示，只要通胀继续放缓，他倾向于维持利率不变，此番言论推动美国国债上涨，使各期限国债收益率下降了3至5个基点，其中两年期国债收益率领跌，因为两年期国债对美联储利率变动的敏感度高于长期国债。由于市场预期美联储本月将加息，两年期国债收益率本周一度突破4.40%，创下自2025年1月以来的新高，随后下跌多达7个基点至4.30%。美元下跌多达0.5%，兑所有G10货币均走弱。Mischler Financial Group董事总经理Tom di Galoma表示，沃勒的讲话让美债市场“松了一口气”。“在更多通胀指标公布之前，他似乎仍然属于维持利率不变的阵营。”",
@@ -649,548 +1073,84 @@
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
-    },
-    {
-      "datetime": "2026-09-03 21:04:21",
-      "content": "【我国正在推进新一代全火星地质图编制工作】金十数据9月3日讯，作为我国行星探测工程的关键一步，天问三号火星取样返回任务有望成为人类历史上首次成功实施的火星取样返回任务。在3日举行的2026年深空探测（天都）国际会议上，中国科学院院士、天问三号任务首席科学家侯增谦接受专访时表示，探寻火星潜在生命痕迹是天问三号首要科学目标，预计2026年底确定最终着陆区，我国科学家正在推进新一代全火星地质图编制工作。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 21:03:55",
-      "content": "美联储理事沃勒：人口零增长将导致收益率和实际利率下降。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 21:03:24",
-      "content": "乌克兰总统泽连斯基：优先事项是提升喷气式无人机拦截器的产量。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 21:01:47",
-      "content": "芯片明星股新技术首发试产，成功导入国际大厂供应链；封测龙头拟募资65亿加码高性能封装；电池巨头披露注销式回购进展……今日盘后有哪些值得关注的公告？",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 21:01:14",
-      "content": "【理财行业统一信息披露平台全面上线运行】金十数据9月3日讯，银行业理财登记托管中心获悉，国家金融监督管理总局明确的理财行业统一信息披露渠道——中国理财网·理财行业统一信息披露平台9月1日正式全面上线运行，全部32家理财公司、141家有存续公募理财产品的银行机构，以及41家开展理财产品托管业务的机构均已接入平台并开展披露，标志着我国银行理财行业信息披露规范化建设迈出了关键一步。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 21:01:01",
-      "content": "美联储理事沃勒：美国正面临不可持续的结构性赤字。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 21:00:51",
-      "content": "美联储理事沃勒：目前的利率设定可以使美国回到2%的通胀水平。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 21:00:42",
-      "content": "美联储理事沃勒：这使我提高了中性利率的预估。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 21:00:35",
-      "content": "美联储理事沃勒：一些有趣的研究显示，国债溢价已经消失，这也导致了收益率上升。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 21:00:04",
-      "content": "俄罗斯至8月28日当周央行黄金和外汇储备 7742亿美元，前值7612亿美元。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:59:44",
-      "content": "美联储理事沃勒：由于财政因素以及人工智能对资本的竞争，收益率正在上升。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:59:31",
-      "content": "美联储理事沃勒：不能一直维持3%的结构性赤字。也许这不意味着你会掉下悬崖，但收益率可能会上升。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:59:11",
-      "content": "【Nick Timiraos：沃勒立场转向温和，9月加息与否取决于8月通胀】金十数据9月3日讯，华尔街日报记者Nick Timiraos表示，美联储理事沃勒的整体立场自7月以来并未发生根本变化，但政策倾向出现了转变：从当时的担忧和倾向于收紧货币政策，转变为如今的谨慎乐观和倾向于维持利率不变。最终决定将取决于8月通胀数据。他针对9月15日至16日政策会议的反应路径已经十分明确：通胀继续朝2%目标迈进，则维持利率不变；若8月通胀数据偏高，则考虑加息。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:58:08",
-      "content": "美联储理事沃勒：影响普通美国民众的利率并不宽松。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:57:45",
-      "content": "美联储理事沃勒：不会说要等到明年，但让我们等待通胀改善的迹象。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:57:39",
-      "content": "美联储理事沃勒：“宽松的金融环境”实际上反映了股价。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:57:17",
-      "content": "美联储理事沃勒：预计下个月CPI和PPI将“处于合理水平”。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:56:34",
-      "content": "美联储理事沃勒：抵押贷款利率和汽车贷款利率并不低。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:56:22",
-      "content": "美联储理事沃勒：数据中尚未体现出人工智能的影响。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:55:39",
-      "content": "美联储理事沃勒：人工智能是一项令人惊叹的技术。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:55:34",
-      "content": "现货白银日内涨幅达2.00%，现报66.64美元/盎司。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:55:29",
-      "content": "美联储理事沃勒：人工智能有望带来通胀下行压力，且其潜在增长空间正在上升。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:55:05",
-      "content": "美联储理事沃勒：如果提高潜在产能，增加产出并不会导致通胀。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:54:29",
-      "content": "美联储理事沃勒：或许应该将非市场价格置于一旁。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:54:03",
-      "content": "美联储理事沃勒释放“鸽派”信号，表示若通胀延续降温趋势，将支持9月维持利率不变。与此同时，初请失业金人数微升为沃勒的立场提供了支撑。点击查看…",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:54:00",
-      "content": "澳元兑美元AUD/USD日内涨超0.50%，现报0.7203。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:53:57",
-      "content": "现货黄金日内涨超100美元，现报4487.56美元/盎司，涨幅2.28%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:53:28",
-      "content": "美联储理事沃勒：这是一种风险管理，但并未冒太大风险。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:53:24",
-      "content": "美联储理事沃勒：等待一次会议几乎没有成本。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:53:06",
-      "content": "美联储理事沃勒：给通胀回落一个机会，我们可以等到下一次会议再说。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:52:45",
-      "content": "美联储理事沃勒：经过修正，核心（通胀）数据可能会出现显著下降。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:52:42",
-      "content": "全球债券收益率回落，国际黄金将延续反弹？金十研究员高阳正在直播分析，点击进入直播间>",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:52:17",
-      "content": "【加拿大7月贸易顺差大幅收窄至7.69亿加元】金十数据9月3日讯，加拿大统计局周四公布的数据显示，受黄金和能源出口下降、尤其是对美出口减少的推动，加拿大7月贸易顺差大幅收窄至7.69亿加元，而经济学家此前预计贸易顺差为31.8亿加元；7月出口总额下降2.3%，进口增长2.2%，推动贸易顺差从6月修正后的42亿加元大幅收窄。未锻造黄金、白银、铂金及其合金出口下降13.1%，原因是海外居民购买加拿大持有黄金的数量减少，同时对美国的黄金出货量也有所下降。加拿大统计局指出，价格下跌也导致黄金出口减少。自2月达到峰值以来，贵金属类别出口额已下降9%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:51:27",
-      "content": "美联储理事沃勒：不想给出具体数字，但如果三个月的（通胀）数据达到2.8%，那就可以接受。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:50:52",
-      "content": "美联储理事沃勒：我会让你们来定义什么是“过热”。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:50:35",
-      "content": "美联储理事沃勒：愿意静观其变，保持耐心。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:50:30",
-      "content": "美联储理事沃勒：我们终于看到了通胀减缓的迹象。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:49:58",
-      "content": "美联储理事沃勒：我们应该开始看到通胀数据有所下降，预计CPI将保持在合理水平。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:48:33",
-      "content": "美联储理事沃勒：在掌握CPI和PPI数据后，对PCE通胀有了相当准确的判断。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:48:26",
-      "content": "【赣锋锂业：副总裁傅利华减持计划期限届满未实施减持】金十数据9月3日讯，赣锋锂业公告，公司副总裁傅利华原计划以集中竞价方式减持公司股份不超过40000股（占公司总股本的0.002%）。截至本公告披露日，本次减持计划期限已届满，傅利华未实施减持。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:48:00",
-      "content": "【美国上周初请失业金人数小幅上升，劳动力市场保持稳定】金十数据9月3日讯，美国上周首次申请失业救济的人数小幅增加，表明8月底劳动力市场状况未发生实质性变化。美国劳工部周四公布的数据显示，截至8月29日当周，经季节性调整后的初请州政府失业救济人数增加2000人，至20.6万人，略高于经济学家此前预计的20.5万人。今年以来，初请人数一直处于18.9万至23万区间的较低水平，与经济学家所称的“低招聘、低裁员”劳动力市场状况一致。尽管美国国内需求强劲，但在应对激进的贸易和移民政策之际，雇主仍不愿大幅增加员工人数。挑战者公司周四发布的报告显示，今年前八个月企业公布的招聘计划较2025年同期增加37%。但该公司指出，“这些职位似乎并没有很快招满。”",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:47:17",
-      "content": "【慕尼黑发生纵火事件 似针对一知名企业】金十数据9月3日讯，德国警方3日通报，德国罗德与施瓦茨公司位于慕尼黑的总部外建筑工地当天凌晨发生纵火事件，两名嫌疑人被捕，警方已就此展开刑事调查。慕尼黑所在的巴伐利亚州警方说，这起纵火可能针对罗德与施瓦茨公司，警方正调查该行为是否有政治动机。该公司证实发生纵火，表示稍后会提供更多信息。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:47:00",
-      "content": "摩根大通私人银行拉美投资策略负责人：拉美货币即使在经济基本面不强的情况下也能保持稳定。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:46:47",
-      "content": "摩根大通私人银行拉美投资策略负责人：智利在拉美地区提供了最佳的收益增长、估值和宏观稳定性组合，而巴西的预测则最为偏离共识。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:46:31",
-      "content": "摩根大通私人银行拉美投资策略负责人：哥伦比亚比索的套利策略今年迄今已回报约27%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:46:24",
-      "content": "摩根大通私人银行拉美投资策略负责人：拉美货币受益于套利交易和美元疲软，并不一定反映基本面改善。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:44:33",
-      "content": "据塔斯社：俄罗斯律师正在准备就俄船只被扣押事宜对挪威提起诉讼。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:44:25",
-      "content": "【美国7月贸易逆差扩大至2025年初以来最高】金十数据9月3日讯，受计算机和其他技术设备进口激增的影响，美国7月份贸易逆差大幅扩大至2025年初以来的最高水平。美国商务部周四公布的数据显示，7月美国商品和服务贸易逆差较前月扩大24.4%，至886亿美元，经济学家的预估中值为902亿美元。进口额增长2.8%，出口额下降2.1%。报告显示，资本货物（包括计算机及配件、半导体和电信设备，但不包括汽车）进口额激增11.4%，创下1993年以来的最大增幅。技术进口的快速增长反映了人工智能领域的投资热潮，而人工智能正是美国经济增长的关键驱动力。与此同时，近几个月来，由于伊朗战争推高了全球对美国石油产品的需求，而美国企业则努力缓解供应链中断的影响，贸易逆差出现波动。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:43:04",
-      "content": "美联储理事沃勒发表讲话后，美国国债收益率小幅走低，10年期国债收益率日内跌幅达4个基点，报4.754%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:42:40",
-      "content": "国际金要摆脱颓势吗？非农数据明日公布！沃什抉择难上加难？金十交易学院正在直播中，立即观看！",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:42:18",
-      "content": "美国私人数据提供商RevelioLabs数据显示，美国8月份非农就业人数环比增加3.65万人。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:40:10",
-      "content": "【美联储沃勒：9月是否加息将高度取决于8月CPI】金十数据9月3日讯，美联储理事沃勒表示，他下一次利率决策将“很大程度上取决于”下周公布的8月通胀数据，并称只需通胀数据出现一定程度的升温，就可能促使他转而支持美联储在即将召开的政策会议上加息。他说：“如果我们继续朝着2%的目标取得进展，那么我愿意支持将政策利率维持在当前水平。但如果通胀数据高于预期，我会考虑加息。”沃勒将当前的政策描述为略微抑制经济增长，并补充说：“通胀加速可能并不会促使我支持收紧政策。如果8月份有证据表明通胀朝着2%的目标迈进的势头逆转，那么对我们政策立场进行小幅调整将有助于确保通胀恢复。”他也表示：“尽管通胀率仍远高于FOMC 2%的目标，但近期数据显示，我们终于看到了一些通胀降温迹象。”",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:39:51",
-      "content": "以色列总理内塔尼亚胡：以色列释放了5名黎巴嫩公民。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:39:30",
-      "content": "【双环传动：终止分拆子公司环动科技上市】金十数据9月3日讯，双环传动公告，公司此前推进所属子公司浙江环动机器人关节科技股份有限公司首次公开发行股票并在上海证券交易所科创板上市，环动科技于2024年11月25日收到上市申请受理通知。公司董事会于2026年09月03日同意终止分拆环动科技至科创板上市并撤回相关上市申请文件，议案尚需提交2026年第二次临时股东会审议。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:38:09",
-      "content": "现货黄金持续走高，站上4470美元/盎司，日内涨1.88%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:37:18",
-      "content": "市场削减美联储加息押注，此前美联储理事沃勒称通胀已显现改善迹象。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:36:14",
-      "content": "美联储理事沃勒：商务部对非市场价格估算的待定修正可能使12个月PCE降低零点几个百分点。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 20:35:39",
-      "content": "美联储理事沃勒：整体PCE和核心PCE并不是判断通胀走向的最佳指标。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
     }
   ],
   "shmet": [
     {
-      "datetime": "2026-09-03 21:51:42",
-      "content": "【快讯】SHMET09月03日讯，美国8月ISM非制造业PMI将于十分钟后公布。",
+      "datetime": "2026-09-03 22:44:55",
+      "content": "【快讯】SHMET09月03日讯，加拿大总理卡尼：当华盛顿准备就绪时，加方愿意坐下来与其达成一项贸易协议。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-03 21:50:26",
-      "content": "【快讯】SHMET09月03日讯，埃及总理：埃及计划在2026-27财年将债务占GDP比重降低至78%。",
+      "datetime": "2026-09-03 22:43:15",
+      "content": "【快讯】SHMET09月03日讯，现货钯金涨3%，报1385.98美元/盎司。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-03 21:47:56",
-      "content": "【快讯】SHMET09月03日讯，爱尔兰总理马丁：希望年底前在储蓄/投资联盟方面取得进展。",
+      "datetime": "2026-09-03 22:42:24",
+      "content": "【快讯】SHMET09月03日讯，俄罗斯外交部：俄罗斯向挪威大使提出抗议；将寻求释放该船只。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-03 21:47:56",
-      "content": "【快讯】SHMET09月03日讯，爱尔兰总理马丁：目标是在圣诞节前获得欧盟中小企业提案。",
+      "datetime": "2026-09-03 22:40:22",
+      "content": "【快讯】SHMET09月03日讯，据俄新社：俄罗斯因挪威扣押俄罗斯船只一事召见挪威大使。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-03 21:46:59",
-      "content": "【深圳：推动国产操作系统在机器人上应用】SHMET09月03日讯，深圳市工业和信息化局、深圳市科技创新局近日印发《深圳市推动智能机器人产业高质量发展工作方案（2026—2028年）》，其中提到，推动国产操作系统在机器人上应用。加快完善机器人国产操作系统的核心框架，积极发动企业、高校和技术专家加入开源社区，推动ROS核心工具包功能迁移，提高机器人国产操作系统的可用性。通过“揭榜挂帅”等方式，鼓励企业以典型轻量化应用场景为切入口，推动适配国产操作系统的机器人开始应用，对实现场景应用的项目予以支持。",
+      "datetime": "2026-09-03 22:37:47",
+      "content": "【快讯】SHMET09月03日讯，匈牙利福林兑欧元上涨1%，此前消息称匈牙利将暂停降息并下调通胀目标。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-03 21:45:33",
-      "content": "【快讯】SHMET09月03日讯，美国8月标普全球服务业PMI终值 56.5，前值56.8。",
+      "datetime": "2026-09-03 22:35:45",
+      "content": "【快讯】SHMET09月03日讯，市场消息：匈牙利将暂停降息并下调通胀目标。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:34:15",
+      "content": "【快讯】SHMET09月03日讯，匈牙利央行计划暂停降息，同时下调其通胀目标。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-03 22:30:45",
+      "content": "【快讯】SHMET09月03日讯，美国至8月28日当周EIA天然气库存 300亿立方英尺，预期310亿立方英尺，前值150亿立方英尺。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-03 21:45:24",
-      "content": "【快讯】SHMET09月03日讯，美国8月标普全球综合PMI终值 56，前值56。",
+      "datetime": "2026-09-03 22:26:09",
+      "content": "【快讯】SHMET09月03日讯，法国工会呼吁公务员于9月29日罢工。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-03 21:44:39",
-      "content": "【深圳：重点攻克具身智能自主生态工具链、具身智能模型、人形机器人本体、核心零部件自主化等领域关键技术】SHMET09月03日讯，深圳市工业和信息化局、深圳市科技创新局近日印发《深圳市推动智能机器人产业高质量发展工作方案（2026—2028年）》，其中提到，着力推进智能机器人核心技术攻关。重点攻克具身智能自主生态工具链、具身智能模型、人形机器人本体、核心零部件自主化等领域关键技术，加强技术积累。依托深圳领先边端开放智能研究院等机构，在具身智能运动控制技术、具身智能运动生成技术等领域实现突破。推动设立机器人联合基金和人工智能联合基金，支持机器人和人工智能领域前沿基础研究，提升原始创新能力。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 21:44:27",
-      "content": "【快讯】SHMET09月03日讯，墨西哥主要股指涨超1%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-03 21:43:10",
-      "content": "【快讯】SHMET09月03日讯，特斯拉(TSLA.O)盘初涨幅扩大至5%。",
+      "datetime": "2026-09-03 22:25:20",
+      "content": "【快讯】SHMET09月03日讯，委内瑞拉反对派领袖马查多未明确拒绝石油交易。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
