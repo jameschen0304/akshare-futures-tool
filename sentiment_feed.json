@@ -1,10 +1,402 @@
 {
   "source": "jin10 flash + shmet + shfe weekly stock",
-  "generated_at": "2026-09-04T13:49:17.567033+00:00",
+  "generated_at": "2026-09-04T14:34:22.502954+00:00",
   "jin10": [
     {
+      "datetime": "2026-09-04 22:31:00",
+      "content": "【贝莱德：就业数据超预期后，CPI的重要性更加凸显】金十数据9月4日讯，贝莱德集团投资组合经理Jeff Rosenberg表示，美国8月就业增长大幅超出预期，凸显下周公布的消费者价格指数（CPI）数据的重要性。美联储决策者正据此考虑是否加息。他说：“这在某种程度上证实了我们对劳动力市场的了解，并再次将焦点和压力转回通胀问题。关键在于通胀是否正在上升，或者是否没有以足够快的速度下降，这将决定美联储是否在9月会议上加息。”他表示，如果9月11日公布的CPI报告继续显示通胀有所改善，“我认为他们会维持利率不变”。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:29:27",
+      "content": "特斯拉(TSLA.O)跌幅扩大至6.3%，此前Cybercab正式发布，未达市场预期。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:27:10",
+      "content": "智利盐湖担忧+江西减产推高价格，但电池厂减产传闻令市场急转直下，原料偏紧与需求弱预期激烈博弈，贸易商如何看待后市行情？",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:26:57",
+      "content": "【花旗：8月非农报告强劲，将美联储降息预期推迟至明年6月】金十数据9月4日讯，花旗集团周五将其对美联储下次降息的预测从2026年10月推迟至2027年6月，理由是8月非农就业增长强于预期，且劳动力市场整体保持稳定。该券商此前预测美联储将在2026年10月、12月和2027年1月分别降息25个基点，但目前预计美联储将在2027年6月、9月和12月各降息25个基点。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:23:48",
+      "content": "市场消息：美国政府已请求最高法院授权恢复实施邮寄投票限制措施。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:21:43",
+      "content": "据法新社：乌克兰官员表示，预计美国中东问题特使威特科夫和特朗普高级顾问库什纳将于周日抵达基辅。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:21:25",
+      "content": "金十数据9月4日讯，花旗：预计美联储将在2027年6月、9月和12月各降息25个基点（此前预测为在2026年10月、2026年12月和2027年1月降息）。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:20:05",
+      "content": "伊拉克石油部：8月份原油出口接近7000万桶，初步收入约为45亿美元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:16:48",
+      "content": "【经济学家：工资增长放缓或将抑制加拿大通胀】金十数据9月4日讯，加拿大RSM经济学家Tu Nguyen表示，加拿大平均时薪同比增速8月放缓至2%，在此前多年保持3%以上增幅后出现“突然下滑”。她表示，这“反映出企业更加谨慎，也表明就业市场更加趋于平衡”。近期数据显示，受汽油价格推动，加拿大整体通胀率维持在3%。Nguyen表示，工资增速放缓应能抑制通胀，因为较低的工资水平可以稳定企业成本，并降低企业将更高成本转嫁给消费者的必要性。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:13:56",
+      "content": "中国地震台网正式测定：09月04日22时03分在四川宜宾市长宁县（北纬28.36度，东经104.94度）发生3.0级地震，震源深度5千米。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:13:20",
+      "content": "“美联储传声筒”Nick Timiraos：特朗普对经济指标报告中任何显示经济过热的证据都会导致股市回调这一现象，表达了持续的不满。他再次要求降低利率：“美联储理事会及其出色的新领导人必须变得明智——这次要有点爱国精神。”",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:13:14",
+      "content": "【蒙特利尔银行：加拿大就业数据迎来现实检验】金十数据9月4日讯，加拿大蒙特利尔银行（Bank of Montreal）首席经济学家道格拉斯·波特（Douglas Porter）表示，在就业数据连续一段时间表现远超预期后，加拿大似乎即将迎来一次现实检验。他指出，8月份的就业报告无疑疲软，但远没有达到令人意外的程度，部分反映了劳动力人口持续下滑的趋势。他认为，就业和平均工资增速放缓将进一步强化加拿大央行维持利率不变的策略，并有助于缓解市场上对加息的过高预期。8月加拿大整体就业人数减少4.17万人，结束了此前一连串强劲的就业增长势头，而失业率维持在6.4%不变。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:10:46",
+      "content": "【泽连斯基称俄罗斯无人机袭击乌克兰国家安全局总部】金十数据9月4日讯，乌克兰总统泽连斯基周五表示，一架俄罗斯无人机袭击了位于基辅的乌克兰国家安全局（SBU）总部。此前莫斯科已连续10天对首都基辅进行空袭。泽连斯基表示，他已下令对俄罗斯采取“适当且切实的回应”，并将在一切准备就绪后，在可能的情况下采取与此次袭击相对应的行动。袭击发生后，基辅市中心升起滚滚黑烟，标志着俄乌冲突进一步升级。基辅市长表示，至少7人在袭击中受伤。在与俄罗斯长达四年半的战争中，乌克兰政府大楼很少遭受无人机和导弹袭击。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:10:22",
+      "content": "美国财长贝森特：就业数据表明，（美国）经济不仅仅是由人工智能建设热潮推动的。加拿大失去了超过4万个工作岗位，而我们的就业数据大幅增长。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:08:18",
+      "content": "【牛津经济研究院：劳动力市场并非通胀压力来源】金十数据9月4日讯，当通胀率走高且就业市场趋紧（即职位空缺多于求职者）时，员工通常希望获得更高的工资以弥补高昂的生活成本。这也是美联储确保通胀预期保持稳定的重要原因之一。周五公布的就业报告显示，平均时薪环比增长0.3%，而同比增速则从3.2%放缓至3.1%。牛津经济研究院在一份报告中指出：“美联储可以放心，劳动力市场并非通胀压力来源。”",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:07:55",
+      "content": "英国国防大臣：英国对福克兰群岛的承诺“绝对且坚定不移”。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:06:38",
+      "content": "美国财政部：最新与伊朗相关的美国制裁针对三家实体。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:06:06",
+      "content": "美国财政部网站发布与伊朗相关的一般许可证。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:05:46",
+      "content": "美国8月全球供应链压力指数 1.06，前值由0.8修正为0.94。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:05:15",
+      "content": "美国财政部网站发布新一轮与伊朗相关的制裁。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:03:03",
+      "content": "美国白宫国家经济委员会主任哈塞特：昨晚与美国总统特朗普交谈，他并未向美联储提供建议。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:02:24",
+      "content": "交易真正需要的，从来不是天才，而是长期稳定地做好那些简单的事情。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:02:11",
+      "content": "金十图示：2026年09月04日（周五）全球股市指数-美洲市场（盘初）",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:02:08",
+      "content": "俄罗斯方面表示，乌克兰的“鲁莽”行为缺乏法律效力，扭曲了局势，并误导了使用俄罗斯空域的用户。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:02:03",
+      "content": "美国白宫国家经济委员会主任哈塞特：美国将立即感受到未来价格的影响。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:01:57",
+      "content": "【机构：加拿大8月就业减少或反映出连续三个月增长后的回调】金十数据9月4日讯，Desjardins Capital宏观策略主管Royce Mendes表示，加拿大8月就业人数下降可能反映出此前连续三个月强劲招聘后，数据出现“正常化”。5月至7月期间，加拿大新增就业岗位18.11万个，平均每月新增逾6万个。Mendes表示，部分疲软可能与今年劳动节周末时间晚于往年有关，“这可能导致部分通常在夏末进行的招聘推迟至9月。”",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:01:48",
+      "content": "美国白宫国家经济委员会主任哈塞特：（谈及委内瑞拉交易）美国将立即看到影响。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:01:34",
+      "content": "美国白宫国家经济委员会主任哈塞特：（谈及伊朗）正在追踪通过海峡的石油。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:01:15",
+      "content": "俄罗斯方面称已就乌克兰关于俄领空安全的警告，向国际民航组织提出严正交涉。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:00:02",
+      "content": "加拿大8月Ivey季调后PMI 64.3，前值55.1。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:00:02",
+      "content": "加拿大8月Ivey未季调PMI 62.7，前值54.1。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:59:56",
+      "content": "美国白宫国家经济委员会主任哈塞特：我们正在尽一切努力降低价格。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:59:53",
+      "content": "美国白宫国家经济委员会主任哈塞特：成品油价格仍然很高。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:59:03",
+      "content": "美国白宫国家经济委员会主任哈塞特：我们尊重美联储的独立性。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:59:00",
+      "content": "美国白宫国家经济委员会主任哈塞特：加息是人们认为的摆在桌面上的选项。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:58:13",
+      "content": "中期选举带来的政治不确定性，刚好撞上六大风险同时累积的脆弱窗口，原本分散的利空可能会被潜在的选举争议一次性集中触发......点击查看...",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:56:41",
+      "content": "美国白宫国家经济委员会主任哈塞特：通胀已得到控制。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:56:38",
+      "content": "据俄新社：俄罗斯表示已在乌克兰敖德萨附近击中一艘油轮。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:55:34",
+      "content": "据国际文传电讯社：俄罗斯称其击中乌克兰的切尔诺莫尔斯克一艘货船。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:53:10",
+      "content": "美国白宫国家经济委员会主任哈塞特：高油价是短期现象。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:52:14",
+      "content": "葡萄牙方面表示将与德国汉莎航空和法国航空进行谈判。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:52:09",
+      "content": "金十图示：2026年09月04日（周五）华尔街恐惧与贪婪指数（美盘初）",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:52:05",
+      "content": "乌克兰外长：乌克兰呼吁盟友加大对俄罗斯总统普京政权的压力。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:51:59",
+      "content": "外交官称，美国与欧洲三国寻求在下周的国际原子能机构（IAEA）理事会会议上通过一项决议，以伊朗违反其防扩散义务为由，将其问题提交至联合国安理会。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:51:38",
+      "content": "乌克兰外长：袭击乌克兰安全局总部是局势的重大升级，需采取果断回应。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:50:33",
+      "content": "金十图示：2026年09月04日（周五）美盘市场行情一览",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:50:00",
+      "content": "美国8月全球供应链压力指数将于十分钟后公布。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:49:52",
+      "content": "厄瓜多尔总统：厄瓜多尔预计将在2027年与日本签署自由贸易协定。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:49:41",
+      "content": "美国总统特朗普呼吁通过《拯救美国法案》。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
       "datetime": "2026-09-04 21:45:32",
-      "content": "【特朗普：非农打破所有预期（除了我的！）】金十数据9月4日讯，美国总统特朗普发文称：刚刚公布的就业数据太棒了，打破了所有预期（除了我的！），增幅达到预期的两倍甚至三倍，而且你们还没有看到全部情况！美国雇主8月份新增16.2万个就业岗位。降息吧，因为美国的信用状况相比不久前已经强劲得多！一个强大的国家意味着更低的利率，因为它的信用状况更好……就这么简单！我们应该拥有全球最低的利率，就像“过去的好日子”一样。如果没有美国同意让这些国家享有巨额贸易顺差，而我们可以立即阻止这一点，那么它们就不应再被视为金融“精英”国家！降息，否则我将停止与那些对美存在贸易顺差的国家进行贸易。美国最高法院在那项荒谬且代价高昂的关税裁决中已经明确认可，“总统”拥有这样做的绝对权利。这比关税更好！美联储理事会在这位杰出的新领导人带领下，必须变得明智起来，换个角度思考，做一回爱国者。高利率让美国处于极不公平的劣势，我绝不会允许这种情况发生！",
+      "content": "【特朗普：非农打破所有预期（除了我的！）】金十数据9月4日讯，美国总统特朗普发文称：刚刚公布的就业数据太棒了，打破了所有预期（除了我的！），增幅达到预期的两倍甚至三倍，而且你们还没有看到全部情况！美国雇主8月份新增16.2万个就业岗位。降息吧，因为美国的信用状况比不久前好得多！一个强大的国家意味着更低的利率，因为它的信用状况更好……就这么简单！我们应该拥有全球最低的利率，就像“过去的日子”一样。如果美国不同意允许他们拥有巨额贸易顺差（我们可以立即阻止这种情况），那么它们就不应再被视为金融“精英”国家！降低利率，否则我将停止与我们有贸易逆差的国家进行交易。美国最高法院在其荒谬且代价高昂的关税裁决中明确承认，“总统”有绝对权利这样做。这比关税好多了！美联储理事会在这位杰出的新领导人带领下，必须变得明智起来，换个角度思考，做一回爱国者。高利率让美国处于极不公平的劣势，我绝不会允许这种情况发生！",
       "important": 1,
       "source": "jin10",
       "sentiment": "neutral",
@@ -657,385 +1049,337 @@
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:49:20",
-      "content": "乌克兰基辅地区州政府负责人：由于敌方的破坏行动，我们有大量受损产品和废物需要迅速安全地清除。这对该地区来说是个挑战，因为我们之前从未面临如此多储存设施同时受损和如此大规模产品的情况。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:48:52",
-      "content": "【强劲就业数据公布后美元大幅上涨】金十数据9月4日讯，备受市场期待的美国就业数据显示，8月份新增就业岗位远超预期，美元应声大幅上涨。这提高了美联储未来几个月可能加息的预期，最早可能就在本月。美元指数DXY升至日内高点99.932，日内上涨0.5%，数据公布前约为99.035。LSEG数据显示，欧元兑美元跌至1.1583美元，数据公布前约为1.1623美元。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:48:24",
-      "content": "乌克兰基辅地区州政府负责人：最近几周，敌方对储存设施进行了重大打击。这些设施中有一些存放了产品，包括有机材料。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:47:18",
-      "content": "【分析：8月建筑业净增2.2万个岗位，同比却下滑】金十数据9月4日讯，市场分析师Chris Anstey：回到我们在数据发布前提到的建筑业就业主题，7月数据实际上被小幅下修，但仍录得1.8万个岗位的正增长。8月建筑业净增2.2万个就业岗位。不过，同比来看，该类别减少了2.2万个岗位，反映了我们此前强调的建筑支出下降。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:47:12",
-      "content": "【就业数据强劲，市场提高对美联储9月加息预期】金十数据9月4日讯，美国8月就业数据强于预期后，市场提高了对美联储9月16日加息的预期。LSEG数据显示，市场目前定价美联储加息的概率为61%，而在数据公布前，市场对加息或维持利率不变的预期概率各为50%。数据显示，美国8月新增16.2万个就业岗位，是经济学家预测的5.3万人的三倍。7月就业数据也被上修。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:46:46",
-      "content": "重要新闻\n1. 美国8月季调后非农就业人口录得16.2万人，为3月以来新高，远高于市场预期的5.6万人。\n2. 美国非农数据公布后，美债收益率走高。\n个股新闻\n1. 英伟达(NVDA.O)据悉正在讨论向Thinking Machines Lab投资25亿美元。\n2. 特斯拉(TSLA.O)：赛博无人驾驶电动车Cybercab（无方向盘、踏板和后视镜）正式在美国奥斯汀投入运营。\n3. 美国联邦通信委员会（FCC）请求美国法院驳回迪士尼(DIS.N)提起的诉讼，该诉讼要求禁止继续进行广播许可证续期程序。\n4. 法国交通部长塔巴罗特周五表示，在欧洲10月就是否准许特斯拉(TSLA.O)全自动驾驶技术落地作出决议之前，法国已开展相关车辆测试工作。\n5. 据悉，苹果(AAPL.O)备受期待的折叠屏iPhone目前初期产量仅为每天“几百”台，这主要是由于该公司极其严格的质量控制标准。\n6. 哔哩哔哩(BILI.O)：董事会批准最高达3亿美元的特别股票回购计划。\n7. 必和必拓(BHP.N)回应涉西澳铁矿与中资合作传闻：会评估有利于股东的选项。\n8. Anthropic接近敲定将循环信贷额度扩大至150亿美元，为计划于今年晚些时候进行的IPO做准备。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": true
-    },
-    {
-      "datetime": "2026-09-04 20:45:08",
-      "content": "美国8月非农新增16.2万人，远高于过去12个月月均3.1万人的水平。失业率维持4.1%，6月和7月数据也合计上修5.5万人。点击查看报告全文。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:44:56",
-      "content": "伊朗军事发言人：我们将在任何感到受威胁的地方实施先发制人的行动。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:44:42",
-      "content": "【美国8月就业强劲，美股期货承压】金十数据9月4日讯，周五，美国公布8月就业数据后，追踪标普500指数的股指期货转跌，原因是数据显示美国经济8月新增就业人数超出预期。美国劳工部报告显示，8月非农就业人数增加16.2万人，远高于经济学家预期的增加5.6万人。道琼斯E—mini期货下跌152点，跌幅0.28%；标普500 E—mini期货下跌17.25点，跌幅0.22%；纳斯达克100 E—mini期货上涨20.75点，涨幅0.07%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:42:46",
-      "content": "当地目击者称，在俄罗斯无人机袭击后，基辅市中心升起浓烟。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:42:25",
-      "content": "“美联储传声筒”Nick Timiraos：最新数据显示，所有雇主和私营部门雇主的6个月平均招聘人数分别升至10.7万人和10.6万人，均创两年多来的最高水平。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:41:23",
-      "content": "【美国8月非农大超预期，美联储加息预期升温】金十数据9月4日讯，美国8月就业增长好于预期，失业率维持不变，表明美国劳动力市场的动能可能比此前认为的更强。根据美国劳工统计局周五公布的数据，在此前两个月就业数据上修的基础上，美国8月非农就业人数增加16.2万人，超过所有经济学家的预期。非农就业增长主要由休闲和酒店业就业反弹以及政府部门就业增加带动。同时，建筑业和制造业也录得较强劲的就业增长。失业率维持在4.1%。这份报告显示，美国劳动力市场正在经受住伊朗战争带来的不确定性以及通胀压力。美联储官员可能会将这份报告视为支持加息理由的证据，不过，下周公布的美国CPI数据将成为美联储本月晚些时候作出利率决定的关键。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:40:59",
-      "content": "【分析：8月时薪环比涨0.3% 但同比仍落后于CPI】金十数据9月4日讯，市场分析师Chris Anstey：工资也在上涨，时薪在7月上修至0.2%之后，8月环比上涨0.3%。即便如此，3.1%的同比涨幅仍落后于通胀增速。预计下周公布的CPI数据将同比上涨3.4%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:40:29",
-      "content": "加息与否看今晚非农！美联储理事提前给出预判？国际金周末前如何分析？交易学院正在直播中，立即观看！",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:39:11",
-      "content": "现货钯金跌超3%，报1376.25美元/盎司。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:38:57",
-      "content": "美国2年期国债收益率上升至4.416%，为2025年1月以来最高水平。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:38:34",
-      "content": "市场消息：空客与西班牙工会达成初步协议。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:38:19",
-      "content": "美国劳工统计局：餐饮服务、娱乐场所以及地方政府教育领域的就业人数有所增加。信息产业失去了工作岗位。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:38:06",
-      "content": "【美国非农8月新增就业岗位超出普遍预期】金十数据9月4日讯，美国8月就业增长超过预期，失业率保持在4.1%，表明劳动力市场的活力比此前预期的更为强劲。美国劳工统计局周五公布的数据显示，在前两个月数据上修之后，上个月非农就业人数增加了16.2万人。这一数字超过了机构调查的所有预期。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:37:38",
-      "content": "Anthropic CEO：AI可能在6到12个月内取代软件工程师。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:36:32",
-      "content": "交易员目前正进一步提高对美联储9月加息的押注。掉期市场显示，9月加息的概率已超过60%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:35:26",
-      "content": "金十Plus全面升级，解锁快讯增强、数据增强、专业注解、团队解析、Plus专享日报等12大专属权益，还可自定义推送与过滤，减少广告干扰。重要信息看得更全，关键变化理解更快，让你更专注于自己真正关心的市场。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:35:07",
-      "content": "非农数据公布后，各主要品种行情一览。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:34:50",
-      "content": "德国10年期国债收益率在美国数据公布后回落，日内跌0.5个基点至3.35%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:34:40",
-      "content": "美国劳工统计局：8月美国非农就业人数增加16.2万人，明显高于过去12个月平均每月增加3.1万人的水平。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:34:37",
-      "content": "美国2年期国债收益率上涨7.18个基点，报4.406%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:34:28",
-      "content": "美国非农就业数据公布后，美国国债收益率上升；10年期国债收益率上涨3.02个基点，报4.792%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:34:14",
-      "content": "美国股指期货在非农就业报告发布后短线走低。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:33:58",
-      "content": "美元兑日元USD/JPY上升55点，至156.52；欧元兑美元EUR/USD下跌30点，英镑兑美元GBP/USD下跌34点。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:33:23",
-      "content": "新兴市场货币指数在美国就业数据后回落。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:32:19",
-      "content": "市场加大对美联储九月加息的押注。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:32:03",
-      "content": "现货黄金一度失守4400美元/盎司，日内跌幅1.66%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:31:38",
-      "content": "【美国6月和7月非农就业新增人数合计上修5.5万人】金十数据9月4日讯，美国劳工统计局：6月份非农新增就业人数从2万人上修至3.1万人；7月份非农新增就业人数从减少2.3万人上修至增加2.1万人。经过这些修正后，6月和7月新增就业人数合计较修正前增加5.5万人。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:31:13",
-      "content": "非农数据公布后，美元指数DXY短线走高34点，达99.36点。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:30:45",
-      "content": "非农数据公布后，现货黄金短线下跌逾70美元，报4405美元/盎司；现货白银短线下跌1.5美元，报65.7美元/盎司。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:30:36",
-      "content": "美国8月失业率维持在4.1%不变，符合市场预期。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:30:17",
-      "content": "【美国8月非农远高于预期】金十数据9月4日讯，美国8月季调后非农就业人口录得16.2万人，为3月以来新高，远高于市场预期的5.6万人。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:30:10",
-      "content": "利率决议存在分歧，今晚非农数据是关键！黄金4500能否突破？金十研究员Steven正在直播，立即观看>>",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:30:05",
-      "content": "美国8月U6失业率 7.7%，前值7.90%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:30:05",
-      "content": "美国8月就业参与率 61.6%，预期61.4%，前值61.40%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:30:05",
-      "content": "美国8月失业率 4.1%，预期4.1%，前值4.10%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:30:04",
-      "content": "美国8月私人非农就业人数 12.7万人，预期4.5万人，前值由3万人修正为7.1万人。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:30:04",
-      "content": "美国8月季调后制造业就业人口 1.6万人，预期0.5万人，前值由0.5万人修正为1.4万人。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:30:04",
-      "content": "美国8月季调后政府部门就业人口 3.5万人，前值由-5.3万人修正为-5万人。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:30:04",
-      "content": "美国8月平均每周工时 34.4，预期34.3，前值34.3。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:30:04",
-      "content": "美国8月季调后非农就业人口 16.2万人，预期5.6万人，前值由-2.3万人修正为2.1万人。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-04 20:30:04",
-      "content": "美国8月平均每小时工资年率 3.1%，预期3%，前值3.20%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
     }
   ],
   "shmet": [
+    {
+      "datetime": "2026-09-04 22:32:01",
+      "content": "【贝莱德：就业数据超预期后，CPI的重要性更加凸显】SHMET09月04日讯，贝莱德集团投资组合经理Jeff Rosenberg表示，美国8月就业增长大幅超出预期，凸显下周公布的消费者价格指数（CPI）数据的重要性。美联储决策者正据此考虑是否加息。他说：“这在某种程度上证实了我们对劳动力市场的了解，并再次将焦点和压力转回通胀问题。关键在于通胀是否正在上升，或者是否没有以足够快的速度下降，这将决定美联储是否在9月会议上加息。”他表示，如果9月11日公布的CPI报告继续显示通胀有所改善，“我认为他们会维持利率不变”。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:31:33",
+      "content": "【快讯】SHMET09月04日讯，上海傅里叶半导体将被纳入恒生综合指数。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:29:34",
+      "content": "【快讯】SHMET09月04日讯，特斯拉跌幅扩大至6.14%，报353.240美元/股。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:27:48",
+      "content": "【花旗：8月非农报告强劲，将美联储降息预期推迟至明年6月】SHMET09月04日讯，花旗集团周五将其对美联储下次降息的预测从2026年10月推迟至2027年6月，理由是8月非农就业增长强于预期，且劳动力市场整体保持稳定。该券商此前预测美联储将在2026年10月、12月和2027年1月分别降息25个基点，但目前预计美联储将在2027年6月、9月和12月各降息25个基点。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:25:25",
+      "content": "【快讯】SHMET09月04日讯，市场消息：美国政府已请求最高法院授权恢复实施邮寄投票限制措施。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:22:04",
+      "content": "【快讯】SHMET09月04日讯，花旗：预计美联储将在2027年6月、9月和12月各降息25个基点（此前预测为在2026年10月、2026年12月和2027年1月降息）。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:21:23",
+      "content": "【快讯】SHMET09月04日讯，伊拉克石油部：8月份原油出口接近7000万桶，初步收入约为45亿美元。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:18:45",
+      "content": "【经济学家：工资增长放缓或将抑制加拿大通胀】SHMET09月04日讯，加拿大RSM经济学家Tu Nguyen表示，加拿大平均时薪同比增速8月放缓至2%，在此前多年保持3%以上增幅后出现“突然下滑”。她表示，这“反映出企业更加谨慎，也表明就业市场更加趋于平衡”。近期数据显示，受汽油价格推动，加拿大整体通胀率维持在3%。Nguyen表示，工资增速放缓应能抑制通胀，因为较低的工资水平可以稳定企业成本，并降低企业将更高成本转嫁给消费者的必要性。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:16:30",
+      "content": "【快讯】SHMET09月04日讯，法国和比利时当局在针对麦肯锡（McKinsey）税务调查中，扣押了价值6500万欧元的资产。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:14:37",
+      "content": "【快讯】SHMET09月04日讯，中国地震台网正式测定：09月04日22时03分在四川宜宾市长宁县（北纬28.36度，东经104.94度）发生3.0级地震，震源深度5千米。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:13:03",
+      "content": "【蒙特利尔银行：加拿大就业数据迎来现实检验】SHMET09月04日讯，加拿大蒙特利尔银行（Bank of Montreal）首席经济学家道格拉斯·波特（Douglas Porter）表示，在就业数据连续一段时间表现远超预期后，加拿大似乎即将迎来一次现实检验。他指出，8月份的就业报告无疑疲软，但远没有达到令人意外的程度，部分反映了劳动力人口持续下滑的趋势。他认为，就业和平均工资增速放缓将进一步强化加拿大央行维持利率不变的策略，并有助于缓解市场上对加息的过高预期。8月加拿大整体就业人数减少4.17万人，结束了此前一连串强劲的就业增长势头，而失业率维持在6.4%不变。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:12:01",
+      "content": "【快讯】SHMET09月04日讯，美国财长贝森特表示，最新非农数据显示美国经济不仅仅由AI建设热潮驱动。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:11:53",
+      "content": "【快讯】SHMET09月04日讯，美国财长贝森特：就业数据表明，（美国）经济不仅仅是由人工智能建设热潮推动的。加拿大失去了超过4万个工作岗位，而我们的就业数据大幅增长。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:11:47",
+      "content": "【一舱难求 中东航线运费大幅跳涨】SHMET09月04日讯，近期，受中东局势变化和厄尔尼诺现象带来的极端天气影响，中东航线的海运价格连续上涨，甚至出现“运价比货值还贵”的现象。7月下旬以来，中东航线海运价格迎来大幅跳涨，以上海港到达曼港为例，一个40英尺标准集装箱的运价，从6600美元左右一路突破10000美元关口，涨幅超50%。有货代公司负责人告诉记者，中东航线的舱位现在是一舱难求，即使订到舱位，也会因为各种原因推迟或取消。 (央视财经)",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:08:30",
+      "content": "【牛津经济研究院：劳动力市场并非通胀压力来源】SHMET09月04日讯，当通胀率走高且就业市场趋紧（即职位空缺多于求职者）时，员工通常希望获得更高的工资以弥补高昂的生活成本。这也是美联储确保通胀预期保持稳定的重要原因之一。周五公布的就业报告显示，平均时薪环比增长0.3%，而同比增速则从3.2%放缓至3.1%。牛津经济研究院在一份报告中指出：“美联储可以放心，劳动力市场并非通胀压力来源。”",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:08:16",
+      "content": "【快讯】SHMET09月04日讯，美国财政部：最新与伊朗相关的美国制裁针对三家实体。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:08:10",
+      "content": "【快讯】SHMET09月04日讯，英国国防大臣：英国对福克兰群岛的承诺“绝对且坚定不移”。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:07:16",
+      "content": "【快讯】SHMET09月04日讯，美国财政部网站发布与伊朗相关的一般许可证。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:06:58",
+      "content": "【快讯】SHMET09月04日讯，美国8月全球供应链压力指数 1.06，前值由0.8修正为0.94。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:06:10",
+      "content": "【快讯】SHMET09月04日讯，美国财政部网站发布新一轮与伊朗相关的制裁。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:03:44",
+      "content": "【快讯】SHMET09月04日讯，白宫国家经济委员会主任凯文·哈塞特表示，他昨晚与总统特朗普通话，特朗普并未向美联储提供任何利率政策方面的建议。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:02:50",
+      "content": "【快讯】SHMET09月04日讯，美国白宫国家经济委员会主任哈塞特：（谈及伊朗）正在追踪通过海峡的石油。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:02:43",
+      "content": "【快讯】SHMET09月04日讯，美国白宫国家经济委员会主任哈塞特：（谈及委内瑞拉交易）美国将立即看到影响。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:02:33",
+      "content": "【机构：加拿大8月就业减少或反映出连续三个月增长后的回调】SHMET09月04日讯，Desjardins Capital宏观策略主管Royce Mendes表示，加拿大8月就业人数下降可能反映出此前连续三个月强劲招聘后，数据出现“正常化”。5月至7月期间，加拿大新增就业岗位18.11万个，平均每月新增逾6万个。Mendes表示，部分疲软可能与今年劳动节周末时间晚于往年有关，“这可能导致部分通常在夏末进行的招聘推迟至9月。”",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:02:25",
+      "content": "【快讯】SHMET09月04日讯，美国白宫国家经济委员会主任哈塞特：美国将立即感受到未来价格的影响。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:00:32",
+      "content": "【快讯】SHMET09月04日讯，美国白宫国家经济委员会主任哈塞特：成品油价格仍然很高。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:00:30",
+      "content": "【快讯】SHMET09月04日讯，加拿大8月Ivey季调后PMI 64.3，前值55.1。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:00:26",
+      "content": "【快讯】SHMET09月04日讯，白宫经济顾问哈塞特表示，加息是大家认为应该提上日程的，尊重美联储的独立性。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:00:25",
+      "content": "【快讯】SHMET09月04日讯，加拿大8月Ivey未季调PMI 62.7，前值54.1。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:00:20",
+      "content": "【快讯】SHMET09月04日讯，美国白宫国家经济委员会主任哈塞特：我们尊重美联储的独立性。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 22:00:16",
+      "content": "【快讯】SHMET09月04日讯，美国白宫国家经济委员会主任哈塞特：我们正在尽一切努力降低价格。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:59:29",
+      "content": "【快讯】SHMET09月04日讯，美国白宫国家经济委员会主任哈塞特：加息是人们认为的摆在桌面上的选项。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:58:11",
+      "content": "【快讯】SHMET09月04日讯，美国白宫国家经济委员会主任哈塞特：通胀已得到控制。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:57:32",
+      "content": "【快讯】SHMET09月04日讯，纳斯达克100指数涨幅扩大至0.5%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:56:19",
+      "content": "【lululemon商标案最新回应：双双提起二审上诉】SHMET09月04日讯，JU ACTIVE创始人黄皓锐表示：“我们早就提起二审上诉，今天收到信息，lululemon方面也提起了上诉。”对此，lululemon方面截至发稿时尚未有回应。今年8月，江苏省南京市中级人民法院对加拿大露露乐檬运动用品有限公司（lululemon）诉浙江极由品牌管理有限公司等五个主体的商标侵权纠纷案作出一审判决，驳回lululemon的全部商标侵权诉讼请求。涉案五被告共同运营JU ACTIVE运动服饰品牌，该品牌创立于2024年年底。不过，值得关注的是，在这起官司中，lululemon方面提出了两方面的核心主张，其一是商标侵权，其二是不正当竞争。lululemon主张对其20个服饰款式享有竞争权益，认为JU ACTIVE仿制上述款式的行为违反了反不正当竞争法第二条的规定，构成不正当竞争行为。一审中，法院也确实认定了JU ACTIVE涉案的18个服饰款式设计构成不正当竞争，并判决JU ACTIVE赔偿lululemon 260万元。 (21世纪经济报道)",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:54:42",
+      "content": "【快讯】SHMET09月04日讯，白宫经济顾问哈塞特表示，高油价只是短期现象。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:54:15",
+      "content": "【快讯】SHMET09月04日讯，美国白宫国家经济委员会主任哈塞特：高油价是短期现象。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:52:21",
+      "content": "【快讯】SHMET09月04日讯，外交官称，美国与欧洲三国寻求在下周的国际原子能机构（IAEA）理事会会议上通过一项决议，以伊朗违反其防扩散义务为由，将其问题提交至联合国安理会。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:50:47",
+      "content": "【快讯】SHMET09月04日讯，厄瓜多尔总统：厄瓜多尔预计将在2027年与日本签署自由贸易协定。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:50:19",
+      "content": "【快讯】SHMET09月04日讯，美国总统特朗普呼吁通过《拯救美国法案》。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:50:15",
+      "content": "【快讯】SHMET09月04日讯，美国8月全球供应链压力指数将于十分钟后公布。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
     {
       "datetime": "2026-09-04 21:46:58",
       "content": "【快讯】SHMET09月04日讯，美国总统特朗普：降低利率，否则我将停止与我们有贸易逆差的国家进行交易。",
@@ -1115,17 +1459,400 @@
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
-    }
-  ],
-  "steel_highlight": [
+    },
     {
-      "datetime": "2026-09-04 20:46:46",
-      "content": "重要新闻\n1. 美国8月季调后非农就业人口录得16.2万人，为3月以来新高，远高于市场预期的5.6万人。\n2. 美国非农数据公布后，美债收益率走高。\n个股新闻\n1. 英伟达(NVDA.O)据悉正在讨论向Thinking Machines Lab投资25亿美元。\n2. 特斯拉(TSLA.O)：赛博无人驾驶电动车Cybercab（无方向盘、踏板和后视镜）正式在美国奥斯汀投入运营。\n3. 美国联邦通信委员会（FCC）请求美国法院驳回迪士尼(DIS.N)提起的诉讼，该诉讼要求禁止继续进行广播许可证续期程序。\n4. 法国交通部长塔巴罗特周五表示，在欧洲10月就是否准许特斯拉(TSLA.O)全自动驾驶技术落地作出决议之前，法国已开展相关车辆测试工作。\n5. 据悉，苹果(AAPL.O)备受期待的折叠屏iPhone目前初期产量仅为每天“几百”台，这主要是由于该公司极其严格的质量控制标准。\n6. 哔哩哔哩(BILI.O)：董事会批准最高达3亿美元的特别股票回购计划。\n7. 必和必拓(BHP.N)回应涉西澳铁矿与中资合作传闻：会评估有利于股东的选项。\n8. Anthropic接近敲定将循环信贷额度扩大至150亿美元，为计划于今年晚些时候进行的IPO做准备。",
-      "important": 1,
-      "source": "jin10",
+      "datetime": "2026-09-04 21:40:32",
+      "content": "【电力安全新规公布 首次明确各类并网主体与电力企业、用户承担同等安全责任】SHMET09月04日讯，记者从国家能源局了解到，修订后的《电力安全事故应急处置和调查处理条例》今日正式对外公布，将于2027年1月1日起正式施行。国家能源局相关负责人对记者表示，近年来，国外多起大面积停电事故暴露出多元主体责任边界模糊、电源涉网性能不足、系统电压失稳风险加剧等问题，成为新型电力系统建设中的突出挑战。新《条例》对此作出多项系统性制度安排。一是健全“团结治网”责任体系，首次明确各类并网主体与电力企业、电力用户承担同等安全责任，厘清电力企业、电力用户及储能、虚拟电厂等多个新兴并网主体的权责边界。二是强化涉网安全管控，新增涉网性能不达标异常减出力等事故判定标准，完善新能源安全风险管控制度体系。三是结合电力系统安全稳定运行要求优化事故判定依据，强化主干网架、枢纽场站、电源集群等关键节点管控，夯实大电网安全防御体系，保障电网运行稳定与电力可靠供应。",
+      "important": 0,
+      "source": "shmet",
       "sentiment": "neutral",
-      "steel": true
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:40:12",
+      "content": "【机构：下周CPI将决定美联储是否行动 沃什需维护信誉】SHMET09月04日讯，IFM Investors投资组合经理Ryan Weldon表示，8月非农数据将使美联储和市场的全部注意力继续集中在下周的通胀数据上，并可能给予美联储更大的加息空间。如果通胀没有出现令人信服的下降，美联储就需要采取行动，以维护沃什在杰克逊霍尔发表鹰派言论后市场给予他的信誉。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:39:49",
+      "content": "【凯投宏观：加拿大工资增速疲弱，显示经济存在过剩产能】SHMET09月04日讯，凯投宏观的托马斯·瑞安表示，由于8月就业数据中的一些细节，加拿大央行本周略显意外的鹰派转向如今可能显得“有些为时过早”。加拿大8月就业人数减少4.17万人，但失业率维持在6.4%。更值得注意的是，工资增速大幅放缓，同比仅增长2%，为2021年以来最低的12个月工资增幅。瑞安在谈到工资增长放缓时表示：“我们和加拿大央行都认为，加拿大经济仍然存在产能过剩，这一点很难质疑。”他还补充说，8月份的劳动力市场数据应该会抑制市场对加拿大央行立即加息的预期。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:38:45",
+      "content": "【WTI原油期货价格跌超2%】SHMET09月04日讯，WTI原油期货价格跌2.16%，报89.326美元/桶；布伦特原油期货价格跌1.85%，报93.750美元/桶。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:37:57",
+      "content": "【快讯】SHMET09月04日讯，燃油主力合约日内跌4.00%，现报3716.00元/吨。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:37:13",
+      "content": "【快讯】SHMET09月04日讯，美国稀土(USAR.O)上涨7.4%，Mp Materials(MP.N)上涨8.1%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:36:57",
+      "content": "【山西煤层气探明储量首次突破1万亿立方米】SHMET09月04日讯，在9月4日举行的2026年太原能源低碳发展论坛“煤与煤层气共采创新发展”平行论坛上，山西省自然资源厅发布《山西非常规天然气“十四五”成就与“十五五”展望（报告）》，报告显示，“十四五”期间山西新增煤层气探明储量5638.38亿立方米，目前累计探明煤层气储量已超1万亿立方米，稳居全国首位。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:35:36",
+      "content": "【快讯】SHMET09月04日讯，美国信用报告机构股价下跌，此前美国联邦住房金融局局长普尔特指示房利美和房地美批准贷款机构使用VantageScore信用评分系统。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:34:50",
+      "content": "【快讯】SHMET09月04日讯，美元指数DXY基本抹去非农公布以来的涨幅，现报99.12。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:34:46",
+      "content": "【快讯】SHMET09月04日讯，费城半导体指数开盘上涨2.1%，现报11590.01点。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:27:47",
+      "content": "【Nick Timiraos：8月就业报告扫清美联储加息障碍】SHMET09月04日讯，“美联储传声筒”Nick Timiraos指出，在9月15日至16日的议息会议前，美联储官员已经明确表示，通胀数据将是决定是否加息的最重要因素，此前美联储今年一直维持利率不变。即便强劲的8月就业报告不会改变这一判断框架，但它确实扫清了加息的一个障碍。如果8月就业数据在7月负增长的基础上继续疲软，那么反对收紧货币政策的理由或许更有说服力：在劳动力市场毫无增长迹象的情况下，为什么要加息？然而，在周五公布的就业报告扭转了7月就业负增长的局面，并将六个月平均招聘增长率推至两年多来的最高水平之后，这种反对理由已不复存在。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:23:52",
+      "content": "【分析师：长期失业凸显低招聘、低裁员就业市场的困境】SHMET09月04日讯，分析师Jessica Coacci指出，在招聘和裁员都处于低位的劳动力市场中，一些美国人一旦失去工作，就很难重新进入就业市场。周五公布的就业报告家庭调查数据显示，27%的失业人口已失业27周或更长时间。这一比例在过去一年左右基本一直徘徊在这一水平附近。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:22:18",
+      "content": "【快讯】SHMET09月04日讯，英国改革英国党领袖法拉奇：第四频道的视频似乎“经过了大幅编辑”。改革英国党没有做错任何事。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:21:54",
+      "content": "【美国黄金年龄劳动参与率连续多月未见反弹】SHMET09月04日讯，分析师Ben Casselman就美国8月非农数据指出，黄金年龄劳动参与率（即25至54岁人群中正在就业或积极求职者所占的比例）去年跃升至20年来最高水平，但今年6月大幅下降。最初，6月的下滑看起来像是一次偶发现象，但7月和8月都未出现反弹，这表明此次下降可能是真实趋势。该比率目前仍处于相当高的水平，高于疫情前，但表现已不再像此前那样亮眼。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:17:20",
+      "content": "【快讯】SHMET09月04日讯，美国白宫国家经济委员会主任哈塞特：人工智能数据中心为公用事业带来新职位。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:17:15",
+      "content": "【快讯】SHMET09月04日讯，白宫经济顾问哈塞特表示，人工智能数据中心将为公用事业行业带来新的就业机会。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:15:38",
+      "content": "【非农数据公布后，美联储9月加息概率升至60.3%】SHMET09月04日讯，据CME“美联储观察”：美联储到9月维持利率不变的概率为39.7%，累计加息25个基点的概率为60.3%。美联储到10月维持利率不变的概率为28.7%，累计加息25个基点的概率为54.6%，累计加息50个基点的概率为16.7%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:15:19",
+      "content": "【分析师：数据中心建设推动美国建筑业就业回升】SHMET09月04日讯，市场分析师Lydia DePillis在评论美国8月非农数据时表示，另一个显现活力的行业是建筑业。该行业去年曾出现就业下降，但今年以来平均每月新增约1.1万个就业岗位。其中一个主要推动因素是数据中心建设——就业增长大多集中在非住宅专业承包商，包括管道安装工、电工和其他专业技工。安装大量服务器离不开这些技术工人。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:14:12",
+      "content": "【快讯】SHMET09月04日讯，白宫经济顾问哈塞特称赞就业报告数据“表现强劲”。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:13:40",
+      "content": "【阿布扎比AI公司G42考虑由美国控股以保障AI芯片供应】SHMET09月04日讯，据知情人士透露，阿布扎比人工智能公司G42的高管已就可能将多数股权出售给美国公司进行了探索性谈判，该公司正加紧确保明年之后的高端芯片供应。此举将标志着该公司的彻底重塑。G42由一位有影响力的王室成员监管，大约八年前成立，旨在引领阿布扎比首次大规模进军科技领域。G42近期获准在约2027年4月前无需美国许可证即可购买尖端AI芯片，但若要维持后续供应，则需调整公司架构。知情人士表示，高管们正考虑多种方案以克服这一障碍。知情人士称，讨论中的方案包括引入一家美国公司作为大股东，或在美国设立一个全新的实体。目前尚未做出最终决定。G42代表拒绝置评。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:09:09",
+      "content": "【美国加码稀土供应链，Aclara项目获7.5亿美元融资意向】SHMET09月04日讯，Aclara Resources周五表示，美国进出口银行已向该公司发出一封意向函，表明其可能为该矿业公司计划在路易斯安那州建设的稀土分离、金属及合金生产设施提供最高7.5亿美元的融资，贷款期限最长可达15年。这一进展正值美国寻求加强国内关键矿产供应链之际。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:09:06",
+      "content": "【快讯】SHMET09月04日讯，广东钶锐锶数控技术股份有限公司科创板IPO审核状态变更为注册生效。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:08:46",
+      "content": "【美国信息行业就业人数持续萎缩 自2022年见顶以来累计减少10%】SHMET09月04日讯，美国信息行业8月就业人数减少2.3万人，此前12个月平均每月减少8000人。8月计算基础设施提供商、数据处理、网络托管及相关服务业减少8000个就业岗位，出版业减少7000个岗位，广播和内容提供商减少5000个岗位。据市场分析师Talmon Joseph Smith称，自2022年就业人数见顶以来，信息行业已累计减少逾30万个就业岗位，降幅约为10%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:06:55",
+      "content": "【快讯】SHMET09月04日讯，燃料油主力合约跌超3%，现报3751元/吨。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:03:22",
+      "content": "【快讯】SHMET09月04日讯，市场分析师Ben Casselman：美国失业率目前已连续59个月（接近整整五年）保持在4.5%或以下，这是自20世纪40年代末有相关记录以来持续时间最长的一次。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:02:43",
+      "content": "【SHFE夜盘开盘_基本金属】沪铜主力开108760,沪铝主力开24240,沪铅主力开16160,沪锌主力开26710,沪锡主力开414510,沪镍主力开127660",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:01:24",
+      "content": "【快讯】SHMET09月04日讯，沪金主力合约日内跌幅达2.00%，现报950.92元/克。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 21:00:54",
+      "content": "【快讯】SHMET09月04日讯，俄罗斯联邦总统顾问安东·科比亚科夫：俄罗斯未来可能会与拉丁美洲国家举行单独的论坛，且已有相关方面提出这一请求。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 20:58:04",
+      "content": "【快讯】SHMET09月04日讯，日元扭转跌势，兑美元上涨0.2%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 20:56:49",
+      "content": "【分析师：美联储9月是否加息，应关键看8月通胀】SHMET09月04日讯，分析师Colby Smith提醒，决定美联储是否在本月晚些时候加息的主要因素，不会是这份就业报告，而将是8月通胀数据。美联储理事沃勒周四发表讲话时基本表达了这一点。生产者价格指数（PPI）报告以及随后公布的消费者价格指数（CPI）报告，将帮助美联储官员更好地判断，近期通胀压力改善的两个月趋势是否仍在延续。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 20:56:01",
+      "content": "【快讯】SHMET09月04日讯，伊朗军方发言人：对任何潜在的以色列侵略的回应将更迅速、更具毁灭性。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 20:54:37",
+      "content": "【快讯】SHMET09月04日讯，金融博客零对冲：出乎意料的强劲非农数据不出所料地推高了9月加息的预期，并重创了风险资产。不过，本月美联储是否加息的真正决定因素将是下周公布的CPI数据。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 20:54:04",
+      "content": "【WTI原油期货向下跌破90美元/桶】SHMET09月04日讯，布伦特原油期货跌幅扩大至1%，报94.538美元/桶。WTI原油期货向下跌破90美元/桶，最新报89.998美元/桶，日内下跌1.43%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 20:52:18",
+      "content": "【快讯】SHMET09月04日讯，俄罗斯对外情报局负责人：欧亚地区爆发大规模冲突的风险是真实存在的，对此感到严重担忧。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 20:51:42",
+      "content": "【快讯】SHMET09月04日讯，市场消息：阿布扎比科技集团G42考虑引入美国所有权以保障AI芯片供应。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 20:50:23",
+      "content": "【快讯】SHMET09月04日讯，金融博客零对冲：非农数据后美联储加息概率飙升至67%，回到杰克逊霍尔会议后的高点 。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 20:50:11",
+      "content": "【快讯】SHMET09月04日讯，市场分析师Chris Anstey：哇哦，工资支出出现了大幅增长！",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 20:48:37",
+      "content": "【美三大股指期货集体转跌】SHMET09月04日讯，道琼斯指数期货跌0.37%，标普500指数期货跌0.28%，纳斯达克100指数期货跌0.05%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 20:48:26",
+      "content": "【分析：8月建筑业净增2.2万个岗位，同比却下滑】SHMET09月04日讯，市场分析师Chris Anstey：回到我们在数据发布前提到的建筑业就业主题，7月数据实际上被小幅下修，但仍录得1.8万个岗位的正增长。8月建筑业净增2.2万个就业岗位。不过，同比来看，该类别减少了2.2万个岗位，反映了我们此前强调的建筑支出下降。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 20:47:26",
+      "content": "【就业数据强劲，市场提高对美联储9月加息预期】SHMET09月04日讯，美国8月就业数据强于预期后，市场提高了对美联储9月16日加息的预期。LSEG数据显示，市场目前定价美联储加息的概率为61%，而在数据公布前，市场对加息或维持利率不变的预期概率各为50%。数据显示，美国8月新增16.2万个就业岗位，是经济学家预测的5.3万人的三倍。7月就业数据也被上修。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 20:44:49",
+      "content": "【德国10年期国债收益率收窄跌幅】SHMET09月04日讯，美国8月非农就业数据公布后，德国10年期国债收益率收窄跌幅，最新下跌0.5个基点，报3.35%；2年期国债收益率逆转稍早跌势，最新上涨0.5个基点，报2.96%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 20:44:35",
+      "content": "【首批10家科创债场外指数基金上报】SHMET09月04日讯，今日，东吴、中海、摩根士丹利、泰信、汇安、淳厚、博道、圆信永丰、苏新、恒生前海等首批10家基金管理人上报科创债场外指数基金产品，为投资者分享国家科技创新红利提供又一标准化、专业化配置渠道，标志着公募基金行业在服务“科技金融”领域迈出了新的一步。相较已发行的科创债ETF，本次科创债场外指数基金可投资的科创债标的范围更广。自2025年7月首批科创债ETF正式上市交易以来，目前全市场合计24只科创债ETF，总规模超3000亿元。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 20:43:20",
+      "content": "【快讯】SHMET09月04日讯，“美联储传声筒”Nick Timiraos：最新数据显示，所有雇主和私营部门雇主的6个月平均招聘人数分别升至10.7万人和10.6万人，均创两年多来的最高水平。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 20:42:08",
+      "content": "【8月美国就业数据亮眼，但求职群体处境依旧艰难】SHMET09月03日讯，美国劳工部周五公布，8月新增就业岗位16.2万个，大幅高于市场预期。失业率维持4.1%，符合预期。经济学家认为，美国已经进入一个新阶段：无需每月创造大量岗位，就能维持劳动力市场稳定。人口正在老龄化——婴儿潮一代中最年轻的群体今年已具备申领社保养老金资格；同时移民管控收紧，劳动力新增供给减少。换言之，美国没有足够的可用劳动力来实现大规模就业增长。美国银行经济学家估算，每月新增约2万个岗位，就足以阻止失业率上行。从历史标准来看，这是极低的就业增速。疫情爆发前25年间，月均新增就业约12万个。与此同时，就业市场呈现这样一种局面：企业很少裁员，但也不愿大规模招新人。例如，首次申领失业救济金人数处于历史低位附近，而劳工部本周早些时候的数据显示，招聘率同样低迷。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 20:41:29",
+      "content": "【分析：8月时薪环比涨0.3% 但同比仍落后于CPI】SHMET09月04日讯，市场分析师Chris Anstey：工资也在上涨，时薪在7月上修至0.2%之后，8月环比上涨0.3%。即便如此，3.1%的同比涨幅仍落后于通胀增速。预计下周公布的CPI数据将同比上涨3.4%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 20:41:26",
+      "content": "【快讯】SHMET09月04日讯，美股稀土股盘前走高，美国稀土公司上涨4.8%，MP材料公司上涨3.1%，Critical金属公司上涨5.6%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 20:40:15",
+      "content": "【LibertyStream获9500万美元融资推进德克萨斯锂工厂建设】外电9月4日消息，新兴锂碳酸盐生产商LibertyStream与贷款机构Endurance Finance Partners签署不具约束力的条款书，提出最高9500万美元的融资框架。该框架包括延迟提取的高级担保建设信贷设施，用于资助Freedom 1和Freedom 2项目建设，以及未来场址融资框架（Endurance有机会为LibertyStream未来场址提供额外融资，总额最高9500万美元）。拟议信贷设施将根据独立认证的建设里程碑提取，年利率12.25%，在最终协议签署后五年到期。条款书还包括费用、最低回报保护及初始4500万美元信贷设施资金到位时发行最多10%的普通股认股权证，权证期限七年。最终条款将在最终协议中确定。（上海金属网编译）",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 20:40:15",
+      "content": "【LibertyStream德州锂工厂年产1000吨电池级碳酸锂】外电9月4日消息，LibertyStream Freedom 1是其首个商业规模直接提锂工厂，计划年产1000吨电池级碳酸锂，位于德克萨斯州。融资尚需满足多项条件，包括确认性尽职调查、内部投资和信贷批准、最终协议谈判和执行、LibertyStream完成约定金额的投资承诺、适用项目协议签署、所有必要的公司和监管批准等。Freedom 2为第二个商业规模工厂。LibertyStream目标成为北美首批从油田卤水商业化生产碳酸锂的公司之一，此次融资框架将支持其从试点阶段向规模化生产过渡，以服务北美快速增长的电动汽车和储能电池市场需求。（上海金属网编译）",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-04 20:39:59",
+      "content": "【快讯】SHMET09月04日讯，市场消息：空客与西班牙工会达成初步协议。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
     }
   ],
+  "steel_highlight": [],
   "weekly_stock": null
 }
