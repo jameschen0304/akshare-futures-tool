@@ -1,7 +1,271 @@
 {
   "source": "jin10 flash + shmet + shfe weekly stock",
-  "generated_at": "2026-09-07T16:03:28.768509+00:00",
+  "generated_at": "2026-09-07T18:22:21.490189+00:00",
   "jin10": [
+    {
+      "datetime": "2026-09-08 02:19:05",
+      "content": "伊朗革命卫队：伊朗议会国家安全与外交政策委员会讨论了重新开放霍尔木兹海峡的条件，相关条件已转达给伊朗外长阿拉格齐。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 02:16:23",
+      "content": "乌克兰外长：俄军系统性使用第一视角（FPV）无人机袭击平民，乌方将推动欧洲安全与合作组织启动“莫斯科机制”，对此展开独立调查。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 01:56:01",
+      "content": "国际原子能机构：扎波罗热核电站今日在成功修复电力线路后重新接入电网。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 01:47:15",
+      "content": "WTI原油突破93美元/桶，日内涨1.62%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 01:45:30",
+      "content": "【哈马斯：以色列清理加沙废墟旨在抹除“战争罪证”】金十数据9月8日讯，巴勒斯坦伊斯兰抵抗运动（哈马斯）当地时间7日发表声明称，以色列政府及军方正试图通过清理、粉碎和转移加沙地带的废墟，来掩盖其针对巴勒斯坦人犯下的罪行。声明称，废墟之下仍掩埋着数千名失踪者的遗体，以及能够证明以色列“在过去两年中犯下种族灭绝罪行”的直接物证。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 01:44:12",
+      "content": "【特朗普称将禁止加拿大庞巴迪飞机在美销售】金十数据9月8日讯，美国总统特朗普在社交平台真实媒体上表示，“不准再在美国销售庞巴迪（Bombardier）产品”，并称该公司产品“不够好”，超过50%的收入来自美国，依赖美国买家、企业、机场和服务。特朗普指责加拿大限制美国银行和企业进入当地市场，并称加拿大甚至阻止美国湾流宇航（Gulfstream Aerospace）在当地开展业务，这种情况“不公正、不公平”。特朗普称，“那个时代已经结束”，如果庞巴迪想进入美国市场，就必须在美国生产，不能再把美国当作“提款机”。他同时呼吁“购买美国货”、乘坐美国航空公司的飞机、消费美国酒类和饮料，并再次强调“美国优先”。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 01:41:54",
+      "content": "美国总统特朗普：如果加拿大想要我们的市场，就必须在这里生产。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 01:41:30",
+      "content": "布伦特原油期货结算价为每桶97.31美元，上涨1.03美元，涨幅1.1%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 01:41:20",
+      "content": "美国总统特朗普：在美国不再出售（加拿大航空制造商）庞巴迪产品。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 01:40:19",
+      "content": "【伊朗公布一款新型导弹】金十数据9月8日讯，当地时间7日，伊朗公布一款新型导弹。伊朗称，该款名为“卡西姆·巴希尔”弹道导弹的亮相是该国国防战略的一个里程碑。这款导弹射程更远、精度更高，更象征着伊朗“从被动威慑转向主动威慑”。伊朗称，“卡西姆·巴希尔”导弹采用固体燃料、光电制导和半吨重的弹头，它向敌人发出明确的信息：伊朗不再只是被动应对，而是主动防御。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 01:32:42",
+      "content": "WTI原油突破92美元/桶，日内涨1.57%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 01:23:58",
+      "content": "【泽连斯基：美方提出俄乌“过冬”降级方案  俄方愿讨论恢复谈判】金十数据9月8日讯，据Axios报道，乌克兰总统泽连斯基表示，美国正探索让俄乌在冬季前及冬季期间采取降级措施，同时重启更广泛的和平谈判。美国中东问题特使威特科夫和特朗普高级顾问库什纳周日访问基辅，此前两人在莫斯科与俄罗斯总统普京会谈3小时。泽连斯基称，美方传递的信息是“俄罗斯人已准备好谈判”，并提出涉及能源设施、粮食运输、电力设施以及油气出口等降级设想。美方团队将向特朗普汇报，并继续与乌克兰及欧洲方面磋商。泽连斯基希望利用9月和10月重启外交进程，并称未来还可能举行美俄乌三方谈判，但尚未作出决定。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 01:21:50",
+      "content": "俄罗斯国家原子能公司：扎波罗热核电站的场外供电已通过Ferosplavna输电线路恢复。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 01:11:36",
+      "content": "市场消息：古巴方面谴责美国禁运造成\"创纪录\"的经济损失。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 01:05:28",
+      "content": "【欧洲电信巨头酝酿卫星直连手机联盟 欲与马斯克星链竞争】金十数据9月8日讯，据知情人士透露，德国电信（Deutsche Telekom）、Orange、沃达丰（Vodafone）和西班牙电信（Telefonica）正初步讨论组建联盟，共同竞标欧盟卫星频谱并提供“卫星直连手机”服务，与马斯克旗下星链（Starlink）竞争，目前尚未作出最终决定。欧盟正考虑为2GHz卫星频谱制定新规则，在2027年现有许可证到期后，将约三分之一频谱预留给由欧洲企业控股的本土运营商，以增强欧洲自主卫星通信能力；另三分之一拟用于欧洲IRIS²卫星星座提供的主权通信服务，剩余三分之一允许国际企业竞标。星链目前已在欧洲大部分地区提供卫星宽带，并与德国电信等合作发展终端直连服务，但尚无权独立利用相关欧盟频谱提供此类服务。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 01:01:20",
+      "content": "据AXIOS网站：乌克兰总统泽连斯基周一表示，美国正在探讨乌克兰和俄罗斯是否可以在冬季采取措施缓和战争局势，同时重启谈判以达成更广泛的和平协议。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 00:58:12",
+      "content": "【英国首相与特朗普通话 讨论乌克兰停火及霍尔木兹海峡重开】金十数据9月8日讯，英国首相府表示，英国首相当地时间今日下午与美国总统特朗普通电话。双方讨论了经济、乌克兰及中东局势。英国首相祝贺特朗普最新美国就业数据，并表示英国经济也出现积极增长迹象，政府正在改善外界对英国的看法，相关工作取得进展但仍有更多工作要做。在乌克兰问题上，两国领导人同意继续推动实现停火，以避免更多人员伤亡；英国首相重申对乌克兰以及近期美国主导和平谈判的支持。在中东问题上，英国首相表示，英国致力于推动地区和平与安全，并强调落实“两国方案”、重新开放霍尔木兹海峡以及确保伊朗永远无法获得核武器的重要性。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 00:56:49",
+      "content": "【OpenAI首席科学家警告AI发展过快 称现在需要“极度谨慎”】金十数据9月8日讯，OpenAI首席科学家雅库布·帕乔茨基（Jakub Pachocki）警告，人工智能发展速度过快，正变得越来越难以被人类理解和控制，“现在需要极度谨慎”。他指出，AI模型已能操作电脑、与人类及其他AI协作并开展研究，未来不久还可能在无需人类干预的情况下实现“递归式自我改进”。帕乔茨基表示，他担心没有人为机器智能持续快速提升可能带来的后果做好准备。开发者可以让AI更符合人类利益，也可以在必要时放慢未来研发速度。他预计并希望，在行业建立共同安全标准之前，AI实验室“自愿放缓”研发将成为常态。目前OpenAI已因GPT-6 Astra具备先进网络安全能力而采取有限发布方式。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 00:54:40",
+      "content": "英国首相府发言人：英国首相与美国总统特朗普通电话。双方讨论了经济、乌克兰及中东局势。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 00:43:47",
+      "content": "据以色列媒体：过去一周内，整个加沙地带共有14名恐怖分子被消灭，其中包括5名努赫巴（Nukhba）部队连长以及另外5名该部队排长。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 00:43:03",
+      "content": "以色列国防军：以色列国防军在加沙地带击毙两名与哈马斯及伊斯兰圣战组织有关联的恐怖分子。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 00:38:23",
+      "content": "消息人士：欧洲主要电信运营商正就成立“卫星直连手机”合资企业进行磋商，参与方包括德国电信（Deutsche Telekom）、法国Orange、沃达丰（Vodafone）和西班牙电信（Telefónica）。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 00:37:40",
+      "content": "据伊朗迈赫尔通讯社：伊朗议会国家安全与外交政策委员会在外长阿拉格齐出席的会议上，讨论了伊朗重新开放霍尔木兹海峡的相关条件。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 00:36:56",
+      "content": "乌克兰总统泽连斯基：乌克兰近期将与合作伙伴举行会议，推进联合反弹道导弹项目“FREYJA”，并进一步增强防空能力。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 00:32:22",
+      "content": "白宫：特朗普永远不会停止为“美国制造”而奋斗。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 00:24:46",
+      "content": "科威特外交大臣：与巴基斯坦副总理兼外长达尔通电话，就双边合作、地区最新局势及加强地区安全与稳定的努力交换意见。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 00:24:05",
+      "content": "古巴外交部长布鲁诺·罗德里格斯：与美国之间没有任何进展，既没有谈判，也没有任何未来谈判的议程。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 00:16:02",
+      "content": "墨西哥总统：我们重申，墨西哥现在不是、将来也不会成为任何外国的殖民地或保护国。我们为墨西哥是一个自由、独立和拥有主权的国家而感到自豪。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 00:13:28",
+      "content": "【黎巴嫩称以色列袭击黎南部已致27死69伤】金十数据9月8日讯，黎巴嫩公共卫生部紧急行动中心7日公布了过去三天以色列袭击黎南部的初步伤亡情况，截至目前，袭击已造成27人死亡、69人受伤，其中包括儿童、妇女和医护人员。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 00:12:34",
+      "content": "拉脱维亚总理：政府计划对来自俄罗斯和白俄罗斯的谷物征收300%关税。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 00:12:14",
+      "content": "【胡塞武装称在也门焦夫省击落沙特武装侦察无人机】金十数据9月8日讯，也门胡塞武装表示，胡塞武装部队刚刚在焦夫省（Al-Jawf）上空击落一架属于沙特的CH-4武装侦察无人机。胡塞武装称，该无人机当时正在焦夫省上空执行“敌对任务”，随后被使用“适当武器”击落。这是胡塞武装过去12小时内击落的第二架同型号无人机，也是过去24小时内击落的第四架无人机。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 00:08:52",
+      "content": "也门胡塞武装：也门胡塞武装刚刚在焦夫省上空击落一架属于沙特的CH-4武装侦察无人机。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 00:05:56",
+      "content": "联合国专家：以色列清理加沙废墟可能会销毁“证据”。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
     {
       "datetime": "2026-09-08 00:02:00",
       "content": "美国国家运输安全委员会（NTSB）：将于美国东部时间周一下午4点，就迈阿密国际机场跑道冲出事件举行媒体简报会。",
@@ -761,289 +1025,145 @@
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
-    },
-    {
-      "datetime": "2026-09-07 20:21:08",
-      "content": "国际黄金没有摆脱震荡，下半周才是决胜关键？点击观看金十研究员文成直播分析>",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-07 20:21:05",
-      "content": "伊朗最高国家安全委员会秘书雷扎伊：伊朗国防能力以更快速度并根据敌人威胁的水平和类型持续提升。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-07 20:20:44",
-      "content": "伊朗最高国家安全委员会秘书雷扎伊：美国舰船在地区内将没有安全之处。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-07 20:20:03",
-      "content": "丹麦首相：凭借新的格陵兰-欧盟联合声明，我们将实施为格陵兰人民带来切实利益的具体项目。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-07 20:14:56",
-      "content": "欧盟委员会主席冯德莱恩：欧盟与北极局势息息相关。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-07 20:14:01",
-      "content": "欧盟委员会主席冯德莱恩：格陵兰的未来由格陵兰和丹麦人民决定。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-07 20:13:37",
-      "content": "欧盟委员会主席冯德莱恩：到2034年，欧盟对格陵兰岛的资金支持将翻倍。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-07 20:12:02",
-      "content": "德国总理默茨：任何州政府都必须遵守基本法。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-07 20:11:54",
-      "content": "据以色列媒体报道称，科索沃已正式签署协议，将加入未来某个时间在加沙开展行动的国际安全部队（ISF）。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-07 20:10:50",
-      "content": "非农数据暴击黄金，暴跌是否结束？多头还能反抗吗？金十研究员Steven正在直播，立即观看>>",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-07 20:10:42",
-      "content": "欧盟委员会主席冯德莱恩：格陵兰岛在水电方面具有未开发的潜力。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-07 20:09:32",
-      "content": "【信达证券：中金公司拟吸收合并信达证券 公司将主动申请终止上市】金十数据9月7日讯，信达证券公告，中金公司拟通过换股方式吸收合并东兴证券、信达证券，本次交易已于2026年6月8日获公司股东会审议通过，并获中国证监会核准（证监许可〔2026〕2377号）。交易完成后，公司将不再具有独立主体资格并被注销，将于现金选择权申报截止日的次一交易日向上交所提交主动终止上市申请。上交所将在收到申请后5个交易日内决定是否受理，受理后15个交易日内决定是否同意终止上市；若获同意，公司将在相关决定公告之日起5个交易日内摘牌，股票不进入退市整理期交易。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-07 20:08:03",
-      "content": "德国总理默茨：放弃对我来说不是一个选择。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-07 20:07:33",
-      "content": "芬兰边境警卫局：芬兰在与俄罗斯的边界上修建了约200公里的围栏。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-07 20:07:08",
-      "content": "欧盟委员会主席冯德莱恩：新的欧盟-格陵兰岛合作计划价值2亿欧元。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-07 20:07:01",
-      "content": "格陵兰岛自治政府总理：我们今天签署了一份新的联合格陵兰岛-欧盟声明，内容包括基础设施、互联互通、海洋管理和民事准备。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-07 20:06:14",
-      "content": "【中金公司：吸收合并获批 股票明起连续停牌】金十数据9月7日讯，中金公司公告，公司已于2026年9月7日收到中国证券监督管理委员会出具的《关于同意中国国际金融股份有限公司吸收合并东兴证券股份有限公司和信达证券股份有限公司注册、核准中国国际金融股份有限公司吸收合并东兴证券股份有限公司和信达证券股份有限公司、中国国际金融股份有限公司变更主要股东、东兴基金管理有限公司变更主要股东、信达澳亚基金管理有限公司变更主要股东、东兴期货有限责任公司、信达期货有限公司变更股权的批复》，中金公司拟新增31.04亿股；核准东方资产、信达资产成为中金公司主要股东，分别取得6.37亿股、13.29亿股，占发行后股份总数8.03%、16.76%。公司A股股票将自2026年9月15日（即A股异议股东收购请求权申报首日）开市起连续停牌，并将于刊登A股异议股东收购请求权申报结果公告当日复牌。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-07 20:06:02",
-      "content": "根据最新经纪商挂单数据，国际现货黄金震荡下行，现价附近多单密集；美日盘中急跌，下方挂单稀疏……点击查看最新报告",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-07 20:05:58",
-      "content": "德国总理默茨：联合政府需要更好地合作，但要坚持其目标。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-07 20:05:51",
-      "content": "【乌克兰连夜打击俄两州炼油厂 美特使访俄后恢复攻势】金十数据9月7日讯，乌克兰方面表示，其连夜打击了俄罗斯彼尔姆地区和鞑靼斯坦的石油加工设施，在美方特使上周末访问莫斯科后恢复了攻击。乌克兰总统泽连斯基表示远程力量已用于打击彼尔姆地区和鞑靼斯坦的炼油厂，但未提供进一步细节。乌克兰持续对俄炼油厂发动密集打击，以削弱其加工原油和向国内市场供应油品的能力。攻击导致俄罗斯车用燃油产量骤降，政府被迫对大部分汽油和柴油出口实施临时禁令。彼尔姆拥有一座日加工26万桶的炼油厂，位于莫斯科以东约1,500公里，由俄最大私营石油生产商卢克石油所有。鞑靼斯坦拥有多个石油加工和石化设施，包括鞑靼石油日加工30万桶的Taneco和日加工14.5万桶的独立炼油厂TAIF-NK。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-07 20:05:13",
-      "content": "欧盟委员会主席冯德莱恩：与格陵兰岛、丹麦签署联合声明。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-07 20:02:00",
-      "content": "波罗的海干散货运价指数下跌1.46%，至3575点。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-07 20:00:39",
-      "content": "墨西哥八月汽车出口量为300,475辆，产量为344,940辆。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-07 20:00:33",
-      "content": "伊朗将宣布海峡“禁区”？数据走强加息预期更上一层？国际金今晚怎么看？交易学院正在直播中，立即观看！",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-07 20:00:27",
-      "content": "【三星据悉将于2027年1月首秀自研人形机器人】金十数据9月7日讯，三星电子据悉正加快人形机器人原型机开发，目标是在2027年1月于美国拉斯维加斯举行的全球最大消费电子展CES 2027上，首次公开自主研发的人形机器人。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-07 20:00:14",
-      "content": "上海黄金交易所黄金T+D 9月7日（周一）晚盘盘初下跌1.88%报948.5元/克；\n上海黄金交易所白银T+D 9月7日（周一）晚盘盘初下跌1.7%报15970.0元/千克。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-07 19:59:26",
-      "content": "阿提哈德航空：将于2026年10月4日起开通飞往沙特阿拉伯红海沿岸的航班。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-07 19:59:02",
-      "content": "匈牙利总理毛焦尔：匈牙利将推出“公平”财富税。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-07 19:54:49",
-      "content": "【铜价持稳于历史高位附近 供应紧张与风险偏好博弈】金十数据9月7日讯，铜价持稳于历史高位附近，交易员在评估供应紧张持续风险的同时，美国市场休市削弱了风险偏好。伦敦午盘价格在每吨14,440美元左右基本持平，较1月触及的高位低不到100美元。交易活动清淡，美国劳动节假期休市，投资者在美伊新一轮互袭与围绕人工智能的乐观情绪之间进行权衡。铜价今年已上涨逾16%，受助于与美国潜在关税相关的供应扰动，过去一年大量库存被运往美国。宏观顺风亦提供支撑，包括美元走弱以及对数据中心和电网受益于AI热潮的乐观预期。Marex高级基本金属策略师Alastair Munro表示，仍看好铜，预计未来数周将创新高，铜价正在“回报逢低买入者”。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-07 19:54:44",
-      "content": "基辅市称，已对举办大型活动实施限制。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-07 19:52:37",
-      "content": "【小米18 Fold陶瓷版售价15999元】金十数据9月7日讯，9月7日晚，小米18 Fold陶瓷特别版折叠屏手机正式发布，使用新型氮化硅陶瓷，仅16GB+1TB版本，售价15999元，限量1500台。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-07 19:51:34",
-      "content": "印度煤炭公司数据显示，随着降雨减少，产量有所改善。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-07 19:50:10",
-      "content": "美元指数没有走强，国际黄金还没出趋势？点击观看伽玛指标直播分析>",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-07 19:49:11",
-      "content": "智利央行购入2500万美元。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-07 19:48:24",
-      "content": "【龙版传媒：公司AI视频业务6月产生营收约80元，7月产生营收约7.5万元，占经审计2025年公司营业收入比例不足0.01%】金十数据9月7日讯，龙版传媒发布异动公告，公司股票在9月4日、9月7日，股票连续两个交易日收盘价格涨幅偏离值累计超过20%。根据《上海证券交易所交易规则》的规定，公司股票交易属于异常波动情形。公司主营业务为出版、印刷、发行等传统业务和数字出版等业务。经自查，公司AI视频业务6月产生营收约80元，7月产生营收约7.5万元，占经审计2025年公司营业收入比例不足0.01%，目前对公司业绩无显著影响，预计未来亦不会对公司业绩产生显著影响。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
     }
   ],
   "shmet": [
+    {
+      "datetime": "2026-09-08 02:20:06",
+      "content": "【快讯】SHMET09月08日讯，伊朗革命卫队：伊朗议会国家安全与外交政策委员会讨论了重新开放霍尔木兹海峡的条件，相关条件已转达给伊朗外长阿拉格齐。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 02:00:12",
+      "content": "【SHFE夜盘收盘_基本金属】沪铜主力涨0.62%,报109890元/吨沪铝主力涨0.43%,报24450元/吨沪铅主力跌0.59%,报16080元/吨沪锌主力涨1.28%,报27340元/吨沪镍主力跌0.88%,报126750元/吨沪锡主力涨0.36%,报418440元/吨",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 01:57:34",
+      "content": "【快讯】SHMET09月08日讯，国际原子能机构：扎波罗热核电站今日在成功修复电力线路后重新接入电网。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 01:43:30",
+      "content": "【快讯】SHMET09月08日讯，美国总统特朗普：如果加拿大想要我们的市场，就必须在这里生产。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 01:41:26",
+      "content": "【快讯】SHMET09月08日讯，中国地震台网正式测定：09月08日01时31分在云南昭通市巧家县（北纬27.01度，东经103.40度）发生4.0级地震，震源深度10千米。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 01:34:51",
+      "content": "【快讯】SHMET09月08日讯，中国地震台网自动测定：09月08日01时31分在云南昭通市巧家县附近（北纬27.01度，东经103.40度）发生4.0级左右地震，最终结果以正式速报为准。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 01:23:32",
+      "content": "【快讯】SHMET09月08日讯，俄罗斯国家原子能公司：扎波罗热核电站的场外供电已通过Ferosplavna输电线路恢复。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 01:19:28",
+      "content": "【快讯】SHMET09月08日讯，ICE布伦特11月原油期货收涨0.72美元，涨幅将近0.75%，报97美元/桶。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 01:13:47",
+      "content": "【快讯】SHMET09月08日讯，市场消息：古巴方面谴责美国禁运造成\"创纪录\"的经济损失。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 01:01:23",
+      "content": "【夜盘期货收盘】SHMET09月08日讯，国际铜夜盘收涨0.79%，沪铜收涨0.62%，沪铝收涨0.43%，沪锌收涨1.28%，沪铅收跌0.59%，沪镍收跌0.88%，沪锡收涨0.36%。氧化铝夜盘收跌1.19%，铝合金收平。不锈钢夜盘收跌0.47%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 00:52:10",
+      "content": "【快讯】SHMET09月08日讯，LME期铜收涨94美元，报14510美元/吨；LME期铝收涨18美元，报3312美元/吨；LME期锌收涨38美元，报3984美元/吨。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 00:38:01",
+      "content": "【快讯】SHMET09月08日讯，据伊朗迈赫尔通讯社：伊朗议会国家安全与外交政策委员会在外长阿拉格齐出席的会议上，讨论了伊朗重新开放霍尔木兹海峡的相关条件。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 00:33:30",
+      "content": "【快讯】SHMET09月08日讯，白宫：特朗普永远不会停止为“美国制造”而奋斗。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 00:25:24",
+      "content": "【快讯】SHMET09月08日讯，古巴外交部长布鲁诺·罗德里格斯：与美国之间没有任何进展，既没有谈判，也没有任何未来谈判的议程。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 00:20:32",
+      "content": "【快讯】SHMET09月08日讯，文件显示，纬创GDS发行价为每份58.88美元。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 00:17:19",
+      "content": "【快讯】SHMET09月08日讯，墨西哥总统：我们重申，墨西哥现在不是、将来也不会成为任何外国的殖民地或保护国。我们为墨西哥是一个自由、独立和拥有主权的国家而感到自豪。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 00:03:04",
+      "content": "【快讯】SHMET09月08日讯，美国国家运输安全委员会（NTSB）：将于美国东部时间周一下午4点，就迈阿密国际机场跑道冲出事件举行媒体简报会。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
     {
       "datetime": "2026-09-08 00:01:08",
       "content": "【今日重点关注的财经数据与事件：2026年9月8日 周二】SHMET09月08日讯，① 待定 中国8月贸易帐② 07:50 日本7月贸易帐③ 14:00 德国7月季调后贸易帐④ 14:45 法国7月贸易帐⑤ 18:00 美国8月NFIB小型企业信心指数⑥ 23:00 美国8月纽约联储1年通胀预期",
@@ -1123,6 +1243,590 @@
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
+    },
+    {
+      "datetime": "2026-09-07 23:01:53",
+      "content": "【快讯】SHMET09月07日讯，伦敦金属交易所（LME）铜期货价格涨至历史新高，突破每吨14530美元关口。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 22:58:49",
+      "content": "【快讯】SHMET09月07日讯，据伊朗媒体Fars News：伊朗方面警告称，靠近阿曼哈萨布的船只面临袭击风险。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 22:56:57",
+      "content": "【快讯】SHMET09月07日讯，伊朗方面警告称，船舶在阿曼北部海塞卜（Khasab）附近海域面临遭袭风险。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 22:55:48",
+      "content": "【快讯】SHMET09月07日讯，土耳其总统：以色列在该地区发动的战争账单不仅由伊朗和海湾国家支付，而是由所有人共同承担。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 22:54:12",
+      "content": "【快讯】SHMET09月07日讯，英国对冲基金亿万富翁克里斯·罗科斯（Chris Rokos）据悉计划离开英国，移居希腊。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 22:48:26",
+      "content": "【快讯】SHMET09月07日讯，乌兹别克斯坦8月CPI环比增长0.2%，同比增长6.2%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 22:44:58",
+      "content": "【至源控股：AIDC项目正式获得马来西亚MITI批准】SHMET09月07日讯，至源控股(00990.HK)在港公告，2026年9月7日，公司旗下人工智能数据中心(AIDC)项目正式获得马来西亚投资、贸易及工业部(MITI)批准，项目取得重要阶段性进展。本次批准附带一定的水、电配套条件，目前团队正在积极推进并逐步落实。此次获批标志着AIDC项目进入加速布局阶段。公司管理层将加快推进各项工作，力争项目尽快开工、早日建成投产。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 22:29:31",
+      "content": "【快讯】SHMET09月07日讯，合景泰富集团(01813.HK)：截至本公告日期，占范围内债务未偿还本金总额约75.47%的持有人已加入或已同意，并正采取措施加入重组支持协议。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 22:28:57",
+      "content": "【快讯】SHMET09月07日讯，欧盟外交与安全政策高级代表卡拉斯：俄罗斯并不真正关心和平。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 22:24:09",
+      "content": "【快讯】SHMET09月07日讯，丹格特炼油厂IPO招股书显示，股票预计11月底在尼日利亚交易所开始交易。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 22:04:40",
+      "content": "【快讯】SHMET09月07日讯，俄罗斯据悉要求关闭德国驻圣彼得堡总领事馆。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 22:00:24",
+      "content": "【快讯】SHMET09月07日讯，美国总统特朗普在媒体平台Truth Social上密集发布了一系列含有AI生成图片的帖子，其中包括声称自己通过股票和其他资产持仓为美国赚取了数千亿美元。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 21:58:24",
+      "content": "【欧元区二季度GDP上调，环比增长0.6%】SHMET09月07日讯，欧盟统计局9月7日发布2026年第二季度欧元区与欧盟完整季度国民账户修订数据。经季节调整后，2026年二季度欧元区GDP环比增长0.6%，欧盟整体环比增长0.7%；一季度欧元区GDP持平，欧盟仅环比+0.1%，二季度经济增速显著抬升。同比口径，欧元区GDP同比+1.2%，欧盟同比+1.4%，高于一季度的0.6%、0.9%水平。（新华财经）",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 21:55:33",
+      "content": "【塞尔维亚总理马楚特提出解散议会】SHMET09月07日讯，塞尔维亚总理马楚特7日在政府特别会议后发表讲话，提出解散议会，以提前举行议会选举。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 21:53:34",
+      "content": "【快讯】SHMET09月07日讯，塞尔维亚政府寻求解散议会，为提前选举铺平道路。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 21:52:54",
+      "content": "【快讯】SHMET09月07日讯，俄罗斯外交部表示，俄德关系新一轮升级的后果完全由柏林负责。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 21:45:12",
+      "content": "【快讯】SHMET09月07日讯，俄罗斯外交部关闭位于圣彼得堡的德国领事馆。（俄新社）",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 21:44:53",
+      "content": "【伊朗经济部设立经济战争指挥部】SHMET09月07日讯，据伊朗方面消息，伊朗经济部已设立“经济战争指挥部”，旨在集中研判战争造成的经济问题，并协调有关部门加快制定和落实解决方案。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 21:36:18",
+      "content": "【土耳其计划在未来三年间将国防开支提高229%】SHMET09月07日讯，土耳其副总统耶尔马兹6日公布该国2027年至2029年经济规划。根据该规划，土耳其计划在未来三年内将国防支出提高229%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 21:33:51",
+      "content": "【快讯】SHMET09月07日讯，龙湖集团8月合约销售额22.0亿元，前8个月累计合约销售额208.4亿元。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 21:30:32",
+      "content": "【快讯】SHMET09月07日讯，以色列国防军称已击毙哈马斯精锐“努赫巴”部队的一名指挥官。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 21:29:24",
+      "content": "【盛科通信：大基金6月8日至9月7日减持707.47万股】SHMET09月07日讯，盛科通信(688702.SH)公告称，公司股东国家集成电路产业投资基金股份有限公司减持计划时间届满，在2026年6月8日至2026年9月7日期间通过集中竞价方式累计减持公司股份707.47万股，占公司总股本的1.73%，减持总金额25.84亿元。本次减持后，大基金持有公司股份4048.55万股，持股比例降至9.87%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 21:27:42",
+      "content": "【波罗的海干散货运价指数回落，结束三日连升走势】SHMET09月07日讯，据外媒报道，波罗的海干散货运价指数（BDI）下跌，结束三日连升走势，受海岬型船及巴拿马型船运费走弱。波罗的海干散货运价指数（BDI）较前一交易日下跌53点，或1.4%，达到3575点。海岬型船运价指数（BCI）下跌141点，跌幅2.2%，报6286点。海岬型船日均获利下跌1283美元，至53508美元。巴拿马型船运价指数（BPI）下跌17点，跌幅0.7%，报2431点。巴拿马型船日均获利下降157美元，至21878美元。超灵便型散货船运价指数（BSI）上涨7点，或0.4%，报1682点。灵便型船运价指数（BHSI）较前一日上涨6点，报906点。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 21:24:57",
+      "content": "【快讯】SHMET09月07日讯，受益于战争红利，Mercuria和Gunvor预计利润增长逾一倍。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 21:24:28",
+      "content": "【提醒：美国股市今日休市】SHMET09月07日讯，受美国劳动节假期影响，美国和加拿大股市将于9月7日（周一）休市一日。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 21:22:09",
+      "content": "【移动云推出量子科研智能体】SHMET09月07日讯，9月7日，移动云推出量子科研智能体AutoLab for Quantum，面向高校与科研团队提供“对话即实验”的一站式科研服务。据介绍，科研人员无需繁琐编码和复杂环境配置，只需通过自然语言描述实验目标，智能体即可自主完成量子线路构建与可视化、含噪模拟、VQE/QAOA等变分量子算法实验、Grover搜索、量子神经网络训练、脉冲级仿真与优化，以及论文检索与实验复现。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 21:22:08",
+      "content": "【快讯】SHMET09月07日讯，俄罗斯财政部表示，截至9月1日，俄罗斯国家财富基金规模为1541亿美元（占2026年预计GDP的5.6%），其中流动资产467亿美元（占GDP的1.7%）。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 21:16:59",
+      "content": "【快讯】SHMET09月07日讯，土耳其对汽车供应商展开反垄断调查。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 21:05:52",
+      "content": "【Bluebird获墨西哥Santa Teresa金矿64,000盎司资源期权】外电9月7日消息，伦敦上市企业Bluebird Mining Ventures签署协议，获得独家期权以收购持有墨西哥Santa Teresa金矿项目权益的El Alamo Resources公司100%股权。Santa Teresa项目现有矿产资源量估算为23万吨矿石，金品位8.7克/吨，含金64,000盎司，历史及现代勘探成果支持Bluebird评估更大规模矿化系统潜力的价值主张。期权协议初期现金承诺7.5万英镑，另向卖方发行价值25万英镑的Bluebird股票。根据已验证资源量里程碑支付额外对价，若独立验证资源量达到100万盎司，总收购对价最高可达300万英镑。卖方保留项目1%净熔炼所得权利金。（上海金属网编译）",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 21:05:52",
+      "content": "【ACG Metals斥资400万美元收购土耳其Keşkek金矿】外电9月7日消息，伦敦上市企业ACG Metals与土耳其镍钴加工企业Meta Nikel Kobalt Madencilik Sanayi ve Ticaret签署具有约束力的协议，以400万美元现金及2027年中投产时最高385万美元的或有付款，收购包含Keşkek金矿项目的采矿许可60926的100%权益。Keşkek位于ACG旗下Gediktepe铜金矿70公里范围内，为公司提供了新的氧化矿石来源，预计将延长堆浸设施的使用年限数年。该许可覆盖666公顷，ACG技术团队估算其矿产资源量为150万吨，金品位0.65克/吨。此项收购使ACG在铜锌精矿生产基础上继续维持原生金生产，进一步丰富公司产品组合。（上海金属网编译）",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 21:05:52",
+      "content": "【ACG Keşkek金矿收购年产量或达9750盎司 可延长堆浸设施运营】外电9月7日消息，ACG Metals表示，Keşkek金矿收购将利用Gediktepe现有基础设施加工金矿，在铜锌精矿生产基础上维持原生金产出，按资源量估算年产量约9,750盎司。卖方Meta Nikel将获得许可区采出黄金总营收1%的权利金，ACG还将就Keşkek矿坑范围外发现并转换为矿石储量的额外黄金支付60美元/盎司。项目总收购、分阶段勘探及闭矿支出十年内预计约1，500万美元。该公司正推进Gediktepe铜金矿爬产，此前已产出首批铜精矿，目标满产后年产铜4万吨。Keşkek的收购有助于延长现有堆浸设施利用周期，提高整体运营效率。（上海金属网编译）",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 21:02:13",
+      "content": "【Cora Gold Sanankoro金矿深部高品位矿化或延长矿山寿命】外电9月7日消息，Cora Gold首席执行官Bert Monro表示，在现有MRE采坑外壳外首次钻孔即遇到多处极强见矿，对后续结果和未来资源增长极为鼓舞。钻孔结果显示，新鲜岩石中这些矿化带的高品位核心开始展示出超越氧化矿开采和加工的更长矿山寿命潜力——正如许多启动期氧化矿项目最终发展为露天和井下混合运营的长寿命项目，当前资源扩展钻探计划正逐步释放项目更大价值。钻探计划仍在进行中，Selin、Dakounkoura South、Zone A和Zone C的化验结果待出，TRA07、Kary（Zone B南段）和Zone B剩余钻孔的钻探仍在继续。所有钻探区域均距Sanankoro拟建金矿选厂（正进行前端工程设计）短途运输距离内。（上海金属网编译）",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 21:02:13",
+      "content": "【URU Zeb项目钻探计划瞄准Zone 2首次资源量和Target 1电磁异常】外电9月7日消息，URU Metals基于新三维地质模型的钻探计划有两个主要目标：定义Zone 2镍/铜/PGE矿化的首次资源量估算，以及钻探测试Target 1——最显著的重力、磁法和电磁综合异常，位于岩浆硫化物有利聚集的岩体过渡位置，与已知半块状硫化物见矿（Z017、Z024、Z031钻孔）处于同一地质走廊。Zone 2资源钻孔也设计用于测试矿化的下倾延伸。模型显示Zone 2层位中若干明显缺口对应历史钻孔在目标岩性之前终止的位置，而非矿化缺失。公司正最终确定钻探承包商任命和土地准入协议，钻探将按优先级分阶段推进，收到数据后将逐步报告化验结果和资源建模。URU首席执行官John Zorbas称，Zone 2的首次资源量估算或Target 1的钻探测试都将改变对该资产的理解和估值。（上海金属网编译）",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 21:02:13",
+      "content": "【Cora Gold马里Sanankoro金矿钻获高品位矿化位于现有资源模型外】外电9月7日消息，西非黄金公司Cora Gold公布马里南部Sanankoro金矿项目近期钻探的首批化验结果，在现有资源量估算（MRE）模型外的Zone B区域获得高品位金矿段。2026年钻探计划针对现有矿床延伸和多个高前景近矿绿地靶区，有望快速转化为未来矿山计划原料。首批结果来自Zone B（2026年MRE更新钻探计划重点区域），该区域因走向长度大、矿化宽度广、深部钻探有限而优先被选为靶区。初始化验最佳见矿包括：SC0712钻孔从12米处见矿22米，金品位2.24克/吨；另有34米@6.78克/吨的高品位见矿。目前结果证明了2024年MRE模型之外存在宽矿化带（含高品位区），可能为未来采矿计划提供地下开采选择。公司指出，这些结果为显著扩大项目当前104万盎司MRE库存和10.2年矿山寿命提供了进一步信心。（上海金属网编译）",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 21:02:13",
+      "content": "【URU完成南非Zeb镍铜铂族金属矿三维地质模型】外电9月7日消息，伦敦上市企业URU Metals宣布完成南非林波波省Zeb镍项目更新后的Leapfrog三维地质模型，用于定义、定位和排序公司下一阶段钻探计划。建模由Atticus Geoscience Consulting完成，基于上月公布的地质和地球物理解释及一阶段Zone 2矿化建模，整合了项目钻孔数据库、地质解释、航空磁法、重力和SpectremPlus电磁数据及最近完成的地面频域电磁和重力调查，现还包括基于现有钻孔化验数据构建的Zone 2镍/铜/铂族元素（PGE）矿化三维矿化包络模型。该模型支持将Zone 2解释为Bushveld Complex Critical带岩石中赋存的连续层状镍/铜/PGE矿化体，而非孤立见矿点集合。从现有数据构建的Zone 2矿化包络在空间上与Critical带地质模型一致且沿下倾方向开放。（上海金属网编译）",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 21:01:45",
+      "content": "【SHFE夜盘开盘_基本金属】沪铜主力开109540,沪铝主力开24400,沪铅主力开16160,沪锌主力开27110,沪锡主力开418870,沪镍主力开127710",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 20:52:19",
+      "content": "【Wesizwe与AMCU达成重组协议但NUM拒绝签署】外电9月3日消息，约翰内斯堡证交所上市企业Wesizwe Platinum宣布，在临时关闭位于西北省的Bakubung铂金矿后，根据《劳动关系法》第189A条进行的咨询与调解程序（由调解、调停与仲裁委员会主持）已于8月31日正式结束。公司与矿山工人和建筑工会（AMCU）及议价单位外受影响员工代表达成了重组和解协议。尽管进行了广泛接触，但与全国矿工工会（NUM）未达成协议。公司表示管理层正最终确定咨询后行政流程，包括重新整合留用员工及确定受影响员工解雇的最终结果。完成内部验证和实施步骤后，公司将通过监管、股东和员工渠道正式传达最终影响及关键运营重启里程碑。（上海金属网编译）",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 20:52:19",
+      "content": "【Wesizwe Bakubung铂金矿6月停产三周后将分阶段重启】外电9月3日消息，Wesizwe Platinum于6月3日起将Bakubung矿运营暂停三周，以便在拟议裁员磋商期间与员工和工会进行有意义的接触。公司7月曾表示将在与工会和员工代表的协议备忘录完成后分阶段重启运营。整个过程管理层与认可工会代表及受影响非工会员工进行了广泛磋商，重点探讨了裁员的替代方案及符合劳动法和矿山运营要求的缓解措施。公司承认了员工、家属及周边社区在此期间经历的不确定性，并表示董事会和管理层仍致力于保持尊重的利益相关方沟通，确保安全和负责任的运营，推动Bakubung铂金矿的长期可持续性。Bakubung矿的重组和分阶段重启将决定Wesizwe未来的生产恢复节奏和员工安置方案。（上海金属网编译）",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 20:52:19",
+      "content": "【欧盟启动CIRCUIT4EU关键矿产回收项目 总预算890万欧元】外电9月4日消息，欧盟Horizon Europe研究与创新框架计划启动CIRCUIT4EU项目，从印刷电路板、永磁体和电子元器件中回收关键和战略原材料。项目汇集9个国家21个合作伙伴，为期三年半至2029年11月，总预算890万欧元。欧盟严重依赖进口关键原材料供应电子、可再生能源、电动出行和数字产业。《欧盟关键原材料法案》设定目标到2030年欧盟年消费关键原材料的25%应来自回收，但大量此类材料每年仍被丢弃在废弃电子电气设备中。CIRCUIT4EU将瞄准欧盟34种关键原材料中的9种——包括铜、钴、镍、锑、钽、硼和稀土——从印刷电路板、永磁体和电子元器件中回收。（上海金属网编译）",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 20:52:19",
+      "content": "【The Copper Mark推动采矿业标准统一简化合规并加强环境数据验证】外电9月4日消息，The Copper Mark正通过改善不同保障体系间的互操作性降低合规复杂性，已满足LME负责任采购要求，并与其他三大标准（ICMM、加拿大矿业协会、世界黄金协会）合作制定统一全球负责任采矿标准。新标准旨在跨大宗商品、管辖区和各类规模运营适用，简化保障流程同时保持稳健治理，今年晚些时候将由The Copper Mark接管并实施。环境报告透明度亦日益重要，客户要求低碳材料和更高回收含量，公司需提供可比且独立验证的数据。The Copper Mark旨在支持现有方法论的一致性，促进统一验证和披露，负责任生产正成为市场准入、客户关系、投资决策和长期竞争力的关键因素。（上海金属网编译）",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 20:48:01",
+      "content": "【伊拉克大幅缩窄原油折扣 本月波斯湾装货难寻买家】SHMET09月07日讯，据外媒报道，伊拉克正竭力为本月从波斯湾内装载的原油寻找买家。伊拉克国家石油营销组织SOMO上周大幅缩减了其原油的折扣幅度，实质上是提高了价格。数月前伊拉克曾推出低价交易，以吸引贸易商在航运成本高企和穿越霍尔木兹海峡存在危险的背景下重新装载伊拉克原油。伊拉克政府发言人周五表示，该国正寻求租用油轮运输原油并穿越霍尔木兹海峡。SOMO的困境凸显了买家在波斯湾内提货的持续犹豫。多个地区产油国正通过阿曼湾的船对船转运提供霍尔木兹海峡以外的发货选择，但仍需将原油运出该水道。沙特继续从波斯湾内供应原油，并将旗舰阿拉伯轻质原油10月价格维持不变，出乎市场对大幅涨价的预期。SOMO还向买家提供了从波斯湾以外地点提货的选择，但该计划尚未落实，部分原因在于价格意味着没有足够公司愿意承担穿梭霍尔木兹海峡的运输。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 20:47:20",
+      "content": "【智利8月铜出口额同比下滑3.2%】SHMET09月07日讯，9月7日，智利央行公布，全球最大铜生产国智利8月铜出口额达46.3亿美元，较上年同期下滑3.2%。央行表示，智利当月贸易顺差为16.9亿美元。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 20:47:18",
+      "content": "【格林美 ：海外镍资源项目下半年镍产品计划产出65,000吨，环比增幅134%】SHMET09月07日讯，格林美在投资者关系活动中表示，2026年4月起海外镍资源项目产能实现逐步恢复；截至2026年7月，公司MHP单日镍产量已突破370吨；根据经营规划，下半年镍产品计划产出65,000吨，环比增幅134%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 20:42:50",
+      "content": "【国内主要市场铅锭库存调查统计（20260907）】SHMET09月07日讯，据Mysteel调研统计，截止2026年9月7日全国主要市场铅锭社会库存为7.13万吨，较8月31日减少0.05万吨，较9月3日减少0.4万吨。本期受下游提货影响，浙江地区铅锭库存减少0.4万吨，其余地区库存本期暂无变化。短期市场交仓和提货行为并存，加之进口铅补充，增减对冲下，预计铅锭社会库存整体波动幅度有限。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 20:42:50",
+      "content": "【江铜宏源铜业拟建年产30万吨电解铜扩建项目】SHMET09月07日讯，9月4日，江铜宏源铜业有限公司年产30万吨电解铜扩建项目进入环评报批前公示阶段。详见！（贵溪市人民政府）",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 20:42:25",
+      "content": "【快讯】SHMET09月07日讯，匈牙利总理毛焦尔：国家预算处于极其困难的状态，请求民众对我在4月压倒性选举胜利后作出的承诺给予耐心。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 20:40:28",
+      "content": "【中国工程机械工业协会：8月销售各类挖掘机19716台 同比增长19.3%】SHMET09月07日讯，据中国工程机械工业协会对挖掘机主要制造企业统计，2026年8月销售各类挖掘机19716台，同比增长19.3%。其中：国内销量7986台（含电动挖掘机184台），同比增长3.92%；出口11730台（含电动挖掘机60台），同比增长32.7%。2026年1-8月，共销售挖掘机191557台，同比增长24.2%。其中：国内销量94619台（含电动挖掘机411台），同比增长17.4%；出口96938台（含电动挖掘机257台），同比增长31.8%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 20:39:31",
+      "content": "【格陵兰矿业公司并购萨法托克稀土矿】SHMET9月7日讯，据报道，格陵兰矿业公司（Greenland Mine）称，已经花3500万美元从新性能材料公司（Neo Performance Materials）手中购买萨法托克（Sarfartoq），将这个稀土项目收入囊中。“萨法托克的并购已经完成，西方最大稀土项目之一的萨法托克已经成为格陵兰矿业公司的资产”，该公司总裁博·穆勒·斯滕斯加德（Bo Møller Stensgaard）称。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 20:39:21",
+      "content": "【苏中铝业总投资10亿元的高端发动机箱体制造项目预计2027年一季度投产】SHMET9月7日讯，近日，苏中铝业总投资10亿元的高端发动机箱体制造项目建设工作正在全速推进，计划于2027年一季度实现投产。据悉，项目2号、3号厂房钢结构主体工程已基本完工，主体框架成型稳固；1号厂房各项前期准备工作就绪，将于今年9月正式启动钢结构吊装作业；4号厂房有序推进一层模板支架施工，各工序衔接紧密、推进有序。按照施工计划，四栋厂房今年12月底完成整体交付。该项目是苏中铝业立足现有产业基础实施的增资扩产项目，也是海陵高端铝制品智造产业的关键补链强链项目。项目建成后，企业整体产能将实现翻倍，由原先年产50万套提升至100万套。项目全部采用国内外高端压铸、精密CNC加工一体化智能设备，配套自动化检测、数字化质控系统，改变过去传统粗放的加工模式。目前，项目总价值5000万元的高端压铸设备、6000万元的CNC精密加工设备已经进入公开招标环节，为后续智能化生产做好硬件储备。项目全部建成投产后，企业将打造形成20条一体化智能生产线的规模化产能矩阵，打通从原材料压铸、精密精加工到自动化成品检测的全流程闭环生产体系，在产品品质、生产效率、产能规模上实现多重提升，助力海陵区高端装备制造业提质升级。（世铝网）",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 20:39:21",
+      "content": "【丽水威斯堡科技拟建铸铝生产线自动化改造项目】SHMET9月7日讯，丽水威斯堡科技发展有限公司拟建铸铝生产线自动化改造项目，项目目前处于环评文件公告阶段。由于生产工艺改进需要，企业计划投资520万元，淘汰原有的4台0.25t电磁炉，改为1台1t燃气炉，采用天然气加热，对红外线切割机等设备进行更新，对原审批的“年产10万套节能型金属艺术板生产线项目”中的铸铝工序进行自动化改造，同时涉及天然气配套工程、生产车间和危险废物暂存场所结构翻新和改造、设备基础建设等。本项目建成后，企业总的生产能力保持不变，仍为年产10万套节能型金属艺术板。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 20:39:21",
+      "content": "【超8亿元！新宙邦在美电解液生产基地动工】SHMET9月7日讯，近日，Capchem Technology USA Inc.（以下简称“美国新宙邦”），在美国俄亥俄州劳伦斯县艾恩顿（Ironton）举行锂电池电解液生产基地动工仪式。此次动工，标志着新宙邦国际化战略在北美地区进入实质性建设阶段，为其全球生产网络再添关键支点。消息显示，新宙邦深耕行业三十余年，已在亚洲、欧洲布局。美国新宙邦俄亥俄项目，是公司在北美落地的首个规模化电池化学品生产基地，旨在贴近北美动力电池、储能及消费电子客户，实现本地生产、本地交付，更好满足全球客户对安全、稳定供应链的要求，助力北美新能源产业升级与全球能源多元化。根据此前披露的项目信息，新宙邦美国俄亥俄州生产基地总投资额约为1.2亿美元（约合人民币8.05亿元），分两期建设，其中第一期投资约为7500万美元，原计划于2025年第二季度投产，但实际进度有所调整。除了美国俄亥俄州生产基地外，新宙邦在美国还规划了路易斯安那州电池化学品项目。该项目建设内容为年产20万吨碳酸酯溶剂及10万吨锂离子电池电解液，项目投资总额约3.5亿美元。（电池中国）",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 20:39:04",
+      "content": "【力拓收购Aurukun铝土矿项目】SHMET9月7日讯，据外媒报道，力拓集团（Rio Tinto）已同意从嘉能可及其合资伙伴三菱公司手中收购位于约克角的Aurukun铝土矿项目，具体价格未公开，该交易仍需获得昆士兰州政府和其他相关监管机构的批准。力拓集团在该地区已拥有大型铝土矿开采业务。根据嘉能可和三菱提出的计划，该项目每年将生产高达1500万吨原矿铝土矿，相当于每年高达800万干吨（Mdtpa）的成品铝土矿用于出口。该项目位于Aurukun东北23公里处，韦Weipa以南约35公里处，已获得矿产开发许可证，但尚未获得采矿租约。力拓集团于2024年停止了其东Weipa矿的生产，现在利用约克角的Andoom和Amrun矿区进行铝土矿生产。该公司正在推进Kangwinan项目，使其位于Weipa南部的矿区（Amrun矿区所在地）的铝土矿产量几乎翻一番。去年，力拓集团批准了约2.77亿美元的投资，并开始建设Norman Creek通道项目，这将为Amrun Norman Creek地区的采矿活动铺平道路。（世铝网）",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 20:38:34",
+      "content": "【江苏敏兴汽车拟建年产15万件铝合金压铸件项目】SHMET09月07日讯，江苏敏兴汽车科技有限公司拟建年产15万件铝合金压铸件项目，项目目前处于生态环境影响报告表的批复阶段。详见！",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 20:38:34",
+      "content": "【甘肃广银熔炼炉、铸井改造项目正式投产】SHMET09月07日讯，近日，甘肃广银熔炼炉、铸井改造项目正式投产，标志着企业重点技改项目顺利从建设阶段转入常态化运营，为产业升级、绿色低碳发展注入强劲动力。本次技改聚焦原有设备能耗高、效率低等短板，集成行业先进节能与智能控制系统，是企业向绿色化、智能化转型的关键标杆工程。项目经过数月运行考核，设备稳定性、工艺参数控制及环保排放指标均达到设计要求，生产效率提升20%，熔炼工序的能耗强度较改造前下降23%，年节约能源超660吨标煤，铸造成品率达到行业先进水平，筑牢企业绿色高效生产根基。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 20:38:34",
+      "content": "【孝义经济开发区聚力铝基新材料提质赛道】SHMET09月07日讯，近年来，孝义经济开发区聚焦氢能、白酒、碳基新材料、铝基新材料“新四样”核心赛道，全力加速新质生产力培育，推动产业体系迭代升级、提质增效。其中在聚力铝基新材料提质赛道，开发区坚持延链补链强链并举，持续优化产业结构，聚焦氧化铝转型升级、镓基产业提质增效、固废循环利用三大核心方向，大力布局高端精细铝材料，持续完善绿色循环产业体系，全力打造千亿级铝基新材料产业集群。（山西省商务厅）",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 20:36:12",
+      "content": "【众捷汽车：9月8日起证券简称变更为“众捷股份”】SHMET09月07日讯，众捷汽车(301560.SZ)公告称，公司业务已延伸至工业、储能、数据中心等热管理领域，为反映业务多元化战略目标，公司于2026年9月7日召开董事会审议通过议案，同意将证券简称由“众捷汽车”变更为“众捷股份”，证券代码“301560”保持不变。新简称启用日期为2026年9月8日。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 20:31:55",
+      "content": "【佑驾创新：董事长增持10万股公司股票】SHMET09月07日讯，佑驾创新(02431.HK)在港公告，公司董事长刘国清其已于2026年9月7日于公开市场购买合共100,000股本公司H股，每股H股平均价格为约2.3835港元，占本公司已发行股份总数的约0.02%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 20:30:58",
+      "content": "【快讯】SHMET09月07日讯，丹麦首相：我们希望与美国在安全和防务方面紧密合作；我们还希望与我们的欧洲盟友更加紧密合作，这正是我们在北极地区所做的。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 20:30:30",
+      "content": "【全国主要市场锌锭库存调研统计（20260907）】SHMET09月07日讯，9月7日，全国锌锭现货社会库存20.45万吨，较9月3日减1.04万吨，较8月31日减2.81万吨。具体来看，上海8.27万吨；广东2.54万吨；天津7.55万吨；山东0.30万吨；浙江1.04万吨；江苏0.75万吨。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 20:30:30",
+      "content": "【国内市场电解铜库存统计（20260907）】SHMET09月07日讯，9月7日国内市场电解铜现货库存9.76万吨，较31日降1.22万吨，较3日降0.67万吨；上海库存6.45万吨，较31日降1.00万吨，较3日降0.64万吨；广东库存0.83万吨，较31日降0.39万吨，较3日增0.03万吨；江苏库存2.20万吨，较31日增0.19万吨，较3日降0.03万吨。国内社库延续去库趋势，且再度创下年内新低，其中上海、江苏表现下降，广东库存小幅增加；临近周末，部分下游企业存在一定补库需求，仓库出库量有所提升，加之国产以及进口货源到货入库量偏少，整体库存持续下降。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 20:30:30",
+      "content": "【Kefi因严重安全事件暂停埃塞俄比亚金矿项目开发】外电9月7日消息，在伦敦AIM上市的Kefi Gold and Copper报告称，其位于埃塞俄比亚的Tulu Kapi金矿项目于9月4日发生严重安全事件，造成包括一名公司员工在内的安保人员和社区成员多人死亡。公司已立即暂停项目开发活动，并与相关社区代表、埃塞俄比亚政府当局和安全利益相关方接触，以确定安全有序恢复活动的适当条件。该公司强调，在建立适当措施为其人员和周边社区提供安全可靠的运营环境之前，不会恢复开发活动。（上海金属网编译）",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 20:27:41",
+      "content": "【广西：建立自治区智慧物流信息平台 覆盖平陆运河沿线95%以上的物流服务场景】SHMET09月07日讯，广西壮族自治区政府新闻办9月7日举行新闻发布会，介绍平陆运河通航前的项目建设、运营筹备、货源组织、船舶准入、推进铁水联运等工作情况，并回答记者提问，广西壮族自治区政府副秘书长、广西壮族自治区政府新闻发言人张志文表示，广西将高标准推进平陆运河经济带建设，建立自治区智慧物流信息平台，提升物流的组织效率和水平。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": true
+    },
+    {
+      "datetime": "2026-09-07 20:27:15",
+      "content": "【快讯】SHMET09月07日讯，贝莱德：北欧是全球领先的创新地区，已催生超过100家独角兽企业和数千家风投支持的公司。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 20:24:02",
+      "content": "【深水海纳：实控人将变更为塔城地区国资委】SHMET09月07日讯，深水海纳(300961.SZ)公告称，公司控股股东李海波及其一致行动人西藏海纳博创、西藏大禹、深圳国中与塔城西域矿业科技有限公司签署《合作框架协议》，拟以协议转让方式转让合计2007.01万股股份(占总股本11.3211%)。同时，公司拟向受让方定向发行股票。交易完成后，公司控股股东将由李海波变更为塔城西域矿业科技有限公司，实际控制人变更为塔城地区国有资产监督管理委员会。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 20:21:51",
+      "content": "【快讯】SHMET09月07日讯，伊朗最高国家安全委员会秘书雷扎伊：美国舰船在地区内将没有安全之处。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 20:21:47",
+      "content": "【快讯】SHMET09月07日讯，丹麦首相：凭借新的格陵兰-欧盟联合声明，我们将实施为格陵兰人民带来切实利益的具体项目。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 20:21:39",
+      "content": "【快讯】SHMET09月07日讯，伊朗最高国家安全委员会秘书雷扎伊：伊朗国防能力以更快速度并根据敌人威胁的水平和类型持续提升。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 20:19:58",
+      "content": "【合肥产投促进新兴产业股权投资基金创立 总规模20亿元】SHMET09月07日讯，据合肥产投集团消息，9月7日，合肥产投促进新兴产业股权投资基金合伙企业（有限合伙）创立大会暨第一次合伙人会议在合肥产投资本公司正式召开。产投促新基金总规模20亿元，由合肥产投集团旗下产投资本公司担任基金管理人。目前，基金已完成前期尽调工作并储备了一批拟投项目。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 20:15:28",
+      "content": "【快讯】SHMET09月07日讯，欧盟委员会主席冯德莱恩：欧盟与北极局势息息相关。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 20:15:00",
+      "content": "【快讯】SHMET09月07日讯，欧盟委员会主席冯德莱恩：格陵兰的未来由格陵兰和丹麦人民决定。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 20:14:27",
+      "content": "【快讯】SHMET09月07日讯，欧盟委员会主席冯德莱恩：到2034年，欧盟对格陵兰岛的资金支持将翻倍。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 20:13:10",
+      "content": "【快讯】SHMET09月07日讯，德国总理默茨：任何州政府都必须遵守基本法。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-07 20:11:24",
+      "content": "【快讯】SHMET09月07日讯，欧盟委员会主席冯德莱恩：格陵兰岛在水电方面具有未开发的潜力。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
     }
   ],
   "steel_highlight": [
@@ -1139,6 +1843,14 @@
       "content": "夜盘开盘，国内期货主力合约涨跌不一，燃料油、沥青、低硫燃料油（LU）涨超2%，纯苯、甲醇、SC原油涨超1%，棕榈油、液化石油气（LPG）涨近1%。跌幅方面，纯碱、焦煤、乙二醇（EG）、焦炭跌超1%，聚氯乙烯（PVC）跌近1%。",
       "important": 1,
       "source": "jin10",
+      "sentiment": "neutral",
+      "steel": true
+    },
+    {
+      "datetime": "2026-09-07 20:27:41",
+      "content": "【广西：建立自治区智慧物流信息平台 覆盖平陆运河沿线95%以上的物流服务场景】SHMET09月07日讯，广西壮族自治区政府新闻办9月7日举行新闻发布会，介绍平陆运河通航前的项目建设、运营筹备、货源组织、船舶准入、推进铁水联运等工作情况，并回答记者提问，广西壮族自治区政府副秘书长、广西壮族自治区政府新闻发言人张志文表示，广西将高标准推进平陆运河经济带建设，建立自治区智慧物流信息平台，提升物流的组织效率和水平。",
+      "important": 0,
+      "source": "shmet",
       "sentiment": "neutral",
       "steel": true
     }
