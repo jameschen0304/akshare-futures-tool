@@ -1,7 +1,455 @@
 {
   "source": "jin10 flash + shmet + shfe weekly stock",
-  "generated_at": "2026-09-08T13:53:43.088760+00:00",
+  "generated_at": "2026-09-08T14:46:47.349316+00:00",
   "jin10": [
+    {
+      "datetime": "2026-09-08 22:46:23",
+      "content": "美国天然气期货日内跌超3.00%，现报2.885美元/百万英热。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:42:55",
+      "content": "英国央行行长贝利：我们希望在明年英国主办G20会议时，能够就全球失衡问题进行更高质量的讨论。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:39:24",
+      "content": "这位曾在美联储和白宫任职的经济学家为何短短半年内彻底反转？她担心的，是那些还没完全进入PCE、却可能在未来一年集中爆发的风险。点击查看...",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:39:17",
+      "content": "【以色列：将关闭英国驻耶路撒冷领馆】金十数据9月8日讯，以色列外长萨尔今天（9月8日）宣布，作为对“英国制裁约旦河西岸地区犹太人定居点”的回应，以色列政府将关闭英国驻耶路撒冷领事馆。萨尔还称，将驱逐英国驻巴勒斯坦加沙地带和以色列基里亚特加特“国际援助中心”的代表。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:38:41",
+      "content": "加拿大延长联邦汽油消费税减免政策。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:34:58",
+      "content": "加拿大贸易部长：加拿大正在与波兰洽谈出售核能技术和液化天然气。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:33:54",
+      "content": "英国国家空中交通服务公司：正在“紧急”恢复正常运营。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:32:44",
+      "content": "以色列外交部长：十名英国公职人员和公民将被禁止入境以色列。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:30:40",
+      "content": "美国财政部发出警告，要求金融机构报告支持伊朗航空的采购网络。美国财政部对36个支持伊朗航空部门的目标实施制裁。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:30:25",
+      "content": "以色列外交部长：英国不再被允许参与以色列为基地的美国主导的加沙协调任务。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:28:26",
+      "content": "俄罗斯总统助理乌沙科夫表示，普京告诉特朗普，有关“俄罗斯威胁”的炒作，是欧盟增加对乌克兰支持及军费开支的掩护。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:27:57",
+      "content": "以色列外交部长：我们对英国人民没有任何敌意。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:27:41",
+      "content": "以色列外交部长：以色列将对其他对其不利的国家采取行动。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:26:49",
+      "content": "美债收益率恢复上涨，2年期收益率升至日内高点4.39%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:26:03",
+      "content": "以色列外交部长：以色列将从加沙支援中心撤回英国员工。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:25:15",
+      "content": "伊朗革命卫队关于在霍尔木兹海峡“猎捕”目标的重要消息将在几分钟内发布。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:24:51",
+      "content": "英国央行行长贝利：青年失业率上升令人担忧。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:24:48",
+      "content": "英国央行行长贝利：我们看到一些生产力回升的迹象，但不一定都是在与人工智能相关的行业中。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:24:15",
+      "content": "巴勒斯坦总统府8日发表声明，对英国宣布对约旦河西岸以色列定居点采取的制裁措施表示欢迎。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:23:57",
+      "content": "以色列外交部长：英国制裁也将对巴勒斯坦人造成经济损害。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:23:13",
+      "content": "英国央行行长贝利：劳动力市场正在放缓，招聘率降低。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:21:26",
+      "content": "以色列外交部长：大多数以色列人支持定居点，反对巴勒斯坦国。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:20:54",
+      "content": "英国央行行长贝利：经济活动表现出合理的韧性，但按历史标准来看仍然疲弱。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:20:45",
+      "content": "以色列外交部长：英国制裁措施与美国多个州的法律相冲突。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:20:25",
+      "content": "【林红红会见美国惠普公司首席法务官兼总法律顾问朱莉·雅各布斯】金十数据9月8日讯，9月8日，中国贸促会副会长林红红在京会见美国惠普公司首席法务官兼总法律顾问朱莉·雅各布斯一行。双方围绕服务外资企业在华发展、深化产业链供应链国际合作、参与2026年APEC系列工商界活动等议题进行交流。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:20:10",
+      "content": "英国央行行长贝利：我认为我们并不处于衰退的边缘。最新数据看起来稍微强劲一些。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:19:28",
+      "content": "以色列外交部长：英国的举动让以色列别无选择，只能做出回应。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:18:58",
+      "content": "以色列外交部长：英国的举动受内部政治驱动。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:18:48",
+      "content": "以色列外交部长：英国宣布的制裁明显干涉以色列即将举行的选举。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:18:00",
+      "content": "克里姆林宫：俄罗斯总统普京与美国总统特朗普讨论了囚犯交换事宜。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:17:57",
+      "content": "【特朗普与普京通电话 聚焦尽快结束乌克兰冲突】金十数据9月8日讯，克里姆林宫：俄罗斯总统普京与美国总统特朗普通电话，通话持续了一小时。美国总统特朗普专注于努力尽快结束乌克兰冲突，特朗普和普京均对美国特使的访问进行了评价，俄罗斯对欧洲没有敌对计划。俄罗斯总统普京支持恢复美俄关系的想法，普京与特朗普讨论了囚犯交换事宜。普京还告诉了特朗普美国可以采取哪些措施以更快结束冲突，普京向特朗普提供了关于战场局势的俄罗斯评估。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:17:56",
+      "content": "克里姆林宫：俄罗斯总统普京支持恢复美俄关系的想法。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:17:47",
+      "content": "克里姆林宫：俄罗斯对欧洲没有敌对计划。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:17:35",
+      "content": "克里姆林宫：美国总统特朗普与俄罗斯总统普京讨论了美国特使访问莫斯科和基辅的成果，并予以评价。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:17:04",
+      "content": "克里姆林宫：战争结束将立即为恢复美俄关系带来显著潜力。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:16:54",
+      "content": "克里姆林宫：美国总统特朗普希望在其任期内恢复美俄关系。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:16:30",
+      "content": "克里姆林宫：美国总统特朗普专注于努力尽快结束乌克兰战争。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:16:18",
+      "content": "克里姆林宫：俄罗斯总统普京与美国总统特朗普通电话，通话持续了一小时。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:12:11",
+      "content": "美国财政部制裁AIR SHIRAZ、ASA JET和ATA航空公司。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:12:10",
+      "content": "过去几年，多番利空轮番冲击全球市场，但风险资产却像“不粘锅”，坏消息怎么都粘不住。如今，汇丰和德银同时警告：这种“特氟龙行情”并非没有极限。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:11:56",
+      "content": "美国财政部暂停与伊朗相关的通用许可证J-1。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:10:16",
+      "content": "美国财政部允许部分终止与（伊朗）民用航空相关的交易。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:09:12",
+      "content": "美国财政部发布新一轮伊朗相关制裁。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:08:41",
+      "content": "美国财政部发布有关伊朗的通用许可证。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:06:22",
+      "content": "【波罗的海干散货运价指数上涨，受海岬型船运价走高提振】金十期货9月8日讯，据外媒报道，波罗的海干散货运价指数（BDI）周二上涨，受到海岬型船运价走高提振。波罗的海干散货运价指数（BDI）较前一交易日上涨9点，或0.25%，报3584点。海岬型船运价指数（BCI）上涨27点，涨幅0.4%，报6313点。海岬型船日均获利上升242美元，至53570美元。巴拿马型船运价指数（BPI）下跌17点，跌幅0.7%，报2414点。巴拿马型船日均获利下降154美元，至21724美元。超灵便型散货船运价指数（BSI）上涨11点，或0.7%，报1693点。灵便型船运价指数（BHSI）较前一日上涨7点，报913点。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:05:14",
+      "content": "英国央行副行长拉姆斯登：供应冲击频率增加可能导致价格上升。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:02:27",
+      "content": "SK海力士(SKHY.O)涨超6%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:02:14",
+      "content": "巴西汽车制造商协会（ANFAVEA）数据显示，巴西8月汽车销量较7月下降1.6%，产量较7月增长6.8%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:01:03",
+      "content": "美国8月谘商会就业趋势指数 108.53，前值由107.71修正为107.76。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:00:45",
+      "content": "金十图示：2026年09月08日（周二）全球股市指数-美洲市场（盘初）",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 21:59:33",
+      "content": "英国央行行长贝利：食品价格通胀的风险偏向上行。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 21:58:04",
+      "content": "英国央行副行长拉姆斯登：四月和七月的沟通受到市场的积极反响。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 21:57:13",
+      "content": "【理想汽车引入第三家电池供应商 中创新航上车理想i6】金十数据9月8日讯，从多位产业人士处了解到，头部新势力品牌理想汽车，将引入第三家动力电池供应商——中创新航。按理想汽车的初步构想，中创新航将率先上车理想的纯电车。另有知情人士表示，理想i6或将是首款搭载中创新航产品的车型。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 21:56:20",
+      "content": "甲骨文(ORCL.N)在新墨西哥州就2吉瓦可再生能源项目发布招标邀请。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 21:56:05",
+      "content": "高盛将澳洲联储加息时间预期提前至九月，原为十一月。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 21:55:11",
+      "content": "加拿大总理卡尼：减少对美国经济依赖将会付出一点“成本”。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
     {
       "datetime": "2026-09-08 21:50:06",
       "content": "【中京电子：近期市场关注的公司9-11阶高阶HDI产品，目前处于导入拓展阶段】金十数据9月8日讯，中京电子公告，公司关注到近期PCB市场关注度较高，公司受行业影响短期内涨幅较大，存在市场情绪过热及非理性交易风险。近期市场关注的公司9-11阶高阶HDI产品，主要用于算力加速卡，目前处于导入拓展阶段，占2026年半年度营业收入比例不到1%；存储相关产品主要应用在固态硬盘与内存条，占2026年半年度营业收入比例不到5%。上述事项短期内不会对公司经营业绩产生重大影响。请投资者理性投资，注意风险。",
@@ -705,588 +1153,84 @@
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
-    },
-    {
-      "datetime": "2026-09-08 20:51:41",
-      "content": "国际黄金反复拉锯，今晚会不会突然变盘？阿汤哥和顺姐为你解读行情直播中",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 20:49:18",
-      "content": "【交易商协会对东方金诚予以警告 涉违反评级独立性要求等】金十数据9月8日讯，交易商协会公告，经查，东方金诚国际信用评估有限公司作为银行间债券市场信用评级机构，存在以下违反银行间债券市场相关自律管理规定的行为：一是违反评级独立性要求，营销人员在某项目中多次参与发行人为获取高信用级别而组织的资产整合商议，所筹划的资产整合方案明确影响了评级结果；二是部分模型指标打分理由相互矛盾，不充分、不客观；三是未严格执行内控制度中关于营销制度、客户信用风险监控处置的要求，合规监督机制落实不到位；四是尽职调查访谈混淆评级对象，部分记录错误、相互套用，对部分评级指标未按自律规则要求充分搜集必要信息。根据银行间债券市场相关自律规定，经自律处分会议审议决定，对东方金诚予以警告；责令其针对本次事件中暴露出的营销合规管理、尽职调查等方面问题进行全面深入的整改。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 20:42:07",
-      "content": "【英国宣布对约旦河西岸以色列定居点采取新制裁措施】金十数据9月8日讯，英国外交大臣埃德·米利班德在议会下院发表声明，宣布调整英国政府中东政策，并对约旦河西岸以色列定居点采取新的制裁措施。根据英国政府公布的措施，英国将禁止进口来自约旦河西岸以色列定居点的商品，并限制英国企业为新定居点提供融资、建设和广告等部分服务。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 20:41:39",
-      "content": "【上海市政府与中国电信在沪签署“十五五”战略合作协议】金十数据9月8日讯，上海市人民政府与中国电信集团有限公司今天（9月8日）在沪签署“十五五”战略合作协议。根据协议，双方将建立全方位战略合作关系，依托上海科技创新、产业集聚、营商环境等综合优势，发挥中国电信建设网络强国、科技强国、数字中国和维护网信安全的重要作用，共建“智云上海”城市信息化服务品牌，建设全球领先的新型信息基础设施，推动前沿技术创新布局，以数字技术牵引现代化产业体系建设，提升超大城市治理智能化水平，助力上海加快建成具有世界影响力的社会主义现代化国际大都市。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 20:38:55",
-      "content": "英国外交大臣：我们将继续根据以色列政府的行动进行评估。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 20:38:11",
-      "content": "金十图示：2026年09月08日（周二）新闻联播今日要点",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 20:37:19",
-      "content": "英国外交大臣：伊朗不应获得核武器。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 20:36:14",
-      "content": "【亚太经合组织能源工作组第72次会议在北京成功举办】金十数据9月8日讯，9月8日，亚太经合组织能源工作组第72次会议在北京召开。中国国家能源局副局长汪剑波出席会议并致辞。汪剑波强调，APEC合作的生命力在于各经济体共同参与。中方始终秉持开放包容理念，举办APEC“中国年”能源领域系列活动，并非单向展示自身实践，而是搭建多边对话平台，推动各经济体充分分享实践经验、相互借鉴，将各方智慧凝聚为合作成果。希望各经济体本着求同存异精神，坦诚交换意见，凝聚政策共识，立足能源领域，积极应对全球能源格局调整与技术变革对亚太发展提出的新议题，为增进亚太地区全体人民福祉贡献更多能源力量。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 20:36:02",
-      "content": "路透调查：所有65位受访经济学家预计英国央行将在9月份维持利率在3.75%不变。预计英国央行将维持利率在3.75%不变，直到2027年第二季度。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 20:35:18",
-      "content": "市场消息：欧洲计划从美国购买爱国者导弹系统以保护乌克兰度过冬季。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 20:34:58",
-      "content": "【欧洲12国计划限制与约旦河西岸非法定居点的商品贸易】金十数据9月8日讯，法国、英国、加拿大、丹麦、芬兰、冰岛、爱尔兰、挪威、波兰、葡萄牙、西班牙、瑞典12国外长联合声明：计划限制与约旦河西岸非法定居点进行的商品贸易。以色列在约旦河西岸的行动削弱了两国解决方案的可能性。在前所未有的定居者暴力实施和定居点扩张的背景下，约旦河西岸局势迅速恶化。以色列必须立即停止扩建定居点和扩大民事行政权力，确保对定居者暴力行为的问责。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 20:34:21",
-      "content": "个股新闻\n1. 台积电(TSM.N)：目标在2031年前建成12英寸掩模中试生产线。\n2. 波士顿科学(BSX.N)确认发生网络安全事件，导致全球运营受到干扰。\n3. 英特尔(INTC.O)代工与阿斯麦合作，加速High-NA EUV（高数值孔径极紫外光刻）技术的产业化准备进程。\n4. 供应链人士透露，因应整体成本飙升，英特尔(INTC.O)PC CPU过去1年来已陆续涨价，暂定10月上旬再涨10%。\n5. 阿斯麦(ASML.O)：与台积电(TSM.N)共同宣布启动一项倡议，旨在引领行业向High-NA EUV的大尺寸光掩模过渡。\n6. 诺华制药(NVS.N)宣布，其评估del-desiran治疗1型强直性肌营养不良（DM1）的III期HARBOR研究未达到主要终点。\n7. Arm(ARM.O)执行副总裁兼首席商务官Will Abbey表示：“Arm全球合作伙伴累计出货的基于Arm技术的芯片已超过3500亿颗。\n8. 据悉谷歌(GOOG.O)在欧洲推出搜索结果变更，以避免新的欧盟反垄断罚款；谷歌表示，变更将降低欧洲用户的搜索结果质量，并增加企业成本。\n9. 据韩国《经济论坛报》报道，苹果(AAPL.O)与日本铠侠（Kioxia）签署了一项NAND闪存的长期供应协议（LTA），报告对内存市场的推测表明，这份合同的期限为三到五年，并且可能没有价格上限。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 20:33:55",
-      "content": "【欧洲探索公司融资4.5亿美元 打造欧洲可重复使用太空舱】金十数据9月8日讯，欧洲探索公司（The Exploration Company Gmbh）已筹集4.5亿美元资金，以推动欧洲首个可重复使用的太空舱和新型火箭发动机的开发，该公司表示，这将是该地区最大的火箭发动机，成为SpaceX的竞争对手。首席执行官海伦·胡比在采访中表示，大部分融资将用于名为Storm的甲烷-氧气发动机，作为欧洲下一代重型发射载具。她表示，这笔资金将使公司能够从今年年底到2028年测试Storm。该发动机已开发三年。胡比表示：“我现在的策略是专注于火箭发动机，因为没有发动机就没有火箭。这是最困难、耗时最长的部分。”",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 20:32:38",
-      "content": "法国外长：法国将启动全国性程序，禁止来自约旦河西岸以色列定居点的产品。法国将与其他11国一道，停止与巴勒斯坦被占领土上的以色列定居点开展贸易。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 20:31:51",
-      "content": "英国外交大臣：英国将对来自（约旦河西岸）被占领土非法定居点的商品实施进口禁令。英国将推出新的全面制裁制度，并提供适当的宗教豁免。将对提供建筑、基础设施、融资或房地产等服务以支持定居点扩张的特定公司和个人实施制裁。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 20:30:12",
-      "content": "黄金多空陷入僵局，震荡区间如何布局？如何识别反转信号？金十研究员Steven正在直播，立即观看>>",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 20:29:29",
-      "content": "【中国出版：股价涨幅达33.52%，市盈率高于行业平均】金十数据9月8日讯，中国出版公告，公司主营业务未发生变化，生产经营正常，但2026年上半年生产经营整体承压，营业收入19.18亿元，同比下降8.58%；归属于上市公司股东的净利润1543.07万元，同比下降88.39%。2026年9月8日股价以涨停价收盘，收盘价7.05元/股，较2026年8月7日收盘价5.28元/股上涨33.52%；滚动市盈率25.34倍，高于行业17.92倍。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 20:29:10",
-      "content": "英国外交大臣：以色列“E1”定居点扩建计划将造成一系列既成事实，使“两国方案”无法实现。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 20:28:18",
-      "content": "市场消息：黄金矿业公司Solidcore将回购价值高达12亿美元的股份。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 20:27:04",
-      "content": "英国外交大臣：根据反恐制裁制度新增1个制裁指定对象，在全球人权制裁机制下新增5个指定对象。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 20:26:22",
-      "content": "英国外交大臣：今天标志着新方针的开始，将直面不公并采取行动。我们针对的不是以色列人民，而是以色列政府的行为。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 20:25:16",
-      "content": "英国外交大臣：全面落实“两国方案”是本届政府政策的指引方向。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 20:22:58",
-      "content": "英国外交大臣：正对伊朗实施重大经济制裁。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 20:22:45",
-      "content": "英国外交大臣：英国与以色列将继续在共同国家安全利益领域开展合作。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 20:22:00",
-      "content": "英国外交大臣：英国正在制裁黎巴嫩真主党的融资机构AL-QARD AL HASSAN。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 20:20:04",
-      "content": "多重利空聚集，国际黄金仍在抵抗？点击观看金十研究员文成直播分析>",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 20:19:19",
-      "content": "据韩联社：韩国国防部表示将派遣调查小组评估霍尔木兹海峡的情况。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 20:17:03",
-      "content": "欧盟委员会主席冯德莱恩：下一笔32亿欧元的拨款将帮助乌克兰更好地保护其领空，抵御俄罗斯攻击。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 20:15:23",
-      "content": "【阿联酋启动替代物流通道应对霍尔木兹海峡受阻】金十数据9月8日讯，阿联酋外贸国务部长萨尼·泽尤迪8日表示，面对霍尔木兹海峡通行受阻带来的挑战，阿联酋已启动多条替代物流通道，并加快东海岸港口建设，相关举措将纳入阿国家长期战略布局。泽尤迪当天在阿布扎比举行的一场论坛上说，今年以来，本地区的地缘政治局势发生深刻变化，对全球供应链构成“更直接、更严重的挑战”。霍尔木兹海峡航运受阻后，阿联酋迅速采取措施保障贸易畅通，启动连接阿拉伯湾、红海和阿曼湾的区域物流通道。此外，阿联酋还与阿曼合作，通过苏哈尔港和杜库姆港中转运往阿联酋的货物。他还说，阿联酋正在加快豪尔费坎、富查伊拉和迪巴等东海岸港口的建设，并投运新的能源管道，将本国能源资源与国际市场连接。（新华社）",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 20:14:07",
-      "content": "【丹麦银行：仍预期美联储12月和3月各加息一次】金十数据9月8日讯，受油价上涨及上周就业数据超预期后下周加息可能性增加影响，美国国债收益率走高。丹麦银行分析师在一份报告中表示，即使不认为下周会加息，仍认为当前定价（加息与按兵不动的概率接近持平）是合理的。不过丹麦银行仍预计美联储将在12月和3月两次加息。但由于日元进一步走高，美元兑一篮子货币走软。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 20:13:02",
-      "content": "黄金震荡幅度缩小，市场在等什么信号，现在如何高抛低吸？金十研究员Steven正在直播，立即观看>>",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 20:12:58",
-      "content": "【加皇银行：英国国债表现或获支撑】金十数据9月8日讯，加拿大皇家银行资本市场策略师在一份报告中表示，英国首相伯纳姆和财政大臣希利近期承诺维持财政纪律，可能支撑英国国债表现。策略师称，希利在本周演讲中重申政府对财政责任的承诺，缓解了投资者在10月28日预算案公布前的担忧。英国周二通过银团方式发售2056年1月到期国债，这将考验市场对英国政府债券的需求。策略师表示，这一背景应有利于周二银团发行的需求。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 20:11:03",
-      "content": "国际金今晚提前休市！流动性下降交易者如何布局？本周紧盯市场通胀数据！金十交易学院正在直播中，立即观看！",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 20:10:57",
-      "content": "金十图示：2026年09月08日（周二）中国工商银行账户贵金属行情",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 20:08:51",
-      "content": "根据最新经纪商挂单数据，国际现货黄金徘徊在4400美元附近，下方多单密集；国际现货白银现价附近多空博弈激烈……点击查看最新报告",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 20:07:46",
-      "content": "伊朗副议长：袭击美国军舰“仅仅展现了伊朗能力的一小部分”。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 20:06:39",
-      "content": "【科伦博泰生物：POLARIS-1的2期部分取得阳性中期结果】金十数据9月8日讯，科伦博泰生物(06990.HK)在港公告，本公司的合作方WindwardBioAG已公布SKB378/WIN378（一款靶向胸腺基质淋巴细胞生成素(TSLP)的全人源超长效单克隆抗体）用于治疗哮喘的POLARIS-1临床试验2期部分取得阳性的中期结果。POLARIS-1的3期部分亦已启动。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 20:05:07",
-      "content": "【科技部副部长张光军会见平方公里阵列天文台（SKAO）总干事杰西卡·登浦西】金十数据9月8日讯，据科技部消息，2026年9月4日，科技部副部长张光军在京会见平方公里阵列天文台（SKAO）总干事杰西卡·登浦西、理事会主席菲利波·泽尔比一行。双方就平方公里阵列射电望远镜（SKA）进展情况及涉及SKAO发展的重要议题进行了深入交流。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 20:04:31",
-      "content": "谷歌云与埃森哲成立新部门，旨在帮助客户部署谷歌云的智能AI平台。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 20:03:49",
-      "content": "据Politico：法国呼吁欧盟开征新税，以筹集600亿欧元。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 20:01:59",
-      "content": "波罗的海干散货运价指数上涨0.25%，至3584点。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 20:01:57",
-      "content": "塞内加尔总理表示，正在与英国石油公司进行谈判，计划在2027年前向其提供液化天然气。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 20:01:00",
-      "content": "上海黄金交易所黄金T+D 9月8日（周二）晚盘盘初上涨0.04%报950.8元/克；\n上海黄金交易所白银T+D 9月8日（周二）晚盘盘初下跌0.58%报16100.0元/千克。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 20:01:00",
-      "content": "加拿大至9月4日全国经济信心指数 51.8，前值51.7。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 20:00:38",
-      "content": "【i茅台：6款飞天茅台销售规则调整 每日两场次常态化售卖】金十数据9月8日讯，贵州茅台旗下i茅台9月8日官微消息，将飞天53%vol 500ml贵州茅台酒(带杯)2019—2024销售规则调整。自9月9日起，6款产品由当月9日、19日、29日投放售卖调整为常态化投放售卖，每日9:00与20:00两个场次均可购买。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 19:54:38",
-      "content": "【盛宝银行：日元走强势头看似具有持续性】金十数据9月8日讯，盛宝银行分析师在一份报告中表示，日元走强势头看似具有持续性。日元继续走强，周二早些时候触及兑美元152.89的六个月高位，随后回吐部分涨幅。分析师称，这令美元接近测试年内低点152.10，而距离美元升破160.00关口还不到一周。他们表示，这是逾一年来最持久的涨势，目前已进入第五天。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 19:54:36",
-      "content": "【*ST萃华：2026年9月8日收到终止上市事先告知书】金十数据9月8日讯，*ST萃华公告，公司于2026年9月8日收到深交所《终止上市事先告知书》。因未在法定期限内披露2025年年度报告，且在退市风险警示之日起两个月内仍未披露过半数董事保证真实、准确、完整的2025年年度报告，公司触及股票终止上市情形，深交所拟决定终止公司股票上市交易。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 19:54:06",
-      "content": "【美国银行：ASML高数值孔径技术势头正盛】金十数据9月8日讯，美国银行分析师Didier Scemama在研究报告中表示，在台积电和三星电子表示计划未来几年大规模采用其高数值孔径技术后，ASML Holding的先进芯片制造设备势头正盛。Scemama指出，这些公告共同表明该技术正从开发阶段进入逻辑和存储芯片领域的更广泛制造应用。同时，ASML与台积电合作向更大尺寸光掩模转型的公告同样利好，应能提高生产率、降低芯片制造成本并消除拼接限制。ASML股价上涨1.5%至1,523.00欧元。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 19:53:08",
-      "content": "汇丰高管公开驳斥了“美股过贵”的论调，声称强劲的业绩基本面正支撑美股，但10年期美债收益率逼近5%的关键红线，已成为华尔街公认的极度危险信号。点击查看...",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 19:53:02",
-      "content": "【荷兰国际银行：欧洲散户偏好本土投资】金十数据9月8日讯，荷兰国际银行首席经济学家Marieke Blom表示，尽管欧洲散户投资者对欧洲经济前景感到悲观，但仍偏好国内投资。荷兰国际对欧洲消费者的调查发现，38%的受访者倾向于投资欧洲，而倾向于投资美国的仅为14%。Blom称，尽管围绕欧洲经济前景存在大量负面情绪，但很大一部分欧洲人仍更愿意将资金投入本土。她表示，更多资金投入欧洲股市将有助于支撑该地区股票估值，也有助于吸引资金流向私营企业。泛欧斯托克600指数今年迄今上涨9.6%，而标普500指数涨幅接近13%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 19:50:05",
-      "content": "中东乱局继续，避险情绪难以推动现货黄金？点击观看伽玛指标直播分析>",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 19:49:46",
-      "content": "俄罗斯副总理诺瓦克提议提前设定俄罗斯的燃料进口量。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 19:48:40",
-      "content": "【伊朗一名民兵武装指挥官遭袭身亡】金十数据9月8日讯，据伊朗媒体8日报道，伊朗拉斯克发生恐怖袭击，民兵武装“动员穷人组织”的一名指挥官在袭击中死亡。伊朗安全部队正在追捕恐怖分子。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
     }
   ],
   "shmet": [
     {
-      "datetime": "2026-09-08 21:49:54",
-      "content": "【2连板中京电子：公司9-11阶高阶HDI产品处于导入拓展阶段】SHMET09月08日讯，中京电子(002579.SZ)公告称，公司股票连续3个交易日收盘价格涨幅偏离值累计超过20%，属于股票交易异常波动。公司2026年半年度净利润为-8984.96万元，存在业绩亏损情况。公司静态市盈率为381.87倍，显著偏离行业平均水平。公司9-11阶高阶HDI产品处于导入拓展阶段，占营收比例不到1%；存储相关产品占营收比例不到5%。",
+      "datetime": "2026-09-08 22:44:14",
+      "content": "【快讯】SHMET09月08日讯，英国央行行长贝利：我们希望在明年英国主办G20会议时，能够就全球失衡问题进行更高质量的讨论。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-08 21:48:15",
-      "content": "【快讯】SHMET09月08日讯，私募股权公司Cerberus据悉接近达成以10亿英镑收购Goodwin防务部门的交易。",
+      "datetime": "2026-09-08 22:39:41",
+      "content": "【快讯】SHMET09月08日讯，加拿大延长联邦汽油消费税减免政策。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-08 21:47:15",
-      "content": "【快讯】SHMET09月08日讯，英国央行行长贝利：我希望消除外界认为我们有秘密计划、会无条件加息的看法。",
+      "datetime": "2026-09-08 22:38:52",
+      "content": "【平安消费金融管理层更迭：董事长辞任，公司称将依规推进换届工作】SHMET09月08日讯，记者获悉，平安消费金融有限公司近期拟进行管理层人事调整。平安消金董事长陈东起因临近退休，正式申请辞任职务。其将继续履行董事长的职责直至新任董事长的任职资格经监管机构核准为止。平安消金相关人士对记者表示，此次变更为公司正常人事调整，新任董事长的安排在稳步推进中。数据显示，2020年平安消费金融成立，截至目前，平安消金贷款余额超600亿元，累计服务客户超1300万人次。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-08 21:46:54",
-      "content": "【快讯】SHMET09月08日讯，英国央行行长贝利：市场的英国央行利率曲线反映了投资者对能源价格进一步上涨的担忧。",
+      "datetime": "2026-09-08 22:36:46",
+      "content": "【快讯】SHMET09月08日讯，加拿大贸易部长：加拿大正在与波兰洽谈出售核能技术和液化天然气。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:35:04",
+      "content": "【快讯】SHMET09月08日讯，英国国家空中交通服务公司：正在“紧急”恢复正常运营。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:34:23",
+      "content": "【快讯】SHMET09月08日讯，以色列外交部长：十名英国公职人员和公民将被禁止入境以色列。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:28:45",
+      "content": "【快讯】SHMET09月08日讯，以色列外交部长：以色列将对其他对其不利的国家采取行动。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:28:37",
+      "content": "【快讯】SHMET09月08日讯，以色列外交部长：我们对英国人民没有任何敌意。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-08 22:26:58",
+      "content": "【快讯】SHMET09月08日讯，美债收益率恢复上涨，2年期收益率升至日内高点4.39%。",
       "important": 0,
       "source": "shmet",
       "sentiment": "bull",
       "steel": false
     },
     {
-      "datetime": "2026-09-08 21:44:19",
-      "content": "【快讯】SHMET09月08日讯，英国央行行长贝利：通胀风险偏向上行。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 21:40:17",
-      "content": "【比特币跌破7.8万美元 过去24小时内跌近2%】SHMET09月08日讯，行情显示，比特币跌至77928.5美元，过去24小时内跌1.88%；以太坊跌至2451.48美元，过去24小时内跌1.94%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 21:39:43",
-      "content": "【快讯】SHMET09月08日讯，英国央行行长贝利：英国抵押贷款利率的上涨幅度几乎是七国集团中最大的。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 21:38:58",
-      "content": "【快讯】SHMET09月08日讯，英国央行副行长拉姆斯登：对政策感到满意，但非常关注（通胀）上行风险。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 21:37:59",
-      "content": "【核能公司HGP拟借道SPAC上市 专为AI数据中心“灵活供电”】SHMET09月08日讯，知情人士透露，HGP Intelligent Energy计划通过一家特殊目的收购公司(SPAC)实现上市，交易对该核能服务企业的估值约为12亿美元。该公司技术旨在使核反应堆能够根据人工智能(AI)数据中心实时波动的用电需求灵活调节功率。知情人士还表示，该公司也将为地方电网提供同样的调峰服务。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 21:37:49",
-      "content": "【快讯】SHMET09月08日讯，量子计算公司IonQ股价盘初上涨11.3%，此前该公司上调全年营收展望。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 21:36:50",
-      "content": "【英国NATS称技术问题导致部分航班起飞受阻】SHMET09月08日讯，英国空中交通服务提供商NATS发布声明称，公司正在调查一个技术问题，该问题对部分航班起飞造成干扰。该公司表示，工程师已抵达现场，将尽快提供最新消息。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 21:36:04",
-      "content": "【快讯】SHMET09月08日讯，德国外长瓦德富尔：任何主张脱离欧盟的人都在危害我们的自由、繁荣和安全。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 21:35:26",
-      "content": "【快讯】SHMET09月08日讯，英国央行副行长拉姆斯登：全球通胀形势更倾向于上行通胀风险。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 21:35:10",
-      "content": "【快讯】SHMET09月08日讯，非洲开发银行推出51亿美元计划以应对能源和肥料冲击。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 21:34:53",
-      "content": "【快讯】SHMET09月08日讯，英国央行副行长拉姆斯登：英国工资水平低于我们在冲突前的预期。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 21:33:37",
-      "content": "【快讯】SHMET09月08日讯，英国央行副行长拉姆斯登：我从劳动力市场获得了对通胀的信心。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 21:33:24",
-      "content": "【快讯】SHMET09月08日讯，英国央行副行长拉姆斯登：国内通胀形势相对温和。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 21:32:37",
-      "content": "【快讯】SHMET09月08日讯，道琼斯指数跌幅扩大至1.01%，报52877.02点。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 21:32:28",
-      "content": "【费城半导体指数涨超2%】SHMET09月08日讯，费城半导体指数涨超2%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-08 21:30:27",
-      "content": "【快讯】SHMET09月08日讯，英国央行货币政策委员格林：我对油价高企的持续时间感到担忧，可能会带来第二轮影响。",
+      "datetime": "2026-09-08 22:25:53",
+      "content": "【快讯】SHMET09月08日讯，英国央行行长贝利：青年失业率上升令人担忧。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
