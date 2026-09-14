@@ -1,7 +1,167 @@
 {
   "source": "jin10 flash + shmet + shfe weekly stock",
-  "generated_at": "2026-09-14T16:03:02.828478+00:00",
+  "generated_at": "2026-09-14T16:31:23.146042+00:00",
   "jin10": [
+    {
+      "datetime": "2026-09-15 00:30:23",
+      "content": "俄罗斯央行：由于出口收入到账延迟，俄罗斯公司的外汇销售在8月份环比下降15%，降至188亿美元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-15 00:29:01",
+      "content": "CrowdStrike(CRWD.O)盘中股价上涨15%，创下历史新高。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-15 00:26:54",
+      "content": "【特朗普：石油正流经霍尔木兹海峡】金十数据9月15日讯，美国总统特朗普表示，石油正流经霍尔木兹海峡。当这场骗局的冲突结束时，那些对我们毫无帮助的世界各国，应当并且会向美利坚合众国作出赔偿。我们为他人所做的一切远比为自己多得多，而且这种行为已经持续了数代人！",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-15 00:25:33",
+      "content": "美国总统特朗普：武器每天都在运往驻中东和其他地区的美国军队。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-15 00:24:02",
+      "content": "【特朗普称美国加速扩充军工产能，重点生产爱国者和战斧导弹】金十数据9月15日讯，美国总统特朗普在社媒上表示，美国目前正在生产“比历史上任何时期都更加精良和先进”的武器，这些武器正每天交付给驻扎在中东及其他地区的美军部队。特朗普称，美国国防企业工厂正在全天候运行，同时每家公司平均还在建设4至5座大型新生产工厂。特朗普表示，此轮军工生产重点包括“爱国者”导弹系统、萨德反导系统、战斧巡航导弹以及其他标准导弹系统，并称美国目前已经储备了大量相关武器。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-15 00:22:48",
+      "content": "欧盟发言人：欧盟委员会主席冯德莱恩将于当地时间周三会见加拿大总理卡尼。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-15 00:22:09",
+      "content": "欧洲央行官员马查多：呼吁提高合成型SRT（Synthetic Significant Risk Transfer，合成型重大风险转移）的透明度。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-15 00:16:58",
+      "content": "乌克兰总统泽连斯基：乌克兰期待来自合作伙伴的具体支持。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-15 00:13:05",
+      "content": "【伊拉克北部库区遭5枚火箭弹袭击】金十数据9月15日讯，伊拉克北部库尔德自治区（库区）安全部门14日发表声明说，库区苏莱曼尼亚省当天凌晨遭5枚火箭弹袭击，未造成人员伤亡。一名库区安全人士告诉记者，此次火箭弹袭击的目标是伊朗库尔德反政府武装的营地。目前有关部门已对袭击事件展开调查。伊拉克库区山区分布着多个伊朗库尔德反对派武装据点，此前曾多次遭到伊朗安全部队的导弹和无人机跨境打击。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-15 00:12:45",
+      "content": "【Anthropic推出面向金融顾问的Claude产品】金十数据9月15日讯，Anthropic推出面向金融顾问的Claude产品，已完成与贝莱德、Vanguard等机构运营的金融分析和风险管理技术的对接。据Anthropic和贝莱德高级管理人员介绍，这一名为“Claude for Financial Advisors”的系统旨在加快研究、行政管理以及投资组合监督等任务。这是这家人工智能公司迄今为止进军金融行业最重要的举措之一。该功能还接入了嘉信理财和iCapital等公司的工具，此举建立在Anthropic此前推出的金融服务AI智能体基础之上，其可用于处理包括撰写路演材料、审查财务报表等任务。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-15 00:12:09",
+      "content": "乌克兰总统泽连斯基：乌克兰不相信俄罗斯愿意遵守任何协议。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-15 00:11:37",
+      "content": "乌克兰总统泽连斯基：乌克兰准备确保停止一切袭击行动。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-15 00:11:07",
+      "content": "乌克兰总统泽连斯基：如果俄罗斯同意能源停火，乌克兰也愿意同意。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-15 00:10:46",
+      "content": "谷歌云：宣布数据流批处理作业的暂停/恢复功能正式上线，并支持英伟达(NVDA.O)RTX PRO 6000 Blackwell GPU。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-15 00:10:15",
+      "content": "乌克兰总统泽连斯基：乌克兰提议由合作伙伴与俄罗斯达成协议保障。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-15 00:08:35",
+      "content": "国际原子能机构：国际原子能机构第70届大会批准东帝汶民主共和国成为该机构最新成员国，使成员国总数增至182个。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-15 00:07:12",
+      "content": "【丹麦首相：希望与美国通过合作解决格陵兰岛问题】金十数据9月15日讯，丹麦首相弗雷泽里克森14日在芬兰北部城市罗瓦涅米表示，希望丹麦与美国在北极和格陵兰岛问题上通过合作找到解决方案。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-15 00:05:27",
+      "content": "Claude已经接入嘉信理财、贝莱德(BLK.N)、Addepar和Orion。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-15 00:04:26",
+      "content": "Anthropic推出面向理财顾问的Claude产品。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-15 00:02:40",
+      "content": "印度政府：通知修改《支付和结算系统法》，规定银行不得对通过UPI进行的2000印度卢比以内支付收取手续费。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
     {
       "datetime": "2026-09-15 00:01:19",
       "content": "德国财政部长：与裕信银行首席执行官进行了建设性会谈。",
@@ -969,956 +1129,84 @@
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
-    },
-    {
-      "datetime": "2026-09-14 21:43:23",
-      "content": "【长川科技：拟发行H股并在香港联交所主板上市】金十数据9月14日讯，长川科技公告称，为推进全球化战略布局，加快海外业务发展，进一步提高公司的资本实力和综合竞争力，打造国际化资本运作平台，公司拟发行H股并申请在香港联合交易所有限公司主板上市。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 21:43:12",
-      "content": "金十图示：2026年09月14日（周一）美股热门股票行情一览",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 21:43:06",
-      "content": "费城半导体指数下跌5.9%，势将创下自7月1日以来的最差表现。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 21:40:31",
-      "content": "纳斯达克100指数跌至六周低点，最新下跌1.7%。英伟达(NVDA.O)跌超4%，英特尔(INTC.O)、美光科技(MU.O)、闪迪(SNDK.O)均跌超7%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 21:39:48",
-      "content": "金佰利股价上涨约2%，路透社援引消息人士称，公司正准备出售资产，以争取欧盟批准其收购Kenvue的交易。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 21:39:00",
-      "content": "据英国金融时报：英国政府正在考虑收购Speciality Steel UK。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 21:38:35",
-      "content": "瑞银集团：将通用汽车(GM.N)目标价从102美元上调至114美元。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 21:36:54",
-      "content": "金十图示：2026年09月14日（周一）热门中概股行情一览",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 21:35:05",
-      "content": "【从事出境入境中介服务的机构和人员备案管理办法公布】金十数据9月14日讯，国家移民管理局和国家市场监督管理总局联合发布公告，发布《从事出境入境中介服务的机构和人员备案管理办法》，自2026年9月15日起施行。《办法》根据《中华人民共和国出境入境管理法》《国务院关于出境入境管理的规定》制定，旨在规范从事出境入境中介服务的机构和人员备案管理工作。《办法》共14条，进一步明确了备案范围、备案期限以及备案材料等要求，确定县级以上地方人民政府公安机关出入境管理机构对本辖区从事出境入境中介服务的机构和人员实施备案管理。《办法》要求公安机关出入境管理机构在加强监督管理的同时，应当持续优化工作流程，不断提升从事出境入境中介服务的机构办理备案的便利化程度。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 21:34:57",
-      "content": "强生(JNJ.N)股价上涨2%，此前有报道称公司骨科业务部门吸引了阿波罗全球管理公司的兴趣，潜在交易价值达200亿美元。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 21:34:24",
-      "content": "纳斯达克综合指数9月14日（周一）开盘下跌332.83点，跌幅1.26%，报26000.21点；\n标普500指数9月14日（周一）开盘下跌54.09点，跌幅0.71%，报7602.76点；\n道琼斯指数9月14日（周一）开盘下跌148.45点，跌幅0.28%，报52424.84点。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 21:34:15",
-      "content": "金十图示：2026年09月14日（周一）各大货币对表现",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 21:34:08",
-      "content": "法院文件显示，马斯克旗下X公司和xAI已解决针对苹果(AAPL.O)的反垄断诉讼。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 21:33:53",
-      "content": "【英伟达、Palantir等据报将限制使用先进AI公司的模型】金十数据9月14日讯，据The Information报道，随着人们对Anthropic或OpenAI是否会从客户的知识产权中学习产生日益强烈的担忧，从事敏感企业业务的大型公司，如Palantir Technologies、英伟达和博思艾伦汉密尔顿，已开始要求获得新的保障，或减少甚至停止使用这些AI公司最先进的模型。与此同时，微软(MSFT.O)正利用这些恐惧来吸引客户使用自己的产品。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 21:33:05",
-      "content": "甲骨文(ORCL.N)下跌6.1%，创自9月1日以来最大盘中跌幅。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 21:32:40",
-      "content": "美国软件股上涨，ServiceNow(NOW.N)上涨5.6%，Adobe(ADBE.O)上涨3.3%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 21:31:49",
-      "content": "费城半导体指数开盘下跌5.5%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 21:30:47",
-      "content": "【美股开盘 纳指跌超1%】金十数据9月14日讯，美股开盘三大股指齐跌，道指跌0.2%，标普500指数跌0.7%，纳指跌1.2%。AI巨头呼吁放缓开发，AI芯片股下跌，英伟达(NVDA.O)跌3.3%，英特尔(INTC.O)跌7%，AMD(AMD.O)跌5.2%。美光科技(MU.O)跌6.7%，SK海力士(SKHY.O)跌7.1%，闪迪(SNDK.O)跌5.8%。甲骨文(ORCL.N)跌5.2%，报道称公司启动新一轮裁员。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 21:29:22",
-      "content": "【期货盯盘神器专属文章】CBOT农产品晚间分析：USDA重磅数据意外“砸盘”！玉米因产量和单产高于预期而承压，CBOT玉米续跌，周线终结四连涨。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
     }
   ],
   "shmet": [
     {
-      "datetime": "2026-09-15 00:01:08",
-      "content": "【快讯】SHMET09月15日讯，自动驾驶公司Waymo：目前商业车队已超过4,000辆，并将在全年继续增长。",
+      "datetime": "2026-09-15 00:27:21",
+      "content": "【快讯】SHMET09月15日讯，美国总统特朗普表示，石油正流经霍尔木兹海峡。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-15 00:00:40",
-      "content": "【快讯】SHMET09月15日讯，自动驾驶公司Waymo在拉斯维加斯推出公共乘车服务。",
+      "datetime": "2026-09-15 00:27:15",
+      "content": "【快讯】SHMET09月15日讯，美国总统特朗普：武器每天都在运往驻中东和其他地区的美国军队。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-15 00:00:13",
-      "content": "【快讯】SHMET09月15日讯，德国财政部长：（关于德商银行）德商银行必须保持上市并总部设在法兰克福。",
+      "datetime": "2026-09-15 00:24:54",
+      "content": "【快讯】SHMET09月15日讯，欧盟发言人：欧盟委员会主席冯德莱恩将于当地时间周三会见加拿大总理卡尼。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-15 00:00:05",
-      "content": "【今日重点关注的财经数据与事件：2026年9月15日 周二】SHMET09月15日讯，① 09:30 中国70个大中城市住宅售价月报② 10:00 中国8月社会消费品零售总额同比③ 10:00 中国8月规模以上工业增加值同比④ 10:00 国新办举行新闻发布会⑤ 14:00 英国7月三个月ILO失业率⑥ 14:00 英国8月失业率⑦ 14:00 英国8月失业金申请人数⑧ 14:45 法国8月CPI月率终值⑨ 17:00 德国9月ZEW经济景气指数⑩ 17:00 欧元区9月ZEW经济景气指数⑪ 17:00 欧元区7月季调后贸易帐⑫ 20:15 美国至8月29日当周ADP就业人数周度变动⑬ 20:30 加拿大7月批发销售月率⑭ 20:30 美国9月纽约联储制造业指数⑮ 次日04:30 美国至9月11日当周API原油库存",
+      "datetime": "2026-09-15 00:23:53",
+      "content": "【快讯】SHMET09月15日讯，欧洲央行官员马查多：呼吁提高合成型SRT（Synthetic Significant Risk Transfer，合成型重大风险转移）的透明度。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-14 23:59:30",
-      "content": "【快讯】SHMET09月15日讯，欧盟国家计划寻求更多工业免费碳排放配额。",
+      "datetime": "2026-09-15 00:10:13",
+      "content": "【快讯】SHMET09月15日讯，国际原子能机构：国际原子能机构第70届大会批准东帝汶民主共和国成为该机构最新成员国，使成员国总数增至182个。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-14 23:55:54",
-      "content": "【快讯】SHMET09月14日讯，法伊联合声明：道达尔能源与伊拉克已同意基于大规模投资，就伊拉克能源项目启动讨论。",
+      "datetime": "2026-09-15 00:09:37",
+      "content": "【快讯】SHMET09月15日讯，Puig同意，按12亿欧元从Esteve收购Isdin。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-14 23:53:57",
-      "content": "【数据显示霍尔木兹海峡单日通行量降至个位数】SHMET09月14日讯，船舶追踪信息显示，霍尔木兹海峡上周末两天内单日船舶通行量仅为个位数，低于10天内每日平均14艘船的通行量。根据9月14日的船舶追踪信息，上周末两天内，4艘船只驶出霍尔木兹海峡，其中包括运载能源的船只；10艘货船驶入霍尔木兹海峡。不过，上述数字不包括通过霍尔木兹海峡时关闭自动识别系统的船只。另据英国海上贸易行动办公室消息，一艘船13日通过霍尔木兹海峡时被不明飞行物击中，尚不清楚船员和船只受损情况。",
+      "datetime": "2026-09-15 00:08:17",
+      "content": "【丹麦首相：希望与美国通过合作解决格陵兰岛问题】SHMET09月15日讯，丹麦首相弗雷泽里克森14日在芬兰北部城市罗瓦涅米表示，希望丹麦与美国在北极和格陵兰岛问题上通过合作找到解决方案。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-14 23:51:20",
-      "content": "【快讯】SHMET09月14日讯，英国石油公司：未来几天将在日产44万桶的惠廷炼油厂开展计划中的运营活动。",
+      "datetime": "2026-09-15 00:06:51",
+      "content": "【快讯】SHMET09月15日讯，Claude已经接入嘉信理财、贝莱德(BLK.N)、Addepar和Orion。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-14 23:45:40",
-      "content": "【快讯】SHMET09月14日讯，雅培(ABT.N)盘中迅速拉升，现涨超2%。",
+      "datetime": "2026-09-15 00:04:27",
+      "content": "【快讯】SHMET09月15日讯，Anthropic针对金融顾问推出Claude模型。",
       "important": 0,
       "source": "shmet",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 23:45:31",
-      "content": "【快讯】SHMET09月14日讯，美国战略石油储备（SPR）的原油库存上周减少约360万桶，降至2.85亿桶，创1982年以来最低水平。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 23:44:54",
-      "content": "【快讯】SHMET09月14日讯，美国司法部：雅培将就与婴儿配方奶粉相关的指控达成和解，同意支付超过3.84亿美元。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 23:41:28",
-      "content": "【快讯】SHMET09月14日讯，流媒体平台SkyShowtime高管：派拉蒙和康卡斯特正在探索旗下SkyShowtime服务的选项。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 23:37:33",
-      "content": "【欧洲主要股指收盘多数下跌】SHMET09月14日讯，欧洲主要股指收盘多数下跌，英国富时100指数涨0.44%，法国CAC40指数跌0.84%，德国DAX30指数跌0.60%，富时意大利MIB指数跌1.68%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 23:35:08",
-      "content": "【快讯】SHMET09月14日讯，美、布两油短线走低近1美元，特朗普称对与伊朗接触持开放态度。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 23:34:42",
-      "content": "【快讯】SHMET09月14日讯，美国总统特朗普：伊朗希望达成协议，而且希望迅速且迫切地达成协议。我将决定我们是否与伊朗接触，我们对这一可能性持开放态度。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 23:34:01",
-      "content": "【快讯】SHMET09月14日讯，美国总统特朗普表示，伊朗“又急又迫切”地想要达成协议。他同时称，将由美方来决定是否选择与伊朗进行接触，而美国对此持开放态度。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 23:33:24",
-      "content": "【快讯】SHMET09月14日讯，美国财政部拍卖三个月期国债，得标利率3.970%，投标倍数2.64；拍卖六个月期国债，得标利率4.060%，投标倍数2.74。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 23:32:55",
-      "content": "【快讯】SHMET09月14日讯，美国至9月14日6个月国债竞拍-得标利率 4.06%，前值3.89%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 23:32:46",
-      "content": "【快讯】SHMET09月14日讯，美国至9月14日3个月国债竞拍-得标利率配置百分比 13.86%，前值20.33%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 23:32:40",
-      "content": "【快讯】SHMET09月14日讯，美国至9月14日3个月国债竞拍-得标利率 3.97%，前值3.80%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 23:32:40",
-      "content": "【快讯】SHMET09月14日讯，美国至9月14日3个月国债竞拍-投标倍数 2.64，前值2.61。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 23:32:39",
-      "content": "【快讯】SHMET09月14日讯，美国至9月14日6个月国债竞拍-得标利率配置百分比 82.5%，前值79.1%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 23:32:33",
-      "content": "【快讯】SHMET09月14日讯，美国至9月14日6个月国债竞拍-投标倍数 2.74，前值2.88。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 23:27:06",
-      "content": "【快讯】SHMET09月14日讯，市场消息：加拿大与西班牙、英国签署视听联合制作协议。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 23:26:12",
-      "content": "【快讯】SHMET09月14日讯，拉丁美洲大型航空公司集团LATAM航空集团获得5.05亿美元贷款，用于为新飞机融资。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 23:24:20",
-      "content": "【快讯】SHMET09月14日讯，欧盟轮值主席国发言人表示，欧盟特使同意在续期前将针对俄罗斯个人和公司的制裁延长7天。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 23:24:12",
-      "content": "【拉加德：欧洲不能仅依赖从美国购入人工智能技术】SHMET09月14日讯，欧洲央行行长拉加德表示，欧洲不能仅仅依赖从美国购买人工智能技术，还必须自主研发相关组件，否则将面临陷入脆弱境地的风险。拉加德称：“进口新技术而非自主研发，本身并没有什么不好。”但她指出，人工智能之所以“特殊”，是有其原因的。除了数据保护之外，拉加德还强调了准入问题，因为一旦人工智能被广泛使用，任何退出或条款变更都将“同时影响所有行业”。“这是任何贸易伙伴此前从未对欧洲掌握过的某种影响力，”她说，“这种影响力可以在任何谈判中加以利用，例如在关税或数字税问题上。”这些言论进一步印证了拉加德及其他欧洲央行官员的呼吁：欧洲不应因经济风险和主权问题而落后于人工智能的发展。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 23:21:21",
-      "content": "【快讯】SHMET09月14日讯，英国石油公司惠廷炼油厂：劳资谈判正在进行中。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 23:18:03",
-      "content": "【快讯】SHMET09月14日讯，欧洲央行行长拉加德：当前经济形势下，资本的流动性和主权的重要性日益凸显，人工智能的应用将为经济增长带来新的机遇。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 23:17:52",
-      "content": "【快讯】SHMET09月14日讯，欧洲央行行长拉加德：欧洲不能仅仅从美国进口人工智能技术，欧洲必须自己建设人工智能基础设施。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 23:12:14",
-      "content": "【快讯】SHMET09月14日讯，Pinterest涨至盘中高点。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 23:11:54",
-      "content": "【快讯】SHMET09月14日讯，市场消息：Pinterest与英伟达合作构建新的人工智能层。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 23:10:37",
-      "content": "【快讯】SHMET09月14日讯，国际油价涨幅收窄，截至目前，WTI原油期货价格涨2.54%，报102.596美元/桶；布伦特原油期货价格涨2.84%，报107.579美元/桶。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 23:10:09",
-      "content": "【快讯】SHMET09月14日讯，因油价从高位回落，美国国债跌幅收窄。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 23:09:48",
-      "content": "【快讯】SHMET09月14日讯，美、布两油短线下跌1.4美元，现分别报98.749美元/桶和104.29美元/桶。特朗普称俄乌已同意不打击对方能源目标。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 23:07:12",
-      "content": "【快讯】SHMET09月14日讯，纽约商品交易所铜期货下跌3%，至每磅6.29美元，为7月29日以来最低水平。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 23:06:04",
-      "content": "【快讯】SHMET09月14日讯，英伟达(NVDA.O)：Perplexity本地代理平台现已在搭载Windows RTX显卡的个人电脑上推出。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 23:05:58",
-      "content": "【快讯】SHMET09月14日讯，英伟达宣布，Perplexity的本地智能体平台“Portable Computer”现已面向Windows RTX PC用户开放。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 23:03:46",
-      "content": "【快讯】SHMET09月14日讯，美国财长贝森特：美国财政部启动“经济弃儿行动”，旨在切断伊朗政权及其支持者的所有资金生命线。因此，我发布了新的呼吁，鼓励举报人提供有关协助伊朗实施恐怖活动人员的信息。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 23:01:39",
-      "content": "【快讯】SHMET09月14日讯，海关数据显示，韩国8月份进口原油1210万吨，去年同期为1250万吨。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 22:54:13",
-      "content": "【快讯】SHMET09月14日讯，英国商业大臣雷诺兹：英国无法按照拟议条款支持Speciality Steel。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 22:53:03",
-      "content": "【快讯】SHMET09月14日讯，伊朗媒体报道称，一名高级逊尼派穆斯林神职人员在伊朗东南部遭身份不明枪手枪杀。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 22:51:24",
-      "content": "【快讯】SHMET09月14日讯，据Politico：OpenAI支持具有约束力的英国人工智能立法。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 22:49:07",
-      "content": "【美银的Subramanian将标普500指数年底目标上调至7400点】SHMET09月14日讯，美国银行的美国股票及量化策略主管Savita Subramanian周一在报告中表示，该行将标普500指数年底目标位从7100点上调至7400点，称长期看涨逻辑依然成立。该行还将标普500指数未来12个月目标位设为7800点。Subramanian写道：“我们正进入季节性疲软期，我们认为市场早就应该回调了。”新的年底目标位较标普500指数上周五收盘点位低3.4%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 22:39:45",
-      "content": "【快讯】SHMET09月14日讯，美国10年期通胀保值国债（TIPS）收益率触及2.622%，为2008年以来最高。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 22:39:26",
-      "content": "【快讯】SHMET09月14日讯，据伊朗伊斯兰共和国广播电视台（IRIB）：也门外交部表示，海上航运是安全的，但如果沙特认为在过去五天遭受300次空袭后仍能保持安全，那将是“大错特错”。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 22:39:09",
-      "content": "【快讯】SHMET09月14日讯，市场消息：因人员配置问题，前往洛杉矶国际机场的航班起飞被暂停。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 22:36:51",
-      "content": "【快讯】SHMET09月14日讯，英国2年期国债收益率达到4.971%，为2023年以来最高水平。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 22:34:49",
-      "content": "【粤芯股份：初步询价日为9月18日 网下申购日为9月24日】SHMET09月14日讯，粤芯股份(301660.SZ)公告，公司首次公开发行股票并在创业板上市的申请已经深交所上市委员会审议通过，并已经中国证监会同意注册。本次网下发行申购日与网上申购日同为2026年9月24日（T日）。本次发行初步询价时间为2026年9月18日9:30-15:00。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 22:29:35",
-      "content": "【快讯】SHMET09月14日讯，美股三大股指盘中短线下挫，标普500指数跌幅达0.8%，跌至盘中低点，纳指再度跌超1%，道指下跌0.4%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 22:28:54",
-      "content": "【机构：AI巨头担心跑太快，但他们的大多数客户其实离“前沿”还很远】SHMET09月14日讯，过去一年，AI领域经历了爆发式发展，而这一速度似乎也让前沿AI开发商在短时间内难以招架。如今，这些公司开始呼吁放缓研究步伐，并加强监管与监督。不过，此前集中暴露出来的AI安全危机，不太可能同样冲击到Anthropic和OpenAI这些AI巨头的客户。企业通常部署的是那些已经商业化、市场对其能力也有较充分了解的模型。这些模型可能并非处于AI前沿的绝对尖端，但其能力已经足够强大，可以应对企业交给它们的各种任务。Collective联合创始人Stephen Messer表示，大多数企业并没有使用最前沿的模型。他们甚至可能还在使用两年前的版本，而对于他们正在开展的工作而言，这些模型其实已经完全够用了。有些用户甚至连如何有效地向模型下达提示都不太会。因此，如果AI研发进程放缓，对他们而言也不会造成太大的影响。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 22:27:50",
-      "content": "【快讯】SHMET09月14日讯，交易员充分消化英国央行到2027年底前进行五次25基点加息的预期。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 22:26:51",
-      "content": "【快讯】SHMET09月14日讯，市场现已完全计价英国央行将在2027年底前进行五次25个基点的加息。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 22:26:29",
-      "content": "【快讯】SHMET09月14日讯，斯托克欧洲600指数跌幅扩大至0.5%，触及盘中低点。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 22:26:05",
-      "content": "【快讯】SHMET09月14日讯，巴西前总统之子、参议员弗拉维奥·博索纳罗的经济顾问表示，博索纳罗将取消石油出口税。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 22:23:55",
-      "content": "【快讯】SHMET09月14日讯，市场现已完全计价欧洲央行将在2027年底前进行四次25个基点的加息。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 22:23:11",
-      "content": "【快讯】SHMET09月14日讯，交易员已完全定价到2027年底，欧洲央行将累计加息四次。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 22:22:32",
-      "content": "【快讯】SHMET09月14日讯，Anthropic的IPO计划据称预计不会因近期的AI安全风波而放缓。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 22:21:55",
-      "content": "【王毅同拉脱维亚外长布拉泽通电话】SHMET09月14日讯，中共中央政治局委员、外交部长王毅14日应约同拉脱维亚外长布拉泽通电话。布拉泽表示，多年来两国保持良好务实合作关系，在联合国安理会等多边平台也有很好的协作。期待与中方进一步加强沟通交流，推动双边关系不断向前发展。布拉泽表示，近日33名拉脱维亚公民在尼泊尔和中国西藏自治区泥石流灾害中失联。灾害发生后，感谢中方所做通报和搜救工作以及对失联人员家属的诚挚慰问。拉方愿同中方加强沟通协作，共同做好后续工作。王毅表示，尼泊尔一侧突发冰岩崩引发泥石流灾害，拉脱维亚是失联人数最多的欧洲国家。面对这一突如其来的悲剧，谨再次向拉方特别是失联人员家属表示诚挚慰问。中方对中外人员一视同仁，全力以赴开展救助。我们将尽最大努力继续搜救拉方等外方失联人员，妥善做好后续处置。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 22:21:17",
-      "content": "【快讯】SHMET09月14日讯，据Axios：多位消息人士透露，即使人工智能安全问题已成为时代热点，Anthropic仍有可能在2026年上市，IPO日程安排并没有改变。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 22:20:49",
-      "content": "【快讯】SHMET09月14日讯，查尔斯河实验室（Charles River Laboratories）股价跌幅扩大至4%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 22:18:32",
-      "content": "【快讯】SHMET09月14日讯，加拿大总理卡尼：加拿大与欧盟在共同创造繁荣方面拥有巨大机遇。可能会因与欧盟的合作而增强劳动力流动性。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 22:16:57",
-      "content": "【快讯】SHMET09月14日讯，加拿大总理卡尼：我们将在某个时候与美国达成协议。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 22:15:08",
-      "content": "【快讯】SHMET09月14日讯，加拿大总理卡尼：准备与美国坐下来谈判协议。美国官员可能更好地理解加拿大的红线。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 22:14:13",
-      "content": "【快讯】SHMET09月14日讯，加拿大总理卡尼：欢迎特朗普关于协议可能很快达成的言论。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 22:13:32",
-      "content": "【快讯】SHMET09月14日讯，纳斯达克100指数跌幅收窄至1%，此前一度下跌1.7%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 22:13:22",
-      "content": "【快讯】SHMET09月14日讯，加拿大总理卡尼：类似于金融稳定委员会的技术稳定委员会是合理的。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 22:12:44",
-      "content": "【快讯】SHMET09月14日讯，加拿大总理卡尼：加拿大与美国之间可能达成互利协议。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 22:11:19",
-      "content": "【快讯】SHMET09月14日讯，加拿大总理卡尼：更多税收竞争力措施即将出台。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 22:10:23",
-      "content": "【快讯】SHMET09月14日讯，加拿大总理卡尼：开始看到加拿大企业的积极参与。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 22:10:21",
-      "content": "【快讯】SHMET09月14日讯，厄瓜多尔8月CPI环比增长0.04%，同比上涨1.12%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 22:09:23",
-      "content": "【快讯】SHMET09月14日讯，地中海航运公司（MSC）：Indusa航线东行货物运输将继续绕行好望角。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 22:07:54",
-      "content": "【快讯】SHMET09月14日讯，美国10年期国债收益率升至5%，为近三年来首次。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 22:06:50",
-      "content": "【快讯】SHMET09月14日讯，加拿大总理卡尼：部分外国资本对美国资产配置过高，而对加拿大资产配置不足。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 22:06:50",
-      "content": "【快讯】SHMET09月14日讯，受油价上涨影响，智利比索兑美元跌幅扩大至2.3%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 22:06:09",
-      "content": "【快讯】SHMET09月14日讯，焦煤主力合约日内大涨4.00%，现报1650.50元/吨。",
-      "important": 0,
-      "source": "shmet",
       "sentiment": "neutral",
-      "steel": true
-    },
-    {
-      "datetime": "2026-09-14 22:05:21",
-      "content": "【快讯】SHMET09月14日讯，受国际油价大幅上涨影响，智利比索兑美元汇率跌幅扩大至2.3%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 22:05:07",
-      "content": "【快讯】SHMET09月14日讯，埃克森美孚石油(XOM.N)表示，伊利诺伊州乔利埃特一座日产26.4万桶的炼油厂停电原因正在调查中。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 22:03:15",
-      "content": "【快讯】SHMET09月14日讯，日产北美首席执行官：全新混合动力Rogue将“相当实惠”。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 22:01:39",
-      "content": "【快讯】SHMET09月14日讯，美国总统特朗普：谁赢得人工智能，谁就赢得未来。我们正在领先所有其他国家，并将继续保持领先。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 22:00:51",
-      "content": "【快讯】SHMET09月14日讯，美国总统特朗普：人工智能所需的唯一控制是强有力的总统，而美国正拥有这样的总统，而且程度远超所需。特朗普政府已经阻止人工智能领域的相关人士从事不良或可能不良的“行为”，例如达里奥，我们将继续这样做。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 22:00:25",
-      "content": "【快讯】SHMET09月14日讯，美国总统特朗普：我们已经拥有对这些公司实施刑事和监管权力的巨大能力。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 21:55:23",
-      "content": "【快讯】SHMET09月14日讯，王毅同法国外长巴罗通电话。（新华社）",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 21:54:25",
-      "content": "【快讯】SHMET09月14日讯，巴西财政部长：巴西需要财政秩序，同时确保最低社会保障。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 21:52:19",
-      "content": "【快讯】SHMET09月14日讯，标普500指数跌幅收窄至0.5%，此前一度下跌0.8%。纳指现跌0.8%，道指跌0.2%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 21:51:48",
-      "content": "【快讯】SHMET09月14日讯，市场消息：罗马尼亚总统计划本周与各政党进行新一轮政府谈判。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 21:47:35",
-      "content": "【快讯】SHMET09月14日讯，巴西财政部长：我已承诺减少巴西的强制性支出。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 21:44:17",
-      "content": "【快讯】SHMET09月14日讯，巴西财政部长：我们可以期待未来财政政策将更加有序。我们可以预期未来利率将会降低。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 21:43:11",
-      "content": "【快讯】SHMET09月14日讯，费城半导体指数下跌5.9%，势将创下自7月1日以来的最差表现。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 21:42:22",
-      "content": "【长川科技：拟发行H股并在香港联交所主板上市】SHMET09月14日讯，长川科技(300604.SZ)公告称，为推进全球化战略布局，加快海外业务发展，进一步提高公司的资本实力和综合竞争力，打造国际化资本运作平台，公司拟发行H股并申请在香港联合交易所有限公司主板上市。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 21:40:58",
-      "content": "【快讯】SHMET09月14日讯，据英国金融时报：英国政府正在考虑收购Speciality Steel UK。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 21:40:49",
-      "content": "【美股网络安全概念股盘初逆市走强】SHMET09月14日讯，美股网络安全概念股盘初逆市走强，CrowdStrike涨超7%，Zscaler、Palo Alto Networks涨超5%，飞塔信息、Okta、Cloudflare涨超3%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 21:40:20",
-      "content": "【快讯】SHMET09月14日讯，金佰利股价上涨约2%，路透社援引消息人士称，公司正准备出售资产，以争取欧盟批准其收购Kenvue的交易。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 21:39:31",
-      "content": "【快讯】SHMET09月14日讯，瑞银集团：将通用汽车(GM.N)目标价从102美元上调至114美元。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 21:35:55",
-      "content": "【快讯】SHMET09月14日讯，美股光通信板块盘初集体重挫。康宁跌超9%，迈威尔科技、Lumentum、Coherent跌超8%，Credo、Ciena跌超6%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 21:35:26",
-      "content": "【快讯】SHMET09月14日讯，纳斯达克综合指数9月14日（周一）开盘下跌332.83点，跌幅1.26%，报26000.21点；标普500指数9月14日（周一）开盘下跌54.09点，跌幅0.71%，报7602.76点；道琼斯指数9月14日（周一）开盘下跌148.45点，跌幅0.28%，报52424.84点。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 21:35:10",
-      "content": "【从事出境入境中介服务的机构和人员备案管理办法公布】SHMET09月14日讯，国家移民管理局和国家市场监督管理总局联合发布公告，发布《从事出境入境中介服务的机构和人员备案管理办法》，自2026年9月15日起施行。《办法》根据《中华人民共和国出境入境管理法》《国务院关于出境入境管理的规定》制定，旨在规范从事出境入境中介服务的机构和人员备案管理工作。《办法》共14条，进一步明确了备案范围、备案期限以及备案材料等要求，确定县级以上地方人民政府公安机关出入境管理机构对本辖区从事出境入境中介服务的机构和人员实施备案管理。《办法》要求公安机关出入境管理机构在加强监督管理的同时，应当持续优化工作流程，不断提升从事出境入境中介服务的机构办理备案的便利化程度。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 21:35:05",
-      "content": "【快讯】SHMET09月14日讯，强生(JNJ.N)股价上涨2%，此前有报道称公司骨科业务部门吸引了阿波罗全球管理公司的兴趣，潜在交易价值达200亿美元。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-14 21:33:16",
-      "content": "【快讯】SHMET09月14日讯，受人工智能开发放缓的呼声影响，英伟达股价开盘下跌4%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bear",
       "steel": false
     },
     {
-      "datetime": "2026-09-14 21:31:16",
-      "content": "【快讯】SHMET09月14日讯，利弗莫尔中概股龙头指数跌1%，报8917.13点。成分股中，奇景光电跌6.31%，网易有道跌5.76%，希尔威金属矿业跌5.63%，慧荣科技跌5.62%，日月光投控跌5.07%。",
+      "datetime": "2026-09-15 00:02:04",
+      "content": "【快讯】SHMET09月15日讯，德国财政部长：与裕信银行首席执行官进行了建设性会谈。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
@@ -1931,14 +1219,6 @@
       "content": "截至23:00收盘，国内期货主力合约涨多跌少，燃料油涨超4%，低硫燃料油（LU）、焦煤、沥青涨超3%，对二甲苯、瓶片、短纤涨超2%，乙二醇（EG）涨近2%。跌幅方面，玻璃跌近2%，纯碱、20号胶、菜粕、玉米、橡胶跌超1%，纸浆、淀粉跌近1%。",
       "important": 1,
       "source": "jin10",
-      "sentiment": "neutral",
-      "steel": true
-    },
-    {
-      "datetime": "2026-09-14 22:06:09",
-      "content": "【快讯】SHMET09月14日讯，焦煤主力合约日内大涨4.00%，现报1650.50元/吨。",
-      "important": 0,
-      "source": "shmet",
       "sentiment": "neutral",
       "steel": true
     },
