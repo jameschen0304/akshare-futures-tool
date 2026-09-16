@@ -1,6 +1,6 @@
 {
   "source": "99qh primary + 100ppi fallback + EM coated proxy",
-  "generated_at": "2026-09-16T14:24:57.686751+00:00",
+  "generated_at": "2026-09-16T15:12:41.989812+00:00",
   "symbols": {
     "螺纹钢": [
       {
@@ -146085,7 +146085,7 @@
   },
   "lme_zinc": {
     "date": "2026-09-16",
-    "usd": 3808.4,
+    "usd": 3818.15,
     "source": "sinajs hf_ZSD"
   }
 }
