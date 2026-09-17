@@ -1,7 +1,335 @@
 {
   "source": "jin10 flash + shmet + shfe weekly stock",
-  "generated_at": "2026-09-17T14:30:53.375068+00:00",
+  "generated_at": "2026-09-17T15:17:26.273055+00:00",
   "jin10": [
+    {
+      "datetime": "2026-09-17 23:16:04",
+      "content": "据报道，以色列军队使用炮弹袭击黎巴嫩南部城镇哈达萨。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-17 23:15:04",
+      "content": "波兰总理图斯克：根据情报机构的消息，俄罗斯的计划包括对支持乌克兰的国家（包括波兰）进行混合无人机和导弹袭击。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-17 23:14:47",
+      "content": "费城半导体指数势将连续第三个交易日上涨，最新涨幅为2.9%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-17 23:10:51",
+      "content": "土耳其股市收盘上涨3%，银行指数飙升8.9%。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-17 23:09:48",
+      "content": "据法国媒体：斯泰兰蒂斯(STLA.N)正寻求出售Aramis Group。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-17 23:07:09",
+      "content": "希腊公用事业公司PPC与亚马逊云服务(AWS)签署数据中心谅解备忘录。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-17 23:04:36",
+      "content": "美国一枚拦截弹几秒钟打出去，补回库存却要几年；拦截弹越稀缺，市场给每一次漏防标价的速度就越快，美国还能用现在这种强度挡多久？一文看清油价真正的约束>>",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-17 23:04:06",
+      "content": "斯泰兰蒂斯(STLA.N)：布兰普顿工厂从长期来看不具备商业可行性。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-17 23:01:51",
+      "content": "瑞银集团主席：仍不会对AT1方案感到满意，因为该方案会给瑞银带来成本。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-17 23:01:13",
+      "content": "瑞银集团主席：我们必须进行游说，不要认为游说已经过于激烈。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-17 23:01:01",
+      "content": "瑞银集团主席：可以接受允许使用AT1的妥协计划。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-17 23:00:41",
+      "content": "截至23:00收盘，国内期货主力合约跌多涨少，纯苯、聚氯乙烯（PVC）、焦煤、对二甲苯、燃料油、液化石油气（LPG）、苯乙烯跌超2%。涨幅方面，玻璃、纯碱小幅上涨。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": true
+    },
+    {
+      "datetime": "2026-09-17 22:59:13",
+      "content": "初步计划显示，安哥拉11月原油出口量将降至至少2008年以来最低水平，预计为每日85万桶。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-17 22:58:09",
+      "content": "瑞银集团主席：额外一级资本（AT1）是真正的资本。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-17 22:57:53",
+      "content": "市场消息：美国国家航空航天局最早可能于下周发布关于“星际客机”（Starliner）的公告。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-17 22:56:23",
+      "content": "初步计划显示，安哥拉11月原油出口量预计为每日85万桶。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-17 22:55:19",
+      "content": "市场消息：美国国家航空航天局将支付部分费用以解决推进器问题。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-17 22:55:01",
+      "content": "瑞银集团主席：我们的目标是在资本要求问题上达成折中方案。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-17 22:54:20",
+      "content": "瑞银集团主席：必须确保“瑞士属性”（Swissness）带来的收益与成本之间保持平衡。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-17 22:52:44",
+      "content": "沙特寻求两周停火，中美磋商继续；欧洲云服务商上调价格，英伟达看好明年销量翻倍，华为昇腾960计划提前发布，OpenAI付费份额反超Anthropic......",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-17 22:52:33",
+      "content": "派拉蒙(PSKY.O)下跌5.7%，为7月9日以来最大跌幅。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-17 22:52:18",
+      "content": "法国国防部长：如果不采取纠正措施，2027年预算赤字将超过GDP的6.5%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-17 22:51:16",
+      "content": "瑞银集团主席：瑞士必须努力维护金融中心地位。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-17 22:51:05",
+      "content": "法国国防部长：利率上升将使债务服务成本增加100亿欧元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-17 22:50:56",
+      "content": "据伊朗方面报道，针对德国高级官员近期发表针对伊朗的不当言论，以及德国驻伊朗大使馆采取的某些干涉性行动，伊朗外交部副部长兼西欧司司长阿里礼萨·优素菲召见了德国驻德黑兰大使阿克塞尔·威廉·迪特曼，并向其表达了伊朗方面对这些行为的强烈反对。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-17 22:50:10",
+      "content": "当地政府：乌克兰对俄罗斯别尔哥罗德地区的攻击造成一人死亡、一人受伤。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-17 22:49:25",
+      "content": "【沙特拦截一无人机 碎片坠落致1死2伤】金十数据9月17日讯，沙特阿拉伯民防总局17日发表声明称，也门胡塞武装发射的一架无人机当天在沙特西部城市塔伊夫被拦截并摧毁，产生的碎片坠落造成1人死亡、2人受伤，多栋建筑和一些车辆受损。声明说，死者为也门籍，两名伤者分别为沙特籍和巴基斯坦籍，其中巴基斯坦伤者伤势严重。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-17 22:49:04",
+      "content": "拉脱维亚议员库尔贝格斯：拉脱维亚正与4家潜在的波罗的海航空投资者进行谈判。将与汉莎航空就波罗的海航空的股权问题进行磋商。还将与波兰总理图斯克讨论波罗的海航空相关事宜。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-17 22:48:22",
+      "content": "法国国防部长：2027年预算将包括540亿欧元的节省计划。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-17 22:47:18",
+      "content": "土耳其银行指数上涨9.3%，为4月8日以来最大涨幅。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-17 22:43:01",
+      "content": "【小鹏正与更多车企探讨技术、芯片合作】金十数据9月17日讯，针对小鹏与其他车企进行技术合作一事，小鹏集团董事长、CEO何小鹏回应称：“德系的车企和德系的工业企业有非常多的地方值得认真学习。小鹏现在也在跟大众沟通更多的合作，也在与更多车企或非车企在谈技术、芯片等合作，时机成熟时会公布。在下个月的巴黎车展上，我们可能会宣布一些小鹏在海外合作的几个新案例，也许四季度会看到落地。”",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-17 22:42:54",
+      "content": "美联储重启加息吹响紧缩号角，10年期美债破5%、油价破百推高通胀预期。市场押注未来仍有数次加息，但由于中性利率上移，当前政策力度恐难彻底压制顽固通胀。点击查看…",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-17 22:41:05",
+      "content": "【俄驻加大使：两国“正常双边关系”已不复存在】金十数据9月17日讯，俄罗斯驻加拿大大使奥列格·斯捷潘诺夫17日说，由于加拿大方面的所作所为，俄加两国正常的双边关系“早已不复存在”。据俄新社报道，斯捷潘诺夫当天被问及俄加关系是否已跌至低点时说，“低点”是一个相对概念，“从普遍意义上讲，两国之间早就没有正常的双边关系了”，当前局面应由加拿大方面负责。今年2月，斯捷潘诺夫也曾批评加拿大首先破坏了俄加双边关系。他说两国间已不存在任何传统意义上的双边关系，即便从长远来看，两国关系的稳定也没有希望。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-17 22:40:34",
+      "content": "土耳其Golden Global银行：货币市场基金出现付款违约。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-17 22:32:54",
+      "content": "欧元兑英镑EUR/GBP突破0.86，日内涨0.42%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-17 22:32:22",
+      "content": "美国智库分析指出，美国对伊朗行动难以迅速恢复的，除了超过380亿美元的战争支出，还有被大量消耗的导弹库存、被打乱的舰艇维护周期，以及从其他地区抽调的军事资源。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-17 22:32:18",
+      "content": "市场消息：美国银行监管机构向员工发出裁员通知。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-17 22:32:05",
+      "content": "在美国能源信息署（EIA）报告储存增幅低于预期后，美国天然气期货延续涨势，上涨2.1%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-17 22:31:51",
+      "content": "【加皇银行：英国央行关于QT的公告对英国国债的影响可能微乎其微】金十数据9月17日讯，加拿大皇家银行分析师Neil Mehta在一份报告中表示，英国央行决定放缓量化紧缩步伐，对英国国债市场的影响可能微乎其微。英国央行宣布将量化紧缩的年均规模从目前的700亿英镑放缓至460亿英镑。Mehta表示，尽管该公告导致英国国债收益率小幅走低，但政府债券仍面临通胀担忧和财政动荡带来的压力。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-17 22:30:49",
+      "content": "EIA天然气报告：截至9月11日当周，美国天然气库存总量为32980亿立方英尺，较此前一周增加440亿立方英尺，较去年同期减少1220亿立方英尺，同比降幅3.6%，同时较5年均值高1180亿立方英尺，增幅3.7%。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-17 22:30:03",
+      "content": "美国至9月11日当周EIA天然气库存 440亿立方英尺，预期490亿立方英尺，前值400亿立方英尺。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
     {
       "datetime": "2026-09-17 22:29:44",
       "content": "罗素2000指数上涨1.2%。",
@@ -785,380 +1113,84 @@
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
-    },
-    {
-      "datetime": "2026-09-17 20:56:02",
-      "content": "【机构：英国央行为11月可能的加息敞开大门】金十数据9月17日讯，分析师Suren Thiru和英格兰及威尔士特许会计师协会（ICAEW）指出，尽管英国央行委员们意见仍存在分歧，但鹰派情绪似乎正在增强。央行以6票赞成、3票反对的投票结果将基准利率维持在3.75%，“以平衡伊朗战争引发的能源冲击带来的通胀影响，以及目前尚无证据表明其正在助长更持久、遍及整个经济的物价压力”。 不过，Thiru指出，会议纪要显示通胀担忧日益加剧，这意味着11月加息的可能性已大幅上升。“虽然今年政策仍可能维持不变，但美伊之间持续的敌对状态意味着加息的风险已从一种可能性转变为一种概率。”Thiru表示，下月政府预算案对通胀的影响将成为央行的一项关键考量因素。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-17 20:55:27",
-      "content": "美国国家公路交通安全管理局：克莱斯勒已提交申请召回97349辆美国车辆。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-17 20:54:25",
-      "content": "美国国家公路交通安全管理局：通用汽车(GM.N)正在召回306,511辆美国车辆，原因是后视影像无法正常显示，会降低驾驶员对车辆后方情况的可视范围，从而增加发生碰撞的风险。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-17 20:52:10",
-      "content": "【美国劳动节假期当周初请失业金人数降至19.6万】金十数据9月17日讯，上周，美国初请失业金人数降至7月以来的最低水平，进一步表明劳动力市场趋于稳定。根据周四发布的劳工部数据，截至9月12日当周，初请失业金人数下降了1万，至19.6万人。该周包含劳动节，因此数据在节假日前后可能有所波动。新申请人数的四周移动平均值——这一指标有助于平滑波动——降至20.325万人，创下五周新低。初请失业金人数的下降可能反映了与劳动节及新学年开始相关的季节性波动。尽管如此，总体趋势仍凸显出，除少数几起备受瞩目的裁员公告外，整个经济领域的裁员情况依然较为温和。续请失业金人数在上周降至173万，创下2024年以来的最低水平。尽管裁员规模有限，但由于招聘形势不均，美国人仍对离职持谨慎态度，这进一步巩固了“低招聘、低裁员”的劳动力市场格局。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-17 20:52:08",
-      "content": "【关键条款未达成一致 祥鑫科技终止股权收购事项】金十数据9月17日讯，祥鑫科技公告称，因交易双方未能就关键条款达成一致，决定终止收购苏州酷尔芯科技有限公司51%股权的筹划事项。祥鑫科技表示，本次股权收购事项尚处在筹划阶段，交易双方尚未签订正式的股权收购协议。本次股权收购事项终止后，交易双方均无需对本次交易的终止承担任何违约或补偿责任，不会对公司财务状况和经营状况产生重大影响，也不会影响公司未来的发展规划，不存在损害公司及股东利益的情形。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-17 20:51:37",
-      "content": "在英国央行停止出售长期英国国债后，英国30年期国债收益率日内下跌11个基点，势将创下5月20日以来最大单日跌幅。英国30年期国债收益率现报5.728%，为8月26日以来的最低水平。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-17 20:48:35",
-      "content": "沃尔沃汽车首席执行官：认为到今年年底实现生产40,000辆EX60的原计划将非常困难。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-17 20:47:23",
-      "content": "沃尔沃汽车首席执行官：我们的目标仍然是对电池生产保持某种控制，但可能比我们一年前想的要花更长时间。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-17 20:47:23",
-      "content": "【机构：美联储加息后股市下跌属过度反应，值得逢低买入】金十数据9月17日讯，爱德华兹资产管理公司首席投资官鲍勃·爱德华兹表示，现在美联储加息已经落地，股市可以继续向前走了。他表示：“美联储已经给了市场足够的确定性，股市可以在‘担忧之墙’持续存在的背景下恢复上涨。美联储会议后的股市下跌属于过度反应，是一个值得逢低买入的机会。当股价下跌，但企业前景并未出现相应程度的恶化时，这通常是一个典型的买入信号。我们当前鼓励客户增持股票，并将重点关注估值、营收增长、资产负债表状况以及可持续的现金流。”",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-17 20:47:19",
-      "content": "国际现货黄金今日开盘后连续反弹，隔夜失地尽数收复并刷新周内高点。但这种强势表现似乎开始放缓，短线回调能在哪里找到资金承接？",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-17 20:47:00",
-      "content": "沃尔沃汽车首席执行官：EX60的产量提升略比预期困难。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-17 20:46:30",
-      "content": "市场消息：黑石集团(BX.N)寻求让部分房地产基金投资者套现退出。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-17 20:45:52",
-      "content": "沃尔沃汽车首席执行官：（关于Novo电池工厂）似乎越来越难以快速看到电池工厂的落地。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-17 20:44:57",
-      "content": "【美国周度初请数据意外下跌】金十数据9月17日讯，上周美国人申请失业救济金的数量意外下降，但这一下滑可能夸大了劳动力市场的健康状况。美国劳工部周四表示，截至9月12日当周，各州失业救济金的初步申请人数减少了1万，经季节性调整后为19.6万人，此前经济学家普遍预测申请人数为20.8万人。这一意外下降很可能反映了上周劳动节假期期间的数据波动。由于公共假期日期不固定，很难对申请人数数据进行季节性波动调整。基本趋势表明，劳动力市场在整个夏季的大部分时间里经历波动后，现已恢复平稳。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-17 20:44:12",
-      "content": "沙特国家电视台：沙特民防部门表示，胡塞武装向沙特塔伊夫发射了无人机。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-17 20:41:03",
-      "content": "美联储利率决议符合预期，黄金画门洗盘！多空博弈鹿死谁手？金十研究员Steven正在直播，立即观看>>",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-17 20:40:50",
-      "content": "【瑞银：美联储加息未改股市涨势，建议分散配置、备战波动】金十数据9月17日讯，美联储加息落地引发股市抛售，但货币政策收紧的前景并未吓退市场多头。瑞银全球财富管理首席投资官马克·海菲尔表示，其团队仍“为股市进一步上涨布局，同时为近期波动做好准备”。他表示：“如果紧缩保持温和、信用利差保持稳定、利润继续增长，这轮涨势应有望扩大到更多行业和地区。我们建议分散股票敞口，同时避免过度集中于对利率特别敏感或依赖单一回报驱动因素的领域。”",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-17 20:40:34",
-      "content": "【金十期货热图】历史复盘“美联储加息极少点到为止”：10月再加25基点概率近半，大宗商品涨势要被终结吗？一图查看。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-17 20:40:33",
-      "content": "【机构：英国央行按兵不动是正确决定 经济未需要迫切加息】金十数据9月17日讯，施罗德投资的分析师David Rees在一份报告中指出，英国央行维持利率不变是正确的。他表示，虽然秋季加息的可能性现在似乎更大，但经济状况并不需要加息。“市场可能正在为秋季加息铺路，特别是如果其他央行也在收紧政策的话，但货币政策应以英国经济的基本面为导向，而非受全球局势影响。”他指出，“这并非一个迫切需要加息的经济体。”Rees表示，更大的风险在于财政政策，并强调支出增加可能会推高国内通胀，从而引发加息。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-17 20:39:41",
-      "content": "【中电港：亿科合融减持计划到期，持股降至4.999997%】金十数据9月17日讯，中电港公告，公司股东共青城亿科合融投资管理合伙企业（有限合伙）此前披露拟减持不超过1367.82万股。2026年6月18日至2026年9月17日，亿科合融通过集中竞价和大宗交易累计减持1361.15万股，占公司总股本比例1.791222%，减持计划实施期限已届满。减持后其持有公司3799.5万股，占总股本4.999997%，不再是持股5%以上股东，不会导致公司实际控制权变更。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-17 20:37:38",
-      "content": "美国气象预报机构CPC：厄尔尼诺现象正在增强，预计今秋和冬季发生强烈事件的概率超过90%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-17 20:36:40",
-      "content": "恐慌指数VIX跌至超过一周低点，最新下跌2.26点至15.45。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-17 20:36:15",
-      "content": "GlobalFoundries与迈威尔科技(MRVL.O)将扩大硅锗产能合作协议。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-17 20:35:48",
-      "content": "市场消息：土耳其豁免银行股票回购所涉及的核心资本扣减要求。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-17 20:35:37",
-      "content": "82岁投资传奇吉姆·罗杰斯做了一个让股市多头脊背发凉的决定：几乎清仓全球股票，全仓守在美元短存与实物金银里……点击查看...",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-17 20:34:26",
-      "content": "英伟达(NVDA.O)盘前上涨2.2%，黄仁勋称明年芯片销量将达到今年的两倍。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-17 20:33:49",
-      "content": "英伟达(NVDA.O)CEO黄仁勋：不安全的产品必须被遏制。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-17 20:33:25",
-      "content": "英伟达(NVDA.O)CEO黄仁勋：英伟达明年芯片销量将达到今年的两倍。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-17 20:33:01",
-      "content": "英伟达(NVDA.O)CEO黄仁勋：人工智能安全至关重要。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-17 20:32:31",
-      "content": "沃什上任首次加息！国际金如期兑现走跌！鹰派预期年内可能延续？金十交易学院正在直播中，立即观看！",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-17 20:32:18",
-      "content": "捷克央行将基准利率维持在3.75%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-17 20:31:12",
-      "content": "美国9月费城联储制造业装船指数 27.7，前值27.7。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-17 20:30:49",
-      "content": "美国9月费城联储制造业物价获得指数 31.3，前值17.7。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-17 20:30:11",
-      "content": "美国9月费城联储制造业就业指数 11.8，前值27.9。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-17 20:30:11",
-      "content": "美国9月费城联储制造业新订单指数 29.2，前值30.1。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-17 20:30:11",
-      "content": "美国9月费城联储制造业物价支付指数 48.6，前值40.9。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-17 20:30:11",
-      "content": "美国9月费城联储制造业指数 37.8，预期30.5，前值47.4。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
     }
   ],
   "shmet": [
     {
-      "datetime": "2026-09-17 22:28:41",
-      "content": "【快讯】SHMET09月17日讯，LME伦铜向上触及14500美元/吨，最新报14500.545美元/吨，日内上涨1.88%。",
+      "datetime": "2026-09-17 23:15:26",
+      "content": "【快讯】SHMET09月17日讯，费城半导体指数势将连续第三个交易日上涨，最新涨幅为2.9%。",
       "important": 0,
       "source": "shmet",
       "sentiment": "bull",
       "steel": false
     },
     {
-      "datetime": "2026-09-17 22:26:05",
-      "content": "【快讯】SHMET09月17日讯，市场消息：美国参议院一个委员会投票通过，将第一资本高管布赖恩·约翰逊出任美国消费者金融保护局局长的提名推进至下一阶段。",
+      "datetime": "2026-09-17 23:13:38",
+      "content": "【小鹏集团何小鹏：正在与车企及非车企沟通合作  涵盖技术、芯片等领域】SHMET09月17日讯，小鹏集团董事长何小鹏今日表示，除大众集团，小鹏正在与多家车企及非车企沟通合作，合作方向涵盖技术、芯片等领域。巴黎车展到来之际，小鹏或将对外公布部分合作成果。当日晚间，小鹏G9L完成国内上市，并在中国广州工厂与奥地利格拉茨工厂进行全球制造。新车将于10月12日在法国巴黎举办全球上市发布会。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-17 22:26:02",
-      "content": "【中国同海牙国际私法会议签署加强全球治理谅解备忘录】SHMET09月17日讯，中国驻荷兰大使申博和海牙国际私法会议秘书长克里斯托夫·贝尔纳斯科尼16日在海牙签署《中华人民共和国外交部与海牙国际私法会议关于合作加强全球治理的谅解备忘录》。谅解备忘录强调中国提出的全球治理倡议的重大意义，表明双方将以符合全球治理倡议五大核心理念的方式开展合作，促进在国际法领域落实倡议，就制定和落实国际公约加强交流合作，推动各国提升对“全球治理之友小组”的认识等。申博表示，中方将以此为契机，进一步推动同海牙国际私法会议的合作，共同促进国际法治和各国交往，推动将全球治理倡议的理念转化为国际合作实践。",
+      "datetime": "2026-09-17 23:11:50",
+      "content": "【快讯】SHMET09月17日讯，土耳其股市收盘上涨3%，其中银行股指数飙升8.9%，领涨大盘。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-17 23:11:29",
+      "content": "【快讯】SHMET09月17日讯，据法国媒体：斯泰兰蒂斯(STLA.N)正寻求出售Aramis Group。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-17 22:25:54",
-      "content": "【快讯】SHMET09月17日讯，美国地质调查局：阿拉斯加州尼科尔斯基以西167公里处发生6.3级地震。",
+      "datetime": "2026-09-17 23:05:14",
+      "content": "【快讯】SHMET09月17日讯，斯泰兰蒂斯(STLA.N)：布兰普顿工厂从长期来看不具备商业可行性。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-17 22:23:31",
-      "content": "【城堡证券Rubner看好美股年末走势 称AI股抛售已释放风险】SHMET09月17日讯，随着美股即将进入今年最后一个季度，城堡证券的股票和衍生品策略主管Scott Rubner对接下来的走势“越来越持建设性看法”。他说，投资者短期内可能会经历一段颠簸行情，但如果市场疲软态势持续到月底，应当利用这一机会重新增持市场核心板块。市场对人工智能的情绪已急剧转为负面，相关仓位也有所降低，这些趋势从10月份开始应该会朝相反方向发展，首先是科技股，随后会扩散至更广泛的市场。“这并不意味着我们认为9月份的疲软行情已经结束，”Rubner在给客户的报告中写道，“临近月底，供需格局仍然不利，技术面背景依然对股市构成阻力，而且我们仍然认为未来两周股市可能进一步走低。但市场格局已经开始发生变化。”",
+      "datetime": "2026-09-17 23:03:44",
+      "content": "【快讯】SHMET09月17日讯，瑞银集团主席：仍不会对AT1方案感到满意，因为该方案会给瑞银带来成本。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-17 22:22:43",
-      "content": "【快讯】SHMET09月17日讯，罗马尼亚总统：将给穆雷尚时间考虑，然后再提交提名。",
+      "datetime": "2026-09-17 23:02:34",
+      "content": "【快讯】SHMET09月17日讯，瑞银集团主席：我们必须进行游说，不要认为游说已经过于激烈。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-17 22:21:16",
-      "content": "【快讯】SHMET09月17日讯，美国至9月11日当周EIA天然气库存将于十分钟后公布。",
+      "datetime": "2026-09-17 23:01:21",
+      "content": "【快讯】SHMET09月17日讯，瑞银集团主席：可以接受允许使用AT1的妥协计划。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-17 22:20:21",
-      "content": "【快讯】SHMET09月17日讯，罗马尼亚总统：尚未形成明确的议会多数。",
+      "datetime": "2026-09-17 22:59:20",
+      "content": "【快讯】SHMET09月17日讯，瑞银集团主席：额外一级资本（AT1）是真正的资本。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-17 22:19:14",
-      "content": "【OpenAI据报接近解决又一“千禧年大奖难题” 或将攻克霍奇猜想】SHMET09月17日讯，据报道，OpenAI已接近解决“千禧年大奖难题”中的另一道数学难题——霍奇猜想（Hodge Conjecture）。OpenAI员工预计这一问题可能在不久后得到解决。霍奇猜想是美国克雷数学研究所提出的7个“千禧年大奖难题”之一，解决其中任何一道均可获得100万美元奖金。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-17 22:18:55",
-      "content": "【长江商学院报告：上市公司净利润增速明显好转 市场信心仍有待恢复】SHMET09月17日讯，长江商学院9月17日发布的2026年三季度《投资者情绪调查报告》显示，本期受访者认为A股会上涨的受访者占比约58.6%，较上期（2026年4月）下降5.2个百分点。尽管受访者下调了对股市的预期，市场交易活跃度却在持续上升。报告显示，上市公司净利润增速明显好转。从2022年6月至2026年3月，A股上市公司净利润TTM（连续四个季度加总）同比增速持续处于负增长区间，2026年6月已恢复至5.9%。2025年全年和2026年一季度民营企业净利润均实现约23%的增速，2026年二季度进一步达到36.7%。报告认为，当前经济基本面与资本市场情绪之间的分歧，反映出市场信心仍有待恢复。报告还提到，全球正在经历地缘政治、智能革命、气候变化和金融风险四重因素叠加的深层次调整，但受访者未给予足够重视。",
+      "datetime": "2026-09-17 22:58:51",
+      "content": "【快讯】SHMET09月17日讯，市场消息：美国国家航空航天局最早可能于下周发布关于“星际客机”（Starliner）的公告。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
@@ -1166,6 +1198,14 @@
     }
   ],
   "steel_highlight": [
+    {
+      "datetime": "2026-09-17 23:00:41",
+      "content": "截至23:00收盘，国内期货主力合约跌多涨少，纯苯、聚氯乙烯（PVC）、焦煤、对二甲苯、燃料油、液化石油气（LPG）、苯乙烯跌超2%。涨幅方面，玻璃、纯碱小幅上涨。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": true
+    },
     {
       "datetime": "2026-09-17 21:00:07",
       "content": "夜盘开盘，国内期货主力合约跌多涨少，纯苯、SC原油跌超4%，苯乙烯（EB）跌近4%，燃料油、液化石油气（LPG）、焦煤跌超3%，对二甲苯、合成橡胶跌超2%。涨幅方面，沪银涨超2%，沪锡、沪锌、国际铜、沪金、沪铜涨超1%，沪镍、沪铅涨近1%。",
