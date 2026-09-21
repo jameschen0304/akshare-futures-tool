@@ -1,7 +1,599 @@
 {
   "source": "jin10 flash + shmet + shfe weekly stock",
-  "generated_at": "2026-09-21T16:37:27.168654+00:00",
+  "generated_at": "2026-09-21T18:54:57.419529+00:00",
   "jin10": [
+    {
+      "datetime": "2026-09-22 02:53:20",
+      "content": "国际足联主席因凡蒂诺表示：“我将提议理事会与各大洲足球联合会、会员协会及相关利益相关者建立直接、结构化且有时间限制的咨询机制。”",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 02:52:53",
+      "content": "国际足联主席因凡蒂诺在致各国足协主席的信中表示：“我将询问理事会是否希望委托独立外部机构对国际足联当前的治理框架进行审查，以支持重大战略举措。”",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 02:41:00",
+      "content": "【伊朗总统会见巴基斯坦内政部长 期待持续推动双边合作】金十数据9月22日讯，当地时间21日，伊朗总统佩泽希齐扬在首都德黑兰会见了到访的巴基斯坦内政部长穆赫辛·纳克维。佩泽希齐扬表示，伊朗和巴基斯坦可以通过利用区域潜力来满足各自的需求。伊朗期待持续推动双边合作进程，并希望这些互动能在各领域以更强劲的势头继续开展。伊朗认为，美国的行动和施压为地区国家加强融合与持续互动铺平了道路，伊朗和巴基斯坦代表团之间频繁的会晤与磋商正是这一趋势的有力例证。穆赫辛·纳克维表示，巴方决心在贸易、经济、旅游、政治、文化和科学等所有领域，进一步扩大和深化两国的关系与合作。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 02:39:32",
+      "content": "亚马逊云服务(AWS)：xAI的Grok 4.6模型现已在亚马逊(AMZN.O) Bedrock平台上线。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 02:38:52",
+      "content": "【美联储穆萨莱姆：可能还需要进一步加息以抑制通胀】金十数据9月22日讯，美联储穆萨莱姆周一表示，由于需求强劲以及大宗商品价格冲击已超出石油领域，美联储可能需要进一步提高利率以降低通胀。他同时强调，美联储最好尽早采取行动，而非等待。穆萨莱姆表示：“持续的需求和反复出现的供应压力仍在加剧通胀风险，我认为，如果不采取进一步的政策措施来抑制通胀，18个月后通胀很可能显著高于我们的2%目标，而非达到目标水平。我认为，政策必须对通胀施加有意义的约束。这样美联储才能在约一年半内实现其通胀目标，从而为紧缩政策对经济产生影响留出时间。”他还表示：“与未来更晚、规模更大且可能更为突然的政策举措相比，更早的、渐进式的政策收紧更为妥当，且对经济造成的冲击也更小。”穆萨莱姆指出，通胀“并不是风险，它已经存在”，即使剔除石油及其他供应相关因素的影响，潜在通胀率仍可能高出美联储目标数个百分点，并且“正朝着错误的方向发展”。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 02:33:14",
+      "content": "美国天然气期货日内跌幅达3.00%，现报2.824美元/百万英热。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 02:31:59",
+      "content": "【夜盘主力合约收盘】截至2:30收盘，沪金主力合约收跌0.39%，报939元/克，沪银主力合约收跌0.70%，报16087元/千克，SC原油主力合约收跌2.26%，报714元/桶。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 02:31:54",
+      "content": "派拉蒙(PSKY.O)回吐涨幅，最新下跌0.5%，报10.16美元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 02:30:19",
+      "content": "上海黄金交易所黄金T+D 9月21日（周一）晚盘收盘下跌0.34%报938.1元/克；\n上海黄金交易所白银T+D 9月21日（周一）晚盘收盘下跌0.65%报16041.0元/千克。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 02:30:17",
+      "content": "据纽约时报：SB Energy推迟了IPO。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 02:28:17",
+      "content": "华纳兄弟探索公司(WBD.O)股价继续上涨，最新报30.78美元，涨幅达10.7%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 02:27:48",
+      "content": "据Business Insider：派拉蒙首席执行官埃利森表示，初步计划在大约两周内完成与华纳兄弟探索公司(WBD.O)的交易。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 02:26:38",
+      "content": "【派拉蒙与美国各州达成和解，完成推动与华纳兄弟并购的重要一步】金十数据9月22日讯，据报道，派拉蒙天舞周一与美国加利福尼亚州及其他11个州达成和解，这些州此前曾提起诉讼，阻止该公司以1100亿美元收购华纳兄弟探索公司(WBD.O)，此举为历史上规模最大的媒体合并之一铺平了道路。加州总检察长在新闻发布会上表示，该和解协议包括将更多电影制作带回美国——每年至少增加3亿美元用于国内制作，并同意在交易完成后逐步提高年度电影上映数量。协议还包括，该公司将在协议前两年每年制作30部电影，接下来三年每年制作32部电影。其中每年至少有四部独立电影，且至少20%的影片必须为大片。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 02:25:00",
+      "content": "费城半导体指数涨幅扩大至4%。英伟达(NVDA.O)上涨2.3%，高通(QCOM.O)涨8%，阿斯麦(ASML.O)涨2.05%，英特尔(INTC.O)涨11.9%。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 02:22:12",
+      "content": "美联储穆萨莱姆：商业联系人表示，他们计划将价格提高至“接近3%”。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 02:21:49",
+      "content": "美联储穆萨莱姆：即使剔除供应相关因素，通胀仍然“过高”，高达3%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 02:21:32",
+      "content": "美联储穆萨莱姆：加息最好是“提前且逐步的”，而不是“延后且大幅度的”。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 02:21:01",
+      "content": "美联储穆萨莱姆：商品冲击不仅仅是石油，还包括铜等基础金属。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 02:20:53",
+      "content": "美联储穆萨莱姆：劳动力市场在接近充分就业的水平上保持稳定，它并非通胀压力的来源。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 02:20:18",
+      "content": "美联储穆萨莱姆：利率可能需要进一步上升，以抑制由需求和供应驱动的通胀。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 02:19:35",
+      "content": "美联储穆萨莱姆：如果没有进一步的政策限制，通胀在18个月后仍有可能大幅高于2%的目标。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 02:12:01",
+      "content": "据路透社/益普索调查：仅有17%的美国人赞同美国总统特朗普对生活成本的处理。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 02:11:46",
+      "content": "据路透社/益普索调查：共和党人对特朗普的支持率从一周前的82%降至73%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 02:11:20",
+      "content": "据路透社/益普索调查：美国总统特朗普的支持率降至32%，创下其政治生涯来的最低水平。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 02:10:58",
+      "content": "美国总统特朗普：我们刚刚从新建成的、非常漂亮的直升机停机坪起飞，开启白宫草坪的首次飞行。我要感谢洛克希德·马丁公司首席执行官吉姆·泰克莱特，他为我国做出了这一宝贵贡献。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 02:06:14",
+      "content": "伊朗革命卫队：美国和以色列政权必须认识到，他们迟早要接受一个没有他们邪恶和犯罪存在的地区，这一命运是无法逃避的。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 02:04:02",
+      "content": "【欧盟通过延长对俄制裁方案 期限长达三年】金十数据9月22日讯，当地时间21日，经过长时间的磋商，欧盟成员国就延长对俄制裁达成一致，同意将相关制裁措施延长三年。根据协议，欧盟将把对3000多个俄罗斯个人和实体实施制裁的期限延长36个月，同时将两名俄罗斯企业家移出制裁名单。此次制裁措施延期时间明显长于以往通常为6个月或12个月的续期安排。欧盟希望通过延长制裁期限，避免未来因成员国立场分歧导致制裁措施在续期问题上再次陷入僵局。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 02:01:57",
+      "content": "市场消息：美国总统特朗普周二将会见丹麦和格陵兰领导人。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 02:01:32",
+      "content": "【成本压力促使更多初创企业转向成本更低的开源模型】金十数据9月22日讯，估值约156亿美元的法律初创公司Harvey，曾以训练像OpenAI的GPT-4这样的AI模型为核心，为律师提供专业服务。然而，近期人工智能成本的飙升促使该公司重新审视其对AI巨头的依赖。一位熟悉情况的消息人士透露，Harvey在3月更新了其AI代理系统后，客户使用量激增，但毛利率却急剧下滑——从年初的约50%跌至6月的-50%。如今，Harvey已加入越来越多采用“开放权重式AI”（open-weight AI）的软件企业行列。这些产品通常比美国人工智能开发商的专有技术更便宜，并允许像Harvey这样的公司利用自身数据创建定制模型。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 01:57:17",
+      "content": "美国联邦航空管理局（FAA）局长：纽约肯尼迪机场和拉瓜迪亚机场的进港航班已恢复，但由于通信问题仍在持续，费城和纽瓦克机场的进港航班仍处于停飞状态。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 01:52:07",
+      "content": "【英国据悉即将协助沙特应对胡塞武装袭击】金十数据9月22日讯，据外媒报道，英国已接近同意支持沙特的军事行动，以应对胡塞武装。据多位知情人士透露，英国首相伯纳姆正倾向于提供英国认为是防御性援助。这些人士表示，英国将游说其他国家采取类似措施。一些人称，英国可能向沙特提供空中加油支援。其中一人指出，伯纳姆政府认为，援助沙特军队并击退胡塞武装有助于稳定地区局势，降低对马六甲海峡船只的威胁。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 01:45:03",
+      "content": "市场消息：OpenAI成立独立的数学顾问团队；自8月28日以来，OpenAI模型解决了超过100个数学问题。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 01:43:37",
+      "content": "美国新泽西州总检察长：根据和解协议，合并后的新公司每年将贡献500万美元，总额达2500万美元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 01:42:40",
+      "content": "美国联邦航空管理局（FAA）局长就因电信问题导致的航班中断致歉；他表示，在“确保空域安全之前”，不会在部分东海岸机场为进港航班重启系统。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 01:42:08",
+      "content": "派拉蒙：在解决美国各州总检察长办公室和编剧工会的关切后，已就华纳兄弟探索公司(WBD.O)的交易获得全面批准。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 01:35:36",
+      "content": "美国新泽西州总检察长：如果派拉蒙在任何一年未能满足电影产出要求，公司必须为每部未完成的电影支付3000万美元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 01:35:03",
+      "content": "美国新泽西州总检察长：如果派拉蒙在任何一年未能达到这一电影产量要求，该公司将被要求剥离米拉麦克斯影业。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 01:34:34",
+      "content": "美国联邦航空管理局（FAA）局长：目前尚不清楚纽约地区机场的停飞禁令何时能够解除。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 01:34:18",
+      "content": "美国新泽西州总检察长：派拉蒙与华纳兄弟探索公司(WBD.O)的和解协议包含一项为期五年的、可由法院强制执行的承诺，旨在增加电影产量。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 01:33:57",
+      "content": "美国新泽西州总检察长：派拉蒙与华纳兄弟探索公司(WBD.O)交易和解协议包括至少额外15亿美元的承诺，用于支持国内电影制作。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 01:33:27",
+      "content": "美国加利福尼亚州总检察长：（就派拉蒙和华纳兄弟探索公司(WBD.O)的交易）要求派拉蒙每年至少额外投入3亿美元，将制作业务迁回美国。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 01:32:40",
+      "content": "美国联邦航空管理局（FAA）局长：新电路已准备就绪，预计将于当地时间下午1:30投入运行。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 01:31:24",
+      "content": "市场消息：美国编剧工会与派拉蒙达成和解。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 01:29:53",
+      "content": "美国加利福尼亚州总检察长：派拉蒙已郑重承诺将增加国内生产。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 01:29:22",
+      "content": "美国联邦航空管理局（FAA）局长：备用光纤线路被施工人员意外切断；费城设施出现的通信中断问题导致航班大幅削减。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 01:28:51",
+      "content": "美国加利福尼亚州总检察长就派拉蒙与华纳兄弟探索公司(WBD.O)的交易发表声明称，各州总检察长联盟已与派拉蒙达成和解协议，协议解决了反垄断方面的担忧。不过，该和解协议并不意味着对此次合并的支持，也不意味着对更广泛合并的认可。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 01:23:44",
+      "content": "美国总统特朗普：“蠢民主党”将在波多黎各（共和党票占比4%）和华盛顿特区（共和党票占比3%）获得投票，从而赢得4个参议员席位、8个众议员席位，以及数量惊人的普选票和选举人票；更重要的是，他们将控制全美范围内的投票机制和系统——无论是否合法。届时，共和党将永远无法再赢得任何选举。换言之，这将标志着美国的终结。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 01:21:24",
+      "content": "美联储在固定利率逆回购操作中总计接纳了15个对手方的5.82亿美元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 01:20:34",
+      "content": "美国总统特朗普：如果参议院共和党人不废除“阻挠议事”规则，那么“蠢民主党人”（Dumocrats）就会利用它，而无论我们党表现得多么出色，我都会成为最后一位共和党总统。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 01:18:53",
+      "content": "Meta Platforms(META.O)股价延续涨势，最新涨超10%。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 01:12:49",
+      "content": "马斯克：Grok 4.7是一款集智能、速度和低成本于一体的强大产品。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 01:06:49",
+      "content": "【国际原子能机构：扎波罗热核电站附近袭击频发 核安全风险持续】金十数据9月22日讯，据国际原子能机构9月21日通报，近几周扎波罗热核电站附近发生多起无人机及其他军事袭击，造成多人伤亡，并可能对核安全构成威胁。通报称，本月早些时候的相关事件包括：核电站外围培训中心遭无人机袭击，用于应急发电机的柴油燃料运输遭袭；附近埃涅尔戈达尔市也发生多起袭击，该市有大量核电站工作人员居住。国际原子能机构总干事格罗西对此表示“深切关切”，指出相关事件再次凸显冲突持续对核安全以及核电站工作人员及其家属构成的风险。他强调，对核电站及其附近的任何袭击都是不可接受的，必须立即停止。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 01:00:28",
+      "content": "据美国联邦航空管理局（FAA）声明，该局周一开始在华盛顿周边空域有限度地使用人工智能工具，并将逐步扩展至美国其他地区。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 00:57:21",
+      "content": "WTI原油期货11月合约日内大跌5.00%，现报91.27美元/桶。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 00:54:31",
+      "content": "【波兰寻求分阶段将驻波美军规模扩大至1.5万人】金十数据9月22日讯，波兰国防部副部长斯坦尼斯瓦夫·弗齐亚特克21日在接受波兰RMF广播电台采访时表示，波兰寻求在其境内部署约1.5万名美军士兵。弗齐亚特克说，“我们谈论的最终目标是1.5万名士兵”，其中约4000至5000名美军士兵将驻扎在永久军事基地，另有1万至1.1万名士兵以轮换方式部署。弗齐亚特克表示，驻波美军规模将分阶段扩大，预计2039年达到目标。目前，波兰境内有约6500至7000名美军士兵轮换驻扎。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 00:53:50",
+      "content": "加拿大央行行长麦克勒姆：如果我们加息动作太慢，就不得不非常迅速地加息，而且加息幅度会比我们提早行动时更大。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 00:52:49",
+      "content": "加拿大央行行长麦克勒姆：我们关注市场如何看待利率前景。交易员们正在对利率前景形成自己的判断。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 00:52:02",
+      "content": "【德媒：德国各研究机构上调今明两年德国经济增长预测】金十数据9月22日讯，据德国商报周一报道，德国主要经济研究机构已上调了对这个欧洲最大经济体今年和明年经济增长的预测。德国商报援引未具名消息人士的话报道称，预计2026年德国经济将增长1.3%，而此前预测为0.6%。对于2027年，这些机构预测经济增长率为1.1%，高于此前0.9%的预测。德国经济疲软已成为该国近期选举中的一个重大议题，这些选举导致极右翼和极左翼势力大幅获益。该预测由五家知名经济研究机构联合发布，包括埃森的RWI、慕尼黑的Ifo研究所、基尔的IfW、哈勒的IWH以及柏林的DIW。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 00:50:09",
+      "content": "市场消息：俄罗斯政府已免除谷物出口关税，该政策将持续至2026年底。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 00:48:41",
+      "content": "加拿大央行行长麦克勒姆：我们需要决定是否加息以引导CPI回到2%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 00:48:24",
+      "content": "加拿大央行行长麦克勒姆：通胀预测将影响10月的决策。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 00:47:57",
+      "content": "加拿大央行行长麦克勒姆：问题在于，当前利率是否合适，还是我们需要加息。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 00:47:35",
+      "content": "加拿大央行行长麦克勒姆：我们将重点关注通胀预测。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 00:47:10",
+      "content": "加拿大央行行长麦克勒姆：预计未来几个月通胀将略有上升。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 00:47:06",
+      "content": "加拿大央行行长麦克勒姆：已将第四季度年化增长预测下调至0.75%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 00:46:53",
+      "content": "据美国证交会（SEC）文件，英伟达(NVDA.O)将就此次公开发行向SB ENERGY总计投资30亿美元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 00:45:47",
+      "content": "据美国证交会（SEC）文件，英伟达(NVDA.O)承诺通过私募方式认购15亿美元的SB ENERGY N类普通股。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 00:45:13",
+      "content": "加拿大央行行长麦克勒姆：因为这将使整体通胀更具顽固性。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 00:44:48",
+      "content": "加拿大央行行长麦克勒姆：燃油利润率回至正常水平可能需要一段时间，这令人担忧。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 00:43:47",
+      "content": "胡塞武装：在局势大幅升级的情况下，罪恶的沙特针对贾夫、塔伊兹、萨达和马里卜省发动了157次空袭和导弹袭击，这些行动由从海米斯穆谢特和塔伊夫空军基地起飞的F-15和‘台风’战机实施，同时他们还从纳季兰和吉赞发动了导弹袭击。至此，自局势升级以来，侵略方发动的空袭和导弹袭击总数已达917次。这一重大挑衅必将得到回应。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 00:39:36",
+      "content": "美洲开发银行行长戈尔法因：银行的关注重点在于委内瑞拉的宏观经济框架及具体行业的需求，而非其自身的债务可持续性分析。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 00:39:03",
+      "content": "美洲开发银行行长戈尔法因：电力和社会保障是开发银行委内瑞拉计划的初步优先事项。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 00:38:46",
+      "content": "美洲开发银行行长戈尔法因：开发银行重新与委内瑞拉接触，制定为期两年的合作计划。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 00:36:29",
+      "content": "加拿大央行行长麦克勒姆：不确定性的新纪元不会很快消失。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
     {
       "datetime": "2026-09-22 00:32:40",
       "content": "美国股市延续涨势，纳指涨幅扩大至2%。",
@@ -577,644 +1169,84 @@
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
-    },
-    {
-      "datetime": "2026-09-21 22:47:49",
-      "content": "美国总统特朗普：定价将远低于我们目前支付给加拿大的金额。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 22:47:48",
-      "content": "【美芯片股集体上涨 AMD加入万亿美元市值行列】金十数据9月21日讯，受人工智能需求持续增长带动，美股时段芯片股普遍上涨，AMD(AMD.O)股价盘中涨超9%，一度升至历史新高613.92美元，推动公司市值突破1万亿美元。AMD被视为人工智能领域龙头英伟达(NVDA.O)在图形处理器（GPU）市场的最主要竞争对手之一。AMD成为第四家市值突破1万亿美元的美国芯片制造商，此前达到这一规模的企业包括英伟达、博通(AVGO.O)和美光科技(MU.O)。英伟达于2023年突破1万亿美元市值，目前已成为全球市值最高公司，市值超过5万亿美元。周一，多数芯片股同步上涨。英特尔(INTC.O)盘中股价上涨约11%，高通(QCOM.O)上涨4.1%，费城半导体指数上涨2.6%，升至一个月高位。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 22:47:44",
-      "content": "美国总统特朗普：美国正在与白俄罗斯洽谈钾肥交易。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 22:46:25",
-      "content": "美国副总统万斯：由于伊朗，能源价格处于高位。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 22:43:30",
-      "content": "原油系期货主力合约短线下挫，SC原油跌幅扩大至2.94%，现报709.3元/桶。低硫燃料油（LU）跌幅扩大至3.43%，现报5293元/吨。燃油跌幅扩大至2.82%，现报4107元/吨。沥青跌幅扩大至1.62%，现报5778元/吨。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 22:42:06",
-      "content": "美国副总统万斯：（关于汽油价格）尽力提供缓解。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 22:41:15",
-      "content": "美国副总统万斯：（关于伊朗）将在联合国进一步讨论。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 22:40:42",
-      "content": "美国副总统万斯：（谈及伊朗）将努力保护美国海军。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 22:40:28",
-      "content": "美国副总统万斯：（谈及伊朗）石油仍在正常流通。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 22:39:29",
-      "content": "【上交所：持续对沈鼓集团上市初期交易予以密切关注，依规采取自律监管措施】金十数据9月21日讯，上交所发布关于沈鼓集团相关情况的通报。沈鼓集团自2026年9月17日上市以来，股票价格大幅波动。部分投资者在交易该股过程中存在影响股票交易正常秩序的异常交易行为，上交所持续对违规投资者采取了自律监管措施。公司已发布风险提示公告，提醒广大投资者理性决策，审慎投资。9月21日，该股交易2次触及盘中临时停牌。上交所将持续对该股上市初期交易予以密切关注，依规采取自律监管措施。依法合规参与交易，是市场有序运行的前提。再次提醒广大投资者，关注风险，审慎参与，合规交易。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 22:38:27",
-      "content": "纳斯达克100指数涨幅扩大至2%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 22:37:12",
-      "content": "【哈里伯顿签署协议支持委内瑞拉能源项目】金十数据9月21日讯，全球最大的水力压裂服务提供商哈里伯顿公司表示，已与委内瑞拉石油天然气公司Eneva SA和West-Construcciones CA签署了不具约束力的协议，以支持委内瑞拉的石油和天然气项目开发。据哈里伯顿周一发布的消息，该公司表示将与巴西最大的私营天然气运营商Eneva合作，共同寻找天然气开发机会。哈里伯顿还与工程公司WESCA签署了一份谅解备忘录，表示将支持委内瑞拉的油田开发和规划。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 22:36:09",
-      "content": "【OpenAI开发AI智能体功能，应对Grok Bot与Meta个人AI助手竞争】金十数据9月21日讯，据The Information报道，随着SpaceX和Meta等竞争对手推出可处理多步骤任务的个人AI智能体，OpenAI正面临追赶压力。知情人士透露，OpenAI正在开发新功能，以更直接地竞争SpaceX近期推出的Grok Bot。该产品旨在帮助用户创建持续在线的AI“助手团队”，能够在后台处理日常任务、管理软件并开展协作。另一名知情人士称，OpenAI也在讨论开发一款个人AI助手，以应对Meta近期推出的类似产品。在开发相关产品时，OpenAI可能会重新包装并重新命名其现有“智能体”技术，包括已应用于Codex和ChatGPT中的相关功能。目前，部分OpenAI应用用户已经将其连接至邮箱、日历及其他应用程序，从而实现自动安排会议、通过邮件与企业沟通等任务，有些任务甚至可以持续数天完成。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 22:36:02",
-      "content": "据上交所官网显示，浙江环动机器人关节科技股份有限公司科创板IPO审核状态变更为“终止”。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 22:34:31",
-      "content": "市场消息：CNN、MS NOW和Politico就特朗普禁止其记者进入白宫一事提起诉讼。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 22:34:04",
-      "content": "美联储“三把手”威廉姆斯本周将三次亮相，市场参与者应该重点关注什么？大众汽车15年来首次被剔除出欧元区最重要的蓝筹股指数……",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 22:34:02",
-      "content": "俄罗斯央行副行长：新的预算数据与中央银行之前公布的轨迹没有显著差异。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 22:34:01",
-      "content": "【黄金期货在连涨三日后回落】金十数据9月21日讯，黄金期货在连续三个交易日上涨后走低，市场目前关注美国国债收益率走势以及美联储利率政策。Pepperstone研究主管克里斯·韦斯顿在报告中表示，“短期来看，黄金面临较为艰难的环境。”他指出，影响金价的传统市场宏观趋势显示，在相关因素变得更加有利之前，投资者和交易员可能会减少对黄金的配置。韦斯顿表示，美元走强对黄金构成轻微压力。此外，尽管油价已从近期高位回落，但如果油价再次上涨并推高通胀预期，将“进一步强化利率逻辑”。纽约市场12月交割的黄金期货价格下跌1.1%，报每盎司4375.50美元。白银期货价格下跌0.8%，报每盎司66.605美元。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 22:32:56",
-      "content": "据The Information：OpenAI正在开发新功能以应对Grok Bot的竞争，并考虑如何回应Meta推出的Muse。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 22:28:57",
-      "content": "WTI原油日内大跌4.00%，现报91.45美元/桶。布伦特原油跌超3.2%，报96.50美元/桶。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 22:27:52",
-      "content": "美国联邦航空管理局将纽瓦克机场地面停飞令延长至美国东部时间上午11时15分。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 22:27:37",
-      "content": "美国战略石油储备原油库存上周降至2.846亿桶，为1982年以来最低水平。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 22:27:14",
-      "content": "诺和诺德首席执行官：我不会排除收购已经上市的产品或资产。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 22:24:51",
-      "content": "英国海上贸易行动办公室：船长报告所有船员安全，未对环境造成影响，油轮将继续前往下一个停靠港口。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 22:24:10",
-      "content": "随着伊朗战争持续冲击海湾国家经济，阿联酋敦促采取“新思维”，卡塔尔则主张建立区域“安全框架”，沙特甚至讨论包括互不侵犯安排在内的安全构想……点击查看...",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 22:24:09",
-      "content": "【*ST亚士：确定金浦安宸钰汇为公司重整投资】金十数据9月21日讯，*ST亚士公告，经过公开招募和遴选，2026年9月21日，确定张家港金浦安宸钰汇股权投资合伙企业（有限合伙）（以下简称“金浦安宸钰汇”）为公司重整投资人。同日，经公司第五届董事会第二十五次会议决议通过，公司与重整投资人金浦安宸钰汇签署《亚士创能科技（上海）股份有限公司重整投资协议（产业投资人）》（以下简称“《重整投资协议》”）。虽然《重整投资协议》已经签署，但仍可能存在协议被终止、解除、撤销、认定无效或不能履行等风险。截至本公告披露日尚未形成确定的重整方案，后续重整方案的确定和生效尚需履行相应程序，存在较大不确定性。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 22:24:07",
-      "content": "英国海上贸易行动办公室：一艘液化石油气运输船在霍尔木兹海峡被不明飞行物碎片击中。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 22:23:08",
-      "content": "布伦特原油日内大跌3.00%，现报96.70美元/桶。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 22:18:47",
-      "content": "市场消息：为声援美国有线电视新闻网，美国电视网CBS、NBC、ABC和福克斯将停止报道特朗普。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 22:18:16",
-      "content": "【高市早苗将在与特朗普会谈时强调日本对美投资】金十数据9月21日讯，据日经新闻报道，日本首相高市早苗计划在周二于纽约会晤美国总统特朗普时，强调日本对美国大规模投资的承诺，以及相关投资对美国经济的贡献。此次会谈将在联合国大会期间举行，是两位领导人自高市3月访问华盛顿以来首次正式峰会。两人此前仅在今年6月法国举行的七国集团（G7）领导人会议期间进行过一次约5分钟的非正式交流。作为与特朗普政府达成关税协议的一部分，日本已承诺向美国投资5500亿美元。日本政府和企业目前已确定投资方向，包括石油相关基础设施以及支持人工智能发展的电力供应项目。高市将在会谈中强调，日本投资将在美国创造就业机会。一名日本高级官员表示：“峰会将讨论我们已承诺对美国进行的投资。”",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 22:17:44",
-      "content": "布伦特原油期货跌破每桶100美元，为9月9日以来首次。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 22:17:08",
-      "content": "AMD(AMD.O)涨超9%，市值突破1万亿美元。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 22:16:07",
-      "content": "据日经新闻：日本首相高市早苗计划周二在纽约与美国总统特朗普会晤时，重点强调日本对美国进行大规模投资的承诺，以及这些投资对美国经济的贡献。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 22:13:13",
-      "content": "WTI原油跌破92美元/桶，日内跌3.44%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 22:12:03",
-      "content": "【派拉蒙与各州达成和解，为收购华纳兄弟铺平道路】金十数据9月21日讯，据知情人士透露，派拉蒙已与加州及其他起诉阻止其收购华纳兄弟探索公司交易的州政府达成和解。该人士称，在加州就交易方案达成相关安排后，曾反对该方案的另外四个州最终接受了和解条件，谈判于周末取得进展。预计和解协议将于当天晚些时候公布，并为好莱坞历史上规模最大的并购交易之一铺平道路。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 22:11:11",
-      "content": "【国家开发银行安徽省分行党委委员、副行长吴迎新一行到访安徽建工集团】金十数据9月21日讯，9月21日，国家开发银行安徽省分行党委委员、副行长吴迎新一行赴安徽建工集团走访交流。双方围绕产业布局、项目建设及金融服务等事宜深入洽谈。双方表示，将以此次座谈为契机，进一步深化银企协同，立足各自资源优势与发展定位，持续拓宽康养产业等重点领域合作空间。聚焦重点项目建设、产业模式创新等工作方向，强化精准对接、优化服务方案、创新融资模式，依托金融活水赋能集团高质量发展。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 22:07:54",
-      "content": "COT确实能看到大户持仓变化，但它不是机构实时订单，更不能看到净多增加就直接做多。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 22:05:50",
-      "content": "现货黄金短线走低超20美元，回落至4330美元/盎司下方，日内跌1.10%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 22:02:55",
-      "content": "现货黄金回落至4340美元/盎司下方，日内跌0.90%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 22:02:51",
-      "content": "美联储古尔斯比：如果通胀由需求驱动，那么美联储的经济预测不足以应对。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 22:02:41",
-      "content": "金十图示：2026年09月21日（周一）全球股市指数-美洲市场（盘初）",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 22:02:33",
-      "content": "【据悉OpenAI与Anthropic接近达成AI模型相互压力测试协议】金十数据9月21日讯，据The Information报道，一位知情人士透露，早在OpenAI技术引发一系列网络安全事件以及业内人士发出严厉警告之前，该公司就已与Anthropic就一项具有法律约束力的协议进行谈判，双方将互相进行AI模型压力测试。目前尚不清楚他们是否已最终达成协议。这种相互测试的想法与SpaceX首席执行官埃隆·马斯克上周在All-In峰会上提出的一个想法类似。马斯克当时提议，相互竞争的AI实验室应该在将模型商业化发布之前，以同行评审的形式测试彼此模型的安全漏洞。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 22:00:14",
-      "content": "美联储古尔斯比：担忧服务业通胀可能不会消退。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 22:00:05",
-      "content": "【捷捷微电：目前有少量碳化硅器件的封测 尚未进入量产阶段】金十数据9月21日讯，捷捷微电9月21日在互动平台表示，截至目前公司拥有氮化镓和碳化硅相关发明专利5件和实用新型专利4件，另有4个发明专利尚在申请受理中。公司目前有少量碳化硅器件的封测，该系列产品仍在持续研究推进过程中，尚未进入量产阶段。公司超结MOS主要应用于高压应用领域，有充电器电源、工业电源、充电桩、车载OBC、光伏储能等。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 21:59:51",
-      "content": "市场消息：派拉蒙将和解相关诉讼，为华纳兄弟交易铺路。派拉蒙的和解协议将于晚些时候公布。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 21:59:32",
-      "content": "据港交所文件：北京奕斯伟计算技术股份有限公司通过港交所上市聆讯。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 21:58:40",
-      "content": "【波罗的海干散货运价指数上涨，受所有船型运价走强提振】金十期货9月21日讯，据外媒报道，波罗的海干散货运价指数（BDI）周一上涨，受所有船型运价走强提振。波罗的海干散货运价指数（BDI）较前一交易日上涨29点，涨幅0.8%，至3399点。海岬型船运价指数（BCI）上涨71点，涨幅1.2%，至5839点。海岬型船日均获利增加638美元，至49450美元。巴拿马型船运价指数（BPI）上涨4点，涨幅0.18%，至2255点。巴拿马型船日均获利增加35美元，至20297美元。超灵便型散货船运价指数（BSI）上涨4点，涨幅0.2%，至1771点。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 21:57:35",
-      "content": "【消息称三星HBM4产能明年或翻倍】金十数据9月21日讯，业界消息指出，三星计划将HBM制程中玻璃载体的外包清洗量由今年每月2万片提升至明年每月5万片，较去年每月1万片增至5倍。玻璃载体是HBM制程中临时安装于DRAM晶圆底部的支撑结构，用于防止晶圆在蚀刻与钻孔过程中发生弯曲或破裂。由于玻璃载体可重复使用，实际用量受投料方式及制程良率影响，但若清洗需求增至2.5倍，预示三星HBM4系列明年产量至少翻倍的可能性较高。三星正积极筹备扩大HBM4与HBM4E产能，两款产品均采用12层以上的高堆叠架构。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 21:57:29",
-      "content": "据路透社：沙拉拉油田工程师表示，该油田原油产量已减少约20万桶/日，目前日产量为10万至10.5万桶。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 21:57:03",
-      "content": "据The Information：OpenAI与Anthropic正洽谈相互对对方的人工智能模型进行压力测试。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 21:56:44",
-      "content": "美国地质勘探局：日本延冈东38公里发生5.0级地震。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 21:55:23",
-      "content": "胡塞武装：沙特方面向以色列提供机场和基地，并允许以色列侦察机飞往也门领空。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 21:55:01",
-      "content": "纳斯达克100指数涨幅扩大至1.5%，创下盘中高位。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 21:54:56",
-      "content": "【湖北：发放“算力券”，提升补贴比例，将模型、词元等服务模式纳入补贴范围】金十数据9月21日讯，湖北省人民政府办公厅印发《湖北省三四季度长短结合促进经济稳中向好若干措施》，其中提出，加力推进“六张网”建设。建立项目储备库及年度重大项目清单，安排省预算内投资前期工作费支持重大项目推进。支持各地积极探索“厂网一体、供排综合管理”及特许经营模式，鼓励各类企业参与城市地下管网“投建管运”。深化国有水资源水工程资产化改革，培育壮大现代绿色水经济。发放“算力券”，提升补贴比例，将模型、词元等服务模式纳入补贴范围，切实降低中小微企业、科创团队用算门槛。支持新建负荷、出口型企业等有绿色电力消费需求的市场主体、工业园区利用周边新能源资源开展绿电直连。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 21:51:08",
-      "content": "金十图示：2026年09月21日（周一）华尔街恐惧与贪婪指数（美盘初）",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 21:50:24",
-      "content": "【俄罗斯拟将柴油出口禁令延长至9月底之后】金十数据9月21日讯，据知情人士透露，由于乌克兰持续袭击其炼油厂，俄罗斯准备将大部分柴油出口禁令延长至9月底之后。其中一人称，目前正在考虑将限制措施再延长一个月甚至更长时间。俄罗斯于7月实施柴油出口禁令，当时乌克兰对俄炼油厂发动的一系列袭击，导致俄罗斯石油加工量降至多年低位。该出口限制最初预计仅持续数周，但随着袭击持续，俄罗斯随后将禁令延长一个月，并进一步延长至9月底。截至上周，莫斯科方面一直在研究再次延长柴油出口禁令的问题。在实施限制措施之前，俄罗斯的海运柴油供应量约占全球总量的10%。将这部分供应从市场上撤出，加剧了中东地区供应中断的影响，从而进一步推高了价格。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 21:45:55",
-      "content": "金十图示：2026年09月21日（周一）美盘市场行情一览",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 21:45:26",
-      "content": "纳指涨幅扩大至1%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 21:45:16",
-      "content": "【供应忧虑缓解，油价期货延续跌势】金十数据9月21日讯，受沙特受损的“东西向输油管道”有望尽快恢复输油，以及美伊重启谈判的努力取得进展等乐观情绪推动，原油期货价格连续第四个交易日下跌。美国中央司令部海军中将库珀周末表示，过去两周经由霍尔木兹海峡运输的石油和货物量创下六个月来的最高水平。WTI原油期货盘中下跌3.8%，报每桶96.49美元；布伦特原油期货下跌3.1%，报每桶100.65美元。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 21:45:15",
-      "content": "纽约州将要求人工智能开发者在72小时内报告安全事件。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 21:43:33",
-      "content": "纽约州将从11月起要求大型人工智能开发商向州政府登记注册。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 21:42:08",
-      "content": "俄罗斯将延长柴油出口禁令至九月底之后。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 21:41:36",
-      "content": "金十图示：2026年09月21日（周一）美股热门股票行情一览",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 21:39:42",
-      "content": "费城半导体指数涨超2%，至一个多月来高点，Arm(ARM.O)涨超8%，AMD(AMD.O)涨超7%，美光科技(MU.O)涨近5%，高通(QCOM.O)涨近2%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 21:39:26",
-      "content": "Meta Platforms(META.O)涨超5%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 21:37:06",
-      "content": "阿富汗外交部：阿富外交部召见巴基斯坦驻喀布尔大使馆临时代办，并就巴基斯坦军方侵犯阿富汗领空以及对库纳尔省和帕克蒂卡省平民地区和设施实施空袭一事递交抗议信。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 21:36:35",
-      "content": "美国联邦航空局发布通知，暂停前往纽瓦克机场的航班。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 21:35:48",
-      "content": "金十图示：2026年09月21日（周一）热门中概股行情一览",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 21:33:21",
-      "content": "据俄新社：教皇特使计划于九月底访问俄罗斯。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-21 21:32:54",
-      "content": "华纳兄弟探索股价上涨7%，此前报道称派拉蒙与加州总检察长讨论包括15亿美元投资在内的让步措施。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
     }
   ],
   "shmet": [
     {
-      "datetime": "2026-09-22 00:34:12",
-      "content": "【快讯】SHMET09月22日讯，美国股市延续涨势，纳指涨幅扩大至2%。",
+      "datetime": "2026-09-22 02:52:37",
+      "content": "【选举失利 德国梅前州基民盟主席辞职】SHMET09月22日讯，德国梅前州基民盟主席、此次州议会选举该党头号候选人丹尼尔·彼得斯21日宣布辞去州党主席职务。彼得斯表示，他将为这次“惨败”承担个人责任。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-22 00:33:38",
-      "content": "【美股涨幅扩大 纳斯达克综合指数涨超2%】SHMET09月22日讯，美股涨幅扩大，道琼斯指数涨0.61%，标普500指数涨1.36%，纳斯达克综合指数涨2.01%。",
+      "datetime": "2026-09-22 02:40:52",
+      "content": "【美联储穆萨莱姆：可能还需要进一步加息以抑制通胀】SHMET09月22日讯，美联储穆萨莱姆周一表示，由于需求强劲以及大宗商品价格冲击已超出石油领域，美联储可能需要进一步提高利率以降低通胀。他同时强调，美联储最好尽早采取行动，而非等待。穆萨莱姆表示：“持续的需求和反复出现的供应压力仍在加剧通胀风险，我认为，如果不采取进一步的政策措施来抑制通胀，18个月后通胀很可能显著高于我们的2%目标，而非达到目标水平。我认为，政策必须对通胀施加有意义的约束。这样美联储才能在约一年半内实现其通胀目标，从而为紧缩政策对经济产生影响留出时间。”他还表示：“与未来更晚、规模更大且可能更为突然的政策举措相比，更早的、渐进式的政策收紧更为妥当，且对经济造成的冲击也更小。”穆萨莱姆指出，通胀“并不是风险，它已经存在”，即使剔除石油及其他供应相关因素的影响，潜在通胀率仍可能高出美联储目标数个百分点，并且“正朝着错误的方向发展”。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-22 00:30:30",
-      "content": "【快讯】SHMET09月22日讯，纳斯达克100指数延续涨势，日内上涨2.5%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-22 00:18:38",
-      "content": "【德国经济研究所将2027年德国经济增长预期上调至1.1%】SHMET09月22日讯，德国经济研究所将2027年德国经济增长预期上调至1.1%，此前预期为0.9%。德国各大主要经济研究机构将2026年德国经济增长预期上调至1.3%，此前预期为0.6%。",
+      "datetime": "2026-09-22 02:35:59",
+      "content": "【快讯】SHMET09月22日讯，据报道，软银投资的SB ENERGY推迟IPO。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-22 00:17:34",
-      "content": "【快讯】SHMET09月22日讯，马斯克：7天后，首艘载有Starlink V3卫星的星舰将进入轨道，这些卫星将投入实际运行。",
+      "datetime": "2026-09-22 02:33:50",
+      "content": "【夜盘主力合约收盘】SHMET09月22日讯，截至2:30收盘，沪金主力合约收跌0.39%，报939元/克，沪银主力合约收跌0.70%，报16087元/千克，SC原油主力合约收跌2.26%，报714元/桶。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-22 00:14:54",
-      "content": "【快讯】SHMET09月22日讯，据《商报》报道，经济研究机构预测，2027年德国经济增长率将达到1.1%，高于此前预测的0.9%。",
+      "datetime": "2026-09-22 02:32:17",
+      "content": "【快讯】SHMET09月22日讯，派拉蒙(PSKY.O)回吐涨幅，最新下跌0.5%，报10.16美元。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 02:31:38",
+      "content": "【快讯】SHMET09月22日讯，国际原油期货结算价大幅收跌。WTI原油期货10月合约跌4.51%，报95.78美元/桶。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-22 00:13:23",
-      "content": "【快讯】SHMET09月22日讯，据《商报》援引匿名消息人士报道，德国主要经济研究机构预测，2026年德国经济增长率将达到1.3%，高于此前预测的0.6%。",
+      "datetime": "2026-09-22 02:31:11",
+      "content": "【快讯】SHMET09月22日讯，上海黄金交易所黄金T+D 9月21日（周一）晚盘收盘下跌0.34%报938.1元/克；上海黄金交易所白银T+D 9月21日（周一）晚盘收盘下跌0.65%报16041.0元/千克。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-22 02:30:33",
+      "content": "【快讯】SHMET09月22日讯，据纽约时报：SB Energy推迟了IPO。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-22 00:08:40",
-      "content": "【快讯】SHMET09月22日讯，路透调查：全部32位分析师预计，墨西哥央行将于9月24日将关键利率维持在6.50%不变。",
+      "datetime": "2026-09-22 02:23:56",
+      "content": "【快讯】SHMET09月22日讯，美联储穆萨莱姆：商业联系人表示，他们计划将价格提高至“接近3%”。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-22 00:07:06",
-      "content": "【快讯】SHMET09月22日讯，路透调查：墨西哥央行预计将在2028年中期之前将利率维持在6.50%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-22 00:01:54",
-      "content": "【今日重点关注的财经数据与事件：2026年9月22日 周二】SHMET09月22日讯，① 待定 特朗普与泽连斯基、伯纳姆、高市早苗会面② 11:10 澳洲联储主席布洛克发表讲话③ 14:00 英国8月公共部门净借款④ 18:00 英国9月CBI工业订单差值⑤ 19:00 欧洲央行行长拉加德发言⑥ 20:15 美国至9月5日当周ADP就业人数周度变动⑦ 22:00 欧元区9月消费者信心指数初值⑧ 22:00 美国9月里奇蒙德联储制造业指数⑨ 22:05 美联储威廉姆斯发表演讲⑩ 22:20 美联储杰斐逊发表演讲⑪ 次日01:00 美联储巴尔金发表讲话⑫ 次日02:30 美油移仓换月⑬ 次日04:30 美国至9月18日当周API原油库存",
+      "datetime": "2026-09-22 02:22:54",
+      "content": "【快讯】SHMET09月22日讯，美联储穆萨莱姆：即使剔除供应相关因素，通胀仍然“过高”，高达3%。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
