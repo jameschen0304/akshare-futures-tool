@@ -1,977 +1,745 @@
 {
   "source": "jin10 flash + shmet + shfe weekly stock",
-  "generated_at": "2026-09-23T17:58:04.893546+00:00",
+  "generated_at": "2026-09-24T14:29:50.145118+00:00",
   "jin10": [
     {
-      "datetime": "2026-09-24 01:56:49",
-      "content": "高盛：我们预计关键矿物关税的不确定性将持续。",
+      "datetime": "2026-09-24 22:24:03",
+      "content": "巴勒斯坦总统阿巴斯：我们欢迎美国总统特朗普的20点计划，但在实际情况中并未看到任何进展。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-24 01:52:31",
-      "content": "迪奥：阿尔诺家族将把控股公司Agache与迪奥合并。",
+      "datetime": "2026-09-24 22:21:23",
+      "content": "【消息人士称沙特东西管道原油输送量增加，油轮装载尚未恢复】金十数据9月24日讯，据业内人士、卫星图像和航运数据显示，沙特阿拉伯正通过其东西向输油管道（该管道通往红海出口枢纽延布）增加原油输送量，但原油油轮装载作业尚未恢复。本月早些时候，沙特东西管道设施遭无人机袭击后停运，本周沙特已恢复该管道运营，市场因此期待中东地区受美国与伊朗战争影响而中断的石油供应能够增加。不过，最新消息和数据显示，恢复船运的进展较为缓慢，因为此前原定于周二恢复装载。一名行业消息人士表示，原油正通过该管道输送至沙特红海沿岸的炼油厂，但尚未重新装载至油轮。另外两名消息人士也证实，油轮装载作业仍未恢复。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-24 01:49:04",
-      "content": "智利矿业监管机构称，必和必拓旗下埃斯孔迪达铜矿发生致命事故。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 01:47:59",
-      "content": "迪奥董事会：阿尔诺家族已提交简化LVMH股权结构的方案。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 01:46:55",
-      "content": "哥伦比亚副能源部长：阿根廷用于刺激投资的税收模型可以轻松应用于哥伦比亚。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 01:41:30",
-      "content": "金十数据9月24日讯，白宫官员表示，有关特朗普政府考虑实施柴油出口禁令的报道为“假新闻”。此前市场传出美国可能实施为期90天的柴油出口限制，引发美国超低硫柴油期货一度跌超7%，而欧洲柴油期货因供应担忧上涨超7%。",
+      "datetime": "2026-09-24 22:20:00",
+      "content": "美国至9月18日当周EIA天然气库存将于十分钟后公布。",
       "important": 1,
       "source": "jin10",
-      "sentiment": "bull",
+      "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-24 01:39:05",
-      "content": "欧洲央行首席经济学家连恩：我们没有看到能源冲击引发大规模工资反应。",
+      "datetime": "2026-09-24 22:19:54",
+      "content": "市场消息：纽约州起诉Polymarket运营非法赌博业务。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-24 01:36:10",
-      "content": "微软(MSFT.O)总裁：如果我们只依赖两家公司，人工智能安全就无法取得进展，人工智能应该有独立的评估机构。",
+      "datetime": "2026-09-24 22:19:48",
+      "content": "英国央行副行长布里登：我们不能忽视隔夜指数掉期利率利率期货市场的动向，需了解发生了什么。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-24 01:33:46",
-      "content": "StoneX：巴西甘蔗压榨进度因降雨延误，以及甘蔗含糖量下降，是下调糖供应过剩预期的主要原因。",
+      "datetime": "2026-09-24 22:18:12",
+      "content": "消息人士：沙特东西向输油管道正在增加原油输送量，但延布港的油轮装载尚未恢复。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 22:17:44",
+      "content": "一边是科技巨头砸下数千亿美元的豪赌，一边是变幻莫测的美国政治风向与能源限制。穿越周期的AI神话，究竟还能续写多久？点击查看…",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 22:14:52",
+      "content": "印度证券监管局局长：印度央行将很快宣布一些措施，进一步便利外国投资者的进入。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 22:14:36",
+      "content": "Meta Platforms(META.O)涨幅扩大至3.1%，触及52周高点。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 22:14:21",
+      "content": "欧洲央行：欧洲央行执委施纳贝尔将被任命为国际货币基金组织金融顾问及货币与资本市场部主任。她将于2027年1月3日辞去职务。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 22:11:52",
+      "content": "【中美两国元首将在欢迎仪式上发表致辞】当地时间9月24日上午，国家主席习近平出席美国总统特朗普在白宫举行的欢迎仪式。中美两国元首将发表致辞。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 22:11:08",
+      "content": "美联储保尔森：将通胀率恢复至2%是首要任务。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 22:10:59",
+      "content": "美联储保尔森：关于通胀，最多只能说它没有进一步恶化。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 22:10:45",
+      "content": "美联储保尔森：劳动力市场稳定。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 22:10:43",
+      "content": "美联储保尔森：经济韧性强，显示出增长势头增强的迹象。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 22:10:39",
+      "content": "美联储保尔森：基础通胀“依然顽固地高”。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 22:10:34",
+      "content": "美联储保尔森：通胀风险平衡在九月政策会议前发生变化。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 22:10:28",
+      "content": "美联储保尔森：九月加息有助于将政策调整至更有效的抗通胀状态。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 22:10:18",
+      "content": "美联储保尔森：美联储可能需要再次加息以降低通胀。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 22:08:44",
+      "content": "【习近平主席夫妇在特朗普总统夫妇陪同下步入白宫】当地时间9月24日上午，国家主席习近平出席美国总统特朗普在白宫举行的欢迎仪式。习近平主席夫妇在特朗普总统夫妇陪同下步入白宫。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 22:08:16",
+      "content": "【国盛证券：江西证监局拟对公司罚款29万元并暂停新开证券账户3个月】金十数据9月24日讯，国盛证券公告，公司此前于2026年7月31日收到中国证监会立案告知书，因涉嫌违反账户实名制等规定被立案。2026年9月24日，公司及相关当事人收到江西证监局《行政处罚事先告知书》及《行政监管措施事先告知书》，拟对公司给予警告并处29万元罚款、责令改正、暂停新开证券账户3个月。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 22:06:42",
+      "content": "【习近平主席车队抵达白宫】当地时间9月24日上午，国家主席习近平和夫人彭丽媛乘车抵达白宫，出席美国总统特朗普举行的欢迎仪式。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 22:06:26",
+      "content": "美联储的保尔森：支持将通胀率降至2%的政策路径。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 22:06:09",
+      "content": "美联储保尔森：人工智能建设推高了顽固的通胀。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 22:05:48",
+      "content": "美联储保尔森：九月份的通胀报告推动了加息。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 22:00:56",
+      "content": "【习近平主席车队将抵达白宫】当地时间9月24日上午，国家主席习近平和夫人彭丽媛乘车将抵达白宫，出席美国总统特朗普举行的欢迎仪式。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 22:00:41",
+      "content": "金十图示：2026年09月24日（周四）全球股市指数-美洲市场（盘初）",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 22:00:02",
+      "content": "美国8月新屋销售年化月率 6.4%，前值-10.50%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 22:00:02",
+      "content": "美国8月新屋销售总数年化 68.4万户，预期61.5万户，前值60.7万户。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 22:00:00",
+      "content": "2026年FOMC票委、费城联储主席保尔森将于十分钟后在金融科技大会发表讲话。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 21:59:13",
+      "content": "【源杰科技：控股股东等拟减持不超过0.2317%股份】金十数据9月24日讯，源杰科技公告，控股股东、实际控制人ZHANG XINGANG先生与一致行动人秦燕生、秦卫星、张欣颖计划因自身资金需求，通过集中竞价交易或大宗交易合计减持公司股份不超过28.85万股，即不超过公司总股本的0.2317%，减持期间为2026年10月26日~2027年1月25日。本次减持不会导致公司控制权发生变化。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 21:56:27",
+      "content": "英国央行副行长布里登：英国央行制定退出量化宽松的计划极为重要，使其成为更具可信度的工具。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 21:55:42",
+      "content": "【据悉OpenAI智能体在获取数据时曾尝试攻击另外四个网站】金十数据9月24日讯，据华尔街日报报道，今年早些时候，OpenAI的AI智能体在执行常规的网络数据搜集任务时，为了获取数据采取了非同寻常的手段。非营利AI研究机构Transluce以及澳大利亚政府最新公布的调查结果显示，与OpenAI相关的AI智能体在5月和6月曾试图入侵大学和政府网站以获取信息。这些入侵尝试是AI智能体为实现目标而“越轨”行事的一系列事件中的最新案例。然而，这一次的入侵尝试并非源于OpenAI针对网络安全的评估测试（即要求模型进行黑客攻击），而是似乎属于模型在互联网上查找公开信息能力的内部基准测试。研究人员表示，这些智能体试图获取的信息包括泰国劳动力统计数据以及澳大利亚皮肤病学相关数据。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 21:54:36",
+      "content": "【CNN等媒体要求法院就白宫访问权举行听证会】金十数据9月24日讯，据法院文件显示，CNN、MS NOW 和美国政治新闻网站Politico 在周四提交申请，要求立即举行法庭听证会，因特朗普政府尚未执行法院此前连夜发布的命令，恢复这些媒体进入白宫区域的权限。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 21:53:46",
+      "content": "英国央行副行长布里登：我们必须采取逐次会议的方式来决定利率。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 21:52:59",
+      "content": "英国央行副行长布里登：与2022年不同，我们现在的政策处于紧缩状态。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 21:51:44",
+      "content": "【联合化学：控股股东及其一致行动人拟减持不超过3%股份】金十数据9月24日讯，联合化学公告，控股股东及其一致行动人龙口阳光化学有限公司、烟台宝联投资中心（有限合伙）拟于2026年10月26日至2027年1月25日，通过集中竞价或大宗交易减持不超过470.4万股，占公司总股本的3%。其中，大宗交易减持不超过313.6万股，占2%；集中竞价减持不超过156.8万股，占1%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 21:51:12",
+      "content": "金十图示：2026年09月24日（周四）华尔街恐惧与贪婪指数（美盘初）",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 21:50:00",
+      "content": "美国8月新屋销售总数年化将于十分钟后公布。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 21:49:43",
+      "content": "据华尔街日报：OpenAI智能体在搜集数据时试图入侵另外四个网站。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 21:49:07",
+      "content": "英国央行副行长布里登：DMP调查、PMI、代理人调查对我来说非常重要。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 21:48:35",
+      "content": "英国央行副行长布里登：我倾向于关注企业如何看待定价决策。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 21:47:58",
+      "content": "英国央行副行长布里登：不能等到有了第二轮效应的确凿证据才采取行动。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 21:47:19",
+      "content": "市场消息：欧盟对今日俄罗斯法国分社前高级执行官克谢尼娅·费奥多罗娃实施制裁。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 21:47:05",
+      "content": "英国央行副行长布里登：风险平衡已发生变化，如果风险逐渐显现，英国央行将需要作出回应。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 21:47:00",
+      "content": "英国央行副行长布里登：能源冲击越大、持续时间越长，政策响应的可能性就越高。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 21:46:43",
+      "content": "据以色列第12频道：由于安全原因，载有内塔尼亚胡的“锡安之翼”飞机在美国一处偏远的军事机场降落。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 21:46:05",
+      "content": "金十图示：2026年09月24日（周四）美盘市场行情一览",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 21:45:57",
+      "content": "英国央行副行长布里登：能源价格下降的路径完全并不明确。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 21:44:47",
+      "content": "【行付通支付获批合并东方付通支付】金十数据9月24日讯，非银行支付机构重大事项变更许可信息公示（截至2026年9月）显示，同意上海行付通支付有限公司合并东方付通支付科技有限公司并增加注册资本至3亿元，东方付通支付科技有限公司终止支付业务并注销《支付业务许可证》。公示的发布时间为9月24日。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 21:43:04",
+      "content": "市场消息：巴西取消外汇信贷额度拍卖。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 21:41:38",
+      "content": "金十图示：2026年09月24日（周四）美股热门股票行情一览",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 21:40:30",
+      "content": "【泽连斯基：美国将推动能源停火及美俄乌三方会谈】金十数据9月24日讯，据Axios报道，乌克兰总统泽连斯基表示，美国正在推动采取3项立即措施，以推动乌克兰战争降级，分别是在能源领域实施停火、重新开放粮食走廊，以及举行美俄乌三方会晤。泽连斯基称，美国提出了先举行技术团队会议的可能性，而不是直接举行领导人级别会谈。美国还提出阿布扎比作为可能的会谈地点。“我们持开放态度——任何国家、任何形式都可以。”他说。乌克兰总统表示，他在与特朗普会面时还提到，12月在迈阿密举行的二十国集团（G20）峰会也可能成为举行领导人级三方峰会的机会。另外，据一名直接了解情况的消息人士透露，普京特使德米特里耶夫将于周四抵达纽约，与美国特使威特科夫和特朗普女婿库什纳会面，讨论美国最新提出的方案。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 21:38:37",
+      "content": "伊朗外交部：双方还讨论了双边问题，特别是伊朗船只在里海遭非法袭击事件及解决相关问题的方式。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 21:38:32",
+      "content": "伊朗外交部：双方还就欧洲和中东局势发展交换意见，并同意继续保持接触，以防止两国关系中的紧张局势升级。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 21:38:29",
+      "content": "伊朗外交部：两国外交部长还强调，应保持两国之间的沟通渠道，并强调采取必要双边措施管理两国关系的重要性。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 21:38:23",
+      "content": "伊朗外交部：乌克兰外长与伊朗外长举行会晤，会晤期间，双方强调了外交在管控紧张局势中的重要性。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 21:37:28",
+      "content": "【景嘉微：JM9、JM11系列GPU已完成与openKylin 3.0的全面适配与深度调优】金十数据9月24日讯，景嘉微9月24日接受机构调研时表示，在软硬件适配层面，JM11系列已全面适配Windows、Linux及国产主流操作系统，与飞腾、鲲鹏、海光、龙芯等国产CPU实现全面兼容，与银河麒麟、统信UOS、凝思等操作系统完成深度适配，与国内主要计算机整机厂商建立深度合作关系，构建起“CPU+GPU+OS”全栈自主可控闭环。近期，公司JM9、JM11 系列GPU已完成与openKylin 3.0（Linux 7.0内核）的全面适配与深度调优。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 21:35:57",
+      "content": "乌克兰总统泽连斯基：历史上首次，我们听到俄罗斯的骄傲所在——石油产业——正面临困境。但石油本身并不是乌克兰的目标，汽油、柴油，或者工厂和港口本身也不是目标。我们的目标是削弱俄罗斯为这场冲突提供资金并使其变得更加残酷和具有破坏性的能力。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 21:35:37",
+      "content": "金十图示：2026年09月24日（周四）热门中概股行情一览",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 21:35:04",
+      "content": "据Axios：泽连斯基表示，美国正在推动采取3项立即措施，以推动乌克兰战争降级，分别是在能源领域实施停火、重新开放粮食走廊、举行美俄乌三方会晤。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 21:32:43",
+      "content": "标普500指数9月24日（周四）开盘下跌35.43点，跌幅0.46%，报7670.96点；\n纳斯达克综合指数9月24日（周四）开盘下跌211.68点，跌幅0.79%，报26724.36点；\n道琼斯指数9月24日（周四）开盘下跌107.04点，跌幅0.21%，报51404.55点。",
       "important": 0,
       "source": "jin10",
       "sentiment": "bear",
       "steel": false
     },
     {
-      "datetime": "2026-09-24 01:32:55",
-      "content": "StoneX：墨西哥和中美洲甘蔗作物风险增加。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 01:32:04",
-      "content": "巴西央行：上周资金流动净额为流出10.91亿美元。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 01:31:38",
-      "content": "巴西央行：截至9月18日当月，巴西资金流动净额为流出70.78亿美元。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 01:29:01",
-      "content": "微软(MSFT.O)总裁：现在是投资海湾国家的最佳时机。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 01:25:28",
-      "content": "【微软将在海湾地区追加投资20亿美元 扩大AI和云业务布局】金十数据9月24日讯，微软(MSFT.O)宣布将在中东海湾地区追加约20亿美元投资，这是美国与伊朗冲突爆发后，公司首次公布该地区业务布局更新。微软表示，到2030年将在沙特阿拉伯、科威特、卡塔尔和阿联酋四个海湾国家投入100亿美元，其中包括去年宣布向阿联酋投资79亿美元的计划。微软总裁布拉德·史密斯表示，新投资将用于云计算业务、人工智能和数据中心运营，包括资本支出和运营支出。其中约4亿美元将用于海底电缆及相关基础设施建设，以提升网络韧性和数据传输能力。微软此前还向阿联酋科技公司G42投资15亿美元，并参与当地AI数据中心建设。不过，伊朗冲突期间，多个数据中心遭到影响，亚马逊近期披露，阿联酋和巴林部分受袭设施中的部分数据未能恢复。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 01:16:40",
-      "content": "美联储在固定利率逆回购操作中总计接纳了4个对手方的4.61亿美元。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 01:13:55",
-      "content": "据日经新闻：九州旅客铁道与SBI合作推出的应用程序预计将提供包括银行、证券等在内的金融产品。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 01:10:34",
-      "content": "乌克兰地区州长：俄罗斯空袭乌克兰东部顿涅茨克州奥列克桑德里夫卡造成5人死亡、6人受伤。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 01:10:22",
-      "content": "【俄外长：俄支持古巴关于全面解除封锁的诉求】金十数据9月24日讯，俄罗斯外交部23日发布消息说，俄外长拉夫罗夫当天在纽约举行的联合国大会高级别会议周期间表示，俄方坚定支持古巴的合理诉求，要求立即全面解除对古实施的贸易、经济、金融和能源封锁。拉夫罗夫当天同古巴外长罗德里格斯举行会晤，双方就双边合作热点问题交换意见，商定继续在国际平台协调立场，重点依托联合国框架开展协作。双方确认，将持续巩固俄古战略伙伴关系，维护全球和地区安全，推动构建更加公正的多极世界秩序。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 01:04:31",
-      "content": "【美国5年期国债收益率升破5% 为2007年以来首次】美国5年期国债收益率在拍卖后进一步上升，最新上涨19.04个基点，报5.032%，为2007年以来首次突破5%关口。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 01:02:08",
-      "content": "美国至9月23日5年期国债竞拍-投标倍数 2.21，前值2.37。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 01:02:08",
-      "content": "美国至9月23日5年期国债竞拍-得标利率 5.033%，前值4.39%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 01:02:08",
-      "content": "美国至9月23日5年期国债竞拍-得标利率配置百分比 30.34%，前值19.22%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 01:01:26",
-      "content": "美国驻联合国大使：俄乌冲突的蔓延是危险且不可接受的。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 01:01:12",
-      "content": "美国驻联合国大使：我们强烈谴责任何扩大俄乌冲突的企图。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 00:59:11",
-      "content": "美国超低硫柴油期货跌超5%，此前消息称特朗普政府正考虑实施为期90天的柴油出口禁令。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 00:56:57",
-      "content": "【消息人士：特朗普政府拟实施90天柴油出口禁令】金十数据9月24日讯，据Politico援引五位知情人士报道，特朗普政府正在制定一项暂停柴油出口90天的计划，试图缓解高能源价格对共和党中期选举的不利影响。多名知情人士称，该计划在政府内部和石油行业引发分歧，部分官员和炼油企业警告，短期降价效果可能被未来燃油价格上涨抵消。近期，美国对伊朗发动战争以及乌克兰袭击俄罗斯炼油厂，推动柴油价格升至高位。美国能源部长赖特、美国财长贝森特和美国内政部长伯古姆均对全面禁令表示反对。赖特称，简单禁止柴油出口“无法解决问题”，因为美国炼油厂同时生产汽油和航空燃料，限制柴油出口可能导致炼油减产，推高其他燃料价格。报道指出，部分农业州共和党议员近期要求政府采取行动降低柴油成本。参议员查克·格拉斯利此前公开支持出口禁令，称高柴油价格正在“摧毁农民收入”。目前，特朗普倾向于在本周末前宣布相关措施，但最终决定仍存在变化可能。",
+      "datetime": "2026-09-24 21:32:34",
+      "content": "【习近平将出席美国总统特朗普举行的欢迎仪式】当地时间9月24日上午，国家主席习近平将出席美国总统特朗普在白宫举行的欢迎仪式。",
       "important": 1,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-24 00:54:48",
-      "content": "金十图示：2026年09月23日（周三）美股热门股票行情一览（美股盘中）",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 00:54:31",
-      "content": "金十图示：2026年09月23日（周三）热门中概股行情一览（美股盘中）",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 00:53:49",
-      "content": "现货白银日内大跌4.00%，现报64.36美元/盎司。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 00:52:40",
-      "content": "据Politico：五位知情人士表示，美国准备实施为期90天的柴油出口禁令。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 00:51:19",
-      "content": "美国5年期国债收益率涨16个基点，报4.99%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 00:47:16",
-      "content": "IMF总裁格奥尔基耶娃：财政挑战日益严峻。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 00:46:55",
-      "content": "IMF总裁格奥尔基耶娃：全球经济的中期前景疲软。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 00:46:40",
-      "content": "俄罗斯外长拉夫罗夫：俄罗斯不会“暂停”在乌克兰的军事行动。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 00:44:27",
-      "content": "波音(BA.N)与土耳其航空达成协议，最多订购150架737 MAX飞机。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 00:44:09",
-      "content": "印度政府表示，食用油进口关税的调整将于9月24日起生效。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 00:42:30",
-      "content": "印度政府将精炼葵花油的基本进口关税从32.5%下调至22.5%。",
+      "datetime": "2026-09-24 21:30:31",
+      "content": "黄金加速下跌，多头还有救吗？关键支撑在哪里？金十研究员Steven正在直播，立即观看>>",
       "important": 0,
       "source": "jin10",
       "sentiment": "bear",
       "steel": false
     },
     {
-      "datetime": "2026-09-24 00:40:23",
-      "content": "印度政府下令将粗向日葵油的基本进口关税从10%下调至0%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 00:40:11",
-      "content": "据伊朗媒体：在联合国大会期间，伊朗总统会见了伊拉克总理，双方举行了会谈。",
+      "datetime": "2026-09-24 21:30:28",
+      "content": "金十图示：2026年09月24日（周四）各大货币对表现",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-24 00:38:20",
-      "content": "微软(MSFT.O)：加深与科威特、卡塔尔、沙特阿拉伯和阿联酋网络安全机构的合作关系。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 00:38:09",
-      "content": "印度政府下令将精炼棕榈油和精炼大豆油的进口关税下调至27.5%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 00:35:37",
-      "content": "美国能源部长赖特：预计未来5-10年天然气价格将保持平稳。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 00:35:25",
-      "content": "国际货币基金组织：自2月底开始的中东战争通过能源、大宗商品和供应链中断，显著改变了全球经济增长轨迹。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 00:35:17",
-      "content": "国际货币基金组织：支持性的财政政策、私人投资以及人工智能生产率提升潜力，可能支撑中期全球经济增长。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 00:35:05",
-      "content": "微软(MSFT.O)计划到2030年在中东地区投资4亿美元用于海底和陆地连接。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 00:34:51",
-      "content": "微软(MSFT.O)的投资包括在该地区扩展云计算和人工智能基础设施。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 00:34:32",
-      "content": "微软(MSFT.O)在地区冲突后推出中东数字韧性倡议。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 00:34:12",
-      "content": "印度政府下令将粗棕榈油和原油大豆油的进口关税从10%下调至5%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 00:33:42",
-      "content": "微软(MSFT.O)正在扩大对中东地区的投资，计划到2030年投资超过100亿美元。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 00:33:32",
-      "content": "国际货币基金组织：中东战争爆发时，全球公共债务规模已经接近历史高位。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 00:33:07",
-      "content": "美国能源部长赖特：我认为天然气是“美国的能源超级力量”。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 00:31:30",
-      "content": "美国2年期国债收益率升至2024年5月以来最高水平，最新上涨11.82个基点，报4.895%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 00:30:30",
-      "content": "甲骨文(ORCL.N)：将通过新的肿瘤学电子健康记录系统（Oncology EHR）推动癌症治疗发展。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 00:28:40",
-      "content": "印度政府下调食用油进口关税。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 00:25:57",
-      "content": "美国国务院：美国国务院已作出决定，批准向希腊政府出售军用航空器维修及返厂支持服务的潜在对外军售。该交易预计总金额为1.01亿美元。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 00:20:57",
-      "content": "据华尔街日报：Anthropic两名高管投资彼得·蒂尔（Peter Thiel）支持的初创公司，该公司正开发可检测空气中病毒的硬件，以应对AI可能带来的生物安全风险。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 00:12:14",
-      "content": "俄罗斯外长拉夫罗夫：双方已达成协议，将继续进行磋商。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 00:10:53",
-      "content": "俄罗斯外长拉夫罗夫强调需要尽快恢复双边关系。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 00:10:40",
-      "content": "俄罗斯外长拉夫罗夫与美国国务卿鲁比奥讨论了中东、外高加索、拉丁美洲和加勒比地区的局势。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 00:05:56",
-      "content": "阿曼海事安全中心：一名船员在袭击中遇害。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 00:05:41",
-      "content": "阿曼海事安全中心：在商船“CAPE DAO”号遭到袭击后，已疏散了船上船员。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 00:02:51",
-      "content": "Experian：成为首个与谷歌(GOOG.O)Gemini 集成的个人理财应用。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 00:01:37",
-      "content": "俄罗斯统计局：截至9月21日的当周，消费者通胀率为0.06%（一周前为0.02%）。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 00:00:00",
-      "content": "【今日重点关注的财经数据与事件：2026年9月24日 周四】\n① 待定 国内成品油开启新一轮调价窗口\n② 09:30 澳大利亚8月季调后失业率\n③ 15:30 瑞士央行公布利率决议\n④ 16:00 德国9月IFO商业景气指数\n⑤ 16:10 美联储威廉姆斯参加谈话\n⑥ 18:00 英国9月CBI零售销售差值\n⑦ 20:00 美联储巴尔金参加谈话\n⑧ 20:30 加拿大7月零售销售月率\n⑨ 20:30 美国至9月19日当周初请失业金人数\n⑩ 20:30 美国第二季度经常帐\n⑪ 20:50 美联储哈马克发表讲话\n⑫ 22:00 美国8月新屋销售总数年化\n⑬ 22:10 美联储保尔森发表讲话\n⑭ 22:30 美国至9月18日当周EIA天然气库存",
+      "datetime": "2026-09-24 21:30:25",
+      "content": "【美股三大指数低开 科技板块普跌】金十数据9月24日讯，美股开盘，道指跌0.19%，标普500指数跌0.51%，纳指跌0.75%。SK海力士(SKHY.O)跌2%，阿斯麦(ASML.O)跌2%，英特尔(INTC.O)跌1.8%，美光科技(MU.O)跌1.7%，甲骨文(ORCL.N)跌5.3%。",
       "important": 1,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-23 23:56:15",
-      "content": "芬兰与乌克兰签署无人机协议以加强防务合作。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-23 23:50:44",
-      "content": "【华工科技：美国FCC草拟新款数据中心光模块进口相关规则的事项目前对公司尚无影响】金十数据9月23日讯，有投资者问华工科技，近期媒体报道美国FCC在草拟针对新款数据中心光模块进口的相关规则。请问：如果后续海外政策对中国大陆生产的新款光模块进行约束，泰国基地产线生产的产品，是否可以全部承接现有北美客户的新款订单？公司针对相关政策风险做了哪些预案？华工科技在互动平台表示，该事项目前对公司尚无影响，公司将持续密切跟踪该事项的最新进展，提前做好相应预案，保障各项经营业务平稳开展。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-23 23:47:40",
-      "content": "【美国扩大国债回购计划 市场质疑难解财政压力】金十数据9月23日讯，美国财政部表示，将于周四回购至多60亿美元的较长期政府债券，这是财长贝森特扩大回购计划后的首次此类操作，旨在遏制近期借贷成本上升。此次回购规模上限是8月初最初向投资者公布的20亿美元的三倍。该原定计划已在8月19日的一项意外公告中被取消，当时财政部表示，将把此类操作规模“至少扩大一倍”。公告发布后，作为周四回购目标的20年至30年期美国国债延续跌势，30年期美债收益率盘中一度升至5.38%，接近本月早些时候约5.40%的高点，也是2007年以来的最高水平。面对外界批评称该举措相当于市场干预、无法解决根本性的财政挑战，贝森特曾为扩大国债回购规模辩护称，采取行动是因为他认为市场价格正“偏离”均衡水平。国际金融协会（IIF）周三则警告称，试图通过“金融工程”手段无法解决潜在的债务动态问题，通过在二级市场购买证券等干预措施“可能带来暂时缓解，但无法解决推动债务增长的结构性因素”。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-23 23:44:38",
-      "content": "伊朗原子能组织负责人：国际原子能机构此前获得了进入伊朗所有地点的权限，而且他们进行了多次核查，但没有一份报告显示伊朗存在不遵守规定的情况。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-23 23:41:43",
-      "content": "美国10年期国债收益率持续走高，升至5.081%，为2007年7月17日以来最高。",
+      "datetime": "2026-09-24 21:30:15",
+      "content": "美国上周初请失业金人数意外降至19.7万人，仍处历史低位附近，表明美国企业在高息环境下依旧“死守”不裁员……点击查看…",
       "important": 1,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-23 23:40:50",
-      "content": "金十图示：2026年09月23日（周三）全球股市指数-欧洲市场",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-23 23:40:03",
-      "content": "【据悉派拉蒙考虑邀请马斯克作为股权投资者】金十数据9月23日讯，据Semafor报道，派拉蒙正在消化华纳兄弟探索交易之际寻求改善财务状况，并寻找新的资金来源。据知情人士透露，公司高管已讨论邀请埃隆·马斯克加入派拉蒙股权投资者财团。知情人士表示，马斯克是派拉蒙首席执行官大卫·埃里森考虑邀请加入该投资财团的多位富豪之一。马斯克与大卫·埃里森的父亲、甲骨文创始人拉里·埃里森长期关系密切，而正是拉里·埃里森的资金和人脉，在一定程度上促成了派拉蒙收购华纳兄弟的交易。拉里·埃里森已亲自为派拉蒙收购华纳兄弟交易提供超过400亿美元股权融资担保。目前尚无法确定马斯克潜在投资的规模。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-23 23:37:15",
-      "content": "德国DAX30指数9月23日（周三）收盘下跌188.16点，跌幅0.73%，报25411.85点；\n英国富时100指数9月23日（周三）收盘上涨1.92点，涨幅0.02%，报10710.25点；\n法国CAC40指数9月23日（周三）收盘下跌31.50点，跌幅0.39%，报8123.41点；\n欧洲斯托克50指数9月23日（周三）收盘下跌23.87点，跌幅0.38%，报6300.85点；\n西班牙IBEX35指数9月23日（周三）收盘下跌160.47点，跌幅0.81%，报19631.33点；\n意大利富时MIB指数9月23日（周三）收盘下跌79.33点，跌幅0.15%，报52016.50点。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-23 23:36:33",
-      "content": "伊朗外交部发言人：相关条件包括接受霍尔木兹海峡安全航线安排，该安排已由两岸沿岸国家达成共识。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-23 23:34:42",
-      "content": "伊朗外交部发言人：伊朗在与美国进行的长达两小时的沟通过程中，明确阐述了恢复外交关系的条件。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-23 23:34:37",
-      "content": "美联储古尔斯比：关税、新冠疫情期间就是这种情况，石油方面可能也正在发生类似情况，我们最好保持谨慎。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-23 23:34:08",
-      "content": "美联储古尔斯比：更好的做法是认为，较大的负面供应冲击可能会对通胀产生相当持久的影响。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-23 23:33:30",
-      "content": "伊朗外交部发言人：周二，伊朗与美国通过卡塔尔调解人进行了另一轮信息交流和澄清。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-23 23:33:03",
-      "content": "美国至9月23日4个月国债竞拍-得标利率配置百分比 40.67%，前值23.62%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-23 23:32:55",
-      "content": "美国至9月23日4个月国债竞拍-得标利率 4.135%，前值4.03%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-23 23:32:40",
-      "content": "美国至9月23日4个月国债竞拍-投标倍数 2.81，前值2.72。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-23 23:29:58",
-      "content": "美、布两油短线拉升，WTI原油向上触及92美元/桶，日内涨2.82%。布伦特原油突破98美元/桶，日内涨2.76%。伊媒称伊朗外长阿拉格齐与美国的接触未经授权。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-23 23:27:36",
-      "content": "【伊媒：阿拉格齐与威特科夫接触未经批准 需要做出解释】金十数据9月23日讯，据伊朗塔斯尼姆通讯社报道，伊朗外长阿拉格齐与特朗普谈判代表之一威特科夫的互动，并未与相关决策和负责机构（包括最高国家安全委员会）进行协调或获得批准。有关“该行动经过协调”的一些说法并不属实。伊朗最高国家安全委员会秘书雷扎伊此前在电视采访中表示，原计划是再次向“中间人”传达伊朗提出的7项条件。该说法被认为间接表明，阿拉格齐并未获得超出这一授权范围、直接与威特科夫互动的许可。据此，阿拉格齐有必要就这一被指“不当”的行动向有关机构和伊朗民众作出解释，说明其为何在违背国家利益的情况下采取这一举动。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-23 23:26:33",
-      "content": "谷歌(GOOG.O)推出Gemini 3.8 Flash TTS 音频模型。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-23 23:23:10",
-      "content": "【美国能源部长：柴油出口限制将采取自愿方式，而非全面禁止】金十数据9月23日讯，美国能源部长赖特周三表示，特朗普政府不会全面禁止柴油出口，而是会实施自愿限制措施。他说，政府不会停止所有柴油出口。他称，美国需要继续保障全球柴油供应，但同时需要改变美国国内价格走势，而相关计划将采取自愿方式实施。赖特说：“我们试图避免采取那种简单粗暴的政府政策手段，同时也理解炼油业务的复杂性。”美国总统特朗普周二表示，政府正在考虑限制柴油出口，引发石油和天然气行业紧张。该行业一直努力避免出口禁令，警告称此举可能引发一系列意外后果，导致美国柴油和汽油供应受限，并推动价格大幅上涨。",
+      "datetime": "2026-09-24 21:28:19",
+      "content": "【美银：能源价格推高通胀 预计欧洲央行12月将加息25BP】金十数据9月24日讯，美国银行预计，欧洲央行将在12月加息25个基点，理由是新一轮的能源冲击将使欧元区通胀在更长时间内高于央行目标水平。近期，欧洲天然气和油价上涨正在加剧通胀担忧。持续的地缘政治紧张局势以及伊朗冲突迟迟未见突破迹象，可能令能源市场在冬季需求高峰期持续维持紧张状态。与此同时，美国银行在报告中称：“经济增长仍可能表现尚可，但其强劲程度很可能不及当前水平，而且我们怀疑显著的第二轮效应尚未出现。”该行指出，欧洲央行10月采取行动并非不可能，但这很可能需要出现明显更高的通胀数据。",
       "important": 0,
       "source": "jin10",
       "sentiment": "bull",
       "steel": false
     },
     {
-      "datetime": "2026-09-23 23:22:25",
-      "content": "美国国务卿鲁比奥：特朗普总统不会让伊朗危机无解，解决方案将是可持续的，而不仅仅是未来五年。",
+      "datetime": "2026-09-24 21:25:40",
+      "content": "油价高位反复，国际黄金为何承压？汤哥、顺姐带你换个视角读懂盘面变化>>",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 21:25:31",
+      "content": "【红太阳：四季度百草枯产量受检修扰动小于前期预期】金十数据9月24日讯，红太阳9月24日在互动平台表示，南生化百草枯第一阶段检修计划已提前完成，装置于9月24日开车。四季度百草枯产量受检修扰动小于前期预期。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-23 23:22:04",
-      "content": "麦当劳(MCD.N)跌超5%。",
+      "datetime": "2026-09-24 21:24:24",
+      "content": "【美国处置被扣伊朗油轮石油 货物正运往美国】金十数据9月24日讯，据Tankertrackers报道，美国在5月份曾“扣押”了一批伊朗石油，价值约6亿美元，在美国面临燃油供应压力、柴油价格升至历史高位以及汽油价格上涨之际，美国对这批伊朗油轮上的石油采取了行动。被扣石油货物价值约6亿美元，目前正通过大西洋运往美国。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 21:23:21",
+      "content": "伊朗最高领袖军事顾问萨法维：霍尔木兹海峡与曼德海峡的连接将改变战争局势。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-23 23:21:01",
-      "content": "土耳其航空公司将购买150架波音(BA.N)B737 MAX飞机，交付时间为2033年至2037年。",
+      "datetime": "2026-09-24 21:20:10",
+      "content": "金十提示：以色列总理内塔尼亚胡抵达纽约，准备在联合国大会上发言。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-23 23:20:45",
-      "content": "【中央企业支持高标准建设海南自由贸易港座谈会在京举行】金十数据9月23日讯，9月23日，中央企业支持高标准建设海南自由贸易港座谈会在京举行。会议介绍海南省经济社会发展及与央企合作开展情况，推介海南自由贸易港核心政策。中国石油、中国海油、中国中化、通用技术集团、中国石化、中国华能、中国交建、国新控股等央企负责人围绕“十五五”时期在海南投资布局情况、支持海南自由贸易港建设等举措依次发言。大家表示，将用好海南自由贸易港开放政策，充分发挥企业自身优势，持续优化在琼产业布局，实现优势互补、合作共赢，在高标准建设海南自由贸易港中贡献央企力量。",
+      "datetime": "2026-09-24 21:18:27",
+      "content": "【美国国际贸易委员会调查美光及多家服务器厂商存储产品】金十数据9月24日讯，美国国际贸易委员会（USITC）投票决定，对美光科技(MU.O)生产的一类主要存储产品——动态随机存取存储器（DRAM），以及在产品中使用这些芯片的多家服务器制造商展开调查。该联邦机构表示，此次调查基于代表位于美国加利福尼亚州尔湾的存储器供应商Netlist提交的申诉。申诉称，相关企业违反美国联邦关税法，指控某些DRAM设备及包含这些设备的产品被进口并在美国销售，侵犯了该公司的专利权。除美光外，USITC表示还将调查服务器制造商慧与科技、超微电脑和联想集团。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-23 23:18:50",
-      "content": "【海信视像：两款RGB-Mini LED新品发布】金十数据9月23日讯，9月23日，海信电视举行2026年秋季新品发布会，推出RGB-Mini LED影像旗舰U7T Pro、性能旗舰E7S Pro+两款新品，并发布电影、游戏、动漫三大场景专属画质模式及全新JUOS智能系统。",
+      "datetime": "2026-09-24 21:17:07",
+      "content": "埃及中央银行维持基准利率不变。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-23 23:17:59",
-      "content": "美国国务卿鲁比奥：我们希望伊朗承诺不拥有核武器。",
+      "datetime": "2026-09-24 21:16:17",
+      "content": "印度石油部长：阿联酋和沙特对投资印度炼油行业充满热情。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-23 23:17:45",
-      "content": "国际金融协会：2026年上半年全球债务规模首次超过365万亿美元，增幅主要由新兴市场推动。",
+      "datetime": "2026-09-24 21:15:55",
+      "content": "黄金探底4260，多头能否守住底线？空头能否乘胜追击？金十研究员Steven正在直播，立即观看>>",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-23 23:17:28",
-      "content": "据日经新闻：日本JERA公司拟为夏威夷提出液化天然气发电项目方案。",
+      "datetime": "2026-09-24 21:15:45",
+      "content": "北约最高盟军指挥官格林基维奇在采访中表示，北约正加强信息与情报共享，以应对混合攻击。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-23 23:16:01",
-      "content": "法国国债风险溢价升至110个基点，为2012年以来首次。",
+      "datetime": "2026-09-24 21:15:33",
+      "content": "印度石油部长：没有削减成品油出口的计划。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-23 23:14:36",
-      "content": "【小米18 Pro系列搭载汇顶科技触控、指纹、音频方案】金十数据9月23日讯，9月23日，小米18 Pro系列发布，从产业链获悉，该机搭载汇顶科技全新一代触控芯片、超声波指纹和智能音频放大器三大方案。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-23 23:14:21",
-      "content": "阿根廷总统米莱：联合国在福克兰群岛问题上选择视而不见。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-23 23:14:08",
-      "content": "据福克斯新闻：FBI正在调查其招聘网站遭黑客攻击事件。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-23 23:11:49",
-      "content": "阿根廷总统米莱：联合国已成为一个“无用的组织”。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-23 23:11:42",
-      "content": "俄罗斯国防部报告称，俄罗斯军队当天对乌克兰武装部队使用的数据中心、物流和仓库终端进行了打击。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-23 23:10:11",
-      "content": "美国国务卿鲁比奥：伊朗违反了谅解备忘录并攻击其邻国。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-23 23:09:53",
-      "content": "以色列总理内塔尼亚胡： 我现在出发前往纽约，在联合国讲台上为以色列国和以色列国防军士兵辩护。 你听到的那些可怕的谎言在那儿传播，就像在世界其他地方一样。 我会去面对这些谎言。我会为真相而站出来——为我们士兵和我们国家的真相。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-23 23:08:52",
-      "content": "美国国务卿鲁比奥：特朗普总统是决定对伊朗战争走向的人。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-23 23:08:16",
-      "content": "美国国务卿鲁比奥：我们拥有大量弹药，可以实现我们在伊朗的目标，但我们的行动范围并不局限于那里。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-23 23:07:26",
-      "content": "【美国国务卿鲁比奥：俄乌均对有限停火感兴趣 美国愿推动能源谈判】金十数据9月23日讯，美国国务卿鲁比奥表示，俄罗斯和乌克兰均表达了对涉及粮食和能源领域有限停火的兴趣。他称，俄乌双方已将能源设施视为战争目标中的战略重点，围绕能源停火的谈判将十分艰难，但美国愿意在推动相关进程中发挥建设性作用。鲁比奥还表示，他与俄罗斯外长拉夫罗夫讨论了俄乌冲突以及美俄双边关系，并希望俄罗斯总统普京能够接受参加二十国集团（G20）峰会的邀请，认为这将成为俄美领导人进行对话的机会。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-23 23:07:05",
-      "content": "【我国成功发射卫星互联网低轨26组卫星】金十数据9月23日讯，今天，我国在海南商业航天发射场使用长征八号甲运载火箭，成功将卫星互联网低轨26组卫星发射升空，卫星顺利进入预定轨道，发射任务获得圆满成功。",
+      "datetime": "2026-09-24 21:13:28",
+      "content": "【期货盯盘神器专属文章】CBOT农产品晚间分析：美豆期货持续震荡走高，当前市场对出口预期是否过于乐观？点击阅读。",
       "important": 1,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-23 23:05:48",
-      "content": "【DeepSeek又发新论文！让智能体干活得解决“开工”难题】金十数据9月23日讯，9月23日，DeepSeek公开的一篇关于智能体训练的新论文引发关注。这篇31页的论文介绍了其内部使用的生产级沙箱平台DSec，论文作者超过百人，梁文锋也在其中。论文中比较有意思的一节是“智能体的不当行为”。DeepSeek发现，智能体会通过非预期渠道获取答案，比如搜索平台管理文件里的残留答案等，破坏训练和评估结果有效性。引入访问控制后，还有智能体交换文件数据块映射，试图让受保护文件内容可通过另一文件描述符访问，损害任务或共享基础设施。DeepSeek认为，没有单一机制能防止所有智能体不当行为和系统故障。因此团队的方法是加强可观测性以识别新问题，并随模型演进持续加固Dsec，包括限制智能体通过非预期渠道获取答案的访问控制，减少对欺骗行为的奖励。这些控制能解决部分问题。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-23 23:05:48",
-      "content": "【美国国务卿鲁比奥：美国将维护霍尔木兹海峡通畅 与伊朗协议仍需时间】金十数据9月23日讯，美国国务卿鲁比奥表示，美国将继续采取措施维护并保持霍尔木兹海峡畅通。他提到，伊朗当天早些时候曾向商业船只开火。鲁比奥表示，美国理解海峡是一个问题，与伊朗达成协议需要艰苦努力和时间，周二关于伊朗的会谈主要是思想和信息的交流，虽然会议积极，但尚未取得突破。目前伊朗谈判受到革命卫队领导层的阻碍。他还表示，美国总统特朗普拥有包括军事选项在内的多种应对选择，并强调在伊朗问题上采取行动将伴随一定代价。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-23 23:03:33",
-      "content": "美国国务卿鲁比奥：伊朗谈判受到革命卫队领导层的阻碍。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-23 23:02:45",
-      "content": "【雅本化学：目前来自恒瑞医药的收入仍未形成规模】金十数据9月23日讯，雅本化学9月23接受机构调研时表示，公司与恒瑞医药的合作覆盖其相关重点产品领域，原则上可承接全生命周期各阶段项目，目前在研项目约20个，滚动推进。目前来自恒瑞医药的收入仍未形成规模，核心原因是现阶段主要为其尚未上市、处于研发阶段的产品提供中间体小批量供货，服务于工艺验证与研发需求，公司尚未为恒瑞医药提供商业化产品，公司的供应能力尚需通过稳定的商业化生产、交付逐步验证。与此同时，公司现有医药产能较为有限，因此在同步配套建设产能，支撑其产品后续的商业化生产需求。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-23 23:01:16",
-      "content": "【美国财政部：将于周四回购至多60亿美元长期国债】金十数据9月23日讯，美国财政部：将在周四回购至少40亿美元，最多60亿美元的长期国债。",
+      "datetime": "2026-09-24 21:12:52",
+      "content": "特朗普政府权衡柴油出口禁令的举措正在引发共和党内部的分歧，部分保守派将矛头直指“大型石油公司”的贪婪，而这可能彻底颠覆双方长达数十年的利益结盟。",
       "important": 1,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-23 23:00:41",
-      "content": "油价从三位数掉回两位数，供应恢复、霍尔木兹谈判、沙特管道重启，再加上76万张期权，很容易拼凑出空头强势回归的故事，但这个故事缺的东西，比大多数人以为的多！点击查看这背后的真正含义>>",
+      "datetime": "2026-09-24 21:12:45",
+      "content": "美联储巴尔金：产能利用率良好，但并未过热。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-23 22:58:38",
-      "content": "美国国务卿鲁比奥：如果俄罗斯总统普京出席G20，那将是与美国总统特朗普对话的机会。",
+      "datetime": "2026-09-24 21:12:37",
+      "content": "金十图示：2026年09月24日（周四）投机情绪指数",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-23 22:57:34",
-      "content": "美国国务卿鲁比奥：与伊朗的会议积极，但并未取得突破。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-23 22:56:45",
-      "content": "美国国务卿鲁比奥：周二关于伊朗的会谈主要是思想和信息的交流。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-23 22:56:37",
-      "content": "美国国务卿鲁比奥：希望俄罗斯总统普京能接受G20的邀请。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-23 22:55:54",
-      "content": "【首届中印尼战略界对话会在印尼举行】金十数据9月23日讯，首届中印尼战略界对话会21日至22日在印度尼西亚日惹举行。来自中印尼两国智库、高校及工商界近50名专家学者与会，印尼外交部和中国驻印尼大使馆代表出席了对话会。本次对话会由中国国际问题研究院和印尼战略与国际问题研究中心共同举办。中国国际问题研究院院长陈波和印尼战略与国际问题研究中心联合创始人瓦南迪分别致辞。与会专家学者围绕深化中印尼战略合作、应对当前国际秩序演变与全球治理挑战进行交流，并一致认为，中国和印尼作为全球南方国家，进一步加强战略沟通与对话协作，对于维护地区和平稳定、推动构建更加公正合理的全球治理体系具有超越双边范畴的重大意义。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-23 22:55:33",
-      "content": "现货金银短线回升，现货黄金短线走高近10美元，现报4296美元/盎司；现货白银短线走高近0.3美元，现报64.9美元/盎司。伊朗官员表示，伊朗正在审查美国对伊朗结束敌对行为的回应。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-23 22:55:31",
-      "content": "国内新闻\n1. 据央视新闻，9月23日下午，国家主席习近平乘专机离开北京，应美国总统特朗普邀请，对美国进行国事访问。\n2. 央行：9月28日至10月8日将开展隔夜逆回购操作，每日操作量不超过10000亿元。\n3. 央行：9月24日将开展8000亿元MLF操作，期限为1年期。\n4. 工信部：要适度超前、系统推进新一代通信网建设，推动算力设施扩容提质。\n5. “十五五”时期民政部将推动制定养老服务法。\n国际新闻\n1. 英伟达支持的Firmus公司寻求100亿美元融资，用于开发人工智能芯片。\n2. 经合组织：预计美联储和欧洲央行今年将再加息一次，随后在2027年保持利率稳定。\n3. 欧元区9月综合PMI创41个月高位，服务业PMI创10个月高位。\n4. 美媒：特朗普“和平委员会”将公布24.5亿美元加沙重建计划。\n5. 美国中央司令部：正在组建多国联合无人机攻击部队。\n6. 美国能源部长赖特：柴油出口禁令不会奏效，因为禁止柴油出口将推高汽油和航空燃油价格。\n7. 美国10年期国债收益率上升至5.04%，续刷2007年以来最高水平。\n8. 美元指数DXY突破101关口。\n9. 伊朗最高国家安全委员会秘书：不会急于谈判，开放霍尔木兹海峡需满足伊朗的条件。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-23 22:54:39",
-      "content": "美、布两油短线下挫0.9美元，现分别报90.86美元/桶和97.37美元/桶。伊朗官员表示，伊朗正在审查美国对伊朗结束敌对行为的回应。",
+      "datetime": "2026-09-24 21:12:30",
+      "content": "黄金矿产巨头突曝利空，光通信龙头拟定增募资不超66.36亿“追光”，LED芯片龙头实控人被刑事拘留......今日盘后有哪些值得关注的公告？",
       "important": 1,
       "source": "jin10",
       "sentiment": "bear",
       "steel": false
     },
     {
-      "datetime": "2026-09-23 22:53:30",
-      "content": "美国国务卿鲁比奥：特朗普对于胡塞武装对沙特阿拉伯的攻击有多种选择。",
+      "datetime": "2026-09-24 21:12:03",
+      "content": "亚马逊(AMZN.O)：将在印第安纳州创造300个高技能职位，平均薪资接近100,000美元。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-23 22:52:18",
-      "content": "【报道：伊朗正在审查美国回应】金十数据9月23日讯，据路透社：一名伊朗高级官员表示，德黑兰正在审查美国方面对我们结束敌对行动提议的回应。在周二与美国的间接谈判中，双方讨论了霍尔木兹海峡的重开和解除美国封锁的问题，伊朗的关键优先事项是永久结束敌对行动和解除美国海军封锁。伊朗与美国之间仍存在许多分歧，但外交仍在继续。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-23 22:51:01",
-      "content": "美国国务卿鲁比奥：只要特朗普总统在任，美国将始终以国家利益为重。",
+      "datetime": "2026-09-24 21:08:55",
+      "content": "北约最高盟军指挥官格林基维奇在采访中表示，美国对其驻欧洲军力部署进行评估的结果并没有预设结论。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-23 22:50:27",
+      "datetime": "2026-09-24 21:08:35",
+      "content": "据国际文传电讯社：俄罗斯将2026年石油出口预期上调至2.447亿吨。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 21:07:58",
+      "content": "据纽约时报：下周四，谷歌将发射一颗实验性卫星进入轨道，该卫星将具备足够计算能力，可在太空中回答简单的人工智能查询。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 21:06:53",
+      "content": "北约最高盟军指挥官格林基维奇在采访中表示，美国政府已明确表示对北约第五条款作出坚定承诺。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 21:05:03",
+      "content": "印度石油部长：原油供应充足。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 21:01:58",
+      "content": "【谷歌、OpenAI和Anthropic的人工智能安全组织正在成形】金十数据9月24日讯，据The Information报道，谷歌、OpenAI和Anthropic人工智能安全组织正在成形。三方筹建的新人工智能安全标准机构暂定名称为“前沿人工智能标准机构”。谷歌、OpenAI和Anthropic人工智能安全组织计划独立运营，以填补政府监管空白。该AI智能安全组织曾接洽斯里拉姆·克里希南Sriram Krishnan，邀请其担任首席执行官。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 21:00:44",
+      "content": "市场消息：亚马逊将投资约1亿美元用于机器人制造设施。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 21:00:11",
       "content": "VIP立减470元，解锁CFCT持仓动向，看清资金仓位增减分布，还可追踪特朗普持仓规模，再赠交易时钟3件礼>>",
       "important": 0,
       "source": "jin10",
@@ -979,226 +747,418 @@
       "steel": false
     },
     {
-      "datetime": "2026-09-23 22:49:49",
-      "content": "美国国务卿鲁比奥：我们将履行与沙特阿拉伯的防务协议承诺。",
+      "datetime": "2026-09-24 21:00:09",
+      "content": "【中阿人工智能国际合作暨阿拉伯数字经济联盟首届中阿数字对话举行】金十数据9月24日讯，24日下午，中阿人工智能国际合作暨阿拉伯数字经济联盟首届中阿数字对话在杭州大会展中心举行。本次活动以“数字丝绸之路，互联互通的未来——构建中阿数字命运共同体新模式”为主题，举办了主旨演讲、重大成果发布、投资机会推介、主题对话等。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-23 22:49:14",
-      "content": "美国能源部长赖特：我本人更倾向于国际能源署在气候问题上的改革，而不是美国退出国际能源署。",
+      "datetime": "2026-09-24 21:00:03",
+      "content": "俄罗斯至9月18日当周央行黄金和外汇储备 7482亿美元，前值7582亿美元。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-23 22:48:13",
-      "content": "【联合国将帮助六国提升关键矿产价值链】金十数据9月23日讯，联合国选定非洲和亚洲六个国家，为其提供支持，帮助这些国家从对全球能源转型至关重要的关键矿产中获取更多价值。联合国秘书长安东尼奥·古特雷斯周三宣布，该计划初步将惠及印度尼西亚、赞比亚、几内亚、津巴布韦、马达加斯加和尼日利亚。联合国各机构将协调合作，帮助这些国家发展相关产业。赞比亚是非洲第二大铜生产国，而津巴布韦是非洲大陆主要的电池用锂供应国。印尼是全球最大的镍矿生产国，而几内亚是最大的铝土矿生产国，同时拥有尚未开发的关键矿产资源。马达加斯加拥有钴、石墨和镍储量。尼日利亚的矿产资源大多尚未开发。",
+      "datetime": "2026-09-24 20:59:05",
+      "content": "波兰军队：波兰空军已结束与俄罗斯对乌克兰袭击相关的行动。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-23 22:46:51",
-      "content": "美国能源部长赖特：如果在气候问题上没有达成一致，美国可能会考虑退出国际能源署。",
+      "datetime": "2026-09-24 20:58:00",
+      "content": "【2025年全球数字贸易出口额同比增长7.1%】金十数据9月24日讯，在正在举行的第五届全球数字贸易博览会上，发布了《全球数字贸易发展报告2026》。报告显示，尽管全球经济和地缘政治仍然存在不确定性，但全球数字贸易依然保持增长。报告数据显示，2025年，全球数字贸易出口额达7.75万亿美元，同比增长7.1%，占全球货物与服务出口总额的22.2%，较2021年提升2.6个百分点，连续多年跑赢全球贸易整体增速，在多重外部压力下凸显韧性。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-23 22:46:41",
-      "content": "美国3年至10年期国债收益率当日均上涨至少10个基点。",
+      "datetime": "2026-09-24 20:56:02",
+      "content": "美联储哈玛克：通胀前景依然高度不确定。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 20:55:59",
+      "content": "美联储哈玛克：劳动力市场仍接近充分就业。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 20:55:09",
+      "content": "美联储哈玛克：通胀持续高企的时间越长，恢复到目标水平就越困难。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 20:54:55",
+      "content": "市场消息：莱茵河考布段水位降至历史最低水平。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 20:54:30",
+      "content": "美联储哈玛克：供应冲击目前对美联储政策构成显著挑战。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 20:54:13",
+      "content": "美联储哈玛克：通胀风险偏向上行。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 20:53:59",
+      "content": "美联储哈玛克：通胀在强劲的产出需求下依然高企。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 20:53:29",
+      "content": "【能源危机加剧，德国计划逐步淘汰化石燃料】金十数据9月24日讯，德国公布了一份到2045年逐步摆脱化石燃料的路线图。作为欧洲最大经济体，德国希望降低自身对全球能源市场冲击的脆弱性。德国政府于周三公布了相关细节，恰逢联合国大会年度会议及纽约气候周举行之际。这份框架文件主要整合现有政策，并纳入利用低碳技术的战略，以展示德国如何实现2045年目标。德国环境部长施奈德在纽约联合国气候行动活动上表示：“这将使德国大幅减少化石燃料进口，并降低对容易受到地缘政治危机影响的供应链依赖。”德国目前已成为继法国和荷兰之后，第三个制定退出化石燃料路线图的主要欧洲经济体。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 20:53:16",
+      "content": "美联储哈玛克：价格稳定是中央银行的责任。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 20:52:20",
+      "content": "美国司法部长布兰奇：我们将立即向最高法院寻求救济，针对上诉法院阻止向第三国遣返的裁决提出申请。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 20:51:50",
+      "content": "前达拉斯联储主席卡普兰认为，当前激进的加息定价，很大程度上源于投资者尚未充分掌握沃什的政策反应函数，市场只能通过提前计入更多加息，以建立足够的安全缓冲。点击查看",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 20:51:01",
+      "content": "美联储巴尔金：劳动力市场稳定，但新增就业增长依然缓慢。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 20:50:51",
+      "content": "油价高位反复，国际黄金为何承压？汤哥、顺姐带你换个视角读懂盘面变化>>",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 20:49:45",
+      "content": "重要新闻\n1. 美联储威廉姆斯：今年年底前再次加息是合理的。\n2. 商务部：中美第八轮经贸磋商达成多项共识。\n个股新闻\n1. 谷歌(GOOG.O)即将发布旗舰Gemini 4 AI模型。\n2. 高通(QCOM.O)宣布与苹果(AAPL.O)续签全球专利许可协议，自2027年4月1日起生效。\n3. 马斯克：SpaceX(SPCX.O)41号飞船已移至星际基地的发射台，准备周一发射。\n4. 甲骨文(ORCL.N)盘前跌超4%，公司此前就新墨西哥州数据中心发布不可抗力声明。\n5. 宝尊电商(BZUN.O)宣布1000万美元股份回购计划。\n6. 微软(MSFT.O)2030年前拟投资超100亿美元加码AI及云计算基建。\n7. 据知情人士透露，亚马逊(AMZN.O)计划到2030年投资30亿美元，扩大其在印度的即时零售业务。\n8. Meta Platforms(META.O)：推出搭载Muse助手的便携式AI设备，这款名为Muse Charm的便携式AI设备将于12月假期季开始发货。\n9. 据外媒报道，摩根士丹利(MS.N)一名员工误将内部文件发送给客户，导致一份包含100多笔亚洲投资银行潜在交易及项目进展的信息外泄。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 20:49:09",
+      "content": "俄罗斯经济部：预计到2026年卢布对美元的平均汇率为79.5（此前为81.5）。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 20:48:35",
+      "content": "美联储巴尔金：今年夏季通胀的持续性更加明显。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 20:48:24",
+      "content": "俄罗斯经济部：预计2027年乌拉尔原油价格为每桶53美元（之前预测为每桶50美元）。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 20:47:22",
+      "content": "欧洲央行管委拉德夫：加息并不意味着我们走上了预定的道路。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 20:46:26",
+      "content": "欧洲央行管委拉德夫：通胀风险偏向上行，经济增长风险偏向下行。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 20:46:15",
+      "content": "欧洲央行管委拉德夫：欧洲央行应给予之前的决策时间来发挥作用。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 20:45:53",
+      "content": "欧洲央行管委拉德夫：欧洲央行的任务是判断冲击是否会从能源领域扩散。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 20:44:29",
+      "content": "【美国上周初请失业金人数下降，劳动力市场企稳】金十数据9月24日讯，美国上周申请失业救济金人数下降，显示劳动力市场正在企稳。美国劳工部周四表示，截至9月19日当周，经季调后的初次申请州失业救济人数减少1000人，至19.7万人，经济学家此前预计为20.1万人。目前的申请人数处于57年来低位，部分原因是难以对劳动节等日期变动的节假日期间的数据进行季节性调整。另外，所谓“残余季节性因素”往往会在年底临近时推动初请人数下降。不过，初请失业金人数的潜在趋势仍与劳动力市场状况相符。劳动力市场在经历夏季大部分时间的疲软后正在重新企稳，而低裁员水平是支撑因素之一。然而，企业仍不愿大幅增加招聘。经济学家称，美国与以色列对伊朗的战争导致能源价格上涨，以及进口关税带来的阻力，正在影响企业招聘意愿。此外，移民政策收紧以及退休人口增加导致劳动力供给减少，也限制了企业招聘。",
       "important": 0,
       "source": "jin10",
       "sentiment": "bull",
       "steel": false
     },
     {
-      "datetime": "2026-09-23 22:46:25",
-      "content": "美国国务卿鲁比奥：俄罗斯与乌克兰的能源停火艰难，但美国将努力尝试。",
+      "datetime": "2026-09-24 20:43:47",
+      "content": "俄罗斯总理表示，俄罗斯财政部预计2027年预算支出将达到48.8万亿卢布。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-23 22:45:20",
-      "content": "布伦特原油日内大涨3.00%，现报98.08美元/桶。",
+      "datetime": "2026-09-24 20:43:20",
+      "content": "俄罗斯总理表示，2027年国内生产总值增长预计为1.4%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 20:42:58",
+      "content": "【新华传媒：拟发行股份购买上海界面财联社科技股份有限公司100%股权相关工作尚未完成】金十数据9月24日讯，新华传媒：股价再次涨停，市盈率172.86显著高于行业17.83新华传媒公告，公司股票于2026年9月21日、2026年9月22日和2026年9月23日连续三个交易日收盘价格涨幅偏离值累计超过20%，2026年9月24日再次以涨停价收盘；截至2026年9月23日，公司最新滚动市盈率为172.86，行业最新滚动市盈率为17.83。公司生产经营正常，扣非净利润亏损1629.75万元，主营业务毛利率24.76%，同比下降0.74个百分点；拟发行股份购买上海界面财联社科技股份有限公司100%股权，相关审计、评估工作尚未完成。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 20:40:53",
+      "content": "市场消息：印度与荷兰在水务领域加强合作。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 20:40:34",
+      "content": "黄金空头发力，多头仍未放弃抵抗！多头的底线在哪？金十研究员Steven正在直播，立即观看>>",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 20:40:27",
+      "content": "【据悉施纳贝尔将提前离开欧洲央行，赴IMF任职】金十数据9月24日讯，据知情人士透露，欧洲央行执委施纳贝尔将提前离职，前往国际货币基金组织（IMF）担任高级职位，据悉已被选定担任IMF货币与资本市场部门主管。其中一名知情人士称，此次人事变动将于1月份进行，远早于施纳贝尔原定于明年12月结束的八年任期。现年55岁的施纳贝尔提前离任，将加剧明年欧洲央行领导层调整的紧迫性。届时，欧洲央行行长拉加德和首席经济学家连恩也将离任。欧盟领导人将力争就这三个职位的人选达成一致，可能会在12月的峰会上进行讨论。法国和德国都希望保持在欧洲央行执委会中的席位，而西班牙也在争取一个席位。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 20:40:00",
+      "content": "2026年FOMC票委、克利夫兰联储主席哈玛克将于十分钟后在一场会议上致开幕辞。",
       "important": 1,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-23 22:44:52",
-      "content": "美国国务卿鲁比奥：乌克兰和俄罗斯已将能源视为其战争目标的战略重点。",
-      "important": 0,
+      "datetime": "2026-09-24 20:38:15",
+      "content": "师出同门的沃什和贝森特，根本不可能对着干？美元奶昔理论创始人直言，高利率本质上是美元武器化的手段。这场拳击赛，美国不一定不疼，但它能站到最后。点击查看...",
+      "important": 1,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-23 22:44:17",
-      "content": "【俄外交部：加乌“百年协议”不会带来正向结果】金十数据9月23日讯，俄罗斯外交部发言人扎哈罗娃23日就加拿大与乌克兰签署《加乌百年伙伴关系宣言》回应说，此类协议无益局势、不会带来正向结果。持续向乌输送武器只会拖延和平进程，将西方国家直接拖入冲突中。扎哈罗娃对俄新社表示，所有运往基辅的军用物资均为俄罗斯武装力量的“合法打击目标”。加拿大人应该看清，俄乌冲突拖延得越久，加美两国军工复合体获得的订单越多。她还说，俄方持续看到乌总统泽连斯基在全球“四处奔走”寻求支持与军事援助。乌克兰现在已经沦为“西方的附庸”，完全依靠西方扶持维系。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-23 22:43:59",
-      "content": "美国参议院少数党领袖舒默：迫切需要加强对人工智能的出口管制。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-23 22:43:05",
-      "content": "沙特阿拉伯民防部门：在早前启动预警系统后，吉赞和纳季兰地区的危险现已解除。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-23 22:43:02",
-      "content": "巴西雷亚尔兑美元现货交易中下跌1%。",
+      "datetime": "2026-09-24 20:38:14",
+      "content": "美国总统特朗普：汽油价格将会下跌。",
       "important": 0,
       "source": "jin10",
       "sentiment": "bear",
       "steel": false
     },
     {
-      "datetime": "2026-09-23 22:42:49",
-      "content": "【“我们想突破人类信息传递带宽的瓶颈”马斯克谈“生物增强”】金十数据9月23日讯，9月23日，特斯拉CEO埃隆·马斯克表示，未来十年他看好“生物增强”，他参与创立的“神经连接”公司正试图突破人类信息传递带宽的瓶颈。马斯克称，即便AI足够友好、愿意服务人类，人机之间的信息传输速度仍太慢。人类带宽峰值大约只有每秒100比特，我们输出信息速度极低。而计算机之间以万亿比特每秒通信。任何能提升人类交流速度的技术，都会改善人与机器之间的对齐。否则对于一个以每秒万亿比特通信的AI来说，跟人沟通就像人类在和树说话。",
+      "datetime": "2026-09-24 20:38:08",
+      "content": "【商务部：1-8月我国全行业对外直接投资1133.9亿美元 增长3.9%】金十数据9月24日讯，据商务部、外汇局统计，2026年1-8月，我国全行业对外直接投资7784.7亿元人民币，同比下降0.6%（以美元计为1133.9亿美元，增长3.9%）。其中，我国境内投资者共对全球148个国家和地区的8424家境外企业进行了非金融类直接投资，累计投资5950.6亿元人民币，下降14.4%（以美元计为866.8亿美元，下降10.6%）。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-23 22:41:32",
-      "content": "美国国务卿鲁比奥：美国总统特朗普与委内瑞拉临时总统罗德里格斯讨论了债务重组问题。",
+      "datetime": "2026-09-24 20:38:00",
+      "content": "市场消息：一些CNN员工在法院裁决可以进入白宫后依然无法访问白宫。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-23 22:40:47",
-      "content": "巴拉圭总统：呼吁将委内瑞拉纳入南方共同市场。",
+      "datetime": "2026-09-24 20:37:58",
+      "content": "【商务部：1-8月我国对外承包工程业务完成营业额1156.1亿美元 增长9.9%】金十数据9月24日讯，商务部发布数据，2026年1-8月，我国对外承包工程业务完成营业额7937.1亿元人民币，同比增长5.8%（以美元计为1156.1亿美元，增长9.9%），新签合同额11763.2亿元人民币，下降3.0%（以美元计为1713.4亿美元，增长0.7%）。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-23 22:40:36",
-      "content": "美国国务卿鲁比奥：美国总统特朗普与委内瑞拉临时总统罗德里格斯的会晤虽然简短，但意义重大。",
+      "datetime": "2026-09-24 20:37:38",
+      "content": "美国总统特朗普：商业调查显示“显著增长”。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-23 22:39:40",
-      "content": "新订单大幅飙升、服务业与制造业双双繁荣……这看起来像是一份完美的成绩单，但面对这种“过热”的经济，美联储的加息大刀还能停下来吗？点击查看...",
+      "datetime": "2026-09-24 20:35:29",
+      "content": "消息人士：欧洲央行执委施纳贝尔将提前离任并加入国际货币基金组织。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 20:33:02",
+      "content": "【商务部副部长兼中华人民共和国国际贸易谈判副代表凌激与欧委会贸易和经济安全总司总司长约根森开展磋商】金十数据9月24日讯，9月23—24日，商务部副部长兼中华人民共和国国际贸易谈判副代表凌激带领中方团队，与欧委会贸易和经济安全总司总司长约根森带领的欧方团队在京开展了磋商，为中欧贸易投资磋商机制第二次会议作准备。",
       "important": 1,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-23 22:38:58",
-      "content": "美国国务卿鲁比奥：我们愿意在推动这一进程中发挥建设性作用。",
+      "datetime": "2026-09-24 20:32:19",
+      "content": "高盛：随着亚太地区能源价格上涨，将12月布伦特原油价格预测上调至每桶85美元。",
       "important": 0,
       "source": "jin10",
-      "sentiment": "neutral",
+      "sentiment": "bull",
       "steel": false
     }
   ],
   "shmet": [
     {
-      "datetime": "2026-09-24 01:53:18",
-      "content": "【快讯】SHMET09月24日讯，迪奥：阿尔诺家族将把控股公司Agache与迪奥合并。",
+      "datetime": "2026-09-24 22:25:57",
+      "content": "【快讯】SHMET09月24日讯，巴勒斯坦总统阿巴斯：我们欢迎美国总统特朗普的20点计划，但在实际情况中并未看到任何进展。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-24 01:50:04",
-      "content": "【快讯】SHMET09月24日讯，智利矿业监管机构称，必和必拓旗下埃斯孔迪达铜矿发生致命事故。",
+      "datetime": "2026-09-24 22:22:07",
+      "content": "【消息人士称沙特东西管道原油输送量增加，油轮装载尚未恢复】SHMET09月24日讯，据业内人士、卫星图像和航运数据显示，沙特阿拉伯正通过其东西向输油管道（该管道通往红海出口枢纽延布）增加原油输送量，但原油油轮装载作业尚未恢复。本月早些时候，沙特东西管道设施遭无人机袭击后停运，本周沙特已恢复该管道运营，市场因此期待中东地区受美国与伊朗战争影响而中断的石油供应能够增加。不过，最新消息和数据显示，恢复船运的进展较为缓慢，因为此前原定于周二恢复装载。一名行业消息人士表示，原油正通过该管道输送至沙特红海沿岸的炼油厂，但尚未重新装载至油轮。另外两名消息人士也证实，油轮装载作业仍未恢复。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-24 01:49:27",
-      "content": "【快讯】SHMET09月24日讯，迪奥董事会：阿尔诺家族已提交简化LVMH股权结构的方案。",
+      "datetime": "2026-09-24 22:21:56",
+      "content": "【快讯】SHMET09月24日讯，美国至9月18日当周EIA天然气库存将于十分钟后公布。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-24 01:48:56",
-      "content": "【快讯】SHMET09月24日讯，哥伦比亚副能源部长：阿根廷用于刺激投资的税收模型可以轻松应用于哥伦比亚。",
+      "datetime": "2026-09-24 22:20:37",
+      "content": "【快讯】SHMET09月24日讯，英国央行副行长布里登：我们不能忽视隔夜指数掉期利率利率期货市场的动向，需了解发生了什么。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-24 01:40:01",
-      "content": "【快讯】SHMET09月24日讯，欧洲央行首席经济学家连恩：我们没有看到能源冲击引发大规模工资反应。",
+      "datetime": "2026-09-24 22:20:22",
+      "content": "【快讯】SHMET09月24日讯，市场消息：纽约州起诉Polymarket运营非法赌博业务。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-24 01:35:16",
-      "content": "【快讯】SHMET09月24日讯，StoneX：巴西甘蔗压榨进度因降雨延误，以及甘蔗含糖量下降，是下调糖供应过剩预期的主要原因。",
+      "datetime": "2026-09-24 22:19:56",
+      "content": "【海外光刻胶涨价潮起 国产验证周期从1-2年缩至6-12月】SHMET09月24日讯，针对日本光刻胶巨头联合宣布涨价，有光刻胶企业负责人向《科创板日报》记者表示，近期一个明显变化在于，国产替代速度明显加快，下游晶圆厂给到的测试机会大幅增加，基础验证周期由此前的1-2年普遍缩短至6-12个月。芯联集成证券部工作人员补充称，光刻胶在该公司整体成本里面一小部分材料，占比在1%左右，非常小。",
       "important": 0,
       "source": "shmet",
-      "sentiment": "bear",
+      "sentiment": "bull",
       "steel": false
     },
     {
-      "datetime": "2026-09-24 01:34:10",
-      "content": "【快讯】SHMET09月24日讯，StoneX：墨西哥和中美洲甘蔗作物风险增加。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-24 01:33:02",
-      "content": "【快讯】SHMET09月24日讯，巴西央行：上周资金流动净额为流出10.91亿美元。",
+      "datetime": "2026-09-24 22:19:10",
+      "content": "【快讯】SHMET09月24日讯，消息人士：沙特东西管道正在积累原油库存，延布港的油轮装载尚未恢复。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-24 01:32:52",
-      "content": "【快讯】SHMET09月24日讯，巴西央行：截至9月18日当月，巴西资金流动净额为流出70.78亿美元。",
+      "datetime": "2026-09-24 22:16:59",
+      "content": "【快讯】SHMET09月24日讯，印度证券监管局局长：印度央行将很快宣布一些措施，进一步便利外国投资者的进入。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-24 01:17:51",
-      "content": "【快讯】SHMET09月24日讯，美联储在固定利率逆回购操作中总计接纳了4个对手方的4.61亿美元。",
+      "datetime": "2026-09-24 22:15:42",
+      "content": "【快讯】SHMET09月24日讯，欧洲央行：欧洲央行执委施纳贝尔将被任命为国际货币基金组织金融顾问及货币与资本市场部主任。她将于2027年1月3日辞去职务。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-24 22:14:00",
+      "content": "【中美两国元首将在欢迎仪式上发表致辞】SHMET09月24日讯，当地时间9月24日上午，国家主席习近平出席美国总统特朗普在白宫举行的欢迎仪式。中美两国元首将发表致辞。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
