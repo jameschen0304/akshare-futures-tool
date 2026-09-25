@@ -1,7 +1,167 @@
 {
   "source": "jin10 flash + shmet + shfe weekly stock",
-  "generated_at": "2026-09-25T14:48:12.734178+00:00",
+  "generated_at": "2026-09-25T15:30:56.617514+00:00",
   "jin10": [
+    {
+      "datetime": "2026-09-25 23:26:11",
+      "content": "联合国安理会：谴责胡塞武装对沙特的袭击，立即停止军事升级。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 23:24:55",
+      "content": "市场消息：德国化工企业‌巴斯夫确认正与RAG基金会及赢创就收购事宜进行谈判，谈判结果仍未确定。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 23:24:02",
+      "content": "巴西总统卢拉：将禁止在线博彩。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 23:20:40",
+      "content": "【消息人士：俄罗斯第七大炼油厂受袭 已经停运】金十数据9月25日讯，俄罗斯按原油加工量计算第七大炼油厂——彼尔姆炼油厂在遭到乌克兰无人机袭击后停止运营。两名行业消息人士称，袭击于周五引发火灾，并造成管道、储存设施和工艺装置受损。该炼油厂位于莫斯科东北约1460公里（907英里）处，2024年加工原油约1260万吨，即每日25.2万桶；生产汽油200万吨、柴油530万吨、燃料油20万吨和石油焦70万吨。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 23:17:49",
+      "content": "国内新闻\n1. 习近平主席夫妇同美国总统特朗普夫妇茶叙。\n2. 香港交易所旗下衍生产品结算所将于11月起接纳中国国债、政策性金融债及财政部债券作为非现金抵押品。\n国际新闻\n1. 美联储施密德：美联储仍未解决通胀问题。\n2. 胡塞武装致信欧盟：不会袭击欧洲红海船只。\n3. 伊朗总统：伊朗不想拥有核武，愿推进与美谈判。\n4. 日本财务大臣片山皋月：过度的日元抛售可能会得到修正。\n5. 伊朗最高领袖顾问：地区空域开放则共同开放，关闭则共同关闭。\n6. 克里姆林宫：美国、俄罗斯和乌克兰之间的三方会议可能在不久的将来举行，但目前尚无具体细节。\n7. 据The Information：特斯拉管理层告知员工，公司希望在今年年底前建立一条每周可生产超过1000台机器人的生产线。\n8. 美国30年期国债收益率突破5.5%，续创2004年以来新高；美国10年期国债收益率持续走高，涨至5.23%，续创2007年以来新高。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 23:14:23",
+      "content": "秘鲁矿业部长：预计秘鲁将在5-6年内新增100万吨年铜产量。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 23:14:16",
+      "content": "秘鲁矿业部长：预计今年秘鲁铜产量为250万至270万吨。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 23:14:07",
+      "content": "消息人士称，俄罗斯彼尔姆炼油厂在周五遭遇无人机袭击后暂停了加工。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 23:12:27",
+      "content": "当地时间9月25日，乌克兰首都基辅再次发生剧烈爆炸。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 23:06:16",
+      "content": "以色列总理内塔尼亚胡：我致力于彻底消灭哈马斯，任何人都没有特权，我们将清除他们的领导人。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 23:04:44",
+      "content": "俄国防部：俄军对基辅用于处理乌军情报数据的数据中心实施打击。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 23:01:24",
+      "content": "加拿大4月至7月预算赤字为51.4亿加元，上年同期为赤字77.9亿加元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 23:01:08",
+      "content": "加拿大7月预算赤字为47.7亿加元，2025年7月为赤字15.1亿加元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 23:00:48",
+      "content": "美债在被抛，钱却在往美元跑，为何这两者会同时发生？要解开这个困惑，咱们可能都得先放下这个不为人知的习惯，一文帮你搞懂美元这台测谎仪究竟该怎么读。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 22:58:30",
+      "content": "美国财长贝森特：必须与货币市场保持密切沟通。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 22:57:17",
+      "content": "美国财长贝森特：与片山皋月的对话建立在特朗普与高市早苗的基础上。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 22:57:11",
+      "content": "市场消息：美国上诉法院拒绝阻止五角大楼将Anthropic列入黑名单的决定。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 22:56:52",
+      "content": "美国财长贝森特：今天，我与日本财务大臣片山皋月进行了富有成效的通话。讨论了强势日元的必要性。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 22:53:47",
+      "content": "美国10年期国债收益率持续走高，涨至5.23%，续创2007年以来新高。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 22:47:09",
+      "content": "【习近平主席夫妇抵达白宫 同特朗普总统夫妇茶叙】金十数据9月25日讯，当地时间9月25日上午，国家主席习近平和夫人彭丽媛乘车抵达白宫，同美国总统特朗普和夫人梅拉尼娅举行茶叙。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
     {
       "datetime": "2026-09-25 22:42:06",
       "content": "行业消息人士数据显示，如果旨在重新开放黑海的外交努力取得成功，俄罗斯可以立即恢复黑海和亚速海80%的粮食贸易港口运营。",
@@ -921,177 +1081,73 @@
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:03:36",
-      "content": "波罗的海海岬型船运价指数下跌2.79%，至48,954美元。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:02:36",
-      "content": "巴基斯坦外交部：巴基斯坦、沙特阿拉伯和土耳其的军事首脑将探讨协助沙特阿拉伯的方式。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:01:38",
-      "content": "巴基斯坦外交部：巴基斯坦、沙特阿拉伯和土耳其计划召开军方高层紧急会议。巴基斯坦、沙特阿拉伯、土耳其谴责针对麦加和沙特设施的袭击。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:01:03",
-      "content": "微软(MSFT.O)：推出搭载Home、Code和Autopilot功能的新款Copilot。通过“Office in Copilot”将Word、Excel和PowerPoint的完整功能引入Copilot。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 19:58:50",
-      "content": "欧盟外交与安全政策高级代表卡拉斯：9亿欧元用于欧盟对乌克兰的军事援助任务，10亿欧元用于资助新的联合采购设备。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 19:56:17",
-      "content": "欧盟外交与安全政策高级代表卡拉斯：欧盟成员国就通过欧洲和平基金（EPF）向乌克兰提供资金的条件达成一致。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 19:56:04",
-      "content": "花旗：人工智能仍将是推动美国股市表现的关键因素。历史上市场往往会在美联储首次加息后以及中期选举前走弱，随后在年底前逐步恢复。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 19:55:53",
-      "content": "花旗：尽管油价上涨、利率走高以及美联储政策不确定性增加，股市仍表现出韧性。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 19:55:46",
-      "content": "花旗：继续看好美国股市，维持美股超配观点，将在市场出现回调时增加投资敞口。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 19:55:14",
-      "content": "伊朗外长阿拉格齐：已向英国外交大臣埃德·米利班德表示，英国、法国和德国必须为未能对美国和以色列对伊朗发动的战争采取坚定立场承担责任。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 19:53:56",
-      "content": "印度财政部：预计2027财年市场借款为15.99万亿卢比，预估为17.2万亿卢比。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 19:51:12",
-      "content": "据日本共同社：本田正在考虑在俄亥俄州投资4000亿日元建设混合动力汽车工厂。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 19:49:14",
-      "content": "市场消息：千禧管理公司的新一轮募资吸引客户300亿美元需求。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 19:46:45",
-      "content": "以色列军方：第98师完成行动准备，开始指挥约旦河西岸的两个旅。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 19:46:29",
-      "content": "美国国家飓风中心：波洛恢复五级飓风状态。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 19:43:56",
-      "content": "市场消息：巴拉圭正在增加对美国的牛肉出口。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 19:43:11",
-      "content": "市场消息：以色列总理内塔尼亚胡已返回以色列。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 19:42:54",
-      "content": "抛美债本该是资金不要美国资产，美元凭什么还在涨？甚至卖压不只在美国，这是一场全球同步的收益率上行，没有地方可以躲！这篇拆解美元成为本周赢家的真相>>",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 19:42:48",
-      "content": "市场消息：美国尚未为巴拉圭牛肉出口分配配额。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 19:35:01",
-      "content": "据德国媒体：德国联邦议院已通过一项燃油折扣计划，适用于10月至12月。该措施旨在应对中东战争导致的高油价，将柴油和汽油价格每升降低17欧分。德国联邦参议院预计也将在本周五予以批准。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 19:34:42",
-      "content": "印度央行：截至9月18日，印度黄金储备为1112.9亿美元。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
     }
   ],
   "shmet": [
+    {
+      "datetime": "2026-09-25 23:26:29",
+      "content": "【快讯】SHMET09月25日讯，市场消息：德国化工企业‌巴斯夫确认正与RAG基金会及赢创就收购事宜进行谈判，谈判结果仍未确定。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 23:25:04",
+      "content": "【快讯】SHMET09月25日讯，巴西总统卢拉：将禁止在线博彩。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 23:15:12",
+      "content": "【快讯】SHMET09月25日讯，秘鲁矿业部长：预计秘鲁将在5-6年内新增100万吨年铜产量。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 23:14:18",
+      "content": "【快讯】SHMET09月25日讯，秘鲁矿业部长：预计今年秘鲁铜产量为250万至270万吨。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 23:14:08",
+      "content": "【快讯】SHMET09月25日讯，消息人士称，俄罗斯彼尔姆炼油厂在周五遭遇无人机袭击后暂停了加工。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 23:02:39",
+      "content": "【快讯】SHMET09月25日讯，加拿大4月至7月预算赤字为51.4亿加元，上年同期为赤字77.9亿加元。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 23:01:17",
+      "content": "【快讯】SHMET09月25日讯，加拿大7月预算赤字为47.7亿加元，2025年7月为赤字15.1亿加元。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 22:59:45",
+      "content": "【快讯】SHMET09月25日讯，美国财长贝森特：必须与货币市场保持密切沟通。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
     {
       "datetime": "2026-09-25 22:43:35",
       "content": "【快讯】SHMET09月25日讯，行业消息人士数据显示，如果旨在重新开放黑海的外交努力取得成功，俄罗斯可以立即恢复黑海和亚速海80%的粮食贸易港口运营。",
@@ -1103,150 +1159,6 @@
     {
       "datetime": "2026-09-25 22:37:48",
       "content": "【快讯】SHMET09月25日讯，据路透社：工人表示，由于原料供应问题，委内瑞拉卡多炼油厂的原油蒸馏装置和流化催化裂化装置已停止生产。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 22:36:36",
-      "content": "【快讯】SHMET09月25日讯，德国30年期国债收益率上涨6个基点至3.92%，创2011年以来新高。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 22:34:30",
-      "content": "【快讯】SHMET09月25日讯，墨西哥总统辛鲍姆：墨西哥正努力解决美国贸易逆差方面的担忧。不清楚美墨贸易协议是否会在11月前达成。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 22:33:56",
-      "content": "【快讯】SHMET09月25日讯，据国际文传电讯社：俄罗斯表示已在切尔诺莫尔斯克港击中一艘干货船。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 22:15:59",
-      "content": "【快讯】SHMET09月25日讯，美联储施密德：一个问题是，人工智能生态系统是否已经大到“不能失败”的程度。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 22:10:06",
-      "content": "【快讯】SHMET09月25日讯，伊拉克总理：我们呼吁你们以更加开放的方式与伊朗接触。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 22:09:03",
-      "content": "【快讯】SHMET09月25日讯，美联储施密德：美联储仍未解决通胀问题。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 22:08:45",
-      "content": "【美国消费者信心走弱 未来一年通胀预期升至4.6%】SHMET09月25日讯，密歇根大学调查数据显示，美国消费者对当前和未来一年个人财务状况的评价均下降约10%，对高物价的担忧持续升温。耐用品购买条件略有改善，部分原因是消费者认为现在完成此类购买有助于避免未来价格上涨。由于市场重新担忧高燃料价格以及贸易争端再度升级可能蔓延至整体经济，消费者对短期商业状况的预期大幅恶化。总体来看，调查显示，不同政治立场的受访者普遍认为，美国经济前景较年初有所削弱。本月消费者信心大幅下降后，共和党阵营信心较2026年1月下降20%，民主党阵营同期下降13%。未来一年通胀预期从上月的4.0%升至本月的4.6%，创6月以来最高水平。目前这一水平明显高于伊朗冲突开始前2月的3.4%，也高于2024年所有月份的水平。长期通胀预期小幅升至3.4%，结束连续三个月维持在3.3%的状态。该预期仍高于2024年2.8%至3.2%的区间。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 22:08:15",
-      "content": "【快讯】SHMET09月25日讯，美联储施密德：美国债务似乎非常“极端”。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 22:07:26",
-      "content": "【快讯】SHMET09月25日讯，标普500指数转跌。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 22:03:11",
-      "content": "【快讯】SHMET09月25日讯，伊拉克总理：我们重申支持通过对话和外交来缓解危机的立场。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 22:00:55",
-      "content": "【快讯】SHMET09月25日讯，美国9月密歇根大学预期指数终值 46.3，预期45.7，前值45.8。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 22:00:53",
-      "content": "【快讯】SHMET09月25日讯，美国9月密歇根大学消费者信心指数终值 48.1，预期47.6，前值47.8。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 22:00:48",
-      "content": "【快讯】SHMET09月25日讯，伊拉克总理：我们正在努力多样化石油出口渠道，以进入全球市场。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 22:00:20",
-      "content": "【快讯】SHMET09月25日讯，美国9月密歇根大学现况指数终值 50.9，预期49.5，前值50.9。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 22:00:12",
-      "content": "【快讯】SHMET09月25日讯，美国9月一年期通胀率预期终值 4.6%，前值4.60%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 22:00:06",
-      "content": "【快讯】SHMET09月25日讯，伊拉克总理：我们对与运输和海上航行自由相关的后果以及其对能源价格上涨的影响感到担忧。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 21:51:13",
-      "content": "【快讯】SHMET09月25日讯，美国9月密歇根大学消费者信心指数终值、一年期通胀率预期终值将于十分钟后公布。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 21:37:19",
-      "content": "【快讯】SHMET09月25日讯，马尔代夫副总统：印度洋必须保持和平。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
