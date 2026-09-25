@@ -1,7 +1,511 @@
 {
   "source": "jin10 flash + shmet + shfe weekly stock",
-  "generated_at": "2026-09-25T15:30:56.617514+00:00",
+  "generated_at": "2026-09-25T18:05:28.909835+00:00",
   "jin10": [
+    {
+      "datetime": "2026-09-26 02:02:29",
+      "content": "微软(MSFT.O)盘中股价短暂触及10个月高点，日内上涨4%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 01:54:17",
+      "content": "德国讨论要求天然气企业明年补充天然气储备。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 01:50:26",
+      "content": "洲际交易所：截至9月22日当周，柴油投机者净多头持仓减少3,835手至90,831手。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 01:50:04",
+      "content": "洲际交易所：截至9月22日当周，布伦特原油投机者净多头持仓减少64,543手至218,114手。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 01:50:00",
+      "content": "2026年FOMC票委、克利夫兰联储主席哈玛克将于十分钟后发表讲话。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 01:46:27",
+      "content": "据The Information：Meta Platforms(META.O)的AI产品Muse被发现存在安全漏洞，可能影响用户数据和虚拟环境安全，因此Meta准备加强风险提示。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 01:36:31",
+      "content": "胡塞领导人穆沙特否认曾试图袭击麦加，称沙特关于“也门企图攻击麦加”的指控是诽谤，并认为沙特借此寻求国际支持。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 01:30:23",
+      "content": "【莱茵河水位跌至历史新低 德国航运持续受影响】金十数据9月26日讯，德国境内莱茵河持续数周的低水位达到历史新低。在德国考布附近这一对航运至关重要的河段，水位9月25日降至2厘米，比8月17日创下的此前最低纪录还低5厘米。德国莱茵河水路和航运管理部门当天表示，目前形势依然紧张。德国北莱茵-威斯特法伦州部分测站未来几天也可能出现历史最低水位。预计杜塞尔多夫水位26日将再次跌至负值，并低于8月创下的负1厘米纪录；杜伊斯堡—鲁尔奥特水位也可能跌破此前129厘米的最低纪录。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 01:27:23",
+      "content": "据相关陪审团裁定：Meta Platforms(META.O)在剑桥分析（Cambridge Analytica）丑闻相关诉讼中误导了新墨西哥州消费者。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 01:17:40",
+      "content": "金十图示：2026年09月25日（周五）美股热门股票行情一览（美股盘中）",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 01:17:23",
+      "content": "金十图示：2026年09月25日（周五）热门中概股行情一览（美股盘中）",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 01:16:39",
+      "content": "美国司法部结束对有关CrowdStrike(CRWD.O)交易的调查。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 01:16:02",
+      "content": "美联储在固定利率逆回购操作中总计接纳了3个对手方的5.76亿美元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 01:11:19",
+      "content": "【美官员称美伊经调解方展开积极讨论 有近4000万桶原油通过霍尔木兹】金十数据9月26日讯，据NewsNation报道，一名美国官员表示，美伊双方正在通过斡旋方进行“积极且建设性的讨论”。该官员称，美国目前“掌控霍尔木兹海峡，处于非常有利的位置，因此并不急于推进”。该官员表示，过去48小时内约有4000万桶石油通过霍尔木兹海峡运输。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 01:09:14",
+      "content": "也门总统领导委员会主席表示，凡是在9月26日起脱离胡塞武装、不再参与战斗或为其工作的人员，将被纳入未来实施的全面赦免范围。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 01:06:26",
+      "content": "也门总统领导委员会主席呼吁也门民众动员起来，加入政府武装力量。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 01:05:14",
+      "content": "据NewsNation：美国官员表示，过去48小时内约有4000万桶石油通过霍尔木兹海峡。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 01:04:30",
+      "content": "据贝克休斯：美国能源公司连续第三周增加钻井平台。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 01:03:17",
+      "content": "俄罗斯总统普京：俄罗斯知道波罗的海国家存在侵犯俄语居民权利的情况，但俄方对此采取的是人道领域的回应方式。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 01:03:06",
+      "content": "美国至9月25日当周石油钻井总数 455口，前值452口。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 01:02:59",
+      "content": "美国至9月25日当周天然气钻井总数 135口，前值134口。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 01:02:55",
+      "content": "美国至9月25日当周总钻井总数 599口，前值595口。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 01:02:33",
+      "content": "据国际文传电讯社：俄罗斯总统普京表示，俄罗斯没有准备与欧洲发生任何敌对行动。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 01:02:16",
+      "content": "俄罗斯总统普京：所有和平解决方案都摆在桌面上，但俄罗斯仍需要考虑什么符合自身利益。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 01:01:44",
+      "content": "俄罗斯总统普京：乌克兰近期开始攻击俄罗斯境内的民用设施，现在必须承担后果。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 01:01:05",
+      "content": "俄罗斯总统普京：不理解为何有人会攻击俄罗斯两大电商平台Ozon和Wildberries。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:59:59",
+      "content": "【习近平圆满结束对美国的国事访问】金十数据9月26日讯，当地时间9月25日下午，国家主席习近平结束对美国的国事访问返回北京。离开华盛顿时，美国政府高级官员到机场送行。机场鸣放21响礼炮。前往机场途中，华侨华人和留学生代表在道路两旁挥舞中美两国国旗，热烈祝贺习近平主席访问圆满成功。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:59:28",
+      "content": "据塔斯社：俄罗斯总统普京表示，俄罗斯已经从乌克兰袭击造成的损失中恢复过来。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:58:47",
+      "content": "据塔斯社：俄罗斯总统普京表示，俄罗斯原本准备在乌克兰选举后恢复与基辅的谈判，但乌克兰试图袭击莫斯科，并攻击投票站。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:55:58",
+      "content": "【知情人士：SK海力士旗下Solidigm考虑IPO 估值或达1500亿美元】金十数据9月26日讯，据路透社报道，SK海力士(SKHY.O)旗下美国固态存储业务子公司Solidigm正在考虑最早于明年进行首次公开募股，估值可能达到1500亿美元。知情人士称，Solidigm本周已与多家投资银行举行IPO承销竞标会议，可能通过上市融资约150亿美元。不过，IPO规模和时间仍处于早期讨论阶段，可能根据市场情况调整。Solidigm总部位于美国加州，是SK海力士旗下NAND闪存和固态硬盘业务部门。SK海力士于2020年以约90亿美元收购英特尔的NAND闪存及SSD业务，并于2021年成立Solidigm。Solidigm主要向服务器、云计算和数据中心提供企业级SSD产品，并重点布局AI应用所需的大容量存储市场。若上市，其估值将大幅超过近年来半导体IPO案例，包括2023年上市时估值约540亿美元的Arm(ARM.O)，以及2026年IPO估值约560亿美元的Cerebras。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:53:38",
+      "content": "【特朗普否认贝森特将任“超级智能主管” 希望其继续掌舵财政部】金十数据9月26日讯，美国总统特朗普表示，美国财长贝森特不会出任“超级智能（SI）主管”。特朗普称，贝森特本人“不想担任这一职位”，同时其目前在财政部工作出色，因此没有理由进行调整。特朗普表示，相关报道属于“假新闻”，并强调希望贝森特继续负责财政部工作。此前有消息称，贝森特可能成为美国政府负责超级智能领域的高级官员。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:51:41",
+      "content": "美国总统特朗普：希望将美国财长贝森特留在财政部。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:51:18",
+      "content": "美国中央司令部：截至9月25日，美军中央司令部已引导122艘商船改道，以确保严格执行相关措施。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:50:38",
+      "content": "美国总统特朗普：美国财长贝森特在财政部的表现非常出色。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:50:33",
+      "content": "美国总统特朗普：美国财长贝森特将不会担任超级智能（SI）主管。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:50:00",
+      "content": "据路透社：消息人士称，特朗普政府将于当地时间9月30日前履行承诺，决定拨款4亿美元用于乌克兰军事援助。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:50:00",
+      "content": "美国至9月25日当周石油钻井总数将于十分钟后公布。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:47:16",
+      "content": "据路透社：消息人士称，Solidigm本周已与多家银行举行上市推介会，以确定IPO承销商等相关安排。Solidigm此次在美国上市可能募资150亿美元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:46:55",
+      "content": "据路透社：消息人士称，SK海力士旗下Solidigm计划于2027年进行首次公开募股，估值可能达到1500亿美元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:46:07",
+      "content": "美国联邦贸易委员会（FTC）主席：就个人而言，最担心的是外卖配送、网约车以及航空票价问题。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:45:01",
+      "content": "Palantir(PLTR.N)联合创始人支持达里奥担任Anthropic的领导者，认为其是合适人选。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:43:09",
+      "content": "美国联邦贸易委员会（FTC）主席：如果企业使用大量个人数据来提供某项产品或服务，而这种数据使用方式过去并非惯例，那么企业应该告知用户这一情况。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:42:20",
+      "content": "Palantir(PLTR.N)联合创始人称OpenAI和Anthropic推动的人工智能政策“极其危险”。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:40:07",
+      "content": "美国联邦贸易委员会（FTC）主席：只要我担任主席，就会继续抵制将这些（AI代理）工具“拟人化”的做法。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:38:01",
+      "content": "【伊朗称不会在核问题上让步 霍尔木兹重开仍取决于美方满足条件】金十数据9月26日讯，伊朗一名高级官员向路透社表示，即使美国接受伊朗提出的重开霍尔木兹海峡方案，伊朗也不会在核计划问题上作出让步。该官员称，霍尔木兹海峡将在美国满足伊朗“所有条件”前保持关闭。伊朗外长阿拉格齐此前表示，伊朗提出一项7天方案，包括结束多地区敌对行动、美国解除对伊朗港口的海上封锁、释放被冻结资产以及取消石油制裁，以换取重新开放这一重要航道。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:35:08",
+      "content": "据路透社：伊朗高级官员称霍尔木兹海峡将继续关闭，直到伊朗的条件得到满足，才会与美国进行核谈判。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:34:33",
+      "content": "据路透社：伊朗高级官员称伊朗在其核计划上不会作出任何让步。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:29:59",
+      "content": "【中美元首会晤引发热烈国际反响】金十数据9月26日讯，当地时间9月24日，国家主席习近平同美国总统特朗普在白宫举行会晤，并就两国关系发展作出一系列重要论述。多国人士在接受新华社记者采访时表示，中美元首会晤举世瞩目、意义重大。习近平主席的重要论述彰显远见卓识和胸怀担当，丰富了中美建设性战略稳定关系的内涵，为两国管控分歧、拓展合作提供新的战略指引。中美相向而行，积极探索两个大国的正确相处之道，不仅增进两国人民福祉，也将为促进人类发展进步注入更多稳定性和正能量。习近平主席在会晤中指出，中美两国国情不同，通过坦诚、深入、持续的对话能够增进理解、求同存异、积累互信。经贸合作是中美关系的重要基础。习近平主席在会晤中强调，“中美两国利益深度交融，合作空间十分广阔”“希望双方相向而行，坚持互利共赢导向，推动中美经贸关系持续稳定向好发展”。习近平主席在会晤中指出，中美都是人工智能大国，双方有竞争，更可以合作，应该各展所长而不是相互设防。双方可以继续开展人工智能对话，就其风险和收益进行交流，共同防范人工智能被滥用恶用。习近平主席在会晤中谈及中东局势时指出，中方支持美伊两国回归伊斯兰堡谅解备忘录，希望双方尽早重回对话谈判解决问题的轨道，最终达成包括核问题在内的全面协议，尽早实现和平。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:26:46",
+      "content": "欧洲央行管委穆兰：认为依赖欧洲央行出手干预是“错误的推理”。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:25:38",
+      "content": "欧洲央行管委穆兰：必须采取一切措施以避免主权债务危机。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:23:32",
+      "content": "欧洲央行管委穆兰：对法国国家融资能力没有担忧。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:22:15",
+      "content": "【中美同意共同构建“基于尊重、公平、对等的建设性战略稳定关系”】金十数据9月26日讯，当地时间9月25日上午，国家主席习近平和夫人彭丽媛同美国总统特朗普和夫人梅拉尼娅在白宫举行茶叙。两国元首同意进一步丰富中美关系定位的内涵，共同构建“基于尊重、公平、对等的建设性战略稳定关系”。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:18:06",
+      "content": "【美伊谈判进入技术磋商 国际油价跌幅扩大】金十数据9月26日讯，国际原油扩大跌幅，WTI原油日内跌近3.5%，报90.54美元/桶；布伦特原油跌超4%，报96.56美元/桶。消息面上，美伊谈判据称进入技术磋商阶段，市场预期供应端压力可能缓解，推动油价回落。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:13:15",
+      "content": "【报道：美伊谈判进入技术磋商阶段 伊朗提出7天重开霍尔木兹方案】金十数据9月26日讯，据半岛电视台报道，美伊在纽约举行的谈判已从初步外交接触进入更深入的技术磋商阶段。半岛电视台驻德黑兰分社社长努尔丁·德盖尔称，在美国特使史蒂夫·威特科夫和贾里德·库什纳完成首轮会谈后，技术专家已加入后续讨论。报道称，伊朗代表团此前签证未获美国政府批准，但随后获准入境并参与谈判。卡塔尔方面数月来持续担任美伊之间的调停方。据报道，伊朗正在推动一项“7天方案”：若美国解除对伊朗的封锁，伊朗将重新开放霍尔木兹海峡。该方案被视为此前讨论的60天谈判流程的加速版本，目标是推动双方重返围绕伊朗核问题的直接谈判。目前双方讨论的核心议题包括解除制裁、放松石油出口限制、解冻伊朗资产，以及霍尔木兹海峡未来管理安排，包括伊朗和阿曼是否能在美国及地区国家参与的框架下恢复某种联合管理模式，以及美国舰船通行规则。德盖尔表示，尽管双方仍存在分歧，但德黑兰消息人士认为谈判正在取得一定进展，会谈仍在继续，卡塔尔正努力推动双方缩小差距。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:10:48",
+      "content": "美国贸易代表格里尔：二十国集团贸易部长会议计划于当地时间9月29日至10月1日举行。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:09:46",
+      "content": "美国贸易代表格里尔将于下周前往威斯康星州出席二十国集团会议。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:03:56",
+      "content": "布伦特原油日内大跌4.00%，现报96.71美元/桶。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:03:42",
+      "content": "据半岛电视台：美伊谈判进入技术磋商阶段。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 23:53:01",
+      "content": "【中美两国元首夫妇共同参观美国国家档案馆】金十数据9月25日讯，当地时间9月25日，国家主席习近平和夫人彭丽媛在美国总统特朗普和夫人梅拉尼娅陪同下参观美国国家档案馆。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 23:52:14",
+      "content": "美联储施密德：决策者会关注股市估值和经济表现，但在观察中不会“过于微观”。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 23:40:30",
+      "content": "金十图示：2026年09月25日（周五）全球股市指数-欧洲市场",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 23:39:11",
+      "content": "德国DAX30指数9月25日（周五）收盘上涨143.97点，涨幅0.57%，报25399.89点；\n英国富时100指数9月25日（周五）收盘上涨16.18点，涨幅0.15%，报10696.17点；\n法国CAC40指数9月25日（周五）收盘下跌3.63点，跌幅0.04%，报8077.80点；\n欧洲斯托克50指数9月25日（周五）收盘上涨25.65点，涨幅0.41%，报6298.15点；\n西班牙IBEX35指数9月25日（周五）收盘上涨124.69点，涨幅0.64%，报19698.09点；\n意大利富时MIB指数9月25日（周五）收盘上涨314.05点，涨幅0.61%，报51857.50点。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 23:30:16",
+      "content": "美国最高法院恢复特朗普政府的大规模选民身份核验系统。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
     {
       "datetime": "2026-09-25 23:26:11",
       "content": "联合国安理会：谴责胡塞武装对沙特的袭击，立即停止军事升级。",
@@ -625,465 +1129,329 @@
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
-    },
-    {
-      "datetime": "2026-09-25 21:08:19",
-      "content": "特斯拉股价反弹，盘前涨幅超过1%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 21:05:31",
-      "content": "据The Information：特斯拉8月生产了数百台Optimus人形机器人。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 21:05:20",
-      "content": "市场消息：英伟达承诺向NScale投资10亿美元，资金预计于11月中旬到位。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 21:04:12",
-      "content": "据The Information：特斯拉管理层告知员工，公司希望在今年年底前建立一条每周可生产超过1000台机器人的生产线。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 21:02:25",
-      "content": "据The Information：特斯拉近几个月已将其Optimus人形机器人的产量提升约10倍。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 21:02:07",
-      "content": "据The Information：特斯拉Optimus人形机器人在扩大生产过程中遭遇手部设计和供应商方面的难题。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:59:40",
-      "content": "【油价上涨与资本外流施压 印度外汇储备创近两年最大降幅】金十数据9月25日讯，印度外汇储备创近两年来最大单周降幅，因央行在油价飙升背景下出手支持卢比。印度央行周五公布的数据显示，截至9月18日当周，印度外汇储备减少148.8亿美元，降至7659亿美元。根据汇编数据，这是自2024年11月15日当周以来的最大降幅。外汇储备下降之际，印度央行在当周通过外汇市场出售美元以支撑卢比。由于国内股市资金外流以及中东战争持续影响，卢比今年成为亚洲表现最弱的货币之一。印度央行已采取措施吸引美元流入，包括推出面向海外居民的特别存款计划，该计划吸引资金1436亿美元，但这些措施对卢比的支撑效果有限。本月早些时候，印度央行还在外汇市场开展卖出—买入掉期操作，以减少银行体系现金流，这也对外汇储备造成压力。此类交易通常涉及印度央行向银行出售美元换取卢比，并约定未来回购美元。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:58:26",
-      "content": "【美国寻求增加巴拉圭牛肉供应 以缓解国内价格压力】金十数据9月25日讯，巴拉圭总统圣地亚哥·佩尼亚周五表示，美国正在要求巴拉圭增加牛肉出口，以缓解美国国内高企的牛肉价格，但尚未向巴拉圭提供出口配额。佩尼亚表示：“目前美国价格处于高位，他们正在要求越来越多的供应，而巴拉圭是一个可靠的合作伙伴。”由于美国国内肉类需求增加且价格飙升，美国正寻求通过海外供应商满足市场需求。特朗普已采取措施应对这一问题，包括允许在较低关税税率下进口最多30万吨碎牛肉，这将使巴拉圭邻国巴西受益。此外，特朗普盟友哈维尔·米莱领导的阿根廷也在两国更广泛贸易谈判中获得牛肉出口配额增加8万吨。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:57:54",
-      "content": "据日本共同社：片山皋月与贝森特重申日元被低估是一个问题。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:57:36",
-      "content": "【美债市场剧烈震荡 投资者暂避利率交易风险】金十数据9月25日讯，衡量美国国债波动性的指标正迎来一年多来最大涨幅，此前债券收益率升至数十年高位，令市场摆脱近期低迷状态。ICE美国银行（ICE BofA）的MOVE指数是衡量债券市场波动性的指标，本周累计上涨约29.69%，为去年4月所谓“解放日”以来最大涨幅。当时，特朗普推出的大规模进口关税措施引发全球市场震荡。目前该指数已升至今年3月以来的最高水平，当时伊朗战争刚刚爆发。市场波动剧烈，许多交易员已选择观望。例如，法国兴业银行利率策略主管Adam Kurpiel表示，其团队目前对美国利率持中性观点，并等待“波动率下降后再进行交易”。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:54:34",
-      "content": "重要新闻\n1. 美联储威廉姆斯：无法忽视持续的供应冲击。\n2. 花旗：继续看好美国股市，维持美股超配观点，将在市场出现回调时增加投资敞口。\n3. 高盛：美国五大超大规模云服务商将在2027年将人工智能基础设施支出提高54%，达到1.2万亿美元，高于华尔街预期。\n4. 美国耐用品数据公布后，美国30年期国债收益率最后上涨1.85个基点，报5.481%；10年期国债收益率最后上涨2.36个基点，报5.186%。\n个股新闻\n1. 德意志银行：将PayPal目标价从60美元下调至55美元。\n2. 德意志银行：将Meta公司目标价从750美元上调至820美元。\n3. 市场消息：千禧管理公司的新一轮募资吸引客户300亿美元需求。\n4. 据日本共同社：本田正在考虑在俄亥俄州投资4000亿日元建设混合动力汽车工厂。\n5. 微软：推出搭载Home、Code和Autopilot功能的新款Copilot。通过“Office in Copilot”将Word、Excel和PowerPoint的完整功能引入Copilot。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:53:44",
-      "content": "据日本共同社：日本和美国财政负责人讨论日元贬值问题。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:53:23",
-      "content": "美国贸易代表格里尔：正与墨西哥进行谈判，以应对不断扩大的贸易赤字。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:53:16",
-      "content": "金银已经摆脱底部筹码密集区的引力拉扯，反弹能否进一步延续？留意这些相关水平能否接住价格调整>>",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:52:21",
-      "content": "美国贸易代表格里尔：美国仍从加拿大获取所需的石油、天然气和钾肥。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:52:16",
-      "content": "美国贸易代表格里尔：美国总统特朗普对美国在加拿大的立场感到满意。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:52:11",
-      "content": "美国贸易代表格里尔：美国和加拿大进行了良好的对话，暂无紧迫性。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:50:23",
-      "content": "【胡塞武装致信欧盟：不会袭击欧洲红海船只】金十数据9月25日讯，据英国金融时报报道，胡塞武装已致信欧盟，表示不会袭击红海中的欧洲船只。两位了解此事的外交官透露，胡塞武装本月致信欧盟外交与安全政策部门，试图向欧洲人保证，武装分子在也门南部沿海发动的攻势并非旨在扰乱国际航运。外交官们表示，胡塞武装称这不会影响通过曼德海峡的航行自由。外交官表示，欧盟正在与沙特就组建海上特遣部队以保护该地区航运进行磋商。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:48:09",
-      "content": "WTI原油失守91美元/桶，日内跌幅3.02%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:46:08",
-      "content": "俄罗斯天然气工业股份公司上半年天然气产量增加3.4%，达到2165.5亿立方米。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:44:55",
-      "content": "市场消息：一艘希腊渡轮在爱琴海发生火灾，火源来自货舱。所有船员和乘客均已安全撤离。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:44:40",
-      "content": "【美国企业设备订单超预期增长 资本投资延续强劲势头】金十数据9月25日讯，美国企业设备订单8月增幅超过预期，延续今年资本投资增长势头。美国商务部周五公布的数据显示，剔除飞机和军用设备、用于衡量企业设备投资的核心资本品订单8月环比增长1.6%，7月增幅则向上修正为0.6%。包括商用飞机和军用设备在内、使用期限至少三年的全部耐用品订单基本持平。波音公司8月订单数量较上月减少。耐用品报告显示，基础金属、机械、计算机和电气设备订单增加，而由于汽车和商用飞机订单下降，运输设备订单减少。今年以来，在人工智能相关支出推动下，资本投资和需求保持强劲。企业设备支出上半年对国内生产总值增长作出了较大贡献。在耐用品报告公布前，亚特兰大联储GDPNow模型预计，企业设备投资将在第三季度为GDP贡献近1个百分点。结合健康的消费者支出数据，美国经济有望迎来又一个强劲增长季度。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:42:08",
-      "content": "土耳其、巴基斯坦和沙特阿拉伯外长在联合声明中强烈谴责对麦加及沙特阿拉伯民用和经济设施的攻击。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:41:56",
-      "content": "【印度扩大美国LPG采购 明年签约量或增至276万吨】金十数据9月25日讯，印度国有炼油商正准备在明年通过年度合同将美国液化石油气（LPG）采购量提高逾25%。随着波斯湾供应受扰，印度正加快推动供应来源多元化。据知情人士透露，印度石油公司、印度巴拉特石油公司和印度斯坦石油公司正在寻求明年每月从美国采购最多5批、每批4.6万吨的LPG货物，高于2026年合同中的每月4批。消息人士称，每批货物必须包含等量的丙烷和丁烷。若相关协议最终达成，印度签约采购的美国LPG数量将从今年的220万吨升至约276万吨。今年，作为全球第二大LPG进口国的印度首次与美国供应商签署长期采购协议。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:40:16",
-      "content": "俄总统新闻秘书：俄密切关注哪些国家正向基辅政权提供武器。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:37:03",
-      "content": "在出任美联储主席127天之际，沃什所承诺的“体制重构”正加速落地。他不仅在沟通机制上打破传统，更彻底摒弃了以中性利率为锚的传统范式……点击查看...",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:33:48",
-      "content": "美国耐用品数据公布后，美国30年期国债收益率最后上涨1.85个基点，报5.481%；10年期国债收益率最后上涨2.36个基点，报5.186%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:32:29",
-      "content": "英国首相伯纳姆计划10月访问柏林，与默茨举行会谈。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:31:33",
-      "content": "VIP 持仓动向洞察交易者多空变化，行情破局有据可依，还可查看特朗普最新持仓，立享9折解锁>>",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:31:20",
-      "content": "【克罗地亚批准将“北溪”爆炸案嫌疑人引渡至德国】金十数据9月25日讯，据克罗地亚媒体24日报道，克罗地亚一家法院已批准将涉嫌参与“北溪”爆炸事件的一名乌克兰籍嫌疑人引渡至德国。克罗地亚广播电视台援引该嫌疑人律师的说法报道，克罗地亚法院于9月18日批准引渡，他将对此提出上诉。目前尚不清楚该嫌疑人何时会被移交给德国。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:31:05",
-      "content": "【柏林警方借助人工智能监控摄像头打击犯罪】金十数据9月25日讯，德国柏林警方24日在一处犯罪高发区域启动一项计划，将借助人工智能监控摄像头打击犯罪。据悉，柏林警方将在这项计划启动的前四周内，在科特布斯门地区安装并调试好人工智能监控摄像头，随后正式投入使用。警方还计划将该方案推广至市内其他犯罪高发区域。柏林警方发表声明说，该摄像头通过“空间人工智能”技术分析人员动作，以识别潜在犯罪与暴力行为。摄像头配套的显示屏平时处于休眠状态，当人工智能系统自动识别到暴力和破坏行为时，显示屏将亮起并显示相关信息，警员也会收到信息推送，继而判断是否采取行动。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:30:06",
-      "content": "美国8月扣除飞机非国防资本耐用品订单月率 1.6%，预期0.50%，前值由0.00%修正为0.6%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:30:06",
-      "content": "美国8月扣除国防的耐用品订单月率 0.1%，前值由1.3%修正为1.4%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:30:06",
-      "content": "美国8月扣除运输的耐用品订单月率 0.3%，预期0.60%，前值由0.40%修正为0.7%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:30:04",
-      "content": "美国8月耐用品订单月率 0%，预期-0.4%，前值由1.10%修正为0.9%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:27:36",
-      "content": "俄罗斯总统普京的特使与美国总统特朗普的特使进行会晤。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:24:01",
-      "content": "知情人士透露，赢创与巴斯夫之间存在接触。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:22:16",
-      "content": "市场消息：欧盟能源主管暗示将推迟进口甲烷规则的实施。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:20:17",
-      "content": "高盛：超大规模云服务商每年需要约3000亿美元的人工智能收入才能实现盈亏平衡。不过，融资需求上升以及基础设施限制可能拖累未来支出增长速度。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:20:09",
-      "content": "高盛：预计亚马逊、谷歌母公司Alphabet、微软、甲骨文和Meta今年人工智能基础设施支出将达到8000亿美元。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:20:00",
-      "content": "美国8月耐用品订单月率将于十分钟后公布。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:19:52",
-      "content": "高盛：美国五大超大规模云服务商将在2027年将人工智能基础设施支出提高54%，达到1.2万亿美元，高于华尔街预期。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:19:15",
-      "content": "据华盛顿邮报：美国总统特朗普下周将在俄克拉荷马州和阿拉巴马州进行竞选活动。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:19:01",
-      "content": "【美股期货上涨 油价与美债收益率回落缓解市场压力】金十数据9月25日讯，美国股指期货上涨，因油价和美国国债收益率从近期大幅上涨中回落，市场正等待有关通胀预期的关键数据。法国兴业银行美国研究主管Subadra Rajappa表示：“股市仍相对具有韧性，目前并未真正看到金融状况出现任何有意义的收紧。”本周令股市承压的两大因素在周五早间有所缓解。美国10年期国债收益率在周三和周四大幅攀升后小幅回落。同时，由于美国和伊朗正在讨论一项分阶段协议，该协议可能促成霍尔木兹海峡重新开放以及华盛顿解除对伊朗港口的封锁，油价隔夜下跌。Sevens Report创始人Tom Essaye在给客户的报告中表示，周五油价下跌和美债收益率回落“为投资者提供了缓解”。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:17:24",
-      "content": "【意大利政府将于下月与国内炼油行业举行会议】金十数据9月25日讯，意大利政府将于下月与国内炼油行业举行会议，讨论提高炼油产量的问题。随着柴油和其他燃料价格飙升引发通胀担忧，政府正加大对燃料供应问题的关注。定于10月8日举行的会议，是欧洲各国政府高层日益关注石油产品供应问题的最新迹象。法国总统和英国央行行长等人士此前也曾就这一问题发表看法。今年欧洲遭遇燃料进口供应大幅减少的冲击，而近年来欧洲自身炼油产能有所下降。目前，柴油市场正处于高度紧张状态，市场担忧美国供应可能减少，而中东和俄罗斯供应减少后，市场可用资源已进一步下降。意大利已实施柴油税减免措施，该政策持续至10月初，以帮助降低消费者成本。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:13:11",
-      "content": "美国天然气期货跌幅扩大至5%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:11:37",
-      "content": "巴基斯坦外交部：三国确认沙特阿拉伯有权捍卫其安全。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:11:28",
-      "content": "金十图示：2026年09月25日（周五）新闻联播今日要点",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:09:42",
-      "content": "克里姆林宫：必须解除制裁才能结束柴油出口禁令。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:09:19",
-      "content": "克里姆林宫：将柴油解决方案与黑海航运安全挂钩。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:09:11",
-      "content": "泰国财政部长：较弱的泰铢可能对经济更有利，但不希望出现波动。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:09:07",
-      "content": "泰国财政部长：目标是在3年内实现3%的GDP增长。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:09:03",
-      "content": "泰国财政部长：公共债务将在今年上升至国内生产总值的68%-69%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:08:48",
-      "content": "泰国财政部长：经济明年可能增长2.5%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:07:54",
-      "content": "克里姆林宫表示，关于黑海安全问题尚未进行具体谈判。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:06:19",
-      "content": "俄罗斯方面表示，由于与伦敦和巴黎的关系，将不会急于任命驻英和驻法大使。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-25 20:06:01",
-      "content": "根据最新经纪商挂单数据，国际现货黄金重回4300美元，上方关注多个空单挂单密集区；欧美持续上行，下方多单挂单密集……点击查看最新报告",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
     }
   ],
   "shmet": [
+    {
+      "datetime": "2026-09-26 01:55:49",
+      "content": "【快讯】SHMET09月26日讯，德国讨论要求天然气企业明年补充天然气储备。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 01:50:26",
+      "content": "【快讯】SHMET09月26日讯，2026年FOMC票委、克利夫兰联储主席哈玛克将于十分钟后发表讲话。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 01:37:45",
+      "content": "【快讯】SHMET09月26日讯，胡塞领导人穆沙特否认曾试图袭击麦加，称沙特关于“也门企图攻击麦加”的指控是诽谤，并认为沙特借此寻求国际支持。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 01:31:51",
+      "content": "【莱茵河水位跌至历史新低 德国航运持续受影响】SHMET09月26日讯，德国境内莱茵河持续数周的低水位达到历史新低。在德国考布附近这一对航运至关重要的河段，水位9月25日降至2厘米，比8月17日创下的此前最低纪录还低5厘米。德国莱茵河水路和航运管理部门当天表示，目前形势依然紧张。德国北莱茵-威斯特法伦州部分测站未来几天也可能出现历史最低水位。预计杜塞尔多夫水位26日将再次跌至负值，并低于8月创下的负1厘米纪录；杜伊斯堡—鲁尔奥特水位也可能跌破此前129厘米的最低纪录。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 01:17:53",
+      "content": "【快讯】SHMET09月26日讯，美联储在固定利率逆回购操作中总计接纳了3个对手方的5.76亿美元。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 01:12:52",
+      "content": "【美官员称美伊经调解方展开积极讨论 有近4000万桶原油通过霍尔木兹】SHMET09月26日讯，据NewsNation报道，一名美国官员表示，美伊双方正在通过斡旋方进行“积极且建设性的讨论”。该官员称，美国目前“掌控霍尔木兹海峡，处于非常有利的位置，因此并不急于推进”。该官员表示，过去48小时内约有4000万桶石油通过霍尔木兹海峡运输。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 01:07:07",
+      "content": "【快讯】SHMET09月26日讯，也门总统领导委员会主席呼吁也门民众动员起来，加入政府武装力量。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 01:06:32",
+      "content": "【快讯】SHMET09月26日讯，据半岛电视台：美国官员表示，过去48小时内约有4000万桶石油通过霍尔木兹海峡。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 01:04:45",
+      "content": "【快讯】SHMET09月26日讯，俄罗斯总统普京：俄罗斯知道波罗的海国家存在侵犯俄语居民权利的情况，但俄方对此采取的是人道领域的回应方式。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 01:03:54",
+      "content": "【快讯】SHMET09月26日讯，据国际文传电讯社：俄罗斯总统普京表示，俄罗斯没有准备与欧洲发生任何敌对行动。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 01:03:49",
+      "content": "【快讯】SHMET09月26日讯，美国至9月25日当周总钻井总数 599口，前值595口。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 01:03:38",
+      "content": "【快讯】SHMET09月26日讯，美国至9月25日当周天然气钻井总数 135口，前值134口。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 01:03:19",
+      "content": "【快讯】SHMET09月26日讯，美国至9月25日当周石油钻井总数 455口，前值452口。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 01:03:10",
+      "content": "【快讯】SHMET09月26日讯，俄罗斯总统普京：所有和平解决方案都摆在桌面上，但俄罗斯仍需要考虑什么符合自身利益。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 01:02:59",
+      "content": "【快讯】SHMET09月26日讯，俄罗斯总统普京：不理解为何有人会攻击俄罗斯两大电商平台Ozon和Wildberries。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 01:01:06",
+      "content": "【习近平圆满结束对美国的国事访问】SHMET09月26日讯，当地时间9月25日下午，国家主席习近平结束对美国的国事访问返回北京。离开华盛顿时，美国政府高级官员到机场送行。机场鸣放21响礼炮。前往机场途中，华侨华人和留学生代表在道路两旁挥舞中美两国国旗，热烈祝贺习近平主席访问圆满成功。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:55:05",
+      "content": "【特朗普否认贝森特将任“超级智能主管” 希望其继续掌舵财政部】SHMET09月26日讯，美国总统特朗普表示，美国财长贝森特不会出任“超级智能（SI）主管”。特朗普称，贝森特本人“不想担任这一职位”，同时其目前在财政部工作出色，因此没有理由进行调整。特朗普表示，相关报道属于“假新闻”，并强调希望贝森特继续负责财政部工作。此前有消息称，贝森特可能成为美国政府负责超级智能领域的高级官员。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:53:07",
+      "content": "【快讯】SHMET09月26日讯，美国总统特朗普：希望将美国财长贝森特留在财政部。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:51:57",
+      "content": "【快讯】SHMET09月26日讯，美国总统特朗普：美国财长贝森特在财政部的表现非常出色。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:51:04",
+      "content": "【快讯】SHMET09月26日讯，美国总统特朗普：美国财长贝森特将不会担任超级智能（SI）主管。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:50:17",
+      "content": "【快讯】SHMET09月26日讯，美国至9月25日当周石油钻井总数将于十分钟后公布。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:48:15",
+      "content": "【快讯】SHMET09月26日讯，据路透社：消息人士称，Solidigm本周已与多家银行举行上市推介会，以确定IPO承销商等相关安排。Solidigm此次在美国上市可能募资150亿美元。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:44:31",
+      "content": "【快讯】SHMET09月26日讯，美国联邦贸易委员会（FTC）主席：如果企业使用大量个人数据来提供某项产品或服务，而这种数据使用方式过去并非惯例，那么企业应该告知用户这一情况。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:41:29",
+      "content": "【快讯】SHMET09月26日讯，美国联邦贸易委员会（FTC）主席：只要我担任主席，就会继续抵制将这些（AI代理）工具“拟人化”的做法。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:39:11",
+      "content": "【伊朗称不会在核问题上让步 霍尔木兹重开仍取决于美方满足条件】SHMET09月26日讯，伊朗一名高级官员向路透社表示，即使美国接受伊朗提出的重开霍尔木兹海峡方案，伊朗也不会在核计划问题上作出让步。该官员称，霍尔木兹海峡将在美国满足伊朗“所有条件”前保持关闭。伊朗外长阿拉格齐此前表示，伊朗提出一项7天方案，包括结束多地区敌对行动、美国解除对伊朗港口的海上封锁、释放被冻结资产以及取消石油制裁，以换取重新开放这一重要航道。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:36:02",
+      "content": "【快讯】SHMET09月26日讯，据路透社：伊朗高级官员称霍尔木兹海峡将继续关闭，直到伊朗的条件得到满足，才会与美国进行核谈判。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:35:51",
+      "content": "【快讯】SHMET09月26日讯，据路透社：伊朗高级官员称伊朗在其核计划上不会作出任何让步。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:31:20",
+      "content": "【中美元首会晤引发热烈国际反响】SHMET09月26日讯，当地时间9月24日，国家主席习近平同美国总统特朗普在白宫举行会晤，并就两国关系发展作出一系列重要论述。多国人士在接受新华社记者采访时表示，中美元首会晤举世瞩目、意义重大。习近平主席的重要论述彰显远见卓识和胸怀担当，丰富了中美建设性战略稳定关系的内涵，为两国管控分歧、拓展合作提供新的战略指引。中美相向而行，积极探索两个大国的正确相处之道，不仅增进两国人民福祉，也将为促进人类发展进步注入更多稳定性和正能量。习近平主席在会晤中指出，中美两国国情不同，通过坦诚、深入、持续的对话能够增进理解、求同存异、积累互信。经贸合作是中美关系的重要基础。习近平主席在会晤中强调，“中美两国利益深度交融，合作空间十分广阔”“希望双方相向而行，坚持互利共赢导向，推动中美经贸关系持续稳定向好发展”。习近平主席在会晤中指出，中美都是人工智能大国，双方有竞争，更可以合作，应该各展所长而不是相互设防。双方可以继续开展人工智能对话，就其风险和收益进行交流，共同防范人工智能被滥用恶用。习近平主席在会晤中谈及中东局势时指出，中方支持美伊两国回归伊斯兰堡谅解备忘录，希望双方尽早重回对话谈判解决问题的轨道，最终达成包括核问题在内的全面协议，尽早实现和平。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:28:33",
+      "content": "【快讯】SHMET09月26日讯，欧洲央行管委穆兰：认为依赖欧洲央行出手干预是“错误的推理”。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:27:56",
+      "content": "【快讯】SHMET09月26日讯，欧洲央行管委穆兰：必须采取一切措施以避免主权债务危机。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:25:41",
+      "content": "【快讯】SHMET09月26日讯，欧洲央行管委穆兰：对法国国家融资能力没有担忧。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:19:19",
+      "content": "【美伊谈判进入技术磋商 国际油价跌幅扩大】SHMET09月26日讯，国际原油扩大跌幅，WTI原油日内跌近3.5%，报90.54美元/桶；布伦特原油跌超4%，报96.56美元/桶。消息面上，美伊谈判据称进入技术磋商阶段，市场预期供应端压力可能缓解，推动油价回落。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:14:01",
+      "content": "【报道：美伊谈判进入技术磋商阶段 伊朗提出7天重开霍尔木兹方案】SHMET09月26日讯，据半岛电视台报道，美伊在纽约举行的谈判已从初步外交接触进入更深入的技术磋商阶段。半岛电视台驻德黑兰分社社长努尔丁·德盖尔称，在美国特使史蒂夫·维特科夫和贾里德·库什纳完成首轮会谈后，技术专家已加入后续讨论。报道称，伊朗代表团此前签证未获美国政府批准，但随后获准入境并参与谈判。卡塔尔方面数月来持续担任美伊之间的调停方。据报道，伊朗正在推动一项“7天方案”：若美国解除对伊朗的封锁，伊朗将重新开放霍尔木兹海峡。该方案被视为此前讨论的60天谈判流程的加速版本，目标是推动双方重返围绕伊朗核问题的直接谈判。目前双方讨论的核心议题包括解除制裁、放松石油出口限制、解冻伊朗资产，以及霍尔木兹海峡未来管理安排，包括伊朗和阿曼是否能在美国及地区国家参与的框架下恢复某种联合管理模式，以及美国舰船通行规则。德盖尔表示，尽管双方仍存在分歧，但德黑兰消息人士认为谈判正在取得一定进展，会谈仍在继续，卡塔尔正努力推动双方缩小差距。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:12:22",
+      "content": "【快讯】SHMET09月26日讯，美国贸易代表格里尔：二十国集团贸易部长会议计划于当地时间9月29日至10月1日举行。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:11:59",
+      "content": "【快讯】SHMET09月26日讯，美国贸易代表格里尔将于下周前往威斯康星州出席二十国集团会议。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-26 00:04:32",
+      "content": "【快讯】SHMET09月26日讯，据半岛电视台：美伊谈判进入技术磋商阶段。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 23:54:14",
+      "content": "【中美两国元首夫妇共同参观美国国家档案馆】SHMET09月25日讯，当地时间9月25日，国家主席习近平和夫人彭丽媛在美国总统特朗普和夫人梅拉尼娅陪同下参观美国国家档案馆。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 23:53:25",
+      "content": "【快讯】SHMET09月25日讯，美联储施密德：决策者会关注股市估值和经济表现，但在观察中不会“过于微观”。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 23:40:11",
+      "content": "【快讯】SHMET09月25日讯，德国DAX30指数9月25日（周五）收盘上涨143.97点，涨幅0.57%，报25399.89点；英国富时100指数9月25日（周五）收盘上涨16.18点，涨幅0.15%，报10696.17点；法国CAC40指数9月25日（周五）收盘下跌3.63点，跌幅0.04%，报8077.80点；欧洲斯托克50指数9月25日（周五）收盘上涨25.65点，涨幅0.41%，报6298.15点；西班牙IBEX35指数9月25日（周五）收盘上涨124.69点，涨幅0.64%，报19698.09点；意大利富时MIB指数9月25日（周五）收盘上涨314.05点，涨幅0.61%，报51857.50点。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 23:31:23",
+      "content": "【快讯】SHMET09月25日讯，美国最高法院恢复特朗普政府的大规模选民身份核验系统。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
     {
       "datetime": "2026-09-25 23:26:29",
       "content": "【快讯】SHMET09月25日讯，市场消息：德国化工企业‌巴斯夫确认正与RAG基金会及赢创就收购事宜进行谈判，谈判结果仍未确定。",
@@ -1159,6 +1527,406 @@
     {
       "datetime": "2026-09-25 22:37:48",
       "content": "【快讯】SHMET09月25日讯，据路透社：工人表示，由于原料供应问题，委内瑞拉卡多炼油厂的原油蒸馏装置和流化催化裂化装置已停止生产。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 22:36:36",
+      "content": "【快讯】SHMET09月25日讯，德国30年期国债收益率上涨6个基点至3.92%，创2011年以来新高。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 22:34:30",
+      "content": "【快讯】SHMET09月25日讯，墨西哥总统辛鲍姆：墨西哥正努力解决美国贸易逆差方面的担忧。不清楚美墨贸易协议是否会在11月前达成。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 22:33:56",
+      "content": "【快讯】SHMET09月25日讯，据国际文传电讯社：俄罗斯表示已在切尔诺莫尔斯克港击中一艘干货船。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 22:15:59",
+      "content": "【快讯】SHMET09月25日讯，美联储施密德：一个问题是，人工智能生态系统是否已经大到“不能失败”的程度。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 22:10:06",
+      "content": "【快讯】SHMET09月25日讯，伊拉克总理：我们呼吁你们以更加开放的方式与伊朗接触。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 22:09:03",
+      "content": "【快讯】SHMET09月25日讯，美联储施密德：美联储仍未解决通胀问题。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 22:08:45",
+      "content": "【美国消费者信心走弱 未来一年通胀预期升至4.6%】SHMET09月25日讯，密歇根大学调查数据显示，美国消费者对当前和未来一年个人财务状况的评价均下降约10%，对高物价的担忧持续升温。耐用品购买条件略有改善，部分原因是消费者认为现在完成此类购买有助于避免未来价格上涨。由于市场重新担忧高燃料价格以及贸易争端再度升级可能蔓延至整体经济，消费者对短期商业状况的预期大幅恶化。总体来看，调查显示，不同政治立场的受访者普遍认为，美国经济前景较年初有所削弱。本月消费者信心大幅下降后，共和党阵营信心较2026年1月下降20%，民主党阵营同期下降13%。未来一年通胀预期从上月的4.0%升至本月的4.6%，创6月以来最高水平。目前这一水平明显高于伊朗冲突开始前2月的3.4%，也高于2024年所有月份的水平。长期通胀预期小幅升至3.4%，结束连续三个月维持在3.3%的状态。该预期仍高于2024年2.8%至3.2%的区间。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 22:08:15",
+      "content": "【快讯】SHMET09月25日讯，美联储施密德：美国债务似乎非常“极端”。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 22:07:26",
+      "content": "【快讯】SHMET09月25日讯，标普500指数转跌。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 22:03:11",
+      "content": "【快讯】SHMET09月25日讯，伊拉克总理：我们重申支持通过对话和外交来缓解危机的立场。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 22:00:55",
+      "content": "【快讯】SHMET09月25日讯，美国9月密歇根大学预期指数终值 46.3，预期45.7，前值45.8。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 22:00:53",
+      "content": "【快讯】SHMET09月25日讯，美国9月密歇根大学消费者信心指数终值 48.1，预期47.6，前值47.8。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 22:00:48",
+      "content": "【快讯】SHMET09月25日讯，伊拉克总理：我们正在努力多样化石油出口渠道，以进入全球市场。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 22:00:20",
+      "content": "【快讯】SHMET09月25日讯，美国9月密歇根大学现况指数终值 50.9，预期49.5，前值50.9。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 22:00:12",
+      "content": "【快讯】SHMET09月25日讯，美国9月一年期通胀率预期终值 4.6%，前值4.60%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 22:00:06",
+      "content": "【快讯】SHMET09月25日讯，伊拉克总理：我们对与运输和海上航行自由相关的后果以及其对能源价格上涨的影响感到担忧。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 21:51:13",
+      "content": "【快讯】SHMET09月25日讯，美国9月密歇根大学消费者信心指数终值、一年期通胀率预期终值将于十分钟后公布。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 21:37:19",
+      "content": "【快讯】SHMET09月25日讯，马尔代夫副总统：印度洋必须保持和平。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 21:35:19",
+      "content": "【快讯】SHMET09月25日讯，道琼斯指数9月25日（周五）开盘上涨92.25点，涨幅0.18%，报51442.23点；标普500指数9月25日（周五）开盘上涨7.03点，涨幅0.09%，报7711.26点；纳斯达克综合指数9月25日（周五）开盘上涨30.67点，涨幅0.11%，报26970.05点。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 21:18:13",
+      "content": "【快讯】SHMET09月25日讯，墨西哥和美国将在“未来几周”举行一轮美墨加协定谈判。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 21:17:33",
+      "content": "【快讯】SHMET09月25日讯，在俄罗斯控制的霍尔利夫卡市场发生无人机袭击，造成一人死亡，一人受伤。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 21:09:22",
+      "content": "【快讯】SHMET09月25日讯，特斯拉股价反弹，盘前涨幅超过1%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 21:06:51",
+      "content": "【快讯】SHMET09月25日讯，市场消息：英伟达承诺向NScale投资10亿美元，资金预计于11月中旬到位。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 21:06:41",
+      "content": "【快讯】SHMET09月25日讯，据The Information：特斯拉8月生产了数百台Optimus人形机器人。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 21:05:37",
+      "content": "【快讯】SHMET09月25日讯，据The Information：特斯拉管理层告知员工，公司希望在今年年底前建立一条每周可生产超过1000台机器人的生产线。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 21:03:35",
+      "content": "【快讯】SHMET09月25日讯，据The Information：特斯拉近几个月已将其Optimus人形机器人的产量提升约10倍。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 21:02:24",
+      "content": "【快讯】SHMET09月25日讯，据The Information：特斯拉Optimus人形机器人在扩大生产过程中遭遇手部设计和供应商方面的难题。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 20:55:29",
+      "content": "【快讯】SHMET09月25日讯，据日本共同社：日本和美国财政负责人讨论日元贬值问题。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 20:54:11",
+      "content": "【快讯】SHMET09月25日讯，美国贸易代表格里尔：正与墨西哥进行谈判，以应对不断扩大的贸易赤字。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 20:53:27",
+      "content": "【快讯】SHMET09月25日讯，美国贸易代表格里尔：美国仍从加拿大获取所需的石油、天然气和钾肥。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 20:52:25",
+      "content": "【快讯】SHMET09月25日讯，美国贸易代表格里尔：美国和加拿大进行了良好的对话，暂无紧迫性。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 20:52:07",
+      "content": "【快讯】SHMET09月25日讯，美国贸易代表格里尔：美国总统特朗普对美国在加拿大的立场感到满意。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 20:47:41",
+      "content": "【9月25日《新闻联播》主要内容】SHMET09月25日讯，今天《新闻联播》主要内容有： 1.习近平出席美国总统在白宫举行的欢迎仪式； 2.习近平同美国总统会谈； 3.习近平和彭丽媛出席特朗普总统夫妇举行的欢迎国宴； 4.纪念长征胜利90周年主题展览今天向公众开放； 5.各地举行多彩活动欢度中秋； 6.“天宫”过中秋 神舟二十三号乘组在轨送祝福； 7.【第二十届亚运会】中国队再获多枚金牌； 8.国际人士表示中美元首会晤意义重大 为应对全球挑战作出积极贡献； 9.天涯共此时 多个国家举办欢庆中秋活动； 10.中国传统佳节·中秋。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 20:47:23",
+      "content": "【快讯】SHMET09月25日讯，俄罗斯天然气工业股份公司上半年天然气产量增加3.4%，达到2165.5亿立方米。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 20:46:59",
+      "content": "【快讯】SHMET09月25日讯，市场消息：一艘希腊渡轮在爱琴海发生火灾，火源来自货舱。所有船员和乘客均已安全撤离。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 20:42:58",
+      "content": "【印度扩大美国LPG采购 明年签约量或增至276万吨】SHMET09月25日讯，印度国有炼油商正准备在明年通过年度合同将美国液化石油气（LPG）采购量提高逾25%。随着波斯湾供应受扰，印度正加快推动供应来源多元化。据知情人士透露，印度石油公司、印度巴拉特石油公司和印度斯坦石油公司正在寻求明年每月从美国采购最多5批、每批4.6万吨的LPG货物，高于2026年合同中的每月4批。消息人士称，每批货物必须包含等量的丙烷和丁烷。若相关协议最终达成，印度签约采购的美国LPG数量将从今年的220万吨升至约276万吨。今年，作为全球第二大LPG进口国的印度首次与美国供应商签署长期采购协议。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 20:42:39",
+      "content": "【印度扩大美国LPG采购 明年签约量或增至276万吨】SHMET09月25日讯，印度国有炼油商正准备在明年通过年度合同将美国液化石油气（LPG）采购量提高逾25%。随着波斯湾供应受扰，印度正加快推动供应来源多元化。据知情人士透露，印度石油公司、印度巴拉特石油公司和印度斯坦石油公司正在寻求明年每月从美国采购最多5批、每批4.6万吨的LPG货物，高于2026年合同中的每月4批。消息人士称，每批货物必须包含等量的丙烷和丁烷。若相关协议最终达成，印度签约采购的美国LPG数量将从今年的220万吨升至约276万吨。今年，作为全球第二大LPG进口国的印度首次与美国供应商签署长期采购协议。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 20:41:35",
+      "content": "【快讯】SHMET09月25日讯，俄总统新闻秘书：俄密切关注哪些国家正向基辅政权提供武器。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 20:41:24",
+      "content": "【快讯】SHMET09月25日讯，俄总统新闻秘书：俄密切关注哪些国家正向基辅政权提供武器。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 20:40:51",
+      "content": "【快讯】SHMET09月25日讯，市场消息：欧盟能源主管暗示将推迟进口甲烷规则的实施。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 20:40:29",
+      "content": "【快讯】SHMET09月25日讯，英国首相伯纳姆计划10月访问柏林，与默茨举行会谈。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 20:40:24",
+      "content": "【快讯】SHMET09月25日讯，俄罗斯总统普京的特使与美国总统特朗普的特使进行会晤。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 20:40:17",
+      "content": "【快讯】SHMET09月25日讯，美国8月扣除飞机非国防资本耐用品订单月率 1.6%，预期0.50%，前值由0.00%修正为0.6%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 20:40:14",
+      "content": "【快讯】SHMET09月25日讯，高盛：超大规模云服务商每年需要约3000亿美元的人工智能收入才能实现盈亏平衡。不过，融资需求上升以及基础设施限制可能拖累未来支出增长速度。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 20:37:14",
+      "content": "【行情】SHMET09月25日讯，耐用品数据公布后美国国债收益率上行；10年期美国国债收益率最新上涨2.36个基点，报5.186%。美国30年期国债收益率最新上涨1.85个基点，报5.481%。两年期美国国债收益率最新上涨0.64个基点，报4.901%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 20:32:06",
+      "content": "【快讯】SHMET09月25日讯，美国8月耐用品订单月率 0%，预期-0.4%，前值由1.10%修正为0.9%。美国8月扣除运输的耐用品订单月率 0.3%，预期0.60%，前值由0.40%修正为0.7%。美国8月扣除国防的耐用品订单月率 0.1%，前值由1.3%修正为1.4%。美国8月扣除飞机非国防资本耐用品订单月率 1.6%，预期0.50%，前值由0.00%修正为0.6%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 20:20:26",
+      "content": "【宁德时代与泰金新能等共建40万吨铜箔产能】SHMET9月25日讯，就在伦铜创下历史新高的前一天，宁德时代宣布与泰金新能、深圳惠科新材料等企业签署战略合作协议，未来三年将与惠科新材料等两家合作方共同新建40万吨铜箔产能。此次签署的是框架性协议，尚未约定具体金额，泰金新能已提示尚未形成具体订单。宁德时代拉上铜箔装备核心供应商泰金新能，从装备集采、联合研发入手，同时与惠科新材料共建40万吨产能，直接锁定未来铜箔供应。（真锂研究）",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 20:20:26",
+      "content": "【8月中国铬铁进口15.77万吨，环比增18.64%】SHMET09月25日讯，2026年8月，中国铬铁进口15.77万吨，环比增18.64%，同比降0.90%。其中从南非进口的铬铁5.03万吨，环比增89641.78%，同比降17.43%。2026年1-8月，中国累计进口111.81万吨，较去年同期降39.21%。其中，从南非进口的铬铁18.19万吨，同比降78.11%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 20:20:26",
+      "content": "【8月中国出口不锈钢总量44.57万吨，环比增加13.87%】SHMET09月25日讯，2026年8月，中国出口不锈钢总量44.57万吨，环比增加5.43万吨，增幅13.87%；同比减少0.22万吨，降幅0.49%。2026年1-8月，中国不锈钢出口总量为289.55万吨，同比减少46.87万吨，降幅13.93%。 2026年8月，净出口总量为30.48万吨，同比减少2.59万吨，降幅7.83%。2026年1-8月，净出口总量为188.35万吨，同比减少46.3万吨，降幅19.73%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-25 20:20:26",
+      "content": "【8月中国铬矿进口量为236.19万吨，环比降9.41%】SHMET09月25日讯，2026年8月，中国铬矿进口量为236.19万吨，环比降9.41%，同比增12.73%。其中：从南非进口的铬矿量为189.11万吨，环比降13.12%，同比增7.97%。2026年1-8月，中国累计进口1902.07万吨，较去年同期增36.24%。其中：从南非进口的铬矿累计量1528.24万吨，同比增31.74%。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
