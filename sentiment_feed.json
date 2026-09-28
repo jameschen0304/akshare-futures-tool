@@ -1,7 +1,615 @@
 {
   "source": "jin10 flash + shmet + shfe weekly stock",
-  "generated_at": "2026-09-28T18:17:15.039580+00:00",
+  "generated_at": "2026-09-28T20:14:37.063798+00:00",
   "jin10": [
+    {
+      "datetime": "2026-09-29 04:09:24",
+      "content": "据伊朗媒体Fars News：伊朗议会国家安全与外交政策委员会副主席表示，美国在进行任何谈判前，必须接受伊朗提出的条件。核问题已经不再是谈判的核心或轴心，目前霍尔木兹海峡才是谈判的重点。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 04:08:42",
+      "content": "市场消息：AMD(AMD.O)同意以82亿美元收购李飞飞的人工智能初创公司World Labs。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 04:06:16",
+      "content": "金十图示：2026年09月28日（周一）全球股市指数-美洲市场（收盘）",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 04:05:31",
+      "content": "金十图示：2026年09月28日（周一）美股热门股票行情一览（美股收盘）",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 04:05:21",
+      "content": "道琼斯指数9月28日（周一）收盘下跌346.90点，跌幅0.67%，报51481.72点；\n标普500指数9月28日（周一）收盘下跌59.48点，跌幅0.77%，报7683.93点；\n纳斯达克综合指数9月28日（周一）收盘下跌248.34点，跌幅0.92%，报26820.38点。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 04:05:20",
+      "content": "金十图示：2026年09月28日（周一）热门中概股行情一览（美股收盘）",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 04:01:57",
+      "content": "【美股收盘：三大股指收跌 海力士跌5%】金十数据9月29日讯，美股周一收盘，道指初步收跌0.67%，标普500指数跌0.77%，纳指跌0.92%。SK海力士(SKHY.O)跌5%，Meta(META.O)跌4.8%，特斯拉(TSLA.O)跌近4%，英伟达(NVDA.O)涨1.6%。纳斯达克中国金龙指数收涨1.1%，网易(NTES.O)涨近5%。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 04:00:43",
+      "content": "沙特民防部门：奈季兰的危险已过去。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 03:56:47",
+      "content": "沙特民防部门：对奈季兰潜在危险发出早期警报。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 03:56:29",
+      "content": "伊朗外长会见联合国秘书长古特雷斯。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 03:56:14",
+      "content": "美国常驻北约代表惠特克：正就涉案被捕人员与英国保持密切合作。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 03:53:54",
+      "content": "【日本茨城县南部发生地震 东京震感明显】金十数据9月29日讯，当地时间9月29日4时45分，日本茨城县南部发生标准震度4的地震。据日本气象厅消息，29日4时45分左右，日本茨城县南部发生4.9级地震，最大震感为震度4，震源深度50公里。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 03:53:32",
+      "content": "SpaceXAI：SpaceXAI Team Bots已面向Teams和企业版用户开放公开测试。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 03:53:03",
+      "content": "SpaceXAI：SpaceXAI推出Team Bots，用于协作式AI工作流程。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 03:48:09",
+      "content": "据伊朗伊斯兰共和国广播电视台（IRIB）：伊拉克真主党旅要求在10月1日前解除对伊朗航班的限制。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 03:45:35",
+      "content": "伊朗外长阿拉格齐与国际非政府组织“元老会”主席进行会谈，并讨论国际局势与核问题。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 03:39:09",
+      "content": "据今日以色列：阿联酋与内塔尼亚胡的会晤是在美国政府知情并默许的情况下举行的。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 03:35:31",
+      "content": "【美总统称美官员已于28日同美伊间的调解方进行对话】金十数据9月29日讯，当地时间9月28日，美国总统特朗普表示，美国官员当日与旨在结束美伊战事的调解方进行了交谈。当日稍早时，有消息称，一名了解美伊谈判情况的官员透露，美国和伊朗预计将于28日或29日再次通过调解方举行会谈。伊朗外长阿拉格齐和卡塔尔调解方目前在美国，会谈预计将聚焦于磋商修订伊朗在联合国大会期间提出的七日内重开霍尔木兹海峡提议。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 03:33:23",
+      "content": "据沙特通讯社：沙特外交大臣与美国国务卿鲁比奥讨论地区局势及也门问题。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 03:29:14",
+      "content": "【国际油价28日微涨】金十数据9月29日讯，截至当天收盘，纽约商品交易所11月交货的轻质原油期货价格上涨19美分，收于每桶92.60美元，涨幅为0.21%；11月交货的伦敦布伦特原油期货价格上涨96美分，收于每桶105.28美元，涨幅为0.92%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 03:29:00",
+      "content": "【伊朗官员否认有关“伊朗在核问题展现灵活性”的报道】据伊朗PressTV：一名知情伊朗官员表示，部分媒体关于伊朗在核立场上展现出灵活性的一系列报道不实。该官员表示，美国政府在霍尔木兹海峡“陷入僵局”，正试图通过炒作核问题来转移对该困境的注意力。该官员补充称，伊朗在核问题上的立场保持不变，并强调目前未就此事展开任何讨论。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 03:27:44",
+      "content": "【美元指数28日上涨】金十数据9月29日讯，衡量美元对六种主要货币的美元指数当天上涨0.22%，在汇市尾市收于101.197。截至纽约汇市尾市，1欧元兑换1.1368美元，低于前一交易日的1.1399美元；1英镑兑换1.3261美元，高于前一交易日的1.3252美元。1美元兑换157.40日元，高于前一交易日的157.13日元；1美元兑换0.8319瑞士法郎，高于前一交易日的0.8282瑞士法郎；1美元兑换1.4171加元，高于前一交易日的1.4144加元；1美元兑换9.9537瑞典克朗，高于前一交易日的9.9045瑞典克朗。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 03:25:48",
+      "content": "消息人士：英伟达(NVDA.O)CEO黄仁勋预计将于当地时间周二出席在白宫举行的会议。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 03:24:57",
+      "content": "据伊朗媒体Fars News：伊朗议会副议长表示，议会正在审议退出《不扩散核武器条约》的三项紧急议案。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 03:23:46",
+      "content": "英国工党：首相宣布推出新的“英国电网”（GB Grid）计划，通过将公共控制权引入英国能源系统，降低能源成本。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 03:16:49",
+      "content": "美国联邦航空局局长：尽管波音(BA.N)737 MAX软件存在问题，飞行员在复飞过程中仍然保持控制。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 03:16:04",
+      "content": "美国航空航天局（NASA）：波音(BA.N)已在“星际客机-1”（Starliner-1）上实施改进措施，此前公司已确定该飞船氦气泄漏的原因。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 03:10:20",
+      "content": "据阿联酋国家通讯社：阿联酋总统与以色列总理内塔尼亚胡讨论了双边关系及加强关系的方式。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 03:09:37",
+      "content": "金十提示：美国总统特朗普在白宫结束讲话。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 03:09:14",
+      "content": "据阿联酋国家通讯社：阿联酋总统于周日会见了以色列总理内塔尼亚胡。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 03:09:04",
+      "content": "美国总统特朗普：伊朗战争结束后，通货膨胀将会结束。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 03:07:46",
+      "content": "美国航空航天局（NASA）局长：波音(BA.N)的星际飞船将为NASA执行多达5次载人任务前往国际空间站。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 03:07:23",
+      "content": "美国航空航天局（NASA）局长：波音“星际客机”（Starliner）飞船的部分部件将在2028年载人飞行任务前进行重新设计。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 03:05:39",
+      "content": "亚马逊云服务(AWS)：Claude SONNET 5.5 在亚马逊基石及AWS上线。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 03:05:19",
+      "content": "Meta Platforms(META.O)和亚马逊(AMZN.O)因涉及人工智能投资的税收优惠问题正接受质询。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 03:03:47",
+      "content": "恒指期货夜盘收跌0.09%，报24663点，高水20点。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 03:03:18",
+      "content": "美国总统特朗普：认为加拿大贸易将达成协议。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 03:02:26",
+      "content": "特斯拉(TSLA.O)：Roadster活动重新安排至10月15日举行。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 03:01:52",
+      "content": "伊朗陆军参谋长：霍尔木兹海峡已关闭。敌人只是在口头上声称霍尔木兹海峡开放，但实际上该海峡已关闭。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 03:01:05",
+      "content": "伊朗陆军参谋长：在“强加给伊朗的3场战争”中，敌人均未能实现其目标，这意味着敌人已经失败。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 03:00:22",
+      "content": "美国总统特朗普：加拿大希望与我们达成协议，他们一直在打电话。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 02:59:35",
+      "content": "美国总统特朗普：若出现违反卢旺达与刚果（金）协议的行为，我们将予以制止。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 02:56:49",
+      "content": "【波兰军方：一无人机在波乌边境附近坠毁】金十数据9月29日讯，据波兰军方当地时间9月28日通报，一架无人机在波兰与乌克兰交界的多罗胡斯克-亚霍丁口岸乌克兰一侧坠毁。波兰副总理兼国防部长科西尼亚克-卡梅什称，该喷气式无人机坠毁于距多罗胡斯克口岸约2公里处，波兰领空未遭侵犯。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 02:56:03",
+      "content": "美国总统特朗普：我们今天通过调解人与伊朗举行了会谈。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 02:55:21",
+      "content": "美国总统特朗普：换作是我，绝不会允许英国皇家空军基地案嫌疑人获得保释。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 02:54:57",
+      "content": "美国总统特朗普：民调都是假的。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 02:54:47",
+      "content": "【哈塞特：外部因素可能阻碍美国3%经济增长目标 】金十数据9月29日讯，美国白宫国家经济委员会主任凯文·哈塞特表示，虽然美国经济目前有望保持较强增长，但外部因素可能影响特朗普政府实现经济目标的计划。哈塞特在纽约经济俱乐部活动上表示，受生产率提升和工资增长推动，美国经济增速“应该接近4%，而不是3%”。他称，在“没有外部世界干扰”的情况下，4%是他的“基准情景”。特朗普政府此前提出，希望本届任期内实现3%的持续GDP增长，而私人经济学家普遍预计增速更接近2%。哈塞特表示，人工智能投资热潮近期支撑了GDP增长，但劳动力增长放缓、房地产市场疲软等因素仍构成经济压力。他还称，财政赤字占GDP比例降至3%的目标也可能受到“不可抗力”因素影响。谈及近期美债收益率上涨，哈塞特表示，这部分反映了更具吸引力的投资环境。他称，即使融资成本上升，数据中心等项目仍保持盈利，企业继续借贷投资，推动利率走高。对于美国政府债务规模突破40万亿美元，他表示，部分债务属于“政府欠自己”的债务，并称“外部债务”约为15万亿美元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 02:52:04",
+      "content": "美国总统特朗普：伊朗永远不会拥有核武器。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 02:50:39",
+      "content": "美国总统特朗普：如果我们不自己生产钢铁，就无法自我防卫。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": true
+    },
+    {
+      "datetime": "2026-09-29 02:50:00",
+      "content": "美国总统特朗普：很快将赢得伊朗战争，油价将大幅下跌。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 02:49:22",
+      "content": "美国总统特朗普：上次选举中，我获得的选票比历史上任何人都多。三次选举，我的支持率一路飙升。而且我认为我现在比一年半前更受欢迎。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 02:48:49",
+      "content": "布伦特原油期货结算价为每桶105.28美元，上涨96美分，涨幅0.92%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 02:48:19",
+      "content": "乌克兰外交部长：俄罗斯持续袭击乌边境基础设施，使其战争日益逼近北约边界。一架俄罗斯无人机再度袭击亚霍丁—多罗胡斯克边境口岸附近区域，击中乌方一侧一座旧边检大楼。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 02:46:38",
+      "content": "美国总统特朗普：我将访问爱荷华州。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 02:45:58",
+      "content": "据沙特国家通讯社：沙特国防大臣邀请阿联酋副总统于当地时间周二访问沙特。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 02:38:49",
+      "content": "中国地震台网正式测定：9月29日2时20分，在台湾花莲县海域（北纬23.85度，东经121.78度）发生4.7级地震，震源深度23公里。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 02:35:53",
+      "content": "美国商务部长卢特尼克强调美国从巴西进口铁矿石球团的贸易情况。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": true
+    },
+    {
+      "datetime": "2026-09-29 02:32:54",
+      "content": "美国总统特朗普：如果共和党赢得众议院和参议院，每位成年人将获得五千美元。我们一定能做到。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 02:32:09",
+      "content": "据日经新闻：日电总裁岸田光哉因电动车电驱车桥业务亏损决定辞去CEO职务，预计最早将于周二提交辞呈。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 02:31:22",
+      "content": "美国总统特朗普：美国的钢铁产量已经超过日本。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": true
+    },
+    {
+      "datetime": "2026-09-29 02:31:13",
+      "content": "美国原油期货结算价为每桶92.60美元，上涨19美分，涨幅0.21%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 02:31:08",
+      "content": "【夜盘主力合约收盘】金十数据9月29日讯，截至2:30收盘，沪金主力合约收跌1.57%，报898元/克，沪银主力合约收跌1.63%，报14930元/千克，SC原油主力合约收跌3.06%，报712元/桶。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 02:30:21",
+      "content": "上海黄金交易所黄金T+D 9月28日（周一）晚盘收盘下跌1.43%报894.29元/克；\n上海黄金交易所白银T+D 9月28日（周一）晚盘收盘下跌1.48%报14893.0元/千克。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 02:29:11",
+      "content": "据以色列媒体：以色列国防军目前正在对黎巴嫩南部多个地点进行打击。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 02:28:37",
+      "content": "美国总统特朗普：钢铁厂将为我国经济增加950亿美元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": true
+    },
+    {
+      "datetime": "2026-09-29 02:28:27",
+      "content": "美国总统特朗普：预计将创造6000个新就业岗位。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 02:27:52",
+      "content": "美国总统特朗普：爱荷华州钢铁厂每年将生产1000万吨钢材。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": true
+    },
+    {
+      "datetime": "2026-09-29 02:27:05",
+      "content": "美国总统特朗普：我们有一些令人难以置信的消息。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 02:26:44",
+      "content": "美国总统特朗普：宣布在美国爱荷华州建设全美规模最大的工厂。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 02:21:58",
+      "content": "波音(BA.N)跌至盘中低点，现跌超6%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 02:20:59",
+      "content": "据美联社：美国吊销包括玻利维亚首席检察官在内的多名拉丁美洲官员的签证。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 02:20:27",
+      "content": "美国联邦航空管理局（FAA）局长表示，软件问题将导致波音(BA.N)737 MAX 10认证延期，但目前尚不确定延期时间。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 02:18:58",
+      "content": "消息人士：哥伦比亚过去几周已与国际货币基金组织（IMF）官员举行技术性深入磋商，包括讨论获取融资事宜。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 02:18:25",
+      "content": "消息人士：OpenAI总裁格雷格·布罗克曼将出席白宫的人工智能会议。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 02:17:58",
+      "content": "【欧盟官员：欧盟需要为红海护航行动增派更多力量】金十数据9月29日讯，欧盟防长会当地时间9月28日在比利时布鲁塞尔举行。欧盟外交与安全政策高级代表卡拉斯在会后表示，霍尔木兹海峡、曼德海峡和黑海都是重要的海上通道，欧盟需要为红海护航行动增派更多力量，以加强海上安全。俄乌冲突方面，部分成员国呼吁，提前拨付欧盟向乌克兰提供的援助贷款中原计划于2027年拨付的部分，以应对乌克兰当前面临的资金缺口。欧盟4月正式批准向乌克兰提供900亿欧元贷款，为乌提供2026年至2027年的财政与军事支持。俄方此前表示，欧洲国家若主张和平解决俄乌冲突，就应当停止对乌克兰的军事支持。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 02:17:20",
+      "content": "乌克兰总统泽连斯基：已与乌克兰总理及外交团队举行会议，讨论未来几周与合作伙伴合作的重点事项及当前局势，当前首要任务，是确保满足乌克兰现有国防资金需求。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
     {
       "datetime": "2026-09-29 02:13:36",
       "content": "Anthropic：Haiku 5.5模型即将发布，定位为面向快速响应和高吞吐量场景的模型。",
@@ -561,652 +1169,84 @@
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
-    },
-    {
-      "datetime": "2026-09-29 00:46:38",
-      "content": "消息人士：美国正考虑豁免制裁，以允许伊朗与伊拉克圣城纳杰夫（Najaf）之间恢复航班。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 00:45:04",
-      "content": "【伊朗官员对美伊在中期选举前达成协议持悲观态度 】金十数据9月29日讯，据知情人士透露，伊朗官员私下对能否在11月美国中期选举前与华盛顿达成结束敌对行动并重新开放霍尔木兹海峡的协议表示悲观。消息人士称，美伊上周在纽约联合国大会期间举行的会谈进展有限，伊朗方面认为11月3日美国中期选举后，冲突升级的可能性较高。伊朗官员表示，伊朗愿意继续通过外交途径解决问题，但不信任美国总统特朗普政府会遵守任何协议条款。美国方面也对伊朗保持怀疑。一位知情人士表示，伊朗外长阿拉格齐上周会见了特朗普的特使库什纳和威特科夫，目前仍留在美国，将通过调解人进行更多讨论。据伊朗半官方的伊朗学生通讯社（ISNA）报道，阿拉格奇将于周一上午在纽约与调解人会面，讨论近期提出的方案并就当前局势交换意见。ISNA还表示，美国方面不会派代表出席此次会谈。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 00:44:51",
-      "content": "欧洲央行管委佩雷拉：通胀压力目前主要集中在能源价格上。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 00:41:10",
-      "content": "美国法官阻止美国总统特朗普政府将反恐资金发放给地方政府的条件与选举管理变更挂钩。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 00:40:43",
-      "content": "伊朗官员对中期选举前与美国达成协议持悲观态度。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 00:39:56",
-      "content": "美国白宫国家经济委员会主任哈塞特：30年期通胀保值国债（TIPS）收益率表明，目前资本回报率更高。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 00:39:28",
-      "content": "消息人士：白宫正在考虑对红色染料柴油提供税收减免，以降低燃油价格。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 00:38:53",
-      "content": "美国白宫国家经济委员会主任哈塞特：（关于债券收益率）这个需要财政部长回答。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 00:36:53",
-      "content": "基辅市长：基辅拉响防空警报。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 00:36:24",
-      "content": "美国白宫国家经济委员会主任哈塞特：我们背负的很多债务都是我们自己欠自己的。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 00:36:13",
-      "content": "美国白宫国家经济委员会主任哈塞特：外债规模可能在15万亿美元左右。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 00:35:04",
-      "content": "美国白宫国家经济委员会主任哈塞特：实现3%的赤字目标将取决于“不可抗力”因素。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 00:34:39",
-      "content": "欧洲央行管委佩雷拉：天然气价格压力可能在今冬推高通胀。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 00:33:56",
-      "content": "津巴布韦央行将贷款利率下调至27.5%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 00:33:36",
-      "content": "金十图示：2026年09月28日（周一）美股热门股票行情一览（美股盘中）",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 00:31:47",
-      "content": "乌克兰官员：俄罗斯无人机损坏靠近波兰边境的一处边境检查站。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 00:31:09",
-      "content": "金十图示：2026年09月28日（周一）热门中概股行情一览（美股盘中）",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 00:30:52",
-      "content": "【特朗普愿就核问题取得“实质进展”向伊朗提供制裁缓解】金十数据9月29日讯，据半岛电视台报道，美国总统特朗普愿在伊朗核问题取得“具体进展”的情况下，考虑放松对伊朗制裁并释放被冻结资金。美国官员表示，美伊正在通过中间人进行“积极且建设性”的讨论，但如果核问题无法解决，双方不会达成协议。该官员称，伊朗已表示在核问题上具有一定灵活性，但双方尚未就相关承诺的执行时间达成一致。特朗普此前拒绝伊朗关于重新开放霍尔木兹海峡的提议，称该方案“不可接受”。特朗普表示，本周预计将与伊朗举行更多会谈。美国方面由中东问题特使威特科夫、贾里德·库什纳、副总统万斯和国务卿鲁比奥主导谈判。美国驻联合国大使迈克·沃尔兹称，特朗普对伊朗提议持怀疑态度，认为伊朗要求先获得全部条件，再进行后续谈判。白宫官员还表示，美国对伊朗承诺保持谨慎，此前伊朗曾违反7月达成的美伊谅解备忘录，袭击商业船只。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 00:27:22",
-      "content": "美国白宫国家经济委员会主任哈塞特：GDP增长的基准情景应为约4%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 00:24:36",
-      "content": "美国白宫国家经济委员会主任哈塞特：目前估计生产率增长约为2.5%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 00:21:46",
-      "content": "美、布两油短线跳水约1美元，报92.02美元/桶和97.01美元/桶。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 00:19:02",
-      "content": "据半岛电视台：美国官员表示，美国继续通过中间人渠道与伊朗进行积极讨论；如果不解决核问题，将不会达成协议。特朗普已准备好放宽对伊朗的制裁，并解冻其被冻结资产，以换取伊核问题取得进展。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 00:17:27",
-      "content": "俄罗斯总统普京正在会见俄罗斯中央选举委员会主席帕姆菲洛娃（Pamfilova）。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 00:13:53",
-      "content": "【欧盟或为乌克兰等国入盟制定路线图】金十数据9月29日讯，据《政治报·欧洲版》网站9月27日报道，欧盟正考虑为黑山、乌克兰、摩尔多瓦和阿尔巴尼亚制定专门的“入盟路线图”，以加快其入盟进程。报道称，这将是欧盟首次考虑向这些被视为“最接近加入欧盟”的候选国提供更加明确的入盟路径。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 00:08:03",
-      "content": "美国联邦调查局（FBI）联合副局长安德鲁·贝利即将离职。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 00:05:33",
-      "content": "巴拿马运河管理局宣布，所有通过新巴拿马型船只的最大允许吃水深度设定为14.94米，直至另行通知。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 00:04:46",
-      "content": "据相关声明：巴拿马运河管理局将每日新巴拿马型船舶通行能力提高至10个名额。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 00:03:34",
-      "content": "俄罗斯国家债务预计将在2027年上升至占国内生产总值的21.7%，而2026年为19.9%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 00:03:00",
-      "content": "俄罗斯将在2026年支出4590亿卢布，约占财政储备基金流动部分的11%，以弥补预算赤字。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 00:02:03",
-      "content": "俄罗斯2026年的预算支出将增加13.2%，达到48.6万亿卢布，占国内生产总值的20.9%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 00:01:45",
-      "content": "俄罗斯将2026年石油和天然气收入预估从8.9万亿卢布下调至7.6万亿卢布。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 00:00:52",
-      "content": "俄罗斯计划在2027年用于国防的支出将达到17.1万亿卢布，较最初计划的13.5万亿卢布有所增加。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 00:00:00",
-      "content": "【今日重点关注的财经数据与事件：2026年9月29日 周二】\n① 待定 美国总统特朗普就人工智能举行会议\n② 01:25 美联储理事库克发表讲话\n③ 01:30 美联储巴尔金发表讲话\n④ 12:30 澳洲联储公布利率决议\n⑤ 13:30 澳洲联储主席布洛克召开发布会\n⑥ 15:00 瑞士9月KOF经济领先指标\n⑦ 16:30 英国8月央行抵押贷款许可\n⑧ 17:00 欧元区9月工业景气指数\n⑨ 17:00 欧元区9月经济景气指数\n⑩ 20:30 加拿大7月GDP月率\n⑪ 21:00 美国7月FHFA房价指数月率\n⑫ 21:00 美国7月S&P/CS20座大城市房价指数年率\n⑬ 22:00 美国8月JOLTs职位空缺\n⑭ 22:00 美国9月谘商会消费者信心指数\n⑮ 次日01:00 美联储古尔斯比发表讲话\n⑯ 次日01:00 OpenAI首席执行官奥尔特曼发表演讲\n⑰ 次日01:30 美联储穆萨莱姆发表讲话\n⑱ 次日02:00 美联储威廉姆斯发表讲话\n⑲ 次日04:30 美国至9月25日当周API原油库存",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-28 23:58:29",
-      "content": "SpaceX(SPCX.O)的星舰在太平洋成功返回地球。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-28 23:54:57",
-      "content": "【期货热点追踪】从出口大国沦为买家？印度甘蔗主产邦雨量告急，机构预计明年放开食糖出口的空间可能微乎其微，能否引爆白糖行情？点击了解。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-28 23:53:35",
-      "content": "谷歌云：Z4D即日起在部分区域可用；裸机实例现已进入预览阶段。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-28 23:52:50",
-      "content": "谷歌云：Z4D 存储优化机器系列现已在谷歌计算引擎上全面上线。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-28 23:41:09",
-      "content": "金十图示：2026年09月28日（周一）全球股市指数-欧洲市场",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-28 23:40:10",
-      "content": "德国DAX30指数9月28日（周一）收盘上涨17.77点，涨幅0.07%，报25413.99点；\n英国富时100指数9月28日（周一）收盘下跌8.01点，跌幅0.07%，报10687.24点；\n法国CAC40指数9月28日（周一）收盘上涨0.68点，涨幅0.01%，报8078.48点；\n欧洲斯托克50指数9月28日（周一）收盘上涨6.53点，涨幅0.10%，报6309.35点；\n西班牙IBEX35指数9月28日（周一）收盘下跌90.31点，跌幅0.46%，报19609.79点；\n意大利富时MIB指数9月28日（周一）收盘下跌99.43点，跌幅0.19%，报51767.50点。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-28 23:39:44",
-      "content": "【王毅会见日本国际贸易促进协会会长岩屋毅】金十数据9月28日讯，中共中央政治局委员、中央外办主任王毅28日在北京会见日本国际贸易促进协会会长岩屋毅。王毅表示，日本国贸促是著名民间友好团体之一，成立至今致力于中日友好事业，尤其是在中日关系面临挑战、遭受破坏时，仍然能够秉持对华友好信念，维护中日关系政治基础。国贸促前任会长河野洋平先生是一个有良知的政治家，敢于直面日本过去的黑暗历史，勇于反省军国主义的侵略罪责，赢得了中国及周边国家人民的尊重。前事不忘，后事之师。切实以史为鉴，才能真正开辟未来。今年是东京审判开庭80周年，日本再次面对历史的拷问。如果不愿汲取历史教训，挑战战后“和平宪法”，甚至企图为侵略历史翻案、替战争罪犯招魂，日本就无法面对世界，更谈不上开辟未来，也难以有未来。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-28 23:39:44",
-      "content": "白宫官员证实，特朗普昨晚与Anthropic首席执行官阿莫代伊会面。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-28 23:36:10",
-      "content": "道达尔能源首席执行官：关于是否应对液化天然气宣布不可抗力，曾有过激烈辩论。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-28 23:35:34",
-      "content": "上周美国战略石油储备的原油库存降至2.838亿桶，为1982年以来最低水平。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-28 23:32:04",
-      "content": "美国至9月28日3个月国债竞拍-投标倍数 2.99，前值2.77。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-28 23:32:04",
-      "content": "美国至9月28日3个月国债竞拍-得标利率配置百分比 61.14%，前值36.66%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-28 23:32:04",
-      "content": "美国至9月28日3个月国债竞拍-得标利率 4.11%，前值4.02%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-28 23:32:04",
-      "content": "美国至9月28日6个月国债竞拍-投标倍数 2.64，前值2.62。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-28 23:32:03",
-      "content": "美国至9月28日6个月国债竞拍-得标利率配置百分比 37.89%，前值48.01%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-28 23:32:03",
-      "content": "美国至9月28日6个月国债竞拍-得标利率 4.285%，前值4.16%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-28 23:31:42",
-      "content": "【美国证券交易委员会就难以估值的私募资产发出“重要提醒”】金十数据9月28日讯，随着私人资产变得难以出售且投资者赎回请求激增，华尔街的主要金融监管机构正敦促金融行业加大力度，做好此类资产的估值工作。美国证券交易委员会（SEC）周一发布了一份关于现有监管要求的声明，虽未提出新规则，但被视为一项“关键提醒”。这表明该机构将重点关注企业如何确定其持仓价值，以及如何向投资者披露这些价值和相关风险。SEC首席会计师办公室和投资管理部门在联合声明中表示：“在本声明讨论的估值和披露相关议题中，核心信息是一致的：健全的政策和程序，加上充分的重要信息披露，有助于投资者理解实体的公允价值评估流程、其中涉及的判断，以及私人资产相关风险。”",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-28 23:26:09",
-      "content": "【期货热点追踪】莱茵河水位周末骤降至历史极低水平，柴油驳船运费已翻倍！机构预计本周整个流域仍将维持干燥少雨天气，但到10月初水位有望迎来回升拐点？点击了解。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-28 23:25:37",
-      "content": "美国证交会（SEC）：对私募信贷估值需要“特别谨慎”。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-28 23:18:52",
-      "content": "美国两年期国债收益率达到4.952%，为2024年5月以来最高水平。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-28 23:18:40",
-      "content": "据国际文传电讯社：俄罗斯表示，已击中两艘前往敖德萨港的船只。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-28 23:16:53",
-      "content": "标普全球数据显示，iTraxx欧洲交叉指数自4月以来首次触及300个基点。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-28 23:10:31",
-      "content": "【期货热点追踪】美国大豆出口检验大幅超出市场预期，对中国大豆出口占比持续提升！点击了解。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-28 23:08:46",
-      "content": "英国10年期国债收益率升至自2007年7月以来的最高水平，达到5.441%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-28 23:08:43",
-      "content": "中东出口已回到冲突以来最高，油也比前几个月流得更顺，可价格一碰坏消息就跳，问题到底出在哪一环？这篇搞懂为何油市流量在改善，价格却更敏感>>",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-28 23:07:49",
-      "content": "英国内政大臣：我们必须恢复对英国边界的控制。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-28 23:07:16",
-      "content": "【水贝金饰爆单断货 金饰降价卖爆了】金十数据9月28日讯，进入9月，国际金价持续回落。今天，COMEX黄金期货价格一路下跌，跌穿4200美元/盎司，跌幅超过3%，这也再次带动国内金饰挂牌价下行，深圳水贝黄金珠宝市场首饰金挂牌价回落至1068元/克。金价下行叠加国庆长假，黄金零售市场迎来传统消费旺季。不少商户表示，近期他们门店客流明显增多，尤其婚嫁刚需的顾客下单很果断，店里补货频率比上个月快了不少，部分热门款式甚至出现断货。有黄金商户介绍：“相比上个月，这个月销量环比增长大约20%—30%。国庆节结婚的人比较多，再加上金价下跌，所以这个月生意相对好很多。”",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-28 23:02:57",
-      "content": "债券交易员们正在为一个更加长期且残酷的现实重新定价：那个长达十余年的低息时代，可能永远回不来了……点击查看...",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-28 23:02:56",
-      "content": "SpaceX(SPCX.O)：星舰正从太空返回地球。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-28 23:01:43",
-      "content": "国内新闻\n1. 国常会：针对当前经济运行中出现的问题，要加大宏观政策逆周期调节力度。\n2. 工信部等七部门联合印发《新型电池产业发展“十五五”规划》。\n3. 商务部公布中美贸易理事会和“300亿对300亿”对等降税框架有关情况。\n4. 商务部：中美双方约定在今年11月底前举行下一次中美人工智能对话。\n5. 国家统计局：2026年1—8月份全国规模以上工业企业利润增长15.7%。\n6. 上海出台商品住房销售制度改革地方实施意见：有序实施商品住房现房销售。\n7. 中国人民银行等八部门联合印发《关于金融支持服务业扩能提质的指导意见》。\n国际新闻\n1. 日本最高外汇事务官员三村淳敦促市场关注对日元发出的警告。\n2. 顶尖AI研究人员呼吁对具备自我改进能力的AI实施监管。\n3. SpaceX星舰经历发动机故障波后首次入轨。\n4. 英伟达追加1500亿美元股票回购授权，总额达2350亿美元。\n5. 据悉调解人将分别与美伊会谈，聚焦伊朗7天提案修订版。\n6. 据悉卡塔尔延长液化天然气不可抗力期限至11月。\n7. 特朗普将公布一项爱荷华州150亿美元钢铁项目计划。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": true
-    },
-    {
-      "datetime": "2026-09-28 23:01:16",
-      "content": "SpaceX(SPCX.O)：已与所有26颗V3卫星建立连接。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-28 23:00:28",
-      "content": "截至23:00收盘，国内期货主力合约涨跌不一，甲醇涨近4%，纯苯涨超2%，苯乙烯（EB）涨近2%。跌幅方面，20号胶跌超3%，菜粕、橡胶跌超2%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-28 22:58:17",
-      "content": "美国10年期国债收益率日内上涨10个基点，达到5.27%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-28 22:57:31",
-      "content": "现货黄金日内跌幅扩大至4%，现报4113.68美元/盎司。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-28 22:56:00",
-      "content": "因俄罗斯对乌克兰的空袭，波兰发布警报称，波兰航空力量已启动。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-28 22:55:40",
-      "content": "道达尔首席执行官：如果美国禁止柴油出口，欧洲将不得不释放战略储备。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-28 22:54:37",
-      "content": "美国国务卿鲁比奥在美国会见了黎巴嫩总理。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-28 22:49:39",
-      "content": "欧洲央行行长拉加德：工作人员预计能源补贴对通胀的影响为0.1%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
     }
   ],
   "shmet": [
     {
-      "datetime": "2026-09-29 02:00:14",
-      "content": "【SHFE夜盘收盘_基本金属】沪铜主力跌0.16%,报109260元/吨沪铝主力跌0.33%,报24000元/吨沪铅主力涨0.19%,报16225元/吨沪锌主力涨0.09%,报26490元/吨沪镍主力跌0.48%,报123140元/吨沪锡主力涨0.12%,报408280元/吨",
+      "datetime": "2026-09-29 04:10:26",
+      "content": "【快讯】SHMET09月29日讯，据伊朗媒体Fars News：伊朗议会国家安全与外交政策委员会副主席表示，美国在进行任何谈判前，必须接受伊朗提出的条件。核问题已经不再是谈判的核心或轴心，目前霍尔木兹海峡才是谈判的重点。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-29 01:50:45",
-      "content": "【快讯】SHMET09月29日讯，美国财长贝森特：“经济弃儿行动”已导致伊朗里亚尔汇率跌至历史新低。我们将继续削弱伊朗政权资助恐怖主义及研发核武器的能力。",
+      "datetime": "2026-09-29 04:09:45",
+      "content": "【快讯】SHMET09月29日讯，市场消息：AMD(AMD.O)同意以82亿美元收购李飞飞的人工智能初创公司World Labs。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-29 01:45:21",
-      "content": "【快讯】SHMET09月29日讯，伊拉克国家通讯社：伊拉克航空恢复纳杰夫（Najaf）与伊朗机场之间的航班。",
+      "datetime": "2026-09-29 04:06:08",
+      "content": "【快讯】SHMET09月29日讯，道琼斯指数9月28日（周一）收盘下跌346.90点，跌幅0.67%，报51481.72点；标普500指数9月28日（周一）收盘下跌59.48点，跌幅0.77%，报7683.93点；纳斯达克综合指数9月28日（周一）收盘下跌248.34点，跌幅0.92%，报26820.38点。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-29 04:01:03",
+      "content": "【快讯】SHMET09月29日讯，沙特民防部门：奈季兰的危险已过去。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-29 01:44:39",
-      "content": "【快讯】SHMET09月29日讯，美联储理事库克：劳动力市场似乎已做好应对加息的准备。",
+      "datetime": "2026-09-29 03:58:09",
+      "content": "【快讯】SHMET09月29日讯，沙特民防部门：对奈季兰潜在危险发出早期警报。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-29 01:44:04",
-      "content": "【俄罗斯延长天然气卢布结算令至2027年4月1日】SHMET09月29日讯，俄罗斯总统普京9月28日签署总统令，将天然气贸易卢布结算令的执行期限从原定的2026年10月1日延长至2027年4月1日。卢布结算令规定，外国买方须将卢布存入俄罗斯供应商在俄银行账户，才能完成付款。",
+      "datetime": "2026-09-29 03:57:06",
+      "content": "【快讯】SHMET09月29日讯，伊朗外长会见联合国秘书长古特雷斯。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-29 01:43:12",
-      "content": "【快讯】SHMET09月29日讯，美联储理事库克：预计未来几个月人工智能建设将持续带来通胀压力。",
+      "datetime": "2026-09-29 03:56:14",
+      "content": "【快讯】SHMET09月29日讯，美国常驻北约代表惠特克：正就涉案被捕人员与英国保持密切合作。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-29 01:42:46",
-      "content": "【快讯】SHMET09月29日讯，美国最高法院阿利托拒绝参与即将审理的一起案件，该案涉及针对石油公司的气候相关损害诉讼。",
+      "datetime": "2026-09-29 03:55:26",
+      "content": "【日本茨城县南部发生地震 东京震感明显】SHMET09月29日讯，当地时间9月29日4时45分，日本茨城县南部发生标准震度4的地震。据日本气象厅消息，29日4时45分左右，日本茨城县南部发生4.9级地震，最大震感为震度4，震源深度50公里。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-29 01:42:21",
-      "content": "【快讯】SHMET09月29日讯，美联储理事库克：将考虑为继续引导通胀回落至目标所需的政策利率。",
+      "datetime": "2026-09-29 03:54:43",
+      "content": "【快讯】SHMET09月29日讯，SpaceXAI：SpaceXAI Team Bots已面向Teams和企业版用户开放公开测试。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-29 01:41:50",
-      "content": "【美联储库克：AI需求和油价上涨将继续推高通胀压力】SHMET09月29日讯，美联储理事丽莎·库克表示，未来几个月美国通胀仍将面临压力，主要来自人工智能相关需求增长、油价上涨以及中东冲突导致的供应链扰动，但她没有明确表示需要进一步加息。库克表示，劳动力市场目前“有能力承受利率上升”，未来货币政策调整幅度和次数将取决于经济对政策行动的反应，以及未来几个月的通胀和就业数据。她称，截至8月，美国12个月整体通胀率约为3.8%，仍明显高于美联储2%的目标。库克指出，AI基础设施建设带来的需求将在短期内继续增加通胀压力，尽管AI推动的生产率提升可能在中期带来一定降通胀效果，但今年不会快到足以抵消当前通胀压力。她表示，目前尚无明显证据显示AI正在重塑劳动力市场，但美联储正密切关注其可能导致失业率阶段性上升的风险。库克还称，如果未来就业市场因AI受到冲击，美联储可采取的应对空间有限，因为降息支持就业可能进一步推高通胀。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 01:37:24",
-      "content": "【俄雅罗斯拉夫尔州一企业发生火灾致13人死亡】SHMET09月29日讯，塔斯社28日援引俄罗斯紧急情况部消息报道说，雅罗斯拉夫尔州一家烟花爆竹生产企业发生火灾，已致13人死亡、一人受伤。报道说，伤者已被送往医院救治。火势已得到控制。另有报道说，发生火灾的工厂持有烟花爆竹生产许可证。目前，俄有关部门正对这起事件展开调查。",
+      "datetime": "2026-09-29 03:54:03",
+      "content": "【快讯】SHMET09月29日讯，SpaceXAI：SpaceXAI推出Team Bots，用于协作式AI工作流程。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
@@ -1215,9 +1255,41 @@
   ],
   "steel_highlight": [
     {
-      "datetime": "2026-09-28 23:01:43",
-      "content": "国内新闻\n1. 国常会：针对当前经济运行中出现的问题，要加大宏观政策逆周期调节力度。\n2. 工信部等七部门联合印发《新型电池产业发展“十五五”规划》。\n3. 商务部公布中美贸易理事会和“300亿对300亿”对等降税框架有关情况。\n4. 商务部：中美双方约定在今年11月底前举行下一次中美人工智能对话。\n5. 国家统计局：2026年1—8月份全国规模以上工业企业利润增长15.7%。\n6. 上海出台商品住房销售制度改革地方实施意见：有序实施商品住房现房销售。\n7. 中国人民银行等八部门联合印发《关于金融支持服务业扩能提质的指导意见》。\n国际新闻\n1. 日本最高外汇事务官员三村淳敦促市场关注对日元发出的警告。\n2. 顶尖AI研究人员呼吁对具备自我改进能力的AI实施监管。\n3. SpaceX星舰经历发动机故障波后首次入轨。\n4. 英伟达追加1500亿美元股票回购授权，总额达2350亿美元。\n5. 据悉调解人将分别与美伊会谈，聚焦伊朗7天提案修订版。\n6. 据悉卡塔尔延长液化天然气不可抗力期限至11月。\n7. 特朗普将公布一项爱荷华州150亿美元钢铁项目计划。",
-      "important": 1,
+      "datetime": "2026-09-29 02:50:39",
+      "content": "美国总统特朗普：如果我们不自己生产钢铁，就无法自我防卫。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": true
+    },
+    {
+      "datetime": "2026-09-29 02:35:53",
+      "content": "美国商务部长卢特尼克强调美国从巴西进口铁矿石球团的贸易情况。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": true
+    },
+    {
+      "datetime": "2026-09-29 02:31:22",
+      "content": "美国总统特朗普：美国的钢铁产量已经超过日本。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": true
+    },
+    {
+      "datetime": "2026-09-29 02:28:37",
+      "content": "美国总统特朗普：钢铁厂将为我国经济增加950亿美元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": true
+    },
+    {
+      "datetime": "2026-09-29 02:27:52",
+      "content": "美国总统特朗普：爱荷华州钢铁厂每年将生产1000万吨钢材。",
+      "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": true
