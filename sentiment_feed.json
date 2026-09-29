@@ -1,7 +1,143 @@
 {
   "source": "jin10 flash + shmet + shfe weekly stock",
-  "generated_at": "2026-09-29T16:10:00.686495+00:00",
+  "generated_at": "2026-09-29T16:40:14.800591+00:00",
   "jin10": [
+    {
+      "datetime": "2026-09-30 00:35:57",
+      "content": "金十图示：2026年09月29日（周二）美股热门股票行情一览（美股盘中）",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 00:35:42",
+      "content": "金十图示：2026年09月29日（周二）热门中概股行情一览（美股盘中）",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 00:32:47",
+      "content": "【哈塞特：美国仍在消化拜登时期疫情支出带来的影响 】金十数据9月30日讯，据CNBC报道，美国白宫国家经济委员会主任哈塞特表示，美国经济仍在消化前总统拜登执政初期与新冠疫情相关的刺激支出影响，并称这是美国当前面临的问题之一。哈塞特周二接受采访时表示，特朗普第一任期内的疫情刺激措施规模“恰到好处”，目标是填补经济缺口，而拜登政府随后继续扩大支出，将资金用于其他领域。他称，美国目前仍在摆脱这些额外支出的影响。哈塞特表示，特朗普上一任期结束时，美国通胀率约为1.5%，随后由于疫情支出延续以及其他因素，通胀明显上升。拜登政府于2021年3月签署1.9万亿美元的《美国救援计划》（American Rescue Plan，ARP），部分经济学家认为该计划加剧了美国通胀，但对于其影响程度仍存在争议。数据显示，美国通胀率在2022年夏季一度接近9%，此后逐步回落。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 00:30:00",
+      "content": "美联储理事巴尔将于十分钟后发表讲话。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 00:29:06",
+      "content": "英国央行泰勒：如果工资增长预期保持在3%左右，那将令人感到安心。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 00:28:27",
+      "content": "英国央行泰勒：我没有看到任何明显的信号表明正在形成第二轮效应，这与2022年不同。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 00:26:57",
+      "content": "据相关财政文件显示，俄罗斯计划在2027年削减福利、教育和医疗领域的资金投入。俄罗斯债务偿还成本预计将在2027年增长21.6%，占政府总支出的9.4%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 00:26:39",
+      "content": "Anthropic：失控的AI智能体给公司带来不确定的法律风险。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 00:25:48",
+      "content": "OpenAI首席执行官奥尔特曼：暂无IPO时间表。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 00:24:50",
+      "content": "【美国拟释放战略石油储备4000万桶缓解燃油价格压力 】金十数据9月30日讯，据路透社报道，美国能源部周二表示，特朗普政府计划向能源企业提供4000万桶战略石油储备（SPR）原油，以应对因伊朗冲突升级和俄乌战争导致的燃油价格上涨。美国能源部称，此次措施采取“出借”形式，企业将借用SPR原油，未来需归还。此前，美国已于3月与国际能源署（IEA）及约30个国家达成协议，作为释放全球约4亿桶原油计划的一部分，美国承诺提供1.72亿桶战略储备。特朗普政府曾于6月提出释放该协议中剩余4000万桶原油，但当月底数据显示，能源企业实际同意借用的规模仅约50万桶。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 00:21:52",
+      "content": "消息人士：白宫已敦促欧盟动用柴油应急库存，以降低全球柴油价格。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 00:21:21",
+      "content": "英国央行泰勒：我认为隔夜指数掉期利率（OIS）利率并未清晰传达英国央行市场利率预期，我对此并不赞同。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 00:18:12",
+      "content": "英国央行泰勒：英国央行代理机构对企业薪资计划的调查将于2027年1月公布，这将是一个非常重要的数据指标。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 00:17:56",
+      "content": "OpenAI首席执行官奥尔特曼：Muse是一款不错的产品，不会受到Meta Platforms(META.O)的威胁。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 00:17:19",
+      "content": "OpenAI首席执行官奥尔特曼：AI面临的科学问题多于工程问题。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 00:16:14",
+      "content": "OpenAI首席执行官奥尔特曼：英伟达(NVDA.O)的安全系统并非万全之策。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 00:14:46",
+      "content": "OpenAI首席执行官奥尔特曼：将推出多款优秀的新模型。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
     {
       "datetime": "2026-09-30 00:05:38",
       "content": "农民商业网络：与谷歌AI未来基金合作，将先进人工智能创新技术带给家庭农场主。",
@@ -961,220 +1097,84 @@
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
-    },
-    {
-      "datetime": "2026-09-29 21:59:38",
-      "content": "【立陶宛总理称愿承担费用，寻求美国永久驻军】金十数据9月29日讯，立陶宛总理辛克维丘斯表示，立陶宛“准备支付相关费用”以实现美军的永久驻扎，并已就此议题与华盛顿方面进行了沟通，旨在巩固美国的安全保障。辛克维丘斯表示：“如果美方有意向，我们绝对愿意促成此事。”他还提到自己曾与美国总统特朗普派驻邻国白俄罗斯的特使约翰·科尔进行过交谈。他还对特朗普政府向立陶宛增派新一批“多达1000名美军”轮换部队表示感谢，称这一举措让立陶宛在面对邻国俄罗斯的“帝国主义野心”时“感到更加安全”。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 21:57:38",
-      "content": "英国首相伯纳姆：得票率低于30%的政党不应掌握权力。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 21:57:24",
-      "content": "英国首相伯纳姆：将在下次选举中承诺改变选举制度。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 21:56:24",
-      "content": "【波罗的海干散货运价指数触及近一个月低位】金十期货9月29日讯，波罗的海干散货运价指数下滑至近一个月低位，承压于大型船只运费疲软。波罗的海干散货运价指数较前一交易日下跌90点，或2.75%，报3178点，为9月1日以来最低水平。海岬型船运价指数下跌248点，跌幅4.63%，至5103点，创8月26日以来最低。海岬型船日均收益减少2249美元，至42775美元。巴拿马型船运价指数下滑12点，或0.50%，至2390点。巴拿马型船日均获利下跌113美元，至21507美元。超灵便型散货船运价指数续升7点，或0.39%，至1797点，触及2022年8月以来的最高水准。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 21:56:16",
-      "content": "【英国首相伯纳姆：拟修法允许水务公司公有化】金十数据9月29日讯，英国首相安迪·伯纳姆周二表示，政府将通过立法废除禁止水务企业公有化的规定，并承诺用10年时间推动英国水务体系发生“根本性变化”。英格兰和威尔士的供水企业于1989年完成私有化，但近年来行业多次出现运营问题，使水务行业被批评为一个将利润置于环境保护和民众负担能力之上的领域。伯纳姆宣布，他将向议会提交一份力度更大的《水务法案》，允许未来对水务公司实施更强有力的公共管控。他在工党年会上表示：“水务问题象征着英国当前存在的问题。这是一个股东稳赚不赔、而公众却从未获益的服务行业。”根据他的改革计划，市长们将获得新的权力，以监督水务公司并追究其责任。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 21:56:07",
-      "content": "英国首相伯纳姆：我听到了对选举改革的呼声，并表示赞同。宣布成立新的选举改革委员会。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 21:55:54",
-      "content": "英国首相伯纳姆：持续的政治动荡之下，不可能取得成功。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 21:54:01",
-      "content": "现货黄金日内涨50美元，现报4164.34美元/盎司，涨幅1.22%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 21:53:49",
-      "content": "英国首相伯纳姆：我们可以成为创新国家。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 21:52:15",
-      "content": "英国首相伯纳姆：坚定支持乌克兰。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 21:52:10",
-      "content": "金十图示：2026年09月29日（周二）华尔街恐惧与贪婪指数（美盘初）",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 21:51:58",
-      "content": "国际黄金遇阻下跌，是因资金在跑路吗？这轮回调是否会打破全年的上行趋势？Richard直播中将梳理关键因素，点击马上观看！",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 21:51:26",
-      "content": "美国30年期国债收益率达到5.587%，为2004年5月以来最高水平。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 21:50:00",
-      "content": "美国8月JOLTs职位空缺、9月谘商会消费者信心指数将于十分钟后公布。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 21:49:29",
-      "content": "英国国债期货回落约10个基点，英国首相伯纳姆表示从养老金三重保障政策节省的资金将用于资助社会护理。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 21:49:23",
-      "content": "在大摩首席看来，若美股出现一场深度回调，这将是彻底完成“洗盘”，向年底大行情发起冲锋的“终极发令枪”……点击查看...",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 21:49:16",
-      "content": "金十图示：2026年09月29日（周二）美股热门股票行情一览",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
     }
   ],
   "shmet": [
     {
-      "datetime": "2026-09-30 00:06:06",
-      "content": "【快讯】SHMET09月30日讯，法国国库署（AFT）：法国政府明年融资需求预计为3397亿欧元，原因是到期债务规模将达到创纪录的1892亿欧元。",
+      "datetime": "2026-09-30 00:31:11",
+      "content": "【快讯】SHMET09月30日讯，美联储理事巴尔将于十分钟后发表讲话。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 00:05:30",
-      "content": "【今日重点关注的财经数据与事件：2026年9月30日 周三】SHMET09月30日讯，① 00:40 美联储理事巴尔发表讲话② 01:00 美联储古尔斯比发表讲话③ 01:00 OpenAI CEO奥尔特曼发表演讲④ 01:30 美联储穆萨莱姆发表讲话⑤ 02:00 美联储威廉姆斯发表演讲⑥ 03:00 美联储理事沃勒发表讲话⑦ 04:30 美国至9月25日当周API原油库存⑧ 09:30 中国9月官方制造业PMI⑨ 09:30 澳大利亚8月未季调CPI年率⑩ 09:45 中国9月RatingDog制造业PMI⑪ 09:45 中国9月RatingDog服务业PMI⑫ 14:00 英国第二季度GDP年率终值⑬ 14:00 英国第二季度经常帐⑭ 14:45 法国9月CPI月率初值⑮ 15:55 德国9月季调后失业人数⑯ 15:55 德国9月季调后失业率⑰ 16:00 瑞士9月ZEW投资者信心指数⑱ 20:00 德国9月CPI月率初值⑲ 20:15 美国9月ADP就业人数⑳ 20:30 美国8月核心PCE物价指数年率㉑ 20:30 美国8月个人支出月率㉒ 20:30 美国第二季度实际GDP年化季率终值㉓ 20:30 美国第二季度实际个人消费支出季率终值㉔ 20:30 美国第二季度核心PCE物价指数年化季率终值㉕ 20:30 美国8月核心PCE物价指数月率㉖ 21:45 美国9月芝加哥PMI㉗ 22:30 美国至9月25日当周EIA原油库存㉘ 22:30 美国至9月25日当周EIA库欣原油库存㉙ 22:30 美国至9月25日当周EIA战略石油储备库存㉚ 次日01:30 美联储巴尔金为活动致辞㉛ 次日03:25 美联储理事库克发表讲话㉜ 次日04:00 美光公司在美股盘后公布财报㉝ 次日05:10 美联储古尔斯比发表讲话",
+      "datetime": "2026-09-30 00:30:30",
+      "content": "【快讯】SHMET09月30日讯，英国央行泰勒：如果工资增长预期保持在3%左右，那将令人感到安心。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 00:05:26",
-      "content": "【快讯】SHMET09月30日讯，法国国库署（AFT）：法国未偿短期国库券规模预计将在2027年增加22亿欧元。",
+      "datetime": "2026-09-30 00:29:08",
+      "content": "【快讯】SHMET09月30日讯，英国央行泰勒：我没有看到任何明显的信号表明正在形成第二轮效应，这与2022年不同。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 00:05:08",
-      "content": "【快讯】SHMET09月30日讯，法国国库署（AFT）：法国明年计划发行3400亿欧元中长期国债（已扣除回购操作）。",
+      "datetime": "2026-09-30 00:27:51",
+      "content": "【快讯】SHMET09月30日讯，OpenAI首席执行官奥尔特曼：暂无IPO时间表。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 00:04:32",
-      "content": "【快讯】SHMET09月30日讯，欧盟能源专员乔根森：已与国际能源署署长比罗尔讨论了可能的石油释放，仍需与成员国及国际能源署就这些问题进行进一步磋商。",
+      "datetime": "2026-09-30 00:26:49",
+      "content": "【美国拟释放战略石油储备4000万桶缓解燃油价格压力 】SHMET09月30日讯，据路透社报道，美国能源部周二表示，特朗普政府计划向能源企业提供4000万桶战略石油储备（SPR）原油，以应对因伊朗冲突升级和俄乌战争导致的燃油价格上涨。美国能源部称，此次措施采取“出借”形式，企业将借用SPR原油，未来需归还。此前，美国已于3月与国际能源署（IEA）及约30个国家达成协议，作为释放全球约4亿桶原油计划的一部分，美国承诺提供1.72亿桶战略储备。特朗普政府曾于6月提出释放该协议中剩余4000万桶原油，但当月底数据显示，能源企业实际同意借用的规模仅约50万桶。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 00:22:51",
+      "content": "【快讯】SHMET09月30日讯，英国央行泰勒：我认为隔夜指数掉期利率（OIS）利率并未清晰传达英国央行市场利率预期，我对此并不赞同。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 00:03:15",
-      "content": "【快讯】SHMET09月30日讯，台达电子将推动下一代自动驾驶技术发展。",
+      "datetime": "2026-09-30 00:19:58",
+      "content": "【快讯】SHMET09月30日讯，英国央行泰勒：英国央行代理机构对企业薪资计划的调查将于2027年1月公布，这将是一个非常重要的数据指标。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 00:02:51",
-      "content": "【快讯】SHMET09月30日讯，台达电子将基于英伟达(NVDA.O)Hyperion构建自动驾驶系统。",
+      "datetime": "2026-09-30 00:18:59",
+      "content": "【快讯】SHMET09月30日讯，OpenAI首席执行官奥尔特曼：AI面临的科学问题多于工程问题。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 00:00:44",
-      "content": "【快讯】SHMET09月30日讯，美国参议员加利戈提出决议，建议成立人工智能特别委员会。",
+      "datetime": "2026-09-30 00:17:33",
+      "content": "【快讯】SHMET09月30日讯，OpenAI首席执行官奥尔特曼：英伟达(NVDA.O)的安全系统并非万全之策。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-29 23:59:29",
-      "content": "【快讯】SHMET09月30日讯，英伟达(NVDA.O)CEO黄仁勋，马斯克将在白宫的人工智能午餐会上与美国总统特朗普同坐。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-29 23:58:08",
-      "content": "【*ST威领：山南锑金要约收购期限届满 股票9月30日起停牌】SHMET09月30日讯，*ST威领公告，西藏山南锑金资源有限公司向公司全体股东发出部分要约，收购股份数量为7817.745万股(占公司股份总数的30%)，要约收购价格为18元/股，要约收购期限为2026年8月31日至9月29日。截至9月29日，本次要约收购期限已届满，鉴于要约收购结果需进一步确认，经向深交所申请，公司股票自9月30日开市起停牌。",
+      "datetime": "2026-09-30 00:16:07",
+      "content": "【快讯】SHMET09月30日讯，OpenAI首席执行官奥尔特曼：将推出多款优秀的新模型。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
