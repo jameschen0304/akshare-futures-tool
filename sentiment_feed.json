@@ -1,1242 +1,986 @@
 {
   "source": "jin10 flash + shmet + shfe weekly stock",
-  "generated_at": "2026-09-29T18:50:21.851189+00:00",
+  "generated_at": "2026-09-30T16:09:23.542694+00:00",
   "jin10": [
     {
-      "datetime": "2026-09-30 02:49:41",
-      "content": "交易员削减对美联储10月加息的押注。在美联储威廉姆斯表示“不急于采取行动”后，市场目前预计美联储到今年年底仅会再加息一次。",
+      "datetime": "2026-10-01 00:08:35",
+      "content": "沙特政府声明：预计2027年政府总收入为1.20万亿里亚尔。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-01 00:08:27",
+      "content": "据沙特阿拉伯国家通讯社：预计2027年政府总支出为1.39万亿里亚尔。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-01 00:03:45",
+      "content": "俄罗斯统计局：8月零售销售额同比增长3.3%，上月为增长5.3%（市场预期为增长5.6%）。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-01 00:03:16",
+      "content": "俄罗斯统计局：截至9月28日当周，俄罗斯周度消费者通胀率为0.12%，此前一周为0.06%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-01 00:02:25",
+      "content": "俄罗斯统计局：8月失业率为2.2%，上月为2.3%（市场预期为2.2%）。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-01 00:01:57",
+      "content": "俄罗斯统计局：7月实际工资同比增长3.3%（市场预期为增长2.4%）",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-01 00:01:46",
+      "content": "USDA季度库存报告：截至2026年9月1日，美国小麦库存总量为18.46亿蒲式耳，市场预期为18.72亿蒲式耳，去年同期为21.2亿蒲式耳（修正后为21.34亿蒲式耳）。",
       "important": 1,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 02:48:38",
-      "content": "美联储威廉姆斯：开始看到一些数据显示人工智能正在提升生产力增长。",
+      "datetime": "2026-10-01 00:01:32",
+      "content": "俄罗斯经济部：8月GDP同比增长0.8%，上月为增长0.6%。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 02:48:30",
-      "content": "据Axios网站：特朗普亲自挑选的政府资助广告即将大规模增加。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:47:26",
-      "content": "美联储威廉姆斯：人工智能正在推高资产市场估值，增强财富效应。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:43:52",
-      "content": "以色列国防军：以色列南部响起的警报是由于误识别，目前事件已结束。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:42:15",
-      "content": "以色列国防军：纳哈勒奥兹（Nahal Oz）地区响起防空警报，目前相关细节正在核查。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:41:46",
-      "content": "美联储威廉姆斯：K型经济非常真实。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:40:39",
-      "content": "美国总统特朗普：人工智能领域的领导者将与当地社区合作建设数据中心。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:39:28",
-      "content": "美国总统特朗普：人工智能领袖希望做正确的事情。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:37:46",
-      "content": "美国总统特朗普：AI领域的自我监管非常重要。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:37:08",
-      "content": "美国总统特朗普：与会者之间有很多共同点。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:36:57",
-      "content": "美国总统特朗普：我们在人工智能领域拥有巨大领先优势，并希望保持这一优势。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:35:26",
-      "content": "美国总统特朗普：（关于与人工智能领袖会晤）会议非常好，气氛极其友好且富有成效。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:35:00",
-      "content": "美联储威廉姆斯：我非常相信应根据数据来制定政策。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:34:49",
-      "content": "美联储威廉姆斯：九月加息旨在更快实现2%的通胀目标。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:34:26",
-      "content": "据英国金融时报：调解人正再次努力推动美国和伊朗达成协议。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:32:48",
-      "content": "巴西全国谷物出口商协会（ANEC）：预计巴西9月大豆出口量为724万吨，低于上周预计的802万吨。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:32:30",
-      "content": "美联储威廉姆斯：判断货币政策的限制性程度是很困难的。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:32:17",
-      "content": "美联储威廉姆斯：取决于战争的发展方向，预计能源价格不会进一步大幅上涨。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:31:48",
-      "content": "美国原油期货结算价为每桶89.38美元，下跌3.22美元，跌幅3.48%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:31:41",
-      "content": "上海黄金交易所黄金T+D 9月29日（周二）晚盘收盘上涨0.79%报901.6元/克；\n上海黄金交易所白银T+D 9月29日（周二）晚盘收盘上涨0.57%报14875.0元/千克。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:31:38",
-      "content": "【夜盘主力合约收盘】金十数据9月30日讯，截至2:30收盘，沪金主力合约收涨0.80%，报905元/克，沪银主力合约收涨0.35%，报14958元/千克，SC原油主力合约收跌1.63%，报705元/桶。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:31:04",
-      "content": "WTI原油日内大跌4.00%，现报88.29美元/桶。",
+      "datetime": "2026-10-01 00:01:24",
+      "content": "USDA季度库存报告：截至2026年9月1日，美国旧作玉米库存总量为20.95亿蒲式耳，市场预期为19.18亿蒲式耳，去年同期为15.32亿蒲式耳（修正后为15.51亿蒲式耳）。",
       "important": 1,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 02:30:10",
-      "content": "美联储威廉姆斯：能源价格仍然是影响经济的重要因素，但相比过去，美国经济受到能源价格波动的影响有所降低。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:28:26",
-      "content": "美联储威廉姆斯：通胀应会缓解，因为最大的冲击已基本消退。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:27:37",
-      "content": "美联储穆萨莱姆：即使在最近一次加息之后，货币政策仍然略显宽松。",
+      "datetime": "2026-10-01 00:01:08",
+      "content": "USDA季度库存报告：截至2026年9月1日，美国旧作大豆库存总量为3.15亿蒲式耳，市场预期为3.24亿蒲式耳，去年同期为3.16亿蒲式耳（修正后为3.25亿蒲式耳）。",
       "important": 1,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 02:25:42",
-      "content": "【美联储古尔斯比：通胀持续高于目标是在“玩火” 】金十数据9月30日讯，芝加哥联储主席奥斯坦·古尔斯比表示，美国通胀持续高于美联储2%的目标已超过五年半，长期维持高通胀水平是在“玩火”，美联储需要关注持续性供应冲击带来的影响。古尔斯比表示，当前情况“令人不快”，但如果供应冲击产生长期影响，美联储可能需要重新考虑此前“忽略供应冲击”的政策逻辑。他称，在考虑降息前，美联储需要看到更多证据，确认通胀正在回落，以及此前被认为是暂时性的因素正在消退。古尔斯比还警告，巨额财政赤字本身就是一种刺激措施，可能导致经济过热。他表示，市场对未来AI生产率提升的预期也可能带来当前经济过热风险，美联储需要密切关注生产率变化。他指出，油价可能快速回落，但更深层的问题在于炼油设施恢复运营的过程。古尔斯比表示，能源价格、AI投资和财政刺激等因素都可能影响未来通胀路径。",
+      "datetime": "2026-10-01 00:00:51",
+      "content": "英国首相伯纳姆：（关于费尔福德空军基地事件）有强烈迹象表明伊朗在周末发生的事件中发挥了作用。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 02:23:13",
-      "content": "美联储穆萨莱姆：美联储经济预测摘要（SEP）可以通过匿名方式将利率“点阵图”与经济预测对应起来，从而得到改进。",
+      "datetime": "2026-10-01 00:00:05",
+      "content": "谷歌(GOOG.O)：将撤销巴西彩票和赛马证书；需重新申请。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 02:20:54",
-      "content": "OpenAI：“抱抱脸”事件是迄今为止最严重的平台事故。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:20:31",
-      "content": "伊朗革命卫队：波斯湾岛屿是伊朗领土防御的“前沿阵地”，伊方将持续加强当地防御能力、作战准备和情报监控能力。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:17:35",
-      "content": "洛克希德·马丁公司：阿维奥美国公司（Avio USA）已在弗吉尼亚州破土动工建设其在美国的首座固体火箭发动机工厂。该厂每年将生产数千台固体火箭发动机，并创造1500个就业岗位；预计2028年底竣工，2029年初启动生产。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:13:38",
-      "content": "美联储穆萨莱姆：通胀预期与长期2%的通胀水平保持一致。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:12:29",
-      "content": "【美联储威廉姆斯：年内或再加息一次 但无需急于行动】金十数据9月30日讯，纽约联储主席约翰·威廉姆斯表示，美联储在9月会议加息后没有必要急于再次行动，可以等待更多经济数据，以判断下一步政策方向。威廉姆斯表示，如果经济发展大致符合他的预期，年底前可能需要进一步上调联邦基金利率目标区间，以推动通胀更及时回归2%目标。但他强调，这只是个人预测，最终决定将取决于未来数据表现。威廉姆斯称，在经济增长保持稳健、就业市场表现良好的情况下，通胀压力将继续成为货币政策重点。他表示，美联储必须确保通胀不会因冲击而持续高企，并避免二次通胀效应形成。他指出，今年通胀压力受到特朗普关税政策和中东冲突导致能源价格上涨影响，同时人工智能投资也推高部分价格压力。威廉姆斯预计美国通胀率将在今年年底达到约3.5%，随后逐步回落，并在2028年回到目标水平。威廉姆斯预计，今年美国经济增长约为2.25%，明年失业率约为4%。他表示，移民因素、人口老龄化以及生产率增长有限，限制了经济长期增长空间。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:11:23",
-      "content": "美联储穆萨莱姆：目前约一半的通胀来自持续的需求压力。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:09:45",
-      "content": "美联储穆萨莱姆：当一次供应冲击接着一次供应冲击出现时，“暂时忽略供应冲击影响”的逻辑会减弱，并提高更广泛通胀持续根深蒂固的风险。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:08:15",
-      "content": "美国2年期国债收益率刷新日低，现报4.9030%。美联储威廉姆斯认为，9月加息后，“没有必要急于行动”。",
+      "datetime": "2026-10-01 00:00:00",
+      "content": "【今日重点关注的财经数据与事件：2026年10月1日 周四】\n① 01:30 美联储巴尔金为活动致辞\n② 03:25 美联储理事库克发表讲话\n③ 04:00 美光公司在美股盘后公布财报\n④ 05:10 美联储古尔斯比发表讲话\n⑤ 06:00 美联储卡什卡利发表讲话\n⑥ 07:50 日本央行公布审议委员意见摘要\n⑦ 14:00 英国9月Nationwide房价指数月率\n⑧ 14:30 瑞士9月CPI月率\n⑨ 14:30 瑞士8月实际零售销售年率\n⑩ 15:50 法国9月制造业PMI终值\n⑪ 15:55 德国9月制造业PMI终值\n⑫ 16:00 欧元区9月制造业PMI终值\n⑬ 16:00 英国央行行长贝利发表讲话\n⑭ 16:30 英国9月制造业PMI终值\n⑮ 17:00 欧元区8月失业率\n⑯ 17:30 美国9月挑战者企业裁员人数\n⑰ 20:30 美国至9月26日当周初请失业金人数\n⑱ 21:05 美联储巴尔金、柯林斯、施密德发表讲话\n⑲ 21:30 欧洲央行行长拉加德发表讲话\n⑳ 21:45 美国9月标普全球制造业PMI终值\n㉑ 22:00 美国9月ISM制造业PMI\n㉒ 22:00 美国8月营建支出月率\n㉓ 22:00 美联储理事沃勒发表讲话\n㉔ 22:30 美国至9月25日当周EIA天然气库存\n㉕ 次日01:30 美联储副主席杰斐逊发表讲话\n㉖ 次日03:00 美联储理事鲍曼发表讲话\n㉗ 次日03:30 美联储威廉姆斯主持讨论",
       "important": 1,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 02:06:19",
-      "content": "美联储穆萨莱姆：目前经济非常强劲，但依赖于持续增长。",
+      "datetime": "2026-09-30 23:59:51",
+      "content": "谷歌(GOOG.O)：立即在巴西禁止固定配额博彩推广。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 02:06:14",
-      "content": "美联储穆萨莱姆：目前，人工智能资本支出热潮导致了需求压力，生产率和“供应缓解”尚未显现。",
+      "datetime": "2026-09-30 23:53:41",
+      "content": "欧洲央行行长拉加德：如果我提前离开欧洲央行，那也只会提前几个月。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 02:05:09",
-      "content": "WTI原油期货日内大跌3.00%，现报89.82美元/桶。",
+      "datetime": "2026-09-30 23:53:40",
+      "content": "【SEC拟放宽私募投资门槛，推动散户进入私募市场】金十数据9月30日讯，美国证券交易委员会（SEC）周三提出一系列改革方案，旨在扩大个人投资者参与私募市场的渠道，让更多散户接触私募股权、早期创业公司及其他另类资产。其中一项提案允许注册投资顾问根据基金业绩收取最高20%的绩效费，使收费模式更接近部分对冲基金的“2%管理费+20%业绩提成”结构，以吸引更多私募管理机构服务个人投资者。SEC主席Paul Atkins表示，委员会希望探索扩大个人投资者参与私募市场的方式，同时防范欺诈和不当行为。SEC还提议扩大“合格投资者”的认定范围，允许更多持有专业资质的人士（包括注册会计师和特许金融分析师）符合投资资格。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 23:52:11",
+      "content": "欧洲央行行长拉加德：（被问及是否会成为法国总统候选人）“这绝对不是个好主意”。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 23:49:37",
+      "content": "美国司法部长布兰奇：（就迪拜航空航班事件）正与海外同行密切协调。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 23:48:39",
+      "content": "欧洲央行行长拉加德：法国需要可信的预算轨迹和改革以恢复信心。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 23:48:20",
+      "content": "欧洲央行行长拉加德：现在的欧洲金融系统比2008年和2011年危机时更加稳固。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 23:47:32",
+      "content": "欧洲央行行长拉加德：法国的债务情况严重，已达到GDP的120%，且没有降低债务的途径。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 23:47:00",
+      "content": "法国10年期国债收益率上升6个基点，达到4.87%，为2002年3月以来最高水平。",
       "important": 1,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 02:04:00",
-      "content": "美国天然气期货日内跌幅达3.00%，现报3.012美元/百万英热。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:03:36",
-      "content": "美联储威廉姆斯：我预计能源价格对通胀的影响将更大且持续更长时间。",
+      "datetime": "2026-09-30 23:45:35",
+      "content": "欧洲央行执委施纳贝尔：强劲的信贷动态表明金融环境尚未收紧。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 02:03:21",
-      "content": "美联储古尔斯比：必须获得通胀回落的证据。",
+      "datetime": "2026-09-30 23:45:31",
+      "content": "欧洲央行执委施纳贝尔：当预期稳定时，可以更逐步地将通胀恢复到目标水平。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 02:02:58",
-      "content": "美联储威廉姆斯：9月加息后，“没有必要急于行动”。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:02:37",
-      "content": "美联储威廉姆斯：美联储将在制定货币政策时根据数据作出回应。",
+      "datetime": "2026-09-30 23:45:25",
+      "content": "欧洲央行执委施纳贝尔：经济对近期全球收益率上升的反应可能比假设的更大；这将抑制价格压力。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 02:02:31",
-      "content": "美联储威廉姆斯：更多数据将帮助美联储决定下一步利率政策。",
+      "datetime": "2026-09-30 23:45:07",
+      "content": "欧洲央行执委施纳贝尔：当经济韧性强时，高成本更快地转嫁给消费者。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 02:02:26",
-      "content": "美联储威廉姆斯：让通胀回到2%目标水平至关重要。",
+      "datetime": "2026-09-30 23:41:25",
+      "content": "金十图示：2026年09月30日（周三）全球股市指数-欧洲市场",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 02:02:21",
-      "content": "美联储威廉姆斯：美联储必须确保高通胀不会根深蒂固。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:02:13",
-      "content": "美联储威廉姆斯：预计今年通胀率为3.5%，2028年达到2%的目标。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:02:02",
-      "content": "美联储威廉姆斯：美联储政策可以确保供应冲击不会长期持续。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:01:56",
-      "content": "美联储威廉姆斯：预计美国GDP今年增长2.25%，2027年失业率为4%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:01:49",
-      "content": "美联储威廉姆斯：人工智能投资问题正日益成为影响通胀的重要因素。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:01:44",
-      "content": "美联储威廉姆斯：美国经济动能强劲，并可能正在增强。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:01:14",
-      "content": "美联储威廉姆斯：如果经济符合预期，今年可能再加息一次。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:00:45",
-      "content": "美联储古尔斯比：2023年和2024年时，我曾认为通胀正回落至2%的目标水平，但这一进程后来停滞。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:00:11",
-      "content": "美联储古尔斯比：在点阵图中，我是美联储中更为乐观的人之一。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:59:52",
-      "content": "据CBS：伊拉克开始经由叙利亚港口进口汽油，以绕过关闭的霍尔木兹海峡。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:58:21",
-      "content": "美联储古尔斯比：巨额赤字是一种刺激形式，可能导致经济过热。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:56:23",
-      "content": "OpenAI：正在调查ChatGPT和Codex错误率升高的问题。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:54:42",
-      "content": "加拿大央行：政府债务购买可能要到2028年才会开始。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:54:10",
-      "content": "加拿大央行：加拿大政府债券购买的时机可能会推迟。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:53:00",
-      "content": "美联储古尔斯比：关注生产率表现。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:51:13",
-      "content": "美联储古尔斯比：我们已经在通胀目标上方持续了5年半，这是在玩火。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:50:46",
-      "content": "美联储古尔斯比：油价可能会相对快速下跌，但更深层次的问题是如何让炼油厂恢复运营。",
+      "datetime": "2026-09-30 23:41:19",
+      "content": "【美国电动车用电需求增速降至三年最低】金十数据9月30日讯，美国能源信息署（EIA）表示，随着电动车需求放缓，美国电动汽车用电量增速已降至至少三年来最低水平，成为电动汽车市场降温的又一迹象。EIA周三公布的数据显示，2026年上半年，包括乘用车在内的轻型电动车用电量同比增长8%，明显低于近年来13%至24%的增速。此前，该增长率曾在2023年下半年达到24%的峰值。电动车用电增速放缓之际，市场需求也在走弱。此前降低购车和租赁成本的联邦税收抵免政策已于2025年9月到期。根据EIA数据，2026年上半年美国新电动车销量较此前六个月下降19%。与此同时，包括福特汽车和本田汽车在内的汽车制造商自去年年底以来已削减销量不佳的电动车车型。不过，即便销量增速放缓，轻型电动车的用电量自2023年以来仍已翻倍以上。EIA数据显示，今年上半年美国轻型电动车用电量接近140亿千瓦时。",
       "important": 0,
       "source": "jin10",
       "sentiment": "bear",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 01:50:32",
-      "content": "美国俄克拉荷马州州长斯蒂特寻求暂停对染色柴油征税120天。",
+      "datetime": "2026-09-30 23:39:20",
+      "content": "德国DAX30指数9月30日（周三）收盘下跌177.55点，跌幅0.70%，报25197.74点；\n英国富时100指数9月30日（周三）收盘下跌30.80点，跌幅0.29%，报10605.91点；\n法国CAC40指数9月30日（周三）收盘下跌71.36点，跌幅0.89%，报7964.51点；\n欧洲斯托克50指数9月30日（周三）收盘下跌52.31点，跌幅0.83%，报6267.95点；\n西班牙IBEX35指数9月30日（周三）收盘下跌90.82点，跌幅0.47%，报19426.68点；\n意大利富时MIB指数9月30日（周三）收盘下跌462.44点，跌幅0.89%，报51342.50点。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 23:37:43",
+      "content": "美国司法部表示，已针对明尼苏达州法官就移民激增问题接受采访一事，提起司法行为不当投诉。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 01:50:00",
-      "content": "FOMC永久票委、纽约联储主席威廉姆斯将于十分钟后在水牛城大学发表主题演讲。",
+      "datetime": "2026-09-30 23:37:13",
+      "content": "塞尔维亚能源部长表示，塞尔维亚为俄罗斯持股的NIS石油公司再次争取到美国制裁豁免。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 23:32:49",
+      "content": "美国至9月30日4个月国债竞拍-投标倍数 2.89，前值2.81。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 23:32:44",
+      "content": "美国至9月30日4个月国债竞拍-得标利率配置百分比 59.3%，前值40.67%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 23:32:36",
+      "content": "美国至9月30日4个月国债竞拍-得标利率 4.115%，前值4.14%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 23:32:23",
+      "content": "【波罗的海干散货运价指数降至一个月新低】金十期货9月30日讯，波罗的海干散货运价指数下滑至逾一个月新低，承压于海岬型船运费下滑，巴拿马型船运费亦走弱。波罗的海干散货运价指数较前一交易日下跌65点或2.05%，报3113点，为8月27日以来最低水平。海岬型船运价指数下跌175点，跌幅3.43%，至4928点，创8月25日以来最低水平。海岬型船日均收益减少1584美元，至41191美元。巴拿马型船运价指数下滑6点或0.25%，至2384点。巴拿马型船日均获利下跌49美元，至21458美元。超灵便型散货船运价指数持平在1797点，录得2022年8月以来的最高水平。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 23:27:12",
+      "content": "美国证交会（SEC）：正在考虑将会计师、金融分析师和规划师等认定为符合“合格投资者”资格的人群。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 23:26:03",
+      "content": "现货白银日内跌幅扩大至2%，现报60.24美元/盎司。现货黄金现跌0.65%。",
       "important": 1,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 01:48:37",
-      "content": "美联储古尔斯比：需要重新审视忽视供应冲击的逻辑。",
+      "datetime": "2026-09-30 23:20:49",
+      "content": "Coreweave(CRWV.O)：新的云产品Forge预计将提升利润率。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 01:45:30",
-      "content": "【OpenAI寻求300亿美元新融资 估值目标1.4万亿美元】金十数据9月30日讯，据知情人士透露，OpenAI计划在新一轮融资中向投资者募集至少300亿美元资金。此前，由于推迟首次公开募股计划，公司正在寻求新的资金支持。知情人士称，OpenAI此次融资目标估值约为1.4万亿美元（不包括新增融资金额）。若达成，该估值可能重新超过长期竞争对手Anthropic此前在私募市场上的估值。知情人士表示，目前融资谈判仍处于早期阶段，相关安排可能发生变化。OpenAI拒绝置评。OpenAI首席执行官萨姆·奥尔特曼此前表示，公司今年不会上市，而是将重点放在解决人工智能安全问题上，称当前IPO时机“不明智”。此次融资被视为替代IPO的过渡轮融资，为OpenAI提供额外资本。OpenAI最近一次融资发生在今年3月，当时公司以包含融资金额在内的8520亿美元估值筹集1220亿美元。",
+      "datetime": "2026-09-30 23:20:23",
+      "content": "【分析师：通胀虽仍偏高，但降温幅度超预期】金十数据9月30日讯，蒙特利尔银行分析师在研究报告中指出，美国经济分析局（BEA）的年度基准修订数据显示，美联储首选的通胀指标下调幅度超出预期，尽管通胀水平仍远高于美联储2%的目标。分析师表示，8月份核心PCE（个人消费支出价格指数）涨幅低于预期，同比增速放缓至3%，低于市场普遍预期的3.3%以及美联储自身预估的3.2%。同时，他们指出，经济仍在扩张，私营部门的招聘活动也保持稳健。分析师认为，这些因素加上通胀数据的下调，在一定程度上缓解了10月份再次加息的紧迫性。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 01:43:36",
-      "content": "美联储古尔斯比：《联邦储备法》中没有任何条款要求美联储确保债券市场满意，股市也不应感到意外。",
+      "datetime": "2026-09-30 23:19:21",
+      "content": "Coreweave(CRWV.O)：目前从客户角度来看，英伟达(NVDA.O)芯片是最佳选择。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 01:43:02",
-      "content": "美联储理事巴尔：短期内，人工智能最大的影响是推高成本。",
+      "datetime": "2026-09-30 23:18:29",
+      "content": "【特朗普与印度总理莫迪讨论贸易和能源合作】金十数据9月30日讯，印度政府表示，印度总理莫迪与美国总统特朗普进行了自6月以来的首次电话会谈，双方讨论了国防、贸易、能源以及关键技术领域的合作。印度政府在周三晚间发布的声明中称，两国领导人“就地区和国际局势交换了意见，并讨论了推动全球和平与安全的持续努力”。莫迪和特朗普上一次会面是在三个月前的七国集团（G7）峰会期间。此次通话正值印度寻求实现贸易伙伴多元化之际，同时华盛顿正考虑实施新的关税措施。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 01:40:54",
-      "content": "美联储理事巴尔：人们感到沮丧和不确定，因为通胀过高。",
+      "datetime": "2026-09-30 23:17:33",
+      "content": "乌克兰方面表示，俄罗斯袭击基辅、切尔尼戈夫和日托米尔的能源设施。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 01:40:50",
-      "content": "据Axios：约旦高级官员否认以媒有关“约旦代表在内塔尼亚胡近期访阿联酋期间与其举行会晤”的报道。",
+      "datetime": "2026-09-30 23:16:56",
+      "content": "亚特兰大联储GDPNow模型将美国第三季度实际GDP增速的预期从5.0%下调至3.7%。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 23:15:37",
+      "content": "瑞士央行委员成员Tschudin：稳定币以及与双层金融体系关联度较低的特性，使得货币政策的传导变得更加困难。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 01:39:24",
-      "content": "【消息人士：白宫敦促欧盟动用应急柴油库存】金十数据9月30日讯，据路透援引两名了解相关行动的消息人士称，白宫已敦促欧盟动用应急柴油库存，以压低全球价格。特朗普总统及其政府正在研究一系列方案，以期在11月中期选举前降低燃料成本。柴油价格急升已成为特朗普和共和党面临的一大政治难题，在燃料对农业、卡车运输业和制造业至关重要的农业州尤其如此。共和党面临在选举前缓解生活成本压力的要求，特朗普政府正考虑采取一系列措施，包括推动外国释放库存、限制美国柴油出口，以及与炼油商合作增加国内供应。白宫未立即回应置评请求。",
+      "datetime": "2026-09-30 23:15:04",
+      "content": "谷歌(GOOG.O)推出Synthid Bio。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 01:36:42",
-      "content": "OpenAI计划以1.4万亿美元估值融资300亿美元。",
+      "datetime": "2026-09-30 23:14:48",
+      "content": "瑞士央行委员成员Tschudin：重要的是数字货币类型的设置不应限制中央银行的职能执行。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 23:14:47",
+      "content": "【AI语音初创公司ElevenLabs估值翻倍至220亿美元】金十数据9月30日讯，据英国金融时报报道，总部位于伦敦的AI语音初创公司ElevenLabs在一笔股权交易后，估值翻倍至220亿美元，跻身全球最有价值AI实验室行列。这家开发逼真语音生成软件的公司，其现有投资者和员工通过一项由惠灵顿管理公司和普信集团领投的股权出售交易，出售了价值3亿美元的股份。此次交易使ElevenLabs的估值较今年2月上一轮融资时翻倍，使其估值与法国AI初创公司Mistral接近，后者本月以210亿欧元（约240亿美元）的估值完成30亿欧元融资，创下欧洲规模最大的私人科技融资纪录。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 23:14:04",
+      "content": "美国财长顾问泽沃斯：在量化宽松时代，债务期限结构曾是美联储的关注重点。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 23:13:48",
+      "content": "美国财长顾问泽沃斯：财政部现在重新掌管债务期限结构。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 23:13:20",
+      "content": "最近被任命为美国财长贝森特顾问的泽沃斯发表讲话。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 23:11:05",
+      "content": "土耳其股市收盘下跌2.8%，进入熊市。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 23:08:47",
+      "content": "美国参议院多数党领袖图恩：国会可能在中期选举后提高债务上限。",
       "important": 1,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 01:34:02",
-      "content": "CrowdStrike(CRWD.O)：将Falcon平台接入OpenAI应用市场（OpenAI marketplace）。",
+      "datetime": "2026-09-30 23:08:15",
+      "content": "以色列总理办公室发言人：在迪拜航空航班事件后，内塔尼亚胡已下令加强以色列航空公司和非以色列航空公司的安全措施。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 01:33:48",
-      "content": "市场消息：NetApp与甲骨文(ORCL.N)将推出一项完全托管式云存储服务，面向高性能AI和企业级工作负载。",
+      "datetime": "2026-09-30 23:03:24",
+      "content": "据英国金融时报：人工智能语音初创公司ElevenLabs估值翻倍至220亿美元。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 01:33:09",
-      "content": "美联储穆萨莱姆：央行官员不应该作出承诺，但应该向公众解释央行如何以及为何作出政策决定。",
+      "datetime": "2026-09-30 23:03:05",
+      "content": "据国际文传电讯社：俄罗斯称军方在黑海击中一艘舰艇。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 01:33:04",
-      "content": "美联储穆萨莱姆：一个清晰阐述的政策框架应包括两到三个可能出现的情景。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:32:07",
-      "content": "美联储穆萨莱姆：央行应避免在没有明确框架的情况下退出沟通，否则市场可能无法理解其政策和行动。央行也应避免“退出对话”，因为这可能带来通胀风险。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:31:56",
-      "content": "美联储穆萨莱姆：一个不向外界公开自身框架的央行，会迫使市场参与者去猜测央行反应，而不是关注数据。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:31:44",
-      "content": "美联储穆萨莱姆：沟通政策框架能够提高政策有效性，降低家庭和企业成本。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:31:39",
-      "content": "美联储穆萨莱姆：“镜厅效应”（hall of mirrors）发生在美联储公布预测，而不是公布政策框架时。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:31:30",
-      "content": "美联储穆萨莱姆：“市场猜测会增加噪音”，导致利率更加波动，并提高企业和家庭的融资成本。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:31:22",
-      "content": "美联储穆萨莱姆：授予央行利率决策权，也要求美联储解释“如何以及为什么使用这一权力”。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:31:04",
-      "content": "美联储穆萨莱姆：一个得到充分沟通的政策框架，也能防止通胀和通缩螺旋。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:30:59",
-      "content": "美联储穆萨莱姆：如果公众理解这一框架，私人部门预期就会与美联储的政策意图保持一致，从而改善通胀与就业之间的权衡。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:30:53",
-      "content": "美联储穆萨莱姆：一个可预测、透明的政策框架，是央行获得民主合法性的重要组成部分。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:29:51",
-      "content": "美联储古尔斯比：对未来人工智能生产力提升的预期现在带来了过热的高风险。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:29:40",
-      "content": "【OpenAI推出全天候自主智能体Dots 挑战Meta Muse】金十数据9月30日讯，OpenAI在开发者日2026主题演讲中推出AI智能体产品Dots，定位为可全天候运行的AI助手，能够在后台连接应用并执行任务。OpenAI表示，Dots可以“完成几乎任何事情”，并会随着使用过程学习用户偏好。Dots由GPT-6Astra模型驱动，拥有独立云端计算环境，可访问网页浏览器以及超过4000个支持的应用。用户可以通过类似短信的界面与Dots交流，也可以通过ChatGPT网页端、桌面端和移动端进行语音交互。OpenAI表示，Dots可接入微软Teams和Slack，并能够延续不同应用和设备之间的上下文。例如，开发者可以让Dots根据用户反馈开发和测试应用更新，内容创作者可以让Dots分析采访文本、寻找视频剪辑片段、生成节目摘要和社交媒体内容。目前用户只能创建一个Dot，未来OpenAI计划支持同时部署多个智能体。OpenAI称，Dots具备自主行动规则，用户可以设置限制条件，要求其在执行特定操作前获得授权，并通过“自动审查”功能检查任务是否符合安全要求。此次发布被视为OpenAI对Meta近期推出的MuseAI助手的回应。OpenAI目前已向ChatGPT Pro和Business Premium用户开放Dots，并测试企业用户创建专用“专家型”Dots的功能。公司表示，未来用户可以增加更多Dots，并提升每个智能体的运行速度和任务处理规模。",
+      "datetime": "2026-09-30 23:02:04",
+      "content": "国内新闻\n1. 国家统计局：9月份，制造业采购经理指数（PMI）为50.1%，比上月上升0.3个百分点，升至扩张区间。\n2. 国家发改委：2026年2500亿元超长期特别国债支持消费品以旧换新资金已全部下达。\n3. 广州：2026年8月28日后，实行预售的单体建筑应完成主体结构封顶。\n4. 中国人民银行：2026年10月8日，中国人民银行将以固定数量、利率招标、多重价位中标方式开展12000亿元买断式逆回购操作，期限为3个月（89天）。\n5. 商务部：延长对美国阻碍绿色产品贸易与破坏全球产供链相关做法和措施贸易壁垒调查期限。\n国际新闻\n1. 美国核心PCE年率低于预期，创半年来新低。\n2. 以媒：迪拜航空客机因飞行员斗殴而临时改降沙特。\n3. 韩国央行时隔13年重启买金：12月拟购1吨国产黄金。\n4. 据悉苹果将于10月13日大举进军智能家居市场。\n5. 智利铜产量降至15年多来最低水平。\n6. 美国联邦贸易委员会（FTC）对Anthropic、OpenAI及其他超级智能模型展开全面调查。\n7. 白宫官员：美国总统特朗普今日宣布韩国将在美国投资2000亿美元，特朗普将宣布由韩国出资建设8座核电站。",
       "important": 1,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 01:27:03",
-      "content": "美联储理事巴尔：上次加息是适当的，我们可能需要进一步调整。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:26:08",
-      "content": "美联储理事巴尔：我认为除非我们调整政策，否则无法及时实现2%的通胀目标。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:26:01",
-      "content": "美联储古尔斯比：企业利润率高，但开始收窄。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:25:24",
-      "content": "消息人士：预测市场平台Kalshi正与老股东及新投资者进行深入谈判，包括老虎环球基金（Tiger Global）和Dragoneer，计划筹集10亿美元新融资。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:24:50",
-      "content": "加拿大央行副行长：更积极地使用两周期回购操作，可能意味着准备金有时会超过央行对稳定状态需求的最佳估计。目前这一需求预计维持在500亿至700亿加元之间。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:24:38",
-      "content": "加拿大央行副行长：最重要的是，在回购市场出现失衡时，我们正在部署必要的操作工具，以控制政策利率。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:24:33",
-      "content": "加拿大央行副行长：加拿大央行现代化加拿大中央清算基础设施和服务的进程预计将在2028年基本完成。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:24:18",
-      "content": "加拿大央行副行长：但我们只能容忍加拿大央行隔夜回购利率（CORRA）出现有限的上行压力，因为较大的偏离可能扰乱货币政策传导。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:24:13",
-      "content": "加拿大央行副行长：我们不希望对每一次小幅偏离都作出反应，因为这些偏离可以提供有用的市场信号。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:24:02",
-      "content": "加拿大央行副行长：SLF是一项常规工具，任何Lynx支付系统成员都可以放心使用。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:23:53",
-      "content": "加拿大央行副行长：加拿大央行和加拿大金融监管机构（OSFI）已发布联合声明，表示使用常备流动性工具（SLF）满足隔夜流动性需求，并不被视为异常事件或压力信号。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:23:16",
-      "content": "加拿大央行副行长：加拿大金融机构无需担心使用常备流动性工具获取隔夜流动性。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:20:35",
-      "content": "美联储在固定利率逆回购操作中总计接纳了10个对手方的114.46亿美元。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:20:00",
-      "content": "2028年FOMC票委、圣路易联储主席穆萨莱姆将于十分钟后在伦敦政经学院发表讲话。",
+      "datetime": "2026-09-30 23:01:26",
+      "content": "美国财政部：将在10月1日的流动性回购操作中购买至多60亿美元的10至20年期国债。",
       "important": 1,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 01:19:32",
-      "content": "OpenAI：私有推理（private inference）预览版将于今年秋季推出，该技术结合了机密计算（confidential computing）和严格、可验证的控制机制。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:18:49",
-      "content": "OpenAI：同时推出新的Pro 500美元套餐，包含ChatGPT和Codex中的超高速处理能力。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:18:33",
-      "content": "OpenAI：每周有3500万人通过ChatGPT Work和Codex进行构建和开发。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:17:32",
-      "content": "OpenAI将把ChatGPT部署至Slack和微软(MSFT.O)Teams，用户无需单独购买个人许可证即可使用相关功能。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:17:18",
-      "content": "OpenAI宣布与亚马逊(AMZN.O)云服务（AWS）合作，利用AWS基础设施运行托管式AI智能体（Managed Agents）。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:16:13",
-      "content": "OpenAI：将于未来数日推出GPT‑6.1 Sol超快版。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:14:36",
-      "content": "美联储理事巴尔：我们关注的全部焦点，是数据所反映的前景演变，以及实现国会赋予我们的使命所面临的风险平衡情况。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:13:53",
-      "content": "美联储理事巴尔：经济似乎正在积聚动能。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:13:32",
-      "content": "美国财政部表示，美国已对10名个人和实体实施制裁，指其为伊朗国防部及武装部队后勤部门采购武器和武器相关零部件。",
+      "datetime": "2026-09-30 23:01:08",
+      "content": "美联储周三正式敲定大型银行年度压力测试改革。新规不仅承诺重大模型调整将提前公开，更是祭出大招：将“压力资本缓冲”改为两次测试的平均值……点击查看...",
       "important": 1,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 01:13:02",
-      "content": "美联储理事巴尔：我在基本情景中没有经济衰退的预期。",
+      "datetime": "2026-09-30 23:00:12",
+      "content": "民主党两院横扫概率刷新到66%，10月终于到了把中期选举算进价格的时候了？但市场分歧依然巨大，金油该怎么计价？这篇将概率当因，帮你拆解各市场会如何消化选举的影响。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 01:12:55",
-      "content": "美联储理事巴尔：美联储的独立性帮助我们更好地服务于美国人民。",
+      "datetime": "2026-09-30 22:59:00",
+      "content": "【俄发言人：向乌克兰供应武器的欧洲工厂是“合法军事目标”】金十数据9月30日讯，俄罗斯外交部发言人扎哈罗娃周三表示，欧洲境内为乌克兰生产武器的工厂是俄罗斯的合法军事目标。扎哈罗娃在新闻发布会上表示，欧洲国家通过向乌克兰提供军事支持，已经直接参与冲突，并称此类活动延缓了战争的解决。她的此番言论是针对有关波兰似乎准备接纳一家为乌克兰生产“爱国者”拦截导弹的工厂作出的回应。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 01:09:58",
-      "content": "OpenAI推出全天候自主智能体Dots。",
+      "datetime": "2026-09-30 22:58:20",
+      "content": "美国参议院多数党领袖图恩：尚未收到来自白宫的柴油提案。",
       "important": 1,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 01:09:19",
-      "content": "OpenAI推出GPT-6.1 Sol模型，其性能接近Astra，但标准词元价格仅为Astra的五分之一。",
+      "datetime": "2026-09-30 22:57:59",
+      "content": "美国证交会（SEC）提议允许封闭式基金向股东提供每月按净资产价值回购的机会。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 22:57:33",
+      "content": "美国证交会（SEC）提议允许投资顾问向更多客户收取“业绩报酬费”，以刺激散户投资私募资产。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 22:55:18",
+      "content": "美国交通部长达菲：目前未发现波音737 MAX软件故障存在安全问题。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 22:55:07",
+      "content": "【中交集团与江苏交控签署战略深化协议】金十数据9月30日讯，今日，中交集团党委书记、董事长宋海良，党委副书记、总经理张炳南在中交大厦与江苏交控党委书记、董事长王先正，党委副书记、总经理孙悉斌举行会谈。双方围绕深化交通基础设施建设、交能融合、产业升级、绿色低碳、数智服务、低空经济等领域合作进行深入交流，并共同见证签署战略深化协议。根据协议，双方将聚焦交通基建、产业合作、市场协同、科技创新、人才培养等领域开展全方位、深层次合作，推动江苏交通运输事业高质量发展。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 22:54:24",
+      "content": "乌克兰最大私营电力公司DTEK：基辅已实施紧急停电。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 22:50:42",
+      "content": "俄罗斯外交部发言人：欧盟正在竭尽所能阻止和平解决冲突。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 22:50:03",
+      "content": "俄罗斯外交部发言人：关于俄罗斯不想要和平的说法毫无根据。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 22:49:51",
+      "content": "乌克兰央行数据：乌克兰在1月至8月的经常账户余额为-150亿美元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 22:46:07",
+      "content": "美国交通部长达菲：联邦航空管理局需要加快新飞机的认证进程。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 22:44:55",
+      "content": "【油价重创欧洲，通胀席卷主要经济体】金十数据9月30日讯，受能源市场新一轮上涨推动，欧洲主要经济体的通胀率飙升至多年来的最高水平，德国、法国、意大利和西班牙9月通胀数据均高于分析师预期。其中，西班牙通胀率达到5%，为2023年以来最高水平。燃料成本仍是主要推手，预计将在今年晚些时候推动欧元区整体通胀率向4%攀升。尽管经济学家预计欧元区21国9月通胀数据将达到3.7%，但本周多个国家数据超预期，令通胀面临进一步上行风险。市场普遍认为，通胀回升最终可能导致利率进一步上升。不过，投资者对欧洲央行10月再次加息的押注反而有所下降，主要原因是当前通胀冲击仍主要集中在能源领域。欧洲央行行长拉加德也表示，全球债券市场抛售将有助于抑制价格压力。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 22:43:23",
+      "content": "俄罗斯外交部发言人：欧洲为乌克兰生产武器的工厂是俄罗斯的合法军事目标。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 22:41:54",
+      "content": "EIA数据显示，美国中西部汽油库存上周降至历史低位。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 22:39:40",
+      "content": "EIA数据显示，美国汽油库存上周降至2014年11月以来最低水平。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 22:36:13",
+      "content": "美国汽油期货保持涨幅，日内涨近3%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 22:35:55",
+      "content": "美国柴油期货继续上涨，日内涨幅达4.5%。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 22:35:04",
+      "content": "【白宫：特朗普将宣布韩国对美2000亿美元能源投资计划】金十数据9月30日讯，一名白宫官员透露，美国总统特朗普预计将计划于周三下午在白宫椭圆形办公室宣布，韩国计划向美国能源项目投资2000亿美元，其中包括建设8座核电站、投资得州一座发电设施，以及参与阿拉斯加液化天然气（LNG）出口项目。此前曾有报道称，韩国计划为阿拉斯加LNG项目提供540亿美元支持。这笔2000亿美元投资是去年美韩贸易协议框架下首批获得支持的项目。根据协议，韩国承诺向美国投资3500亿美元。特朗普此次公布的项目涉及新的投资承诺。韩国政府尚未公开确认此次宣布的具体内容。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 22:34:11",
+      "content": "达拉斯联储调查：2026年第三季度，得克萨斯州、路易斯安那州和新墨西哥州的油气产量上升。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 22:31:53",
+      "content": "据外媒报道，为了防止物价彻底失控，植田和男正准备放弃过去那种“挤牙膏”式的观察期，开始更主动的加息步伐……点击查看...",
       "important": 1,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 01:08:11",
-      "content": "OpenAI称ChatGPT的周活跃用户已达12亿。",
+      "datetime": "2026-09-30 22:31:46",
+      "content": "【金十数据整理：美国当周EIA数据最值一览】\n1. 美国至9月25日当周EIA战略石油储备库存为1982年10月22日当周以来最低。\n2. 美国至9月25日当周除却战略储备的商业原油进口量为2026年7月24日当周以来最低。\n3. 美国至9月25日当周EIA精炼油库存降幅录得2026年7月31日当周以来最大。\n4. 美国至9月25日当周国内原油产量创纪录新高。",
       "important": 1,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 01:06:20",
-      "content": "美联储理事巴尔：美国经济的韧性令人瞩目。",
+      "datetime": "2026-09-30 22:30:36",
+      "content": "美国至9月25日当周EIA蒸馏燃油产量引伸需求数据 547.76万桶/日，前值530.51万桶/日。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 01:05:11",
-      "content": "美联储理事巴尔：从长远来看，我们需要确保采取必要措施使供需达到平衡。",
+      "datetime": "2026-09-30 22:30:27",
+      "content": "美国至9月25日当周EIA车用汽油总产量引伸需求数据 961.99万桶/日，前值968.5万桶/日。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 01:04:10",
-      "content": "【美联储巴尔：为控制通胀 未来可能需要进一步加息】金十数据9月30日讯，美联储理事迈克尔·巴尔表示，通胀回落进程受到干扰，美联储可能需要进一步调整货币政策，以确保通胀及时回到2%的目标。巴尔在底特律经济俱乐部发表讲话时表示，目前尚未看到通胀“及时回归2%目标”的明确趋势。他称，通胀仍然过高，相关风险有所上升，而劳动力市场仍较为稳健，风险有所下降。巴尔表示，美联储需要重新校准政策，使其更好地平衡就业和通胀两方面风险。他称，在基准情景下，未来可能需要进一步政策调整，以确保通胀能够及时降至目标水平。巴尔指出，中东冲突推高全球油价，而人工智能投资热潮增加了部分高科技商品需求，并推高企业和消费者面临的价格压力。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:02:34",
-      "content": "美联储理事巴尔：看到技能行业的工资水平有所上升。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:01:21",
-      "content": "据路透：包括美国参议员沃伦在内的美国议员要求能源监管机构否决由贝莱德(BLK.N)子公司牵头的财团以334亿美元收购AES的交易。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:00:29",
-      "content": "美国核监管委员会（NRC）：田纳西河谷管理局（TVA）的克林奇河（Clinch River）项目在经过NRC为期14个月的审查后，获得建设许可证。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:00:15",
-      "content": "【曼苏里成为摩洛哥首位女首相】金十数据9月30日讯，摩洛哥国王穆罕默德六世29日任命法蒂玛·宰赫拉·曼苏里为新首相，并授权其组建新内阁。曼苏里成为摩洛哥历史上首位女性政府首脑。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 00:58:18",
-      "content": "据纽约时报：OpenAI曾无视员工关于其安全措施不足的警告。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 00:56:01",
-      "content": "英国反恐警务部门：在费尔福德空军基地未发现爆炸装置。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 00:55:32",
-      "content": "英国反恐警务部门：决定保释相关人员属于“调查决定”，该决定基于警方经验，并经过对执法权力的审慎考虑。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 00:55:01",
-      "content": "胡塞武装：过去24小时内，沙特战机使用从海米斯穆谢特和塔伊夫空军基地起飞的F-15和“台风”战机发动35次空袭，目标包括塔伊兹、焦夫、阿姆兰、萨达和荷台达省的通信网络、学校等民用基础设施。自局势升级以来，沙特方面的空袭和导弹袭击总数已达到1158次。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 00:54:41",
-      "content": "英国反恐警务部门在空军基地发生逮捕事件后表示：已在伦敦搜查相关住所。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 00:51:16",
-      "content": "法院文件显示，美国上诉法院拒绝暂停对特朗普律师在美国国税局（IRS）诉讼中的制裁措施。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 00:50:18",
-      "content": "据伊朗伊斯兰共和国广播电视台（IRIB）：伊朗最高国家安全委员会秘书雷扎伊表示，伊朗已经提出了条件，但特朗普无法做出决定。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 00:50:00",
-      "content": "美联储古尔斯比、OpenAI首席执行官奥尔特曼将于十分钟后分别发表讲话。",
+      "datetime": "2026-09-30 22:30:25",
+      "content": "【金十数据整理：美国当周EIA库存数据六大看点一览】\n1. EIA报告：09月25日当周美国原油出口增加28.9万桶/日至357.0万桶/日。\n2. EIA报告：09月25日当周美国国内原油产量增加1.6万桶至1395.5万桶/日。\n3. EIA报告：除却战略储备的商业原油库存增加92.2万桶至4.27亿桶，增幅0.22%。\n4. EIA报告：美国原油产品四周平均供应量为2077.9万桶/日，较去年同期增加2.14%。\n5. EIA报告：09月25日当周美国战略石油储备（SPR）库存减少78.5万桶至2.838亿桶，降幅0.28%。\n6. EIA报告：09月25日当周美国除却战略储备的商业原油进口569.8万桶/日，较前一周减少17.9万桶/日。",
       "important": 1,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 00:49:01",
-      "content": "英国央行泰勒：我不知道英国央行是否能够进行一次不会被误解为系列加息的单次“保险加息”。",
+      "datetime": "2026-09-30 22:30:23",
+      "content": "黄金反弹不弱，空头趋势是否衰竭？《大有作V》栏目更新，3分钟解读国际金走势>>",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 22:30:19",
+      "content": "美国至9月25日当周EIA原油产量引伸需求数据 1952.1万桶/日，前值1939.2万桶/日。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 00:46:59",
-      "content": "据伊朗媒体Fars News：伊朗霍尔木兹甘省南侧航道的一艘船只遭到无人机打击。",
+      "datetime": "2026-09-30 22:30:09",
+      "content": "美国至9月25日当周EIA战略石油储备库存 -78.5万桶，前值-40.5万桶。",
       "important": 1,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 00:45:48",
-      "content": "特朗普政府表示，部分欧盟成员国释放的石油和成品油储备数量低于此前承诺水平。",
+      "datetime": "2026-09-30 22:30:07",
+      "content": "美国至9月25日当周EIA精炼厂设备利用率 92.5%，预期93.6%，前值94%。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 00:45:18",
-      "content": "英国央行泰勒：每当油价期货曲线上升时，我们面临2022年那种通胀情景的风险就越大。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 00:43:28",
-      "content": "美联储理事巴尔：人工智能建设带来的投资激增及相关需求对价格产生了可测量的影响。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 00:43:24",
-      "content": "美联储理事巴尔：人工智能带来的广泛生产力提升可能需要一些时间。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 00:43:20",
-      "content": "美联储理事巴尔：应为人工智能带来的劳动力市场严重短期干扰做好准备。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 00:43:17",
-      "content": "美联储理事巴尔：人工智能的建设预计将在未来一年左右对美国经济活动产生强劲推动。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 00:43:10",
-      "content": "美联储理事巴尔：现在还为时尚早，无法判断人工智能是否会推高中性利率。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 00:42:58",
-      "content": "美联储理事巴尔：对人工智能将在长期内提升生产力持乐观态度。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 00:42:48",
-      "content": "美联储理事巴尔：在中期内考虑人工智能提升生产力是合理的，但很难预测具体方式或时间。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 00:42:36",
-      "content": "美联储理事巴尔：通胀及时回归2%的趋势并不明显，实现通胀目标的风险已增加，可能需要进一步的政策调整以确保通胀回归目标。",
+      "datetime": "2026-09-30 22:30:03",
+      "content": "美国至9月25日当周EIA俄克拉荷马州库欣原油库存 55.3万桶，前值226.6万桶。",
       "important": 1,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 00:41:47",
-      "content": "美联储理事巴尔：通胀是一个关键问题；美联储已被“迫使偏离”2%的目标。",
+      "datetime": "2026-09-30 22:30:03",
+      "content": "美国至9月25日当周EIA原油进口 -46.8万桶，前值36.9万桶。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 00:41:28",
-      "content": "美联储理事巴尔：受到企业投资和消费者支出的支持，劳动力市场稳健。",
+      "datetime": "2026-09-30 22:30:03",
+      "content": "美国至9月25日当周EIA精炼油产量 -15.6万桶/日，前值-6.8万桶/日。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 00:41:18",
-      "content": "美联储理事巴尔：需要重新校准政策；基本情况是可能需要进一步的政策调整。",
+      "datetime": "2026-09-30 22:30:03",
+      "content": "美国至9月25日当周EIA投产原油量 -55.4万桶/日，前值-51.9万桶/日。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 00:41:02",
-      "content": "美联储理事巴尔：实现通胀目标的风险增加，劳动力市场的风险减小。",
+      "datetime": "2026-09-30 22:30:03",
+      "content": "美国至9月25日当周EIA汽油产量 -12.4万桶/日，前值-5.4万桶/日。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 00:40:54",
-      "content": "美联储理事巴尔：相比上半年2%的增速，预计下半年GDP增长将“略有回升”。",
+      "datetime": "2026-09-30 22:30:03",
+      "content": "美国至9月25日当周EIA成品油进口 4.4万桶/日，前值-12.1万桶/日。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 00:40:16",
-      "content": "据Variety：迪士尼(DIS.N)进一步裁员，解雇数百名员工。",
+      "datetime": "2026-09-30 22:30:03",
+      "content": "美国至9月25日当周EIA取暖油库存 -62万桶，前值34.6万桶。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 00:35:57",
-      "content": "金十图示：2026年09月29日（周二）美股热门股票行情一览（美股盘中）",
+      "datetime": "2026-09-30 22:30:03",
+      "content": "美国至9月25日当周EIA精炼油库存 -225.1万桶，预期-19万桶，前值-42.8万桶。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 00:35:42",
-      "content": "金十图示：2026年09月29日（周二）热门中概股行情一览（美股盘中）",
+      "datetime": "2026-09-30 22:30:03",
+      "content": "美国至9月25日当周EIA新配方汽油库存 -0.3万桶，前值0.1万桶。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 00:32:47",
-      "content": "【哈塞特：美国仍在消化拜登时期疫情支出带来的影响 】金十数据9月30日讯，据CNBC报道，美国白宫国家经济委员会主任哈塞特表示，美国经济仍在消化前总统拜登执政初期与新冠疫情相关的刺激支出影响，并称这是美国当前面临的问题之一。哈塞特周二接受采访时表示，特朗普第一任期内的疫情刺激措施规模“恰到好处”，目标是填补经济缺口，而拜登政府随后继续扩大支出，将资金用于其他领域。他称，美国目前仍在摆脱这些额外支出的影响。哈塞特表示，特朗普上一任期结束时，美国通胀率约为1.5%，随后由于疫情支出延续以及其他因素，通胀明显上升。拜登政府于2021年3月签署1.9万亿美元的《美国救援计划》（American Rescue Plan，ARP），部分经济学家认为该计划加剧了美国通胀，但对于其影响程度仍存在争议。数据显示，美国通胀率在2022年夏季一度接近9%，此后逐步回落。",
+      "datetime": "2026-09-30 22:30:03",
+      "content": "美国至9月25日当周EIA汽油库存 -168.4万桶，预期-48.5万桶，前值-168.6万桶。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 00:30:00",
-      "content": "美联储理事巴尔将于十分钟后发表讲话。",
+      "datetime": "2026-09-30 22:30:03",
+      "content": "美国至9月25日当周EIA原油库存 92.2万桶，预期-26.4万桶，前值296.9万桶。",
       "important": 1,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 00:29:06",
-      "content": "英国央行泰勒：如果工资增长预期保持在3%左右，那将令人感到安心。",
+      "datetime": "2026-09-30 22:29:26",
+      "content": "美国30年期国债收益率上升至5.62%，续创2002年以来新高。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 22:24:16",
+      "content": "哥伦比亚天然气协会主席表示，委内瑞拉-哥伦比亚天然气管道需要重新开放。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 00:28:27",
-      "content": "英国央行泰勒：我没有看到任何明显的信号表明正在形成第二轮效应，这与2022年不同。",
+      "datetime": "2026-09-30 22:22:03",
+      "content": "【墨西哥对美关税谈判取得进展，有望下调钢铁和汽车关税】金十数据9月30日讯，据多位知情的墨西哥官员透露，墨西哥政府对与美国达成一项贸易协议的前景日益充满信心，该协议可能包括降低钢铁、铝以及轻型汽车等关键出口商品的关税。上述官员表示，两国正在敲定一项协议细节，拟将美国对墨西哥轻型汽车征收的关税从目前的25%降至15%。由于25%的完整税率仅适用于非美国原产内容，因此实际有效关税税率可能降至10%至12%。这些官员称，墨西哥仍在争取获得优于加拿大上月获得的条件。美国此前向加拿大提供15%的名义关税税率，考虑到区域内容规则带来的最高折扣后，实际税率可能降至约7%。墨西哥官员还对降低钢铁和铝关税的协议持乐观态度。目前美国对相关产品征收的关税最高达到50%，但官员表示具体降幅尚未确定。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": true
+    },
+    {
+      "datetime": "2026-09-30 22:20:00",
+      "content": "美国至9月25日当周EIA原油库存、库欣原油库存、战略石油储备库存将于十分钟后公布。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 22:17:47",
+      "content": "意大利油企埃尼集团与Generative Bionics签署谅解备忘录，探索人形机器人的工业应用。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 22:17:15",
+      "content": "礼来(LLY.N)报告ELORA-TZP研究结果，其胰淀素药物组合在研究中实现23%的减重效果。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 22:15:22",
+      "content": "以色列交通部：将与国防部门对迪拜航空航班事件进行联合调查。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 22:15:20",
+      "content": "美联储威廉姆斯表示9月加息后没有必要急于再次行动；美国8月核心PCE走软，似乎为观望立场提供依据，但统计修订因素不容忽视……",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 22:14:43",
+      "content": "【以防长：迪拜航空客机事件是一起“未遂恐怖袭击”】金十数据9月30日讯，当地时间9月30日，以色列国防部长卡茨发表声明称，当天发生的迪拜航空客机事件是一起“恐怖袭击未遂事件”。卡茨表示：“迪拜航空客机上发生的严重事件是一起未遂的恐怖袭击。几名以色列乘客表现出极大的英勇，他们强行闯入驾驶舱，制服了‘恐怖分子’，并亲手将飞机的控制权交给了当时在场的另一名机组人员，这才挫败了这起阴谋。”卡茨表示，根据目前掌握的初步信息，该名“恐怖分子”的意图是“让这架飞机连同机上所有乘客一起坠毁。”",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 22:14:16",
+      "content": "欧洲航空安全局：依据冲突区信息通告，现建议航班不要在约旦领空内所有高度和飞行高度层飞行。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 22:11:44",
+      "content": "美光盘后公布的财报可能出现一个罕见变化。分析师预计其季度每股收益同比增长约940%，并有望首次在至少两年半内超越英伟达，成为标普500利润增长的最大单一贡献者。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 22:06:16",
+      "content": "【桥水CEO警告：AI可能引发“社会失序”风险】金十数据9月30日讯，全球最大对冲基金之一桥水基金预计，如果AI缺乏监管且社会未能为技术变革做好准备，人工智能可能导致美国近五分之一的劳动力市场受到冲击。桥水首席执行官Nir Bar Dea在一期访谈录中表示：“我们非常看好AI带来的积极影响，但也意识到，任何能如此深刻地改变世界的积极事物，同时也可能带来严重的负面后果。”他补充道：“据我们估算，AI可能会影响18%的美国劳动力。试想一下，这可能引发多大规模的社会失序。”",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 22:02:00",
+      "content": "真正的好交易，往往入场后很快远离成本区。问题是，很多人反而最先卖掉这种单。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 22:01:51",
+      "content": "北约秘书长吕特：美国将继续参与欧洲的常规防御以及核防御。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 22:00:50",
+      "content": "以色列机场管理局：暂不计划对迪拜航空航班事件展开调查。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 22:00:25",
+      "content": "金十图示：2026年09月30日（周三）全球股市指数-美洲市场（盘初）",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 21:56:11",
+      "content": "莫斯科明确画下红线：如果北约敢采取任何切断“加里宁格勒飞地”与俄罗斯本土联系的举动，俄方将不惜动用包括核武器在内的一切力量……点击查看...",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 21:55:17",
+      "content": "欧洲航空安全局最新的公告未提及周三的迪拜航空航班事件。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 21:54:44",
+      "content": "欧洲航空安全局表示，将继续监测局势，以评估欧盟航空公司在沙特阿拉伯面临的风险是增加还是降低。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 21:53:34",
+      "content": "欧洲航空安全局向航空公司发出建议，因近期胡塞武装袭击增加，提醒注意沙特空域安全。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 21:53:29",
+      "content": "【中加经贸联委会投资工作组首次会议在加拿大渥太华召开】金十数据9月30日讯，2026年9月28日，中华人民共和国国际贸易谈判代表兼商务部副部长李成钢与加拿大国际贸易副部长珀维斯在加拿大渥太华共同主持召开中加经贸联委会投资工作组首次会议。双方就增进投资政策沟通、投资环境改善、双向投资合作等进行了坦诚、务实和建设性的交流。李成钢表示，今年1月两国领导人会晤为中加关系进一步向好发展作出战略指引，双边经贸合作呈现积极向好势头。投资合作是双边经贸关系的重要组成部分，也是中加经贸合作行稳致远的持久动力源。中方愿同加方一道，为两国企业营造公平、开放、透明、非歧视和可预期的营商环境，推动中加投资合作不断取得新成果。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 21:52:39",
+      "content": "白宫官员：美国总统特朗普今日宣布韩国将在美国投资2000亿美元，特朗普将宣布由韩国出资建设8座核电站。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 21:50:55",
+      "content": "金十图示：2026年09月30日（周三）华尔街恐惧与贪婪指数（美盘初）",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 21:50:11",
+      "content": "迪拜航空：此次航班事件对定期航班运营没有影响。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-09-30 21:49:46",
+      "content": "印度总理莫迪：我们同意保持密切沟通，以推动美印全面全球战略伙伴关系向前发展。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
@@ -1245,806 +989,95 @@
   ],
   "shmet": [
     {
-      "datetime": "2026-09-30 02:49:17",
-      "content": "【快讯】SHMET09月30日讯，据Axios网站：特朗普亲自挑选的政府资助广告即将大规模增加。",
+      "datetime": "2026-10-01 00:05:27",
+      "content": "【快讯】SHMET10月01日讯，俄罗斯统计局：8月零售销售额同比增长3.3%，上月为增长5.3%（市场预期为增长5.6%）。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 02:48:35",
-      "content": "【快讯】SHMET09月30日讯，美联储威廉姆斯：人工智能正在推高资产市场估值，增强财富效应。",
+      "datetime": "2026-10-01 00:04:56",
+      "content": "【快讯】SHMET10月01日讯，俄罗斯统计局：截至9月28日当周，俄罗斯周度消费者通胀率为0.12%，此前一周为0.06%。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 02:42:57",
-      "content": "【快讯】SHMET09月30日讯，美国总统特朗普：人工智能领域的领导者将与当地社区合作建设数据中心。",
+      "datetime": "2026-10-01 00:03:22",
+      "content": "【快讯】SHMET10月01日讯，俄罗斯统计局：8月失业率为2.2%，上月为2.3%（市场预期为2.2%）。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 02:42:45",
-      "content": "【快讯】SHMET09月30日讯，美联储威廉姆斯：K型经济非常真实。",
+      "datetime": "2026-10-01 00:02:44",
+      "content": "【快讯】SHMET10月01日讯，俄罗斯统计局：7月实际工资同比增长3.3%（市场预期为增长2.4%）",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 02:40:58",
-      "content": "【快讯】SHMET09月30日讯，美国总统特朗普：人工智能领袖希望做正确的事情。",
+      "datetime": "2026-10-01 00:02:22",
+      "content": "【快讯】SHMET10月01日讯，英国首相伯纳姆：（关于费尔福德空军基地事件）有强烈迹象表明伊朗在周末发生的事件中发挥了作用。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 02:39:43",
-      "content": "【快讯】SHMET09月30日讯，美国总统特朗普：AI领域的自我监管非常重要。",
+      "datetime": "2026-10-01 00:02:08",
+      "content": "【快讯】SHMET10月01日讯，俄罗斯经济部：8月GDP同比增长0.8%，上月为增长0.6%。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 02:38:49",
-      "content": "【快讯】SHMET09月30日讯，美国总统特朗普：与会者之间有很多共同点。",
+      "datetime": "2026-10-01 00:01:08",
+      "content": "【北京发布商品住房销售制度改革后首宗土拍项目】SHMET10月01日讯，北京土地市场发布了1宗商品住宅用地出让公告，这是北京在商品住房销售制度改革后发布出让公告的首宗项目。据悉，这个项目为昌平区歇甲地块，土地面积约8.89公顷，规划建筑规模约10.09万平方米，起始价29.36亿元。交易文件中明确，在地价款支付方面，对于参与用地预申请并竞得土地的企业，在出让合同签订后30个自然日内缴纳地价款的50%，剩余价款在出让合同签订后24个月内缴清。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 02:37:53",
-      "content": "【快讯】SHMET09月30日讯，美国总统特朗普：我们在人工智能领域拥有巨大领先优势，并希望保持这一优势。",
+      "datetime": "2026-10-01 00:00:34",
+      "content": "【今日重点关注的财经数据与事件：2026年10月1日 周四】SHMET10月01日讯，① 01:30 美联储巴尔金为活动致辞② 03:25 美联储理事库克发表讲话③ 04:00 美光公司在美股盘后公布财报④ 05:10 美联储古尔斯比发表讲话⑤ 06:00 美联储卡什卡利发表讲话⑥ 07:50 日本央行公布审议委员意见摘要⑦ 14:00 英国9月Nationwide房价指数月率⑧ 14:30 瑞士9月CPI月率⑨ 14:30 瑞士8月实际零售销售年率⑩ 15:50 法国9月制造业PMI终值⑪ 15:55 德国9月制造业PMI终值⑫ 16:00 欧元区9月制造业PMI终值⑬ 16:00 英国央行行长贝利发表讲话⑭ 16:30 英国9月制造业PMI终值⑮ 17:00 欧元区8月失业率⑯ 17:30 美国9月挑战者企业裁员人数⑰ 20:30 美国至9月26日当周初请失业金人数⑱ 21:05 美联储巴尔金、柯林斯、施密德发表讲话⑲ 21:30 欧洲央行行长拉加德发表讲话⑳ 21:45 美国9月标普全球制造业PMI终值㉑ 22:00 美国9月ISM制造业PMI㉒ 22:00 美国8月营建支出月率㉓ 22:00 美联储理事沃勒发表讲话㉔ 22:30 美国至9月25日当周EIA天然气库存㉕ 次日01:30 美联储副主席杰斐逊发表讲话㉖ 次日03:00 美联储理事鲍曼发表讲话㉗ 次日03:30 美联储威廉姆斯主持讨论",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 02:36:40",
-      "content": "【快讯】SHMET09月30日讯，美国总统特朗普：（关于与人工智能领袖会晤）会议非常好，气氛极其友好且富有成效。",
+      "datetime": "2026-09-30 23:55:42",
+      "content": "【快讯】SHMET09月30日讯，欧洲央行行长拉加德：如果我提前离开欧洲央行，那也只会提前几个月。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-09-30 02:35:52",
-      "content": "【快讯】SHMET09月30日讯，美联储威廉姆斯：我非常相信应根据数据来制定政策。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:35:40",
-      "content": "【快讯】SHMET09月30日讯，据英国金融时报：调解人正再次努力推动美国和伊朗达成协议。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:35:39",
-      "content": "【快讯】SHMET09月30日讯，美联储威廉姆斯：九月加息旨在更快实现2%的通胀目标。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:33:28",
-      "content": "【快讯】SHMET09月30日讯，美联储威廉姆斯：判断货币政策的限制性程度是很困难的。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:32:41",
-      "content": "【夜盘主力合约收盘】SHMET09月30日讯，截至2:30收盘，沪金主力合约收涨0.80%，报905元/克，沪银主力合约收涨0.35%，报14958元/千克，SC原油主力合约收跌1.63%，报705元/桶。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:32:41",
-      "content": "【快讯】SHMET09月30日讯，美联储威廉姆斯：取决于战争的发展方向，预计能源价格不会进一步大幅上涨。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:32:06",
-      "content": "【快讯】SHMET09月30日讯，上海黄金交易所黄金T+D 9月29日（周二）晚盘收盘上涨0.79%报901.6元/克；上海黄金交易所白银T+D 9月29日（周二）晚盘收盘上涨0.57%报14875.0元/千克。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:31:52",
-      "content": "【快讯】SHMET09月30日讯，美联储威廉姆斯：能源价格仍然是影响经济的重要因素，但相比过去，美国经济受到能源价格波动的影响有所降低。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:29:45",
-      "content": "【快讯】SHMET09月30日讯，美联储威廉姆斯：通胀应会缓解，因为最大的冲击已基本消退。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:28:04",
-      "content": "【快讯】SHMET09月30日讯，美联储穆萨莱姆：即使在最近一次加息之后，货币政策仍然略显宽松。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:27:04",
-      "content": "【美联储古尔斯比：通胀持续高于目标是在“玩火” 】SHMET09月30日讯，芝加哥联储主席奥斯坦·古尔斯比表示，美国通胀持续高于美联储2%的目标已超过五年半，长期维持高通胀水平是在“玩火”，美联储需要关注持续性供应冲击带来的影响。古尔斯比表示，当前情况“令人不快”，但如果供应冲击产生长期影响，美联储可能需要重新考虑此前“忽略供应冲击”的政策逻辑。他称，在考虑降息前，美联储需要看到更多证据，确认通胀正在回落，以及此前被认为是暂时性的因素正在消退。古尔斯比还警告，巨额财政赤字本身就是一种刺激措施，可能导致经济过热。他表示，市场对未来AI生产率提升的预期也可能带来当前经济过热风险，美联储需要密切关注生产率变化。他指出，油价可能快速回落，但更深层的问题在于炼油设施恢复运营的过程。古尔斯比表示，能源价格、AI投资和财政刺激等因素都可能影响未来通胀路径。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:24:27",
-      "content": "【快讯】SHMET09月30日讯，美联储穆萨莱姆：美联储经济预测摘要（SEP）可以通过匿名方式将利率“点阵图”与经济预测对应起来，从而得到改进。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:22:39",
-      "content": "【快讯】SHMET09月30日讯，OpenAI：“抱抱脸”事件是迄今为止最严重的平台事故。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:21:35",
-      "content": "【快讯】SHMET09月30日讯，伊朗革命卫队：波斯湾岛屿是伊朗领土防御的“前沿阵地”，伊方将持续加强当地防御能力、作战准备和情报监控能力。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:19:02",
-      "content": "【快讯】SHMET09月30日讯，洛克希德·马丁公司：阿维奥美国公司（Avio USA）已在弗吉尼亚州破土动工建设其在美国的首座固体火箭发动机工厂。该厂每年将生产数千台固体火箭发动机，并创造1500个就业岗位；预计2028年底竣工，2029年初启动生产。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:15:02",
-      "content": "【快讯】SHMET09月30日讯，美联储穆萨莱姆：通胀预期与长期2%的通胀水平保持一致。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:13:47",
-      "content": "【美联储威廉姆斯：年内或再加息一次 但无需急于行动】SHMET09月30日讯，纽约联储主席约翰·威廉姆斯表示，美联储在9月会议加息后没有必要急于再次行动，可以等待更多经济数据，以判断下一步政策方向。威廉姆斯表示，如果经济发展大致符合他的预期，年底前可能需要进一步上调联邦基金利率目标区间，以推动通胀更及时回归2%目标。但他强调，这只是个人预测，最终决定将取决于未来数据表现。威廉姆斯称，在经济增长保持稳健、就业市场表现良好的情况下，通胀压力将继续成为货币政策重点。他表示，美联储必须确保通胀不会因冲击而持续高企，并避免二次通胀效应形成。他指出，今年通胀压力受到特朗普关税政策和中东冲突导致能源价格上涨影响，同时人工智能投资也推高部分价格压力。威廉姆斯预计美国通胀率将在今年年底达到约3.5%，随后逐步回落，并在2028年回到目标水平。威廉姆斯预计，今年美国经济增长约为2.25%，明年失业率约为4%。他表示，移民因素、人口老龄化以及生产率增长有限，限制了经济长期增长空间。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:12:30",
-      "content": "【快讯】SHMET09月30日讯，美联储穆萨莱姆：目前约一半的通胀来自持续的需求压力。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:11:44",
-      "content": "【快讯】SHMET09月30日讯，美联储穆萨莱姆：当一次供应冲击接着一次供应冲击出现时，“暂时忽略供应冲击影响”的逻辑会减弱，并提高更广泛通胀持续根深蒂固的风险。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:07:44",
-      "content": "【快讯】SHMET09月30日讯，美联储穆萨莱姆：目前经济非常强劲，但依赖于持续增长。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:06:16",
-      "content": "【快讯】SHMET09月30日讯，美联储穆萨莱姆：目前，人工智能资本支出热潮导致了需求压力，生产率和“供应缓解”尚未显现。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:04:07",
-      "content": "【快讯】SHMET09月30日讯，美联储威廉姆斯：我预计能源价格对通胀的影响将更大且持续更长时间。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:04:03",
-      "content": "【快讯】SHMET09月30日讯，美联储古尔斯比：必须获得通胀回落的证据。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:03:48",
-      "content": "【快讯】SHMET09月30日讯，美联储威廉姆斯：9月加息后，“没有必要急于行动”。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:03:34",
-      "content": "【快讯】SHMET09月30日讯，美联储威廉姆斯：更多数据将帮助美联储决定下一步利率政策。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:03:20",
-      "content": "【快讯】SHMET09月30日讯，美联储威廉姆斯：美联储将在制定货币政策时根据数据作出回应。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:02:48",
-      "content": "【快讯】SHMET09月30日讯，美联储威廉姆斯：预计今年通胀率为3.5%，2028年达到2%的目标。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:02:48",
-      "content": "【快讯】SHMET09月30日讯，美联储威廉姆斯：如果经济符合预期，今年可能再加息一次。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:02:48",
-      "content": "【快讯】SHMET09月30日讯，美联储威廉姆斯：预计美国GDP今年增长2.25%，2027年失业率为4%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:02:43",
-      "content": "【快讯】SHMET09月30日讯，美联储威廉姆斯：美联储必须确保高通胀不会根深蒂固。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:02:33",
-      "content": "【快讯】SHMET09月30日讯，美联储威廉姆斯：美联储政策可以确保供应冲击不会长期持续。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:02:14",
-      "content": "【快讯】SHMET09月30日讯，美联储威廉姆斯：让通胀回到2%目标水平至关重要。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:02:08",
-      "content": "【快讯】SHMET09月30日讯，美联储威廉姆斯：人工智能投资问题正日益成为影响通胀的重要因素。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:02:04",
-      "content": "【快讯】SHMET09月30日讯，美联储威廉姆斯：美国经济动能强劲，并可能正在增强。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:01:08",
-      "content": "【快讯】SHMET09月30日讯，美联储古尔斯比：在点阵图中，我是美联储中更为乐观的人之一。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:01:04",
-      "content": "【快讯】SHMET09月30日讯，美联储古尔斯比：2023年和2024年时，我曾认为通胀正回落至2%的目标水平，但这一进程后来停滞。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 02:00:16",
-      "content": "【SHFE夜盘收盘_基本金属】沪铜主力涨0.11%,报109420元/吨沪铝主力跌0.46%,报23910元/吨沪铅主力持平,报16235元/吨沪锌主力跌0.36%,报26435元/吨沪镍主力跌1.28%,报121480元/吨沪锡主力涨0.36%,报410460元/吨",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:59:17",
-      "content": "【快讯】SHMET09月30日讯，美联储古尔斯比：巨额赤字是一种刺激形式，可能导致经济过热。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:56:42",
-      "content": "【快讯】SHMET09月30日讯，加拿大央行：政府债务购买可能要到2028年才会开始。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:55:20",
-      "content": "【快讯】SHMET09月30日讯，加拿大央行：加拿大政府债券购买的时机可能会推迟。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:54:31",
-      "content": "【快讯】SHMET09月30日讯，美联储古尔斯比：关注生产率表现。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:52:46",
-      "content": "【快讯】SHMET09月30日讯，美联储古尔斯比：我们已经在通胀目标上方持续了5年半，这是在玩火。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:51:54",
-      "content": "【快讯】SHMET09月30日讯，美联储古尔斯比：油价可能会相对快速下跌，但更深层次的问题是如何让炼油厂恢复运营。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:51:01",
-      "content": "【快讯】SHMET09月30日讯，FOMC永久票委、纽约联储主席威廉姆斯将于十分钟后在水牛城大学发表主题演讲。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:50:21",
-      "content": "【快讯】SHMET09月30日讯，美联储古尔斯比：需要重新审视忽视供应冲击的逻辑。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:45:49",
-      "content": "【快讯】SHMET09月30日讯，美联储古尔斯比：《联邦储备法》中没有任何条款要求美联储确保债券市场满意，股市也不应感到意外。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:44:09",
-      "content": "【快讯】SHMET09月30日讯，美联储理事巴尔：短期内，人工智能最大的影响是推高成本。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:41:50",
-      "content": "【快讯】SHMET09月30日讯，美联储理事巴尔：人们感到沮丧和不确定，因为通胀过高。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:38:48",
-      "content": "【快讯】SHMET09月30日讯，OpenAI计划以1.4万亿美元估值融资300亿美元。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:34:21",
-      "content": "【快讯】SHMET09月30日讯，美联储穆萨莱姆：央行官员不应该作出承诺，但应该向公众解释央行如何以及为何作出政策决定。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:33:48",
-      "content": "【快讯】SHMET09月30日讯，美联储穆萨莱姆：一个清晰阐述的政策框架应包括两到三个可能出现的情景。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:32:51",
-      "content": "【快讯】SHMET09月30日讯，美联储穆萨莱姆：一个不向外界公开自身框架的央行，会迫使市场参与者去猜测央行反应，而不是关注数据。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:32:30",
-      "content": "【快讯】SHMET09月30日讯，美联储穆萨莱姆：沟通政策框架能够提高政策有效性，降低家庭和企业成本。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:32:12",
-      "content": "【快讯】SHMET09月30日讯，美联储穆萨莱姆：“市场猜测会增加噪音”，导致利率更加波动，并提高企业和家庭的融资成本。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:32:08",
-      "content": "【快讯】SHMET09月30日讯，美联储穆萨莱姆：“镜厅效应”（hall of mirrors）发生在美联储公布预测，而不是公布政策框架时。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:31:37",
-      "content": "【快讯】SHMET09月30日讯，美联储穆萨莱姆：如果公众理解这一框架，私人部门预期就会与美联储的政策意图保持一致，从而改善通胀与就业之间的权衡。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:31:23",
-      "content": "【快讯】SHMET09月30日讯，美联储古尔斯比：对未来人工智能生产力提升的预期现在带来了过热的高风险。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:31:18",
-      "content": "【快讯】SHMET09月30日讯，美联储穆萨莱姆：一个可预测、透明的政策框架，是央行获得民主合法性的重要组成部分。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:31:17",
-      "content": "【快讯】SHMET09月30日讯，美联储穆萨莱姆：授予央行利率决策权，也要求美联储解释“如何以及为什么使用这一权力”。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:31:15",
-      "content": "【快讯】SHMET09月30日讯，美联储穆萨莱姆：一个得到充分沟通的政策框架，也能防止通胀和通缩螺旋。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:28:52",
-      "content": "【快讯】SHMET09月30日讯，美联储理事巴尔：上次加息是适当的，我们可能需要进一步调整。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:27:52",
-      "content": "【快讯】SHMET09月30日讯，美联储理事巴尔：我认为除非我们调整政策，否则无法及时实现2%的通胀目标。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:26:59",
-      "content": "【快讯】SHMET09月30日讯，美联储古尔斯比：企业利润率高，但开始收窄。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:25:52",
-      "content": "【快讯】SHMET09月30日讯，加拿大央行副行长：但我们只能容忍加拿大央行隔夜回购利率（CORRA）出现有限的上行压力，因为较大的偏离可能扰乱货币政策传导。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:25:34",
-      "content": "【快讯】SHMET09月30日讯，加拿大央行副行长：加拿大央行现代化加拿大中央清算基础设施和服务的进程预计将在2028年基本完成。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:25:23",
-      "content": "【快讯】SHMET09月30日讯，加拿大央行副行长：最重要的是，在回购市场出现失衡时，我们正在部署必要的操作工具，以控制政策利率。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:25:09",
-      "content": "【快讯】SHMET09月30日讯，加拿大央行副行长：更积极地使用两周期回购操作，可能意味着准备金有时会超过央行对稳定状态需求的最佳估计。目前这一需求预计维持在500亿至700亿加元之间。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:24:59",
-      "content": "【快讯】SHMET09月30日讯，加拿大央行副行长：加拿大央行和加拿大金融监管机构（OSFI）已发布联合声明，表示使用常备流动性工具（SLF）满足隔夜流动性需求，并不被视为异常事件或压力信号。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:24:28",
-      "content": "【快讯】SHMET09月30日讯，加拿大央行副行长：加拿大金融机构无需担心使用常备流动性工具获取隔夜流动性。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:24:14",
-      "content": "【快讯】SHMET09月30日讯，加拿大央行副行长：SLF是一项常规工具，任何Lynx支付系统成员都可以放心使用。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:24:07",
-      "content": "【快讯】SHMET09月30日讯，加拿大央行副行长：我们不希望对每一次小幅偏离都作出反应，因为这些偏离可以提供有用的市场信号。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:22:42",
-      "content": "【快讯】SHMET09月30日讯，美联储在固定利率逆回购操作中总计接纳了10个对手方的114.46亿美元。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:21:32",
-      "content": "【快讯】SHMET09月30日讯，2028年FOMC票委、圣路易联储主席穆萨莱姆将于十分钟后在伦敦政经学院发表讲话。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:20:31",
-      "content": "【快讯】SHMET09月30日讯，OpenAI：私有推理（private inference）预览版将于今年秋季推出，该技术结合了机密计算（confidential computing）和严格、可验证的控制机制。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:17:32",
-      "content": "【快讯】SHMET09月30日讯，OpenAI：将于未来数日推出GPT‑6.1 Sol超快版。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:16:33",
-      "content": "【快讯】SHMET09月30日讯，美联储理事巴尔：我们关注的全部焦点，是数据所反映的前景演变，以及实现国会赋予我们的使命所面临的风险平衡情况。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:15:58",
-      "content": "【快讯】SHMET09月30日讯，美联储理事巴尔：经济似乎正在积聚动能。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:14:38",
-      "content": "【快讯】SHMET09月30日讯，美联储理事巴尔：我在基本情景中没有经济衰退的预期。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:13:28",
-      "content": "【快讯】SHMET09月30日讯，美联储理事巴尔：美联储的独立性帮助我们更好地服务于美国人民。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:11:57",
-      "content": "【快讯】SHMET09月30日讯，OpenAI推出全天候自主智能体Dots。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:10:48",
-      "content": "【快讯】SHMET09月30日讯，OpenAI推出GPT-6.1 Sol模型，其性能接近Astra，但标准词元价格仅为Astra的五分之一。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:07:43",
-      "content": "【快讯】SHMET09月30日讯，美联储理事巴尔：美国经济的韧性令人瞩目。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:06:41",
-      "content": "【快讯】SHMET09月30日讯，美联储理事巴尔：从长远来看，我们需要确保采取必要措施使供需达到平衡。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:05:38",
-      "content": "【美联储巴尔：为控制通胀 未来可能需要进一步加息】SHMET09月30日讯，美联储理事迈克尔·巴尔表示，通胀回落进程受到干扰，美联储可能需要进一步调整货币政策，以确保通胀及时回到2%的目标。巴尔在底特律经济俱乐部发表讲话时表示，目前尚未看到通胀“及时回归2%目标”的明确趋势。他称，通胀仍然过高，相关风险有所上升，而劳动力市场仍较为稳健，风险有所下降。巴尔表示，美联储需要重新校准政策，使其更好地平衡就业和通胀两方面风险。他称，在基准情景下，未来可能需要进一步政策调整，以确保通胀能够及时降至目标水平。巴尔指出，中东冲突推高全球油价，而人工智能投资热潮增加了部分高科技商品需求，并推高企业和消费者面临的价格压力。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:04:14",
-      "content": "【快讯】SHMET09月30日讯，美联储理事巴尔：看到技能行业的工资水平有所上升。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:02:05",
-      "content": "【快讯】SHMET09月30日讯，据路透：包括美国参议员沃伦在内的美国议员要求能源监管机构否决由贝莱德(BLK.N)子公司牵头的财团以334亿美元收购AES的交易。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 01:00:09",
-      "content": "【曼苏里成为摩洛哥首位女首相】SHMET09月30日讯，摩洛哥国王穆罕默德六世29日任命法蒂玛·宰赫拉·曼苏里为新首相，并授权其组建新内阁。曼苏里成为摩洛哥历史上首位女性政府首脑。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 00:59:10",
-      "content": "【快讯】SHMET09月30日讯，据纽约时报：OpenAI曾无视员工关于其安全措施不足的警告。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 00:56:59",
-      "content": "【快讯】SHMET09月30日讯，英国反恐警务部门：决定保释相关人员属于“调查决定”，该决定基于警方经验，并经过对执法权力的审慎考虑。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 00:55:59",
-      "content": "【快讯】SHMET09月30日讯，英国反恐警务部门在空军基地发生逮捕事件后表示：已在伦敦搜查相关住所。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-09-30 00:52:05",
-      "content": "【快讯】SHMET09月30日讯，法院文件显示，美国上诉法院拒绝暂停对特朗普律师在美国国税局（IRS）诉讼中的制裁措施。",
+      "datetime": "2026-09-30 23:54:06",
+      "content": "【SEC拟放宽私募投资门槛，推动散户进入私募市场】SHMET09月30日讯，美国证券交易委员会（SEC）周三提出一系列改革方案，旨在扩大个人投资者参与私募市场的渠道，让更多散户接触私募股权、早期创业公司及其他另类资产。其中一项提案允许注册投资顾问根据基金业绩收取最高20%的绩效费，使收费模式更接近部分对冲基金的“2%管理费+20%业绩提成”结构，以吸引更多私募管理机构服务个人投资者。SEC主席Paul Atkins表示，委员会希望探索扩大个人投资者参与私募市场的方式，同时防范欺诈和不当行为。SEC还提议扩大“合格投资者”的认定范围，允许更多持有专业资质的人士（包括注册会计师和特许金融分析师）符合投资资格。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     }
   ],
-  "steel_highlight": [],
+  "steel_highlight": [
+    {
+      "datetime": "2026-09-30 22:22:03",
+      "content": "【墨西哥对美关税谈判取得进展，有望下调钢铁和汽车关税】金十数据9月30日讯，据多位知情的墨西哥官员透露，墨西哥政府对与美国达成一项贸易协议的前景日益充满信心，该协议可能包括降低钢铁、铝以及轻型汽车等关键出口商品的关税。上述官员表示，两国正在敲定一项协议细节，拟将美国对墨西哥轻型汽车征收的关税从目前的25%降至15%。由于25%的完整税率仅适用于非美国原产内容，因此实际有效关税税率可能降至10%至12%。这些官员称，墨西哥仍在争取获得优于加拿大上月获得的条件。美国此前向加拿大提供15%的名义关税税率，考虑到区域内容规则带来的最高折扣后，实际税率可能降至约7%。墨西哥官员还对降低钢铁和铝关税的协议持乐观态度。目前美国对相关产品征收的关税最高达到50%，但官员表示具体降幅尚未确定。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": true
+    }
+  ],
   "weekly_stock": null
 }
