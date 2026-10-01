@@ -1,7 +1,135 @@
 {
   "source": "jin10 flash + shmet + shfe weekly stock",
-  "generated_at": "2026-10-01T16:45:35.453082+00:00",
+  "generated_at": "2026-10-01T17:09:56.283427+00:00",
   "jin10": [
+    {
+      "datetime": "2026-10-02 01:08:11",
+      "content": "丰田北美：在密歇根州萨林市启用北美丰田电池中心。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:02:03",
+      "content": "意大利财政部：九月份国家部门预算赤字为270亿欧元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:01:51",
+      "content": "据阿拉比亚电视台：海湾合作委员会秘书长表示，胡塞武装袭击一处为先知清真寺提供服务的电力设施，已越过红线。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:01:00",
+      "content": "美联储：9月30日当周，美国季调后商业票据未偿余额减少552亿美元；美国非季调商业票据未偿余额减少506亿美元；美国非季调外国金融商业票据未偿余额减少22亿美元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 00:59:14",
+      "content": "迪士尼(DIS.N)总裁：首席执行官交接异常顺利。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 00:58:12",
+      "content": "【报道：乌克兰今年新增270亿欧元资金缺口 欧盟拒绝提前放款】金十数据10月2日讯，据知情人士透露，欧盟暂时拒绝乌克兰提前获得贷款资金的请求。乌克兰今年夏季表示，随着战争成本上升，2026年出现额外270亿欧元资金缺口，因此要求欧盟提前拨付原计划支撑至2027年底的900亿欧元贷款。欧盟委员会主席冯德莱恩上月向乌克兰总统泽连斯基表示，欧盟2026年仍有370亿欧元预算支持可供拨付，但要求乌克兰推进打击影子经济、增加税收以及与欧盟法律接轨等改革。欧盟认为，当前提前拨付贷款只会把资金缺口推迟到2027年，并提出加拿大、挪威和日本等伙伴应提供更多资金。原定用于2027年的450亿欧元贷款将在明年开始后迅速拨付。与此同时，据知情人士透露，国际货币基金组织预计乌克兰2027年仍将面临300亿至350亿美元融资缺口，2028年和2029年缺口分别约为170亿美元和20亿美元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 00:55:30",
+      "content": "纳斯达克中国金龙指数扩大跌幅至1%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 00:53:30",
+      "content": "俄罗斯总统普京：与特朗普多年来一直保持着相当良好的关系。感谢这位美国领导人致力于解决乌克兰局势。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 00:51:57",
+      "content": "美国总统特朗普：（关于伊朗）现在我必须做出决定。要么伊朗签署协议，要么它将不复存在。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 00:51:11",
+      "content": "俄罗斯总统普京：我们感谢美国第一夫人对人道主义领域所作的努力。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 00:50:58",
+      "content": "美国总统特朗普：利率可能拖慢增长。我们要的是增长，而增长不会引发通胀。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 00:49:05",
+      "content": "俄罗斯总统普京：日本企业仍在俄罗斯运营，我们支持它们，也支持任何与俄罗斯开展合作的一方。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 00:48:36",
+      "content": "俄罗斯总统普京：俄罗斯有兴趣与日本合作，但我们对日本的军事化感到担忧。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 00:47:34",
+      "content": "消息人士：美国联邦航空管理局（FAA）最早将于周五召集专家组，就波音(BA.N)软件故障问题展开审议。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 00:46:10",
+      "content": "伊朗常驻联合国代表团：美西方盟友在包庇以色列免受问责、并对其核武库保持沉默的同时，根本没有资格在防扩散或国际法问题上对伊朗说教。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 00:45:40",
+      "content": "美国总统特朗普：我接手拜登时期历史上最严重的通货膨胀，现在我们已经控制住了。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
     {
       "datetime": "2026-10-02 00:42:52",
       "content": "金十图示：2026年10月01日（周四）美股热门股票行情一览（美股盘中）",
@@ -1017,81 +1145,73 @@
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
-    },
-    {
-      "datetime": "2026-10-01 21:59:24",
-      "content": "据伊朗国家媒体：伊朗外交部就与英国境内美军基地遇袭相关的指控，召见英国大使。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 21:56:56",
-      "content": "新加坡淡马锡北美负责人：我们对人工智能依然非常乐观。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 21:56:12",
-      "content": "惠誉表示，英国水务法案更新并未改变行业风险。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 21:55:46",
-      "content": "金十图示：2026年10月01日（周四）华尔街恐惧与贪婪指数（美盘初）",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 21:54:51",
-      "content": "面对经济前景的不确定性，美国企业似乎正上演一场“死磕到底”的保员运动：不轻易裁员，但也不轻易招人……点击查看...",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 21:54:16",
-      "content": "【美国9月制造业继续增长 PMI创三年多新高】金十数据10月1日讯，标普全球市场财智首席商业经济学家克里斯·威廉姆森表示：“9月份美国制造业增速再次加快，PMI为2022年5月以来的最高水平，新订单激增促使工厂大幅提高产量并增加就业人数。订单积压不断增加，供应商也日益繁忙，这表明产能已趋于紧张，企业正努力满足面向消费者和企业部门的需求。机械设备的投资和生产尤其如此，这在很多情况下与人工智能相关支出的增长有关。尽管出口订单持续下滑令人失望，但出于对价格和供应链的担忧，安全库存的增加也继续支撑着需求。尽管这为未来几个月制造业产能的进一步增长发出了令人鼓舞的信号，但需求超过供应的迹象也意味着通胀压力仍然是一个关键的担忧领域，尤其是在油价高企的情况下。经济增长加速、招聘增加和物价指标走高等因素，将加剧市场对美联储即将进一步加息的猜测。”",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 21:50:00",
-      "content": "美国9月ISM制造业PMI、8月营建支出月率将于十分钟后公布；美联储理事沃勒将于十分钟后发表讲话。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 21:45:11",
-      "content": "金十图示：2026年10月01日（周四）美盘市场行情一览",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 21:45:02",
-      "content": "美国9月标普全球制造业PMI终值 55.9，前值57。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
     }
   ],
   "shmet": [
+    {
+      "datetime": "2026-10-02 01:03:44",
+      "content": "【快讯】SHMET10月02日讯，意大利财政部：九月份国家部门预算赤字为270亿欧元。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:02:10",
+      "content": "【快讯】SHMET10月02日讯，美联储：9月30日当周，美国季调后商业票据未偿余额减少552亿美元；美国非季调商业票据未偿余额减少506亿美元；美国非季调外国金融商业票据未偿余额减少22亿美元。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 00:56:56",
+      "content": "【快讯】SHMET10月02日讯，纳斯达克中国金龙指数扩大跌幅至1%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 00:52:49",
+      "content": "【快讯】SHMET10月02日讯，俄罗斯总统普京：我们感谢美国第一夫人对人道主义领域所作的努力。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 00:52:37",
+      "content": "【快讯】SHMET10月02日讯，特朗普谈伊朗称，“现在我必须做出决定，要么伊朗签署协议，要么它将不复存在。”",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 00:51:08",
+      "content": "【快讯】SHMET10月02日讯，美国总统特朗普：利率可能拖慢增长。我们要的是增长，而增长不会引发通胀。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 00:50:35",
+      "content": "【快讯】SHMET10月02日讯，俄罗斯总统普京：日本企业仍在俄罗斯运营，我们支持它们，也支持任何与俄罗斯开展合作的一方。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 00:46:03",
+      "content": "【快讯】SHMET10月02日讯，美国总统特朗普：我接手拜登时期历史上最严重的通货膨胀，现在我们已经控制住了。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
     {
       "datetime": "2026-10-02 00:43:51",
       "content": "【快讯】SHMET10月02日讯，美国总统特朗普在被问及是否在拉美建立基地时表示正在考虑此事。",
@@ -1103,790 +1223,6 @@
     {
       "datetime": "2026-10-02 00:43:26",
       "content": "【快讯】SHMET10月02日讯，美国总统特朗普：（关于伊拉克）我永远不会抛弃我们的盟友。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 00:43:08",
-      "content": "【快讯】SHMET10月02日讯，市场消息：欧盟拒绝向基辅提前发放贷款，并要求其推行改革。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 00:42:33",
-      "content": "【快讯】SHMET10月02日讯，美国总统特朗普：我们和委内瑞拉相处得很好。我们花很少的钱就得到了大量的石油。他们赚了很多钱，我们也赚了很多钱。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 00:42:31",
-      "content": "【快讯】SHMET10月02日讯，美国总统特朗普：（关于美联储主席沃什）我希望他按照自己的意愿投票。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 00:41:48",
-      "content": "【快讯】SHMET10月02日讯，美国总统特朗普：利率将损害我们的增长。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 00:38:17",
-      "content": "【快讯】SHMET10月02日讯，美国财政部：美方在最新一轮制裁中针对伊朗铁路及汽车企业集团，旨在从经济上孤立伊朗。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 00:37:00",
-      "content": "【快讯】SHMET10月02日讯，俄罗斯总统普京：我希望霍尔木兹海峡能够开放航运，伊朗的制裁能够解除。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 00:36:45",
-      "content": "【快讯】SHMET10月02日讯，俄罗斯总统普京：俄罗斯关于将伊朗浓缩铀运往俄罗斯的提议仍然有效。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 00:36:30",
-      "content": "【快讯】SHMET10月02日讯，美国财政部网站：美国发布新的伊朗相关制裁。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 00:35:52",
-      "content": "【快讯】SHMET10月02日讯，英国反恐警察：今天逮捕了一名拥有英国和伊朗双重国籍的人员，该逮捕行动是对周日发生在费尔福德空军基地附近的活动的调查。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 00:34:37",
-      "content": "【快讯】SHMET10月02日讯，俄罗斯总统普京：对暂停黑海打击行动的提议说“不”。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 00:32:42",
-      "content": "【城堡证券股票负责人：散户有望重返美股 10月迎来加仓窗口】SHMET10月02日讯，城堡证券的股票及股票衍生品策略主管Scott Rubner表示，在9月份大幅降温之后，散户投资者本月有望重新大举涌入美国股市。Rubner在给客户的一份报告中写道，尽管10月份可能仍会出现波动，但随着财报季到来、企业股票回购即将恢复，这个月为投资者“重新加仓”提供了更好的入场点。他说，在仓位得到清理、估值下降之后，“市场从一个更干净的起点进入第四季度，重新建立敞口的空间明显扩大。”Rubner写道，9月份现货股票交易量降至过去一年平均水平的0.94倍，创2026年最低。散户期权权利金也降至同样的倍数。目前股票交易活跃度较6月份高点低26%，期权权利金则较当时达到的1.41倍水平缩水约三分之一。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 00:30:56",
-      "content": "【委内瑞拉9月石油出口降至108万桶/日】SHMET10月02日讯，航运数据显示，委内瑞拉9月石油出口量降至108万桶/日，低于8月的119万桶/日，环比下降约9%。由于运费上涨，贸易商要求委内瑞拉国家石油公司（PDVSA）提供更大价格折扣，以抵消更高的运输成本。分地区看，委内瑞拉9月对美国石油出口逆势增至62.9万桶/日，高于8月的55.3万桶/日；但对印度和欧洲的出口分别降至25.3万桶/日和8.6万桶/日。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 00:24:37",
-      "content": "【快讯】SHMET10月02日讯，消息人士：OpenAI已与三名研究员分道扬镳，原因是被指与第三方AI安全组织分享机密信息。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 00:23:19",
-      "content": "【快讯】SHMET10月02日讯，据相关数据显示，9月委内瑞拉石油出口降至108万桶/日。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 00:22:58",
-      "content": "【快讯】SHMET10月02日讯，据报道，OpenAI因数据泄露解雇三名安全研究员。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 00:22:54",
-      "content": "【快讯】SHMET10月02日讯，据相关数据显示，委内瑞拉对印度和欧洲出口分别降至25.3万桶/日和8.6万桶/日。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 00:21:44",
-      "content": "【快讯】SHMET10月02日讯，据相关数据显示，9月雪佛龙委内瑞拉原油出口量几乎持平，为28.3万桶/日。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 00:21:25",
-      "content": "【快讯】SHMET10月02日讯，据相关数据显示，9月委内瑞拉对美出口增至62.9万桶/日。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 00:18:45",
-      "content": "【快讯】SHMET10月02日讯，NextEra Energy：预计未来在美国商务部和美国能源部相关领域将出现更多机会。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 00:17:41",
-      "content": "【快讯】SHMET10月02日讯，俄罗斯总统普京：我们并不威胁任何人，也不计划攻击任何欧洲国家，无论是2030年还是2050年。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 00:15:17",
-      "content": "【快讯】SHMET10月02日讯，俄罗斯总统普京：我们不会攻击任何人，但如果遭遇侵略将会作出回应。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 00:14:34",
-      "content": "【快讯】SHMET10月02日讯，俄罗斯总统普京：如果俄罗斯飞地加里宁格勒受到威胁，我们将考虑使用我们武库中的所有武器。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 00:13:00",
-      "content": "【快讯】SHMET10月02日讯，俄罗斯总统普京：我们在自我防卫方面具有竞争优势。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 00:12:58",
-      "content": "【快讯】SHMET10月02日讯，瑞士政府：瑞士央行将从2026财年起将准备金的最低分配比例从10%下调至8%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 00:12:12",
-      "content": "【快讯】SHMET10月02日讯，俄罗斯总统普京：动用一切可用手段的议程将不可避免地浮出水面。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 00:10:59",
-      "content": "【快讯】SHMET10月02日讯，俄罗斯总统普京：（关于加里宁格勒的威胁）我们并不吓唬任何人。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 00:10:37",
-      "content": "【快讯】SHMET10月02日讯，法德10年期国债收益率差收盘扩大14个基点，报141个基点。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 00:10:35",
-      "content": "【快讯】SHMET10月02日讯，瑞士政府：联邦财政部与瑞士央行签署了关于瑞士央行2026年至2030年利润分配的协议。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 00:07:47",
-      "content": "【快讯】SHMET10月02日讯，意大利与德国2年期国债收益率利差创2020年以来最大扩幅。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 00:06:51",
-      "content": "【快讯】SHMET10月02日讯，葡萄牙汽车协会（ACAP）：葡萄牙9月份特斯拉(TSLA.O)新车注册量同比增长128.3%，1月至9月累计增长59.4%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 00:01:57",
-      "content": "【快讯】SHMET10月02日讯，房利美：美国30年期固定利率抵押贷款在10月第一周的平均利率为7.28%，为2023年11月22日以来的最高水平，较前一周的7.03%上升。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 00:01:04",
-      "content": "【今日重点关注的财经数据与事件：2026年10月2日 周五】SHMET10月02日讯，①01:30 美联储副主席杰斐逊发表讲话②03:00 美联储理事鲍曼发表讲话③03:30 美联储威廉姆斯主持讨论④06:45 美联储洛根发表讲话⑤07:30 日本8月失业率⑥17:00 欧元区9月CPI年率初值⑦17:00 欧元区9月CPI月率初值⑧20:30 美国9月失业率⑨20:30 美国9月季调后非农就业人口⑩20:30 美国9月平均每小时工资年率⑪20:30 美国9月平均每小时工资月率⑫22:00 美国8月工厂订单月率⑬22:00 美联储洛根为会议致辞⑭次日01:00 美国至10月2日当周石油钻井总数",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:55:42",
-      "content": "【快讯】SHMET10月01日讯，俄罗斯总统普京：世界需要再次提出关于武装冲突规则的问题。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:46:21",
-      "content": "【快讯】SHMET10月01日讯，市场不再完全预期到2027年底前英国央行将加息4次。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:45:00",
-      "content": "【快讯】SHMET10月01日讯，交易员已不再充分消化2027年底前英国央行加息4次的可能性。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:44:47",
-      "content": "【快讯】SHMET10月01日讯，美国两年期国债收益率日内下跌10个基点至4.785%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:42:32",
-      "content": "【快讯】SHMET10月01日讯，知情人士透露，德国政府将2027年经济增长预测上调至1.1%，高于4月份预测的0.9%。预计2028年经济增长0.6%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:41:12",
-      "content": "【快讯】SHMET10月01日讯，知情人士透露，德国政府将2026年经济增长预测上调至1.3%，高于4月份预测的0.5%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:39:38",
-      "content": "【快讯】SHMET10月01日讯，交易员减少对欧洲央行加息的押注，不再完全消化三次加息的情景。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:38:17",
-      "content": "【快讯】SHMET10月01日讯，德国DAX30指数10月1日（周四）收盘下跌260.07点，跌幅1.03%，报24939.12点；英国富时100指数10月1日（周四）收盘下跌183.64点，跌幅1.73%，报10422.36点；法国CAC40指数10月1日（周四）收盘下跌129.20点，跌幅1.62%，报7835.31点；欧洲斯托克50指数10月1日（周四）收盘下跌97.47点，跌幅1.55%，报6171.55点；西班牙IBEX35指数10月1日（周四）收盘下跌442.06点，跌幅2.28%，报18984.14点；意大利富时MIB指数10月1日（周四）收盘下跌1153.48点，跌幅2.25%，报50218.50点。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:34:08",
-      "content": "【快讯】SHMET10月01日讯，美国至10月1日8周国债竞拍-投标倍数 2.7，前值2.76。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:33:39",
-      "content": "【快讯】SHMET10月01日讯，美国至10月1日8周国债竞拍-得标利率配置百分比 65.05%，前值23.84%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:33:37",
-      "content": "【快讯】SHMET10月01日讯，美国至10月1日8周国债竞拍-得标利率 3.99%，前值3.99%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:32:34",
-      "content": "【快讯】SHMET10月01日讯，美国至10月1日4周国债竞拍-得标利率配置百分比 23.52%，前值54.97%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:32:20",
-      "content": "【快讯】SHMET10月01日讯，美元指数DXY站上102关口，创去年4月以来新高。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:32:10",
-      "content": "【快讯】SHMET10月01日讯，美国至10月1日4周国债竞拍-投标倍数 2.83，前值2.61。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:32:04",
-      "content": "【快讯】SHMET10月01日讯，美国至10月1日4周国债竞拍-得标利率 3.89%，前值3.85%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:28:37",
-      "content": "【快讯】SHMET10月01日讯，欧元三个月隐含期权波动率达到6.45%，为4月13日以来最高水平。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:28:00",
-      "content": "【快讯】SHMET10月01日讯，美国航空航天局（NASA）：SpaceX(SPCX.O)载人飞船已进入轨道，正在前往国际空间站。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:25:06",
-      "content": "【快讯】SHMET10月01日讯，俄罗斯总统普京：西方在世界上的真实影响力正在下降。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:23:40",
-      "content": "【快讯】SHMET10月01日讯，据悉美国联邦住房金融署（FHFA）署长普尔特的预算削减将影响该机构多达80%的监管人员。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:20:56",
-      "content": "【快讯】SHMET10月01日讯，德国总理默茨：我们正在为俄罗斯的重大混合攻击做准备，我们将迅速而明确地作出回应。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:19:59",
-      "content": "【快讯】SHMET10月01日讯，本田9月美国销量为121,796辆，环比增长15.9%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:19:30",
-      "content": "【快讯】SHMET10月01日讯，俄罗斯总统普京：我们相信，随着西方霸权的减弱，局势将会有所改善。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:19:09",
-      "content": "【快讯】SHMET10月01日讯，俄罗斯总统普京：国际冲突的持续是很有可能的。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:18:16",
-      "content": "【快讯】SHMET10月01日讯，俄罗斯总统普京：技术可能导致全球毁灭。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:17:57",
-      "content": "【快讯】SHMET10月01日讯，德国总理默茨：俄罗斯正试图分裂并削弱德国。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:17:00",
-      "content": "【快讯】SHMET10月01日讯，俄罗斯总统普京：我们必须思考如何维护全球安全，必须考虑如何避免灾难性局面。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:16:22",
-      "content": "【快讯】SHMET10月01日讯，俄罗斯总统普京：世界正处于发展转折点。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:15:49",
-      "content": "【快讯】SHMET10月01日讯，美国两年期国债收益率短暂触及一周以来最低水平，最后下跌6.03个基点，报4.827%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:13:09",
-      "content": "【快讯】SHMET10月01日讯，SpaceX(SPCX.O)执行第13次龙飞船长期任务，将四名宇航员送往国际空间站，为NASA执行任务。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:11:01",
-      "content": "【快讯】SHMET10月01日讯，加拿大总理卡尼：新管道将减少对美国石油出口的依赖；计划扩建罗伯茨港终端以增加原油出口。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:10:08",
-      "content": "【快讯】SHMET10月01日讯，德国总理默茨：德国极右翼政党AFD得到了俄罗斯的支持。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:09:37",
-      "content": "【快讯】SHMET10月01日讯，加拿大总理卡尼：管道项目将创造14万个就业岗位，每年为GDP贡献超过200亿加元，并在2060年前为政府带来1000亿加元收入。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:08:07",
-      "content": "【快讯】SHMET10月01日讯，加拿大总理卡尼：加拿大将把拟建的西海岸石油管道定为国家利益项目。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:05:36",
-      "content": "【快讯】SHMET10月01日讯，法国10年期国债收益率较同类互换利率高出创纪录的126个基点。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:04:43",
-      "content": "【快讯】SHMET10月01日讯，美国财政部：将于10月1日开展流动性回购操作，最多回购60亿美元期限10-20年的国债。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:03:38",
-      "content": "【快讯】SHMET10月01日讯，国际货币基金组织：黎巴嫩需在关键改革上持续取得进展，以达成IMF的支持协议。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:02:46",
-      "content": "【快讯】SHMET10月01日讯，国际货币基金组织：在极具挑战的环境中，阿根廷在恢复宏观经济稳定方面取得了显著进展。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:02:32",
-      "content": "【快讯】SHMET10月01日讯，国际货币基金组织：这一稳定对阿根廷至关重要，是其可持续增长的关键基础。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:02:22",
-      "content": "【快讯】SHMET10月01日讯，国际货币基金组织：能源冲击推动的通胀“尚未结束”。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:01:06",
-      "content": "【快讯】SHMET10月01日讯，国际货币基金组织：本组织与阿根廷一致认为，增强阿根廷韧性的工作仍需继续。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:00:46",
-      "content": "【快讯】SHMET10月01日讯，国际货币基金组织称，全球债券市场运作有序。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:00:10",
-      "content": "【快讯】SHMET10月01日讯，德国总理默茨：欧洲的和平与自由正面临俄罗斯暴力的威胁。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 22:58:15",
-      "content": "【快讯】SHMET10月01日讯，墨西哥主要股指下跌1%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 22:55:31",
-      "content": "【快讯】SHMET10月01日讯，埃塞俄比亚外交部：已决定关闭驻厄立特里亚阿斯马拉的大使馆。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 22:49:21",
-      "content": "【快讯】SHMET10月01日讯，欧元/瑞郎延续跌势，下跌1.1%至0.93634，创一个月低点。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 22:41:26",
-      "content": "【快讯】SHMET10月01日讯，德国国债继续上涨，德国两年期收益率下降10个基点至3.118%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 22:30:10",
-      "content": "【快讯】SHMET10月01日讯，美国至9月25日当周EIA天然气库存 640亿立方英尺，预期630亿立方英尺，前值530亿立方英尺。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 22:21:33",
-      "content": "【快讯】SHMET10月01日讯，美国至9月25日当周EIA天然气库存将于十分钟后公布。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 22:19:08",
-      "content": "【快讯】SHMET10月01日讯，标普500金融指数跌至自6月12日以来的最低点，最新下跌0.8%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 22:18:38",
-      "content": "【快讯】SHMET10月01日讯，德国两年期国债收益率延续下跌，目前跌近7个基点，约为3.12%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 22:17:55",
-      "content": "【快讯】SHMET10月01日讯，意大利与德国10年期国债收益率利差扩大10个基点至113个基点。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 22:13:26",
-      "content": "【美股光通信股盘中拉升 lumentum、Coherent涨超5%】SHMET10月01日讯，美股光通信股盘中拉升，lumentum、Coherent涨超5%，Tower半导体、AXT涨超4%，AAOI、Credo涨超3%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 22:08:56",
-      "content": "【快讯】SHMET10月01日讯，美国国债收益率继续上涨；10年期国债收益率最新上升4.72个基点，报5.34%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 22:06:09",
-      "content": "【快讯】SHMET10月01日讯，法德10年期国债收益率利差扩大8个基点至135个基点。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 22:01:44",
-      "content": "【快讯】SHMET10月01日讯，美国9月ISM库存指数 48.6，前值50.6。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 22:01:14",
-      "content": "【快讯】SHMET10月01日讯，美国9月ISM产出指数 56.7，前值58.3。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 22:00:56",
-      "content": "【快讯】SHMET10月01日讯，美国9月ISM新订单指数 55.3，前值53.7。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 22:00:43",
-      "content": "【快讯】SHMET10月01日讯，美国9月ISM制造业物价支付指数 77.9，预期72.3，前值71.1。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 22:00:38",
-      "content": "【快讯】SHMET10月01日讯，美国9月ISM就业指数 52.7，前值51.2。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 22:00:26",
-      "content": "【快讯】SHMET10月01日讯，美国9月ISM制造业PMI 54.5，预期55，前值54.6。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 21:58:29",
-      "content": "【快讯】SHMET10月01日讯，新加坡淡马锡北美负责人：我们对人工智能依然非常乐观。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 21:57:34",
-      "content": "【快讯】SHMET10月01日讯，惠誉表示，英国水务法案更新并未改变行业风险。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 21:55:05",
-      "content": "【美国9月制造业继续增长 PMI创三年多新高】SHMET10月01日讯，标普全球市场财智首席商业经济学家克里斯·威廉姆森表示：“9月份美国制造业增速再次加快，PMI为2022年5月以来的最高水平，新订单激增促使工厂大幅提高产量并增加就业人数。订单积压不断增加，供应商也日益繁忙，这表明产能已趋于紧张，企业正努力满足面向消费者和企业部门的需求。机械设备的投资和生产尤其如此，这在很多情况下与人工智能相关支出的增长有关。尽管出口订单持续下滑令人失望，但出于对价格和供应链的担忧，安全库存的增加也继续支撑着需求。尽管这为未来几个月制造业产能的进一步增长发出了令人鼓舞的信号，但需求超过供应的迹象也意味着通胀压力仍然是一个关键的担忧领域，尤其是在油价高企的情况下。经济增长加速、招聘增加和物价指标走高等因素，将加剧市场对美联储即将进一步加息的猜测。”",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 21:53:44",
-      "content": "【快讯】SHMET10月01日讯，监管机构称，巴西8月份石油和天然气产量为600.2万桶油当量/日。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 21:51:37",
-      "content": "【快讯】SHMET10月01日讯，布伦特原油期货涨幅扩大至3%，报100.99美元/桶。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 21:51:36",
-      "content": "【快讯】SHMET10月01日讯，美国9月ISM制造业PMI、8月营建支出月率将于十分钟后公布；美联储理事沃勒将于十分钟后发表讲话。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
