@@ -1,7 +1,775 @@
 {
   "source": "jin10 flash + shmet + shfe weekly stock",
-  "generated_at": "2026-10-01T17:09:56.283427+00:00",
+  "generated_at": "2026-10-01T19:01:53.789784+00:00",
   "jin10": [
+    {
+      "datetime": "2026-10-02 02:58:45",
+      "content": "据福克斯新闻：如果迪拜航班事件与伊朗有关联得到证实，以色列可能会做出回应。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:55:46",
+      "content": "土耳其央行：将资产超过5000亿里拉银行的冻结准备金率从40%下调至35%；将资产在1000亿至5000亿里拉之间银行的冻结准备金率从30%下调至15%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:53:40",
+      "content": "布伦特原油期货结算价为每桶102.31美元，上涨4.28美元，涨幅4.37%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:50:00",
+      "content": "美联储理事鲍曼将于十分钟后发表讲话。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:47:00",
+      "content": "【报道：伊朗外长私下提出“以核查换制裁松绑”】金十数据10月2日讯，据知情人士透露，伊朗外长阿拉格齐在纽约联合国大会期间与欧洲及中东外交官私下会谈时提出，伊朗愿允许核查人员重新进入遭轰炸的核设施，以换取制裁缓解，这一提议可能为陷入僵局的美伊谈判提供突破口。据知情外交官们分析，阿拉格齐提出的建议表明了伊朗经济所遭受的痛苦程度。据四位知情人士透露，阿拉格奇还敦促欧洲官员撤销联合国去年一项对伊朗重新实施全面制裁的决定，但欧洲官员迄今拒绝。伊朗总统佩泽希齐扬上周也公开表示，伊朗愿意让核查人员重新进入。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:41:54",
+      "content": "消息人士：联邦航空管理局将于周五召开董事会审查波音(BA.N)737 MAX软件问题。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:39:25",
+      "content": "美国能源部长赖特：中期选举后汽油和柴油价格将会下降。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:38:56",
+      "content": "美国总统特朗普：物价已经远低于拜登和民主党人留下的水平。这就是我赢得大选的原因，现在物价正在迅速下降。这是民主党的错，不是共和党的错——但我们正在解决这个问题！",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:37:58",
+      "content": "【也门胡塞武装称24小时内遭沙特空袭47次】金十数据10月2日讯，当地时间10月1日晚，也门胡塞武装发布声明称，过去24小时，沙特对胡塞武装控制区实施了47次空袭，目标覆盖塔伊兹省、萨达省等多地。自9月3日局势升级以来，沙特一共发动了1256次空袭和导弹袭击。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:35:44",
+      "content": "知情人士：伊朗外长在私下会谈中表示，伊朗愿意恢复核查人员进入被炸毁的核设施，以换取制裁的解除。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:32:20",
+      "content": "IBM(IBM.N)：推出IBM Bob自托管方案，加强AI自主管理和治理。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:30:23",
+      "content": "美国原油期货结算价为每桶92.87美元，上涨2.45美元，涨幅2.71%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:30:21",
+      "content": "美国能源部长赖特：我认为我们会有一些积极的消息。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:30:16",
+      "content": "美国能源部长赖特：欧洲可以帮助改善局势，我对此非常有信心。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:30:11",
+      "content": "据福克斯新闻：美国能源部长赖特表示一定会要求欧洲释放战略柴油储备。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:28:21",
+      "content": "【卡什卡利：预计美联储还需加息 但不确定10月是否行动】金十数据10月2日讯，明尼阿波利斯联储主席卡什卡利表示，预计为抑制经济和通胀，美联储仍需进一步加息，但对是否应在10月会议行动没有强烈看法。他此前的预测是今年再加息25个基点、2027年再加息一次，但9月会议以来美国经济表现强于其预期，而通胀仍然过高；如果经济持续异常强劲、通胀比预想更顽固，利率可能需要升至比目前预期更高的水平。卡什卡利认为，目前劳动力市场健康、经济表现良好，说明货币政策“可能并不特别具有限制性”。他同时表示，近期市场波动尚未出现系统性风险，美债市场也能够正常消化利率重新定价。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:27:00",
+      "content": "土耳其央行：已下调冻结账户中维持土耳其里拉（TRY）法定准备金的比例。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:25:35",
+      "content": "软银集团：截至9月30日，已取消3月27日与OpenAI签订的过桥融资协议项下剩余100亿美元未提取额度。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:25:11",
+      "content": "软银集团：过桥融资协议项下的所有借款均已偿还，且已无任何未提取的承诺额度。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:23:58",
+      "content": "土耳其央行：将中小企业贷款增长上限从4.5%提高至5%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:23:50",
+      "content": "俄罗斯总统普京：俄罗斯准备进行谈判，并尽快结束，但必须在俄罗斯人民可接受的条件下进行。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:23:02",
+      "content": "【据悉英伟达、软银完成对OpenAI最后200亿美元投资】金十数据10月2日讯，据The Information援引知情人士及软银声明报道，英伟达(NVDA.O)和软银已分别完成对OpenAI上一轮融资最后一笔100亿美元投资，完成各自300亿美元的投资承诺。OpenAI今年3月披露，该轮融资获得1220亿美元投资承诺，投后估值8520亿美元；亚马逊(AMZN.O)此前承诺最多投资500亿美元，并已于7月完成全部投资。随着上一轮融资收官，OpenAI或为下一轮私募融资铺路，目标融资约300亿美元，估值可能达到约1.4万亿美元。软银表示，完成最新投资后，其对OpenAI累计投资达到646亿美元，持股比例约13%；最后一笔投资资金部分来自软银9月底完成的111亿美元高收益债券发行。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:22:04",
+      "content": "俄罗斯总统普京：俄罗斯需要关于乌克兰的安全保障。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:21:57",
+      "content": "沙特阿拉伯方面表示，已与阿联酋安全团队就迪拜航空事件进行初步调查。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:20:23",
+      "content": "美联储副主席杰斐逊：美联储对私人信贷发展没有深入的洞察。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:18:40",
+      "content": "据The Information：英伟达(NVDA.O)与软银已分别就其对OpenAI上一轮融资各300亿美元的承诺，完成各自最后一笔100亿美元投资。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:13:39",
+      "content": "美联储副主席杰斐逊：很难说人工智能对自然利率估计的影响有多大。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:13:34",
+      "content": "俄罗斯总统普京：俄罗斯希望尽快通过和平谈判结束一切。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:13:25",
+      "content": "俄罗斯总统普京：俄罗斯在乌克兰控制了1,301平方公里的领土。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:12:29",
+      "content": "俄罗斯总统普京：乌克兰中立是俄罗斯的目标之一。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:11:13",
+      "content": "美国法官裁定恢复被美国总统特朗普在西雅图解雇的法院指定首席联邦检察官职务。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:09:06",
+      "content": "美联储副主席杰斐逊：鼓励负责任的人工智能发展。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:08:56",
+      "content": "Anthropic：推出Mods，可通过小型TypeScript函数自定义Claude Code的运行方式。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:08:18",
+      "content": "沙特内政部：机长和副驾驶在周四早晨获得医疗许可后前往阿布扎比。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:08:02",
+      "content": "波兰总统：签署了对能源公司的意外税法案。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:07:56",
+      "content": "美联储副主席杰斐逊：人工智能可能会在未来带来显著的生产力提升。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:07:52",
+      "content": "沙特内政部：初步调查显示，迪拜航空的副驾驶袭击了机长。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:03:32",
+      "content": "美联储副主席杰斐逊：美联储的双重使命蕴含着深刻的智慧。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:03:10",
+      "content": "【美国财政部10至20年期美债回购达60亿美元上限】金十数据10月2日讯，美国财政部：在10月1日进行了价值60亿美元的10至20年期美国国债流动性回购操作。10至20年期买回操作共收到463.9亿美元投标。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:02:15",
+      "content": "【特朗普：一夜之间消除了伊朗核威胁】金十数据10月2日讯，美国总统特朗普：我曾多次说过，消除伊朗核威胁需要4到6周时间，而我只用了一夜就做到了！剩下的时间只是为了确保这种情况持续下去。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:58:12",
+      "content": "以色列财政部长：已拨款用于接回因航班取消而滞留在迪拜的以色列公民。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:56:29",
+      "content": "布伦特原油日内涨超4%，现报101.53美元/桶；WTI原油站上92美元/桶，日内涨2.87%。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:55:54",
+      "content": "【美媒：美军向中东增派第三艘航母及最多1万名士兵】金十数据10月2日讯，据华尔街日报援引美国官员报道，五角大楼正向中东派遣第三个航母战斗群及更多海军陆战队两栖舰艇，预计新增约9000至1万名美军，相关舰艇、战机和人员将在11月底前抵达。目前“乔治·H·W·布什”号和“乔治·华盛顿”号航母已部署中东，“西奥多·罗斯福”号航母日前从圣迭戈启程，“马金岛”号两栖戒备群也已出发；若“乔治·华盛顿”号届时仍留在当地，美军将在中东同时部署三个航母战斗群，为4月以来首次。此外，美军近期还延长了防空部队及陆军第82空降师等部队的部署。目前中东已有超过5万名美军和约20艘美国海军舰艇。报道称，此次增兵之际，美国总统特朗普正考虑若美伊未能达成协议，在中期选举后恢复对伊朗的军事打击；第三艘航母若继续留在当地，将为美方提供更多军事选项和火力。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:53:44",
+      "content": "美联储副主席杰斐逊：美联储坚定致力于及时将通胀率恢复至2%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:53:38",
+      "content": "美联储副主席杰斐逊：美联储必须做好必要的工作，以验证通胀预期。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:53:34",
+      "content": "美联储副主席杰斐逊：通货膨胀是由一系列冲击引起的。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:53:17",
+      "content": "美联储副主席杰斐逊：长期通胀预期显示美联储在降低通胀方面具有可信度。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:51:33",
+      "content": "据华尔街日报：据美国官员称，五角大楼将向中东派遣第三个航空母舰打击群和更多海军陆战队舰艇，向该地区增派9000至10000名士兵。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:50:23",
+      "content": "【美联储副主席杰斐逊：判断是否进一步加息可能需要更多时间】金十数据10月2日讯，美联储副主席菲利普·杰斐逊表示，通胀已经过高太久，且仍存在持续高企的风险，但决策者可能需要更多时间判断是否有必要进一步加息。未来任何政策调整都应仔细评估数据趋势、经济前景变化和风险平衡。杰斐逊指出，美国经济活动和劳动力市场仍然稳健，但能源价格上涨、AI投资热潮和关税等多重冲击正在影响经济，制定政策时不能孤立看待这些因素。他还表示，自9月会议以来，各期限美债收益率进一步上升，显示投资者正在重新评估宏观经济形势；随着更多数据出炉，美联储将继续判断通胀能否以足够快的速度回到目标水平，以及什么样的货币政策立场最为合适。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:46:48",
+      "content": "美联储卡什卡利：市场通胀预期仍锚定在2%左右。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:46:44",
+      "content": "美联储卡什卡利：即使收益率上升，美国国债市场仍运行正常。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:46:35",
+      "content": "美联储卡什卡利：没有看到金融体系存在系统性风险的迹象。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:46:30",
+      "content": "美联储卡什卡利：供应冲击应该会逐渐消退，加息旨在抑制价格预期。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:46:19",
+      "content": "美联储卡什卡利：取决于经济表现，美联储可能需要比预期加息更多。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:45:57",
+      "content": "美联储卡什卡利：自美联储9月政策会议以来，经济表现好于预期。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:45:48",
+      "content": "美联储卡什卡利：市场目前认为，美联储主席沃什将采取行动压低通胀。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:45:38",
+      "content": "美联储卡什卡利：对通胀将会回落有一定信心，但冲击仍在不断发生。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:45:30",
+      "content": "美联储卡什卡利：美联储9月加息表明，央行将采取行动降低通胀。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:45:17",
+      "content": "美联储卡什卡利：从目前数据来看，金融条件并未出现明显收紧。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:45:13",
+      "content": "美联储卡什卡利：目前货币政策并没有形成太大的限制作用。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:44:50",
+      "content": "美联储卡什卡利：对于10月是否加息，我没有强烈看法；对于美联储应该以多快的速度加息，持开放态度。我9月的利率预测是今年再加息一次，2027年再加息一次。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:42:11",
+      "content": "【Anthropic据悉最快11月中旬启动IPO】金十数据10月2日讯，据知情人士透露，Anthropic正寻求最快于11月中旬上市，此前公司曾推迟IPO计划。Anthropic最早可能在11月9日当周正式启动IPO推介，从而有望在11月26日感恩节前开始交易，目前仍预计最迟于今年年底完成上市，但具体时间仍可能调整。尽管近期AI安全事件及市场对AI模型风险的关注升温，潜在投资者的兴趣似乎并未明显减弱，部分人士认为Anthropic合理估值约为1.8万亿至2万亿美元，公司预计IPO规模可能追平甚至超过SpaceX此前创下的纪录。财务方面，Anthropic2025年营收约46亿美元，高于2024年的3.86亿美元，但全年净亏损接近420亿美元，其中超过340亿美元来自负债公允价值变动，经营亏损则超过80亿美元。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:39:47",
+      "content": "【“美联储传声筒”：杰斐逊暗示再次加息前或需更多时间】金十数据10月2日讯，“美联储传声筒”尼克·蒂米劳斯称，美联储副主席杰斐逊暗示，官员们在再次加息前可能希望等待更长时间，这与纽约联储主席约翰·威廉姆斯的表态相呼应。美联储两位最高层官员如今都在含蓄地对10月加息提出质疑，而就在几天前，投资者还在不断提高对10月加息的押注。杰斐逊在讲话中表示：“展望未来，我认为，今后任何政策调整都应通过仔细研判数据趋势、不断变化的经济前景以及风险平衡来决定。自9月会议以来，各期限收益率进一步上升，这表明投资者正在重新评估不断变化的宏观经济形势。我和同事们需要作出自己的判断，而这可能需要更多时间。我将继续评估潜在趋势是否表明通胀能够以足够快的速度回到目标水平。随着掌握更多数据，我们或许能更清楚地判断这些趋势，以及什么样的货币政策立场才是合适的。”",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:36:52",
+      "content": "沙特国防部长：与美国国防部长讨论了“协调双方努力以加强地区安全与稳定”。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:36:10",
+      "content": "美国2年期国债收益率短暂触及9月22日以来最低水平，最新下跌12.68个基点，报4.7640%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:35:08",
+      "content": "沙特国防部长：已与美国国防部长通电话。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:32:13",
+      "content": "美联储副主席杰斐逊：预计失业率将在今年年底保持稳定。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:32:05",
+      "content": "美联储副主席杰斐逊：仍然预计长期内通胀压力将减轻。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:31:58",
+      "content": "美联储副主席杰斐逊：担心高通胀可能会影响预期。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:31:51",
+      "content": "美联储副主席杰斐逊：通胀仍高于目标，存在上行风险。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:31:44",
+      "content": "美联储副主席杰斐逊：权衡更多数据将使美联储在利率决策上做出更好的判断。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:31:40",
+      "content": "美联储副主席杰斐逊：九月的加息将有助于稳定通胀预期。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:31:33",
+      "content": "美联储副主席杰斐逊：债券收益率显示市场参与者重新审视前景。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:31:27",
+      "content": "美联储副主席杰斐逊：经济产出和就业市场总体稳健。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:31:07",
+      "content": "美联储副主席杰斐逊：美联储“可能需要更多时间”来决定下次加息举措。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:30:43",
+      "content": "美联储副主席杰斐逊：美联储全力致力于将通胀率恢复至2%的目标。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:30:37",
+      "content": "美联储副主席杰斐逊：未来美联储利率变动应以数据为依据。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:29:01",
+      "content": "消息人士：Anthropic计划在感恩节假期前进行超大规模IPO，而且最早可能在11月9日当周启动IPO营销。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:27:23",
+      "content": "【涉空军基地袭击事件 英国警方拘捕一名英伊双重国籍男子】金十数据10月2日讯，英国反恐警察当地时间10月1日表示，一名27岁的英国与伊朗双重国籍男子因涉嫌准备实施恐怖主义行为被捕。警方称，此次逮捕与英国皇家空军费尔福德基地附近日前发生的重大安全事件有关。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:25:42",
+      "content": "【埃塞关闭驻厄特大使馆 驱逐10名厄特外交官】金十数据10月2日讯，埃塞俄比亚外交部1日发布声明，宣布关闭其在厄立特里亚首都阿斯马拉的大使馆，并将10名厄立特里亚驻埃塞外交官列为“不受欢迎的人”，要求其在48小时内离境。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:22:33",
+      "content": "美国国务院：美国国务卿鲁比奥将访问冰岛雷克雅未克、希腊雅典和葡萄牙里斯本。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:22:03",
+      "content": "消息人士：英国宇航系统公司（BAE）考虑竞购Robin雷达，交易金额可能达23亿美元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:20:00",
+      "content": "美联储副主席杰斐逊将于十分钟后发表讲话。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:19:32",
+      "content": "费城半导体指数涨至盘中高点，现涨1.18%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:18:14",
+      "content": "欧元兑美元EUR/USD日内跌幅达1.00%，现报1.1215。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:17:45",
+      "content": "加州总检察长：我办公室正在就涉及OpenAI公司及其AI模型的网络安全事件与风险，向OpenAI提出进一步质询。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:17:29",
+      "content": "美联储在固定利率逆回购操作中总计接纳了1个对手方的3.5亿美元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:16:52",
+      "content": "加州总检察长：就网络安全事件向OpenAI送达调查传票。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:16:29",
+      "content": "俄罗斯总统普京：在有利情形下，他们或许能拿回这些（东西）。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:14:53",
+      "content": "俄罗斯总统普京：包括德国在内的一些欧洲国家查封俄罗斯资产，我们会以同样的方式回应。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:14:32",
+      "content": "俄罗斯总统普京：（关于西方公司在俄资产管理）我们并不打算国有化任何东西。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:13:44",
+      "content": "俄罗斯总统普京：俄罗斯与欧盟对话没有任何前提条件。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:13:37",
+      "content": "俄罗斯总统普京：俄罗斯愿与欧洲对话。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:13:13",
+      "content": "据胡塞武装控制的萨巴通讯社：军事消息人士否认胡塞武装袭击沙特阿拉伯麦地那的电站。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:12:39",
+      "content": "据相关备忘录：美国邮政服务局宣布一系列措施以加快选票处理，包括在选举日前延长零售网点营业时间。美国邮政局可能在繁忙的零售地点设立自取投票选票选项。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 01:11:21",
+      "content": "俄罗斯总统普京：俄罗斯已准备好就军控问题与美国恢复对话。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
     {
       "datetime": "2026-10-02 01:08:11",
       "content": "丰田北美：在密歇根州萨林市启用北美丰田电池中心。",
@@ -497,732 +1265,164 @@
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
-    },
-    {
-      "datetime": "2026-10-02 00:11:46",
-      "content": "瑞士政府：瑞士央行将从2026财年起将准备金的最低分配比例从10%下调至8%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 00:10:12",
-      "content": "俄罗斯总统普京：军事演习和对俄罗斯船只的逮捕是升级行为。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 00:09:40",
-      "content": "瑞士政府：联邦财政部与瑞士央行签署了关于瑞士央行2026年至2030年利润分配的协议。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 00:09:28",
-      "content": "俄罗斯总统普京：（关于加里宁格勒的威胁）我们并不吓唬任何人。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 00:08:32",
-      "content": "俄罗斯国防部：俄罗斯联邦武装力量继续对支援乌克兰武装力量的船只实施打击。白天，一架无人机在黑海击中了一艘为乌军运送军事物资的干货船。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 00:07:25",
-      "content": "意大利与德国2年期国债收益率利差创2020年以来最大扩幅。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 00:07:01",
-      "content": "市场消息：叙利亚方面否认有关叙利亚和真主党代表在土耳其秘密会晤的说法。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 00:04:42",
-      "content": "葡萄牙汽车协会（ACAP）：葡萄牙9月份特斯拉(TSLA.O)新车注册量同比增长128.3%，1月至9月累计增长59.4%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 00:02:25",
-      "content": "乌克兰总统泽连斯基：乌克兰首次在战斗中部署FP-7战术弹道导弹。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 00:01:29",
-      "content": "两名欧盟外交官表示，欧盟能源联盟工作组将于周五召开会议，讨论潜在的柴油库存释放。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 00:00:48",
-      "content": "房利美：美国30年期固定利率抵押贷款在10月第一周的平均利率为7.28%，为2023年11月22日以来的最高水平，较前一周的7.03%上升。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 00:00:00",
-      "content": "【今日重点关注的财经数据与事件：2026年10月2日 周五】\n①01:30 美联储副主席杰斐逊发表讲话\n②03:00 美联储理事鲍曼发表讲话\n③03:30 美联储威廉姆斯主持讨论\n④06:45 美联储洛根发表讲话\n⑤07:30 日本8月失业率\n⑥17:00 欧元区9月CPI年率初值\n⑦17:00 欧元区9月CPI月率初值\n⑧20:30 美国9月失业率\n⑨20:30 美国9月季调后非农就业人口\n⑩20:30 美国9月平均每小时工资年率\n⑪20:30 美国9月平均每小时工资月率\n⑫22:00 美国8月工厂订单月率\n⑬22:00 美联储洛根为会议致辞\n⑭次日01:00 美国至10月2日当周石油钻井总数",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:54:20",
-      "content": "俄罗斯总统普京：世界需要再次提出关于武装冲突规则的问题。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:44:43",
-      "content": "市场不再完全预期到2027年底前英国央行将加息4次。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:43:58",
-      "content": "乌克兰总统泽连斯基报告称，乌克兰国产弹道导弹FP-7首次投入实战。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:41:26",
-      "content": "知情人士透露，德国政府将2027年经济增长预测上调至1.1%，高于4月份预测的0.9%。预计2028年经济增长0.6%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:40:51",
-      "content": "知情人士透露，德国政府将2026年经济增长预测上调至1.3%，高于4月份预测的0.5%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:40:32",
-      "content": "金十图示：2026年10月01日（周四）全球股市指数-欧洲市场",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:38:38",
-      "content": "市场减少对欧洲央行加息的押注，不再完全定价三次加息的情景。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:37:13",
-      "content": "德国DAX30指数10月1日（周四）收盘下跌260.07点，跌幅1.03%，报24939.12点；\n英国富时100指数10月1日（周四）收盘下跌183.64点，跌幅1.73%，报10422.36点；\n法国CAC40指数10月1日（周四）收盘下跌129.20点，跌幅1.62%，报7835.31点；\n欧洲斯托克50指数10月1日（周四）收盘下跌97.47点，跌幅1.55%，报6171.55点；\n西班牙IBEX35指数10月1日（周四）收盘下跌442.06点，跌幅2.28%，报18984.14点；\n意大利富时MIB指数10月1日（周四）收盘下跌1153.48点，跌幅2.25%，报50218.50点。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:37:08",
-      "content": "巴西雷亚尔、墨西哥比索和智利比索兑美元均跌超1%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:32:46",
-      "content": "美国至10月1日8周国债竞拍-投标倍数 2.7，前值2.76。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:32:37",
-      "content": "美国至10月1日8周国债竞拍-得标利率配置百分比 65.05%，前值23.84%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:32:29",
-      "content": "美国至10月1日8周国债竞拍-得标利率 3.99%，前值3.99%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:32:06",
-      "content": "美国至10月1日4周国债竞拍-投标倍数 2.83，前值2.61。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:32:06",
-      "content": "美国至10月1日4周国债竞拍-得标利率配置百分比 23.52%，前值54.97%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:32:06",
-      "content": "美国至10月1日4周国债竞拍-得标利率 3.89%，前值3.85%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:30:45",
-      "content": "金十数据10月1日讯，美元指数DXY站上102关口，创去年4月以来新高。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:27:30",
-      "content": "美国航空航天局（NASA）：SpaceX(SPCX.O)载人飞船已进入轨道，正在前往国际空间站。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:27:00",
-      "content": "欧元三个月隐含期权波动率达到6.45%，为4月13日以来最高水平。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:26:41",
-      "content": "【美国国债收益率下行】金十数据10月1日讯，美国2年期国债收益率日内下跌7.28个基点，报4.814%。10年期收益率下跌2.07个基点，报5.272%。20年期收益率跌1.19个基点，报5.674%。30年期国债收益率下跌0.58个基点，报5.633%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:24:18",
-      "content": "俄罗斯总统普京：西方在世界上的真实影响力正在下降。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:21:32",
-      "content": "据悉美国联邦住房金融署（FHFA）署长普尔特的预算削减将影响该机构多达80%的监管人员。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:19:27",
-      "content": "德国总理默茨：我们正在为俄罗斯的重大混合攻击做准备，我们将迅速而明确地作出回应。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:19:06",
-      "content": "俄罗斯总统普京：我们相信，随着西方霸权的减弱，局势将会有所改善。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:18:56",
-      "content": "俄罗斯总统普京：国际冲突的持续是很有可能的。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:18:21",
-      "content": "本田9月美国销量为121,796辆，环比增长15.9%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:17:22",
-      "content": "俄罗斯总统普京：技术可能导致全球毁灭。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:16:17",
-      "content": "德国总理默茨：俄罗斯正试图分裂并削弱德国。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:15:55",
-      "content": "俄罗斯总统普京：世界正处于发展转折点。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:15:52",
-      "content": "俄罗斯总统普京：我们必须思考如何维护全球安全，必须考虑如何避免灾难性局面。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:15:16",
-      "content": "美国两年期国债收益率短暂触及一周以来最低水平，最后下跌6.03个基点，报4.827%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:12:26",
-      "content": "SpaceX(SPCX.O)执行第13次龙飞船长期任务，将四名宇航员送往国际空间站，为NASA执行任务。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:11:03",
-      "content": "布伦特原油继续走高，站上101美元/桶，日内涨3.60%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:10:47",
-      "content": "加拿大总理卡尼：新管道将减少对美国石油出口的依赖；计划扩建罗伯茨港终端以增加原油出口。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:09:25",
-      "content": "德国总理默茨：德国极右翼政党AFD得到了俄罗斯的支持。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:07:50",
-      "content": "加拿大总理卡尼：管道项目将创造14万个就业岗位，每年为GDP贡献超过200亿加元，并在2060年前为政府带来1000亿加元收入。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:07:28",
-      "content": "加拿大总理卡尼：加拿大将把拟建的西海岸石油管道定为国家利益项目。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:05:26",
-      "content": "微软(MSFT.O)宣布LinkedIn执行副总裁Roslansky将在年底前离职，Dan Shapero将继续担任LinkedIn首席执行官。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:05:04",
-      "content": "法国10年期国债收益率较同类互换利率高出创纪录的126个基点。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:04:00",
-      "content": "柴油、罢工、事故接连出现，但铜价为何每次冲高之后，都没能顺利走出大行情？市场一直鼓吹的短缺故事，究竟还缺了哪一环？这篇帮你找到下个点燃新高的火把会在哪>>",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:03:49",
-      "content": "国际货币基金组织：乌克兰的融资缺口规模取决于战争、改革、经济发展以及国际伙伴的支持。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:03:29",
-      "content": "美国财政部：将于10月1日开展流动性回购操作，最多回购60亿美元期限10-20年的国债。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:02:13",
-      "content": "国际货币基金组织：黎巴嫩需在关键改革上持续取得进展，以达成IMF的支持协议。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:01:48",
-      "content": "国际货币基金组织：这一稳定对阿根廷至关重要，是其可持续增长的关键基础。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:01:35",
-      "content": "国际货币基金组织：在极具挑战的环境中，阿根廷在恢复宏观经济稳定方面取得了显著进展。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:01:12",
-      "content": "国际货币基金组织：能源冲击推动的通胀“尚未结束”。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:01:03",
-      "content": "国际货币基金组织：本组织与阿根廷一致认为，增强阿根廷韧性的工作仍需继续。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 23:00:12",
-      "content": "国际货币基金组织：全球债券市场运作有序。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 22:58:37",
-      "content": "德国总理默茨：欧洲的和平与自由正面临俄罗斯暴力的威胁。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 22:56:14",
-      "content": "叙利亚外交部：我们拒绝将黎巴嫩与叙利亚的关系卷入缺乏准确依据的叙事之中。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 22:54:24",
-      "content": "埃塞俄比亚外交部：已决定关闭驻厄立特里亚阿斯马拉的大使馆。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 22:40:29",
-      "content": "德国国债继续上涨，德国两年期收益率下降10个基点至3.118%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 22:30:16",
-      "content": "EIA天然气报告：截至9月25日当周，美国天然气库存总量为34150亿立方英尺，较此前一周增加640亿立方英尺，较去年同期减少1380亿立方英尺，同比降幅3.9%，同时较5年均值高790亿立方英尺，增幅2.4%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 22:30:03",
-      "content": "美国至9月25日当周EIA天然气库存 640亿立方英尺，预期630亿立方英尺，前值530亿立方英尺。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 22:27:33",
-      "content": "标普500软件与服务指数创下10个月以来新高，最新上涨1.8%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 22:23:02",
-      "content": "Meta Platforms(META.O)：推出雷朋Meta音频眼镜，发布适用于AI眼镜的Muse AI智能体。未来几个月，将把Muse引入我们的AI眼镜。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 22:21:09",
-      "content": "信件显示，美国国务院以埃及在伊朗冲突以来的“有益作用”为由，豁免了对埃及军事援助的人权条件。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 22:20:00",
-      "content": "美国至9月25日当周EIA天然气库存将于十分钟后公布。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 22:17:46",
-      "content": "标普500金融指数跌至自6月12日以来的最低点，最新下跌0.8%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 22:17:32",
-      "content": "意大利与德国10年期国债收益率利差扩大10个基点至113个基点。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 22:17:18",
-      "content": "德国两年期国债收益率延续下跌，目前跌近7个基点，约为3.12%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 22:06:31",
-      "content": "美国国债收益率继续上涨；10年期国债收益率最新上升4.72个基点，报5.34%，创2002年4月以来新高。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 22:01:28",
-      "content": "金十图示：2026年10月01日（周四）全球股市指数-美洲市场（盘初）",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 22:01:13",
-      "content": "美国9月ISM产出指数 56.7，前值58.3。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 22:01:07",
-      "content": "美国9月ISM库存指数 48.6，前值50.6。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 22:00:02",
-      "content": "美国8月营建支出月率 0.9%，预期0%，前值-0.50%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 22:00:02",
-      "content": "美国9月ISM新订单指数 55.3，前值53.7。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 22:00:02",
-      "content": "美国9月ISM制造业物价支付指数 77.9，预期72.3，前值71.1。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 22:00:02",
-      "content": "美国9月ISM就业指数 52.7，前值51.2。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-01 22:00:02",
-      "content": "美国9月ISM制造业PMI 54.5，预期55，前值54.6。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
     }
   ],
   "shmet": [
     {
-      "datetime": "2026-10-02 01:03:44",
-      "content": "【快讯】SHMET10月02日讯，意大利财政部：九月份国家部门预算赤字为270亿欧元。",
+      "datetime": "2026-10-02 02:57:56",
+      "content": "【快讯】SHMET10月02日讯，土耳其央行：将资产超过5000亿里拉银行的冻结准备金率从40%下调至35%；将资产在1000亿至5000亿里拉之间银行的冻结准备金率从30%下调至15%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:51:56",
+      "content": "【快讯】SHMET10月02日讯，美联储理事鲍曼将于十分钟后发表讲话。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-02 01:02:10",
-      "content": "【快讯】SHMET10月02日讯，美联储：9月30日当周，美国季调后商业票据未偿余额减少552亿美元；美国非季调商业票据未偿余额减少506亿美元；美国非季调外国金融商业票据未偿余额减少22亿美元。",
+      "datetime": "2026-10-02 02:48:58",
+      "content": "【报道：伊朗外长私下提出“以核查换制裁松绑”】SHMET10月02日讯，据知情人士透露，伊朗外长阿拉格齐在纽约联合国大会期间与欧洲及中东外交官私下会谈时提出，伊朗愿允许核查人员重新进入遭轰炸的核设施，以换取制裁缓解，这一提议可能为陷入僵局的美伊谈判提供突破口。据知情外交官们分析，阿拉格齐提出的建议表明了伊朗经济所遭受的痛苦程度。据四位知情人士透露，阿拉格奇还敦促欧洲官员撤销联合国去年一项对伊朗重新实施全面制裁的决定，但欧洲官员迄今拒绝。伊朗总统佩泽希齐扬上周也公开表示，伊朗愿意让核查人员重新进入。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-02 00:56:56",
-      "content": "【快讯】SHMET10月02日讯，纳斯达克中国金龙指数扩大跌幅至1%。",
+      "datetime": "2026-10-02 02:39:58",
+      "content": "【快讯】SHMET10月02日讯，美国总统特朗普：物价已经远低于拜登和民主党人留下的水平。这就是我赢得大选的原因，现在物价正在迅速下降。这是民主党的错，不是共和党的错——但我们正在解决这个问题！",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-02 00:52:49",
-      "content": "【快讯】SHMET10月02日讯，俄罗斯总统普京：我们感谢美国第一夫人对人道主义领域所作的努力。",
+      "datetime": "2026-10-02 02:37:38",
+      "content": "【快讯】SHMET10月02日讯，知情人士：伊朗外长在私下会谈中表示，伊朗愿意恢复核查人员进入被炸毁的核设施，以换取制裁的解除。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-02 00:52:37",
-      "content": "【快讯】SHMET10月02日讯，特朗普谈伊朗称，“现在我必须做出决定，要么伊朗签署协议，要么它将不复存在。”",
+      "datetime": "2026-10-02 02:33:24",
+      "content": "【快讯】SHMET10月02日讯，IBM(IBM.N)：推出IBM Bob自托管方案，加强AI自主管理和治理。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-02 00:51:08",
-      "content": "【快讯】SHMET10月02日讯，美国总统特朗普：利率可能拖慢增长。我们要的是增长，而增长不会引发通胀。",
+      "datetime": "2026-10-02 02:31:32",
+      "content": "【快讯】SHMET10月02日讯，国际原油期货结算价收涨。WTI原油期货11月合约涨2.71%，报92.87美元/桶。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-02 00:50:35",
-      "content": "【快讯】SHMET10月02日讯，俄罗斯总统普京：日本企业仍在俄罗斯运营，我们支持它们，也支持任何与俄罗斯开展合作的一方。",
+      "datetime": "2026-10-02 02:30:55",
+      "content": "【快讯】SHMET10月02日讯，美国能源部长赖特：我认为我们会有一些积极的消息。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-02 00:46:03",
-      "content": "【快讯】SHMET10月02日讯，美国总统特朗普：我接手拜登时期历史上最严重的通货膨胀，现在我们已经控制住了。",
+      "datetime": "2026-10-02 02:30:18",
+      "content": "【快讯】SHMET10月02日讯，美国能源部长赖特：欧洲可以帮助改善局势，我对此非常有信心。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-02 00:43:51",
-      "content": "【快讯】SHMET10月02日讯，美国总统特朗普在被问及是否在拉美建立基地时表示正在考虑此事。",
+      "datetime": "2026-10-02 02:28:41",
+      "content": "【快讯】SHMET10月02日讯，土耳其央行：已下调冻结账户中维持土耳其里拉（TRY）法定准备金的比例。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:25:32",
+      "content": "【快讯】SHMET10月02日讯，土耳其央行：将中小企业贷款增长上限从4.5%提高至5%。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-02 00:43:26",
-      "content": "【快讯】SHMET10月02日讯，美国总统特朗普：（关于伊拉克）我永远不会抛弃我们的盟友。",
+      "datetime": "2026-10-02 02:24:52",
+      "content": "【快讯】SHMET10月02日讯，俄罗斯总统普京：俄罗斯准备进行谈判，并尽快结束，但必须在俄罗斯人民可接受的条件下进行。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:22:44",
+      "content": "【快讯】SHMET10月02日讯，沙特阿拉伯方面表示，已与阿联酋安全团队就迪拜航空事件进行初步调查。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:21:40",
+      "content": "【快讯】SHMET10月02日讯，美联储副主席杰斐逊：美联储对私人信贷发展没有深入的洞察。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:19:45",
+      "content": "【快讯】SHMET10月02日讯，据报道，Authentic讨论以每股逾20美元价格收购美泰公司。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:15:15",
+      "content": "【快讯】SHMET10月02日讯，美联储副主席杰斐逊：很难说人工智能对自然利率估计的影响有多大。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:14:17",
+      "content": "【快讯】SHMET10月02日讯，俄罗斯总统普京：俄罗斯希望尽快通过和平谈判结束一切。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:12:33",
+      "content": "【快讯】SHMET10月02日讯，美国法官裁定恢复被美国总统特朗普在西雅图解雇的法院指定首席联邦检察官职务。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:10:02",
+      "content": "【快讯】SHMET10月02日讯，美联储副主席杰斐逊：鼓励负责任的人工智能发展。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-02 02:08:44",
+      "content": "【快讯】SHMET10月02日讯，美联储副主席杰斐逊：人工智能可能会在未来带来显著的生产力提升。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
