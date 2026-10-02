@@ -1,7 +1,71 @@
 {
   "source": "jin10 flash + shmet + shfe weekly stock",
-  "generated_at": "2026-10-02T16:02:39.445333+00:00",
+  "generated_at": "2026-10-02T16:24:00.779180+00:00",
   "jin10": [
+    {
+      "datetime": "2026-10-03 00:20:28",
+      "content": "【联合国：中东局势或致全球新增2200万人面临粮食不安全】金十数据10月3日讯，当地时间10月2日，联合国妇女署发布报告称，中东地区局势持续紧张导致霍尔木兹海峡航运受阻，推高全球食品价格，并对民众生计造成压力。报告预计，到2026年年底，全球可能新增约2200万人面临粮食不安全状况，其中约53%、即1170万人是女性。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 00:16:26",
+      "content": "消息人士：加拿大和土耳其贸易部长本周达成一致，加快贸易谈判进程。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 00:16:05",
+      "content": "加拿大总理卡尼将成为首位专门访问土耳其的加拿大领导人。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 00:15:33",
+      "content": "【地区和西方官员称沙特拟进攻胡塞武装 夺回曼德海峡控制权】金十数据10月3日讯，据路透社援引地区和西方官员报道，沙特阿拉伯正计划对伊朗支持的胡塞武装发动军事行动，以打破其对红海航运通道的控制。知情人士透露，沙特考虑两种方案，包括针对曼德海峡周边地区的有限攻势，或在拜达、马里卜、塔伊兹和焦夫等多个省份同时展开行动。行动预计将在未来数周启动，由沙特支持的也门地面部队主导，沙特提供空中支援；根据行动规模，可能动员超过10万名也门部队。报道称，胡塞武装上月沿海推进并控制曼德海峡后，沙特认为在胡塞仍掌控这一关键航道的情况下，难以重新展开和平谈判。美国目前向沙特提供情报和目标信息支持，但预计不会直接参与作战；土耳其、巴基斯坦则提供防空系统、无人机等军事装备。报道指出，沙特面临的主要挑战是整合此前由沙特和阿联酋支持的分散也门反胡塞力量，并防范胡塞对沙特石油设施等目标的导弹和无人机袭击。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 00:10:31",
+      "content": "【俄称打击乌基础设施 乌称袭击俄炼油厂】金十数据10月3日讯，俄罗斯国防部10月2日通报称，俄军当天凌晨打击了为乌军服务的基础设施和海上船只。通报说，俄军打击了乌南部敖德萨州伊兹梅尔港一处接收、储存、运输军用物资和燃料的设施。俄军还打击了一艘运送乌军军用物资的干货船、一座为乌军提供后勤保障的公路铁路桥，以及基辅州一座变电站。过去24小时，俄军还控制了哈尔科夫和苏梅地区的三个居民点。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 00:08:43",
+      "content": "谷歌(GOOG.O)将入门款Pixel 10A手机价格上调100美元，至599美元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 00:07:37",
+      "content": "据西方和地区官员透露，沙特计划对胡塞武装发动进攻，以打破其对红海航道的封锁。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 00:05:50",
+      "content": "美洲国家组织通过决议，呼吁尼加拉瓜恢复公民自由并释放政治犯。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
     {
       "datetime": "2026-10-03 00:01:19",
       "content": "俄罗斯第二季度GDP最终数据同比增长1.3%，与初值一致，均为1.3%。",
@@ -476,7 +540,7 @@
     },
     {
       "datetime": "2026-10-02 21:54:48",
-      "content": "美国白宫国家经济委员会主任哈塞特：凯文·沃什还得应付鲍威尔，这很不寻常。对于鲍威尔是否是留，决定权在他自己。",
+      "content": "美国白宫国家经济委员会主任哈塞特：凯文·沃什还得应付鲍威尔，这很不寻常。对于鲍威尔是去是留，决定权在他自己。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
@@ -1049,57 +1113,41 @@
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
-    },
-    {
-      "datetime": "2026-10-02 20:45:28",
-      "content": "【美国9月招聘急剧放缓，仅新增2.9万个就业岗位】金十数据10月2日讯，美国9月份仅增加2.9万个就业岗位，招聘增速较上月大幅放缓。在美联储权衡是否进一步加息之际，这一数据引发了市场对美国劳动力市场韧性的担忧。美国劳工统计局周五公布的数据显示，9月份新增就业人数骤然下降至2.9万，且8月份的数据被下修至13.3万人，且7月份就业数据也被进一步下修3.1万人，调整后为减少1万个就业岗位，变为负增长。8月份失业率为4.1%，9月份升至4.2%。这份数据将引发市场对美国劳动力市场是否足够强劲、能否支撑美联储进一步加息的讨论。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 20:43:02",
-      "content": "【美国9月非农新增仅2.9万人 成本上升背景下雇主招聘谨慎】金十数据10月2日讯，美国9月新增就业少于预期，失业率小幅上升，表明在成本上升之际雇主对招聘持谨慎态度。美国劳工统计局周五公布的数据显示，继前两个月数据被下修后，上月非农就业人数增加2.9万人。这一数字低于机构调查中经济学家的预估。失业率升至4.2%，部分反映了劳动力队伍的扩大。就业增长放缓主要由政府、信息、专业和商业服务以及金融活动的就业人数下降推动。医疗保健、建筑和制造业则增加了就业。强劲的消费者支出和旺盛的企业投资支撑了招聘，但许多注重成本的雇主不愿扩大员工规模。不过，裁员仍处于低位。由于失业率仍处于历史低位，美联储官员在考虑何时再次加息时，可以将注意力继续集中在通胀上。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 20:40:38",
-      "content": "美国9月非农仅增2.9万人，失业率微升至4.2%。更引人瞩目的是，前两月数据大幅下修6万人，7月就业甚至由正转负，显示劳动力市场冷却趋势超预期。点击查看全文。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 20:39:56",
-      "content": "美国总统特朗普：我非常高兴地宣布，与韩国的协议正变得越来越好！84亿美元用于一个强化采油项目。生产更多石油和天然气意味着美国未来的能源主导地位和全球能源安全！",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 20:38:20",
-      "content": "恐慌指数VIX跌至一周低点，最新下跌0.79点至15.60。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 20:37:56",
-      "content": "【安联：非农报告令市场对美联储10月加息的预期降温】金十数据10月2日讯，安联首席经济顾问埃尔埃利安表示，美国就业数据出炉，结果令人意外：9月份新增就业岗位仅为2.9万个，失业率上升至4.2%，时薪环比增长仅为0.1%。此外，7月和8月的数据也被下调了约6万个岗位。在供给方面，劳动力参与率上升至61.8%，这是一个更为积极的发展。总体而言，这将进一步强化近期美联储官员讲话所产生的影响，即市场对美联储10月加息的预期正在降温。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
     }
   ],
   "shmet": [
+    {
+      "datetime": "2026-10-03 00:17:14",
+      "content": "【快讯】SHMET10月03日讯，消息人士：加拿大和土耳其贸易部长本周达成一致，加快贸易谈判进程。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 00:16:52",
+      "content": "【快讯】SHMET10月03日讯，加拿大总理卡尼将成为首位专门访问土耳其的加拿大领导人。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 00:07:59",
+      "content": "【快讯】SHMET10月03日讯，美洲国家组织通过决议，呼吁尼加拉瓜恢复公民自由并释放政治犯。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 00:02:17",
+      "content": "【快讯】SHMET10月03日讯，俄罗斯第二季度GDP最终数据同比增长1.3%，与初值一致，均为1.3%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
     {
       "datetime": "2026-10-02 23:58:33",
       "content": "【快讯】SHMET10月03日讯，国际能源署署长比罗尔称，油价开始下跌。",
@@ -1147,777 +1195,8 @@
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
-    },
-    {
-      "datetime": "2026-10-02 23:23:23",
-      "content": "【快讯】SHMET10月02日讯，克里姆林宫表示，演习为例行活动。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 23:01:31",
-      "content": "【快讯】SHMET10月02日讯，美国国债收益率逆转早前跌势；10年期收益率最新上升0.91个基点，报5.243%。2年期收益率最新上升2.52个基点，报4.812%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 22:57:52",
-      "content": "【七国集团就推动主要炼油国家增产增加柴油供应达成一致】SHMET10月02日讯，七国集团领导人召开视频会议，应对油价飙升及能源供应压力，同意采取协调行动，稳定市场、缓解家庭和企业负担，并增强能源体系长期韧性。七国集团将协调炼油厂检修安排，适度提高产能利用率，并推动主要炼油国家增产，重点增加柴油供应。同时，通过国际能源署立即启动释放1亿桶石油储备，四个月内完成，首批20天内集中释放大量柴油。各国重申不在集团内部限制能源出口，并呼吁生产国避免实施禁令。国际能源署将在20天内提交落实情况及政策建议报告，涵盖储备补充安排。（央视新闻）",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 22:57:52",
-      "content": "【美国9月新增就业人数远低于预期 8月就业数据被下修】SHMET10月02日讯，美国9月新增就业人数远低于预期，显示劳动力市场乃至整体经济意外走弱。 美国劳工统计局周五公布，经季节性调整后，当月非农就业新增2.9万人，失业率升至4.2%。道琼斯调查的经济学家此前预期新增就业8.4万人，失业率4.1%。 除9月数据疲软外，8月就业数据被下修，新增就业修正为13.3万人；7月数据由正转负，非农就业减少1万人。整体修正后，就业人数较此前公布值合计少增6万人。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 22:56:54",
-      "content": "【快讯】SHMET10月02日讯，基辅市长：基辅南部大桥再次遭到俄罗斯空袭。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 22:56:43",
-      "content": "【快讯】SHMET10月02日讯，道明证券预计美联储将在12月和3月加息，此前预期为10月和1月。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 22:53:17",
-      "content": "【快讯】SHMET10月02日讯，据国际文传电讯社：俄罗斯寻求查封国际棋联主席图尔洛夫的资产。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 22:51:54",
-      "content": "【快讯】SHMET10月02日讯，据韩国媒体报道，韩国产业通商资源部官员表示，美国总统特朗普提到的84亿美元石油项目并非韩美协议的一部分。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 22:49:26",
-      "content": "【Lynas以9.68亿澳元收购Meteoric稀土公司】外电10月1日消息，澳大利亚Lynas Rare Earths宣布，将以9.68亿澳元（约6.72亿美元）全股票交易收购巴西矿企Meteoric Resources，为中国以外最大稀土供应商增添新的重稀土来源。根据协议安排，Lynas将以每1股Meteoric股票换取0.0207股新Lynas股票的固定换股比例收购Meteoric全部股份，较Meteoric上次收盘价溢价超过68%。该交易使这家全球最大中国以外稀土生产商获得Meteoric旗下巴西旗舰Caldeira稀土项目，有望在西方政府推动中国以外供应链发展之际扩大其客户基础。（上海金属网编译）",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 22:49:26",
-      "content": "【Akobo埃塞俄比亚Segele金矿二季度产量创纪录】外电9月30日消息，总部位于斯堪的纳维亚的黄金生产商Akobo Minerals公布其埃塞俄比亚Segele矿自投产以来最强季度业绩，黄金产量和EBITDA均创纪录，同时偿还大量债务并继续投资未来增长。截至6月30日季度，黄金产量约37公斤，为公司迄今最高季度产量，平均回收品位38.5克/吨，公司称该品位为全球任何在产地下金矿报告的最高品位之一。自运营开始以来，累计合质金产量约134公斤。在季度早些时候临时运营中断后，生产于6月恢复。根据初步管理账目，Akobo当季营收约5,730万瑞典克朗（约610万美元），EBITDA约4,070万瑞典克朗（约430万美元）。Akobo称，截至9月30日的第三季度合质金产量约35公斤，使Segele矿自投产以来累计产量达约169公斤。（上海金属网编译）",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 22:49:26",
-      "content": "【ISP GLOBAL附属拟收购Way Rich 60%股权】SHMET10月2日讯，ISP GLOBAL(08487)发布公告，于2026年10月2日，公司间接全资附属公司Guo Du Industrial Limited拟向Gong Huiqin女士收购Way Rich Limited 60%已发行股本，代价为1万港元。目标公司主要从事实物商品买卖，主营金属产品为阴极铜，通常为伦敦金属交易所(LME)登记品牌，是一家综合大宗商品贸易与供应链服务机构，深耕亚太跨境实物贸易及供应链管理，现阶段以金属品类的跨境现货贸易为主。（智通财经网）",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 22:48:36",
-      "content": "【据悉高盛从早年帮助客户布局投资SpaceX获得了可观收益】SHMET10月02日讯，据外媒报道，高盛银行家们在6月处理SpaceX(SPCX.O)的IPO时赚取了巨额佣金，但与此次上市相关的更大一笔意外之财早在几年前就已埋下伏笔。五年多前，当SpaceX估值仅为数百亿美元时，该行曾帮助一些高净值客户投资马斯克的这家公司。知情人士称，当SpaceX以1.77万亿美元估值上市时，出售股份的高盛客户获得了巨额收益，并向该行支付了数亿美元的激励佣金。知情人士称，高盛的合伙人们能够与客户一同投资，这意味着一些现任和前任高管可能也实现了可观收益。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 22:42:38",
-      "content": "【快讯】SHMET10月02日讯，法德10年期利差缩窄至140个基点，较之前的159个基点大幅下降。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 22:34:43",
-      "content": "【KPMG：Horne 5金铜矿贡献魁省GDP88亿加元】外电9月30日消息，专业服务公司KPMG（毕马威）发布对Falco Resources旗下Horne 5项目的社会经济影响研究，发现该项目在整个生命周期内可为魁北克省GDP贡献88亿加元。KPMG受委托基于项目7月发布的更新可行性报告，确定Horne 5铜金项目开发带来的重大经济和劳动力机会。Horne 5位于历史Horne矿下方，是Falco在Abitibi-Témiscamingue绿岩带6万公顷资产组合中的主要焦点区域，该区域包含13个前金和基本金属矿场。1927至1976年Noranda运营Horne矿期间，该矿产金1,160万盎司、铜25亿磅。（上海金属网编译）",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 22:34:43",
-      "content": "【KPMG：Falco旗下Horne 5金铜矿2031年投产】外电9月30日消息，KPMG（毕马威）发布对Falco Resources旗下Horne 5项目的社会经济影响研究报告。报告显示，该项目预计从2031年起在15年矿山寿命内年产20万盎司黄金。KPMG（毕马威）的社会经济影响研究显示，该项目在整个生命周期内可为魁北克省GDP贡献88亿加元，运营和关闭阶段贡献79亿加元GDP，维持18,485个就业岗位，提供35亿加元省级税收。Horne 5位于历史Horne矿下方，是Falco在Abitibi-Témiscamingue绿岩带6万公顷资产组合中的主要焦点，该区域包含13个前金和基本金属矿场。Falco总裁兼首席执行官Luc Lessard表示，KPMG分析证明了Horne 5对魁北克尤其是Abitibi-Témiscamingue的潜在经济贡献规模。（上海金属网编译）",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 22:25:45",
-      "content": "【快讯】SHMET10月02日讯，G7领导人声明：我们将继续对俄罗斯实施制裁。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 22:23:51",
-      "content": "【快讯】SHMET10月02日讯，G7领导人声明：重申我们承诺在七国之间不对能源及能源产品实施出口限制。呼吁所有生产国避免实施可能加剧市场紧张的禁令。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 22:23:34",
-      "content": "【快讯】SHMET10月02日讯，法国总统府表示，未来几天将讨论进一步释放储备的可能性。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 22:23:15",
-      "content": "【快讯】SHMET10月02日讯，G7领导人声明：我们将协调七国集团各地炼油厂的维护计划。要求国际能源署（IEA）监督今年3月承诺的全面执行情况。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 22:20:10",
-      "content": "【快讯】SHMET10月02日讯，意大利10年期国债收益率较德债收益率溢价收窄1个基点至118个基点。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 22:19:18",
-      "content": "【快讯】SHMET10月02日讯，费城半导体指数上涨3.4%，创三个月新高。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 22:17:42",
-      "content": "【快讯】SHMET10月02日讯，德国2年期国债收益率回落幅度缩小，尾盘几乎接近平盘，报3.0532%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 22:15:15",
-      "content": "【快讯】SHMET10月02日讯，美国2年期和5年期国债收益率跌幅收窄，重返非农数据公布前的水平。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 22:14:41",
-      "content": "【快讯】SHMET10月02日讯，特斯拉(TSLA.O)股价涨幅扩大至逾5%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 22:13:56",
-      "content": "【快讯】SHMET10月02日讯，德国2年期国债收益率回吐了此前的跌幅，最新报3.0532%，日内基本持平。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 22:13:08",
-      "content": "【快讯】SHMET10月02日讯，特斯拉股价上涨5.3%，为近一个月来最大涨幅。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 22:13:00",
-      "content": "【力拓旗下Bell Bay铝冶炼厂运营获保障至2031年】外电10月1日消息，全球矿商力拓集团（Rio Tinto）宣布，已与澳大利亚和塔斯马尼亚政府达成协议，确保其位于塔斯马尼亚北部的Bell Bay Aluminium（贝尔湾铝业）冶炼厂持续运营至2031年底。根据协议，Hydro Tasmania将向贝尔湾铝业供电至2031年12月，澳大利亚和塔斯马尼亚政府将提供额外支持以维持运营。力拓表示，贝尔湾与Hydro Tasmania的现有供电安排将于2026年12月31日到期，额外支持将有助于维持该冶炼厂的国际竞争力及其对塔斯马尼亚经济的贡献。贝尔湾支持方案是继一系列政府干预支持能源密集型金属和制造业资产之后的又一举措。8月，澳大利亚和新南威尔士政府承诺25亿澳元帮助确保力拓支持的Tomago Aluminium在2028年后的电力供应。Bell Bay Aluminium冶炼厂于1955年开始运营，年产约19万吨铝。（上海金属网编译）",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 22:09:02",
-      "content": "【快讯】SHMET10月02日讯，法国总统马克龙：同意继续协调行动，以帮助供应从霍尔木兹海峡运出。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 22:08:22",
-      "content": "【快讯】SHMET10月02日讯，迪拜航空首席执行官表示，该公司往返特拉维夫的航班已暂停，直至另行通知。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 22:03:44",
-      "content": "【Cauchari‑Olaroz锂项目二期总产能扩至8.5万吨】外电10月1日消息，TSX上市企业Lithium Argentina表示，总投资10亿美元的Cauchari-Olaroz项目二期扩建将使总产能提升至85,000吨/年，预计运营寿命40年，但需获得监管批准。二期扩建概略研究确认了具有竞争力的成本结构，估计碳酸锂运营成本为5,006美元/吨，得益于更高的工艺回收率和棕地协同效应。公司计划利用现有运营的现金流生成能力，通过内部产生的现金流和项目级债务为二期扩建提供资金。公司确认早期现场工作正在进行，包括额外的卤水井开发，以支持更广泛的二期扩建和初始扩建模块。初始阶段的具体资本支出需求将在今年晚些时候详细工程完成后公布，公司同时正努力最终确定其2027年资本支出预算。（上海金属网编译）",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 22:03:44",
-      "content": "【Lithium Argentina公布Cauchari‑Olaroz锂项目二期扩产规划】外电10月1日消息，TSX上市企业Lithium Argentina确认其位于阿根廷的Cauchari-Olaroz项目二期扩建可行性。概略研究显示，二期扩建拟新增年产45,000吨碳酸锂，按碳酸锂价格18,000美元/吨计算，税后净现值（NPV）达31亿美元，内部收益率（IRR）为28.5%。公司还正推进加速计划，拟利用吸附式直接提锂（DLE）技术先行实现二期45,000吨/年产能中的初始10,000吨/年。该初始模块将加速增量生产，进一步在商业规模上验证吸附DLE性能，并支持二期分阶段开发。初始模块预计2028年上线。此项可选性使公司能够继续基于回收率、资本密集度、运营成本和执行考量优化工艺选择，同时利用Cauchari-Olaroz现有基础设施和运营平台。（上海金属网编译）",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 22:02:00",
-      "content": "【快讯】SHMET10月02日讯，美联储洛根在达拉斯联储关于移民的会议上未对经济前景和货币政策发表评论。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 22:01:53",
-      "content": "【快讯】SHMET10月02日讯，美国8月扣除国防的工厂订单月率 0.1%，前值1%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 22:00:59",
-      "content": "【快讯】SHMET10月02日讯，美国8月工厂订单月率 0.1%，预期0.1%，前值由0.90%修正为0.8%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 22:00:53",
-      "content": "【快讯】SHMET10月02日讯，美国8月扣除运输的工厂订单月率 0.3%，预期0.6%，前值由0.60%修正为0.7%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 22:00:46",
-      "content": "【快讯】SHMET10月02日讯，美国8月耐用品订单月率终值 -0.1%，预期0%，前值0%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:59:38",
-      "content": "【快讯】SHMET10月02日讯，美国白宫国家经济委员会主任哈塞特：只有伊朗的石油没有通过霍尔木兹海峡。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:58:14",
-      "content": "【快讯】SHMET10月02日讯，标普500科技板块上涨1.4%，创下历史新高。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:57:48",
-      "content": "【快讯】SHMET10月02日讯，美国白宫国家经济委员会主任哈塞特：（关于鲍威尔的去留）这不取决于白宫对他的看法。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:56:38",
-      "content": "【快讯】SHMET10月02日讯，哈塞特表示，美联储前主席杰罗姆·鲍威尔在美联储的去留由鲍威尔本人决定，不由白宫决定。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:55:39",
-      "content": "【快讯】SHMET10月02日讯，哈塞特表示，特朗普是认真对待削减赤字问题的。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:54:46",
-      "content": "【特斯拉第三季度销量高于预期 显示汽车业务趋于稳定】SHMET10月02日讯，特斯拉第三季度销量好于预期，显示在电动汽车市场面临挑战之际，该公司核心业务趋于稳定。根据周五发布的声明，这家汽车制造商当季在全球交付486,532辆汽车。相比之下，分析师预期均值为463,761辆。这一业绩对特斯拉而言是一大利好。此前，该公司经历了一段汽车销量下滑、股价表现落后的时期。但是第三季度销量较去年同期有所下降。特斯拉去年第三季度交付497,099辆汽车，创下纪录，当时消费者赶在美国取消联邦激励措施之前争相购车。尽管如此，华尔街预计，在连续两年销量下降后，特斯拉今年将能够实现销量小幅增长。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:53:49",
-      "content": "【快讯】SHMET10月02日讯，美国白宫国家经济委员会主任哈塞特：我们不想通过通胀来摆脱债务。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:52:31",
-      "content": "【快讯】SHMET10月02日讯，美国白宫国家经济委员会主任哈塞特：（关于利息支付）目前的水平不可接受。总统对削减赤字非常认真。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:52:30",
-      "content": "【快讯】SHMET10月02日讯，哈塞特在谈到美债收益率时表示，强劲的经济推动收益率上升。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:52:30",
-      "content": "【快讯】SHMET10月02日讯，美国白宫国家经济委员会主任哈塞特：（关于债券收益率）因经济强劲而上升。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:51:20",
-      "content": "【Sibanye旗下East Boulder金矿批准新工资协议】外电9月30日消息，贵金属矿商Sibanye-Stillwater宣布，其位于美国蒙大拿州的East Boulder矿员工已与美国钢铁工人国际工会（USW）成功批准新的集体谈判协议，协议追溯至今年8月1日生效，有效期至2029年7月31日。新协议规定第一年工资增长4.5%，第二年增长3.5%或消费者价格指数（CPI）中的较高者，第三年增长3%或CPI中的较高者。Sibanye在美国拥有并运营Stillwater和East Boulder地下矿以及Columbus冶金综合体。该协议是公司实施美国铂族金属业务全面机械化计划的重要一步，包括从凿岩激励转向团队激励，以及现代化部分与美国市场不符的遗留福利。（上海金属网编译）",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": true
-    },
-    {
-      "datetime": "2026-10-02 21:51:07",
-      "content": "【快讯】SHMET10月02日讯，2026年FOMC票委、达拉斯联储主席洛根将于十分钟后在研讨会上致欢迎辞；美国8月工厂订单月率将于十分钟后公布。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:50:08",
-      "content": "【快讯】SHMET10月02日讯，美国白宫国家经济委员会主任哈塞特：我们在数据中看到消费非常强劲。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:50:06",
-      "content": "【快讯】SHMET10月02日讯，美国白宫国家经济委员会主任哈塞特：假日季（消费）将会非常强劲。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:50:02",
-      "content": "【快讯】SHMET10月02日讯，美国白宫国家经济委员会主任哈塞特：我们尊重美联储的独立性。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:48:56",
-      "content": "【快讯】SHMET10月02日讯，美国白宫国家经济委员会主任哈塞特：本周有很多好消息。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:48:16",
-      "content": "【快讯】SHMET10月02日讯，美国白宫国家经济委员会主任哈塞特：这份就业报告符合预期。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:45:33",
-      "content": "【快讯】SHMET10月02日讯，美国总统特朗普可能最早于周五 宣布其“AI沙皇”（AI Czar，白宫人工智能事务负责人的非正式称谓）的最终人选。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:45:28",
-      "content": "【快讯】SHMET10月02日讯，据CNN：美国总统特朗普可能最早于周五宣布有关人工智能事务负责人一职的决定。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:44:53",
-      "content": "【机构：美国就业报告缓解信用债市场焦虑】SHMET10月02日讯，Catalyst Funds基金经理Larry Holzenthaler在一份报告中称，9月份就业报告将被视为信用债市场的利好消息。他称，疲弱的就业人数数据可能降低再次加息的紧迫性，同时让通胀继续成为美联储的首要关切，从而令围绕利率的市场情绪略趋平衡。Holzenthaler称，加息步伐放缓将缓解信用债市场的焦虑；随着收益率大幅上升，这些市场近期已变得不安。不过，他认为，与传统固定收益资产相比，久期较短、对信用因素更敏感的资产继续为投资者提供更具吸引力的风险回报。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:44:36",
-      "content": "【Aris旗下Soto Norte金铜矿储量460万盎司服务22年】外电10月1日消息，Aris Mining Corporation旗下Soto Norte金铜矿项目规划为22年运营，基于460万盎司黄金储量，平均品位7克/吨。重新设计的开发策略设想选厂日处理能力3,500吨，其中750吨/日专用于加工当地矿工物料。项目寿命内铜产量约8,400万磅，银产量1,880万盎司。Woodyer表示，Soto Norte的核心特点是与当地矿工建立新的合作伙伴关系，通过为当地矿工提供现代加工基础设施及负责任的尾矿和水管理，支持正规就业和经济机会，同时减少非正规加工带来的环境影响。公司已在该地区正式化了超过3,550名矿工，该模式建立在Segovia和Marmato矿成功实施的责任采矿模式基础上。（上海金属网编译）",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:44:36",
-      "content": "【Aris Mining完成Soto Norte金铜矿ESIA编制，即将启动社区征询工作】外电10月1日消息，上市企业Aris Mining Corporation宣布，已完成其位于哥伦比亚的Soto Norte金铜项目环境和社会影响评估（ESIA）的准备工作，即将进入社区参与阶段并向政府提交完整ESIA。公司计划于10月在Matanza、Suratá和California举行社区会议，介绍ESIA、听取社区反馈并考虑相关意见后最终定稿提交。首席执行官兼主席Neil Woodyer表示，Soto Norte仍是美洲最具吸引力的高品位、长寿命地下金矿项目之一，铜副产品提供额外战略价值。重新设计的Soto Norte项目将缩减规模与更强经济性相结合，并为当地矿工提供专用选厂产能。（上海金属网编译）",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:44:35",
-      "content": "【快讯】SHMET10月02日讯，据CNN：美国总统特朗普预计将任命克莱顿为新的人工智能事务负责人。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:40:51",
-      "content": "【快讯】SHMET10月02日讯，美国白宫国家经济委员会主任哈塞特：住房数据上升是因为经济非常强劲。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:40:22",
-      "content": "【快讯】SHMET10月02日讯，美国白宫国家经济委员会主任哈塞特：我们希望抵押贷款利率下降。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:39:48",
-      "content": "【快讯】SHMET10月02日讯，美国白宫国家经济委员会主任哈塞特：下周将有更多能源方面的公告。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:39:38",
-      "content": "【快讯】SHMET10月02日讯，英国国防大臣斯特里廷：俄罗斯总统普京的核言论极其不负责任。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:39:04",
-      "content": "【快讯】SHMET10月02日讯，英国国防大臣斯特里廷：伊朗可能与费尔福德事件有关，但尚未正式确认。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:38:19",
-      "content": "【快讯】SHMET10月02日讯，英国国防大臣斯特里廷：费尔福德事件“极其严重”。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:38:04",
-      "content": "【快讯】SHMET10月02日讯，加密货币概念股走高，Coinbase涨5.1%，Strategy涨5.6%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:37:24",
-      "content": "【机构：9月非农报告基本排除了美联储10月加息的可能】SHMET10月02日讯，PenderFund Capital Management首席投资官Greg Taylor表示，9月非农报告实际上对市场非常有利，因为此前市场担心的是，美联储10月份还不得不再次加息。但从这份数据来看，我认为这种可能性现在已经完全被排除了。12月会议可能仍然存在再次加息的可能，但这一预期目前已经被市场充分计价。我认为这不会对市场造成太大影响。最重要的是，现在基本排除了美联储10月加息的可能，这将对市场构成利好。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:34:33",
-      "content": "【Broken Hill White Dam金矿堆场扩建设计交付待招标】外电10月1日消息，Broken Hill Gold表示，White Dam选厂350万吨堆场扩建设计已交付并准备招标，公司正迅速为White Dam无缝重启做好准备。公司预计明年年初做出最终投资决定，取决于重启Vertigo矿坑的预可行性研究结果。目前钻探正在进行，为Vertigo East和Vertigo North的柱浸测试收集样品，初步矿坑设计工作预计10月完成。此前公司报告Vertigo探矿区指示氧化金资源量大幅提升，White Dam项目全球资源量现为520万吨，金品位0.7克/吨，含金118,496盎司。公司正通过钻探、选厂翻新和基础设施升级推进项目重启，目标在最终投资决定后实现复产。（上海金属网编译）",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:34:33",
-      "content": "【Broken Hill White Dam金矿第三次浇铸合质金】外电10月1日消息，澳交所上市企业Broken Hill Gold宣布，其位于南澳大利亚州的White Dam铜金项目成功完成第三次黄金浇铸，5.43公斤（174盎司）合质金已运往珀斯铸币厂进行化验和加工。公司还完成了加工回路中替代现有储罐的新碳柱罐建设，以及黄金室设施升级。董事总经理Matthew Boyes表示，第三次浇铸是又一重要里程碑，确认了公司可从现有堆浸矿石中持续释放价值并产生近期现金流。随着选厂翻新和黄金室升级推进，公司正采取主动、纪律性的方法解决历史基础设施限制。10月底暂停灌溉以完成收集渠道和溶液池全面重新衬里，将纠正老化退化和遗留设计缺陷，确保运营围堵系统稳健并符合现代标准，且在采矿重启后无需进一步投资。（上海金属网编译）",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:34:33",
-      "content": "【Metalshub与LME合作推动氧化铝价格指数化】外电10月2日消息，Hindalco Industries（印度铝工业公司）与Metalshub和LME的合作可能形成氧化铝定价改革的关键协同效应。Metalshub已与LME合作，为低碳“绿色”镍生成基于交易的价格，并与LME Insight（Commodity Pricing and Analysis旗下机构）合作。CPAL与LME同属香港交易所所有。Hindalco通过Metalshub进行氧化铝招标，价格被Metalshub捕获后输入LME Insight，纳入新的氧化铝价格指数，该指数随后可由LME“期货化”以重新推出新版氧化铝合约。Hindalco新闻稿不仅包含其氧化铝业务负责人Saurabh Khedekar和Metalshub董事总经理Sebastian Kreft的评论，还包括LME可持续发展和实物市场开发主管Hugo Brodie的评论。Brodie表示，独立、交易主导的价格参考将带来更大定价透明度和整体市场效率。（上海金属网编译）",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:34:33",
-      "content": "【Lion完成铂钯锂硫电池首阶段独立测试】外电10月1日消息，多伦多及纽约上市企业Platinum Group Metals Limited报告，其多数控股子公司Lion Battery Technologies已完成其专有铂钯基锂硫电池技术的第一阶段独立测试和规模化。由首席执行官Frank Hallam领导的Platinum Group Metals正与合资伙伴Mnombo Wethu Consultants、日本金属与能源安全组织（JOGMEC）及Impala Platinum（英帕拉铂业公司）共同开发南非林波波省Waterberg铂族金属和基本金属项目。与此同时，Lion Battery Technologies正推进使用铂和钯的下一代电池技术，Valterra Platinum持有其48%股份。（上海金属网编译）",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:33:09",
-      "content": "【快讯】SHMET10月02日讯，道琼斯指数10月2日（周五）开盘上涨286.10点，涨幅0.56%，报51212.66点；纳斯达克综合指数10月2日（周五）开盘上涨305.82点，涨幅1.14%，报27177.42点；标普500指数10月2日（周五）开盘上涨58.26点，涨幅0.76%，报7724.71点。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:26:21",
-      "content": "【快讯】SHMET10月02日讯，法国10年期国债收益率相对于德国国债收益率的溢价跌破150个基点。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:23:16",
-      "content": "【快讯】SHMET10月02日讯，白宫国家经济委员会主任哈塞特：欧洲释放库存的话将产生巨大影响。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:22:26",
-      "content": "【快讯】SHMET10月02日讯，白宫国家经济委员会主任哈塞特：GDP仍徘徊在4%左右。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:21:53",
-      "content": "【快讯】SHMET10月02日讯，白宫国家经济委员会主任哈塞特：美联储主席沃什已经表明他理解供需冲击。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:21:51",
-      "content": "【快讯】SHMET10月02日讯，白宫国家经济委员会主任哈塞特：我们的政策正在发挥作用。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:20:08",
-      "content": "【美国民主党借就业数据批评特朗普经济政策】SHMET10月02日讯，据纽约时报报道，美国民主党人已经开始利用最新的就业数据展开攻击。马萨诸塞州民主党参议员伊丽莎白·沃伦（Elizabeth Warren）在一份声明中表示：“特朗普总统失败的经济政策正在削弱就业市场。”她特别指出，在总统的“失败政策”持续推高物价之际，工资增长却十分缓慢。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:19:08",
-      "content": "【非农降温 美联储10月加息概率降至17%】SHMET10月02日讯，非农数据进一步强化了美国就业市场动能正在降温的观点。根据芝商所（CME）的“美联储观察”工具，交易员目前预计美联储在10月会议上维持利率不变的概率为83%，高于就业报告公布前的72%；预计加息的概率则从28%降至17%。利率预期也有所降温。目前，联邦基金利率期货定价显示，市场预计，截至2026年底，美联储还将累计加息约22.2个基点，低于数据公布前的25.5个基点。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:17:12",
-      "content": "【财料】SHMET10月02日讯，新增就业减少，失业率抬头，这次非农“爆冷”，给市场的加息热情“降火”了？一图读懂9月美国非农",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:16:27",
-      "content": "【快讯】SHMET10月02日讯，福特第三季度美国总销量为509,764辆，同比下降6.6%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:12:43",
-      "content": "【机构：9月非农数据支持美联储暂缓加息】SHMET10月02日讯，Annex Wealth Management首席经济策略师Brian Jacobsen表示，美国就业市场没有最初认为的那么强劲。7月份的数据被下修至负增长，8月份虽然出现了不错的反弹，但反弹势头在9月份戛然而止，仅增加2.9万个就业岗位。就业扩散指数重新跌破50。美联储主席沃什此前担心通胀的广度，但现在他将不得不考虑就业市场缺乏广度的问题。这一数据支持10月份暂缓加息。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:10:58",
-      "content": "【Orión稀土项目年产钕镨2160吨】外电10月2日消息，Osmond Resources旗下西班牙Orión项目概略研究显示，项目每年生产的独居石精矿预计含2,160吨氧化钕镨、94吨氧化镝和24吨氧化铽。仅项目的模块1即可满足欧盟2030年预计钕镨需求的6%、锆需求的24%和钛需求的8%。Orión项目可供应欧盟17种战略原材料中的3种，以及34种关键原材料中的5种。公司表示，该项目采用成熟技术进行独居石、锆石、金红石和钛铁矿回收，初步流程已得到验证。项目还具备上行潜力，包括金红石产品分离和硅砂销售，这些将在后续研究中进一步调查。下游机会包括稀土氧化物、钛和锆金属粉末、铪金属及硅金属生产，有望提升项目整体价值。（上海金属网编译）",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": true
-    },
-    {
-      "datetime": "2026-10-02 21:10:58",
-      "content": "【Osmond推进Orión稀土项目PFS钻探】外电10月2日消息，Osmond Resources计划开展额外钻探，以提高西班牙Orión项目的资源规模和置信度，并更新概略研究。公司还将完成当前预可行性研究（PFS）级别的冶金测试计划，重点针对Nagrom矿床，特别是优质锆回收、近纯金红石流和升级独居石精矿。公司同时正在申请多个欧盟和西班牙项目支持计划。此外，Osmond计划短期内完成其股票在马德里证券交易所的二次上市。Orión项目概略研究显示，项目资本支出2.99亿美元，税后净现值23.1亿美元，内部收益率145%，回收期6个月，年均收益5.31亿美元，有望成为欧盟首个稀土、锆和钛矿。（上海金属网编译）",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:10:58",
-      "content": "【Dynacor任命Hill为COO推进黄金加工扩张】外电10月2日消息，Dynacor Group宣布任命Jonathan Hill为首席运营官（COO）。Hill将指导集团的运营和战略目标，同时推动运营卓越、安全、人才成功和技术赋能。此次任命正值Dynacor正在调试其在南美和非洲扩张战略的第一阶段。公司表示，Hill的加入将支持集团在多个地区的业务扩展，并有助于实现其战略目标。Hill接替Daniel Misiano，后者于6月被提升为公司总裁兼首席执行官。Dynacor Group是一家在TSX上市的手工矿石加工企业，专注于黄金加工和勘探，在秘鲁、厄瓜多尔和塞内加尔运营和发展项目。公司未披露扩张战略的更多细节，但表示正在推进多个项目。Hill的任命是公司领导层调整的一部分，旨在支持其增长战略。公司相信Hill的经验将有助于实现其战略目标，并推动公司在南美和非洲的业务扩展。此次任命正值公司扩张战略第一阶段调试之际，表明公司对运营领导力的重视。（上海金属网编译）",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:10:58",
-      "content": "【Generation启动Marathon钯铜矿早期工程】外电10月2日消息，TSX上市企业Generation Mining已启动其位于安大略省的Marathon铜钯项目早期工程建设。公司已支付3,000万美元初始款项，以确保关键设备运抵现场，这是其1.5亿美元“关键采购”计划的一部分。部分订单包括破碎基础设施、磨矿和再磨机、旋流器、浮选设备、浓密机和起重机。后续付款将与约定的工程、制造和交付里程碑挂钩。早期工程计划将持续至四季度并延续至2027年，内容包括升级现场进场道路、清理选厂区域、建设早期水管理设施、扩建营地以满足施工及永久营地需求、建立临时燃料库和现场办公室、初始大规模土方工程和骨料生产，以及安装临时电力。（上海金属网编译）",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:10:58",
-      "content": "【Generation旗下Marathon钯铜矿13年产钯210万磅】外电10月2日消息，Generation Mining旗下Marathon铜钯矿项目在预计13年矿山寿命内，将生产约210万磅钯、5.32亿磅铜、48.8万盎司铂、16万盎司黄金和305万盎司白银。该项目位于安大略省，目前已启动早期工程建设，公司支付3,000万美元初始款项用于确保关键设备运抵现场，属于1.5亿美元关键采购计划的一部分。后续付款与工程、制造和交付里程碑挂钩。早期工程包括道路升级、选厂区域清理、水管理设施建设、营地扩建、临时燃料库和现场办公室、土方工程以及临时电力安装。（上海金属网编译）",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:10:51",
-      "content": "【美国暂停驻巴西大使馆和领事馆服务】SHMET10月02日讯，美国驻巴西大使馆和领事馆以安全问题为由，暂停对外服务，但未具体说明相关威胁原因。此外，澳大利亚驻巴西大使馆表示也将暂停服务。据了解，巴西将于10月4日举行大选，选举总统、州长、参议员以及联邦、州和地区议员。 (央视新闻)",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:09:24",
-      "content": "【快讯】SHMET10月02日讯，特斯拉(TSLA.O)第三季度部署了13.7吉瓦时的能源储存产品。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:08:56",
-      "content": "【机构：今天的非农报告意外利好股市】SHMET10月02日讯，CrossCheck Management首席投资官Todd Schoenberger表示，包括修正数据在内，非农就业增幅下降，这份报告出人意料地对股市构成利好。平均时薪增幅略有下降，有助于缓解通胀压力，尽管这种缓解可能只是短期的。尽管美国普通民众确实有理由对就业增长感到担忧，但今天股市仍会为这份数据欢呼。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:08:07",
-      "content": "【快讯】SHMET10月02日讯，标普500指数期货涨幅扩大至1%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:06:39",
-      "content": "【机构：美联储很可能在10月会议上按兵不动】SHMET10月02日讯，Spartan Capital Securities首席市场经济学家Peter Cardillo表示，非农新增就业人数低于预期，但仍表明就业市场处于增长状态。而且工资没有出现通胀压力，这是一个积极因素。失业率上升可能是因为劳动参与率有所上升。总的来说，这份报告对市场是有利的。它可能有助于缓解收益率的上升势头，也表明美联储无需担心工资通胀。结合前几天公布的低于预期的PCE物价指数来看，这意味着美联储很可能在10月会议上继续按兵不动。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:04:49",
-      "content": "【快讯】SHMET10月02日讯，特斯拉(TSLA.O)盘前涨1.7%，因交付量超出预期。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:04:46",
-      "content": "【快讯】SHMET10月02日讯，国际油价跌幅扩大，截至目前，WTI原油跌4.3%，报88美元/盎司；布伦特原油跌3.4%，报98.6美元/盎司。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
     }
   ],
-  "steel_highlight": [
-    {
-      "datetime": "2026-10-02 21:51:20",
-      "content": "【Sibanye旗下East Boulder金矿批准新工资协议】外电9月30日消息，贵金属矿商Sibanye-Stillwater宣布，其位于美国蒙大拿州的East Boulder矿员工已与美国钢铁工人国际工会（USW）成功批准新的集体谈判协议，协议追溯至今年8月1日生效，有效期至2029年7月31日。新协议规定第一年工资增长4.5%，第二年增长3.5%或消费者价格指数（CPI）中的较高者，第三年增长3%或CPI中的较高者。Sibanye在美国拥有并运营Stillwater和East Boulder地下矿以及Columbus冶金综合体。该协议是公司实施美国铂族金属业务全面机械化计划的重要一步，包括从凿岩激励转向团队激励，以及现代化部分与美国市场不符的遗留福利。（上海金属网编译）",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": true
-    },
-    {
-      "datetime": "2026-10-02 21:10:58",
-      "content": "【Orión稀土项目年产钕镨2160吨】外电10月2日消息，Osmond Resources旗下西班牙Orión项目概略研究显示，项目每年生产的独居石精矿预计含2,160吨氧化钕镨、94吨氧化镝和24吨氧化铽。仅项目的模块1即可满足欧盟2030年预计钕镨需求的6%、锆需求的24%和钛需求的8%。Orión项目可供应欧盟17种战略原材料中的3种，以及34种关键原材料中的5种。公司表示，该项目采用成熟技术进行独居石、锆石、金红石和钛铁矿回收，初步流程已得到验证。项目还具备上行潜力，包括金红石产品分离和硅砂销售，这些将在后续研究中进一步调查。下游机会包括稀土氧化物、钛和锆金属粉末、铪金属及硅金属生产，有望提升项目整体价值。（上海金属网编译）",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": true
-    }
-  ],
+  "steel_highlight": [],
   "weekly_stock": null
 }
