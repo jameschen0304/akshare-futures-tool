@@ -1,7 +1,439 @@
 {
   "source": "jin10 flash + shmet + shfe weekly stock",
-  "generated_at": "2026-10-02T16:24:00.779180+00:00",
+  "generated_at": "2026-10-02T18:37:53.450315+00:00",
   "jin10": [
+    {
+      "datetime": "2026-10-03 02:36:38",
+      "content": "据华尔街日报：据知情人士透露，美国联邦航空管理局已认定，波音(BA.N)737MAX飞机新出现的软件故障不会造成飞行安全问题。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 02:30:56",
+      "content": "美国原油期货结算价为每桶91.11美元，下跌1.76美元，跌幅1.90%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 02:26:43",
+      "content": "乌克兰总统泽连斯基：俄罗斯威胁关乎整个欧洲安全。乌克兰愿意分享自身经验以及保护国家安全的方式，当前需要加强欧盟和北约合作。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 02:20:44",
+      "content": "哥伦比亚央行董事会成员塞萨尔·吉拉尔多：必须采取利率以外的措施来降低通胀。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 02:20:24",
+      "content": "【俄方称尚未就黑海安全与任何国家进行双边谈判】金十数据10月3日讯，当地时间2日，俄罗斯总统新闻秘书佩斯科夫表示，俄罗斯对与所有国家就保障黑海安全进行对话持开放态度，但目前尚未与任何国家就这一问题进行双边谈判。佩斯科夫是在回应是否考虑与印度、埃及、土耳其等国达成涉黑海安全的双边协议时作上述表态的。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 02:12:33",
+      "content": "【美乌重建投资基金敲定首个关键矿产项目】金十数据10月3日讯，一名美国官员表示，美乌联合重建投资基金敲定成立以来首个关键矿产项目，并新增4个能源等领域项目，使基金累计达成的项目增至6个，总规模约7000万美元。其中，首个矿产项目将向乌克兰BGV集团旗下联合投资平台投入约3000万美元，初期投资乌克兰早期矿业项目，重点开发稀土、铀、铍和锆等美国关键矿产清单所列资源。基金还将投资乌克兰电力和供热系统，包括支持建设备用电池系统以及热电联产能源中心，以增强遭袭基础设施的供电和供热能力。该基金源于美乌去年4月签署的矿产协议，重点投资矿产、国防、能源和基础设施等战略领域。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 02:11:25",
+      "content": "国际货币基金组织声明：要提高墨西哥的潜在增长率，需通过缩小基础设施差距、减少监管负担和不确定性、加强贸易一体化来提振私人投资。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 02:09:25",
+      "content": "国际货币基金组织声明：墨西哥需要付出更大努力，以使债务走上下行轨道。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 02:00:56",
+      "content": "市场消息：美国官员称，美乌投资基金达成首笔关键矿产交易。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 01:56:33",
+      "content": "【受存储芯片成本上涨影响 谷歌将Pixel 10a售价上调100美元】金十数据10月3日讯，谷歌(GOOG.O)将上市仅7个月的平价手机Pixel 10a售价上调100美元至599美元，反映持续的存储芯片短缺正在推高消费电子产品成本，甚至波及旧款设备。本周三星也将多数Galaxy S26机型价格上调100美元，苹果(AAPL.O)上月推出的iPhone 18 Pro和Pro Max售价高于上一代，并上调部分旧款机型价格。谷歌今年8月推出Pixel 11系列时，各款机型售价也较上一代普遍上涨100美元，不过通过提高基础版存储容量部分抵消涨价影响。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 01:52:35",
+      "content": "胡塞武装发言人：过去24小时内，沙特对也门发动94次空袭及导弹袭击，目标涉及萨那、萨达、塔伊兹、哈杰、阿姆兰和伊卜等省的民用设施，并造成平民伤亡。空袭由从海米斯穆谢特和塔伊夫基地起飞的F-15和“台风”战斗机实施，导弹袭击则来自奈季兰和吉赞方向；自本轮局势升级以来，沙特发动的空袭及导弹袭击累计已达1350次。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 01:48:44",
+      "content": "沙特主导的联军：已拦截并摧毁了胡塞武装向海米斯穆谢特发射的三枚弹道导弹。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 01:46:45",
+      "content": "SpaceX(SPCX.O)：团队在不到13小时内完成了3次猎鹰火箭发射、4次一级火箭着陆（分别在佛罗里达州和加利福尼亚州的4个着陆区），并将“龙”飞船与国际空间站对接，完成SpaceX第21次载人航天任务。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 01:44:40",
+      "content": "洲际交易所：截至9月29日当周，汽油投机者净多头头寸削减16,978份合约，至73,853份。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 01:43:59",
+      "content": "洲际交易所：截至9月29日当周，布伦特原油投机者净多头头寸削减13,812份合约，至204,302份。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 01:41:02",
+      "content": "金十图示：贝克休斯油服钻井数据亮点一览",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 01:40:05",
+      "content": "【美联储古尔斯比：本月加息或暂停均有可能】金十数据10月3日讯，芝加哥联储主席古尔斯比表示，最新就业数据显示美国劳动力市场保持稳定，通胀过高仍是美联储当前更重要的政策重点。对于美联储本月应继续加息还是暂停行动，古尔斯比称，“任何选项都有充分理由摆在桌面上”，并表示希望看到更多证据证明通胀正朝2%的目标回落。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 01:35:12",
+      "content": "市场消息：沙特外交大臣与伊朗外交部长通电话。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 01:32:43",
+      "content": "据美国财经媒体Semafor：Meta Platforms(META.O)解雇了6月招聘的Virtue AI员工。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 01:30:35",
+      "content": "据美国财经媒体Semafor：Meta Platforms(META.O)与Virtue AI分道扬镳。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 01:27:13",
+      "content": "俄罗斯国防部：俄防空部队在一天内击落了209架乌克兰无人机。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 01:26:04",
+      "content": "消息人士：意大利将2028年债务与GDP比率目标设定为137.9%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 01:25:53",
+      "content": "意大利设定2027年债务占GDP比重目标为138.5%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 01:22:44",
+      "content": "意大利将2026年债务目标设定为占GDP的138.1%，低于4月份设定的138.6%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 01:15:57",
+      "content": "美联储在固定利率逆回购操作中总计接纳了3个对手方的15.01亿美元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 01:09:10",
+      "content": "美联储古尔斯比：就业市场保持稳定。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 01:09:03",
+      "content": "美联储古尔斯比：不排除下次利率会议上作出任何决定的可能性。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 01:07:42",
+      "content": "巴西总统卢拉：我无法接受的是银行在人们没有申请的情况下，向他们的家中寄送信用卡。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 01:07:22",
+      "content": "市场消息：Anthropic计划到2027年将前沿工程师团队扩大至1万人。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 01:06:55",
+      "content": "巴西总统卢拉：巴西人有权拥有他们想要的任意数量信用卡。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 01:05:50",
+      "content": "美联储古尔斯比：不会对一个月的数据做出强烈反应。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 01:05:35",
+      "content": "贝克休斯：美国能源公司六周以来首次削减钻井平台数量。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 01:04:13",
+      "content": "美联储古尔斯比：我们会关注是否有证据表明通胀回到2%的水平。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 01:04:05",
+      "content": "美联储古尔斯比：就加息或按兵不动而言，任何选项均有充分空间。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 01:03:33",
+      "content": "据福克斯商业频道：美联储古尔斯比表示，劳动力市场保持稳定，美联储职责中通胀方面更为重要。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 01:01:24",
+      "content": "美国至10月2日当周总钻井总数 598口，前值599口。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 01:01:07",
+      "content": "美国至10月2日当周天然气钻井总数 133口，前值135口。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 01:01:07",
+      "content": "美国至10月2日当周石油钻井总数 456口，前值455口。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 00:56:30",
+      "content": "欧盟专员拉比布：俄罗斯在国际人道法下负有明确义务，平民必须受到保护。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 00:56:02",
+      "content": "欧盟专员拉比布：乌克兰奥列什基的局势令人震惊。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 00:55:32",
+      "content": "中国地震台网自动测定：10月3日0时34分，在俄罗斯堪察加半岛东部附近海域附近（北纬51.85度，东经159.08度）发生6.0级左右地震。最终结果以正式速报为准。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 00:55:13",
+      "content": "美国参议员预计将在12月13日前，就特朗普政府与沙特阿拉伯共享核能技术的协议进行投票。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 00:53:32",
+      "content": "意大利经济部长：目前没有意大利候选人可以替代欧洲央行行长拉加德担任欧洲央行行长。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 00:53:25",
+      "content": "意大利经济部长呼吁对关于欧洲央行行长拉加德提前辞职的传闻给予明确说明。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 00:51:56",
+      "content": "美国官员：南方格雷泽公司同意接受定价限制，以与美国联邦贸易委员会达成和解。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 00:50:00",
+      "content": "美国至10月2日当周石油钻井总数将于十分钟后公布。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 00:48:04",
+      "content": "意大利预计2026年赤字将低于GDP的3%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 00:47:17",
+      "content": "意大利将2026年GDP增长预测从4月预测的0.6%上调至0.8%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 00:46:45",
+      "content": "意大利将请求欧盟在2027年给予相当于GDP0.6%的赤字空间。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 00:43:36",
+      "content": "多米尼加共和国外交部长表示，将从尼加拉瓜撤回大使馆。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 00:42:55",
+      "content": "国际能源署署长比罗尔：在与成员国协商后，我们将最终确定分配方案，我们有足够的储备，如有必要可以释放更多。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 00:42:48",
+      "content": "国际能源署署长比罗尔：世界领导人要求我们协调石油供应。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 00:42:43",
+      "content": "国际能源署署长比罗尔：在我们宣布将在未来数日、数周内释放石油和柴油储备进入市场后，油价至少下跌了5美元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 00:34:30",
+      "content": "阿根廷国家风险指数升至650个基点，创10个月新高。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
     {
       "datetime": "2026-10-03 00:20:28",
       "content": "【联合国：中东局势或致全球新增2200万人面临粮食不安全】金十数据10月3日讯，当地时间10月2日，联合国妇女署发布报告称，中东地区局势持续紧张导致霍尔木兹海峡航运受阻，推高全球食品价格，并对民众生计造成压力。报告预计，到2026年年底，全球可能新增约2200万人面临粮食不安全状况，其中约53%、即1170万人是女性。",
@@ -713,484 +1145,84 @@
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:38:34",
-      "content": "英国国防大臣斯特里廷：俄罗斯总统普京的核言论极其不负责任。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:38:26",
-      "content": "英国国防大臣斯特里廷：伊朗可能与费尔福德事件有关，但尚未正式确认。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:38:08",
-      "content": "英国国防大臣斯特里廷：费尔福德事件“极其严重”。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:37:19",
-      "content": "Moderna(MRNA.O)涨1.7%，该股将于10月9日加入纳斯达克100指数。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:36:56",
-      "content": "【机构：9月非农报告基本排除了美联储10月加息的可能】金十数据10月2日讯，PenderFund Capital Management首席投资官Greg Taylor表示，9月非农报告实际上对市场非常有利，因为此前市场担心的是，美联储10月份还不得不再次加息。但从这份数据来看，我认为这种可能性现在已经完全被排除了。12月会议可能仍然存在再次加息的可能，但这一预期目前已经被市场充分计价。我认为这不会对市场造成太大影响。最重要的是，现在基本排除了美联储10月加息的可能，这将对市场构成利好。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:36:07",
-      "content": "从122美元历史巅峰砸回60美元，白银市场看似步入冰封期。但表象之下，一场散户与机构的筹码大置换正在上演……点击查看...",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:35:28",
-      "content": "金十图示：2026年10月02日（周五）热门中概股行情一览",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:35:11",
-      "content": "英伟达(NVDA.O)涨2.2%，距离5月份创下的历史高点仅一步之遥。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:33:30",
-      "content": "美国证交会（SEC）：派拉蒙天舞公司将于10月6日将股票代码更改为SKYD，并将公司名称更改为Skydance Corp。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:32:21",
-      "content": "道琼斯指数10月2日（周五）开盘上涨286.10点，涨幅0.56%，报51212.66点；\n纳斯达克综合指数10月2日（周五）开盘上涨305.82点，涨幅1.14%，报27177.42点；\n标普500指数10月2日（周五）开盘上涨58.26点，涨幅0.76%，报7724.71点。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:32:16",
-      "content": "美联储加息预期一周速冻！鲁比奥要求伊朗代表团离开，特朗普再发强硬表态！美国柴油政策陷入两难。拉加德或提前卸任，首相为英国重返盟留下空间。本周你错过哪些刺激行情？",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:31:50",
-      "content": "金十图示：2026年10月02日（周五）各大货币对表现",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:31:45",
-      "content": "【特斯拉季度交付量强于预期】金十数据10月2日讯，特斯拉周五公布的第三季度交付量超过华尔街预期，因去年欧洲市场销量低迷后，今年有所复苏。特斯拉第三季度共交付486,532辆汽车，高于分析师平均预期的456,896辆。这些数据表明，在连续两年年度销量下滑后，特斯拉核心汽车业务可能正在趋于稳定。特斯拉第四季度至少需要交付311,448辆汽车，才能避免连续第三年出现年度交付量下降。分析师预计，特斯拉在欧洲逐步推出的完全自动驾驶（FSD）软件将进一步推动销量增长。目前，FSD已经获准在8个国家使用。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:30:33",
-      "content": "美股开盘，道指涨0.62%，标普500指数涨0.9%，纳指涨1.2%。耐克(NKE.N)跌7.4%，公司预计全年营收将大幅下滑。存储芯片股涨跌分化，希捷科技(STX.O)跌14%，西部数据(WDC.O)跌9.8%，Rambus(RMBS.O)涨3%。特斯拉(TSLA.O)涨2.3%，其第三季度交付量超出预期。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:29:10",
-      "content": "法国10年期国债收益率相对于德国国债收益率的溢价跌破150个基点。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:24:22",
-      "content": "瑞银：将耐克(NKE.N)目标价从42美元下调至34美元；将百事(PEP.O)目标价从159美元下调至145美元。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:23:29",
-      "content": "白宫国家经济委员会主任哈塞特：（关于柴油释储）希望很快能有相关消息。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:23:16",
-      "content": "白宫国家经济委员会主任哈塞特：欧洲释放库存的话将产生巨大影响。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:22:54",
-      "content": "白宫国家经济委员会主任哈塞特：（关于柴油储备问题）我们一直在与欧洲方面进行沟通。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:20:59",
-      "content": "白宫国家经济委员会主任哈塞特：GDP仍徘徊在4%左右。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:20:38",
-      "content": "白宫国家经济委员会主任哈塞特：美联储主席沃什已经表明他理解供需冲击。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:20:26",
-      "content": "白宫国家经济委员会主任哈塞特：我们的政策正在发挥作用。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:19:31",
-      "content": "白宫国家经济委员会主任哈塞特：对非农就业报告并不失望。政府就业下降，而其他一切行业的就业都在增加。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:19:07",
-      "content": "【美国民主党借就业数据批评特朗普经济政策】金十数据10月2日讯，据纽约时报报道，美国民主党人已经开始利用最新的就业数据展开攻击。马萨诸塞州民主党参议员伊丽莎白·沃伦（Elizabeth Warren）在一份声明中表示：“特朗普总统失败的经济政策正在削弱就业市场。”她特别指出，在总统的“失败政策”持续推高物价之际，工资增长却十分缓慢。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:18:59",
-      "content": "美国9月非农只增2.9万人。金十非农竞猜活动获奖名单已公布，可前往活动页面点击“中奖名单”查看：",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:18:49",
-      "content": "【非农降温 美联储10月加息概率降至17%】金十数据10月2日讯，非农数据进一步强化了美国就业市场动能正在降温的观点。根据芝商所（CME）的“美联储观察”工具，交易员目前预计美联储在10月会议上维持利率不变的概率为83%，高于就业报告公布前的72%；预计加息的概率则从28%降至17%。利率预期也有所降温。目前，联邦基金利率期货定价显示，市场预计，截至2026年底，美联储还将累计加息约22.2个基点，低于数据公布前的25.5个基点。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:16:11",
-      "content": "新增就业减少，失业率抬头，这次非农“爆冷”，给市场的加息热情“降火”了？一图读懂9月美国非农",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:11:27",
-      "content": "【机构：9月非农数据支持美联储暂缓加息】金十数据10月2日讯，Annex Wealth Management首席经济策略师Brian Jacobsen表示，美国就业市场没有最初认为的那么强劲。7月份的数据被下修至负增长，8月份虽然出现了不错的反弹，但反弹势头在9月份戛然而止，仅增加2.9万个就业岗位。就业扩散指数重新跌破50。美联储主席沃什此前担心通胀的广度，但现在他将不得不考虑就业市场缺乏广度的问题。这一数据支持10月份暂缓加息。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:08:11",
-      "content": "特斯拉(TSLA.O)第三季度部署了13.7吉瓦时的能源储存产品。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:07:39",
-      "content": "【机构：今天的非农报告意外利好股市】金十数据10月2日讯，CrossCheck Management首席投资官Todd Schoenberger表示，包括修正数据在内，非农就业增幅下降，这份报告出人意料地对股市构成利好。平均时薪增幅略有下降，有助于缓解通胀压力，尽管这种缓解可能只是短期的。尽管美国普通民众确实有理由对就业增长感到担忧，但今天股市仍会为这份数据欢呼。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:06:14",
-      "content": "【机构：美联储很可能在10月会议上按兵不动】金十数据10月2日讯，Spartan Capital Securities首席市场经济学家Peter Cardillo表示，非农新增就业人数低于预期，但仍表明就业市场处于增长状态。而且工资没有出现通胀压力，这是一个积极因素。失业率上升可能是因为劳动参与率有所上升。总的来说，这份报告对市场是有利的。它可能有助于缓解收益率的上升势头，也表明美联储无需担心工资通胀。结合前几天公布的低于预期的PCE物价指数来看，这意味着美联储很可能在10月会议上继续按兵不动。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:06:10",
-      "content": "金十图示：2026年10月02日（周五）投机情绪指数",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:06:06",
-      "content": "英伟达(NVDA.O)：DGX SPARK 64GB将于10月23日通过主要合作伙伴上市，起价4999美元。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:05:41",
-      "content": "英伟达(NVDA.O)：本月与主要合作伙伴推出DGX SPARK 64GB配置，支持在设备上运行高达1000亿参数的模型。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:04:14",
-      "content": "特斯拉(TSLA.O)第三季度其他车型交付量为8295辆，市场预估为9759辆。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:03:44",
-      "content": "特斯拉(TSLA.O)盘前涨1.7%，因交付量超出预期。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:03:25",
-      "content": "美国就业市场真的“踩刹车”了？7月数据直接改为负值，9月也只新增2.9万，主要行业几乎集体“原地踏步”。此次数据还有何看点？",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:03:09",
-      "content": "【美国9月就业增幅疲弱或受季调因素拖累】金十数据10月2日讯，美国9月份就业增长放缓超预期，推动股市和债市反弹，也进一步削弱了市场对美联储本月加息的预期。美国劳工部周五公布的就业报告显示，9月份非农就业岗位增加2.9万个，8月份就业岗位被下修为增加13.3万个。经济学家指出，政府使用的季节性调整模型（用于剔除数据中的季节性波动）所引发的波动，或许是导致9月份就业岗位仅小幅增加，以及8月份就业数据遭下修的原因。当劳动节假期落在月中或月底时，就业增长往往表现不佳，今年的情况正是如此。目前尚未出现大规模裁员的迹象。不过，经济学家预计，美国与伊朗之间的战争带来的经济阻力不断增加，可能会在今年年底至2027年期间开始扰乱美国就业市场。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:03:04",
-      "content": "布伦特原油失守98美元/桶，日内跌幅3.42%。WTI原油现跌4.7%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:02:40",
-      "content": "特斯拉(TSLA.O)第三季度MODEL 3/Y交付量为478237辆，市场预估462078辆。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:02:12",
-      "content": "特斯拉(TSLA.O)第三季度交付量为486532辆，市场预估463761辆。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 21:01:12",
-      "content": "甲骨文(ORCL.N)承诺为威斯康星州居民承担Point Beach能源成本上涨带来的3亿美元额外费用。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 20:59:32",
-      "content": "巴克莱：将耐克(NKE.N)目标价从48美元下调至37美元。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 20:59:16",
-      "content": "【分析师：耐克复苏时间表再次延后】金十数据10月2日讯，Truist Securities分析师在一份报告中称，耐克复苏的时间点似乎继续后移。尽管耐克仍指出其功能性产品出现积极苗头，但其规模更大的运动服饰和Jordan业务板块继续面临进一步压力。“鉴于多个方面仍有大量工作要做、竞争压力仍在加剧以及宏观环境波动不定，我们认为潜在复苏的可见度有限，并认为最好保持观望”。Truist Securities分析师将该股目标价从42美元下调至29美元，并维持持有评级。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 20:58:15",
-      "content": "西班牙首相桑切斯呼吁国会议员放下政治考量，支持住房法令。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 20:56:05",
-      "content": "美国9月非农仅新增2.9万人，失业率微升至4.2%，呈现出典型的“高留存、低招聘”特征。经济学家提醒本月非农可能受到了季节性因素冲击……点击查看…",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 20:54:47",
-      "content": "据纽约时报分析报道：美联储官员长期以来一直坚持认为劳动力市场不是通胀压力的来源。九月的报告强化了这一观点。9月平均小时工资环比仅略增0.1%，同比增长3%，低于市场共识的3.2%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 20:52:26",
-      "content": "【凯投宏观：法国国债抛售暂无结束迹象】金十数据10月2日讯，凯投宏观的Andrew Kenningham称，只有在出现可信承诺、用数年时间削减赤字以使债务走上可持续轨道时，法国国债抛售才会出现转折点。他在一份报告中称：虽然未来几周收益率可能会小幅下降，但我们对较长期前景仍持悲观态度，因为法国债务与GDP之比在可预见的未来料将继续上升。周四公布的预算草案仍可能被削弱；该草案将把明年赤字降至5.0%，但这不足以稳定债务比率。Kenningham称，越来越有可能需要一场更大的财政危机，才能促使法国政界人士就一项持续性的财政整顿计划达成一致。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 20:48:14",
-      "content": "据NBC新闻：美国总统特朗普与法国总统马克龙昨晚就能源形势进行了讨论。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 20:47:00",
-      "content": "华尔街日报资深记者NickTimiraos：8月最初报告的3个月平均招聘率为7.1万，现已下修至5.1万，9月的3个月平均招聘率也为5.1万。私营部门就业情况类似，9月为增加5.4万，高于8月下修后的4.8万。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
     }
   ],
   "shmet": [
     {
-      "datetime": "2026-10-03 00:17:14",
-      "content": "【快讯】SHMET10月03日讯，消息人士：加拿大和土耳其贸易部长本周达成一致，加快贸易谈判进程。",
+      "datetime": "2026-10-03 02:31:33",
+      "content": "【快讯】SHMET10月03日讯，国际原油期货结算价收跌。WTI原油期货11月合约跌1.9%，报91.11美元/桶。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-03 00:16:52",
-      "content": "【快讯】SHMET10月03日讯，加拿大总理卡尼将成为首位专门访问土耳其的加拿大领导人。",
+      "datetime": "2026-10-03 02:22:52",
+      "content": "【快讯】SHMET10月03日讯，哥伦比亚央行董事会成员塞萨尔·吉拉尔多：必须采取利率以外的措施来降低通胀。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-03 00:07:59",
-      "content": "【快讯】SHMET10月03日讯，美洲国家组织通过决议，呼吁尼加拉瓜恢复公民自由并释放政治犯。",
+      "datetime": "2026-10-03 02:19:18",
+      "content": "【俄方称尚未就黑海安全与任何国家进行双边谈判】SHMET10月03日讯，俄罗斯总统新闻秘书佩斯科夫当地时间2日表示，俄罗斯对与所有国家就保障黑海安全进行对话持开放态度，但目前尚未与任何国家就这一问题进行双边谈判。佩斯科夫是在回应是否考虑与印度、埃及、土耳其等国达成涉黑海安全的双边协议时作上述表态的。 (央视新闻)",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-03 00:02:17",
-      "content": "【快讯】SHMET10月03日讯，俄罗斯第二季度GDP最终数据同比增长1.3%，与初值一致，均为1.3%。",
+      "datetime": "2026-10-03 02:12:49",
+      "content": "【快讯】SHMET10月03日讯，国际货币基金组织声明：要提高墨西哥的潜在增长率，需通过缩小基础设施差距、减少监管负担和不确定性、加强贸易一体化来提振私人投资。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-02 23:58:33",
-      "content": "【快讯】SHMET10月03日讯，国际能源署署长比罗尔称，油价开始下跌。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 23:55:58",
-      "content": "【现货白银日内跌幅扩大至2%】SHMET10月02日讯，现货白银日内跌幅扩大至2%，现报59.76美元/盎司。现货黄金同步走低，现跌1.12%。",
+      "datetime": "2026-10-03 02:10:02",
+      "content": "【快讯】SHMET10月03日讯，国际货币基金组织声明：墨西哥需要付出更大努力，以使债务走上下行轨道。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-02 23:47:18",
-      "content": "【快讯】SHMET10月02日讯，英国海上贸易行动办公室：一艘油轮报告在霍尔木兹海峡进行出港航行时被不明抛射物击中。船上发生小规模火灾并停电。无人员伤亡或环境影响的报告。",
+      "datetime": "2026-10-03 02:07:42",
+      "content": "【一艘油轮在霍尔木兹海峡被不明投射物击中】SHMET10月03日讯，英国海上贸易行动办公室2日通报说，接到一艘油轮船长的报告，该油轮在驶离霍尔木兹海峡时被不明投射物击中，船上发生小规模火灾并停电。通报说，目前火灾已被扑灭，油轮继续航行，没有人员伤亡和环境遭受影响的报告。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-02 23:38:44",
-      "content": "【快讯】SHMET10月02日讯，德国DAX30指数10月2日（周五）收盘上涨301.79点，涨幅1.21%，报25241.14点；英国富时100指数10月2日（周五）收盘上涨31.68点，涨幅0.30%，报10459.95点；法国CAC40指数10月2日（周五）收盘上涨61.88点，涨幅0.79%，报7897.19点；欧洲斯托克50指数10月2日（周五）收盘上涨64.30点，涨幅1.04%，报6239.75点；西班牙IBEX35指数10月2日（周五）收盘上涨76.03点，涨幅0.40%，报19081.33点；意大利富时MIB指数10月2日（周五）收盘上涨252.64点，涨幅0.50%，报50490.50点。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-02 23:33:14",
-      "content": "【快讯】SHMET10月02日讯，伊拉克表示，除马汉航空外，伊朗航空公司已获准每日飞往纳杰夫40个航班。",
+      "datetime": "2026-10-03 02:02:01",
+      "content": "【快讯】SHMET10月03日讯，市场消息：美国官员称，美乌投资基金达成首笔关键矿产交易。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-02 23:25:32",
-      "content": "【快讯】SHMET10月02日讯，纳斯达克中国金龙指数日内跌幅达2%。",
+      "datetime": "2026-10-03 01:48:45",
+      "content": "【快讯】SHMET10月03日讯，SpaceX(SPCX.O)：团队在不到13小时内完成了3次猎鹰火箭发射、4次一级火箭着陆（分别在佛罗里达州和加利福尼亚州的4个着陆区），并将“龙”飞船与国际空间站对接，完成SpaceX第21次载人航天任务。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 01:47:00",
+      "content": "【快讯】SHMET10月03日讯，洲际交易所：截至9月29日当周，汽油投机者净多头头寸削减16,978份合约，至73,853份。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-03 01:41:11",
+      "content": "【美联储古尔斯比：本月加息或暂停均有可能】SHMET10月03日讯，芝加哥联储主席古尔斯比表示，最新就业数据显示美国劳动力市场保持稳定，通胀过高仍是美联储当前更重要的政策重点。对于美联储本月应继续加息还是暂停行动，古尔斯比称，“任何选项都有充分理由摆在桌面上”，并表示希望看到更多证据证明通胀正朝2%的目标回落。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
