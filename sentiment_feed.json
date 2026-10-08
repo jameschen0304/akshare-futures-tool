@@ -1,7 +1,263 @@
 {
   "source": "jin10 flash + shmet + shfe weekly stock",
-  "generated_at": "2026-10-08T16:56:37.517811+00:00",
+  "generated_at": "2026-10-08T17:33:52.233138+00:00",
   "jin10": [
+    {
+      "datetime": "2026-10-09 01:31:20",
+      "content": "南光服务：宣布与谷歌(GOOG.O)达成战略合作，在北美提供Google Voice运营商链路。现已成为Google Voice和Google Workspace的授权经销商。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-09 01:30:41",
+      "content": "苹果(AAPL.O)任命新并购主管。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-09 01:30:00",
+      "content": "2028年FOMC票委、圣路易联储主席穆萨莱姆将于十分钟后发表讲话。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-09 01:26:39",
+      "content": "英伟达(NVDA.O)日内跌超3%。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-09 01:24:04",
+      "content": "美国海洋能源管理局（MMA）：截至美国中部夏令时间上午11时（北京时间10月9日0时），墨西哥湾121座生产平台的人员已撤离，占全部371座有人值守生产平台的32.61%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-09 01:23:13",
+      "content": "美国海洋能源管理局（MMA）：5座非动态定位钻井平台的人员已撤离，占目前在墨西哥湾运营的11座此类钻井平台的45.45%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-09 01:23:01",
+      "content": "美国海洋能源管理局（MMA）：17座动态定位钻井平台中，有4座因防范风暴而撤离风暴路径。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-09 01:22:38",
+      "content": "美国海洋能源管理局（MMA）：墨西哥湾目前约62.89%的日均石油产量和57.35%的日均天然气产量已停产。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-09 01:21:00",
+      "content": "欧盟经济专员：平息法国债券市场的关键在于制定合理的2027年法国预算。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-09 01:18:20",
+      "content": "英伟达(NVDA.O)投资的Firmus拟推迟在澳大利亚IPO。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-09 01:17:35",
+      "content": "欧元区主席东布罗夫斯基斯：我对欧元区债券利差保持关注，但并不感到惊慌。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-09 01:16:58",
+      "content": "美联储在固定利率逆回购操作中总计接纳了2个对手方的3.35亿美元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-09 01:16:26",
+      "content": "美国30年期国债拍卖收益率创2000年8月以来新高。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-09 01:15:32",
+      "content": "微软(MSFT.O)：上个财政年度公司提交的H-1B签证申请中，约80%是为了延长或变更现有微软员工的身份。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-09 01:14:22",
+      "content": "微软就美国政府暂停H-1B签证项目声明：微软(MSFT.O)在美国的绝大多数员工都是美国公民。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-09 01:13:58",
+      "content": "微软就美国政府暂停H-1B签证项目声明：我们向H-1B员工支付的薪酬与其他从事类似工作的员工相同。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-09 01:12:56",
+      "content": "【美国对伊朗实施新一轮制裁】金十数据10月9日讯，当地时间10月8日，美国财政部网站发布的消息显示，美国对伊朗实施新一轮制裁，制裁对象包括17艘运输伊朗原油、石油产品及石化产品的船只。美国财政部官员同时表示，美方估计，在美国对伊朗港口实施封锁的范围之外，目前仍有约2000万桶伊朗原油滞留在船只上。有官员表示，由于美国的封锁和制裁，伊朗已经停止原油船只的装载和卸载工作。当天稍早时，美国总统特朗普表示，正在与伊朗进行富有成效的会谈，且绝不会在11月3日美国国会中期选举前攻击伊朗。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-09 01:11:43",
+      "content": "微软(MSFT.O)就美国政府暂停PERM劳工认证项目回应称：“我们期待向政府提供更多信息。”",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-09 01:10:35",
+      "content": "惠誉评级：全球借贷成本上升，债券收益率攀升。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-09 01:09:25",
+      "content": "Anthropic更新2026年AI使用政策，明确禁止利用Claude开发武器或使武器发挥作用，并收紧监控与追踪相关规定。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-09 01:07:55",
+      "content": "美国财政部长贝森特：财政部正在切断德黑兰用于战争的资金来源。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-09 01:07:41",
+      "content": "美国财政部长贝森特：我们将继续揭露那些为伊朗石油销售提供便利的人。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-09 01:06:58",
+      "content": "道达尔首席执行官：沙特阿拉伯的萨托尔普炼油厂已完成修复。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-09 01:03:38",
+      "content": "欧元集团主席皮埃拉卡基斯：欧元区国家须在10月28日前提交接替欧洲央行施纳贝尔的候选人。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-09 01:02:25",
+      "content": "甲骨文(ORCL.N)日内跌6%，势将创下12周来最大单日跌幅。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-09 01:02:04",
+      "content": "美国至10月8日30年期国债竞拍-投标倍数 2.54，前值2.61。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-09 01:02:04",
+      "content": "美国至10月8日30年期国债竞拍-得标利率 5.618%，前值5.308%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-09 01:01:34",
+      "content": "美国财政部官员：美方估计，在美国对伊朗港口的封锁范围之外，伊朗仍有约2000万桶原油装载在船舶上。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-09 01:01:19",
+      "content": "美国财政部：美国对17艘运输伊朗原油、石油产品和石化产品的船只实施制裁。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-09 01:00:32",
+      "content": "美国财政部官员：由于美国封锁和制裁，伊朗已停止原油船只的装货和卸货。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-09 00:59:59",
+      "content": "美国财政部放宽部分对俄制裁至1月9日，允许涉及俄罗斯的某些行政交易。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-09 00:56:32",
+      "content": "SpaceX(SPCX.O)因使用用户上传照片进行面部映射遭起诉。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
     {
       "datetime": "2026-10-09 00:55:20",
       "content": "美国财政部网站：美国发布新的伊朗相关制裁。",
@@ -913,324 +1169,84 @@
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
-    },
-    {
-      "datetime": "2026-10-08 22:47:20",
-      "content": "英国警方：两名男子因在剑桥郡皇家空军基地非法闯入被捕。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-08 22:46:54",
-      "content": "OpenAI：俄罗斯账户利用ChatGPT影响拉丁美洲。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-08 22:46:31",
-      "content": "蓝色起源宣布在美国得州成立新的制造园区，将为Terawave和Quartz的制造提供支持。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-08 22:46:07",
-      "content": "欧盟外交与安全政策高级代表卡拉斯：欧盟将在周一批准对黎巴嫩的支持任务。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-08 22:45:57",
-      "content": "美国暂停多家科技公司参与一项移民计划，暂停了IT咨询公司Cognizant、Infosys、塔塔咨询的移民相关项目。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-08 22:42:47",
-      "content": "OpenAI：这些操作因其潜在影响而显得不寻常。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-08 22:42:28",
-      "content": "OpenAI：近期禁止了来自俄罗斯和伊朗的秘密影响力行动。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-08 22:40:32",
-      "content": "市场消息：欧元集团将10月28日定为欧洲央行执委施纳贝尔继任者提名的截至日期，最早将于11月决定其继任者。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-08 22:37:59",
-      "content": "【土耳其外长说不会向他国派兵并实施攻击】金十数据10月8日讯，土耳其外长费丹8日说，《麦加共同防务协议》是防御性协议，土耳其不会向他国派兵并实施攻击。费丹在电视讲话中说，《麦加共同防务协议》“不是一项进攻性协议，而是一项防御性协议”，当协议一方遭到攻击时，其他各方将支持其进行防卫。他还说：“土耳其不会向其他国家领土派遣部队并在那里发动攻击。”土耳其国防部同日发表声明说：“（向他国）提供军事力量和能力的相关程序，需按照宪法和相关法律的规定进行。”",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-08 22:36:34",
-      "content": "【美国8月批发库存增幅下修至0.5%，销售增长1.8%显示需求强劲】金十数据10月8日讯，美国政府周四公布的数据显示，受强劲需求推动销售增长影响，美国8月份批发库存增幅低于初步估计。美国商务部人口普查局表示，8月批发商库存月率环比增长0.5%，低于0.7%的初值，7月份批发库存大幅增长1.4%。与去年同期相比，8月批发库存增长6.4%。分类数据显示，8月批发商耐用品库存增长0.8%，非耐用品库存持平，其中石油库存下降3.9%。在强劲国内需求的推动下，企业正在重建库存。此前，由于消费者支出和人工智能领域投资持续旺盛，企业库存已连续五个季度下降。销售方面，美国8月批发商销售额环比增长1.8%，高于7月份的1.0%，显示销售增长进一步加快。按照8月份的销售速度，批发商需要1.18个月才能售完现有库存，低于7月份的1.19个月。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-08 22:36:14",
-      "content": "纽约证券交易所总裁马丁：利率和宏观经济状况正在影响IPO计划。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-08 22:36:07",
-      "content": "纽约证券交易所总裁马丁：今年市值增加了5000亿美元。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-08 22:34:49",
-      "content": "英伟达(NVDA.O)：旨在增强美国在关键领域的超级智能研发能力，以维护美国在这些领域的领导地位。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-08 22:33:57",
-      "content": "乌克兰军方：乌军袭击了俄罗斯鄂木斯克的一家炼油厂。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-08 22:33:34",
-      "content": "英伟达(NVDA.O)：与合作伙伴共同参与第二阶段创世纪任务奖项，涵盖量子、聚变和微电子领域。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-08 22:32:52",
-      "content": "英伟达(NVDA.O)承诺在未来五年内投入10亿美元推动美国科学发展。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-08 22:30:08",
-      "content": "EIA天然气报告：截至10月2日当周，美国天然气库存总量为35000亿立方英尺，较此前一周增加850亿立方英尺，较去年同期减少1300亿立方英尺，同比降幅3.6%，同时较5年均值高680亿立方英尺，增幅2.0%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-08 22:30:03",
-      "content": "美国至10月2日当周EIA天然气库存 850亿立方英尺，预期790亿立方英尺，前值640亿立方英尺。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-08 22:28:25",
-      "content": "【福田汽车与卓驭科技签署战略合作协议】金十数据10月8日讯，10月8日，福田汽车与深圳市卓驭科技有限公司正式签署战略合作协议。双方将在商用车高阶智能驾驶领域开展全方位、深度战略合作，共同加速智能驾驶技术规模化量产与商业化落地，助力商用车产业智能化、网联化转型升级。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-08 22:26:45",
-      "content": "美国副总统万斯：美国正在改革H-1B和J-1签证项目。雇用J-1签证持有者的大学应受调查，包括哈佛、耶鲁、斯坦福、布朗和麻省理工学院。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-08 22:26:22",
-      "content": "据Politico：英国与以色列就东耶路撒冷领事馆问题达成妥协。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-08 22:22:01",
-      "content": "美国副总统万斯：美国暂停微软(MSFT.O)的“永久劳工证（PERM）” 计划，此举意在向微软传达必须雇用美国工人的信息。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-08 22:20:00",
-      "content": "美国至10月2日当周EIA天然气库存将于十分钟后公布。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-08 22:19:46",
-      "content": "葡萄牙政府预计在2026年实现预算平衡后，明年预算盈余占GDP比重将为0.1%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-08 22:19:02",
-      "content": "据伊朗塔斯尼姆通讯社：伊朗总统佩泽希齐扬在启程前往土库曼斯坦前表示，里海是子孙后代的财富，其现有的环境威胁需要沿岸国家共同合作与管理。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-08 22:18:59",
-      "content": "【懂车帝：网传暴力测试是谣言，百公里刹车实验并非极端工况】金十数据10月8日讯，懂车帝实测曝出尊界V800三次出现刹车踏板支架断裂，部分网友称节目内容系极端工况，驾驶员脚踩刹车踏板力度过大。懂车帝有关人员表示，百公里刹车实验并非极端工况，很多人在高速驾驶场景下都会遇到，是汽车实测最基本的科目之一。本次节目中出现的相关车型制动踏板支架断裂属首次出现，且连续三次实验在同一位置出现相似断裂现象，存在一定安全隐患。针对三辆测试车刹车踏板支架断裂时显示的踏板力，懂车帝方面表示，网传暴力测试并不存在，而是正常的刹车踏板大力制动。网友关注的“4589N”踏板力数值，实为高速摄像机拍摄实验画面时，因摄像机与检测设备的液晶屏刷新帧率不同，拍摄到的液晶屏数字跳动出现残影，真实峰值数据为1612N，踏板力在达到峰值后迅速下降，但“4589N”被截图并形成谣言。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-08 22:18:51",
-      "content": "据伊朗塔斯尼姆通讯社：伊朗总统佩泽希齐扬在启程前往土库曼斯坦前表示，保护里海海洋环境、反对单边主义、发展与地区国家的多边合作，是此次访问的主要议题。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-08 22:17:58",
-      "content": "据伊朗塔斯尼姆通讯社：伊朗总统佩泽希齐扬抵达土库曼斯坦，将与俄罗斯总统普京举行双边会晤和讨论。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-08 22:17:09",
-      "content": "葡萄牙2027年预算草案将经济增长预期定为2.1%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-08 22:11:57",
-      "content": "上交所发布硕世生物董事会决议等有关事项的监管工作函。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
     }
   ],
   "shmet": [
     {
-      "datetime": "2026-10-09 00:55:55",
-      "content": "【快讯】SHMET10月09日讯，费城半导体指数扩大跌幅至3%。",
+      "datetime": "2026-10-09 01:31:57",
+      "content": "【快讯】SHMET10月09日讯，2028年FOMC票委、圣路易联储主席穆萨莱姆将于十分钟后发表讲话。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-09 00:54:36",
-      "content": "【纳斯达克综合指数跌超1% 英伟达跌2%】SHMET10月09日讯，美股走低，纳指跌超1%，费城半导体指数跌超2%；成分股中英特尔、迈威尔跌超4%，AMD、美光跌超3%，英伟达跌2%。此前消息称OpenAI年化营收较此前报道低200亿美元。",
+      "datetime": "2026-10-09 01:28:35",
+      "content": "【快讯】SHMET10月09日讯，英伟达(NVDA.O)日内跌超3%。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-09 00:52:57",
-      "content": "【快讯】SHMET10月09日讯，纳指扩大跌幅至1%。",
+      "datetime": "2026-10-09 01:26:33",
+      "content": "【美“龙”飞船载4名宇航员返回地球】SHMET10月09日讯，搭载4名宇航员的美国太空探索技术公司“龙”飞船8日返回地球，在加利福尼亚州洛杉矶附近海域溅落。“龙”飞船于美国东部时间7日8时5分（北京时间7日20时5分）脱离国际空间站，启程返回地球。在经过27个多小时飞行后，飞船于美国东部时间8日11时34分（北京时间8日23时34分）在洛杉矶附近海域溅落。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-09 00:48:25",
-      "content": "【快讯】SHMET10月09日讯，据英国金融时报：OpenAI最近告诉投资者，截至 9 月底，其年化收入接近 500 亿美元。",
+      "datetime": "2026-10-09 01:25:50",
+      "content": "【快讯】SHMET10月09日讯，美国海洋能源管理局（MMA）：截至美国中部夏令时间上午11时（北京时间10月9日0时），墨西哥湾121座生产平台的人员已撤离，占全部371座有人值守生产平台的32.61%。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-09 00:47:37",
-      "content": "【快讯】SHMET10月09日讯，道达尔能源首席执行官：油价正达到高得离谱的水平。",
+      "datetime": "2026-10-09 01:23:53",
+      "content": "【快讯】SHMET10月09日讯，美国海洋能源管理局（MMA）：17座动态定位钻井平台中，有4座因防范风暴而撤离风暴路径。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-09 00:46:13",
-      "content": "【快讯】SHMET10月09日讯，据英国金融时报：据与投资者共享的财务文件，OpenAI的年化收入较此前所释信号少约200亿美元。",
+      "datetime": "2026-10-09 01:23:53",
+      "content": "【快讯】SHMET10月09日讯，美国海洋能源管理局（MMA）：墨西哥湾目前约62.89%的日均石油产量和57.35%的日均天然气产量已停产。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-09 00:45:55",
-      "content": "【快讯】SHMET10月09日讯，‌OpenAI告诉投资者，截至9月底的年化收入接近500亿美元，较此前所释信号少约200亿美元。",
+      "datetime": "2026-10-09 01:22:49",
+      "content": "【快讯】SHMET10月09日讯，欧盟经济专员：平息法国债券市场的关键在于制定合理的2027年法国预算。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-09 00:44:19",
-      "content": "【快讯】SHMET10月09日讯，美国总统特朗普将于当地时间下周二在阿拉斯加举行中期选举集会。",
+      "datetime": "2026-10-09 01:18:18",
+      "content": "【快讯】SHMET10月09日讯，美联储在固定利率逆回购操作中总计接纳了2个对手方的3.35亿美元。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-09 00:43:18",
-      "content": "【快讯】SHMET10月09日讯，欧洲央行行长拉加德：拥有应对市场异常波动的政策工具。",
+      "datetime": "2026-10-09 01:18:03",
+      "content": "【快讯】SHMET10月09日讯，欧盟委员会执行副主席东布罗夫斯基斯：我对欧元区债券利差保持关注，但并不感到惊慌。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-09 00:42:43",
-      "content": "【快讯】SHMET10月09日讯，欧洲央行行长拉加德：欧洲央行关注市场。",
+      "datetime": "2026-10-09 01:17:46",
+      "content": "【快讯】SHMET10月09日讯，美国30年期国债拍卖收益率创2000年8月以来新高。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
