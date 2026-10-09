@@ -1,7 +1,447 @@
 {
   "source": "jin10 flash + shmet + shfe weekly stock",
-  "generated_at": "2026-10-09T17:11:44.841530+00:00",
+  "generated_at": "2026-10-09T18:57:35.531434+00:00",
   "jin10": [
+    {
+      "datetime": "2026-10-10 02:55:21",
+      "content": "布伦特原油期货结算价为每桶104.72美元，上涨44美分，涨幅0.42%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 02:53:17",
+      "content": "道指扩大涨幅至1%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 02:52:30",
+      "content": "【国际油价短线跳水】金十数据10月10日讯，美、布两油短线均下跌超1美元，现报90.13美元/桶和102.05美元/桶。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 02:49:48",
+      "content": "美国财政部：外国资产控制办公室（OFAC）立即发布临时通用许可证，以允许向全球市场供应俄罗斯柴油。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 02:47:39",
+      "content": "【特朗普：俄罗斯将向美国及全球市场供应大量柴油】金十数据10月10日讯，美国总统特朗普：我刚刚与俄罗斯总统普京结束了一场非常成功的会谈。双方同意，俄罗斯将立即向美国及全球市场供应超过30万吨柴油，11月再供应50万吨，随后立即追加供应100万吨。此外，根据俄罗斯柴油炼油厂的实际状况，俄罗斯还将在短期内供应300万吨柴油。凭借我们对霍尔木兹海峡的完全控制，以及这项有关俄罗斯能源的重大宣布，美国乃至全球的柴油价格都将以创纪录的幅度迅速下降！降低美国民众的生活成本，特别是为我们伟大的农民、牧场主和卡车司机降低成本，是我的首要任务。这是一项非常重大且重要的宣布。此外，必须明确一点：伊朗绝不能拥有核武器！",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 02:38:58",
+      "content": "微软(MSFT.O)CEO：我们已在微软内部将其应用于事件响应、质量控制及科学发现等场景进行测试。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 02:38:47",
+      "content": "微软(MSFT.O)CEO：该模型在结构化决策任务中表现卓越，在延迟与质量上均超越大语言模型及其他决策模型。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 02:38:28",
+      "content": "微软(MSFT.O)CEO：推出Decision-1，一款用于快速决策的新模型。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 02:37:02",
+      "content": "国际原子能机构：国际原子能机构已获悉本周早些时候扎波罗热核电站发生的无人机事件，这再次凸显了军事冲突期间核安全与核安保所面临的持续风险。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 02:32:33",
+      "content": "智利海军水文与海洋局：巴拿马发生地震后，智利发布海啸警报。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 02:31:08",
+      "content": "【夜盘主力合约收盘】金十数据10月10日讯，截至2:30收盘，沪金主力合约收涨1.05%，报909元/克，沪银主力合约收涨2.23%，报14838元/千克，SC原油主力合约收跌0.20%，报740元/桶。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 02:30:44",
+      "content": "美国原油期货结算价为每桶91.85美元，上涨36美分，涨幅0.39%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 02:30:36",
+      "content": "上海黄金交易所黄金T+D 10月9日（周五）晚盘收盘上涨0.85%报905.54元/克；\n上海黄金交易所白银T+D 10月9日（周五）晚盘收盘上涨1.5%报14798.0元/千克。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 02:29:39",
+      "content": "中国地震台网正式测定：10月10日01时56分在巴拿马（北纬7.50度，西经80.65度）发生7.6级地震，震源深度10千米。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 02:27:10",
+      "content": "市场消息：美国财长贝森特将缺席在曼谷举行的国际货币基金组织（IMF）年会，财政部官员布鲁克和布朗将出席。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 02:23:33",
+      "content": "欧洲央行管委卡扎克斯：欧洲央行在利率方面处于相对舒适的状态。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 02:23:24",
+      "content": "欧洲央行管委卡扎克斯：2.5%是欧洲央行中性利率的上限。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 02:23:14",
+      "content": "欧洲央行管委卡扎克斯：欧洲经济对冲击相对具有韧性。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 02:22:51",
+      "content": "巴拿马运河管理局：地震后运河运营初步恢复正常。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 02:21:21",
+      "content": "【据悉特朗普选定新任白宫新闻秘书】金十数据10月10日讯，据纽约时报援引两名知情人士报道，美国总统特朗普已选定保守派评论员凯蒂·扎卡里亚（Katie Zacharia）担任新一任白宫新闻秘书，接替今年8月离任的卡罗琳·莱维特（Karoline Leavitt）。扎卡里亚目前担任特朗普媒体科技集团(DJT.O)的传播顾问，该集团运营“真实社交”平台。她此前曾短暂担任美国国土安全部前部长克里斯蒂·诺姆（Kristi Noem）的发言人，并经常作为嘉宾出现在保守派媒体节目中。白宫尚未对此作出回应。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 02:14:20",
+      "content": "美国海啸预警系统：地震后，哥斯达黎加、厄瓜多尔、秘鲁、尼加拉瓜、危地马拉、萨尔瓦多和墨西哥沿岸可能出现危险海浪。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 02:13:41",
+      "content": "美国地质勘探局：将巴拿马地震震级从8级下调至7.6级。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 02:13:05",
+      "content": "中国地震台网自动测定：10月10日01时56分在巴拿马附近（北纬7.70度，西经80.85度）发生7.8级左右地震，最终结果以正式速报为准。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 02:11:10",
+      "content": "以色列国防军：我们空袭了一名在伊朗政权指挥下活动的叙利亚恐怖分子行动人员。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 02:08:44",
+      "content": "【巴拿马发生7.7级地震】金十数据10月10日讯，根据欧洲-地中海地震中心报告，当地时间9日12时56分，巴拿马中部马卡拉卡斯地区发生7.7级地震，震源深度12公里。美国海啸预警系统发布海啸警告。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 02:07:28",
+      "content": "美国海啸预警系统：未来三小时内，巴拿马和哥伦比亚部分沿海地区可能出现具有危险性的海啸波。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 02:05:15",
+      "content": "美国海啸预警系统：巴拿马发生8.0级地震后，存在海啸威胁。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 02:04:53",
+      "content": "美国地质勘探局：巴拿马皮塔洛萨阿里巴（Pitaloza Arriba）地区发生8.0级地震。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 02:03:05",
+      "content": "据纽约时报：凯蒂·扎卡里亚（Katie Zacharia）获选出任新任白宫新闻秘书。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 02:01:47",
+      "content": "美国中央司令部：截至10月9日，美国军方已重新引导133艘商船以确保遵守规定。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 01:58:32",
+      "content": "美国法官裁定，司法部利用各州选民登记名单，试图促使各州将部分选民从名单中除名的做法违法。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 01:57:51",
+      "content": "美国国家飓风中心（NHC）：墨西哥湾北部沿岸已开始出现热带风暴天气，应在未来数小时内完成防范可能危及生命的风暴潮和破坏性强风的准备工作。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 01:57:09",
+      "content": "金十图示：贝克休斯油服钻井数据亮点一览",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 01:53:24",
+      "content": "洲际交易所：截至10月6日当周，布伦特原油投机者净多头头寸减少3,250手，至201,052手。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 01:53:14",
+      "content": "洲际交易所：截至10月6日当周，柴油投机者净多头头寸减少3,696手，至70,157手。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 01:50:15",
+      "content": "【报道：特朗普将推动美国官员动用《国防生产法》以提高石油和燃料产量】金十数据10月10日讯，据路透社引述三名行业消息人士报道，美国总统特朗普即将向部分部门负责人下达指令，要求寻找控制柴油价格的办法。目前，美国柴油价格在11月3日国会中期选举前夕接近历史高位。消息人士称，该指令可能以总统备忘录的形式发布，将推动官员设法绕过阻碍能源生产的地方和州级法规，并动用冷战时期的《国防生产法》以提高石油和燃料产量。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 01:47:54",
+      "content": "委内瑞拉向SpaceX(SPCX.O)授予卫星互联网特许权。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 01:41:40",
+      "content": "【巴勒斯坦要求安理会紧急开会】金十数据10月10日讯，据巴勒斯坦官方通讯社当地时间10月9日晚报道，巴勒斯坦总统府已正式指示其外交部及驻联合国代表团，要求联合国安理会召开紧急会议，呼吁国际社会紧急干预、采取切实措施制止以军和犹太人定居者不断升级的袭击行为，并向巴勒斯坦人民提供国际保护。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 01:38:18",
+      "content": "【特朗普施压墨西哥达成能源协议 美墨贸易谈判受阻】金十数据10月10日讯，据英国金融时报援引知情人士报道，特朗普在9月中旬与墨西哥总统辛鲍姆通话时，要求墨西哥企业与美国能源企业达成更多交易及合作协议。知情人士称，特朗普最初询问墨西哥向美国出售资产的可能性，双方还讨论了类似美韩能源协议的安排，包括增加采购美国能源产品。一名美国官员表示，双方讨论了墨西哥扩大进口美国天然气，以缩小其对美贸易顺差。目前，美国天然气已占墨西哥天然气需求的约四分之三。报道指出，能源合作新要求引发墨西哥方面担忧，并导致原定9月举行的正式贸易谈判推迟，目前尚未重新安排。墨西哥正寻求降低美国对其汽车、钢铁和铝产品征收的关税，但能源行业的国家控制权在墨西哥具有高度政治敏感性。美方则表示，双方谈判进展积极，仍保持密切联系。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": true
+    },
+    {
+      "datetime": "2026-10-10 01:35:46",
+      "content": "【阿联酋检方：迪拜航空副驾驶企图驾机实施自杀式袭击】金十数据10月10日讯，阿联酋总检察长沙姆西9日说，对迪拜航空FZ1073航班事件的调查显示，涉事副驾驶企图驾驶飞机撞击以色列特拉维夫本-古里安国际机场航站楼，实施自杀式恐怖袭击，造成尽可能多的人员伤亡。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 01:34:11",
+      "content": "三位消息人士表示，特朗普的指令将促使美国官员利用《国防生产法》寻找增加石油和燃料生产的方法。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 01:33:41",
+      "content": "三位消息人士表示，特朗普的指令将促使美国各部门负责人寻找绕过地方和州法规以推动能源生产的方法。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 01:32:50",
+      "content": "三名行业消息人士称，美国总统特朗普将向美国官员发布指令，旨在控制柴油成本。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 01:32:14",
+      "content": "据英国金融时报：美国总统特朗普施压墨西哥与美国企业达成能源协议。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 01:28:32",
+      "content": "胡塞武装发言人：过去24小时，沙特战机及导弹对也门首都萨那及马里卜、萨达等省的民用设施发动77次空袭和导弹袭击。参与行动的F-15和“台风”战机从海米斯穆谢特和塔伊夫空军基地起飞，导弹袭击则从奈季兰方向发起。自沙特对也门升级军事行动以来，空袭和导弹袭击累计达1934次。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 01:26:57",
+      "content": "法国电力公司（EDF）：40亿欧元贷款中，10亿欧元将用于再融资法国现有核反应堆延长使用寿命的相关投资。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 01:26:11",
+      "content": "秘鲁央行货币政策负责人蒙特罗：厄尔尼诺现象对秘鲁的影响预计将持续至2027年上半年。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 01:24:46",
+      "content": "据Politico：美国总统特朗普扩大牛肉进口未能明显压低价格，引发牧场主不满。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 01:20:54",
+      "content": "法国电力公司（EDF）签署40亿欧元贷款协议。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 01:17:45",
+      "content": "美国副总统万斯：（关于美军将对枪决犯人进行直播）我不知道直播是否会发生。如果直播，我将不会观看。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 01:16:45",
+      "content": "【南苏丹发生暴力冲突 致70余人死亡】金十数据10月10日讯，当地时间10月9日，南苏丹信息、通信技术与邮政服务部发表声明称，当天清晨湖泊州伦拜克镇发生暴力冲突，约有71人丧生，伤亡人数尚未确定。遇难者中包括4名士兵。声明称，当地政府已部署由南苏丹人民国防军、国家安全局和南苏丹国家警察组成的联合安全部队，目前局势已得到控制。南苏丹政府表示强烈谴责暴力行为，并敦促湖泊州所有社区保持冷静克制，避免采取可能进一步加剧紧张局势的报复行动。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 01:16:22",
+      "content": "美联储在固定利率逆回购操作中总计接纳了1个对手方的3亿美元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 01:15:48",
+      "content": "秘鲁央行：8月GDP同比增速与7月的3.56%基本持平。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 01:15:37",
+      "content": "惠誉评级：尽管债务容量收紧，英国天然气网络仍保留缓冲空间。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-10 01:12:36",
+      "content": "马斯克：（关于SpaceX(SPCX.O)1000万亿估值）这是迈向K2级文明过程中不可避免的。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
     {
       "datetime": "2026-10-10 01:07:53",
       "content": "土耳其外交部长在首都安卡拉会见了由哈马斯政治局主席哈利勒·哈亚率领的哈马斯代表团。",
@@ -753,1274 +1193,99 @@
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:22:29",
-      "content": "美国国务卿鲁比奥：与委内瑞拉临时当局的谈判取得进展。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:22:24",
-      "content": "巴林官员：必须加强国际努力以应对胡塞武装对海上通道的威胁。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:22:06",
-      "content": "巴林官员：我们赞赏也门政府在霍尔木兹海峡加强国家权力的努力，支持其将主权扩展至全国领土。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:20:50",
-      "content": "美国联邦通信委员会（FCC）主席卡尔：市场将决定赢家和输家。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:19:47",
-      "content": "巴林官员：胡塞武装对麦加和麦地那的袭击是对穆斯林圣地的侵犯。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:19:26",
-      "content": "委内瑞拉国家石油公司PDVSA负责人：委内瑞拉石油产量将在2027年底达到150万桶/日。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:19:12",
-      "content": "美国联邦通信委员会（FCC）主席卡尔：已看到超过1000亿美元的频谱交易。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:17:32",
-      "content": "【德国拟放弃争夺欧洲央行行长职位，转而寻求保留执行委员会席位】金十数据10月9日讯，据英国《金融时报》报道，德国计划提名人选接替即将离任的欧洲央行执行委员会委员伊莎贝尔·施纳贝尔，这一决定意味着德国实际上将退出下一任欧洲央行行长的竞争。知情人士透露，德国财政部长周四晚间在卢森堡向其他欧元区国家财长表示，柏林将很快提出接替施纳贝尔的人选。施纳贝尔将于2027年1月提前离任，转赴国际货币基金组织（IMF）担任货币与资本市场部门负责人。另外，现任行长拉加德预计可能在2027年10月正式任期结束前提前离任，而首席经济学家菲利普·莱恩（Philip Lane）将于2027年5月底结束任期。根据欧洲央行执行委员会成员任命中的不成文惯例，同一个国家通常不能同时拥有两个执行委员会席位。由于该委员会只有六名成员，德国如果成功推举施纳贝尔的继任者，实际上就意味着德国候选人将无法争夺行长职位。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:16:43",
-      "content": "【白俄罗斯因本国公民遇袭召见乌克兰临时代办】金十数据10月9日讯，白俄罗斯外交部当地时间9日发表声明说，白外交部当天召见了乌克兰驻白俄罗斯临时代办诺维茨基，就乌无人机在俄罗斯境内攻击白俄罗斯车牌货车并致白公民重伤一事递交抗议照会。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:16:14",
-      "content": "委内瑞拉国家石油公司PDVSA负责人：其中70%的合同涉及新油田开发。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:15:49",
-      "content": "委内瑞拉国家石油公司PDVSA负责人：预计到年底将签署105份石油合同。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:15:16",
-      "content": "【赴美航班遭遇强气流颠簸8人伤】金十数据10月9日讯，据美国媒体报道，当地时间今天（10月9日）凌晨，哥伦比亚航空公司一架从哥伦比亚麦德林飞往美国纽约的空客A320客机，在飞行途中遭遇严重气流颠簸。根据飞行追踪网站的数据，这架客机“在几分钟内下降了25000英尺（7620米）”，最终被迫改道并降落在迈阿密。迈阿密消防部门称，飞机上至少8人受伤被送往医院，其中一人伤势严重。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:11:14",
-      "content": "【蒙特利尔银行：加拿大就业连续两月大幅下滑，加息必要性明显降低】金十数据10月9日讯，蒙特利尔银行经济学家道格拉斯·波特表示，加拿大连续第二个月出现大规模就业岗位流失，抵消了初夏劳动力市场意外强劲的表现，使就业人数同比增幅仅剩0.5%。波特指出，9月教育行业就业人数大幅下降的情况略显异常，尤其是降幅全部集中在一个省份。然而，其他地区及行业的就业表现同样难以令人乐观。他警告称，制造业就业岗位减少可能是美加贸易战升级对加拿大经济造成冲击的早期信号。对于加拿大央行的政策前景，波特表示：“总体而言，我们仍认为加拿大央行应当采取观望立场，尤其是在就业前景突然蒙上阴影的情况下。”他强调，9月疲软的就业报告大幅降低了加拿大央行加息的可能性，也明显削弱了进一步加息的必要性。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:10:54",
-      "content": "巴西计划和预算部长：中东战争不应影响巴西人。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:10:44",
-      "content": "美国国务卿鲁比奥：敦促委内瑞拉继续进行选举改革。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:09:57",
-      "content": "美国财政部：美国副财长布鲁克和副部长布朗将率领美国财政部代表团出席。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:08:43",
-      "content": "一名美国官员表示，美国财政部长贝森特因国内事务将缺席在曼谷举行的国际货币基金组织—世界银行年会及二十国集团会议。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:06:09",
-      "content": "【毛里塔尼亚总理递交政府辞呈】金十数据10月9日讯，据毛里塔尼亚通讯社9日报道，毛里塔尼亚总理艾贾伊当天向总统加兹瓦尼递交政府辞呈。报道说，加兹瓦尼当天上午在首都努瓦克肖特的总统府会见艾贾伊。其间，艾贾伊递交辞呈。官方未说明政府辞职的原因。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:04:12",
-      "content": "巴西计划和预算部长：我们将为进口柴油采取特定补贴，成本为16亿雷亚尔，持续30天。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:04:02",
-      "content": "【金十期货独家策划】农产品必看：USDA 10月供需报告将于北京时间10月10日凌晨0点公布！多雨延缓美豆收割，52.8蒲单产预期能否守住？玉米单产下调能否抵消旧作库存压力，大豆期末库存能否进一步收紧？点击查看前瞻专题。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:03:52",
-      "content": "沙特阿美将于11月向欧洲客户提供全部石油供应量。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:02:12",
-      "content": "巴西计划和预算部长：有关措施还将产生8亿雷亚尔的财政影响，用于支付乙醇补贴以维持其竞争优势。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:01:16",
-      "content": "【凯投宏观：加拿大10月加息可能性大幅下降，预计明年才开始推动利率正常化】金十数据10月9日讯，凯投宏观经济学家托马斯·瑞安表示，在加拿大连续两个月就业人数大幅下降、失业率小幅上升之后，只有9月通胀数据大幅超出预期，才可能使加拿大央行本月晚些时候加息的选项重新进入讨论范围。加拿大9月就业人数减少6.83万人，表现明显逊于市场普遍预期的小幅增长，也低于凯投宏观此前预计的就业人数持平。不过，瑞安认为，实际就业情况并不像整体数据所显示的那样糟糕。他指出，部分就业降幅反映了年轻劳动者在夏季异常强劲的招聘活动之后出现的回落，同时就业疲软主要集中在公共部门。瑞安仍预计，加拿大央行将等到2027年才开始推动政策利率正常化。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:01:08",
-      "content": "巴西计划和预算部长：财政影响将达到28亿雷亚尔，比之前的燃料措施增加7亿雷亚尔。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:00:51",
-      "content": "巴西计划和预算部长：这实际上将汽油的联邦税负降至零。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:00:24",
-      "content": "长假后第一个交易日，燃料油涨18%，PX、纯苯、苯乙烯一排涨停。为什么资金宁愿追涨停的化工品，也不追原油？别急着用“补涨”两个字解释完，这轮冲击的下一站会落在哪？",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:00:23",
-      "content": "【毕马威：加拿大就业连续两月下滑，加息前景更趋复杂，但仍预计12月加息25基点】金十数据10月9日讯，毕马威加拿大经济学家DanielHyun表示，加拿大央行正处于非常艰难的境地：当前经济状况仍需要一定程度的宽松货币政策，但通胀风险却在不断上升。他指出，加拿大就业人数连续第二个月下降，使其对加拿大央行12月加息的预测面临更大挑战。不过，Hyun仍预计加拿大央行将在12月加息25个基点。他认为，尽管9月就业数据表现十分疲弱，但该数据历来波动较大。与此同时，加拿大央行仍面临通胀上行威胁，以及维护货币政策公信力的压力。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:00:20",
-      "content": "欧盟委员会：随时准备采取必要措施，以支持国际刑事法院开展工作。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:00:07",
-      "content": "欧盟委员会：由于（美国对国际刑事法院的制裁）措施在六个月后生效，仍有对话的空间。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:00:00",
-      "content": "【美联储调查：近两成美国家庭出现贷款逾期，债务偿付压力升至2013年以来最高水平】金十数据10月9日讯，美联储最新消费者财务调查显示，美国家庭债务压力正在加剧，越来越多借款人出现贷款逾期，或需要将更大比例的收入用于偿还债务。调查显示，美国家庭债务偿付收入比中位数升至15.4%，较2022年上升2个百分点。美联储指出，这可能与同期住房抵押贷款和消费贷款利率上升有关。与此同时，债务偿付负担较重的家庭比例从2022年的6.5%升至2025年的8.6%，达到2013年调查以来最高水平。这类家庭的债务偿付额占收入的比例达到或超过40%。更值得注意的是，2022年至2025年，报告出现贷款逾期的家庭比例从约12%大幅升至近20%。这些数据表明，随着借贷成本上升，美国家庭不仅需要将更多收入用于偿债，贷款逾期现象也明显增加，反映出部分家庭的财务状况正在恶化。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 22:59:51",
-      "content": "欧盟委员会：将与国际刑事法院紧密合作，以确保其继续有效运作。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 22:59:41",
-      "content": "欧盟委员会：欧盟一直是国际刑事法院（ICC）的坚定支持者。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 22:59:13",
-      "content": "巴西财长：含水乙醇税收减免、调整乙醇补贴，并新增柴油补贴，所有措施有效期一个月。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 22:59:10",
-      "content": "【摩根大通：SpaceX加码无线通信业务，目标从手机扩展至自动驾驶与机器人】金十数据10月9日讯，摩根大通分析师在报告中表示，SpaceX计划从Grain Management收购覆盖美国全国的无线频谱组合，进一步扩大其在移动通信领域的布局。分析师指出，此次拟收购的低频频谱具有更强的室内信号穿透能力，可提供更广泛的网络覆盖，并与SpaceX正在从EchoStar收购的中频频谱形成互补。后者能够提供更高的带宽容量，从而增强Starlink Mobile长期发展前景的可信度。摩根大通认为，这笔交易进一步印证了SpaceX的移动通信业务雄心并不局限于手机，而是将延伸至物联网（IoT）、自动驾驶汽车和机器人等领域，最终实现“万物互联”。分析师补充称，如果SpaceX未来继续寻求收购更多低频频谱资产，他们也不会感到意外。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 22:58:32",
-      "content": "巴西财长：我们不断利用收入增长来保护巴西消费者。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 22:58:24",
-      "content": "巴西财长宣布措施以延长和扩大汽油相关的减税政策。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 22:58:04",
-      "content": "巴西财长宣布针对中东冲突背景下有关燃料问题的额外措施。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 22:57:58",
-      "content": "据港交所文件：常州微亿智造科技股份有限公司通过港交所上市聆讯。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 22:57:19",
-      "content": "国内新闻\n1. 中共中央、国务院印发《关于发展新质生产力的意见》。\n2. 2026年9月A股新开户191.19万户，同比去年9月293.72万户下降35.0%。\n3. 中欧贸易投资磋商机制第二次例会联合声明：中欧双方以符合世贸组织规则的方式就混动汽车贸易达成谅解。\n4. 商务部新闻发言人就美国召集部分经济体发布应对所谓“结构性产能和生产过剩”问题部长级联合声明答记者问。\n5. 中国证监会就《公开募集证券投资基金运作管理办法（征求意见稿）》及配套规则公开征求意见：权益类基金成立门槛拟降至5000万元。\n国际新闻\n1. 特朗普宣布成立调查委员会，审查是否有理由罢免美联储理事库克。\n2. 欧盟就金融市场监管改革达成协议，欧洲证券及市场管理局将获更大权力。\n3. 加拿大9月就业超预期收缩，加拿大央行10月加息的可能性从40%降至27%。\n4. 美国10月消费者信心创5月以来最低水平，经济现况指数创历史新低，通胀预期再度升温。\n5. 中东局势—\n①报道称，也门政府军宣称已控制曼德海峡和丕林岛。\n②伊朗革命卫队：大型LPG运输船违规穿越海峡遭袭起火，对违规船只的追踪范围将扩大至整个地区。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 22:57:11",
-      "content": "法兴银行：将特斯拉(TSLA.O)目标价从268美元下调至266美元。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 22:57:03",
-      "content": "SpaceX(SPCX.O)：猎鹰9号目标定于10月10日发射太空发展局第四批第一代任务，前往近地轨道。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 22:57:00",
-      "content": "【加拿大商会：就业连续两个月下降，加拿大央行10月或释放更鸽派信号】金十数据10月9日讯，加拿大商会经济学家阿努普丽娅·甘戈帕迪亚伊表示，在经历春季和夏季较为强劲的就业增长后，加拿大劳动力市场9月进一步走弱，就业人数连续第二个月下降。她指出，最新就业报告进一步增强了加拿大央行在10月28日货币政策会议上采取更鸽派立场的理由。甘戈帕迪亚伊表示：“劳动力市场显然正在走弱，但加拿大央行仍需在招聘疲软、通胀压力以及更广泛的经济不确定性之间寻求平衡。”",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 22:56:20",
-      "content": "美联储理事库克的律师表示，如果听证会大体上是客观的，它将证明库克没有实施抵押贷款欺诈，从而没有理由将其免职。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 22:55:49",
-      "content": "美联储理事库克的律师表示，已与白宫就针对美联储理事库克的指控计划听证会进行了接触，并对其合法性表示严重怀疑。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 22:55:39",
-      "content": "意大利与欧盟接近达成协议，以限制能源账单。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 22:54:49",
-      "content": "伊朗对船只威慑范围大幅扩大，美中期选举结果推演；资金涌入A股宽基基金，美科技股对利率反应不对称；需求下降苹果削减手机订单，OpenAI收入为何现200亿差异……",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 22:54:27",
-      "content": "【国际刑事法院说不会屈服于美方压力】金十数据10月9日讯，据外媒9日报道，针对美国财政部将国际刑事法院列入制裁名单，国际刑事法院表示，美方制裁旨在干扰法院工作，恐吓与其合作者，法院不会屈服于压力。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 22:54:18",
-      "content": "【加拿大皇家银行：9月就业骤降不宜过度解读，预计年底前失业率逐步回落】金十数据10月9日讯，加拿大皇家银行经济学家克莱尔·范表示，市场不应过度解读加拿大最新就业数据，因为该数据本身具有较大的波动性。她指出，加拿大9月就业人数大幅下降，其中约70%的降幅来自15至24岁的年轻群体。随着新学年开始，这一年龄段通常会面临季节性就业压力，因此就业减少并不一定意味着劳动力市场全面恶化。范还表示，重要的领先指标显示，自美国实施最新关税以来，加拿大企业的招聘需求尚未下降至令人担忧的程度。她预计，加拿大劳动力市场今年早些时候取得的改善将得以延续，失业率将在2026年剩余时间内总体呈现逐步下降趋势。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 22:52:49",
-      "content": "荷兰外交部长：认为与美国就国际刑事法院制裁进行对话的空间仍然存在。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 22:52:40",
-      "content": "荷兰外交部长：（在美国宣布制裁后表示）将支持国际刑事法院。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 22:49:07",
-      "content": "【牛津经济研究院：加拿大就业疲软降低10月加息概率，但预计年内仍将加息两次】金十数据10月9日讯，牛津经济研究院经济学家托尼·斯蒂洛表示，加拿大9月劳动力市场表现疲软，降低了加拿大央行在10月底加息的可能性，但并未完全排除这一选项。斯蒂洛仍预计，汽油价格上涨带来的持续通胀风险，将促使加拿大央行在10月和12月分别加息25个基点。不过，他认为，这并不意味着加拿大央行将开启新一轮货币紧缩周期。相反，央行可能采取预防性行动，迅速将政策利率恢复至中性水平，以防止油价飙升演变为持续性的高通胀。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 22:48:28",
-      "content": "【摩根大通：SpaceX最新频谱交易或加剧美国电信业竞争，三大运营商面临成本压力】金十数据10月9日讯，摩根大通分析师在一份报告中表示，SpaceX最新达成的频谱交易可能再次引发市场对美国三大无线通信运营商竞争加剧的担忧。分析师指出，除了SpaceX可能成为新的无线通信市场参与者、甚至发展为美国第四大运营商之外，这笔交易还增加了现有主要运营商在未来频谱拍卖中不得不投入更多资金的风险。不过，摩根大通认为，SpaceX短期内对威瑞森（Verizon）、T-Mobile和美国电话电报公司（AT&T）这三大现有运营商构成的竞争威胁仍然有限。分析师解释称，建设具备竞争力的地面移动通信网络需要大量时间、基础设施和资本投入，因此SpaceX即使获得更多频谱资源，也难以在短期内对现有市场格局形成实质性冲击。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 22:46:29",
-      "content": "【圣诺生物：全资子公司及实控人因涉嫌串通投标罪被提起公诉】金十数据10月9日讯，圣诺生物公告，公司全资子公司圣诺制药及实际控制人文永均收到南京市雨花台区检察院起诉书，涉第七批国家集采药品醋酸奥曲肽注射液围标，违法所得1097.96万元。公司已计提预计负债，预计将影响本年度或以后年度净利润。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 22:41:31",
-      "content": "美国国务卿鲁比奥：如果国际刑事法院不受到约束，美国将继续致力于将其瓦解。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 22:41:29",
-      "content": "美国国务卿鲁比奥：美国制裁将禁止与国际刑事法院的交易，切断其资金来源，削弱其对我们行动的能力。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 22:40:53",
-      "content": "美国国务卿鲁比奥：我们今天对国际刑事法院实施了制裁。特朗普总统不会允许国际刑事法院起诉美国公民。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 22:36:07",
-      "content": "国际刑事法院：美国制裁旨在破坏法院的运作，并威胁那些为法院工作或与其合作的人士。国际刑事法院将继续全面履行其职责，呼吁成员国确保其能够继续运作。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 22:35:35",
-      "content": "国际刑事法院：强烈反对美国对该机构的制裁，这是试图妨碍司法进程的行为，是对法治的攻击，也是对国际法律秩序根基的侵害。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
     }
   ],
   "shmet": [
     {
-      "datetime": "2026-10-10 01:00:54",
-      "content": "【快讯】SHMET10月10日讯，美国至10月9日当周石油钻井总数报462口，前值456口。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-10 01:00:36",
-      "content": "【快讯】SHMET10月10日讯，市场消息：AI初创公司TypeSafe AI以75亿美元估值融资，由Andreessen Horowitz领投。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-10 00:53:37",
-      "content": "【，LME金属期货收盘普遍上涨】SHMET10月10日讯，LME金属期货收盘普遍上涨，LME期铜收涨231美元，报14540美元/吨。LME期铝收跌2美元，报3048美元/吨。LME期锌收涨87美元，报3806美元/吨。LME期铅收涨28美元，报1888美元/吨。LME期镍收涨69美元，报15622美元/吨。LME期锡收涨1559美元，报53006美元/吨。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-10 00:51:58",
-      "content": "【快讯】SHMET10月10日讯，美国至10月9日当周石油钻井总数将于十分钟后公布。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-10 00:45:14",
-      "content": "【快讯】SHMET10月10日讯，欧洲理事会主席科斯塔：我们将仔细分析局势，并采取适当措施保护法院。美国决定推迟其最新措施的生效是对话的机会。欧盟将继续通过政治、外交、财政和实际手段支持国际刑事法院及罗马规约体系。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-10 00:45:13",
-      "content": "【快讯】SHMET10月10日讯，欧洲理事会主席科斯塔：国际司法必须得到捍卫。没有问责就没有持久和平。欧盟对美国决定对国际刑事法院（ICC）实施机构制裁深表遗憾。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-10 00:43:01",
-      "content": "【快讯】SHMET10月10日讯，摩洛哥国王：过时的法律条款和脱离现实的法院裁决，阻碍了遣返未成年人及虚假声称具有难民身份的人员。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-10 00:42:31",
-      "content": "【快讯】SHMET10月10日讯，摩洛哥国王：当前移民问题合作模式已达到极限，相关危机反复发生。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-10 00:40:16",
-      "content": "【快讯】SHMET10月10日讯，智利铜业委员会：智利科亚瓦西铜矿8月铜产量同比下降25.1%，至2.65万吨。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-10 00:39:03",
-      "content": "【快讯】SHMET10月10日讯，智利铜业委员会：智利埃斯孔迪达铜矿8月铜产量同比下降27.6%，至7.61万吨。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-10 00:37:42",
-      "content": "【快讯】SHMET10月10日讯，美国海洋矿产管理局：墨西哥湾地区目前运营的11座非动力定位钻井平台中，已有8座撤离人员，占比72.73%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-10 00:37:40",
-      "content": "【快讯】SHMET10月10日讯，据智利铜业委员会，智利国家铜业公司8月铜产量同比增长8.9%至10.17万吨。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-10 00:37:30",
-      "content": "【快讯】SHMET10月10日讯，联合国发言人斯特凡·杜贾里克：美国计划现场直播处决的做法“坦率地说，是令人厌恶的，政府在公众或直播镜头前处决某人。”",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-10 00:37:25",
-      "content": "【快讯】SHMET10月10日讯，美国海洋矿产管理局：为避开风暴，17座动力定位钻井平台中已有2座采取预防措施，撤离原作业位置。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-10 00:35:53",
-      "content": "【快讯】SHMET10月10日讯，美国海洋矿产管理局：墨西哥湾地区371座有人值守的生产平台中，已有129座撤离人员，占比34.77%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-10 00:34:35",
-      "content": "【快讯】SHMET10月10日讯，美国海洋矿产管理局：美国湾地区约71.51%的日常石油产量和58.84%的日常天然气产量已暂停生产。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-10 00:33:23",
-      "content": "【快讯】SHMET10月10日讯，联合国人权事务高级专员图尔克呼吁撤销对国际刑事法院及其工作人员的所有制裁。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-10 00:32:38",
-      "content": "【快讯】SHMET10月10日讯，联合国人权事务高级专员图尔克呼吁采取紧急措施保护国际刑事法院。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-10 00:30:01",
-      "content": "【快讯】SHMET10月10日讯，欧盟科技事务负责人：欧盟凭借具有里程碑意义的监管规则，已具备充分能力应对失控的人工智能代理及其他风险。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-10 00:27:28",
-      "content": "【快讯】SHMET10月10日讯，据工作人员透露，委内瑞拉埃尔帕利托炼油厂已开始按计划进行大规模检修。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-10 00:24:29",
-      "content": "【快讯】SHMET10月10日讯，联合国人权事务高级专员图尔克批评美国对国际刑事法院的制裁为“不可接受”。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-10 00:21:56",
-      "content": "【快讯】SHMET10月10日讯，欧盟外交与安全政策高级代表卡拉斯：保护国际刑事法院仍然是欧盟的优先事项。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-10 00:20:02",
-      "content": "【快讯】SHMET10月10日讯，欧盟外交与安全政策高级代表卡拉斯：欧盟将继续支持国际刑事法院，并利用美国制裁生效前的六个月推动对话，确保该法院继续履行职责。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-10 00:19:09",
-      "content": "【快讯】SHMET10月10日讯，欧盟外交与安全政策高级代表卡拉斯：我已与国际刑事法院主席秋野智子进行了交谈，讨论美国宣布的制裁意图。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-10 00:18:09",
-      "content": "【快讯】SHMET10月10日讯，洛杉矶港执行董事表示，该港9月集装箱进口量达到546,696个标准箱，创下新纪录。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-10 00:16:53",
-      "content": "【快讯】SHMET10月10日讯，美国总统特朗普：汽油价格将很快下跌。",
+      "datetime": "2026-10-10 02:54:00",
+      "content": "【国际油价短线跳水】SHMET10月10日讯，美、布两油短线均下跌超1美元，现报90.13美元/桶和102.05美元/桶。",
       "important": 0,
       "source": "shmet",
       "sentiment": "bear",
       "steel": false
     },
     {
-      "datetime": "2026-10-10 00:15:56",
-      "content": "【快讯】SHMET10月10日讯，据阿联酋国家通讯社：阿联酋检察总长称，迪拜航空航班副驾驶为阿曼人。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-10 00:15:20",
-      "content": "【快讯】SHMET10月10日讯，美国总统特朗普：伊朗战争将很快结束。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-10 00:15:20",
-      "content": "【快讯】SHMET10月10日讯，美国总统特朗普重申伊朗不能拥有核武器。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-10 00:15:04",
-      "content": "【快讯】SHMET10月10日讯，荷兰首相耶滕：如有必要，荷兰及其欧洲伙伴将采取措施确保国际刑事法院正常运作。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-10 00:14:13",
-      "content": "【快讯】SHMET10月10日讯，雪佛龙(CVX.N)：部署相关技术，在飓风伊赛亚斯（Isaias）期间保护墨西哥湾沿岸业务设施。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-10 00:14:08",
-      "content": "【快讯】SHMET10月10日讯，雪佛龙(CVX.N)：已撤离人员并关闭美国湾地区五处设施的生产作业，另有四座海上平台继续生产。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-10 00:13:02",
-      "content": "【快讯】SHMET10月10日讯，荷兰首相耶滕：与美国就国际刑事法院的对话还有充足的时间。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-10 00:13:01",
-      "content": "【快讯】SHMET10月10日讯，美国总统特朗普威胁削减对纽约市的部分联邦拨款。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-10 00:12:42",
-      "content": "【快讯】SHMET10月10日讯，据阿联酋国家通讯社：阿联酋检察总长表示，迪拜航空的副驾驶计划劫持迪拜至特拉维夫航班，实施自杀式袭击本·古里昂机场航站楼。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-10 00:11:48",
-      "content": "【全球银行贵金属交易收入今年有望创纪录 达50亿美元】SHMET10月10日讯，据知情人士及Crisil Coalition Greenwich数据，受黄金、白银价格剧烈波动及投资者交易活跃推动，全球银行2026年贵金属交易收入预计达到约50亿美元，创历史新高。其中，摩根大通上半年从黄金、白银等贵金属交易及相关业务中获得约7亿美元收入，接近其2020年全年逾10亿美元的历史最高水平；德意志银行今年以来相关收入超过2亿美元。银行通过短期期权、杠杆ETF交易及不同市场间的金价套利获利。与此同时，花旗今年成为十年来首家新加入伦敦黄金市场金库及清算服务的银行，德意志银行和摩根士丹利也寻求进入该领域。尽管金银价格已从年初高位回落，但目前仍较2024年初上涨逾一倍。",
+      "datetime": "2026-10-10 02:51:57",
+      "content": "【快讯】SHMET10月10日讯，美国股市延续涨势，道琼斯指数上涨超1%，纳指现涨0.71%，标普500指数涨0.66%。",
       "important": 0,
       "source": "shmet",
       "sentiment": "bull",
       "steel": false
     },
     {
-      "datetime": "2026-10-10 00:09:53",
-      "content": "【快讯】SHMET10月10日讯，荷兰首相耶滕：美国对国际刑事法院的制裁不应立即生效，这一点至关重要。",
+      "datetime": "2026-10-10 02:49:26",
+      "content": "【白宫新任新闻秘书】SHMET10月10日讯，据美国《纽约时报》等媒体援引白宫方面消息当地时间10月9日报道，在莱维特今年8月离任后，美国总统特朗普旗下社交媒体平台“真实社交”的传播顾问凯蒂·扎卡里亚成为接任白宫新闻秘书一职的人选。目前尚不清楚扎卡里亚是否将接受这一职务。 (CCTV国际时讯)",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-10 00:02:13",
-      "content": "【快讯】SHMET10月10日讯，俄罗斯统计局：俄罗斯9月份消费者物价指数环比上涨0.35%，同比上涨6.35%。",
+      "datetime": "2026-10-10 02:33:02",
+      "content": "【快讯】SHMET10月10日讯，WTI原油期货结算价为91.85美元/桶，上涨36美分，涨幅0.39%。",
       "important": 0,
       "source": "shmet",
       "sentiment": "bull",
       "steel": false
     },
     {
-      "datetime": "2026-10-09 23:58:26",
-      "content": "【快讯】SHMET10月10日讯，荷兰政府提出拦截俄罗斯影子舰队的法律草案。",
+      "datetime": "2026-10-10 02:32:41",
+      "content": "【夜盘主力合约收盘】SHMET10月10日讯，截至2:30收盘，沪金主力合约收涨1.05%，报909元/克，沪银主力合约收涨2.23%，报14838元/千克，SC原油主力合约收跌0.20%，报740元/桶。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-09 23:50:34",
-      "content": "【八国外长联合声明：强烈反对美国制裁国际刑事法院】SHMET10月09日讯，加拿大、丹麦、德国、法国、意大利、日本、荷兰和英国外长联合发表关于国际刑事法院的声明，重申对国际刑事法院独立、公正和诚信的持续坚定支持。联合声明指出，对美国宣布对该法院实施制裁的决定表示遗憾，并强烈反对。如果实施，这些制裁将对法院的工作产生重大影响。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:47:42",
-      "content": "【快讯】SHMET10月09日讯，也门代表：也门政府为了实现平静承担了巨大的经济和人道成本。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:47:10",
-      "content": "【快讯】SHMET10月09日讯，俄罗斯1至9月的联邦预算赤字占GDP的2.2%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:46:54",
-      "content": "【快讯】SHMET10月09日讯，巴西计划和预算部长：石油出口税将尽快取消。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:45:49",
-      "content": "【快讯】SHMET10月09日讯，巴西计划和预算部长：如有必要将冻结支出以遵守财政规则。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:44:46",
-      "content": "【快讯】SHMET10月09日讯，加拿大、丹麦、德国、法国、意大利、日本、荷兰和英国外长联合发表关于国际刑事法院的声明。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:42:08",
-      "content": "【沙特阿美承诺11月向欧洲炼厂足额供应原油】SHMET10月09日讯，据外媒报道，随着此前遭袭的沙特关键东西向输油管道恢复运行，沙特阿美已通知欧洲炼油企业，将在11月满足其全部原油采购需求。据知情人士透露，至少三家欧洲炼油企业已获沙特阿美确认，将在11月获得全部申请的原油配额。此前，沙特东西向输油管道遭到袭击，导致沙特对欧洲的原油供应受到严重影响。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:41:37",
-      "content": "【快讯】SHMET10月09日讯，美国总统特朗普：我们阻止了伊朗获得核武器，我们将很快以某种方式结束这件事。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:40:21",
-      "content": "【快讯】SHMET10月09日讯，美国民主党参议员沃伦在声明中称对美联储理事库克的调查举动不合法。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:39:31",
-      "content": "【惠誉：加拿大两个月流失约11万个就业岗位，春夏就业复苏成果近半被抵消】SHMET10月09日讯，惠誉评级经济学家杰西卡·海因兹表示，9月对加拿大劳动力市场而言又是一个表现极其疲弱的月份。她指出，尽管加拿大失业率仅小幅升至6.5%，但8月和9月就业人数累计减少约11万人，抵消了今年春季及初夏就业复苏成果的近一半。展望未来，海因兹表示，采购经理人指数（PMI）等调查指标显示，加拿大企业招聘需求可能在今年剩余时间内持续低迷。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:39:00",
-      "content": "【美国封锁伊朗港口致石油出口骤降 官员称时间站在美国一遍】SHMET10月09日讯，据华盛顿邮报报道，美国对伊朗港口实施的封锁，已将伊朗石油出口压低至极低水平，使德黑兰每月损失数十亿美元收入。尽管目前经济施压尚未迫使伊朗在谈判中让步，但据一名特朗普政府高级官员透露，白宫仍认为时间站在美国一边。该官员解释称，过去几轮经济施压期间，伊朗能够依靠石油收入缓解经济压力，但美国目前实施的港口封锁正在消除这一回旋空间，使制裁措施的效果不断增强。在特朗普政府看来，封锁伊朗石油出口将持续削弱德黑兰承受经济压力的能力。但截至目前，经济损失尚未转化为伊朗在关键谈判条件上的让步，美伊之间的僵局仍未打破。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:38:49",
-      "content": "【快讯】SHMET10月09日讯，特朗普表示，昨天从霍尔木兹海峡运出了2800万桶石油。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:38:17",
-      "content": "【快讯】SHMET10月09日讯，美国总统特朗普：重申伊朗战争结束后价格将会下降。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:38:12",
-      "content": "【快讯】SHMET10月09日讯，提示：美国总统特朗普在白宫活动上发表讲话。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:37:28",
-      "content": "【快讯】SHMET10月09日讯，挪威外交部长：我们与其他国家一起，持续评估如何最好地支持和保护法院在当前严峻形势下的处境，以及是否有可能防止制裁的实际实施。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:37:19",
-      "content": "【快讯】SHMET10月09日讯，挪威外交部长：（关于国际刑事法院制裁）美国宣布扩大对国际刑事法院的制裁计划令人深感担忧。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:37:18",
-      "content": "【快讯】SHMET10月09日讯，迪拜航空表示，飞往沙特阿拉伯利雅得和延布的航班取消至10月10日，飞往艾卜哈的航班取消至10月11日。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:37:04",
-      "content": "【快讯】SHMET10月09日讯，美国总统特朗普：（关于伊朗问题）无论如何，很快就会结束。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:34:55",
-      "content": "【快讯】SHMET10月09日讯，T-Mobile股价跌幅扩大至12%，创2020年3月以来最大跌幅。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:34:21",
-      "content": "【快讯】SHMET10月09日讯，高盛策略师表示，法国股市的相对便宜尚不构成买入理由，他们认为缩小折价所需的条件目前均未出现。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:32:52",
-      "content": "【欧洲主要股指集体收涨】SHMET10月09日讯，欧洲主要股指集体收涨，法国CAC 40指数上涨0.96%，西班牙IBEX指数上涨0.82%，欧洲STOXX 600指数上涨1.03%，英国富时100指数上涨1.13%，德国DAX指数上涨1.19%。",
+      "datetime": "2026-10-10 02:31:33",
+      "content": "【快讯】SHMET10月10日讯，上海黄金交易所黄金T+D 10月9日（周五）晚盘收盘上涨0.85%报905.54元/克；上海黄金交易所白银T+D 10月9日（周五）晚盘收盘上涨1.5%报14798.0元/千克。",
       "important": 0,
       "source": "shmet",
       "sentiment": "bull",
       "steel": false
     },
     {
-      "datetime": "2026-10-09 23:30:52",
-      "content": "【快讯】SHMET10月09日讯，比利时副总理普雷沃特：比利时呼吁启动欧盟阻断条例以保护国际刑事法院。",
+      "datetime": "2026-10-10 02:30:53",
+      "content": "【快讯】SHMET10月10日讯，中国地震台网正式测定：10月10日01时56分在巴拿马（北纬7.50度，西经80.65度）发生7.6级地震，震源深度10千米。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-09 23:29:03",
-      "content": "【快讯】SHMET10月09日讯，比利时副总理普雷沃特：强烈谴责美国对国际刑事法院的新制裁。",
+      "datetime": "2026-10-10 02:28:58",
+      "content": "【快讯】SHMET10月10日讯，市场消息：美国财长贝森特将缺席在曼谷举行的国际货币基金组织（IMF）年会，财政部官员布鲁克和布朗将出席。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-09 23:28:56",
-      "content": "【快讯】SHMET10月09日讯，据华盛顿邮报：一名特朗普政府高级官员称，对伊朗的封锁增强了制裁的有效性，并使其无法依赖石油收入。",
+      "datetime": "2026-10-10 02:25:32",
+      "content": "【快讯】SHMET10月10日讯，欧洲央行管委卡扎克斯：欧洲央行在利率方面处于相对舒适的状态。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-09 23:28:36",
-      "content": "【快讯】SHMET10月09日讯，据华盛顿邮报：一名特朗普政府高级官员称，在封锁伊朗以及重创其经济的时间表问题上，时间对我们有利。",
+      "datetime": "2026-10-10 02:24:29",
+      "content": "【快讯】SHMET10月10日讯，欧洲央行管委卡扎克斯：2.5%是欧洲央行中性利率的上限。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:28:20",
-      "content": "【快讯】SHMET10月09日讯，据华盛顿邮报：一名特朗普政府高级官员称，我们与盟友讨论了他们对对伊朗经济施压行动持续时间的担忧。我们希望尽快达成解决方案。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:27:02",
-      "content": "【Indeed：加拿大就业连续两月下降，但招聘需求保持稳定】SHMET10月09日讯，Indeed经济学家斯妮哈·普里表示，随着加拿大8月和9月连续出现就业岗位流失，过去三个月就业人数平均每月减少近1.2万人，三个月平均就业增长已转为负值。不过，加拿大就业人数仍较去年同期增长0.5%。普里认为，未来就业人数不太可能持续大幅下降。她指出，过去一年加拿大企业的招聘需求基本保持稳定。截至9月底，Indeed招聘职位指数为100.8，略高于去年同期的99.2。普里认为，在经历连续数年的招聘需求下降后，目前的稳定表现已是一种改善。她表示：“在招聘活动出现明显回升之前，预计就业数据将在正负增长之间有所波动，是比较合理的判断。”",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:26:26",
-      "content": "【快讯】SHMET10月09日讯，美国联邦通信委员会（FCC）主席卡尔：市场上将有更多的频谱供应。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:25:34",
-      "content": "【快讯】SHMET10月09日讯，巴西计划和预算部长：我们不与巴西国家石油公司讨论定价；该公司有自己的治理机制。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:24:21",
-      "content": "【快讯】SHMET10月09日讯，委内瑞拉国家石油公司PDVSA负责人：委内瑞拉炼油厂的加工能力为每日35万桶。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:24:00",
-      "content": "【快讯】SHMET10月09日讯，美国国务卿鲁比奥：与委内瑞拉临时当局的谈判取得进展。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:22:46",
-      "content": "【快讯】SHMET10月09日讯，美国联邦通信委员会（FCC）主席卡尔：市场将决定赢家和输家。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:22:20",
-      "content": "【快讯】SHMET10月09日讯，巴林官员：我们赞赏也门政府在霍尔木兹海峡加强国家权力的努力，支持其将主权扩展至全国领土。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:20:39",
-      "content": "【快讯】SHMET10月09日讯，委内瑞拉国家石油公司PDVSA负责人：委内瑞拉石油产量将在2027年底达到150万桶/日。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:19:39",
-      "content": "【快讯】SHMET10月09日讯，美国联邦通信委员会（FCC）主席卡尔：已看到超过1000亿美元的频谱交易。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:19:10",
-      "content": "【德国拟放弃争夺欧洲央行行长职位，转而寻求保留执行委员会席位】SHMET10月09日讯，据英国《金融时报》报道，德国计划提名人选接替即将离任的欧洲央行执行委员会委员伊莎贝尔·施纳贝尔，这一决定意味着德国实际上将退出下一任欧洲央行行长的竞争。知情人士透露，德国财政部长周四晚间在卢森堡向其他欧元区国家财长表示，柏林将很快提出接替施纳贝尔的人选。施纳贝尔将于2027年1月提前离任，转赴国际货币基金组织（IMF）担任货币与资本市场部门负责人。另外，现任行长拉加德预计可能在2027年10月正式任期结束前提前离任，而首席经济学家菲利普·莱恩（Philip Lane）将于2027年5月底结束任期。根据欧洲央行执行委员会成员任命中的不成文惯例，同一个国家通常不能同时拥有两个执行委员会席位。由于该委员会只有六名成员，德国如果成功推举施纳贝尔的继任者，实际上就意味着德国候选人将无法争夺行长职位。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:16:31",
-      "content": "【快讯】SHMET10月09日讯，委内瑞拉国家石油公司负责人表示，委内瑞拉计划在年底前签署105份石油合同，其中70%针对新油田（greenfields）的开发。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:16:05",
-      "content": "【快讯】SHMET10月09日讯，委内瑞拉国家石油公司PDVSA负责人：预计到年底将签署105份石油合同。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:12:56",
-      "content": "【蒙特利尔银行：加拿大就业连续两月大幅下滑，加息必要性明显降低】SHMET10月09日讯，蒙特利尔银行经济学家道格拉斯·波特表示，加拿大连续第二个月出现大规模就业岗位流失，抵消了初夏劳动力市场意外强劲的表现，使就业人数同比增幅仅剩0.5%。波特指出，9月教育行业就业人数大幅下降的情况略显异常，尤其是降幅全部集中在一个省份。然而，其他地区及行业的就业表现同样难以令人乐观。他警告称，制造业就业岗位减少可能是美加贸易战升级对加拿大经济造成冲击的早期信号。对于加拿大央行的政策前景，波特表示：“总体而言，我们仍认为加拿大央行应当采取观望立场，尤其是在就业前景突然蒙上阴影的情况下。”他强调，9月疲软的就业报告大幅降低了加拿大央行加息的可能性，也明显削弱了进一步加息的必要性。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:11:44",
-      "content": "【快讯】SHMET10月09日讯，美国国务卿鲁比奥：敦促委内瑞拉继续进行选举改革。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:11:16",
-      "content": "【快讯】SHMET10月09日讯，美国财政部：美国副财长布鲁克和副部长布朗将率领美国财政部代表团出席。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:11:09",
-      "content": "【快讯】SHMET10月09日讯，巴西计划和预算部长：中东战争不应影响巴西人。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:07:17",
-      "content": "【毛里塔尼亚总理递交政府辞呈】SHMET10月09日讯，据毛里塔尼亚通讯社9日报道，毛里塔尼亚总理艾贾伊当天向总统加兹瓦尼递交政府辞呈。报道说，加兹瓦尼当天上午在首都努瓦克肖特的总统府会见艾贾伊。其间，艾贾伊递交辞呈。官方未说明政府辞职的原因。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:04:42",
-      "content": "【快讯】SHMET10月09日讯，沙特阿美将于11月向欧洲客户提供全部石油供应量。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:03:14",
-      "content": "【快讯】SHMET10月09日讯，巴西计划和预算部长：有关措施还将产生8亿雷亚尔的财政影响，用于支付乙醇补贴以维持其竞争优势。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:01:32",
-      "content": "【快讯】SHMET10月09日讯，巴西计划和预算部长：这实际上将汽油的联邦税负降至零。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:01:03",
-      "content": "【快讯】SHMET10月09日讯，巴西计划和预算部长：财政影响将达到28亿雷亚尔，比之前的燃料措施增加7亿雷亚尔。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:00:53",
-      "content": "【快讯】SHMET10月09日讯，欧盟委员会：由于（美国对国际刑事法院的制裁）措施在六个月后生效，仍有对话的空间。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:00:36",
-      "content": "【快讯】SHMET10月09日讯，欧盟委员会：将与国际刑事法院紧密合作，以确保其继续有效运作。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:00:20",
-      "content": "【快讯】SHMET10月09日讯，欧盟委员会：欧盟一直是国际刑事法院（ICC）的坚定支持者。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:00:18",
-      "content": "【美联储调查：近两成美国家庭出现贷款逾期，债务偿付压力升至2013年以来最高水平】SHMET10月09日讯，美联储最新消费者财务调查显示，美国家庭债务压力正在加剧，越来越多借款人出现贷款逾期，或需要将更大比例的收入用于偿还债务。调查显示，美国家庭债务偿付收入比中位数升至15.4%，较2022年上升2个百分点。美联储指出，这可能与同期住房抵押贷款和消费贷款利率上升有关。与此同时，债务偿付负担较重的家庭比例从2022年的6.5%升至2025年的8.6%，达到2013年调查以来最高水平。这类家庭的债务偿付额占收入的比例达到或超过40%。更值得注意的是，2022年至2025年，报告出现贷款逾期的家庭比例从约12%大幅升至近20%。这些数据表明，随着借贷成本上升，美国家庭不仅需要将更多收入用于偿债，贷款逾期现象也明显增加，反映出部分家庭的财务状况正在恶化。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:00:11",
-      "content": "【快讯】SHMET10月09日讯，欧盟委员会：随时准备采取必要措施，以支持国际刑事法院开展工作。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 23:00:00",
-      "content": "【毕马威：加拿大就业连续两月下滑，加息前景更趋复杂，但仍预计12月加息25基点】SHMET10月09日讯，毕马威加拿大经济学家DanielHyun表示，加拿大央行正处于非常艰难的境地：当前经济状况仍需要一定程度的宽松货币政策，但通胀风险却在不断上升。他指出，加拿大就业人数连续第二个月下降，使其对加拿大央行12月加息的预测面临更大挑战。不过，Hyun仍预计加拿大央行将在12月加息25个基点。他认为，尽管9月就业数据表现十分疲弱，但该数据历来波动较大。与此同时，加拿大央行仍面临通胀上行威胁，以及维护货币政策公信力的压力。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 22:59:47",
-      "content": "【快讯】SHMET10月09日讯，巴西财长：我们不断利用收入增长来保护巴西消费者。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 22:59:32",
-      "content": "【快讯】SHMET10月09日讯，巴西财长宣布措施以延长和扩大汽油相关的减税政策。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 22:58:59",
-      "content": "【快讯】SHMET10月09日讯，巴西财长宣布针对中东冲突背景下有关燃料问题的额外措施。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 22:58:57",
-      "content": "【快讯】SHMET10月09日讯，据港交所文件：常州微亿智造科技股份有限公司通过港交所上市聆讯。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 22:58:00",
-      "content": "【加拿大商会：就业连续两个月下降，加拿大央行10月或释放更鸽派信号】SHMET10月09日讯，加拿大商会经济学家阿努普丽娅·甘戈帕迪亚伊表示，在经历春季和夏季较为强劲的就业增长后，加拿大劳动力市场9月进一步走弱，就业人数连续第二个月下降。她指出，最新就业报告进一步增强了加拿大央行在10月28日货币政策会议上采取更鸽派立场的理由。甘戈帕迪亚伊表示：“劳动力市场显然正在走弱，但加拿大央行仍需在招聘疲软、通胀压力以及更广泛的经济不确定性之间寻求平衡。”",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 22:57:30",
-      "content": "【快讯】SHMET10月09日讯，SpaceX(SPCX.O)：猎鹰9号目标定于10月10日发射太空发展局第四批第一代任务，前往近地轨道。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 22:57:29",
-      "content": "【快讯】SHMET10月09日讯，美联储理事库克的律师表示，如果听证会大体上是客观的，它将证明库克没有实施抵押贷款欺诈，从而没有理由将其免职。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-09 22:57:02",
-      "content": "【快讯】SHMET10月09日讯，法兴银行：将特斯拉(TSLA.O)目标价从268美元下调至266美元。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bear",
       "steel": false
     }
   ],
-  "steel_highlight": [],
+  "steel_highlight": [
+    {
+      "datetime": "2026-10-10 01:38:18",
+      "content": "【特朗普施压墨西哥达成能源协议 美墨贸易谈判受阻】金十数据10月10日讯，据英国金融时报援引知情人士报道，特朗普在9月中旬与墨西哥总统辛鲍姆通话时，要求墨西哥企业与美国能源企业达成更多交易及合作协议。知情人士称，特朗普最初询问墨西哥向美国出售资产的可能性，双方还讨论了类似美韩能源协议的安排，包括增加采购美国能源产品。一名美国官员表示，双方讨论了墨西哥扩大进口美国天然气，以缩小其对美贸易顺差。目前，美国天然气已占墨西哥天然气需求的约四分之三。报道指出，能源合作新要求引发墨西哥方面担忧，并导致原定9月举行的正式贸易谈判推迟，目前尚未重新安排。墨西哥正寻求降低美国对其汽车、钢铁和铝产品征收的关税，但能源行业的国家控制权在墨西哥具有高度政治敏感性。美方则表示，双方谈判进展积极，仍保持密切联系。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": true
+    }
+  ],
   "weekly_stock": null
 }
