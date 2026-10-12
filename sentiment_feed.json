@@ -1,7 +1,71 @@
 {
   "source": "jin10 flash + shmet + shfe weekly stock",
-  "generated_at": "2026-10-12T19:20:00.710811+00:00",
+  "generated_at": "2026-10-12T19:59:50.331407+00:00",
   "jin10": [
+    {
+      "datetime": "2026-10-13 03:48:11",
+      "content": "【美元指数12日上涨】金十数据10月13日讯，衡量美元对六种主要货币的美元指数当天上涨0.37%，在汇市尾市收于102.590。截至纽约汇市尾市，1欧元兑换1.1156美元，低于前一交易日的1.1202美元；1英镑兑换1.3206美元，低于前一交易日的1.3241美元。1美元兑换158.68日元，高于前一交易日的158.21日元；1美元兑换0.8348瑞士法郎，高于前一交易日的0.8298瑞士法郎；1美元兑换1.4286加元，高于前一交易日的1.4266加元；1美元兑换10.0444瑞典克朗，高于前一交易日的9.9909瑞典克朗。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 03:46:23",
+      "content": "莫斯科市长：俄罗斯国防部的防空部队击落了十架飞向莫斯科的无人机。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 03:41:08",
+      "content": "【国际油价12日上涨】金十数据10月13日讯，截至当天收盘，纽约商品交易所11月交货的轻质原油期货价格上涨1.89美元，收于每桶93.74美元，涨幅为2.06%；12月交货的伦敦布伦特原油期货价格上涨1.93美元，收于每桶106.65美元，涨幅为1.84%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 03:39:26",
+      "content": "【美方希望借柴油协议“软化”俄立场 普京欲完全拿下顿巴斯】金十数据10月13日讯，据路透社援引消息人士报道，美国中东问题特使威特科夫和库什纳在迈阿密会晤乌克兰官员时表示，美俄柴油协议旨在向俄罗斯释放合作信号，以“软化”俄方立场，推动俄美乌三方谈判重启。一名接近克里姆林宫的人士称，普京要求获得剩余约11%的顿巴斯地区，才会同意和平协议。会谈还涉及乌克兰安全保障及战后重建等议题。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 03:33:45",
+      "content": "英特尔(INTC.O)：开始向客户提供GPU D系列样品。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 03:33:32",
+      "content": "英特尔(INTC.O)：加速推进面向智能体AI时代的开放基础设施。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 03:25:54",
+      "content": "消息人士：美国希望柴油交易能“缓和”俄罗斯在和平谈判中的立场。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 03:21:04",
+      "content": "也门胡塞武装：我们再次提醒所有航空公司、员工和旅客：除了麦加和麦地那，沙特阿拉伯没有安全的空域和机场；请避免前往这些地方。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
     {
       "datetime": "2026-10-13 03:11:33",
       "content": "基辅市长：市内发生爆炸。",
@@ -1177,81 +1241,49 @@
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
-    },
-    {
-      "datetime": "2026-10-12 23:02:14",
-      "content": "欧盟外交与安全政策高级代表卡拉斯：欧盟各国外长同意将驻伊拉克咨询特派团的任期延长两年。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-12 23:00:54",
-      "content": "截至23:00收盘，国内期货主力合约涨跌不一，低硫燃料油（LU）涨超6%，燃料油涨超4%，丙烯、液化石油气（LPG）、聚丙烯、塑料、纯苯、塑料月均涨超1%。跌幅方面，甲醇跌超5%，乙二醇（EG）跌近2%，沥青、聚氯乙烯（PVC）、合成橡胶跌超1%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-12 23:00:25",
-      "content": "欧盟外交与安全政策高级代表卡拉斯：欧盟可能很快扩大与乌克兰的入盟谈判范围。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-12 23:00:23",
-      "content": "俄罗斯刚把柴油出口禁令延长到10月底，不到10天就承诺出口近480万吨！但炼厂还在挨炸，国内还要保供应，怎么突然能拿出这么多？是紧张被夸大了吗，油价会否因此回落？点击查看精细拆解>>",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-12 23:00:18",
-      "content": "【机构：全球原油需求可能已于2025年见顶】金十数据10月12日讯，能源咨询公司FGE NexantECA表示，全球原油需求可能已于2025年见顶，部分原因是日益增长的燃料需求正越来越多地由生物燃料满足。该公司荣誉主席Fereidun Fesharaki和分析师Cuneyt Kazokoglu在报告中表示：“全球液体燃料消费量将继续增长，但这并不一定意味着原油消费量也会增加。”生物燃料以及乙烷等天然气加工过程中产生的烃类产品，正满足越来越多的燃料需求。FGE NexantECA认为，今年霍尔木兹海峡危机扰乱了这一中东关键航运通道的运输，导致部分石油需求永久流失。该公司指出，此次危机发生在新冠疫情约六年后，与1973年和1979年两次石油危机的时间间隔相似。当年的两次冲击导致发电领域的石油需求出现持久性萎缩。与上世纪70年代不同，此次能源替代的核心是道路交通，该领域约占全球石油需求的45%。电动汽车正在削弱汽油需求，并开始冲击柴油消费。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-12 23:00:04",
-      "content": "欧盟外交与安全政策高级代表卡拉斯：60个国家发布声明，呼吁维护航行自由。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-12 22:59:56",
-      "content": "欧盟外交与安全政策高级代表卡拉斯：欧盟正在制定限制俄罗斯签证的提案。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-12 22:58:46",
-      "content": "哈萨克斯坦央行并未否定黄金后市表现，但在黄金占储备比例达到78%、美元资产吸引力随美债收益率上升而增强之际，该央行决定优先恢复资产配置平衡。点击查看...",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-12 22:58:28",
-      "content": "欧盟外交与安全政策高级代表卡拉斯：美国对国际刑事法院的制裁将在六个月后生效，这为对话提供了机会。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
     }
   ],
   "shmet": [
+    {
+      "datetime": "2026-10-13 03:46:11",
+      "content": "【美元指数12日上涨】SHMET10月13日讯，衡量美元对六种主要货币的美元指数当天上涨0.37%，在汇市尾市收于102.590。截至纽约汇市尾市，1欧元兑换1.1156美元，低于前一交易日的1.1202美元；1英镑兑换1.3206美元，低于前一交易日的1.3241美元。1美元兑换158.68日元，高于前一交易日的158.21日元；1美元兑换0.8348瑞士法郎，高于前一交易日的0.8298瑞士法郎；1美元兑换1.4286加元，高于前一交易日的1.4266加元；1美元兑换10.0444瑞典克朗，高于前一交易日的9.9909瑞典克朗。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 03:42:29",
+      "content": "【国际油价12日上涨】SHMET10月13日讯，截至当天收盘，纽约商品交易所11月交货的轻质原油期货价格上涨1.89美元，收于每桶93.74美元，涨幅为2.06%；12月交货的伦敦布伦特原油期货价格上涨1.93美元，收于每桶106.65美元，涨幅为1.84%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 03:35:59",
+      "content": "【快讯】SHMET10月13日讯，英特尔(INTC.O)：开始向客户提供GPU D系列样品。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 03:34:18",
+      "content": "【快讯】SHMET10月13日讯，英特尔(INTC.O)：加速推进面向智能体AI时代的开放基础设施。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 03:20:16",
+      "content": "【LME夜盘收盘】LME铜涨0.49%,报14621.5美元/吨LME铝跌0.33%,报3047.0美元/吨LME铅跌0.16%,报1882.5美元/吨LME锌跌1.28%,报3753.0美元/吨LME镍跌0.45%,报15630美元/吨LME锡跌0.15%,报52920美元/吨",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
     {
       "datetime": "2026-10-13 03:12:37",
       "content": "【快讯】SHMET10月13日讯，印度央行：外汇风险保证金（FERR）需以现金形式存入并每日维持在印度央行账户中，直至相关衍生品合约到期终止。",
@@ -1331,9 +1363,697 @@
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
+    },
+    {
+      "datetime": "2026-10-13 02:30:04",
+      "content": "【快讯】SHMET10月13日讯，俄罗斯副总理诺瓦克：俄罗斯今年向欧盟供应了价值213亿美元的能源。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 02:28:19",
+      "content": "【快讯】SHMET10月13日讯，俄罗斯副总理诺瓦克：来自俄罗斯的额外供应将部分平衡供需关系。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 02:23:32",
+      "content": "【快讯】SHMET10月13日讯，英国海上贸易行动办公室：收到报告称，一艘集装箱船在霍尔木兹海峡内航行时遭到不明物体袭击。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 02:19:00",
+      "content": "【快讯】SHMET10月13日讯，据伊朗迈赫尔通讯社：伊朗最高国家安全委员会秘书雷扎伊与与印度国家安全顾问阿吉特·多瓦尔就地区和国际最新动态以及双方关心的问题进行了交流。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 02:14:41",
+      "content": "【快讯】SHMET10月13日讯，定价文件显示，卡塔尔将11月海上原油官方售价（OSP）定为较阿曼/迪拜基准油价每桶贴水8美元，陆上原油官方售价定为每桶贴水7.50美元。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 02:14:34",
+      "content": "【快讯】SHMET10月13日讯，据华尔街日报：约会应用Bumble正在进行高级谈判，计划以10亿美元的估值私有化。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 02:12:42",
+      "content": "【快讯】SHMET10月13日讯，沙特民防局：利雅得的危险已解除。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 02:09:09",
+      "content": "【古巴颁布新的石油和天然气法令 旨在推动能源独立】SHMET10月13日讯，古巴能源和矿业部举行记者会，颁布第135号石油和天然气法令。据介绍，旧有相关法令已不再适用，古巴在研究了多国法规并综合31家咨询机构的意见后制定了新法令。新法令旨在逐步增加原油和天然气产量与储量，尽可能满足国家燃料及衍生品需求，为石化工业未来发展提供原料和产品，配合国家电力系统恢复，并推动能源独立。新法令强调国家对能源的主权和管辖权，同时欢迎国内外投资，允许采取多样化合作模式，并强调产业安全与环境保护。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 02:05:31",
+      "content": "【快讯】SHMET10月13日讯，欧洲央行行长穆兰：法国央行行业不确定性指数达到4月以来最高水平。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 02:03:07",
+      "content": "【快讯】SHMET10月13日讯，沙特阿拉伯对利雅得潜在敌对威胁发出早期警报。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 02:02:53",
+      "content": "【快讯】SHMET10月13日讯，法国央行：法国第三季度经济增长预期为0.1%，与此前预估持平。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 02:01:01",
+      "content": "【快讯】SHMET10月13日讯，美国总统特朗普再次批评《纽约时报》篡改其家族旗下度假村照片。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 02:00:15",
+      "content": "【SHFE夜盘收盘_基本金属】沪铜主力涨0.11%,报110890元/吨沪铝主力跌0.40%,报23490元/吨沪铅主力涨0.44%,报16145元/吨沪锌主力跌0.73%,报25980元/吨沪镍主力跌0.40%,报118160元/吨沪锡主力跌0.23%,报397060元/吨",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 01:59:26",
+      "content": "【快讯】SHMET10月13日讯，墨西哥主要股票指数上涨1.2%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 01:58:39",
+      "content": "【卡塔尔航空暂停往返沙特利雅得和达曼的航班】SHMET10月13日讯，当地时间10月12日，卡塔尔航空公司发布旅行警示，宣布暂时停飞往返沙特阿拉伯利雅得和达曼的航班。卡塔尔航空公司尚未说明此次航班暂停的具体期限。该公司表示，正与有关部门保持协调，密切关注沙特阿拉伯局势的发展。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 01:50:58",
+      "content": "【快讯】SHMET10月13日讯，Andreessen Horowitz洽谈在初创公司TypeSafe AI的融资中扩大股票供应。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 01:48:17",
+      "content": "【随着伊朗袭击风险上升 至少10艘超级油轮撤离波斯湾富查伊拉】SHMET10月13日讯，随着伊朗在霍尔木兹海峡附近的袭击风险上升，越来越多空载超级油轮正在避开波斯湾地区。根据船舶追踪数据，近期至少10艘驶向阿联酋富查伊拉（Fujairah）的超大型原油运输船（VLCC）以及数艘苏伊士型油轮暂停航行或掉头。富查伊拉是波斯湾石油出口的重要转运节点，部分油轮通常会在霍尔木兹海峡外等待，再通过小型油轮穿越海峡完成原油转运。大型油轮撤离可能影响这一绕行模式，增加原油运输压力。尽管仍有部分船只继续驶向该区域，但近期霍尔木兹海峡及富查伊拉附近频繁发生袭击事件，引发市场对石油运输持续性的担忧。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 01:43:50",
+      "content": "【快讯】SHMET10月13日讯，美联储哈玛克：我对中性利率的预期在FOMC中属于偏高水平。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 01:42:55",
+      "content": "【快讯】SHMET10月13日讯，美联储哈玛克：低收入劳动者此前反映的主要是“降级消费”，如今他们开始需要在各种账单之间做取舍。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 01:41:46",
+      "content": "【快讯】SHMET10月13日讯，美联储哈玛克：需要更加克制；如果货币政策不采取任何行动，市场环境将会发生变化。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 01:37:01",
+      "content": "【快讯】SHMET10月13日讯，美联储哈玛克：不希望威胁到美联储双重使命中的就业目标。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 01:36:27",
+      "content": "【快讯】SHMET10月13日讯，美联储哈玛克：无意通过利率对经济产生剧烈影响。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 01:36:08",
+      "content": "【快讯】SHMET10月13日讯，美联储哈玛克：当前美联储面临的问题是，应该以多快的速度收紧货币政策。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 01:35:03",
+      "content": "【快讯】SHMET10月13日讯，美联储哈玛克：更高的利率不会阻止超大规模企业，但可能会影响其他行业的公司。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 01:34:52",
+      "content": "【快讯】SHMET10月13日讯，美联储哈玛克：需要适度降温经济。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 01:33:28",
+      "content": "【快讯】SHMET10月13日讯，美联储哈玛克：已发现通胀预期可能出现问题的“早期预警信号”。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 01:32:32",
+      "content": "【快讯】SHMET10月13日讯，伊朗最高国家安全委员会秘书雷扎伊：美国对伊朗结束战争条件的回应“不充分”，我们不会再回到过去那种处理外交的方式。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 01:29:51",
+      "content": "【快讯】SHMET10月13日讯，美联储哈玛克：中性利率可能更高，但很难确定。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 01:28:49",
+      "content": "【快讯】SHMET10月13日讯，美联储哈玛克：目前的国债利率在历史标准下是\"适度的\"。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 01:28:42",
+      "content": "【快讯】SHMET10月13日讯，美联储哈玛克：如果经济回到3%的房贷利率，这可能意味着经济出现了问题。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 01:26:32",
+      "content": "【快讯】SHMET10月13日讯，美联储哈玛克：利率预测提供了有用的信息。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 01:25:10",
+      "content": "【快讯】SHMET10月13日讯，欧佩克+部长级官员发表声明，强调保护国际海上通道对于确保能源持续流动的重要性。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 01:11:54",
+      "content": "【快讯】SHMET10月13日讯，欧佩克+部长们在利雅得会议期间举行会晤。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 01:04:28",
+      "content": "【快讯】SHMET10月13日讯，埃及军方：正在努力反制旨在破坏与苏丹关系的“谣言”。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 01:03:46",
+      "content": "【快讯】SHMET10月13日讯，埃及军方：此次行动旨在保护国家主权和资源。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 01:02:48",
+      "content": "【快讯】SHMET10月13日讯，埃及军方：正在对东撒哈拉地区的非法采金活动展开行动。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 00:54:59",
+      "content": "【快讯】SHMET10月13日讯，路威酩轩CFO：我们不相信像降价这样的激烈举措。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 00:53:41",
+      "content": "【LME金属期货收盘涨跌不一】SHMET10月13日讯，LME金属期货收盘涨跌不一，LME期铜收涨78美元，报14618美元/吨。LME期铝收涨4美元，报3052美元/吨。LME期锌收跌48美元，报3758美元/吨。LME期铅收跌4美元，报1884美元/吨。LME期镍收跌3美元，报15619美元/吨。LME期锡收涨203美元，报53209美元/吨。LME期钴收涨100美元，报39345美元/吨。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 00:53:29",
+      "content": "【快讯】SHMET10月13日讯，标普道琼斯指数：与香港交易及结算所有限公司合作推出标普500和港交所科技100指数。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 00:53:28",
+      "content": "【快讯】SHMET10月13日讯，美国海洋矿产管理局（MMA）：共从5个生产平台撤离人员，占美国墨西哥湾371个有人值守平台的1.35%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 00:53:08",
+      "content": "【快讯】SHMET10月13日讯，美国海洋矿产管理局（MMA）：已从1座非动态定位钻井平台撤离人员，该平台占目前在墨西哥湾运营的11座此类平台的9.09%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 00:52:52",
+      "content": "【快讯】SHMET10月13日讯，美联储哈玛克：反应函数与承诺前瞻指引并不相同。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 00:51:57",
+      "content": "【快讯】SHMET10月13日讯，美联储哈玛克：不要理所当然地认为通胀预期已经固定，企业计划在任何原材料成本上涨之外提高价格，这表明“通胀思维”正在形成。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 00:51:39",
+      "content": "【快讯】SHMET10月13日讯，美联储哈玛克：认为明确反应机制对企业和家庭有效规划至关重要。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 00:51:32",
+      "content": "【快讯】SHMET10月13日讯，美联储哈玛克：美联储官员有责任解释他们的决策。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 00:51:30",
+      "content": "【快讯】SHMET10月13日讯，美联储哈玛克：稳定的劳动力市场为应对通胀留出了空间。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 00:51:07",
+      "content": "【快讯】SHMET10月13日讯，美联储哈玛克：如果公众理解美联储的方向，可以限制市场波动，避免错误。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 00:50:57",
+      "content": "【快讯】SHMET10月13日讯，美联储哈玛克：能源并非唯一因素，强劲需求也在推动价格压力。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 00:50:07",
+      "content": "【快讯】SHMET10月13日讯，美联储哈玛克：对合适的时机保持开放态度。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 00:50:05",
+      "content": "【快讯】SHMET10月13日讯，美联储哈玛克：最大风险是通胀思维。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 00:49:54",
+      "content": "【快讯】SHMET10月13日讯，美联储哈玛克：企业正将更高的投入成本转嫁给消费者。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 00:48:38",
+      "content": "【快讯】SHMET10月13日讯，美联储哈玛克：通胀回归目标的速度过慢。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 00:48:13",
+      "content": "【快讯】SHMET10月13日讯，美联储哈玛克：高通胀根深蒂固的风险正在上升。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 00:44:19",
+      "content": "【快讯】SHMET10月13日讯，美联储哈玛克表示，利率需要进一步上调。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 00:40:56",
+      "content": "【快讯】SHMET10月13日讯，波兰内政部长：两名土耳其公民因涉星链地面站火灾案在德国被捕。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 00:32:18",
+      "content": "【快讯】SHMET10月13日讯，据美国海洋矿产管理局（MMA），美国墨西哥湾地区已暂停约60.45万桶/日石油产量，占当前石油产量约30%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 00:30:08",
+      "content": "【国际移民组织：也门流离失所人数超21.7万】SHMET10月13日讯，国际移民组织10月12日表示，自9月初也门西海岸冲突升级以来，截至10月12日，该机构已记录了217303名流离失所者，其中超过一半（55%）在塔伊兹省。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 00:29:22",
+      "content": "【快讯】SHMET10月13日讯，路威酩轩CFO：手表和珠宝的价格上涨“应该适度”。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 00:27:21",
+      "content": "【快讯】SHMET10月13日讯，据伊通社（IRNA）：英国驻伊朗大使表示伊朗愿意与英国合作调查有关事件。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 00:25:09",
+      "content": "【快讯】SHMET10月13日讯，基辅市长：达尔尼茨基区一栋25层的居民楼遭无人机袭击。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 00:24:36",
+      "content": "【快讯】SHMET10月13日讯，据华尔街日报：据知情人士透露，阿联酋国家石油公司（Adnoc）的物流部门正洽谈收购能源海运服务公司HEA Energy的大量股权，该交易可能令HEA Energy估值达到30亿美元。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 00:23:07",
+      "content": "【快讯】SHMET10月13日讯，据伊通社（IRNA）：伊朗驻英大使驳斥英国关于费尔福德基地的指控。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 00:22:48",
+      "content": "【快讯】SHMET10月13日讯，市场消息：多数格陵兰议员在周一的辩论中表示支持该北极岛屿近期与美国总统特朗普达成的安全协议，但部分反对党议员质疑该协议的经济价值。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 00:19:34",
+      "content": "【快讯】SHMET10月13日讯，路威酩轩CFO：路易威登在第三季度的表现与平均水平相差不大。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 00:16:13",
+      "content": "【快讯】SHMET10月13日讯，路威酩轩CFO：中东局势仍构成不利因素，自助是优先事项。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 00:15:37",
+      "content": "【快讯】SHMET10月13日讯，据塔斯尼姆通讯社：伊朗外长阿拉格齐与伊拉克外长侯赛因通电话，就双边关系及地区最新局势，包括也门局势，进行了交谈并交换意见。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 00:08:48",
+      "content": "【快讯】SHMET10月13日讯，欧盟外交与安全政策高级代表卡拉斯：国际航行必须对所有人开放，而不是只对能支付的人开放。今天，60个国家加入我们的“零费用、零通行费”全球倡议，承诺反对在国际航运航线上征收通行费或其他费用。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 00:06:16",
+      "content": "【快讯】SHMET10月13日讯，路威酩轩：除日本外的亚洲地区下降了5%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 00:05:14",
+      "content": "【快讯】SHMET10月13日讯，路威酩轩：美国第三季度收入增长5%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-13 00:01:56",
+      "content": "【快讯】SHMET10月13日讯，南非方面表示铁矿石码头将在10月16日前恢复运营。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": true
+    },
+    {
+      "datetime": "2026-10-13 00:00:13",
+      "content": "【快讯】SHMET10月13日讯，2026年FOMC票委、克利夫兰联储主席哈玛克将于十分钟后发表讲话。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-12 23:57:30",
+      "content": "【快讯】SHMET10月12日讯，英国海事贸易组织：10月12日，驶出霍尔木兹海峡的油轮遭到炮弹袭击。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-12 23:56:44",
+      "content": "【快讯】SHMET10月12日讯，英国海事贸易组织收到霍尔木兹海峡事件的延迟报告。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-12 23:51:57",
+      "content": "【快讯】SHMET10月12日讯，路威酩轩：美国、欧洲和日本在第三季度实现了良好的增长。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-12 23:51:05",
+      "content": "【快讯】SHMET10月12日讯，欧元兑美元汇率触及2025年5月以来的最低水平，最新下跌0.38%，报1.1159。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-12 23:45:33",
+      "content": "【快讯】SHMET10月12日讯，LVMH第三季度营收为185亿欧元，预计为185亿欧元。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-12 23:42:22",
+      "content": "【快讯】SHMET10月12日讯，美国、澳大利亚、加拿大及其他国家联合声明：伊朗通过代理人或其他手段威胁、压制、恐吓、骚扰、伤害或胁迫我们领土上的人民的任何企图都是不可接受的。警告不要代表伊朗采取敌对行动",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-12 23:41:13",
+      "content": "【快讯】SHMET10月12日讯，土耳其总统埃尔多安：将在未来几天将麦加防御协议提交国会。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-12 23:40:50",
+      "content": "【快讯】SHMET10月12日讯，美国国务院发布联合声明，回应英国将英国皇家空军费尔福德基地未遂“恐怖袭击”归咎于伊朗参与一事。美国指责伊朗在事件中的角色。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-12 23:39:55",
+      "content": "【快讯】SHMET10月12日讯，德国DAX30指数10月12日（周一）收盘上涨197.82点，涨幅0.79%，报25285.09点；英国富时100指数10月12日（周一）收盘上涨102.85点，涨幅0.97%，报10654.90点；法国CAC40指数10月12日（周一）收盘上涨29.55点，涨幅0.38%，报7832.88点；欧洲斯托克50指数10月12日（周一）收盘上涨27.98点，涨幅0.45%，报6201.35点；西班牙IBEX35指数10月12日（周一）收盘上涨255.47点，涨幅1.34%，报19288.57点；意大利富时MIB指数10月12日（周一）收盘上涨290.19点，涨幅0.58%，报50036.50点。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-12 23:38:35",
+      "content": "【快讯】SHMET10月12日讯，保加利亚寻求欧盟和北约援助调查受损货船。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-12 23:38:09",
+      "content": "【快讯】SHMET10月12日讯，小鹏汽车董事长何小鹏表示，目标是到2030年底全球年销量达到100万辆，其中欧洲占一半。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-12 23:38:04",
+      "content": "【快讯】SHMET10月12日讯，中国地震台网正式测定：10月12日23时30分在新疆巴音郭楞州若羌县（北纬39.24度，东经89.43度）发生3.1级地震，震源深度19千米。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-12 23:31:55",
+      "content": "【欧洲主要股指集体收涨】SHMET10月12日讯，欧洲主要股指集体收涨，德国DAX30指数初步收涨0.68%。法国股指初步收涨0.26%，意大利股指初步收涨0.44%，英国股指初步收涨0.83%。欧洲STOXX600指数初步收涨0.52%，报634.86点。欧元区STOXX50指数初步收涨0.37%，报6196.42点。富时泛欧绩优300指数初步收涨0.51%，报2535.91点。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-12 23:29:52",
+      "content": "【快讯】SHMET10月12日讯，图片库巨头Getty Images计划通过预打包的第11章破产程序实现私有化，重组目标是在年底前完成。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
     }
   ],
   "steel_highlight": [
+    {
+      "datetime": "2026-10-13 00:01:56",
+      "content": "【快讯】SHMET10月13日讯，南非方面表示铁矿石码头将在10月16日前恢复运营。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": true
+    },
     {
       "datetime": "2026-10-13 00:00:27",
       "content": "南非方面表示铁矿石码头将在10月16日前恢复运营。",
