@@ -1,7 +1,367 @@
 {
   "source": "jin10 flash + shmet + shfe weekly stock",
-  "generated_at": "2026-10-22T14:42:46.729804+00:00",
+  "generated_at": "2026-10-22T15:34:38.709752+00:00",
   "jin10": [
+    {
+      "datetime": "2026-10-22 23:32:40",
+      "content": "美国至10月22日8周国债竞拍-得标利率配置百分比 93.95%，前值50.08%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-22 23:32:30",
+      "content": "中国地震台网正式测定：10月22日23时27分在新疆克孜勒苏州阿图什市（北纬40.38度，东经77.25度）发生3.9级地震，震源深度14千米。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-22 23:32:28",
+      "content": "美国至10月22日8周国债竞拍-得标利率 4.015%，前值4.05%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-22 23:32:16",
+      "content": "美国至10月22日8周国债竞拍-投标倍数 2.57，前值2.26。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-22 23:31:54",
+      "content": "美国至10月22日4周国债竞拍-得标利率配置百分比 32.92%，前值15.67%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-22 23:31:54",
+      "content": "美国至10月22日4周国债竞拍-得标利率 3.945%，前值4%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-22 23:31:54",
+      "content": "美国至10月22日4周国债竞拍-投标倍数 2.82，前值2.56。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-22 23:31:07",
+      "content": "中国地震台网正式测定：10月22日23时13分在西藏那曲市巴青县（北纬32.47度，东经93.80度）发生4.2级地震，震源深度10千米。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-22 23:29:33",
+      "content": "俄罗斯国防部表示，俄武装力量白天对保障乌克兰国防工业企业运行及物流中心运转的能源设施实施了打击。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-22 23:28:42",
+      "content": "尼日利亚奈拉兑美元贬值1.9%，为2026年3月以来最大跌幅。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-22 23:28:24",
+      "content": "以色列总理内塔尼亚胡： 如果伊朗政权胆敢干扰以色列选举，我们将以强大的力量进行反击。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-22 23:26:20",
+      "content": "当前全球各航线价格如何？金十VIP全球主要航线运费报告，每周更新。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-22 23:26:12",
+      "content": "国内新闻\n1. 《对外投资管理办法》发布，自12月1日起施行。\n2. 中国地震台网正式测定：西藏那曲市巴青县发生7.0级地震，震源深度10千米。\n国际新闻\n1. 美国初请失业金人数降至19.4万人，为三个月来新低并逼近约57年低点。\n2. Meta未来支出承诺总额飙升至8250亿美元，其信用风险指标因人工智能支出计划创下新高。\n3. 美国拟拨款3.89亿美元支持聚变能源和功率半导体研发。\n4. 现货黄金盘中失守4050美元关口，为8月4日来首次。\n5. 法国5年期CDS利差突破100基点，为2012年10月以来首次。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-22 23:25:38",
+      "content": "中国地震台网正式测定：10月22日23时18分在西藏那曲市巴青县（北纬32.47度，东经93.92度）发生3.6级地震，震源深度10千米。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-22 23:23:17",
+      "content": "【中国地震局对西藏那曲市巴青县地震启动二级应急响应】金十数据10月22日讯，据中国地震台网正式测定，2026年10月22日22时33分，在西藏那曲市巴青县（北纬32.40度，东经93.79度）发生7.0级地震，震源深度10公里。中国地震局启动二级应急响应。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-22 23:22:33",
+      "content": "中国地震台网正式测定：10月22日23时12分在青海玉树州杂多县（北纬32.49度，东经93.89度）发生4.3级地震，震源深度10千米。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-22 23:21:18",
+      "content": "模型评估与威胁研究所（METR）：OpenAI高权限试点演练发现了一种智能体可利用的漏洞，该漏洞可导致数百个近期操作无法被监控。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-22 23:15:39",
+      "content": "中国地震台网自动测定：10月22日23时12分在青海玉树州杂多县附近（北纬32.54度，东经93.99度）发生4.6级左右地震，最终结果以正式速报为准。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-22 23:14:40",
+      "content": "当前AI基础设施建设与过去一些投资泡沫存在明显区别。黑石集团 CEO用“抛物线式增长”形容需求的变化。点击查看…",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-22 23:13:47",
+      "content": "汇丰：将奈飞公司目标价从76美元下调至69美元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-22 23:13:38",
+      "content": "乌克兰总统泽连斯基：我反对解除任何制裁。我一直向欧洲伙伴表达这一立场，也曾直接向美国政府表明。我知道，如果你给普京任何东西，他就会想要得到一切。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-22 23:10:58",
+      "content": "费城半导体指数跌超6%，高通(QCOM.O)跌2.4%，英伟达(NVDA.O)、台积电(TSM.N)跌超4%，英特尔(INTC.O)跌超6%。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-22 23:09:33",
+      "content": "中国地震台网正式测定：10月22日23时03分在西藏那曲市巴青县（北纬32.45度，东经93.94度）发生3.4级地震，震源深度10千米。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-22 23:09:10",
+      "content": "运粮要靠三个国家派船、交战双方承诺不打，北约还要增派巡逻机，听到这些，多数人第一反应是粮价该涨了，可芝加哥小麦期货连跌七周。危机是真的，期货却不认。这中间的落差，恰恰藏着一个大多数人不会去看的线索！",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-22 23:06:13",
+      "content": "中国地震台网正式测定：10月22日22时59分在西藏那曲市巴青县（北纬32.45度，东经93.94度）发生3.9级地震，震源深度10千米。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-22 23:03:05",
+      "content": "英伟达：推出Minerva平台，实现AI工厂端到端可观测性。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-22 23:01:47",
+      "content": "据日经新闻：日本和孟加拉国联合声明将提及投资。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-22 23:01:27",
+      "content": "美国10月堪萨斯联储制造业产出指数 16，前值20。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-22 23:01:26",
+      "content": "美国10月堪萨斯联储制造业综合指数 11，前值14。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-22 23:00:34",
+      "content": "美国财政部：如果10月26日举行的2年期国债拍卖最高中标收益率介于4.875%至4.999%之间，可能导致5年期国债进行计划外续发行。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-22 23:00:33",
+      "content": "截至23:00收盘，国内期货主力合约涨多跌少，低硫燃料油（LU）涨超3%，燃料油、丙烯涨超2%，豆一涨近2%，液化石油气（LPG）、聚丙烯、合成橡胶、焦煤涨超1%。跌幅方面，烧碱、胶版纸跌超1%，纸浆跌近1%。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": true
+    },
+    {
+      "datetime": "2026-10-22 23:00:09",
+      "content": "【中国一汽—广汽集团联合工作组成立启动会召开】金十数据10月22日讯，据广汽集团消息，10月22日，中国一汽党委书记、董事长邱现东，广汽集团党委书记、董事长冯兴亚共同出席在广汽集团总部举行的双方联合工作组成立启动会，并举行工作会谈。双方立足国家汽车强国战略大局，围绕此前签署的战略合作框架协议，就进一步推动重点合作项目落地、深化南北产业协同等事项进行深度交流、凝聚共识。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-22 22:59:47",
+      "content": "【韩媒：韩国因安全原因将援助人员从乌克兰遣返回国】金十数据10月22日讯，据韩联社周四报道，韩国一家国际援助机构出于安全考虑，决定将其驻乌克兰首都办事处的两名工作人员中的一名召回。在俄乌冲突持续之际，基辅在最近几周遭受了俄罗斯日益猛烈的无人机和导弹袭击。此外，韩国还卷入了一场与乌克兰的外交争端。韩联社在报道中指出，韩国国际合作机构作出遣返决定是在一次安全会议后提出的。报道称，该机构一名官员未提及有关战俘问题的争议，但补充称另一名工作人员将继续留在基辅。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-22 22:58:13",
+      "content": "土耳其主要BIST-100指数下跌3%，主要银行指数下跌3.3%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-22 22:56:43",
+      "content": "美国交通部长达菲：美国尚未制定飞行汽车相关规则。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-22 22:56:36",
+      "content": "秘鲁经济部长：尽管受厄尔尼诺现象影响，今年经济增速仍可能高于预期的3.4%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-22 22:53:31",
+      "content": "【王毅同刚果（布）外长邦达会谈】金十数据10月22日讯，中共中央政治局委员、外交部长王毅22日在京同刚果（布）外长邦达举行会谈。王毅表示，中方愿在两国元首战略指引下，同刚方规划好下阶段高层交往，加强战略对接，稳步推进务实合作。愿同非方一道构建符合南方国家共同愿望、更加公正合理的全球治理体系。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-22 22:52:59",
+      "content": "市场消息：加拿大禁止本国外交官与美国选举候选人公开同框露面。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-22 22:52:47",
+      "content": "法国国债收益率难挡涨势，PHP漏洞让全球如临大敌，而地缘方面，伊朗正将海峡管理纳入常规之中。市场怀疑AI利润回报，但1000亿融资同时发生......",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-22 22:51:11",
+      "content": "中国地震台网：据地震信息播报机器人，震中5公里范围内平均海拔约4864米。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-22 22:48:28",
+      "content": "【法国5年期CDS利差突破100基点】金十数据10月22日讯，伦敦证交所数据显示，法国主权信用风险指标攀升，5年期信用违约互换（CDS）利差升破100个基点，为2012年10月以来首次。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-22 22:47:47",
+      "content": "西班牙IBEX35指数日内跌幅达2.00%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-22 22:45:27",
+      "content": "中国地震台网正式测定：10月22日22时33分在西藏那曲市巴青县（北纬32.40度，东经93.79度）发生7.0级地震，震源深度10千米。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-22 22:43:21",
+      "content": "美国3年期国债收益率跌至4.768%，创9月18日以来最低水平，日内下跌13.93个基点。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-22 22:43:05",
+      "content": "SpaceX(SPCX.O)：SpaceXSI公布贝恩、英伟达、Snowflake为启动合作伙伴。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
     {
       "datetime": "2026-10-22 22:41:30",
       "content": "SpaceX(SPCX.O)：推出SpaceX超级智能合作伙伴网络。",
@@ -713,444 +1073,84 @@
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
-    },
-    {
-      "datetime": "2026-10-22 21:09:42",
-      "content": "【美国初请失业金人数逼近近57年低点】金十数据10月22日讯，上周，美国申请失业救济金的新申请人数降至近57年来的最低水平，表明裁员减少，劳动力市场趋于稳定。 美国劳工部周四表示，截至10月17日当周，各州失业救济的初步申请人数下降6,000人，经季节性调整后为19.4万人。这一数字已逼近7月中旬触及的18.9万这一水平，该数据是自1969年以来的最低值。经济学家认为，国内需求强劲带动利润上升，使工人免受裁员影响。然而，随着美以对伊朗战争加剧，金融条件收紧和利率上升可能抑制明年劳动力市场的表现。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-22 21:09:32",
-      "content": "印度总理莫迪：接到了以色列总理内塔尼亚胡的电话。双方回顾了两国关系持续发展的良好势头，并重申将进一步加强双边伙伴关系。双方还就西亚地区近期局势交换意见，强调迫切需要恢复地区和平与稳定。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-22 21:09:08",
-      "content": "eBay(EBAY.O)预计裁员将在2027年第一季度末基本完成。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-22 21:08:59",
-      "content": "eBay(EBAY.O)确认裁员约9%，公司预计重组费用为1.3亿至1.5亿美元。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-22 21:07:38",
-      "content": "德国财长：2026年德国税收预计将达到3791亿欧元。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-22 21:07:31",
-      "content": "德国财长：尽管存在国际危机与不确定性，今年税收收入将稳步发展。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-22 21:07:16",
-      "content": "德国财长：需要进一步削减预算以创造新的财政空间。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-22 21:06:14",
-      "content": "【五连板大业股份：公司机器人腱绳产品目前仅处于客户送样验证阶段 未产生实质性收益】金十数据10月22日讯，大业股份发布异动公告，公司股票自2026年10月16日以来，累计涨幅达61.04%，存在股价短期涨幅较大后续下跌的风险。公司关注到近期市场上公司涉及“人形机器人概念股”相关内容。公司现有主营业务仍以胎圈钢丝、钢帘线以及胶管钢丝的研发、生产和销售为主，公司机器人腱绳产品目前仅处于客户送样验证阶段，尚未实现量产，未产生实质性收益。产品客户验证周期长，存在验证失败、客户终止测试风险，后续能否落地订单存在较大不确定性。公司相关业务未来在技术研发、产品竞争能力、盈利能力等方面存在重大不确定性，请投资者理性投资，注意风险",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-22 21:05:33",
-      "content": "金十图示：2026年10月22日（周四）投机情绪指数",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-22 21:04:50",
-      "content": "全球最大主权财富基金周四交出了一份惊心动魄的成绩单，令人不可思议的是，这次重创它的不是高估值的科技股，而是传统意义上用来防守避险的债券组合……点击查看…",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-22 21:03:24",
-      "content": "美国商务部将拨款最多3.89亿美元，用于支持芯片研发。Vertical Semiconductor将获得最高7300万美元研发资金。Helion将获得最高1.75亿美元用于功率半导体研发。Sibelco将获得最高5600万美元，用于超高纯度石英研发。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-22 21:02:42",
-      "content": "黄金空头来势汹汹，开启空头趋势的条件有哪些？美盘应当如何应对？金十研究员Steven正在直播，立即观看>>",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-22 21:02:06",
-      "content": "现货白银短线走低0.3美元，日内大跌4%，现报55.65美元/盎司。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-22 21:01:04",
-      "content": "德国税务小组：预计2026-2030年联邦税收收入将比5月预测高出33亿欧元。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-22 21:00:04",
-      "content": "俄罗斯至10月16日当周央行黄金和外汇储备 7232亿美元，前值7235亿美元。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-22 21:00:01",
-      "content": "夜盘开盘，国内期货主力合约涨跌不一，低硫燃料油（LU）涨超3%，燃料油涨近3%，SC原油、液化石油气（LPG）、丙烯涨超2%，聚丙烯、甲醇、纯苯涨超1%。跌幅方面，沪银跌超2%，沪锡、胶版纸、国际铜、沪锌、烧碱、焦煤跌超1%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": true
-    },
-    {
-      "datetime": "2026-10-22 20:57:15",
-      "content": "【中国贸促会所属仲裁机构联合粤港澳仲裁机构共同发布《粤港澳仲裁员共享机制》】金十数据10月22日讯，10月22日，在第四届粤港澳大湾区发展工商大会上，中国贸促会所属中国海事仲裁委员会、中国国际经济贸易仲裁委员会与亚非法协香港区域仲裁中心、香港海事仲裁协会、澳门世界贸易中心仲裁中心共同签署并以中英葡三语发布《粤港澳仲裁员共享机制》。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-22 20:55:14",
-      "content": "通胀叙事仍是主线，国际金何时能抬头？点击观看金十研究员文成直播分析>",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-22 20:55:07",
-      "content": "【美国初请人数降至19.4万人 为三个月来新低】金十数据10月22日讯，上周，美国失业救济金申请人数降至三个月来的最低水平，显示出劳动力市场的稳定性。周四公布的劳工部数据显示，截至10月17日当周的初请失业金人数下降了6,000人，至19.4万人。经济学家的中位预测为20万人。此前一周，续请失业金人数上升了2.5万人，达到173万，创下六周以来的新高。尽管企业面临日益加剧的价格压力，包括能源成本飙升，但初请人数已连续数周维持在自1960年代以来的较低水平。尽管在线零售商eBay公司和杂货零售商克罗格公司等一些知名公司宣布大幅裁员，但目前尚未出现大规模裁员迹象。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-22 20:51:32",
-      "content": "Meta Platforms(META.O)信用风险指标因人工智能支出计划创下新高。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-22 20:50:00",
-      "content": "英国央行行长贝利将于十分钟后发表讲话。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-22 20:46:40",
-      "content": "黄金连遭抛压！空头还能继续突破吗？这轮下跌看到哪里？金十研究员Steven正在直播，立即观看>>",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-22 20:46:22",
-      "content": "摩根大通全球市场策略师中指出，对冲基金已经大幅削减股票风险敞口，推动此前行情上涨的部分资金已经撤退，市场可能不再像下跌初期那样容易受到集中抛售的冲击。点击查看…",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-22 20:46:03",
-      "content": "【天孚通信：目前发布的相关进出口政策未对光器件产品进行约束 不涉及对公司业务产生影响】金十数据10月22日讯，天孚通信发布投资者关系公告，公司为CPO技术路线配套的FAU、ELS等产品在性能、良率及交付保障等方面已具备较好基础，会根据客户需求持续提产。NPO相关配套产品目前处于样品阶段。CPO/NPO的提产节奏近期未出现明显变化。有源光器件关键瓶颈物料供给情况较上半年有所改善，从物料到货到成品出货交付需要一定周期，预计相关供应改善对公司经营业绩的积极影响将在第三季度、第四季度逐步释放。无源器件需求还在持续快速增加，公司在积极推动产能扩充以提升整体产出。公司明年无源器件扩产将同时覆盖可插拔光模块和CPO/NPO方向，二者均有较强的需求支撑，公司将统筹资源配置，在保障现有业务增长的同时，积极支持新技术方向的导入与放量。目前发布的相关进出口政策未对光器件产品进行约束，不涉及对公司业务产生影响。公司在泰国建有量产基地，能满足客户全球多基地扩产的需要。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-22 20:44:49",
-      "content": "以色列总理内塔尼亚胡：我与我的朋友、印度总理莫迪通了电话，并邀请他在以色列独立日与一名英勇的印度飞行员共同点燃火炬。莫迪对我的邀请表示感谢，并表示，无论在地面还是空中，印度和以色列都在携手打击恐怖主义。他还高度评价了两国长期以来建立的牢固关系。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-22 20:44:36",
-      "content": "国际金今日破前低？霍尔木兹危机引爆冲击！多空拉锯战再次展开！交易学院正在直播中，立即观看！",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-22 20:43:08",
-      "content": "【瑞银中国区总裁胡知鸷：双向联通，寻找中国创新与产业升级新机遇】金十数据10月22日讯，在2026金融街论坛年会期间，瑞银集团承办以“全球资本，开放创新：共创增长与长远价值”为主题的平行论坛。10月22日，瑞银中国区总裁胡知鸷在会上表示，瑞银深耕中国内地市场已逾36年，多年来持续将全球视野、跨境网络与专业能力融入本地实践，不断拓展在华业务布局。面对中国创新与产业升级带来的新机遇，瑞银将一方面助力国际投资者更深入地了解并参与中国市场，另一方面支持更多中国企业链接全球市场、提升全球资源配置能力。瑞银将继续秉持长期承诺，依托本土洞察，为中国经济高质量发展和高水平双向开放贡献力量。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-22 20:38:32",
-      "content": "乌克兰总统泽连斯基：俄罗斯在这场冲突中的管理方式没有改变，也没有采取任何可以表明其真正希望结束的步骤。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-22 20:36:21",
-      "content": "【科创板年内IPO终止审核已12家 最快86天即撤回】金十数据10月22日讯，据上交所官网显示，今日又一家科创板IPO终止，为今年6月29日获受理的中科创新，保荐机构为东吴证券。至此，年内科创板已有12家企业IPO终止审核，分别是中科创新、赛克赛斯、汇禾医疗、环动科技、韬盛科技、荣信汇科、未来材料、新芯股份、芯密科技、易加增材、沁恒微、亚电科技。12家终止审核IPO中，共7家受理时间均为2025年。东吴证券、国泰海通证券联席保荐项目汇禾医疗从受理到撤回时间最短，仅为86天；从受理到撤回时间最长的则有597天，为国泰海通证券、华源证券联席保荐项目新芯股份。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-22 20:33:29",
-      "content": "乌克兰总统泽连斯基：自10月11日以来，乌克兰能源设施已遭到超过170次袭击。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-22 20:33:26",
-      "content": "加拿大9月原材料价格指数年率 27%，前值22.8%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-22 20:33:10",
-      "content": "加拿大9月工业品物价指数年率 14.5%，前值13.5%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-22 20:32:33",
-      "content": "加拿大9月工业品物价指数月率 1.3%，前值1.30%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-22 20:32:25",
-      "content": "加拿大9月原材料价格指数月率 3.14%，前值3.10%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-22 20:32:00",
-      "content": "乌克兰总统泽连斯基：俄罗斯使用三枚携带集束弹药弹头的弹道导弹袭击了基辅。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-22 20:31:19",
-      "content": "美国至10月17日当周初请失业金人数四周均值 19.78万人，前值19.85万人。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-22 20:30:48",
-      "content": "美国至10月10日当周续请失业金人数 172.8万人，预期172万人，前值171万人。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-22 20:30:43",
-      "content": "美国至10月17日当周初请失业金人数 19.4万人，预期20万人，前值19.9万人。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-22 20:29:51",
-      "content": "当市场还在天真地欢呼美债收益率“见顶”，并把黄金当成万能护甲时，有“市场狙击手”之称的分析师警告：10年期美债收益率现在不过是半山腰休整……点击查看…",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-22 20:29:08",
-      "content": "科威特外交部：科威特重申完全支持沙特，坚定支持沙特为维护国家安全、稳定和主权采取的一切措施，并强调沙特的安全与科威特及海湾阿拉伯国家合作委员会成员国的安全密不可分。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-22 20:29:00",
-      "content": "科威特外交部：持续袭击民用机场和重要基础设施是危险的升级行为，直接威胁平民生命和航空安全，国际社会必须采取坚决行动，制止此类袭击并追究相关责任人的责任。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-22 20:28:54",
-      "content": "科威特外交部：强烈谴责也门胡塞武装袭击沙特阿拉伯达曼市法赫德国王国际机场。此次袭击造成2人死亡、多人受伤，严重侵犯沙特主权，公然违反国际法和国际人道法。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-22 20:28:20",
-      "content": "黄金空头发力，多头仍有翻盘希望！多头底线能守住吗？金十研究员Steven正在直播，立即观看>>",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-22 20:27:58",
-      "content": "【九阳股份：拟6000万元转让杭州泰美置业30%股权 子公司土地收储获补偿2.7亿元】金十数据10月22日讯，九阳股份公告，公司董事会审议通过转让杭州泰美置业30%股权议案，对价6000万元，交易后不再持有该公司股权。同时，子公司杭州九阳小家电部分土地被政府收储，搬迁补偿及奖励合计2.7亿元，预计增加2028年度处置收益2.56亿元。此外，公司调减2026年度与JS环球日常关联交易额度至2500万美元，并预计2027年度日常关联交易总额不超过1.25亿美元。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-22 20:25:29",
-      "content": "【宜春市生态环境局发布关于枧下窝锂矿采矿项目生态环境影响报告书拟批准公示】金十期货10月22日讯，根据建设项目环境影响评价审批程序的有关规定，经审议，我局拟对宜春时代新能源矿业有限公司江西省宜丰县圳口里—奉新县枧下窝锂矿采矿项目生态环境影响报告书作出审批意见。为保证此次审议工作的严肃性和公正性，现将该项目生态环境影响报告书的基本情况予以公示，公示期为2026年10月22日-2026年10月28日（5个工作日）。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
     }
   ],
   "shmet": [
     {
-      "datetime": "2026-10-22 22:39:28",
-      "content": "【快讯】SHMET10月22日讯，瓦莱罗高管：乙醇出口需求依然相当强劲，我们的产能全部用于扩大出口。",
+      "datetime": "2026-10-22 23:33:32",
+      "content": "【欧洲主要股指集体收跌 欧洲斯托克600指数跌1%】SHMET10月22日讯，欧洲主要股指普遍下跌。欧洲斯托克600指数跌1.01%，英国富时100指数跌0.27%，德国DAX指数跌1.04%，法国CAC 40指数跌1.42%，西班牙IBEX指数跌1.98%。欧洲斯托克指数跌1.72%，欧元区蓝筹股指数跌1.89%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-22 23:32:55",
+      "content": "【快讯】SHMET10月22日讯，美国至10月22日8周国债竞拍-投标倍数 2.57，前值2.26。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-22 22:39:27",
-      "content": "【快讯】SHMET10月22日讯，秘鲁政府宣布计划提高财政赤字。",
+      "datetime": "2026-10-22 23:32:53",
+      "content": "【快讯】SHMET10月22日讯，美国至10月22日4周国债竞拍-得标利率 3.945%，前值4%。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-22 22:38:17",
-      "content": "【快讯】SHMET10月22日讯，中国地震台网自动测定：10月22日22时33分在西藏那曲市巴青县附近（北纬32.43度，东经93.82度）发生6.7级左右地震，最终结果以正式速报为准。",
+      "datetime": "2026-10-22 23:32:49",
+      "content": "【快讯】SHMET10月22日讯，美国至10月22日4周国债竞拍-投标倍数 2.82，前值2.56。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-22 22:34:44",
-      "content": "【战争影响本国供应的情况下 卡塔尔同意向美国采购液化天然气至2054年】SHMET10月22日讯，卡塔尔能源公司与Cheniere Energy签署了一项协议，将每年从后者采购400万吨液化天然气，协议有效期至2054年。这是该中东国家首次与美国签署此类采购协议，此前其本国产量因伊朗战争而受到限制。达成这项协议之际，卡塔尔——冲突爆发前最大的液化天然气出口国之一——正寻求向那些因该国拉斯拉凡设施在战争中受损而导致供货中断的客户供气。此外，由于通过关键的霍尔木兹海峡的航运交通仍处于动荡之中，卡塔尔能源公司也不得不大幅减少供气量。",
+      "datetime": "2026-10-22 23:32:45",
+      "content": "【快讯】SHMET10月22日讯，美国财政部拍卖4周期国库券，中标利率3.945%，投标倍数2.82；拍卖8周期国库券，中标利率4.015%，投标倍数2.57。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-22 22:32:53",
-      "content": "【快讯】SHMET10月22日讯，土耳其总统埃尔多安：我们的目标是将与加拿大的贸易额提升至50亿美元，然后再提升至100亿美元。",
+      "datetime": "2026-10-22 23:32:14",
+      "content": "【快讯】SHMET10月22日讯，美国至10月22日8周国债竞拍-得标利率 4.015%，前值4.05%。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-22 22:30:40",
-      "content": "【快讯】SHMET10月22日讯，美国至10月16日当周EIA天然气库存 770亿立方英尺，预期790亿立方英尺，前值670亿立方英尺。",
+      "datetime": "2026-10-22 23:32:14",
+      "content": "【快讯】SHMET10月22日讯，美国至10月22日4周国债竞拍-得标利率配置百分比 32.92%，前值15.67%。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-22 22:30:25",
-      "content": "【快讯】SHMET10月22日讯，土耳其总统埃尔多安：我们同意在年底前与加拿大启动自由贸易协定谈判。",
+      "datetime": "2026-10-22 23:30:17",
+      "content": "【快讯】SHMET10月22日讯，据报道，俄罗斯称在黑海击沉两艘货船。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-22 22:29:56",
-      "content": "【快讯】SHMET10月22日讯，土耳其总统埃尔多安：土耳其与加拿大关系将提升至战略层面。",
+      "datetime": "2026-10-22 23:29:16",
+      "content": "【快讯】SHMET10月22日讯，尼日利亚奈拉兑美元贬值1.9%，为2026年3月以来最大跌幅。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-22 22:29:51",
-      "content": "【快讯】SHMET10月22日讯，土耳其总统埃尔多安：在与加拿大总理卡尼会晤时，讨论了双边关系及地区和全球问题。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-22 22:29:44",
-      "content": "【快讯】SHMET10月22日讯，加拿大政府：正在应用安全更新以修复漏洞。",
+      "datetime": "2026-10-22 23:27:34",
+      "content": "【快讯】SHMET10月22日讯，印度政府发布命令，将100万吨免税糖进口的截止日期延长至12月31日。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
@@ -1159,17 +1159,17 @@
   ],
   "steel_highlight": [
     {
-      "datetime": "2026-10-22 21:53:34",
-      "content": "据日经新闻：日本制铁将斥资30亿美元升级美国一家钢铁厂已有90年历史的设备。",
-      "important": 0,
+      "datetime": "2026-10-22 23:00:33",
+      "content": "截至23:00收盘，国内期货主力合约涨多跌少，低硫燃料油（LU）涨超3%，燃料油、丙烯涨超2%，豆一涨近2%，液化石油气（LPG）、聚丙烯、合成橡胶、焦煤涨超1%。跌幅方面，烧碱、胶版纸跌超1%，纸浆跌近1%。",
+      "important": 1,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": true
     },
     {
-      "datetime": "2026-10-22 21:00:01",
-      "content": "夜盘开盘，国内期货主力合约涨跌不一，低硫燃料油（LU）涨超3%，燃料油涨近3%，SC原油、液化石油气（LPG）、丙烯涨超2%，聚丙烯、甲醇、纯苯涨超1%。跌幅方面，沪银跌超2%，沪锡、胶版纸、国际铜、沪锌、烧碱、焦煤跌超1%。",
-      "important": 1,
+      "datetime": "2026-10-22 21:53:34",
+      "content": "据日经新闻：日本制铁将斥资30亿美元升级美国一家钢铁厂已有90年历史的设备。",
+      "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": true
