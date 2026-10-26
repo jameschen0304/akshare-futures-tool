@@ -1,7 +1,463 @@
 {
   "source": "jin10 flash + shmet + shfe weekly stock",
-  "generated_at": "2026-10-26T16:55:50.341775+00:00",
+  "generated_at": "2026-10-26T19:31:50.288179+00:00",
   "jin10": [
+    {
+      "datetime": "2026-10-27 03:27:41",
+      "content": "据路透：消息人士称，美国与加拿大正致力于达成协议，以放宽美国对加拿大钢铁和汽车进口的关税。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": true
+    },
+    {
+      "datetime": "2026-10-27 03:25:55",
+      "content": "美国国务卿鲁比奥：（关于委内瑞拉）美国数周前告知委内瑞拉当局，应允许反对派领导人马查多“不受干扰”地返回。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 03:22:49",
+      "content": "美国国务院高级官员：（关于委内瑞拉问题）美国正与委内瑞拉临时当局合作，并利用影响力确保改革以适当步伐持续推进。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 03:14:50",
+      "content": "美国国务院高级官员：（关于委内瑞拉问题）美国预计委内瑞拉将在年底前成立新的最高司法委员会，随后不久将成立新的选举委员会。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 03:14:45",
+      "content": "美国国务院高级官员：（关于委内瑞拉问题）美方认为，在举行选举之前，委内瑞拉需要重建选举基础设施。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 03:08:28",
+      "content": "美国高评级债券发行规模势将创下1.76万亿美元纪录。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 03:03:32",
+      "content": "澳洲航天初创公司MP Space首席执行官称，正为SpaceX(SPCX.O)星舰发射计划增配更多电池。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 03:02:09",
+      "content": "恒指期货夜盘收跌0.01%，报23233点，高水21点。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 03:01:13",
+      "content": "据路透调查：23位经济学家中有13位表示，新西兰联储官方现金利率到年底将维持在3.00%，但有9位预计12月将升至3.25%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 03:00:24",
+      "content": "据路透调查：27位经济学家中有22位预计，新西兰联储将于10月28日将现金利率上调25个基点至3.00%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 02:58:20",
+      "content": "智利矿业部：Capstone Copper宣布在智利阿塔卡马地区投资30亿美元的计划。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 02:56:27",
+      "content": "【报道：伊朗官员称已做好准备 正等待以色列采取行动】金十数据10月27日讯，据伊朗媒体Fars News报道，伊朗一名安全官员表示，全世界都在震惊地注视着内塔尼亚胡公开其真实意图，甚至将摧毁伊朗作为竞选口号。伊朗必将以同等力度回应任何威胁。伊朗已做好充分准备，一旦遭到哪怕最轻微的攻击，也将以史无前例的速度和力度作出对等回应。该官员还警告以色列居民为可能发生的冲突做好准备。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 02:54:30",
+      "content": "巴西财长：我们将上调明年的初级财政盈余预测。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 02:54:16",
+      "content": "巴西财长：如有必要，央行也将干预外汇市场。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 02:50:20",
+      "content": "巴西财长：我们将进行讨论，以审视国会预算拨款的规模、公共部门过高的薪资水平，以及特殊的养老金制度。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 02:48:36",
+      "content": "巴西财长：政府今年将提交提案，力争使财政目标落在区间中值。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 02:44:45",
+      "content": "布伦特原油期货结算价为每桶115.81美元，下跌91美分，跌幅0.78%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 02:39:10",
+      "content": "苹果(AAPL.O)：Siri人工智能功能目前在欧盟不可用；正与欧盟合作推进后续解决方案。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 02:38:57",
+      "content": "苹果(AAPL.O)：Siri人工智能服务正面向全球更多用户扩展，将支持法语、日语、韩语、葡萄牙语和西班牙语。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 02:37:56",
+      "content": "美国联邦住房金融局局长普尔特：使用现代信用评分的市场参与者有助于降低风险，并增强安全性和稳健性。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 02:31:34",
+      "content": "【夜盘主力合约收盘】金十数据10月27日讯，截至2:30收盘，沪金主力合约收涨0.40%，报865元/克，沪银主力合约收涨0.31%，报13091元/千克，SC原油主力合约收跌0.87%，报733元/桶。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 02:31:30",
+      "content": "美国原油期货结算价为每桶101.76美元，下跌1.51美元，跌幅1.46%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 02:30:32",
+      "content": "上海黄金交易所黄金T+D 10月26日（周一）晚盘收盘上涨0.51%报864.53元/克；\n上海黄金交易所白银T+D 10月26日（周一）晚盘收盘上涨0.3%报13056.0元/千克。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 02:29:35",
+      "content": "惠誉评级：美国更广泛的价格压力加大通胀持续性风险。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 02:22:08",
+      "content": "市场消息：伊朗总统抵达俄罗斯莫斯科。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 02:16:47",
+      "content": "【OpenAI推出GPT-6.1 Terra 电脑操作速度提升逾3倍 API价格降低50%】金十数据10月27日讯，OpenAI推出GPT-6.1 Terra，重点提升电脑操作、视觉理解和编程能力，可帮助用户撰写提案、看懂技术图纸、填写表格及编辑视频。与上一代相比，该模型完成电脑操作任务的速度提升逾3倍，API价格降低50%。API收费为每百万输入词元1美元、缓存输入词元0.05美元、输出词元5美元。性能方面，内部测试显示，低推理档位的错误率从53.6%降至16.7%；最高推理档位的错误率降至4.3%，较上一代下降18个百分点。编程测试中，最高推理档位得分从上一代公布的21.5%升至50.3%。新模型已向ChatGPTWork和Codex的Plus、Pro、Enterprise及Edu用户开放，并通过API提供。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 02:14:54",
+      "content": "利比亚交通部：对利比亚领空使用的限制和警告已解除。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 02:09:33",
+      "content": "委内瑞拉临时总统罗德里格斯：在反对派领导人返回后，希望对话能为所有声音提供空间。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 02:08:38",
+      "content": "OpenAI：GPT-6.1 Terra现已开始推出，面向所有Plus、Pro、Enterprise和Edu用户开放，可在ChatGPT Work和Codex中使用。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 02:07:25",
+      "content": "伊朗最高国家安全委员会秘书雷扎伊：各方强调，以色列必须撤出黎巴嫩南部、叙利亚南部、加沙地带和约旦河西岸，并停止侵略行为。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 02:07:13",
+      "content": "伊朗最高国家安全委员会秘书雷扎伊：各方已达成共识，西亚安全必须依靠地区国家自身力量，并防止任何外部干预。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 02:06:54",
+      "content": "伊朗最高国家安全委员会秘书雷扎伊：地区合作早就应该启动，土耳其、巴基斯坦和沙特阿拉伯高级官员的到访表明，美国的威胁对世界各国并未产生太大影响。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 02:04:47",
+      "content": "据Axios：美国联邦贸易委员会（FTC）要求Anthropic高管就一项调查出庭作证。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 02:04:20",
+      "content": "据CNBC：Skydance(SKYD.N)向员工提供自愿离职买断方案，并推行每周五天到岗办公政策。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 02:00:56",
+      "content": "Anthropic：正在向非营利组织拓展Claude，并已推出“Claude for Nonprofits”插件。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 02:00:27",
+      "content": "以色列国防军：以色列国防军在加沙地带北部、南部和中部发动多次空袭，击毙了三名哈马斯和伊斯兰圣战组织军事分支的恐怖分子。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 01:54:45",
+      "content": "【多个支持博索纳罗的巴西政党承认卢拉胜选】金十数据10月27日讯，巴西媒体26日报道，此前在巴西总统选举中支持自由党候选人、前总统雅伊尔·博索纳罗之子弗拉维奥·博索纳罗的多个右翼和中右翼政党25日已宣布承认劳工党候选人、现任总统卢拉胜选，并表示不支持自由党废除选举结果、重新选举。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 01:46:08",
+      "content": "马斯克：星链移动网络建设将耗时2至3年。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 01:37:00",
+      "content": "英国海上贸易行动办公室：截至报告时，船员状况、损害评估及环境影响均未知。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 01:35:56",
+      "content": "IBM(IBM.N)与英伟达(NVDA.O)将AI智能体身份与运行时访问控制相绑定。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 01:33:55",
+      "content": "英国海上贸易行动办公室：接获多起报告，称伊拉克附近海域有一艘船只起火。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 01:31:31",
+      "content": "OpenAI发布ChatGPT Work在100个国家的活动数据。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 01:30:46",
+      "content": "【苹果承认少数iPhone Duo存在内屏问题 称多数设备不受影响】金十数据10月27日讯，苹果(AAPL.O)表示，已注意到少数iPhoneDuo设备出现内屏故障，并称受影响设备通常会在较短时间内显现问题，但大多数设备不受影响。此前有多方媒体报道称用户展开手机时听到类似碎裂的声音，铰链附近有凸起或松动感，随后内屏出现裂纹，部分设备还出现白斑或异常亮线。维修平台iFixit认为，问题可能源于铰链内部零件失效并挤裂屏幕。目前，苹果已展开调查，部分工程师正尝试获取故障设备进行分析；部分用户已获换机，但也有人因门店缺货或预约困难而等待处理。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 01:24:32",
+      "content": "SpaceX(SPCX.O)：目标定于当地时间11月1日周日用猎鹰9号发射USSF-432任务。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 01:24:02",
+      "content": "据Axios：以色列“Yashar”党领导人加迪·埃森科特正成为总理内塔尼亚胡近年来最有力的竞争者。选前多数民调显示，埃森科特领先内塔尼亚胡8至10个百分点，且在不同选民群体中拥有较高好感度。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 01:23:19",
+      "content": "康菲石油(COP.N)发言人：不透露具体员工人数。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 01:22:59",
+      "content": "康菲石油(COP.N)发言人：已通知员工，包括员工和承包商在内的加拿大劳动力缩减将于周二进行。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 01:18:54",
+      "content": "【伊朗与沙特、土耳其、巴基斯坦同意未来继续举行会谈】金十数据10月27日讯，当地时间26日晚，伊朗与沙特、土耳其、巴基斯坦在伊朗首都德黑兰举行了关于区域安全与稳定的四方会议。会后，各方同意未来继续举行相关会谈，以加强四国在包括地区和平与安全等领域的合作。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 01:18:09",
+      "content": "胡塞武装：过去24小时内，沙特阿拉伯的战斗机进行了119次空袭和导弹攻击；自对我军升级行动开始以来，沙特的空袭和导弹攻击总数已达3298次。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 01:17:29",
+      "content": "美联储在固定利率逆回购操作中总计接纳了1个对手方的2亿美元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 01:15:42",
+      "content": "加拿大财政部长：加拿大及其伙伴将于当地时间11月30日签署设立新国防与韧性银行的条款。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 01:09:29",
+      "content": "苹果(AAPL.O)：已知悉少数iPhone Duo出现的问题。该问题影响iPhone Duo的内屏。用户应联系AppleCare进行更换。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 01:04:51",
+      "content": "据泰晤士报：英国财政大臣希利将宣布计划把最低工资提高近4%，但放缓年轻人最低工资的涨幅。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 01:02:01",
+      "content": "美国至10月26日2年期国债竞拍-得标利率配置百分比 80.83%，前值33.42%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 01:02:01",
+      "content": "美国至10月26日2年期国债竞拍-投标倍数 2.59，前值2.63。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 01:02:01",
+      "content": "美国至10月26日2年期国债竞拍-得标利率 4.708%，前值4.79%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 00:56:11",
+      "content": "据日经新闻：日本AI初创公司Sakana AI宣布，将从零开始训练自主研发的大模型。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
     {
       "datetime": "2026-10-27 00:53:15",
       "content": "欧盟外交与安全政策高级代表卡拉斯：伊朗和美国之间存在局势再次升级的严重风险。",
@@ -633,515 +1089,107 @@
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:31:53",
-      "content": "美国10月达拉斯联储制造业原材料支付价格指数 55.3，前值52.2。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:31:47",
-      "content": "美国10月达拉斯联储制造业装船指数 8.4，前值24.8。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:31:39",
-      "content": "美国10月达拉斯联储制造业就业指数 11.6，前值15.1。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:31:32",
-      "content": "美国10月达拉斯联储制成品价格指数 29.9，前值27.6。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:31:20",
-      "content": "美国10月达拉斯联储新订单指数 9.3，前值30.7。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:31:08",
-      "content": "美国10月达拉斯联储制造业产出指数 15.8，前值29.5。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:30:18",
-      "content": "美国10月达拉斯联储商业活动指数 13.4，前值9.8。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:30:02",
-      "content": "【暖冬预期升温，美国天然气期货跌至六个月低点】金十数据10月26日讯，美国天然气期货价格一度暴跌5.4%，跌至4月以来最低水平。周末天气预报大幅转向偏暖，表明冬季供暖季初期，用于供暖和发电的天然气需求可能下降。这一前景变化强化了交易员的预期：超级厄尔尼诺天气模式可能导致今年冬季异常温暖，从而削弱天然气通常处于全年高峰期的季节性需求。对冲基金上周建立了自2013年有数据记录以来规模最大的天然气空头头寸，大举押注价格下跌。随着“暖冬”预期愈发坚定，这种押注规模可能还会进一步扩大。近月天然气期货价格目前较两周前已下跌超过20%。BOK Financial Securities交易业务高级副总裁Dennis Kissler表示：“在天气状况发生转变、进而带动需求增长之前，市场可能会延续‘逢高卖出’的交易策略。”另外，即将到期的近月天然气期货合约成交量下降，也可能放大了价格跌幅。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:27:11",
-      "content": "美国官员表示，一旦收到总统特朗普的命令，中东地区的美军将在96小时内对伊朗发动新一轮军事行动；Anthropic招股书公布，807亿美元净亏损容易误读。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:26:24",
-      "content": "据伊通社（IRNA）：伊朗外长与土库曼斯坦外长今天下午进行了通话，讨论了地区重要问题和国际最新动态。双方在通话中强调了继续进行外交磋商和政治努力的重要性，以减少地区紧张局势，建立持久的稳定与安全。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:24:49",
-      "content": "【Anthropic在S-1文件中阐述对算力容量的担忧】金十数据10月26日讯，Anthropic在S-1文件中称，算力，即芯片和其他硬件等提供的处理能力，是公司面临的一个关键问题。该公司在其S-1文件中称：“如果我们无法获得足够的算力，或未能有效地将算力分配给各项工作负载，我们可能无法训练出与竞争对手的模型保持竞争力的模型，也可能无法充分服务客户。”Anthropic正在向SpaceX等支付费用以获得算力容量，但预计短期内算力需求仍将超过供给。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:21:57",
-      "content": "黄金是否止跌，上方阻力在哪？​《大有作V》栏目更新，3分钟解读国际金走势>>",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:21:48",
-      "content": "【波罗的海干散货运价指数下跌，因海岬型和巴拿马型运价走弱】金十期货10月26日讯，据外媒报道，波罗的海干散货运价指数（BDI）下跌，受海岬型和巴拿马型船运价走弱拖累。波罗的海干散货运价指数（BDI）较前一交易日下跌32点，或1.19%，报2628点，为近一周最低水平。海岬型船运价指数（BCI）下跌65点，跌幅1.71%，至3726点，创近一周低点。海岬型船日均获利下降585美元，至30292美元。巴拿马型船运价指数（BPI）下跌34点，或1.61%，至2075点，为7月30日以来最低水平。巴拿马型船日均获利下跌309美元，至18672美元。超灵便型散货船运价指数（BSI）上涨1点或0.05%，报1888点。灵便型船运价指数（BHSI）持平，报1020点。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:20:00",
-      "content": "美国10月达拉斯联储商业活动指数将于十分钟后公布。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:17:49",
-      "content": "【期货热点追踪】季风不均叠加虫害肆虐导致印度新棉减产，国内供需严重失衡！政府拟再度出手延长免税政策，全球贸易流向将如何演变？",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:17:32",
-      "content": "英国20年期国债收益率跌至9月23日以来最低，当日下跌6个基点至5.678%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:15:52",
-      "content": "墨西哥总统辛鲍姆支持选举机构负责人辞职。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:15:23",
-      "content": "在巴西宣布回购计划后，巴西掉期利率涨势有所缓和。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:14:29",
-      "content": "巴西宣布招标，拟购入1500万份本币固定利率票据。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:09:42",
-      "content": "阿根廷股市跟随巴西股市下跌，基准股指跌约6%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:09:05",
-      "content": "【伊朗总统：支持任何有助于地区团结的共识】金十数据10月26日讯，伊朗总统佩泽希齐扬在会见巴基斯坦、土耳其和沙特阿拉伯官员时表示，我们支持任何有助于伊斯兰国家团结的共识。伊斯兰国家依靠共同能力，可以为世界提供公正与发展的典范。伊朗怀着坚定信念和严肃决心，准备在深化地区合作、化解分歧、利用伊斯兰国家共同能力的道路上采取措施，并支持任何有助于加强地区团结、凝聚力、安全与发展的共识。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:07:11",
-      "content": "Anthropic正式公开IPO招股书，拟登陆纳斯达克。公司二季度首次实现营业利润转正，但上半年净亏损达807亿美元。点击查看…",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:05:04",
-      "content": "墨西哥总统辛鲍姆：选举机构腐败指控必须予以审查。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:03:04",
-      "content": "美国商品期货交易委员会与NBA签署谅解备忘录，旨在维护职业篮球在预测市场中的诚信。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:02:35",
-      "content": "墨西哥总统辛鲍姆将于墨西哥城时间中午12点（北京时间27日凌晨2点）与巴西总统卢拉通话。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:01:23",
-      "content": "在期货市场里，最让人绝望的不是对交易一无所知，而是你明明读遍了大师经典，但一到实盘，依然会逆势死扛、重仓满干。知道和做到之间，隔着一条名为“人性”的巨大鸿沟。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:01:17",
-      "content": "金十图示：2026年10月26日（周一）全球股市指数-美洲市场（盘初）",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:00:45",
-      "content": "【谷歌、亚马逊和博通向Anthropic提供770亿美元融资】金十数据10月26日讯，Anthropic已从谷歌、亚马逊和博通处获得了总计770亿美元的额外融资。每项协议都附带各自的特定条件：亚马逊的融资协议与Anthropic在计算能力方面达到特定里程碑挂钩；谷歌提供的200亿美元承诺，部分取决于Anthropic能否实现特定的营收目标。谷歌和亚马逊等超大规模云服务商已向Anthropic提供数十亿美元资金，帮助这家人工智能初创公司满足算力需求，尽管双方同时也是竞争对手。谷歌和亚马逊累计向Anthropic投资数百亿美元，成为其最大的股东。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:59:45",
-      "content": "汇丰维持对欧元区非核心债券“非常谨慎”的看法。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:58:37",
-      "content": "Moderna(MRNA.O)股价一度转涨，最新下跌0.5%，此前跌逾9%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:57:50",
-      "content": "美国航空航天局（NASA）：NASA与美国农业部签署协议，推进地球科学与农业合作。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:56:03",
-      "content": "美股上市的巴西公司跌幅有所收窄。巴西石油公司下跌15.8%，伊塔乌联合银行下跌20.5%，布拉德斯科银行下跌28.6%，巴西航空工业公司下跌4.8%，Nu Holdings下跌20.4%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:55:00",
-      "content": "【沙特阿美接近与全球银行签署100亿美元贷款协议】金十数据10月26日讯，据知情人士透露，沙特国有石油公司沙特阿美接近与多家国际银行达成一笔100亿美元贷款协议。在中东冲突威胁原油出口之际，这笔贷款将增强公司的财务实力。知情人士称，这笔循环信贷额度预计将在未来几周内签署，将由多家银行共同提供，包括花旗集团、汇丰控股、摩根大通以及三菱日联金融集团等。这笔新信贷额度的定价预计将高于有担保隔夜融资利率（SOFR）60个基点。沙特阿美上一次签署循环信贷额度是在2024年。当时的融资分为两部分：其中一部分为70亿美元，由来自美国、欧洲和亚洲的贷款机构安排；另一部分为30亿美元，则采用穆拉巴哈融资结构，由地区银行提供资金。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:54:56",
-      "content": "现货白银日内跌逾1%，现报53.36美元/盎司。现货黄金现跌近0.2%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:52:21",
-      "content": "巴西银行(Banco do Brasil)股价下跌约31%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:52:19",
-      "content": "金十图示：2026年10月26日（周一）华尔街恐惧与贪婪指数（美盘初）",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:51:32",
-      "content": "【中金公司：2026年新增股份31.04亿股上市】金十数据10月26日讯，中金公司公告，此前拟通过换股吸收合并东兴证券、信达证券。本次交易已实施，中金公司新增发行31.04亿股A股，并于2026年10月26日收到证券变更登记证明；其中11.36亿股新增无限售流通股将于2026年10月29日上市，另有19.68亿股为新增限售流通股。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:51:07",
-      "content": "Anthropic：已对已授权及已发行的T类普通股实施1比1000的反向拆股。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:50:03",
-      "content": "巴西小盘股指数暴跌30%，创历史最大跌幅。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:49:42",
-      "content": "法国CAC40指数日内涨幅达1.00%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:49:38",
-      "content": "卢拉胜选后，巴西Gerdau公司股价上涨11%；淡水河谷（Vale）股价上涨8.5%，Suzano股价上涨10%",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:48:10",
-      "content": "Anthropic：2026年上半年基于消费的收入为130.6亿美元，上年同期为9.83亿美元。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:48:05",
-      "content": "Anthropic：2026年上半年订阅收入32亿美元，上年同期为1.8亿美元。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:47:46",
-      "content": "据国际文传电讯社：俄罗斯方面正就黑海航运事宜与土耳其保持联系。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:46:50",
-      "content": "知情人士透露，沙特阿美即将与全球银行签署100亿美元贷款协议。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:46:22",
-      "content": "Anthropic：截至6月30日，剩余履约义务金额为108亿美元。预计未来12个月内将把约75%的剩余履约义务确认为收入。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:46:06",
-      "content": "Anthropic：2.65亿美元融资承诺仍未到位。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:45:34",
-      "content": "金十图示：2026年10月26日（周一）美盘市场行情一览",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:44:56",
-      "content": "特斯拉(TSLA.O)盘中涨幅扩大至5.5%，触及三个多月高点。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:42:23",
-      "content": "金十图示：2026年10月26日（周一）美股热门股票行情一览",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:42:18",
-      "content": "过去两周，基金累计抛售约200亿美元科技股，接近7月230亿美元的卖出规模。随着AI投资融资压力加剧，基金高杠杆仓位及潜在程序化卖盘引发关注。点击查看…",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:41:59",
-      "content": "墨西哥总统辛鲍姆：我们对卢拉在巴西的胜利感到非常高兴。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:41:46",
-      "content": "巴西基准股指Bovespa在熔断后已恢复交易，多数股票仍处于集合竞价状态。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
     }
   ],
   "shmet": [
     {
-      "datetime": "2026-10-27 00:52:23",
-      "content": "【快讯】SHMET10月27日讯，欧盟外交与安全政策高级代表卡拉斯：正在酝酿对俄罗斯实施更多制裁。",
+      "datetime": "2026-10-27 03:28:08",
+      "content": "【快讯】SHMET10月27日讯，美国、加拿大据悉正致力于达成一项放宽美国对加拿大钢铁和汽车进口关税的协议。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": true
+    },
+    {
+      "datetime": "2026-10-27 03:27:18",
+      "content": "【快讯】SHMET10月27日讯，美国国务卿鲁比奥：（关于委内瑞拉）美国数周前告知委内瑞拉当局，应允许反对派领导人马查多“不受干扰”地返回。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-27 00:45:58",
-      "content": "【快讯】SHMET10月27日讯，瑞士确认日内瓦医院收治一例埃博拉病例。",
+      "datetime": "2026-10-27 03:24:05",
+      "content": "【快讯】SHMET10月27日讯，美国国务院高级官员：（关于委内瑞拉问题）美国正与委内瑞拉临时当局合作，并利用影响力确保改革以适当步伐持续推进。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-27 00:45:19",
-      "content": "【快讯】SHMET10月27日讯，德国DAX30指数10月26日（周一）收盘上涨227.23点，涨幅0.90%，报25408.88点；英国富时100指数10月26日（周一）收盘上涨73.78点，涨幅0.69%，报10764.14点；法国CAC40指数10月26日（周一）收盘上涨64.50点，涨幅0.83%，报7847.32点；欧洲斯托克50指数10月26日（周一）收盘上涨44.83点，涨幅0.74%，报6113.05点；西班牙IBEX35指数10月26日（周一）收盘上涨34.48点，涨幅0.18%，报19024.28点；意大利富时MIB指数10月26日（周一）收盘上涨616.64点，涨幅1.27%，报49175.50点。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 00:35:23",
-      "content": "【快讯】SHMET10月27日讯，意大利财政部宣布，将在10月29日的拍卖中出售最高77.5亿欧元的政府债券。",
+      "datetime": "2026-10-27 03:24:01",
+      "content": "【快讯】SHMET10月27日讯，巴西财政部发布声明称，已回购27.1万份2030年到期的债券、100万份2035年到期的债券，以及48.685万份2050年到期的债券。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-27 00:25:52",
-      "content": "【快讯】SHMET10月27日讯，奥迪发言人：代表团访问佐治亚州，以推进有关计划建厂的谈判，在这些讨论中，我们被要求在特朗普总统同场的情况下公开介绍我们的计划。",
+      "datetime": "2026-10-27 03:20:13",
+      "content": "【LME夜盘收盘】LME铜涨0.37%,报14338.0美元/吨LME铝跌0.08%,报3038.0美元/吨LME铅涨0.68%,报1918.5美元/吨LME锌涨2.04%,报3823.0美元/吨LME镍跌2.14%,报15525美元/吨LME锡涨0.07%,报50800美元/吨",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-27 00:25:11",
-      "content": "【德国总统抵达安徽开启访华行程】SHMET10月27日讯，应国家主席习近平邀请，德国总统施泰因迈尔于10月27日至31日对中国进行国事访问。今天（27日）凌晨，施泰因迈尔总统乘机抵达合肥新桥国际机场，开启访华行程，这是他时隔近8年再次访华。",
+      "datetime": "2026-10-27 03:17:02",
+      "content": "【人工智能交易规模惊人 城堡证券称到了“没有容错空间”的地步】SHMET10月27日讯，城堡证券认为，市场对人工智能交易的投入如此之大，到了一旦巨额投入产生不了回报就几乎没有犯错空间的地步。该公司欧洲、中东和非洲固定收益销售主管Nohshad Shah在一份研报中写道，科技股的抛售表明，投资者在巨额人工智能支出最终能否创造足够利润的问题上正变得愈发苛刻。“现在经济和股市有这么大一部分都押注在人工智能交易上，而其它风险也可能显现出来，所以市场几乎没有任何犯错的余地，” Shah写道。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-27 00:24:14",
-      "content": "【快讯】SHMET10月27日讯，市场消息：康菲石油(COP.N)计划于周二在加拿大裁员。",
+      "datetime": "2026-10-27 03:16:39",
+      "content": "【快讯】SHMET10月27日讯，美国国务院高级官员：（关于委内瑞拉问题）美国预计委内瑞拉将在年底前成立新的最高司法委员会，随后不久将成立新的选举委员会。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-27 00:22:27",
-      "content": "【快讯】SHMET10月27日讯，奥迪发言人：出席美国佐治亚州活动的决定是在审慎考虑后作出的，完全符合公司的最佳利益。",
+      "datetime": "2026-10-27 03:16:29",
+      "content": "【快讯】SHMET10月27日讯，恒生指数主连夜盘收跌0.01%，报23233点。恒生科技指数主连夜盘收涨0.08%，报3865点。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-27 00:21:19",
-      "content": "【快讯】SHMET10月27日讯，奥迪发言人：政治中立是奥迪的一项重要原则，我们始终恪守这一原则。",
+      "datetime": "2026-10-27 03:15:37",
+      "content": "【快讯】SHMET10月27日讯，美国国务院高级官员：（关于委内瑞拉问题）美方认为，在举行选举之前，委内瑞拉需要重建选举基础设施。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-27 00:19:34",
-      "content": "【快讯】SHMET10月27日讯，美国财长贝森特：特朗普总统的税收、贸易和监管政策正在为企业在美国建厂、投资和招聘扫清障碍。今年以来，我们已新增7.2万个制造业就业岗位，而拜登任期最后两年则流失了逾20万个。蓝领制造业工人的收入也在增加：自特朗普总统上任以来，经通胀调整后的周薪上涨了3.5%。",
+      "datetime": "2026-10-27 03:07:41",
+      "content": "【快讯】SHMET10月27日讯，美国高评级债券发行量预计将达到1.76万亿美元的纪录。",
       "important": 0,
       "source": "shmet",
-      "sentiment": "bull",
+      "sentiment": "neutral",
       "steel": false
     }
   ],
   "steel_highlight": [
+    {
+      "datetime": "2026-10-27 03:28:08",
+      "content": "【快讯】SHMET10月27日讯，美国、加拿大据悉正致力于达成一项放宽美国对加拿大钢铁和汽车进口关税的协议。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": true
+    },
+    {
+      "datetime": "2026-10-27 03:27:41",
+      "content": "据路透：消息人士称，美国与加拿大正致力于达成协议，以放宽美国对加拿大钢铁和汽车进口的关税。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": true
+    },
     {
       "datetime": "2026-10-27 00:04:45",
       "content": "俄罗斯北方钢铁公司（Severstal）表示，别尔哥罗德州一座采矿和选矿厂在无人机袭击后部分断电，矿工已撤离。",
