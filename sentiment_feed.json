@@ -1,7 +1,143 @@
 {
   "source": "jin10 flash + shmet + shfe weekly stock",
-  "generated_at": "2026-10-26T16:21:15.956602+00:00",
+  "generated_at": "2026-10-26T16:55:50.341775+00:00",
   "jin10": [
+    {
+      "datetime": "2026-10-27 00:53:15",
+      "content": "欧盟外交与安全政策高级代表卡拉斯：伊朗和美国之间存在局势再次升级的严重风险。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 00:51:23",
+      "content": "欧盟外交与安全政策高级代表卡拉斯：正在酝酿对俄罗斯实施更多制裁。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 00:51:00",
+      "content": "市场消息：苹果(AAPL.O)iPhone Duo遭遇早期用户投诉，称其屏幕出现开裂。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 00:50:12",
+      "content": "也门政府军：过去24小时在各条战线上对胡塞武装实施1276次打击，目标包括指挥中心、防御阵地、火力基地、军事增援、运输补给设施及武器弹药库。行动共造成约382名胡塞武装指挥官及人员失去战斗力，摧毁或瘫痪140辆车辆、汽车及重型武器，并摧毁若干武器弹药库。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 00:46:27",
+      "content": "金十图示：2026年10月27日（周二）全球股市指数-欧洲市场",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 00:45:23",
+      "content": "微软(MSFT.O)：全球约6万名员工符合自愿买断条件。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 00:44:46",
+      "content": "德国DAX30指数10月26日（周一）收盘上涨227.23点，涨幅0.90%，报25408.88点；\n英国富时100指数10月26日（周一）收盘上涨73.78点，涨幅0.69%，报10764.14点；\n法国CAC40指数10月26日（周一）收盘上涨64.50点，涨幅0.83%，报7847.32点；\n欧洲斯托克50指数10月26日（周一）收盘上涨44.83点，涨幅0.74%，报6113.05点；\n西班牙IBEX35指数10月26日（周一）收盘上涨34.48点，涨幅0.18%，报19024.28点；\n意大利富时MIB指数10月26日（周一）收盘上涨616.64点，涨幅1.27%，报49175.50点。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 00:38:00",
+      "content": "微软(MSFT.O)：（关于Teams问题）服务已恢复正常水平。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 00:37:11",
+      "content": "乌克兰总统泽连斯基：与摩尔多瓦总理会面，讨论基础设施项目、欧洲一体化及安全合作。乌克兰与摩尔多瓦签署军事合作协议。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 00:32:15",
+      "content": "金十图示：2026年10月26日（周一）美股热门股票行情一览（美股盘中）",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 00:32:00",
+      "content": "金十图示：2026年10月26日（周一）热门中概股行情一览（美股盘中）",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 00:30:20",
+      "content": "德国国防部长：我们正与乌克兰共同为其打造一套新型防空系统。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 00:25:25",
+      "content": "法国国防部长：我们支持乌克兰的决心不会停止。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 00:24:33",
+      "content": "奥迪发言人：代表团访问佐治亚州，以推进有关计划建厂的谈判，在这些讨论中，我们被要求在特朗普总统同场的情况下公开介绍我们的计划。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 00:24:15",
+      "content": "【德国总统抵达安徽开启访华行程】金十数据10月27日讯，应国家主席习近平邀请，德国总统施泰因迈尔于10月27日至31日对中国进行国事访问。今天（27日）凌晨，施泰因迈尔总统乘机抵达合肥新桥国际机场，开启访华行程，这是他时隔近8年再次访华。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 00:22:44",
+      "content": "市场消息：康菲石油(COP.N)计划于周二在加拿大裁员。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 00:20:37",
+      "content": "奥迪发言人：出席美国佐治亚州活动的决定是在审慎考虑后作出的，完全符合公司的最佳利益。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
     {
       "datetime": "2026-10-27 00:19:49",
       "content": "奥迪发言人：政治中立是奥迪的一项重要原则，我们始终恪守这一原则。",
@@ -921,943 +1057,87 @@
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:41:22",
-      "content": "Anthropic：截至6月，现金、现金等价物及受限现金为1149亿美元。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:41:01",
-      "content": "Anthropic首席执行官达里奥·阿莫迪2025年薪酬为1796万美元。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:40:39",
-      "content": "新云公司股价下跌，马斯克此前表示，这些公司将面临重大整合和倒闭。Nebius(NIBS.O)跌4.7%，Coreweave(CRWV.O)跌4%，IREN(IREN.O)跌2.8%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:39:03",
-      "content": "金十图示：2026年10月26日（周一）热门中概股行情一览",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:38:47",
-      "content": "洛克希德马丁(LMT.N)涨2.2%；摩根士丹利将其评级从持股观望上调至超配。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:38:25",
-      "content": "【瑞芯微：2026年第三季度归母净利润4.73亿元，同比增长90.49%】金十数据10月26日讯，瑞芯微公告，2026年第三季度营业收入15.73亿元，同比增长43.57%；归母净利润4.73亿元，同比增长90.49%；扣非净利润4.61亿元，同比增长92.10%。2026年前三季度营业收入44.49亿元，同比增长41.64%；归母净利润13.32亿元，同比增长70.90%；扣非净利润13.01亿元，同比增长72.09%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:38:16",
-      "content": "【苹果发布新款iPad mini：配备8.5英寸OLED屏，起售价5499元】金十数据10月26日讯，10月26日，苹果公司发布新款iPad mini，配备8.5英寸OLED显示屏和A20 Pro芯片，机身厚度仅5.4毫米，并支持IP67级抗水防尘。苹果称，新款设备的AI性能最高提升至前代的4.5倍，图形性能最高提升至2.7倍，蜂窝网络数据传输速度最高提升50%。新款iPad mini提供午夜色、星光色两种配色及128GB、256GB、512GB三种容量，10月28日起接受订购，11月6日起正式发售。无线局域网机型起售价为5499元，蜂窝网络机型起售价为6799元；教育优惠起售价为5099元。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:37:43",
-      "content": "【Anthropic目标估值仍未披露 融资规模有望达到1000亿美元】金十数据10月26日讯，Anthropic仍有两项关键信息尚未披露：公司寻求的上市估值，以及计划发行的股票数量。这些细节可能还需要两周左右才会公布。届时，Anthropic将在收集投资者反馈后提交更新版上市文件。据知情人士透露，Anthropic计划在11月16日当周上市，但具体时间仍可能调整。知情人士表示，Anthropic此次IPO的融资规模可能达到1000亿美元甚至更高，公司估值有望达到1.5万亿至2万亿美元。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:37:37",
-      "content": "美元指数DXY突破102，日内涨0.23%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:35:25",
-      "content": "金十数据10月26日讯，据路透社：伊朗高级官员表示，德黑兰与麦加协议成员国的会谈不涉及伊朗核问题。伊朗不会在美国满足德黑兰要求前讨论其核计划",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:34:57",
-      "content": "Anthropic预计算力及基础设施协议相关支出将达1250亿至1500亿美元。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:34:29",
-      "content": "标普500指数10月26日（周一）开盘上涨22.20点，涨幅0.29%，报7645.88点；\n纳斯达克综合指数10月26日（周一）开盘上涨49.25点，涨幅0.19%，报26004.59点；\n道琼斯指数10月26日（周一）开盘上涨209.20点，涨幅0.40%，报52424.36点。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:34:03",
-      "content": "Anthropic：截至6月30日，限制性股票单位费用约266亿美元。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:33:41",
-      "content": "巴西股票ETF(EWZ.N)暴跌26%，为历史最大跌幅。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:30:32",
-      "content": "美股开盘，道指涨0.2%，标普500指数涨0.25%，纳指涨0.28%。特斯拉(TSLA.O)涨3.3%，巴克莱将其评级从持股观望上调至增持。Meta Platforms(META.O)跌0.77%，公司拟发股筹资至多950亿美元支持AI增长。存储概念股上涨，SK海力士(SKHY.O)涨1.9%，美光科技(MU.O)涨1.2%，闪迪(SNDK.O)涨0.6%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:30:25",
-      "content": "全球科技抛售潮暂歇，国际金迎来喘息之机，风险警报解除了吗？点击观看伽玛直播分析>",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:30:24",
-      "content": "金十图示：2026年10月26日（周一）各大货币对表现",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
     }
   ],
   "shmet": [
+    {
+      "datetime": "2026-10-27 00:52:23",
+      "content": "【快讯】SHMET10月27日讯，欧盟外交与安全政策高级代表卡拉斯：正在酝酿对俄罗斯实施更多制裁。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 00:45:58",
+      "content": "【快讯】SHMET10月27日讯，瑞士确认日内瓦医院收治一例埃博拉病例。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 00:45:19",
+      "content": "【快讯】SHMET10月27日讯，德国DAX30指数10月26日（周一）收盘上涨227.23点，涨幅0.90%，报25408.88点；英国富时100指数10月26日（周一）收盘上涨73.78点，涨幅0.69%，报10764.14点；法国CAC40指数10月26日（周一）收盘上涨64.50点，涨幅0.83%，报7847.32点；欧洲斯托克50指数10月26日（周一）收盘上涨44.83点，涨幅0.74%，报6113.05点；西班牙IBEX35指数10月26日（周一）收盘上涨34.48点，涨幅0.18%，报19024.28点；意大利富时MIB指数10月26日（周一）收盘上涨616.64点，涨幅1.27%，报49175.50点。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 00:35:23",
+      "content": "【快讯】SHMET10月27日讯，意大利财政部宣布，将在10月29日的拍卖中出售最高77.5亿欧元的政府债券。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 00:25:52",
+      "content": "【快讯】SHMET10月27日讯，奥迪发言人：代表团访问佐治亚州，以推进有关计划建厂的谈判，在这些讨论中，我们被要求在特朗普总统同场的情况下公开介绍我们的计划。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 00:25:11",
+      "content": "【德国总统抵达安徽开启访华行程】SHMET10月27日讯，应国家主席习近平邀请，德国总统施泰因迈尔于10月27日至31日对中国进行国事访问。今天（27日）凌晨，施泰因迈尔总统乘机抵达合肥新桥国际机场，开启访华行程，这是他时隔近8年再次访华。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 00:24:14",
+      "content": "【快讯】SHMET10月27日讯，市场消息：康菲石油(COP.N)计划于周二在加拿大裁员。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 00:22:27",
+      "content": "【快讯】SHMET10月27日讯，奥迪发言人：出席美国佐治亚州活动的决定是在审慎考虑后作出的，完全符合公司的最佳利益。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 00:21:19",
+      "content": "【快讯】SHMET10月27日讯，奥迪发言人：政治中立是奥迪的一项重要原则，我们始终恪守这一原则。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
     {
       "datetime": "2026-10-27 00:19:34",
       "content": "【快讯】SHMET10月27日讯，美国财长贝森特：特朗普总统的税收、贸易和监管政策正在为企业在美国建厂、投资和招聘扫清障碍。今年以来，我们已新增7.2万个制造业就业岗位，而拜登任期最后两年则流失了逾20万个。蓝领制造业工人的收入也在增加：自特朗普总统上任以来，经通胀调整后的周薪上涨了3.5%。",
       "important": 0,
       "source": "shmet",
       "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 00:17:12",
-      "content": "【快讯】SHMET10月27日讯，据路透调查：31位分析师中有13位认为，哥伦比亚央行将在10月维持利率在12.25%不变。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 00:16:53",
-      "content": "【快讯】SHMET10月27日讯，据路透调查：31位分析师中有17位认为，哥伦比亚央行将在10月加息25个基点至12.50%；一位分析师预计将加息75个基点至13%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 00:16:11",
-      "content": "【快讯】SHMET10月27日讯，据路透调查：哥伦比亚利率将在2026年底达到12.50%，2027年底达到11%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 00:15:37",
-      "content": "【快讯】SHMET10月27日讯，土耳其总统埃尔多安：土耳其无意在东地中海问题上与任何一方争强斗胜。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 00:15:24",
-      "content": "【快讯】SHMET10月27日讯，美国财政部：美国制造业连续九个月扩张，2026年截至9月新增72,000个制造业岗位。特朗普总统的经济议程正在重建美国的工业基础。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 00:10:06",
-      "content": "【快讯】SHMET10月27日讯，美国联邦住房金融局局长普尔特：我们绝不允许滥用垄断地位的企业在抵押贷款市场的任何领域损害消费者利益。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 00:01:42",
-      "content": "【快讯】SHMET10月27日讯，美国联邦住房金融局局长普尔特表示，承诺就抵押贷款成本采取更多行动。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:52:55",
-      "content": "【快讯】SHMET10月26日讯，国际油价拉升，布伦特原油收复盘中2.2%的跌幅，现报116.8美元/桶。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:41:13",
-      "content": "【欧洲股市收盘 德、意两国股市涨超1%】SHMET10月26日讯，欧洲股市收盘，英国富时100指数涨0.67%，法国CAC40指数涨0.98%，德国DAX30指数涨1.17%，富时意大利MIB指数涨1.38%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:35:42",
-      "content": "【快讯】SHMET10月26日讯，法拉第未来：FF EAI机器人生态系统（FFR）已完成对法拉第未来机器人业务的收购，并建立一个在纳斯达克交易的人形与仿生机器人平台（代码FFR）。FFR预计10月机器人销量及出货量将超过300台。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:32:59",
-      "content": "【快讯】SHMET10月26日讯，美国至10月26日3个月国债竞拍-得标利率 4.05%，前值4.10%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:32:58",
-      "content": "【快讯】SHMET10月26日讯，美国至10月26日6个月国债竞拍-投标倍数 2.63，前值2.84。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:32:40",
-      "content": "【快讯】SHMET10月26日讯，美国至10月26日6个月国债竞拍-得标利率配置百分比 61.74%，前值86.09%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:32:35",
-      "content": "【快讯】SHMET10月26日讯，美国至10月26日3个月国债竞拍-投标倍数 3.07，前值2.77。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:32:11",
-      "content": "【快讯】SHMET10月26日讯，美国至10月26日6个月国债竞拍-得标利率 4.21%，前值4.22%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:31:50",
-      "content": "【快讯】SHMET10月26日讯，奥迪发言人否认有关首席执行官与特朗普同台亮相的想法来自奥迪。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:28:42",
-      "content": "【快讯】SHMET10月26日讯，沙特领导的联军表示，在利雅得和南部地区拦截并摧毁了三架无人机。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:22:49",
-      "content": "【快讯】SHMET10月26日讯，日本计划在4年内提供1000亿日元，支持下一代柔性钙钛矿太阳能电池的大规模生产。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:22:31",
-      "content": "【快讯】SHMET10月26日讯，礼来(LLY.N)宣布第四季度股息为每股1.73美元，与上期持平。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:15:40",
-      "content": "【快讯】SHMET10月26日讯，特朗普时期的汽油价格在中期选举前已超过拜登任期的平均水平。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:14:35",
-      "content": "【伊朗总统：伊朗的目标是发展多边主义】SHMET10月26日讯，伊朗总统佩泽希齐扬在前往俄罗斯前表示，他将与俄罗斯总统普京就如何加强双边关系以及双方共同关心的问题进行讨论。佩泽希齐扬强调，伊朗的目标是发展多边主义，而非单边主义和炫耀国家武力。在贸易中，各国应使用本国货币或双方商定的货币进行交易，以避免美国单边制裁的奏效。他表示，必须保障能源自由流通，才能实现全球能源共享，而理解与战略对话是全球能源管理的基石。 (央视新闻)",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:13:42",
-      "content": "【快讯】SHMET10月26日讯，上周美国战略石油储备的原油库存降至2.826亿桶，为1982年以来最低水平。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:12:38",
-      "content": "【快讯】SHMET10月26日讯，巴西雷亚尔收窄此前因卢拉胜选而造成的跌幅，目前兑美元下跌9.5%，报5.45雷亚尔兑1美元。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:10:28",
-      "content": "【工党议员警告：英国工业复兴目标恐难实现】SHMET10月26日讯，英国工党议员向英国首相伯纳姆发出警告，称英国重振工业的承诺恐怕难以兑现，因为现行政策与其表态并不相符，仍然更偏向服务业而非制造业。伯纳姆将重振工业列为一项核心优先事项，并表示希望振兴英国各地邮政编码区域的经济、创造就业岗位，而不仅仅是发展城市中心。然而，在财政大臣约翰·希利即将公布首份预算案的前几天，伯纳姆又承诺将在数周内公布英国未来十年发展计划。此时，工党议员对工业振兴工作进展缓慢、缺乏雄心表示不满，并警告称，政府部长们似乎尚未就投资城市服务业以外的行业形成共识。工党议员、工党再工业化研究小组主席安迪·麦克纳指出，英国长期以来存在一种经济正统观念，即固守“服务型经济”模式，并倾向于通过廉价进口商品来满足需求。他补充说，创造制造业就业岗位广受欢迎，但政府内部的关注点仍集中在“主要由城市贡献的GDP增长”上。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:10:14",
-      "content": "【快讯】SHMET10月26日讯，法官裁定，特朗普政府解雇检察官莫琳·科米（Maurene Comey）的行为违法。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:03:55",
-      "content": "【快讯】SHMET10月26日讯，美国财政部将于周二回购至多60亿美元较长期限债券。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:01:54",
-      "content": "【快讯】SHMET10月26日讯，克里姆林宫：俄罗斯总统普京将于周二在莫斯科与伊朗总统佩泽希齐扬及卡塔尔埃米尔举行会晤。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:01:06",
-      "content": "【快讯】SHMET10月26日讯，巴西石油公司CEO：卢拉选举获胜后出现的股价暴跌是“投机行为”，公司不受其左右。现在是买入公司股票的时候，公司稳健且拥有长期投资项目。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:57:09",
-      "content": "【快讯】SHMET10月26日讯，Coinbase公司表示，部分用户无法将巴西雷亚尔兑换用于买卖加密货币。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:56:59",
-      "content": "【快讯】SHMET10月26日讯，伊朗表示，核活动将在不扩散核武器条约框架内继续进行。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:51:52",
-      "content": "【快讯】SHMET10月26日讯，伊朗总统重申德黑兰不寻求核武器。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:48:38",
-      "content": "【伊朗总统呼吁保障全球贸易自由，推动本币结算以削弱美国制裁】SHMET10月26日讯，伊朗总统表示：“必须确保贸易自由，以便向全球输送能源。相互理解与战略对话，使全球能源治理成为可能。我们将与俄罗斯总统进行直接会谈；双方关系正不断深化。我们的目标是推动多边主义，而非单边主义或由单一国家彰显霸权。各国在开展经贸往来时，应使用本国货币或双方商定的货币，从而使美国实施的单边制裁失效。”",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:45:49",
-      "content": "【快讯】SHMET10月26日讯，美国民主党议员就Starlink中断事件致信马斯克。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:42:33",
-      "content": "【快讯】SHMET10月26日讯，纳斯达克100指数上涨1%，触及日内高点。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:42:10",
-      "content": "【快讯】SHMET10月26日讯，俄罗斯央行：俄罗斯银行1月至9月净利润为3.7万亿卢布。银行业9月净利润环比下降5.9%，至4140亿卢布。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:37:37",
-      "content": "【快讯】SHMET10月26日讯，斯洛伐克外长在会见俄罗斯外长拉夫罗夫后表示，他被告知俄罗斯仍准备履行已商定的能源合同。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:36:16",
-      "content": "【快讯】SHMET10月26日讯，SC原油主力合约日内跌超2.00%，现报724.90元/桶。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:33:11",
-      "content": "【快讯】SHMET10月26日讯，美国10月达拉斯联储制造业原材料支付价格指数 55.3，前值52.2。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:32:51",
-      "content": "【快讯】SHMET10月26日讯，美国10月达拉斯联储制造业装船指数 8.4，前值24.8。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:32:43",
-      "content": "【快讯】SHMET10月26日讯，美国10月达拉斯联储制造业就业指数 11.6，前值15.1。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:32:36",
-      "content": "【快讯】SHMET10月26日讯，土耳其主要银行指数上涨2.1%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:32:26",
-      "content": "【快讯】SHMET10月26日讯，美国10月达拉斯联储制成品价格指数 29.9，前值27.6。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:31:32",
-      "content": "【快讯】SHMET10月26日讯，美国10月达拉斯联储商业活动指数 13.4，前值9.8。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:31:27",
-      "content": "【快讯】SHMET10月26日讯，美国10月达拉斯联储新订单指数 9.3，前值30.7。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:31:20",
-      "content": "【快讯】SHMET10月26日讯，美国10月达拉斯联储制造业产出指数 15.8，前值29.5。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:28:07",
-      "content": "【湖南：支持长株潭都市圈共建循环经济产业走廊】SHMET10月26日讯，《湖南省“十五五”循环经济发展规划》已于近日发布，其中提出，优化循环经济产业布局。持续推动汨罗高新技术产业开发区、永兴经济开发区等2个国家“城市矿产”示范基地、娄底经济技术开发区、安化经济开发区、常宁水口山经济开发区等国家大宗固废综合利用基地提质增效。支持长株潭都市圈共建循环经济产业走廊，推动长沙工程机械再制造、株洲轨道交通再制造、湘潭废钢铁加工配送跨市协同。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": true
-    },
-    {
-      "datetime": "2026-10-26 22:27:39",
-      "content": "【快讯】SHMET10月26日讯，据伊通社（IRNA）：伊朗外长与土库曼斯坦外长今天下午进行了通话，讨论了地区重要问题和国际最新动态。双方在通话中强调了继续进行外交磋商和政治努力的重要性，以减少地区紧张局势，建立持久的稳定与安全。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:22:27",
-      "content": "【波罗的海干散货运价指数下跌，因海岬型和巴拿马型运价走弱】SHMET10月26日讯，据外媒报道，波罗的海干散货运价指数（BDI）下跌，受海岬型和巴拿马型船运价走弱拖累。波罗的海干散货运价指数（BDI）较前一交易日下跌32点，或1.19%，报2628点，为近一周最低水平。海岬型船运价指数（BCI）下跌65点，跌幅1.71%，至3726点，创近一周低点。海岬型船日均获利下降585美元，至30292美元。巴拿马型船运价指数（BPI）下跌34点，或1.61%，至2075点，为7月30日以来最低水平。巴拿马型船日均获利下跌309美元，至18672美元。超灵便型散货船运价指数（BSI）上涨1点或0.05%，报1888点。灵便型船运价指数（BHSI）持平，报1020点。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:21:07",
-      "content": "【快讯】SHMET10月26日讯，美国10月达拉斯联储商业活动指数将于十分钟后公布。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:18:15",
-      "content": "【快讯】SHMET10月26日讯，英国20年期国债收益率跌至9月23日以来最低，当日下跌6个基点至5.678%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:17:55",
-      "content": "【快讯】SHMET10月26日讯，墨西哥总统辛鲍姆支持选举机构负责人辞职。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:16:21",
-      "content": "【快讯】SHMET10月26日讯，在巴西宣布回购计划后，巴西掉期利率涨势有所缓和。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:15:35",
-      "content": "【快讯】SHMET10月26日讯，巴西宣布招标，拟购入1500万份本币固定利率票据。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:14:59",
-      "content": "【湖南：到2030年 城市生活垃圾资源化利用率将力争达到76%以上】SHMET10月26日讯，据湖南省发改委消息，《湖南省“十五五”循环经济发展规划》已于近日发布。其中明确，到2030年，湖南覆盖生产、消费、回收、利用全链条的现代化循环经济体系将更加完善，资源循环利用产业产值达到4000亿元。城市生活垃圾分类实现全覆盖，城市生活垃圾资源化利用率力争达到76%以上。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:13:34",
-      "content": "【快讯】SHMET10月26日讯，据报道，伊朗准备支持任何有助于地区团结的“谅解”。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:10:05",
-      "content": "【快讯】SHMET10月26日讯，阿根廷股市跟随巴西股市下跌，基准股指跌约6%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:03:04",
-      "content": "【快讯】SHMET10月26日讯，墨西哥总统辛鲍姆将于墨西哥城时间中午12点（北京时间27日凌晨2点）与巴西总统卢拉通话。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:00:58",
-      "content": "【诺里尔斯克镍业闪速熔炼大修影响2027-2028年产量】SHMET10月26日讯，10月26日，诺里尔斯克镍业公司（Nornickel）表示，2027年将开始对其Nadezhda工厂镍生产链中的一座关键闪速熔炼装置进行为期九个月的大修。公司预计，此次大修将影响其在2027年、可能还有2028年的主要金属产量。（文华财经）",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:00:58",
-      "content": "【诺里尔斯克镍业三季度钯产量73.6万盎司 环比增25%】SHMET10月26日讯，10月26日，诺里尔斯克镍业公司（Nornickel）公布，2026年第三季度钯产量季环比增长25%至73.6万盎司；前九个月钯产量同比下降4%至193.4万盎司。公司确认2026年钯产量预测为241.5-246.5万盎司，并预计钯产量将达到年度预测区间顶端。（文华财经）",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:00:58",
-      "content": "【诺里尔斯克镍业三季度铜产量12.7万吨 环比增4%】SHMET10月26日讯，10月26日，诺里尔斯克镍业公司（Nornickel）公布，2026年第三季度铜产量（含来自Bystrinsky GOK综合设施的产量）增长4%至12.7万吨；前九个月铜产量基本持平于36.7万吨。公司确认2026年铜产量预测为33.6-35.6万吨（不含Bystrinsky GOK产量），并预计铜产量将达到年度预测区间顶端。（文华财经）",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:00:58",
-      "content": "【诺里尔斯克镍业三季度镍产量6.1万吨 环比增41%】SHMET10月26日讯，10月26日，俄罗斯诺里尔斯克镍业公司（Nornickel）公布，2026年第三季度镍产量总计6.1万公吨，较前一季度增长41%；今年前九个月镍产量增长4%至146,131吨。公司确认2026年镍产量预测为19.3-20.3万吨。（文华财经）",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:00:06",
-      "content": "【快讯】SHMET10月26日讯，现货白银跌破53美元/盎司，日内下跌1.63%，创2025年11月以来新低。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:58:01",
-      "content": "【中铝国际(02068)中标越南平福矿业股份有限公司年产240万吨氧化铝项目】SHMET10月26日讯，中铝国际(02068)发布公告，2026年10月23日，中铝国际工程股份有限公司(以下简称公司)中标越南平福矿业股份有限公司年产240万吨氧化铝项目。合同总价：8.33亿美元，折合人民币约55.95亿元，最终合同价格以双方签署的EPC合同约定为准。\n若该项目合同正式签订并顺利实施，则有利于扩大公司经营规模，对公司当期及未来年度业绩产生积极影响，有利于提升公司的持续盈利能力，但影响公司财务指标的具体金额目前尚无法测算。\n公司尚未与相关单位签署合同，项目总金额、具体实施内容等均以正式合同为准。本次公告的中标项目位于境外，后续实施过程中可能面临项目当地政治环境变化、法律法规调整、外汇管制、自然环境、社会及经济环境变化等海外经营风险。公司将根据项目进展情况及时履行信息披露义务，敬请广大投资者谨慎决策，注意投资风险。（智通财经网）",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:58:01",
-      "content": "【IAI：9月全球氧化铝产量为1319.4万吨】外电10月25日消息，国际铝业协会(IAI)公布的数据显示，2026年9月全球氧化铝产量为1319.4万吨，日均产量为43.98万吨，8月氧化铝产量为1,317.8万吨。其中，中国2026年9月氧化铝预估产量为807万吨，8月为801万吨。（上海金属网编译）",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:57:36",
-      "content": "【快讯】SHMET10月26日讯，美股上市的巴西公司跌幅有所收窄。巴西石油公司下跌15.8%，伊塔乌联合银行下跌20.5%，布拉德斯科银行下跌28.6%，巴西航空工业公司下跌4.8%，Nu Holdings下跌20.4%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:56:48",
-      "content": "【快讯】SHMET10月26日讯，现货白银跌超1%，现报53.21美元/盎司。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:53:46",
-      "content": "【快讯】SHMET10月26日讯，巴西银行(Banco do Brasil)股价下跌约31%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:52:54",
-      "content": "【中金公司：新增A股股份31.04亿股】SHMET10月26日讯，中金公司(601995.SH)公告称，公司换股吸收合并东兴证券、信达证券新增A股股份31.04亿股，其中11.36亿股于10月29日上市流通。中金公司、东兴证券、信达证券将自本次吸收合并交割日（即2026年10月26日）起，分批次将东兴证券、信达证券的客户及业务迁移并入存续公司，具体客户及业务迁移合并安排将另行通知公告。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:50:41",
-      "content": "【快讯】SHMET10月26日讯，法国CAC40指数日内涨幅达1.00%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:50:26",
-      "content": "【快讯】SHMET10月26日讯，卢拉胜选后，巴西Gerdau公司股价上涨11%；淡水河谷（Vale）股价上涨8.5%，Suzano股价上涨10%",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:50:12",
-      "content": "【快讯】SHMET10月26日讯，巴西小盘股指数跌30%，创历史最大跌幅。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:48:33",
-      "content": "【快讯】SHMET10月26日讯，据国际文传电讯社：俄罗斯方面正就黑海航运事宜与土耳其保持联系。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:48:30",
-      "content": "【快讯】SHMET10月26日讯，特斯拉股价上涨5.8%，为7月16日以来新高。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:47:38",
-      "content": "【快讯】SHMET10月26日讯，知情人士透露，沙特阿美即将与全球银行签署100亿美元贷款协议。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:42:54",
-      "content": "【格林美与印尼Dayabumi签约共建绿色能源项目】SHMET10月26日讯，近日，印度尼西亚Dayabumi集团与中国循环经济企业格林美在雅加达举行绿色能源基础建设合作签约仪式。格林美参与投资开发的印尼莫罗瓦利国际绿色工业园（IGIP零碳园区）、青美邦新能源材料有限公司分别与Dayabumi集团旗下Dayabumi Energy签署90兆瓦、40兆瓦光伏发电及储能项目开发协议。项目建成后，将以绿色电力支撑IGIP零碳园区与青美邦生产基地的用电需求。\n格林美董事长许开华表示，印尼政府正着力推进100GW可再生能源项目，此次签约是中印尼企业合作践行印尼国家战略的具体举措，双方将携手推动印尼电动化与新能源转型。印尼工商会馆中国委员会主席加里巴尔迪·托希尔表示，格林美已成为跨国企业在印尼投资的典范，并热心助力本地教育事业和可持续发展；当前全球地缘环境复杂，更应加强印尼与中国合作，共同发展。\n格林美主导建设的IGIP零碳园区规划面积1500公顷，以“全绿色设计、零碳运营”为目标，致力于建成全球领先的零碳镍资源产业园区。此次签约意味着IGIP园区零碳路径从“自己建”扩展到“与印尼伙伴共建”。同时，对于已投产运营4年的青美邦而言，绿色电力将成为未来降低运营成本的关键一环。（CBC金属网）",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:42:33",
-      "content": "【快讯】SHMET10月26日讯，巴西基准股指Bovespa在熔断后已恢复交易，多数股票仍处于集合竞价状态。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:42:21",
-      "content": "【快讯】SHMET10月26日讯，墨西哥总统辛鲍姆：我们对卢拉在巴西的胜利感到非常高兴。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:35:35",
-      "content": "【快讯】SHMET10月26日讯，标普500指数10月26日（周一）开盘上涨22.20点，涨幅0.29%，报7645.88点；纳斯达克综合指数10月26日（周一）开盘上涨49.25点，涨幅0.19%，报26004.59点；道琼斯指数10月26日（周一）开盘上涨209.20点，涨幅0.40%，报52424.36点。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:34:37",
-      "content": "【瑞芯微：第三季度净利润同比增长90% 环比下降10%】SHMET10月26日讯，瑞芯微(603893.SH)公告称，第三季度营业收入为15.73亿元，同比增长43.57%；归属于上市公司股东的净利润为4.73亿元，同比增长90.49%。前三季度实现营业收入44.49亿元，同比增长41.64%；归属于上市公司股东的净利润13.32亿元，同比增长70.90%。业绩增长主要系市场需求增长，芯片销售收入增加所致。展望未来几个季度，公司RK182X四季度实现产品放量，RK3572亦于四季度大规模出货，形成全新增量。小财注：公司Q3净利润4.73亿，Q2净利润5.3亿，据此计算，Q3净利润环比下降10%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:34:34",
-      "content": "【快讯】SHMET10月26日讯，巴西股票ETF(EWZ.N)暴跌26%，为历史最大跌幅。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:32:49",
-      "content": "【快讯】SHMET10月26日讯，巴西股票ETF（EWZ）盘初暴跌26%，创下卢拉胜选后最大跌幅。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:27:32",
-      "content": "【比特币跌至80000美元下方】SHMET10月26日讯，行情显示，比特币跌至79936.4美元，过去24小时内跌0.49%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:26:37",
-      "content": "【埃及议会批准向沙特派兵】SHMET10月26日讯，埃及议会今天（10月26日）通过授权总统塞西向沙特阿拉伯派遣军队的决议。据悉，埃及众议院召开会议，就塞西提出授权派遣军队防卫沙特的请求进行表决。这是继上周两次紧急会议未能达成一致意见后，就此事举行的第三次会议。 (CCTV国际时讯)",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:24:57",
-      "content": "【快讯】SHMET10月26日讯，Verizon(VZ.N)首席执行官：SpaceX(SPCX.O)网络租赁交易“没有益处”。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:21:27",
-      "content": "【快讯】SHMET10月26日讯，Verizon(VZ.N)首席执行官：SpaceX(SPCX.O)至少需要四到六年时间和数千亿美元才能建成移动网络。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:20:18",
-      "content": "【我国自主研制的全球最大热区规格热等静压设备的耐压试验监测完成阶段性工作】SHMET10月26日讯，据中国航空工业集团消息，近日，由四川航空工业川西机器有限责任公司（以下简称川西机器）自主研制的全球最大热区规格热等静压设备在贵州安顺顺利通过四川省特种设备检验研究院的耐压试验监测，完成阶段性工作。该设备热区直径2400毫米，热区高度3500毫米，试验压力达到205兆帕，升压、保压、卸压全过程数据完整、指标受控，耐压试验取得圆满成功。本次试验国内外无成熟工程经验可供借鉴。项目团队坚持全流程自主可控，完成专用高压试验平台方案论证、结构设计、加工制造及现场安装调试等工作，攻克超高压稳定加载、大容积介质增压、高压密封与安全防护、增卸压流程自动控制等一系列关键技术难题。 (科技日报)",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:13:19",
-      "content": "【私募总规模增至25.83万亿 连续12个月创新高】SHMET10月26日讯，中基协最新披露，截至9月末，私募存续总规模已达25.83万亿元，再度刷新历史纪录，已连续12个月攀升新高。去年10月至今年8月的月末存续规模依次为22.05万亿元、22.09万亿元、22.15万亿元、22.44万亿元、22.6万亿元、22.72万亿元、23.46万亿元、23.53万亿元、23.66万亿元、25.73万亿元、25.75万亿元。这期间，私募总规模累计扩容3.78万亿元，增幅为17.14%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:12:19",
-      "content": "【快讯】SHMET10月26日讯，据伊朗国家媒体：伊朗与麦加协议国家之间的会议在德黑兰开始。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:12:18",
-      "content": "【快讯】SHMET10月26日讯，标普全球市场财智数据显示，巴西5年期信贷违约掉期（CDS）从上周五收盘的120.21个基点飙升至151.67个基点。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:04:07",
-      "content": "【快讯】SHMET10月26日讯，据伊朗梅赫尔通讯社援引伊朗特使的消息报道，伊朗总统将与俄罗斯总统普京将举行双边会晤。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:02:27",
-      "content": "【快讯】SHMET10月26日讯，巴西股市因触发熔断机制而暂停交易。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:01:43",
-      "content": "【SHFE夜盘开盘_基本金属】沪铜主力开108500,沪铝主力开23440,沪铅主力开16160,沪锌主力开25900,沪锡主力开385800,沪镍主力开119000",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 21:00:56",
-      "content": "【快讯】SHMET10月26日讯，波罗的海干散货运价指数跌1.2%，报2628点。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 20:54:20",
-      "content": "【快讯】SHMET10月26日讯，法国10年期国债收益率日内一度下跌10.56个基点，至4.9158%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 20:53:39",
-      "content": "【美国中期选举将于11月3日举行】SHMET10月26日讯，美国中期选举将于11月3日举行，民主党和共和党将角逐国会众议院全部435个议席和参议院100个议席中的35个。此外，美国多个州将选举州长、州议员及部分地方官员。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 20:51:52",
-      "content": "【快讯】SHMET10月26日讯，据美国财经媒体Semafor：SpaceX(SPCX.O)在400亿美元信贷交易中债券定价最高达8.75%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 20:51:21",
-      "content": "【快讯】SHMET10月26日讯，巴西财政部取消原定于10月29日举行的固定利率政府债券拍卖。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 20:48:33",
-      "content": "【储能企业三季度海外订单占比超九成】SHMET10月26日讯，市场研究机构集邦光储观察近日发布数据显示，今年第三季度，中国储能企业已披露的储能系统签约规模约74吉瓦时，海外签约订单约67.8吉瓦时，占签约规模的93%，海外市场已成为中国储能企业拓展业务的重要增量。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 20:48:33",
-      "content": "【俄罗斯央行今年以来累计减持约62吨黄金储备】SHMET10月26日讯，数据显示，俄罗斯央行今年以来累计减持约62吨黄金储备，哈萨克斯坦计划年底前将黄金占储备总额比例降至75%。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
       "steel": false
     }
   ],
@@ -1883,14 +1163,6 @@
       "content": "【湖南：支持长株潭都市圈共建循环经济产业走廊】金十数据10月26日讯，《湖南省“十五五”循环经济发展规划》已于近日发布，其中提出，优化循环经济产业布局。持续推动汨罗高新技术产业开发区、永兴经济开发区等2个国家“城市矿产”示范基地、娄底经济技术开发区、安化经济开发区、常宁水口山经济开发区等国家大宗固废综合利用基地提质增效。支持长株潭都市圈共建循环经济产业走廊，推动长沙工程机械再制造、株洲轨道交通再制造、湘潭废钢铁加工配送跨市协同。",
       "important": 0,
       "source": "jin10",
-      "sentiment": "neutral",
-      "steel": true
-    },
-    {
-      "datetime": "2026-10-26 22:28:07",
-      "content": "【湖南：支持长株潭都市圈共建循环经济产业走廊】SHMET10月26日讯，《湖南省“十五五”循环经济发展规划》已于近日发布，其中提出，优化循环经济产业布局。持续推动汨罗高新技术产业开发区、永兴经济开发区等2个国家“城市矿产”示范基地、娄底经济技术开发区、安化经济开发区、常宁水口山经济开发区等国家大宗固废综合利用基地提质增效。支持长株潭都市圈共建循环经济产业走廊，推动长沙工程机械再制造、株洲轨道交通再制造、湘潭废钢铁加工配送跨市协同。",
-      "important": 0,
-      "source": "shmet",
       "sentiment": "neutral",
       "steel": true
     }
