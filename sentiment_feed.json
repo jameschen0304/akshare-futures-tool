@@ -1,1091 +1,1011 @@
 {
   "source": "jin10 flash + shmet + shfe weekly stock",
-  "generated_at": "2026-10-26T19:31:50.288179+00:00",
+  "generated_at": "2026-10-27T15:36:02.046793+00:00",
   "jin10": [
     {
-      "datetime": "2026-10-27 03:27:41",
-      "content": "据路透：消息人士称，美国与加拿大正致力于达成协议，以放宽美国对加拿大钢铁和汽车进口的关税。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": true
-    },
-    {
-      "datetime": "2026-10-27 03:25:55",
-      "content": "美国国务卿鲁比奥：（关于委内瑞拉）美国数周前告知委内瑞拉当局，应允许反对派领导人马查多“不受干扰”地返回。",
+      "datetime": "2026-10-27 23:34:37",
+      "content": "美国上诉法院裁定委内瑞拉国家石油公司（PDVSA）2020年债券有效，称无需国民议会事先批准。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-27 03:22:49",
-      "content": "美国国务院高级官员：（关于委内瑞拉问题）美国正与委内瑞拉临时当局合作，并利用影响力确保改革以适当步伐持续推进。",
+      "datetime": "2026-10-27 23:33:57",
+      "content": "俄罗斯总统助理乌沙科夫表示，与美国的对话正以工作模式持续进行。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-27 03:14:50",
-      "content": "美国国务院高级官员：（关于委内瑞拉问题）美国预计委内瑞拉将在年底前成立新的最高司法委员会，随后不久将成立新的选举委员会。",
+      "datetime": "2026-10-27 23:33:03",
+      "content": "乌克兰监察员：截至目前，乌克兰和俄罗斯均未报告奥列什基停火出现违反情况。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-27 03:14:45",
-      "content": "美国国务院高级官员：（关于委内瑞拉问题）美方认为，在举行选举之前，委内瑞拉需要重建选举基础设施。",
+      "datetime": "2026-10-27 23:32:39",
+      "content": "美国至10月27日6周国债竞拍-得标利率配置百分比 83.1%，前值78.53%。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-27 03:08:28",
-      "content": "美国高评级债券发行规模势将创下1.76万亿美元纪录。",
+      "datetime": "2026-10-27 23:32:18",
+      "content": "美国至10月27日6周国债竞拍-投标倍数 2.83，前值2.74。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-27 03:03:32",
-      "content": "澳洲航天初创公司MP Space首席执行官称，正为SpaceX(SPCX.O)星舰发射计划增配更多电池。",
+      "datetime": "2026-10-27 23:32:10",
+      "content": "美国至10月27日6周国债竞拍-得标利率 3.95%，前值3.98%。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-27 03:02:09",
-      "content": "恒指期货夜盘收跌0.01%，报23233点，高水21点。",
+      "datetime": "2026-10-27 23:31:49",
+      "content": "美国至10月27日1年期国债竞拍-得标利率配置百分比 65.33%，前值70.21%。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-27 03:01:13",
-      "content": "据路透调查：23位经济学家中有13位表示，新西兰联储官方现金利率到年底将维持在3.00%，但有9位预计12月将升至3.25%。",
+      "datetime": "2026-10-27 23:31:49",
+      "content": "美国至10月27日1年期国债竞拍-投标倍数 3.15，前值3.07。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-27 03:00:24",
-      "content": "据路透调查：27位经济学家中有22位预计，新西兰联储将于10月28日将现金利率上调25个基点至3.00%。",
+      "datetime": "2026-10-27 23:31:49",
+      "content": "美国至10月27日1年期国债竞拍-得标利率 4.29%，前值4.40%。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-27 02:58:20",
-      "content": "智利矿业部：Capstone Copper宣布在智利阿塔卡马地区投资30亿美元的计划。",
+      "datetime": "2026-10-27 23:31:03",
+      "content": "美国向Constellation提供50亿美元融资，以提升核能发电。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 23:30:25",
+      "content": "据国际文传电讯社：克里姆林宫表示，如有需要，俄罗斯总统普京与芬兰总统斯图布将再次通话。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-27 02:56:27",
-      "content": "【报道：伊朗官员称已做好准备 正等待以色列采取行动】金十数据10月27日讯，据伊朗媒体Fars News报道，伊朗一名安全官员表示，全世界都在震惊地注视着内塔尼亚胡公开其真实意图，甚至将摧毁伊朗作为竞选口号。伊朗必将以同等力度回应任何威胁。伊朗已做好充分准备，一旦遭到哪怕最轻微的攻击，也将以史无前例的速度和力度作出对等回应。该官员还警告以色列居民为可能发生的冲突做好准备。",
+      "datetime": "2026-10-27 23:27:12",
+      "content": "【分析师：美联储决议与英国预算案公布前，英镑兑美元或继续承压】金十数据10月27日讯，XS.com分析师Simon-Peter Massabni在一份报告中表示，在美联储利率决议和英国预算案于周三公布、市场对前景获得更明确判断之前，英镑兑美元可能继续承压。他表示，如果英国预算案能够增强市场对英国财政状况的信心，同时美联储对未来可能加息的表态没有预期中那么鹰派，英镑兑美元汇率的反弹前景将有所改善；反之，如果预算案令人失望，同时美联储释放鹰派信号，英镑的回调可能持续更长时间。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-27 02:54:30",
-      "content": "巴西财长：我们将上调明年的初级财政盈余预测。",
+      "datetime": "2026-10-27 23:24:16",
+      "content": "波音(BA.N)CEO：仍未获得美国联邦航空管理局（FAA）授权，无法完成777X试飞认证。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-27 02:54:16",
-      "content": "巴西财长：如有必要，央行也将干预外汇市场。",
+      "datetime": "2026-10-27 23:23:56",
+      "content": "金十数据10月27日讯，美国总统特朗普：消费者信心上升7.5%，这是一个非常大的增长。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 23:22:14",
+      "content": "【机构：英国预算案借款规模若超预期，或引发市场波动】金十数据10月27日讯，英国金融服务公司Aegon资产管理部门的斯蒂芬·琼斯表示，周三公布的英国预算案很可能不会带来意外，因为政府既缺乏财政空间，也没有足够的政治意愿推出大胆举措。“但当整个市场都做好了迎接一份平淡预算案的准备时，哪怕不大的意外，也足以在万圣节前吓市场一跳。”他说。近几周，随着市场对英国资产的看法转趋乐观，英国国债价格持续上涨。琼斯表示：“任何额外借款带来的尾部风险，并不在预算演讲本身，而是隐藏在财政运作的深层机制中。”他认为，如果英国政府额外增加约100亿英镑的融资供应，或许通过表外融资工具筹集资金，市场仍有能力消化；但如果英国国债发行量进一步增加300亿至400亿英镑，就很难再让市场轻松接受。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 23:19:50",
+      "content": "知情人士证实，SK海力士(SKHY.O)旗下美国子公司Solidigm正与美国商务部就450亿美元美国工厂事宜进行讨论。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 23:17:57",
+      "content": "现货白银日内涨幅扩大至1.00%，现报54.51美元/盎司。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-27 02:50:20",
-      "content": "巴西财长：我们将进行讨论，以审视国会预算拨款的规模、公共部门过高的薪资水平，以及特殊的养老金制度。",
+      "datetime": "2026-10-27 23:17:22",
+      "content": "微软(MSFT.O)人工智能部门推出MAI图像2.7预览版。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-27 02:48:36",
-      "content": "巴西财长：政府今年将提交提案，力争使财政目标落在区间中值。",
+      "datetime": "2026-10-27 23:14:39",
+      "content": "乌克兰外长：和平努力需要新动力。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-27 02:44:45",
-      "content": "布伦特原油期货结算价为每桶115.81美元，下跌91美分，跌幅0.78%。",
+      "datetime": "2026-10-27 23:10:01",
+      "content": "波音(BA.N)高管：首架737-10已从埃弗雷特新生产线下线。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 23:09:13",
+      "content": "国内新闻\n1. 如何看待中东海湾地区局势持续紧张？外交部：中方高度关注。\n2. 国家统计局：1—9月份，全国规模以上工业企业实现利润总额60337.4亿元，同比增长15.5%。\n3. 外交部回应外媒称欧盟计划减少从中国进口相关产品：希望欧方尊重市场经济和公平竞争原则。\n国际新闻\n1. 韩国外长：韩美就战时作战指挥权移交逐步达成共识。\n2. 俄方称大规模打击乌军工企业和交通物流设施。\n3. 消息人士称，欧佩克+将在周日会议上维持石油产量目标不变。\n4. 泽连斯基：已与芬兰及挪威领导人通话，正筹备11月美俄乌三方会议。\n5. 俄罗斯总统普京：俄罗斯正在考虑与美国合作伙伴在北极开展合作。俄罗斯对天然气领域合作持开放态度。我们需要考虑结束持续冲突并解除制裁的事情。\n6. 据悉Meta 250亿美元股票发行获约5倍超额认购。\n7. 中东局势",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 23:08:58",
+      "content": "波兰能源部长预计石油库存释放时间表将在11月底前准备就绪。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 23:07:27",
+      "content": "波音(BA.N)跌幅扩大至10%，公司下调全年交付目标。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 23:07:24",
+      "content": "金十期货10月27日讯，据外媒报道，波罗的海干散货运价指数（BDI）下跌，因所有船型板块的运价均出现下降。波罗的海干散货运价指数（BDI）较前一交易日下跌25点，或0.94%，报2603点，为10月20日以来的最低水平。海岬型船运价指数（BCI）下跌24点，跌幅0.64%，至3702点，创近一周新低。海岬型船日均获利下降220美元，至30072美元。巴拿马型船运价指数（BPI）下跌54点，或2.60%，至2021点，为7月29日以来最低水平。巴拿马型船日均获利下跌479美元，至18193美元。超灵便型散货船运价指数（BSI）下跌5点，跌幅0.26%，至1883点。灵便型船运价指数（BHSI）持平，报1020点。",
       "important": 0,
       "source": "jin10",
       "sentiment": "bear",
       "steel": false
     },
     {
-      "datetime": "2026-10-27 02:39:10",
-      "content": "苹果(AAPL.O)：Siri人工智能功能目前在欧盟不可用；正与欧盟合作推进后续解决方案。",
+      "datetime": "2026-10-27 23:05:51",
+      "content": "乌克兰外长：芬兰、挪威领导人致电俄罗斯总统普京是与基辅协调进行的。奥列什基停火可能成为和平谈判中的“建立信任措施”。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-27 02:38:57",
-      "content": "苹果(AAPL.O)：Siri人工智能服务正面向全球更多用户扩展，将支持法语、日语、韩语、葡萄牙语和西班牙语。",
+      "datetime": "2026-10-27 23:04:30",
+      "content": "匈牙利表示，外长欧尔班与美国国务卿鲁比奥的会晤被推迟。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-27 02:37:56",
-      "content": "美国联邦住房金融局局长普尔特：使用现代信用评分的市场参与者有助于降低风险，并增强安全性和稳健性。",
+      "datetime": "2026-10-27 23:04:13",
+      "content": "波音(BA.N)预计2027年将交付约10至15架777X飞机。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-27 02:31:34",
-      "content": "【夜盘主力合约收盘】金十数据10月27日讯，截至2:30收盘，沪金主力合约收涨0.40%，报865元/克，沪银主力合约收涨0.31%，报13091元/千克，SC原油主力合约收跌0.87%，报733元/桶。",
+      "datetime": "2026-10-27 23:03:51",
+      "content": "现货黄金日内涨超1.00%，现报4056.94美元/盎司。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-27 02:31:30",
-      "content": "美国原油期货结算价为每桶101.76美元，下跌1.51美元，跌幅1.46%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 02:30:32",
-      "content": "上海黄金交易所黄金T+D 10月26日（周一）晚盘收盘上涨0.51%报864.53元/克；\n上海黄金交易所白银T+D 10月26日（周一）晚盘收盘上涨0.3%报13056.0元/千克。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 02:29:35",
-      "content": "惠誉评级：美国更广泛的价格压力加大通胀持续性风险。",
+      "datetime": "2026-10-27 23:03:27",
+      "content": "据TechCrunch：Meta Platforms(META.O)人工智能总监罗希特·帕特尔（Rohit Patel）离职，将转投与微软(MSFT.O)Office和谷歌(GOOG.O)Workspace竞争的领域。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-27 02:22:08",
-      "content": "市场消息：伊朗总统抵达俄罗斯莫斯科。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 02:16:47",
-      "content": "【OpenAI推出GPT-6.1 Terra 电脑操作速度提升逾3倍 API价格降低50%】金十数据10月27日讯，OpenAI推出GPT-6.1 Terra，重点提升电脑操作、视觉理解和编程能力，可帮助用户撰写提案、看懂技术图纸、填写表格及编辑视频。与上一代相比，该模型完成电脑操作任务的速度提升逾3倍，API价格降低50%。API收费为每百万输入词元1美元、缓存输入词元0.05美元、输出词元5美元。性能方面，内部测试显示，低推理档位的错误率从53.6%降至16.7%；最高推理档位的错误率降至4.3%，较上一代下降18个百分点。编程测试中，最高推理档位得分从上一代公布的21.5%升至50.3%。新模型已向ChatGPTWork和Codex的Plus、Pro、Enterprise及Edu用户开放，并通过API提供。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 02:14:54",
-      "content": "利比亚交通部：对利比亚领空使用的限制和警告已解除。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 02:09:33",
-      "content": "委内瑞拉临时总统罗德里格斯：在反对派领导人返回后，希望对话能为所有声音提供空间。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 02:08:38",
-      "content": "OpenAI：GPT-6.1 Terra现已开始推出，面向所有Plus、Pro、Enterprise和Edu用户开放，可在ChatGPT Work和Codex中使用。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 02:07:25",
-      "content": "伊朗最高国家安全委员会秘书雷扎伊：各方强调，以色列必须撤出黎巴嫩南部、叙利亚南部、加沙地带和约旦河西岸，并停止侵略行为。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 02:07:13",
-      "content": "伊朗最高国家安全委员会秘书雷扎伊：各方已达成共识，西亚安全必须依靠地区国家自身力量，并防止任何外部干预。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 02:06:54",
-      "content": "伊朗最高国家安全委员会秘书雷扎伊：地区合作早就应该启动，土耳其、巴基斯坦和沙特阿拉伯高级官员的到访表明，美国的威胁对世界各国并未产生太大影响。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 02:04:47",
-      "content": "据Axios：美国联邦贸易委员会（FTC）要求Anthropic高管就一项调查出庭作证。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 02:04:20",
-      "content": "据CNBC：Skydance(SKYD.N)向员工提供自愿离职买断方案，并推行每周五天到岗办公政策。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 02:00:56",
-      "content": "Anthropic：正在向非营利组织拓展Claude，并已推出“Claude for Nonprofits”插件。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 02:00:27",
-      "content": "以色列国防军：以色列国防军在加沙地带北部、南部和中部发动多次空袭，击毙了三名哈马斯和伊斯兰圣战组织军事分支的恐怖分子。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 01:54:45",
-      "content": "【多个支持博索纳罗的巴西政党承认卢拉胜选】金十数据10月27日讯，巴西媒体26日报道，此前在巴西总统选举中支持自由党候选人、前总统雅伊尔·博索纳罗之子弗拉维奥·博索纳罗的多个右翼和中右翼政党25日已宣布承认劳工党候选人、现任总统卢拉胜选，并表示不支持自由党废除选举结果、重新选举。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 01:46:08",
-      "content": "马斯克：星链移动网络建设将耗时2至3年。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 01:37:00",
-      "content": "英国海上贸易行动办公室：截至报告时，船员状况、损害评估及环境影响均未知。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 01:35:56",
-      "content": "IBM(IBM.N)与英伟达(NVDA.O)将AI智能体身份与运行时访问控制相绑定。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 01:33:55",
-      "content": "英国海上贸易行动办公室：接获多起报告，称伊拉克附近海域有一艘船只起火。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 01:31:31",
-      "content": "OpenAI发布ChatGPT Work在100个国家的活动数据。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 01:30:46",
-      "content": "【苹果承认少数iPhone Duo存在内屏问题 称多数设备不受影响】金十数据10月27日讯，苹果(AAPL.O)表示，已注意到少数iPhoneDuo设备出现内屏故障，并称受影响设备通常会在较短时间内显现问题，但大多数设备不受影响。此前有多方媒体报道称用户展开手机时听到类似碎裂的声音，铰链附近有凸起或松动感，随后内屏出现裂纹，部分设备还出现白斑或异常亮线。维修平台iFixit认为，问题可能源于铰链内部零件失效并挤裂屏幕。目前，苹果已展开调查，部分工程师正尝试获取故障设备进行分析；部分用户已获换机，但也有人因门店缺货或预约困难而等待处理。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 01:24:32",
-      "content": "SpaceX(SPCX.O)：目标定于当地时间11月1日周日用猎鹰9号发射USSF-432任务。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 01:24:02",
-      "content": "据Axios：以色列“Yashar”党领导人加迪·埃森科特正成为总理内塔尼亚胡近年来最有力的竞争者。选前多数民调显示，埃森科特领先内塔尼亚胡8至10个百分点，且在不同选民群体中拥有较高好感度。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 01:23:19",
-      "content": "康菲石油(COP.N)发言人：不透露具体员工人数。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 01:22:59",
-      "content": "康菲石油(COP.N)发言人：已通知员工，包括员工和承包商在内的加拿大劳动力缩减将于周二进行。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 01:18:54",
-      "content": "【伊朗与沙特、土耳其、巴基斯坦同意未来继续举行会谈】金十数据10月27日讯，当地时间26日晚，伊朗与沙特、土耳其、巴基斯坦在伊朗首都德黑兰举行了关于区域安全与稳定的四方会议。会后，各方同意未来继续举行相关会谈，以加强四国在包括地区和平与安全等领域的合作。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 01:18:09",
-      "content": "胡塞武装：过去24小时内，沙特阿拉伯的战斗机进行了119次空袭和导弹攻击；自对我军升级行动开始以来，沙特的空袭和导弹攻击总数已达3298次。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 01:17:29",
-      "content": "美联储在固定利率逆回购操作中总计接纳了1个对手方的2亿美元。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 01:15:42",
-      "content": "加拿大财政部长：加拿大及其伙伴将于当地时间11月30日签署设立新国防与韧性银行的条款。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 01:09:29",
-      "content": "苹果(AAPL.O)：已知悉少数iPhone Duo出现的问题。该问题影响iPhone Duo的内屏。用户应联系AppleCare进行更换。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 01:04:51",
-      "content": "据泰晤士报：英国财政大臣希利将宣布计划把最低工资提高近4%，但放缓年轻人最低工资的涨幅。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 01:02:01",
-      "content": "美国至10月26日2年期国债竞拍-得标利率配置百分比 80.83%，前值33.42%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 01:02:01",
-      "content": "美国至10月26日2年期国债竞拍-投标倍数 2.59，前值2.63。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 01:02:01",
-      "content": "美国至10月26日2年期国债竞拍-得标利率 4.708%，前值4.79%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 00:56:11",
-      "content": "据日经新闻：日本AI初创公司Sakana AI宣布，将从零开始训练自主研发的大模型。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 00:53:15",
-      "content": "欧盟外交与安全政策高级代表卡拉斯：伊朗和美国之间存在局势再次升级的严重风险。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 00:51:23",
-      "content": "欧盟外交与安全政策高级代表卡拉斯：正在酝酿对俄罗斯实施更多制裁。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 00:51:00",
-      "content": "市场消息：苹果(AAPL.O)iPhone Duo遭遇早期用户投诉，称其屏幕出现开裂。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 00:50:12",
-      "content": "也门政府军：过去24小时在各条战线上对胡塞武装实施1276次打击，目标包括指挥中心、防御阵地、火力基地、军事增援、运输补给设施及武器弹药库。行动共造成约382名胡塞武装指挥官及人员失去战斗力，摧毁或瘫痪140辆车辆、汽车及重型武器，并摧毁若干武器弹药库。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 00:46:27",
-      "content": "金十图示：2026年10月27日（周二）全球股市指数-欧洲市场",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 00:45:23",
-      "content": "微软(MSFT.O)：全球约6万名员工符合自愿买断条件。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 00:44:46",
-      "content": "德国DAX30指数10月26日（周一）收盘上涨227.23点，涨幅0.90%，报25408.88点；\n英国富时100指数10月26日（周一）收盘上涨73.78点，涨幅0.69%，报10764.14点；\n法国CAC40指数10月26日（周一）收盘上涨64.50点，涨幅0.83%，报7847.32点；\n欧洲斯托克50指数10月26日（周一）收盘上涨44.83点，涨幅0.74%，报6113.05点；\n西班牙IBEX35指数10月26日（周一）收盘上涨34.48点，涨幅0.18%，报19024.28点；\n意大利富时MIB指数10月26日（周一）收盘上涨616.64点，涨幅1.27%，报49175.50点。",
+      "datetime": "2026-10-27 23:03:08",
+      "content": "【渣打：美股与美债收益率齐升利好风险敏感型货币】金十数据10月27日讯，渣打银行策略师在一份报告中表示，过去30年来，对风险敏感型货币最有利的市场环境，是美国股市上涨与美债收益率走高同时出现。策略师指出，经济复苏初期，收益率往往较低，这反映出货币政策宽松以及信贷需求不足。随着市场对经济增长前景的乐观情绪升温，这种变化通常也会体现在股市、债券收益率以及与风险情绪正相关的货币上，包括加元、澳元、挪威克朗、墨西哥比索和新西兰元。策略师表示：“如果收益率上升反映的是风险溢价提高或通胀风险加剧，那么这种关联可能就不再那么可靠。”",
       "important": 0,
       "source": "jin10",
       "sentiment": "bull",
       "steel": false
     },
     {
-      "datetime": "2026-10-27 00:38:00",
-      "content": "微软(MSFT.O)：（关于Teams问题）服务已恢复正常水平。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 00:37:11",
-      "content": "乌克兰总统泽连斯基：与摩尔多瓦总理会面，讨论基础设施项目、欧洲一体化及安全合作。乌克兰与摩尔多瓦签署军事合作协议。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 00:32:15",
-      "content": "金十图示：2026年10月26日（周一）美股热门股票行情一览（美股盘中）",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 00:32:00",
-      "content": "金十图示：2026年10月26日（周一）热门中概股行情一览（美股盘中）",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 00:30:20",
-      "content": "德国国防部长：我们正与乌克兰共同为其打造一套新型防空系统。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 00:25:25",
-      "content": "法国国防部长：我们支持乌克兰的决心不会停止。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 00:24:33",
-      "content": "奥迪发言人：代表团访问佐治亚州，以推进有关计划建厂的谈判，在这些讨论中，我们被要求在特朗普总统同场的情况下公开介绍我们的计划。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 00:24:15",
-      "content": "【德国总统抵达安徽开启访华行程】金十数据10月27日讯，应国家主席习近平邀请，德国总统施泰因迈尔于10月27日至31日对中国进行国事访问。今天（27日）凌晨，施泰因迈尔总统乘机抵达合肥新桥国际机场，开启访华行程，这是他时隔近8年再次访华。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 00:22:44",
-      "content": "市场消息：康菲石油(COP.N)计划于周二在加拿大裁员。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 00:20:37",
-      "content": "奥迪发言人：出席美国佐治亚州活动的决定是在审慎考虑后作出的，完全符合公司的最佳利益。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 00:19:49",
-      "content": "奥迪发言人：政治中立是奥迪的一项重要原则，我们始终恪守这一原则。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 00:18:09",
-      "content": "美国财长贝森特：特朗普总统的税收、贸易和监管政策正在为企业在美国建厂、投资和招聘扫清障碍。今年以来，我们已新增7.2万个制造业就业岗位，而拜登任期最后两年则流失了逾20万个。蓝领制造业工人的收入也在增加：自特朗普总统上任以来，经通胀调整后的周薪上涨了3.5%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 00:17:38",
-      "content": "【我国拟新增34家领航级智能工厂】金十数据10月27日讯，工业和信息化部26日发布通知，公示拟入选2026年度领航级智能工厂项目培育名单。小米汽车科技有限公司的AI驱动的敏捷制造高端新能源汽车超级智能工厂等34家工厂名列其中。智能工厂是智能制造的主要载体，是制造业数字化转型、智能化升级的主战场。当前，我国分基础级、先进级、卓越级和领航级四个层级开展智能工厂梯度培育。其中，领航级智能工厂探索未来制造模式，实现智能化变革引领，打造全球领先的发展标杆。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 00:15:45",
-      "content": "据路透调查：31位分析师中有13位认为，哥伦比亚央行将在10月维持利率在12.25%不变。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 00:15:38",
-      "content": "据路透调查：31位分析师中有17位认为，哥伦比亚央行将在10月加息25个基点至12.50%；一位分析师预计将加息75个基点至13%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 00:15:27",
-      "content": "据路透调查：哥伦比亚利率将在2026年底达到12.50%，2027年底达到11%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 00:15:18",
-      "content": "土耳其总统埃尔多安：那些试图将土耳其排除在东地中海之外的人必须尊重土耳其和利比亚的意愿。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 00:15:10",
-      "content": "美国财政部：美国制造业连续九个月扩张，2026年截至9月新增72,000个制造业岗位。特朗普总统的经济议程正在重建美国的工业基础。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 00:14:24",
-      "content": "土耳其总统埃尔多安：土耳其无意在东地中海问题上与任何一方争强斗胜。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 00:11:47",
-      "content": "【俄乌今天在阿列什基停火】金十数据10月27日讯，俄乌日前达成在赫尔松地区阿列什基停火。按照安排，这一停火将从莫斯科时间今天（10月27日）凌晨4点、基辅时间凌晨3点，也就是北京时间上午9点开始生效，届时将开通人道走廊，运入援助物资并疏散当地居民。俄罗斯总统新闻秘书佩斯科夫10月26日表示，阿列什基的临时停火可以为未来“树立一个先例”。对于预计将于11月举行的俄美乌三方会谈，佩斯科夫强调，恢复三方会谈“并不限制俄乌双方敌对行动”，俄武装部队将继续打击乌方目标。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 00:10:24",
-      "content": "土耳其总统埃尔多安：欧盟及其他方面对利比亚海上协议获批的反应没有合法依据。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 00:08:54",
-      "content": "美国联邦住房金融局局长普尔特：我们绝不允许滥用垄断地位的企业在抵押贷款市场的任何领域损害消费者利益。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 00:04:45",
-      "content": "俄罗斯北方钢铁公司（Severstal）表示，别尔哥罗德州一座采矿和选矿厂在无人机袭击后部分断电，矿工已撤离。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": true
-    },
-    {
-      "datetime": "2026-10-27 00:01:05",
-      "content": "美国联邦住房金融局局长普尔特：承诺就抵押贷款成本采取更多行动。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-27 00:00:00",
-      "content": "【今日重点关注的财经数据与事件：2026年10月27日 周二】\n① 待定 以色列举行大选\n② 20:15 美国至10月10日当周ADP就业人数周度变动\n③ 20:30 美国9月耐用品订单月率\n④ 21:00 美国8月FHFA房价指数月率\n⑤ 21:00 美国8月S&P/CS20座大城市房价指数年率\n⑥ 22:00 美国9月新屋销售总数年化\n⑦ 22:00 美国10月谘商会消费者信心指数\n⑧ 22:00 美国10月里奇蒙德联储制造业指数\n⑨ 次日04:30 美国至10月23日当周API原油库存",
+      "datetime": "2026-10-27 23:01:35",
+      "content": "俄罗斯外长拉夫罗夫：芬兰和挪威领导人在与俄罗斯总统普京的交谈中，就乌克兰问题未提出任何新内容；欧洲只是希望介入谈判进程。乌克兰冲突将持续，且可能升级。",
       "important": 1,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-26 23:56:45",
-      "content": "布伦特原油转涨，突破112美元/桶。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:48:37",
-      "content": "据伊朗伊斯兰共和国广播电视台（IRIB）：伊朗、土耳其、巴基斯坦、沙特同意继续会谈，四方同意加强合作。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:44:36",
-      "content": "微软(MSFT.O)：自愿离职补偿方案将面向加拿大、印度、英国和美国参与团队中职级70及以下符合条件的员工。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:44:02",
-      "content": "微软(MSFT.O)：我们正在调查Microsoft Teams的一个潜在问题，该问题影响美国部分用户。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:41:51",
-      "content": "【微软拟向6万名员工提供自愿离职补偿方案】金十数据10月26日讯，据《Business Insider》报道，微软首席人事官艾米·科尔曼周一在发给员工的一份备忘录中表示，公司正在提供自愿离职补偿方案。科尔曼写道：“自愿离职方案体现了我们调整应对变化方式的一项重要举措：提高灵活性，并在条件允许的情况下，为员工提供更多自主规划下一阶段职业生涯的选择。”这项自愿离职方案是微软在避免再次强制裁员的情况下精简员工队伍的最新尝试。今年，微软在大举投入人工智能基础设施的同时削减了员工人数。如今，公司向仍在职的员工提供离职机会，以观察自愿离职能否进一步降低成本。微软一名发言人表示，约6万名员工有资格参与此次方案，相关条款将与微软标准的离职补偿方案相近。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:38:28",
-      "content": "【沙特面临胡塞武装威胁，经济担忧从石油转向非油产业】金十数据10月26日讯，伊朗战争爆发初期，沙特阿拉伯的石油产业成功抵御了各种担忧。但如今，随着胡塞武装对沙特发动致命袭击，经济活动受扰的迹象不断增加，市场的担忧已转向该国的其他经济领域。数周来，胡塞武装断断续续发动袭击，已造成数十人死亡，限制了利雅得的航空出行，导致一些标志性活动推迟，并实际上迫使利雅得金融区陷入停摆。沙特股市大幅下挫，目前已成为本月全球新兴市场中表现最差的市场之一。经济学家表示，目前量化这些袭击造成的影响还为时过早。但多数人认为，即使全球油价上涨带来可观的能源出口收入，也难以抵消这场更大范围的战争对非石油经济造成的冲击。非石油经济正是王储穆罕默德·本·萨勒曼推动经济转型计划的核心，该计划旨在将规模约1.4万亿美元的沙特经济打造为涵盖旅游业、外国直接投资等多个领域的中心。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:34:30",
-      "content": "法拉第未来：FF EAI机器人生态系统（FFR）已完成对法拉第未来机器人业务的收购，并建立一个在纳斯达克交易的人形与仿生机器人平台（代码FFR）。FFR预计10月机器人销量及出货量将超过300台。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:31:54",
-      "content": "美国至10月26日3个月国债竞拍-得标利率配置百分比 82.29%，前值29.44%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:31:54",
-      "content": "美国至10月26日3个月国债竞拍-投标倍数 3.07，前值2.77。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:31:54",
-      "content": "美国至10月26日3个月国债竞拍-得标利率 4.05%，前值4.10%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:31:54",
-      "content": "美国至10月26日6个月国债竞拍-得标利率配置百分比 61.74%，前值86.09%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:31:54",
-      "content": "美国至10月26日6个月国债竞拍-投标倍数 2.63，前值2.84。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:31:54",
-      "content": "美国至10月26日6个月国债竞拍-得标利率 4.21%，前值4.22%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:30:37",
-      "content": "市场消息：微软(MSFT.O)将在最新一轮成本削减中向6万名员工提供买断方案。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:30:10",
-      "content": "奥迪发言人否认有关首席执行官与特朗普同台亮相的想法来自奥迪。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:29:54",
-      "content": "美元兑日元USD/JPY日内涨超0.50%，现报157.61。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:26:41",
-      "content": "沙特领导的联军表示，在利雅得和南部地区拦截并摧毁了三架无人机。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:23:01",
-      "content": "【日本将投入6.4亿美元补贴，支持钙钛矿太阳能电池量产】金十数据10月26日讯，据日经新闻报道，日本计划在未来四年提供约1000亿日元（约合6.36亿美元）补贴，支持下一代柔性钙钛矿太阳能电池的规模化生产，推动这一日本具有技术优势的领域实现商业化。日本经济产业省预计将很快选定理光（Ricoh）和长州产业（Choshu Industry）作为补贴对象。到2029财年，补贴总额预计将达到1000亿日元。两家公司自身的投资额也将至少达到同等规模。政府与企业的合计资金将用于建设量产设施。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:22:41",
-      "content": "据日经新闻：日本计划在4年内提供1000亿日元，支持下一代柔性钙钛矿太阳能电池的规模化量产。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:21:18",
-      "content": "礼来(LLY.N)宣布第四季度股息为每股1.73美元，与上期持平。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:20:50",
-      "content": "【美国战略石油储备原油库存续降至1982年以来最低水平】金十数据10月26日讯，美国能源部数据显示，上周美国战略石油储备中的原油库存降至2.826亿桶，为1982年10月以来的最低水平。近期的库存下降是美国一项协议的一部分，该协议要求从该储备设施释放1.72亿桶原油。此外，美国能源部上周表示，已批准从战略石油储备中紧急交换最多40万桶原油，以应对影响菲利普斯66位于路易斯安那州查尔斯湖炼油厂的供应中断。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:13:37",
-      "content": "据国能源部数据，美国战略石油储备原油库存上周降至2.826亿桶，为1982年以来最低水平。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:12:42",
-      "content": "埃及就位于上埃及基纳省（Qena Governorate）的丹达拉（Dandara）太阳能项目签署了初步融资条款，该项目投资额为6.5亿美元。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:11:20",
-      "content": "巴西雷亚尔收窄此前因卢拉胜选而造成的跌幅，目前兑美元下跌9.5%，报5.45雷亚尔兑1美元。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:10:06",
-      "content": "据伊朗伊斯兰共和国广播电视台（IRIB）：伊朗、沙特、土耳其和巴基斯坦四方会议结束。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:09:41",
-      "content": "法官裁定，特朗普政府解雇检察官莫琳·科米（Maurene Comey）的行为违法。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:09:16",
-      "content": "【工党议员警告：英国工业复兴目标恐难实现】金十数据10月26日讯，英国工党议员向英国首相伯纳姆发出警告，称英国重振工业的承诺恐怕难以兑现，因为现行政策与其表态并不相符，仍然更偏向服务业而非制造业。伯纳姆将重振工业列为一项核心优先事项，并表示希望振兴英国各地邮政编码区域的经济、创造就业岗位，而不仅仅是发展城市中心。然而，在财政大臣约翰·希利即将公布首份预算案的前几天，伯纳姆又承诺将在数周内公布英国未来十年发展计划。此时，工党议员对工业振兴工作进展缓慢、缺乏雄心表示不满，并警告称，政府部长们似乎尚未就投资城市服务业以外的行业形成共识。工党议员、工党再工业化研究小组主席安迪·麦克纳指出，英国长期以来存在一种经济正统观念，即固守“服务型经济”模式，并倾向于通过廉价进口商品来满足需求。他补充说，创造制造业就业岗位广受欢迎，但政府内部的关注点仍集中在“主要由城市贡献的GDP增长”上。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:05:29",
-      "content": "Anthropic提交IPO申请后，AI相关股票上涨，英伟达(NVDA.O)上涨3.1%，微软(MSFT.O)涨1.1%，亚马逊(AMZN.O)上涨1%，博通(AVGO.O)上涨2.8%，美光科技(MU.O)上涨3.5%，SpaceX(SPCX.O)上涨1.4%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:03:44",
-      "content": "美国财政部将于周二回购至多60亿美元较长期限债券。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:02:54",
-      "content": "美股延续涨势，标普500指数涨幅扩大至1%，纳指涨1.3%。费城半导体指数涨3%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:01:25",
-      "content": "过去日元反弹，总能找到日本和美国的影子，但这次不一样！同一天，美债涨了，黄金大跌，美元也没占到便宜，弱了大半年的日元，这次为何突然被选中？推动它的力量究竟是什么？",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 23:01:09",
-      "content": "截至23:00收盘，国内期货主力合约跌多涨少，烧碱跌超4%，棕榈油跌近3%，豆油跌超2%，聚氯乙烯（PVC）、棉花、焦煤、白糖、苯乙烯（EB）跌近2%。涨幅方面，沥青涨超3%，液化石油气（LPG）涨超2%，甲醇、丙烯、聚丙烯涨超1%，聚丙烯月均涨近1%。",
+      "datetime": "2026-10-27 23:00:55",
+      "content": "截至23:00收盘，国内期货主力合约跌多涨少，燃料油跌近2%，纯苯、低硫燃料油（LU）、PTA、胶版纸、苯乙烯（EB）、对二甲苯跌超1%。涨幅方面，焦煤涨超3%，焦炭、纯碱涨超2%，玻璃涨近2%，聚氯乙烯（PVC）、乙二醇（EG）涨超1%，聚丙烯月均、菜粕涨近1%。",
       "important": 1,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": true
     },
     {
-      "datetime": "2026-10-26 23:00:47",
-      "content": "克里姆林宫：俄罗斯总统普京将于周二在莫斯科与伊朗总统佩泽希齐扬及卡塔尔埃米尔举行会晤。",
+      "datetime": "2026-10-27 23:00:24",
+      "content": "19次中期选举，18次上涨，唯一一次失败发生在1994年，那年的加息周期还没走完。 今年9月，美联储也刚加了息，这次会不一样吗？94.7%的胜率，究竟是参考还是陷阱？",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:59:16",
+      "content": "波音(BA.N)预计777货机和767加油机项目将产生一些“异常”成本。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-26 23:00:32",
-      "content": "巴西石油公司CEO：卢拉选举获胜后出现的股价暴跌是“投机行为”，公司不受其左右。现在是买入公司股票的时候，公司稳健且拥有长期投资项目。",
+      "datetime": "2026-10-27 22:57:21",
+      "content": "特朗普祝贺加拿大的多尔克森在不列颠哥伦比亚省选举中胜选，祝贺普拉蒙东在魁北克省胜选。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:56:03",
+      "content": "【美国商品期货交易委员会拟将“交易者持仓报告”发布频率增至每周两次】金十数据10月27日讯，美国商品期货交易委员会（CFTC）正致力于在今年年底前，将备受市场关注的交易者持仓报告（COT）发布频率提高至每周两次。该报告目前于每周五发布，详细展示大宗商品市场的买卖情况，并区分对冲基金及其他资产管理机构与商业交易参与者。生产商依靠这份报告辅助制定套期保值决策，投机交易者则通过数据观察市场持仓变化，以及相关押注是否已过度集中。CFTC主席迈克尔·塞利格上周在堪萨斯州举行的农业商品期货会议上表示，提高报告发布频率的计划源于农业界的需求。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:55:42",
+      "content": "巴西央行行长Galipolo：央行将在看到外汇市场功能失调时采取行动。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:55:12",
+      "content": "航运巨头马士基：将对北欧地区所有内陆运输货物临时征收“紧急内陆燃料/能源附加费”，直至另行通知。电动卡车和铁路解决方案目前不受影响。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:54:09",
+      "content": "【波音三季度亏损超预期，股价下跌】金十数据10月27日讯，在公布第三季度财报后，波音(BA.N)盘中下跌9.2%，创18个月新低。波音第三季度亏损超出预期。供应链挑战及商用飞机部门的生产延误，抵消了公司其他业务部门利润率提升所带来的积极影响。波音首席执行官Kelly Ortberg表示，737机型月产量达到47架的目标，要到明年才能实现。波音第三季度调整后每股亏损34美分，高于分析师平均预期的每股亏损21美分。公司营收同比增长4%，达到241.9亿美元，高于分析师预期的238.4亿美元。计入本交易日的跌幅后，波音股价年初至今已累计下跌近20%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:53:53",
+      "content": "燃油主力合约日内跌幅达2.00%，现报5189.00元/吨。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:53:50",
+      "content": "通用汽车(GM.N)延续涨势，现涨6.2%，创九个月来最大涨幅。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:51:23",
+      "content": "据沙特通讯社：利雅得上空坠落的碎片造成损坏。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:50:43",
+      "content": "波音(BA.N)跌9.2%，创18个月新低。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:50:29",
+      "content": "波音(BA.N)CFO：预计777-9将于2027年年中前获得认证。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:47:35",
+      "content": "波兰国防部副部长：将在波兰设立“爱国者”PAC-3拦截弹维护中心。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:46:52",
+      "content": "阿根廷总统府：美国未要求修改马尔维纳斯群岛相关立法。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:46:51",
+      "content": "【欧洲化肥需求疲软，农作物产量面临下滑风险】金十数据10月27日讯，欧洲农民正在削减化肥采购，高企的价格持续抑制需求，可能危及农作物产量。价格报告机构ICIS的一项市场调查显示，目前欧洲氮肥采购量比这一季节通常应达到的水平低多达20%。部分估算显示，用于促进植物生长和根系发育的关键养分磷肥，需求降幅达到30%或以上。化肥需求疲软之际，欧洲今年的收成已受到影响，法国玉米单产更降至30多年来最低水平。与此同时，伊朗战争推高了包括肥料和柴油在内的农业生产投入成本。土壤湿度偏低已经威胁部分冬季作物的生长前景，化肥施用量减少可能进一步拉低明年农作物产量。未来几个月，随着采购窗口逐渐关闭，市场将密切关注养分需求变化。荷兰合作银行高级分析师Doriana Milenkova表示：“现在仍有时间弥补缺口。但随着春季施肥窗口临近，风险将不断上升，因为届时大量化肥必须在相对较短的时间内通过供应链完成运输。”",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:46:39",
+      "content": "穆迪：AI融资正推动私人信贷增长，再融资风险随之上升。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:46:02",
+      "content": "波音(BA.N)CEO：由于737机型稳定性问题导致延误，交付目标未能达成。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:45:50",
+      "content": "波音(BA.N)CEO：预计今年787交付量将接近90架。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:44:54",
+      "content": "东山精密(02384.HK)：公司全球发售1.14亿股H股，香港公开发售占5.19%，国际发售占94.81%。最终发售价为每股86.8港元，全球发售净筹约97.17亿港元。每手100股，预期H股将于2026年10月28日上午九时正在联交所开始买卖。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:44:15",
+      "content": "波音(BA.N)CEO：预计2027年自由现金流将改善至约30亿美元，2028年约60亿美元，并预计在2029年实现100亿美元自由现金流目标。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:44:04",
+      "content": "波音(BA.N)CEO：预计2026年将产生约20亿美元的自由现金流。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:43:35",
+      "content": "【期货热点追踪】美玉米收割洪峰撞上巴西汇率大贬！欧盟减产孤掌难鸣，全球玉米期现价格防线全面失守？",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:41:35",
+      "content": "【据悉Meta 250亿美元股票发行获约5倍超额认购】金十数据10月27日讯，知情人士透露，Meta Platforms(META.O)扩大后的250亿美元股票发行获得了约为可供认购股份数量5倍的认购需求。该公司正计划筹集980亿美元资金，用于人工智能领域的支出。知情人士表示，此次普通股发行中，超过一半的股份分配给了长期持股投资者和现有股东。其中，认购规模排名前15位的投资者合计获得了约70%的发行股份。此次发行定价为每股625美元，较发行消息公布前的上周五收盘价折让2.7%。周二，Meta股价在纽约市场一度下跌1.4%，至每股621.47美元。此次股票发行只是Meta融资计划的一部分。该计划还包括发行125亿美元的强制可转换优先股，以及预计将推出的按市价增发股票计划。若最终筹资规模达到980亿美元，这将成为历史上规模最大的股权融资计划之一。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:41:04",
+      "content": "俄罗斯副总理诺瓦克：俄罗斯炼油厂目前正迅速让完成维护的装置恢复运行，几乎所有必要的油气设备均在俄罗斯制造。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:40:32",
+      "content": "俄罗斯副总理诺瓦克：俄美在北极的潜在项目可能包括开发气田或参与联合液化天然气项目。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:38:45",
+      "content": "罗马尼亚就破坏活动指控召见俄罗斯大使。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:38:39",
+      "content": "阿根廷政府表示，不会就巴西选举发表声明。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:38:21",
+      "content": "伊朗最高领袖呼吁提出满足结束战争的条件，再次打开外交讨论窗口？历史数据显示，美国中期选举后的11月至次年6月，美股表现较为规律……",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:38:19",
+      "content": "波音(BA.N)CEO：仍预计今年787机型月产量将达到10架。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:38:07",
+      "content": "惠誉评级：（关于美国信用展望）人工智能投资仍是主要增长动力，同时也是关键下行风险。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:37:35",
+      "content": "波音(BA.N)CEO：预计要到明年才能完全稳定在每月47架的737生产速率。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:36:58",
+      "content": "美、布两油持续走低，日内跌幅扩大至1%。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:32:43",
+      "content": "惠誉评级：尽管波动加剧，土耳其本币债务资本市场仍将增长；伊斯兰债券份额上升。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:32:31",
+      "content": "波音(BA.N)跌逾5%，至去年11月25日以来最低水平。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:30:39",
+      "content": "【加拿大央行或无视疲软经济数据，以防范通胀风险】金十数据10月27日讯，毕马威加拿大首席经济学家Ali Jaffery表示，尽管他并不倾向于支持加拿大央行周三加息，但他认为这一举措“算不上政策失误”。Jaffery指出，尽管加拿大就业岗位减少、市场情绪走弱，加拿大央行似乎仍决心提前应对原油价格持续高企带来的通胀风险。如果加拿大央行先加息25个基点，随后再加息一次，政策利率将维持在央行估算的中性利率区间内。中性利率是指既不会抑制、也不会刺激经济活动的利率水平。Jaffery表示，加息可能延长加拿大经济的疲软期，但他补充称，加拿大央行官员可能认为，当前经济仍存在足够的有利因素，能够支撑增长持续进行。",
       "important": 0,
       "source": "jin10",
       "sentiment": "bear",
       "steel": false
     },
     {
-      "datetime": "2026-10-26 22:58:42",
-      "content": "高盛数据显示，美国散户股票交易活跃度较去年底下降45%，能源价格上涨及美债收益率走高削弱买盘。点击查看…",
+      "datetime": "2026-10-27 22:30:22",
+      "content": "戴尔(DELL.N)日内涨幅扩大至5%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:30:13",
+      "content": "SC原油主力合约盘中走弱，跌幅扩大至2.19%，最新报716.7元/桶；成交额约324.49亿元，日内减仓近100手，持仓小幅回落。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:28:01",
+      "content": "芬兰总统斯图布：美国特使和泽连斯基协助为我们与俄罗斯总统普京的通话做了准备。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:26:37",
+      "content": "捷蓝航空：在流动性方面，我们有办法撑到2028年。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:26:20",
+      "content": "瓦莱罗能源(VLO.N)跌6.5%，为6月15日以来最大盘中跌幅。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:24:38",
+      "content": "【阳光电源：目前没有生产半固态电池计划】金十数据10月27日讯，阳光电源10月27日在互动平台表示，公司目前没有生产半固态电池的计划。公司EnerNeoSST获得全球知名第三方检测认证机构TÜV莱茵颁发的基于UL、IEC、EN、2PfG系列标准的系统级和关键部件级认证证书，成为全球首款同时通过欧标与美标系统级双认证的SST产品，率先具备欧美数据中心市场规模化商用部署的实质条件。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:23:02",
+      "content": "高昂运费正在削弱俄罗斯原油的价格优势。印度炼厂开始增加中东原油采购，印度巴拉特石油公司预计11月削减俄油进口，印度石油公司呼吁扩大本国油轮运力。点击查看…",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:22:36",
+      "content": "也门胡塞武装称其用无人机袭击了沙特艾卜哈机场；沙特方面未予证实。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:19:28",
+      "content": "芬兰总统斯图布称在与俄罗斯总统普京通话期间转达了乌克兰方面的信息。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:18:46",
+      "content": "罗马尼亚外交部谴责俄罗斯在黑海对商船的系统性袭击。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:16:54",
+      "content": "摩根大通(JPM.N)新增九名员工，加强小盘股银行业务。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:16:20",
+      "content": "麦克莫兰公司CEO：印尼两座冶炼厂现已投产。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:16:02",
+      "content": "据路透社：消息人士称，先正达集团顾问计划通过IPO实现至少660亿美元市值。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:16:00",
+      "content": "【美国消费者信心四个月来首次回升】金十数据10月27日讯，随着消费者对就业市场和商业环境的看法改善，美国消费者信心10月意外回升，为四个月来首次增长。美国经济咨商会周二公布的数据显示，10月消费者信心指数上升7.5点，至91.7，为6月以来最高水平，远高于经济学家预期中值81.0。反映未来六个月消费者预期的指数10月上升近7点，至72.6；衡量当前经济状况的指数则升至六个月高点。美国经济咨商会高级经济学家弗格斯·麦考密克表示：“消费者信心回升，与9月至10月零售汽油价格回落的情况一致。不过，尽管10月有所改善，消费者信心仍处于过去几年持续的长期下行趋势中。”",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:14:29",
+      "content": "【美国新房销售因抵押贷款利率飙升而下滑】金十数据10月27日讯，上个月，美国新房销售额小幅走低；尽管开发商采取了降价和提供购房激励措施等手段，但仍未能抵消抵押贷款利率飙升带来的冲击。美国联邦政府周二公布的数据显示，9月美国新建独栋住宅销售年化总数下降0.6%，至67.6万套，高于经济学家65.1万套的预期中值。9月新屋销售价格中值同比下降3.9%，至40.04万美元。2026年以来的9个月中，已有7个月的新屋销售价格中值同比下跌。9月疲软的销售数据凸显了美国房地产市场面临的严峻挑战。上月抵押贷款利率上升约0.5个百分点，并在10月初升至近三年来的最高水平，此后仅小幅回落。借贷成本飙升削弱了潜在购房者的需求，并推动一项衡量建筑商信心的指标跌至14年来最低水平。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:13:32",
+      "content": "巴西央行官员Picchetti：我们看到经济活动明显放缓，主要集中在周期性行业。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:07:35",
+      "content": "委内瑞拉政府和央行表示，2027年GDP目标为6%至10%之间。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:02:54",
+      "content": "欧洲央行外汇储备减少2亿欧元，至3493亿欧元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:01:39",
+      "content": "金十图示：2026年10月27日（周二）全球股市指数-美洲市场（盘初）",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:01:11",
+      "content": "美国10月谘商会消费者预期指数 72.6，前值63.6。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:01:09",
+      "content": "美国10月里奇蒙德联储服务业收入指数 2，前值0。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:01:02",
+      "content": "美国10月谘商会消费者现况指数 120.4，前值109.3。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:00:42",
+      "content": "黄金逐渐转入震荡，上下边界在哪里？​《大有作V》栏目更新，3分钟解读国际金走势>>",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:00:24",
+      "content": "美国10月里奇蒙德联储制造业装船指数 0，前值-5。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:00:24",
+      "content": "美国10月里奇蒙德联储制造业指数 -2，前值-2。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:00:03",
+      "content": "美国9月新屋销售年化月率 -0.6%，预期-5.50%，前值由6.40%修正为5.1%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:00:03",
+      "content": "美国9月新屋销售总数年化 67.6万户，预期65万户，前值由68.4万户修正为68万户。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 22:00:02",
+      "content": "美国10月谘商会消费者信心指数 91.7，预期81，前值由81.9修正为84.2。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 21:58:32",
+      "content": "阿塞拜疆总统阿利耶夫：我多次表示，阿塞拜疆没有内部风险。所有潜在风险都来自国境之外。意识形态风险和物理风险一样危险。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 21:57:17",
+      "content": "【期货热点追踪】食用油自给率不足五成，印度紧急酝酿大豆单产与压榨能力大升级！这一战略转向将如何重塑全球油脂贸易格局？",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 21:55:59",
+      "content": "【分析：相比美联储决议本身，市场更关注的是“未来指引”】金十数据10月27日讯，投资者预计，美联储本周将暂时按兵不动，但12月可能再次加息。市场人士认为，相比本次决议本身，美联储官员如何解读通胀走势，以及如何指引未来数月的利率路径，可能更为重要。由于市场担心持续的价格压力可能迫使美联储在更长时间内维持高借贷成本，投资者对货币政策的预期已多次在宽松与收紧之间摇摆。近期，美联储威廉姆斯和杰斐逊的讲话，促使投资者下调了对短期内进一步加息的预期。但投资者并未忘记，8月和9月美国消费者价格与生产者价格均有所上涨，能源价格走高是主要原因之一，而能源价格目前仍处于高位。GuideStone Funds高级投资分析师Jack Herr表示：“通胀显然再次加速，因此在我们看来，这未必意味着暂停加息，更可能是美联储希望观察近期加息后，部分经济数据会如何变化。美联储今年可能还会再次加息。”",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 21:54:45",
+      "content": "金十图示：2026年10月27日（周二）华尔街恐惧与贪婪指数（美盘初）",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 21:51:48",
+      "content": "胡塞武装称击退沙特支持部队在曼德海峡附近的推进。沙特方面最新表示，也门政府军仍在红海沿岸展开攻势，双方军事对抗持续升级。点击查看…",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 21:50:26",
+      "content": "也门胡塞武装称袭击了位于利雅得的沙特国防部；沙特方面未予证实。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 21:50:00",
+      "content": "美国9月新屋销售总数年化、10月谘商会消费者信心指数及里奇蒙德联储制造业指数将于十分钟后公布。",
+      "important": 1,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 21:48:42",
+      "content": "挪威能源部：挪威将在冬季前向乌克兰提供5亿挪威克朗的能源支持。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 21:47:59",
+      "content": "金十图示：2026年10月27日（周二）美盘市场行情一览",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 21:46:14",
+      "content": "【Meta小幅上调股票融资计划至975亿美元，最高融资额或达1030亿美元】金十数据10月27日讯，Meta Platforms(META.O)表示，公司计划通过股票发行筹集资金，以支持人工智能领域的投资，融资规模将从950亿美元小幅上调至975亿美元。Meta周二在公布股票发行定价安排时表示，公司将普通股发行规模从225亿美元提高至250亿美元。根据周一首次公布的计划，Meta还打算发行约125亿美元的A系列存托股，并通过“按市价发行”（at-the-market）计划筹集至多600亿美元。周二发布的公告还显示，Meta已授予普通股及存托股发行的承销商一项选择权，允许其额外购买总值约55亿美元的股票；这意味着Meta最终的融资总额最高可达约1030亿美元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 21:45:01",
+      "content": "金十图示：2026年10月27日（周二）美股热门股票行情一览",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 21:44:22",
+      "content": "【路透调查：全球高通胀态势将持续至明年】金十数据10月27日讯，路透调查显示，全球经济中的高通胀态势将持续至明年。经济学家们日益担忧，除了中东冲突导致的能源成本上升外，物价上涨压力可能会变得根深蒂固。自去年以来，全球在AI领域的投资已超过1万亿美元。多数央行此前仅加息数次，甚至完全未加息；但如果通胀压力进一步扩散，未来可能会有更多央行采取加息行动。近几个月来，全球债券市场遭遇抛售，导致收益率上升，进而收紧了金融环境。自10月7日以来，原油价格一直维持在每桶100美元上方；自大约八个月前中东冲突爆发以来，油价已累计上涨超过60%。路透社本月对全球500多名经济学家进行调查后发现，在受调查的50个经济体中，经济学家上调了其中31个经济体的2027年通胀预测，并上调了23个经济体的经济增长预测；在调查覆盖的21个发达经济体中，经济学家上调了其中15个经济体的2027年通胀预测。这表明，通胀担忧正在蔓延，并开始影响通常物价压力较低的经济体。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 21:43:48",
+      "content": "云服务新锐企业股价进一步走强，Nebius(NIBS.O)涨11%，Coreweave(CRWV.O)涨6.7%，IREN(IREN.O)涨7.7%。",
       "important": 1,
       "source": "jin10",
       "sentiment": "bull",
       "steel": false
     },
     {
-      "datetime": "2026-10-26 22:54:56",
-      "content": "伊朗表示，核活动将在不扩散核武器条约框架内继续进行。",
+      "datetime": "2026-10-27 21:42:11",
+      "content": "波音(BA.N)CEO：燃油成本上升使市场对更高效飞机的需求保持旺盛，但若这一趋势持续到2027年之后，可能引发担忧。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-26 22:52:25",
-      "content": "【Anthropic在IPO文件中将气候变化列为业务风险】金十数据10月26日讯，Anthropic在首次公开募股（IPO）申请文件中，将气候变化和环境问题列为风险因素，凸显出维持公司运营所需的庞大电力供应和基础设施投入。Anthropic表示：“气候变化带来的实际影响可能会随着时间推移推高我们的运营成本。平均气温上升可能增加我们所依赖设施中设备冷却所需的电力消耗和用水量。”人工智能公司正受到来自维权团体、社区成员、监管机构和投资者的密切审视，一些州正在推动暂停新建数据中心，以评估其对环境和电价的潜在影响。Anthropic在S-1上市申请文件中承认，这种反对声音可能损害公司的声誉。这一披露与SpaceX的S-1上市申请文件形成对比。SpaceX最初提交的文件没有提及气候变化，但随后修改文件，将水资源短缺列为风险因素。",
+      "datetime": "2026-10-27 21:41:53",
+      "content": "巴西基准股指Bovespa日内涨幅扩大至1%。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-26 22:49:49",
-      "content": "伊朗总统重申德黑兰不寻求核武器。",
+      "datetime": "2026-10-27 21:37:38",
+      "content": "波音(BA.N)CEO：预计国防业务需求将大幅增长。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-26 22:47:10",
-      "content": "【伊朗总统呼吁保障全球贸易自由，推动本币结算以削弱美国制裁】金十数据10月26日讯，伊朗总统表示：“必须确保贸易自由，以便向全球输送能源。相互理解与战略对话，使全球能源治理成为可能。我们将与俄罗斯总统进行直接会谈；双方关系正不断深化。我们的目标是推动多边主义，而非单边主义或由单一国家彰显霸权。各国在开展经贸往来时，应使用本国货币或双方商定的货币，从而使美国实施的单边制裁失效。”",
+      "datetime": "2026-10-27 21:37:28",
+      "content": "【阳光电源：FCC政策针对未来新产品 现有产品可正常销售】金十数据10月27日讯，阳光电源在互动平台表示，FCC政策目前来看是针对未来新产品新型号，只要政策不变，现有产品可以正常销售。美国第14420号行政令目前从字面理解覆盖范围是69kV及以上输电系统设备，本地配电设备不在覆盖范围内，美国分布式光储项目是13.8kV接入，大型光储项目是34.5kV接入再升压至69kV及以上，从哪个节点开始约束目前是不明确的。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-26 22:43:47",
-      "content": "美国民主党议员就Starlink中断事件致信马斯克。",
+      "datetime": "2026-10-27 21:37:26",
+      "content": "路透调查：预计2027年铂金均价为每盎司1935美元，钯金均价为每盎司1300美元。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-26 22:42:22",
-      "content": "纳斯达克100指数涨1%，触及盘中高点。",
+      "datetime": "2026-10-27 21:37:14",
+      "content": "【年内科创板公司新增回购计划114单，拟回购金额上限合计180亿元】金十数据10月27日讯，截至10月26日，2026年以来，科创板公司新增回购计划114单，拟回购金额上限合计180亿元；新增增持计划42单，拟增持金额上限合计15亿元。进入10月，相关行动提速，当月新增回购计划23单，拟回购金额上限达58亿元，约占年内总额的三分之一；新增增持计划6单，拟增持金额上限合计2.5亿元。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-26 22:40:41",
-      "content": "俄罗斯央行：俄罗斯银行1月至9月净利润为3.7万亿卢布。银行业9月净利润环比下降5.9%，至4140亿卢布。",
+      "datetime": "2026-10-27 21:37:09",
+      "content": "路透调查：铂金2026年均价预计为每盎司1900美元（此前调查为1925美元）。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-26 22:37:32",
-      "content": "美原糖日内下跌6.00%，现报18.82美分/磅。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "bear",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:36:57",
-      "content": "【湖南：支持长株潭都市圈共建循环经济产业走廊】金十数据10月26日讯，《湖南省“十五五”循环经济发展规划》已于近日发布，其中提出，优化循环经济产业布局。持续推动汨罗高新技术产业开发区、永兴经济开发区等2个国家“城市矿产”示范基地、娄底经济技术开发区、安化经济开发区、常宁水口山经济开发区等国家大宗固废综合利用基地提质增效。支持长株潭都市圈共建循环经济产业走廊，推动长沙工程机械再制造、株洲轨道交通再制造、湘潭废钢铁加工配送跨市协同。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": true
-    },
-    {
-      "datetime": "2026-10-26 22:36:39",
-      "content": "WTI原油日内跌幅达3%，现报99.70美元/桶。布伦特原油跌1.95%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-26 22:36:16",
-      "content": "斯洛伐克外长在会见俄罗斯外长拉夫罗夫后表示，他被告知俄罗斯仍准备履行已商定的能源合同。",
+      "datetime": "2026-10-27 21:36:55",
+      "content": "波音(BA.N)CEO：波音不会急于提高产量，将安全、谨慎地推进。",
       "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-26 22:36:15",
-      "content": "SC原油主力合约日内跌超2.00%，现报724.90元/桶。",
-      "important": 1,
+      "datetime": "2026-10-27 21:36:45",
+      "content": "【景旺电子：AI算力领域的高性能PCB供应依然偏紧】金十数据10月27日讯，景旺电子10月26日接受机构调研时表示，目前AI算力领域客户项目推进节奏依然较快，高端产品交付安排非常紧张。与此同时，AI算力领域产品迭代升级带来的工艺难度明显增加，对PCB板厂的工艺技术能力、精细化管控能力、产品一次良率提出较高的要求，高端产能供给相对有限。整体看，需求端保持旺盛，供给端受产品升级和产能爬坡节奏约束，AI算力领域的高性能PCB供应依然偏紧，公司正全力推进产能释放与保障交付。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 21:36:36",
+      "content": "【美军驳斥伊朗：未撤离霍尔木兹海峡，仍在周边保持戒备】金十数据10月27日讯，美国中央司令部：伊朗伊斯兰革命卫队海军司令近期声称，美军已撤离霍尔木兹海峡，向后退避了数百“公里”。此说法不实。美军中央司令部司令周末的行动表明，部署在中东地区的美军仍在霍尔木兹海峡及周边海域保持存在并处于戒备状态。美军及其地区伙伴共同掌控着这一国际水道——而非伊朗。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 21:35:50",
+      "content": "金十图示：2026年10月27日（周二）热门中概股行情一览",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 21:35:41",
+      "content": "路透调查：全球经济2026年将增长3.0%，2027年将增长3.2%（7月调查预测分别为2.9%和3.1%）",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 21:35:26",
+      "content": "路透调查：受访经济学家上调了对50个主要经济体中31个经济体2027年的通胀预测。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 21:34:30",
+      "content": "美联储联邦公开市场委员会会议于当地时间周二上午9:30（北京时间21:30）按计划开始。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 21:34:01",
+      "content": "韦德布什：将英特尔(INTC.O)目标价维持在98美元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 21:33:14",
+      "content": "云服务新锐企业股价上涨，Nebius(NIBS.O)涨3.8%，Coreweave(CRWV.O)涨1.5%，IREN(IREN.O)涨1.7%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 21:33:01",
+      "content": "标普500指数10月27日（周二）开盘上涨22.94点，涨幅0.30%，报7699.71点；\n纳斯达克综合指数10月27日（周二）开盘上涨126.31点，涨幅0.48%，报26295.69点；\n道琼斯指数10月27日（周二）开盘上涨84.88点，涨幅0.16%，报52446.46点。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 21:31:54",
+      "content": "Meta Platforms(META.O)盘初跌0.8%。",
+      "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
@@ -1093,123 +1013,91 @@
   ],
   "shmet": [
     {
-      "datetime": "2026-10-27 03:28:08",
-      "content": "【快讯】SHMET10月27日讯，美国、加拿大据悉正致力于达成一项放宽美国对加拿大钢铁和汽车进口关税的协议。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": true
-    },
-    {
-      "datetime": "2026-10-27 03:27:18",
-      "content": "【快讯】SHMET10月27日讯，美国国务卿鲁比奥：（关于委内瑞拉）美国数周前告知委内瑞拉当局，应允许反对派领导人马查多“不受干扰”地返回。",
+      "datetime": "2026-10-27 23:33:48",
+      "content": "【快讯】SHMET10月27日讯，美国至10月27日6周国债竞拍-得标利率配置百分比 83.1%，前值78.53%。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-27 03:24:05",
-      "content": "【快讯】SHMET10月27日讯，美国国务院高级官员：（关于委内瑞拉问题）美国正与委内瑞拉临时当局合作，并利用影响力确保改革以适当步伐持续推进。",
+      "datetime": "2026-10-27 23:33:47",
+      "content": "【快讯】SHMET10月27日讯，美国至10月27日6周国债竞拍-投标倍数 2.83，前值2.74。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-27 03:24:01",
-      "content": "【快讯】SHMET10月27日讯，巴西财政部发布声明称，已回购27.1万份2030年到期的债券、100万份2035年到期的债券，以及48.685万份2050年到期的债券。",
+      "datetime": "2026-10-27 23:32:57",
+      "content": "【快讯】SHMET10月27日讯，美国至10月27日1年期国债竞拍-得标利率 4.29%，前值4.40%。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-27 03:20:13",
-      "content": "【LME夜盘收盘】LME铜涨0.37%,报14338.0美元/吨LME铝跌0.08%,报3038.0美元/吨LME铅涨0.68%,报1918.5美元/吨LME锌涨2.04%,报3823.0美元/吨LME镍跌2.14%,报15525美元/吨LME锡涨0.07%,报50800美元/吨",
+      "datetime": "2026-10-27 23:32:50",
+      "content": "【快讯】SHMET10月27日讯，美国至10月27日1年期国债竞拍-得标利率配置百分比 65.33%，前值70.21%。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-27 03:17:02",
-      "content": "【人工智能交易规模惊人 城堡证券称到了“没有容错空间”的地步】SHMET10月27日讯，城堡证券认为，市场对人工智能交易的投入如此之大，到了一旦巨额投入产生不了回报就几乎没有犯错空间的地步。该公司欧洲、中东和非洲固定收益销售主管Nohshad Shah在一份研报中写道，科技股的抛售表明，投资者在巨额人工智能支出最终能否创造足够利润的问题上正变得愈发苛刻。“现在经济和股市有这么大一部分都押注在人工智能交易上，而其它风险也可能显现出来，所以市场几乎没有任何犯错的余地，” Shah写道。",
+      "datetime": "2026-10-27 23:32:39",
+      "content": "【快讯】SHMET10月27日讯，美国至10月27日1年期国债竞拍-投标倍数 3.15，前值3.07。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-27 03:16:39",
-      "content": "【快讯】SHMET10月27日讯，美国国务院高级官员：（关于委内瑞拉问题）美国预计委内瑞拉将在年底前成立新的最高司法委员会，随后不久将成立新的选举委员会。",
+      "datetime": "2026-10-27 23:32:15",
+      "content": "【快讯】SHMET10月27日讯，美国至10月27日6周国债竞拍-得标利率 3.95%，前值3.98%。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-27 03:16:29",
-      "content": "【快讯】SHMET10月27日讯，恒生指数主连夜盘收跌0.01%，报23233点。恒生科技指数主连夜盘收涨0.08%，报3865点。",
+      "datetime": "2026-10-27 23:31:08",
+      "content": "【快讯】SHMET10月27日讯，据报道，美国向美国最大核电运营商Constellation提供50亿美元核反应堆融资。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-27 03:15:37",
-      "content": "【快讯】SHMET10月27日讯，美国国务院高级官员：（关于委内瑞拉问题）美方认为，在举行选举之前，委内瑞拉需要重建选举基础设施。",
+      "datetime": "2026-10-27 23:31:07",
+      "content": "【快讯】SHMET10月27日讯，据国际文传电讯社：克里姆林宫表示，如有需要，俄罗斯总统普京与芬兰总统斯图布将再次通话。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     },
     {
-      "datetime": "2026-10-27 03:07:41",
-      "content": "【快讯】SHMET10月27日讯，美国高评级债券发行量预计将达到1.76万亿美元的纪录。",
+      "datetime": "2026-10-27 23:24:32",
+      "content": "【快讯】SHMET10月27日讯，美国总统特朗普：消费者信心上升7.5%，这是一个非常大的增长。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-27 23:23:23",
+      "content": "【机构：英国预算案借款规模若超预期，或引发市场波动】SHMET10月27日讯，英国金融服务公司Aegon资产管理部门的斯蒂芬·琼斯表示，周三公布的英国预算案很可能不会带来意外，因为政府既缺乏财政空间，也没有足够的政治意愿推出大胆举措。“但当整个市场都做好了迎接一份平淡预算案的准备时，哪怕不大的意外，也足以在万圣节前吓市场一跳。”他说。近几周，随着市场对英国资产的看法转趋乐观，英国国债价格持续上涨。琼斯表示：“任何额外借款带来的尾部风险，并不在预算演讲本身，而是隐藏在财政运作的深层机制中。”他认为，如果英国政府额外增加约100亿英镑的融资供应，或许通过表外融资工具筹集资金，市场仍有能力消化；但如果英国国债发行量进一步增加300亿至400亿英镑，就很难再让市场轻松接受。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bull",
       "steel": false
     }
   ],
   "steel_highlight": [
     {
-      "datetime": "2026-10-27 03:28:08",
-      "content": "【快讯】SHMET10月27日讯，美国、加拿大据悉正致力于达成一项放宽美国对加拿大钢铁和汽车进口关税的协议。",
-      "important": 0,
-      "source": "shmet",
-      "sentiment": "neutral",
-      "steel": true
-    },
-    {
-      "datetime": "2026-10-27 03:27:41",
-      "content": "据路透：消息人士称，美国与加拿大正致力于达成协议，以放宽美国对加拿大钢铁和汽车进口的关税。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": true
-    },
-    {
-      "datetime": "2026-10-27 00:04:45",
-      "content": "俄罗斯北方钢铁公司（Severstal）表示，别尔哥罗德州一座采矿和选矿厂在无人机袭击后部分断电，矿工已撤离。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": true
-    },
-    {
-      "datetime": "2026-10-26 23:01:09",
-      "content": "截至23:00收盘，国内期货主力合约跌多涨少，烧碱跌超4%，棕榈油跌近3%，豆油跌超2%，聚氯乙烯（PVC）、棉花、焦煤、白糖、苯乙烯（EB）跌近2%。涨幅方面，沥青涨超3%，液化石油气（LPG）涨超2%，甲醇、丙烯、聚丙烯涨超1%，聚丙烯月均涨近1%。",
+      "datetime": "2026-10-27 23:00:55",
+      "content": "截至23:00收盘，国内期货主力合约跌多涨少，燃料油跌近2%，纯苯、低硫燃料油（LU）、PTA、胶版纸、苯乙烯（EB）、对二甲苯跌超1%。涨幅方面，焦煤涨超3%，焦炭、纯碱涨超2%，玻璃涨近2%，聚氯乙烯（PVC）、乙二醇（EG）涨超1%，聚丙烯月均、菜粕涨近1%。",
       "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": true
-    },
-    {
-      "datetime": "2026-10-26 22:36:57",
-      "content": "【湖南：支持长株潭都市圈共建循环经济产业走廊】金十数据10月26日讯，《湖南省“十五五”循环经济发展规划》已于近日发布，其中提出，优化循环经济产业布局。持续推动汨罗高新技术产业开发区、永兴经济开发区等2个国家“城市矿产”示范基地、娄底经济技术开发区、安化经济开发区、常宁水口山经济开发区等国家大宗固废综合利用基地提质增效。支持长株潭都市圈共建循环经济产业走廊，推动长沙工程机械再制造、株洲轨道交通再制造、湘潭废钢铁加工配送跨市协同。",
-      "important": 0,
       "source": "jin10",
       "sentiment": "neutral",
       "steel": true
