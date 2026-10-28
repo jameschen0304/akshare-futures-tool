@@ -1,7 +1,231 @@
 {
   "source": "jin10 flash + shmet + shfe weekly stock",
-  "generated_at": "2026-10-28T16:20:32.062882+00:00",
+  "generated_at": "2026-10-28T16:49:09.749443+00:00",
   "jin10": [
+    {
+      "datetime": "2026-10-29 00:47:08",
+      "content": "惠誉评级：部分前沿市场因高油价承压，但另一些市场受益。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 00:46:46",
+      "content": "空客：现金流出主要受营运资金变动推动，反映与交付集中于下半年及计划增产相关的库存增加。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 00:46:31",
+      "content": "空客仍预计全年交付约870架飞机，此前预测为867架。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 00:46:03",
+      "content": "金十图示：2026年10月29日（周四）全球股市指数-欧洲市场",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 00:45:58",
+      "content": "空客第三季度营收174.7亿欧元，市场预期180.9亿欧元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 00:42:54",
+      "content": "意大利经济副部长：对银行提高税收旨在避免影响资本充足率。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 00:41:53",
+      "content": "意大利经济副部长：提高银行、保险公司和能源集团的企业所得税IRES和地区生产税IRAP，为预算提供资金。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 00:41:38",
+      "content": "谷歌云：Cloud SQL的PostgreSQL蓝绿部署支持即将推出。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 00:41:03",
+      "content": "德国DAX30指数10月28日（周三）收盘上涨107.14点，涨幅0.42%，报25697.91点；\n英国富时100指数10月28日（周三）收盘上涨13.79点，涨幅0.13%，报10700.33点；\n法国CAC40指数10月28日（周三）收盘下跌0.18点，跌幅0.00%，报7886.96点；\n欧洲斯托克50指数10月28日（周三）收盘上涨1.86点，涨幅0.03%，报6166.55点；\n西班牙IBEX35指数10月28日（周三）收盘下跌278.48点，跌幅1.45%，报18882.12点；\n意大利富时MIB指数10月28日（周三）收盘上涨191.55点，涨幅0.39%，报49819.50点。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 00:41:00",
+      "content": "谷歌云：宣布推出面向MySQL的Cloud SQL全托管蓝绿部署预览版。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 00:40:23",
+      "content": "意大利总理梅洛尼：银行对预算的贡献并未事先商定。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 00:39:20",
+      "content": "意大利总理梅洛尼排除金融公司因预算带来的收入增加而出现法律问题的可能。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 00:37:32",
+      "content": "菲利普斯66：汽油需求下降2.5%，柴油需求下降1.5%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 00:35:38",
+      "content": "【以媒：美官员称对伊朗后续打击不受以色列组阁进程影响】金十数据10月29日讯，据以色列今日报报道，一名美国高级外交官员表示，美以军事、情报及外交合作将继续推进，不受以色列选举结果、新政府组建进度或美国中期选举影响。该官员称，若决定再次打击伊朗，将依据专业判断和美以共同利益，目标包括彻底消除伊朗军事核计划，以及消除其对霍尔木兹海峡和周边国家构成的军事威胁。关于政治安排，该官员称，美方的相关战略目标没有改变。报道另称，美方倾向于推动以色列组建一个不含极端派的广泛联合政府，相关议题已于当地时间周三凌晨的美以讨论中涉及。报道指出，以色列选举结果计票接近尾声，但两大阵营均无法单独获得稳定多数，联合政府仍是可能选项。以方此前向美国及其他国际伙伴保证，新政府的组建不会阻碍地区外交进程。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 00:31:30",
+      "content": "金十图示：2026年10月28日（周三）美股热门股票行情一览（美股盘中）",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 00:31:27",
+      "content": "菲利普斯66：已按低于当前运费市场的价格额外签约40艘船舶，预计将对炼油业务带来利好。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 00:30:47",
+      "content": "金十图示：2026年10月28日（周三）热门中概股行情一览（美股盘中）",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 00:29:53",
+      "content": "谷歌(GOOG.O)：宣布面向红帽和容器的AlloyDB Omni Web UI正式可用。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 00:28:12",
+      "content": "美国能源部长赖特：俄罗斯只有结束战争才能从柴油出口中获益。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 00:28:02",
+      "content": "美国能源部长赖特：阿拉伯湾柴油出口可能增加。柴油价格将大幅下跌。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 00:27:44",
+      "content": "美国能源部长赖特：太阳能将以更合理的方式继续增长。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 00:27:41",
+      "content": "惠誉评级：随着利率上升，美国银行业更有准备应对未实现损失。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 00:27:00",
+      "content": "意大利总理梅洛尼：意大利计划从能源企业征收7亿欧元，另从博彩行业征收7亿欧元。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 00:25:31",
+      "content": "意大利总理梅洛尼：约50亿欧元的预算由银行提供资金。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 00:24:14",
+      "content": "乌克兰总统泽连斯基：与荷兰首相耶滕举行良好会晤，并感谢荷兰新一轮提供5亿欧元军事支持。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 00:21:38",
+      "content": "据以色列今日报：美国高级外交官员表示，美国总统特朗普仍决心彻底消除伊朗军事核计划，并消除对霍尔木兹海峡及伊朗邻国的军事威胁。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 00:21:10",
+      "content": "据以色列今日报：美国高级外交官员表示，对伊朗的打击不取决于以色列的政治进程。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 00:20:29",
+      "content": "据以色列今日报：美国总统特朗普谈其是否可能为以色列联合政府出力：我会研究此事。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
     {
       "datetime": "2026-10-29 00:12:05",
       "content": "GitHub宣布Copilot Fusion正式全面可用。",
@@ -953,201 +1177,81 @@
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
-    },
-    {
-      "datetime": "2026-10-28 22:39:52",
-      "content": "【美国中期选举后局势升级风险引发担忧，油价上涨】金十数据10月28日讯，随着市场对中东局势升级的担忧盖过该地区密集的外交斡旋行动，原油期货价格走高。花旗研究分析师Francesco Martoccia在一份报告中表示，以色列选举后的政治僵局“在美以与伊朗关系尤为敏感的时刻加剧了不确定性，也提高了军事冲突再度升级的风险”。他指出，如果局势再次升级，地缘政治风险溢价可能进一步上升；如果各方在达成协议方面取得可信进展，现有风险溢价则可能部分回落。他表示：“此次选举结果并未改变我们对年底前通过谈判达成协议这一基本情景的判断，但提高了局势发展更加动荡、并可能造成破坏性影响的概率。”",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-28 22:38:06",
-      "content": "【美国银行：投资者连续第二周撤出美股】金十数据10月28日讯，根据美国银行的分析，上周投资者连续第二周净卖出美股，其中通信服务板块资金流出最多。该行客户上周从美股市场撤出35亿美元，此前一周的资金流出规模达150亿美元，抛售势头仍在延续。美国银行分析师吉尔·凯里·霍尔和特雷·布朗表示，散户投资者是此次抛售的主要推动力量。分析师指出，涵盖电信公司以及Meta等媒体和科技企业的通信服务板块，创下自2018年有记录以来最大的单周资金流出规模。工业股则是资金流出规模第二大的板块，且已连续第13周出现资金净流出。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-28 22:37:36",
-      "content": "EIA报告显示，美国墨西哥湾沿岸原油库存上周降至2024年12月以来最低水平。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-28 22:37:21",
-      "content": "中国地震台网正式测定：10月28日22时29分在西藏那曲市巴青县（北纬32.11度，东经93.97度）发生3.2级地震，震源深度6千米。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-28 22:37:01",
-      "content": "在此次英国银行附加税上调政策中，外国公司无法豁免附加税上调。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-28 22:36:41",
-      "content": "【法国财政部长：将动用一切手段确保预算案通过】金十数据10月28日讯，法国财政部长莱斯屈尔表示，政府决心推动削减财政赤字的预算案落地，将动用一切可用手段，包括尚未使用过的行政法令。本月早些时候，莱斯屈尔提交了2027年财政预算案，其中包含力度罕见的支出限制措施，旨在安抚投资者，并将财政赤字占经济产出的比例从今年的5.4%降至5%。但由于议会内没有任何一方拥有多数席位，该法案很可能无法通过正常投票程序获批。莱斯屈尔表示，政府可以像近年来一样援引宪法第49.3条，绕过对预算案的表决。另一种选择是使用名为“行政法令”的机制。这一机制从未被用于此类情况，政府希望借此避免预算案遭否决、实施时间被拖延的风险。莱斯屈尔周三表示：“我们决心将赤字控制在5%或以下。全世界都在关注法国，我们必须直面这一局面，并确保把事情处理好。”",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-28 22:36:13",
-      "content": "美国汽油期货转跌，跌幅0.7%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-28 22:35:48",
-      "content": "美国财长贝森特：卢旺达必须停止对M23运动的支持。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-28 22:34:41",
-      "content": "【波罗的海干散货运价指数上涨，受海岬型船运价走强提振】金十期货10月28日讯，据外媒报道，波罗的海干散货运价指数（BDI）上涨，受海岬型船运价走强提振。波罗的海干散货运价指数（BDI）较前一交易日上涨49点，或1.88%，至2652点。海岬型船运价指数（BCI）上涨184点，即4.97%，至3886点，为两周以来最高。海岬型船日均获利上涨1670美元，至31742美元。该型船舶的运载量通常为15万吨，运载货物包括铁矿石和煤炭。巴拿马型船运价指数（BPI）下跌5点，或2.77%，至1965点，为4月底以来最低水平。巴拿马型船日均获利下跌507美元，至17686美元。该型船舶的运载量为6-7万吨，运载货物通常为煤炭或谷物。超灵便型散货船运价指数（BSI）下跌5点，跌幅0.27%，至1878点，触及一周最低。灵便型船运价指数（BHSI）下跌3点，报1017点。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": true
-    },
-    {
-      "datetime": "2026-10-28 22:34:02",
-      "content": "【经济学家：加拿大央行谨慎加息，12月是否再加息仍存变数】金十数据10月28日讯，Desjardins经济学家罗伊斯·门德斯表示，加拿大央行已放缓紧缩步伐，将利率上调25个基点。他指出，官员们提到未来可能仍需进一步加息，但货币政策委员会一致认为应谨慎行事。门德斯认为，决策者此次作出了一项艰难但着眼未来的决定，有助于降低未来不得不采取激进加息措施、给经济造成沉重冲击的风险。他补充说，央行12月是否再次加息仍存在较大不确定性，可能性大致各占一半。目前，他仍预计决策者将分阶段推进货币紧缩，下一次也是最后一次加息将在明年1月进行。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-28 22:33:54",
-      "content": "美国方面表示，卢旺达金融机构因支持M23运动而受到制裁。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-28 22:32:52",
-      "content": "EIA原油库存数据公布后，美国原油、柴油期货维持涨势。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-28 22:32:21",
-      "content": "【金十数据整理：美国当周EIA数据最值一览】\n1. 美国至10月23日当周EIA汽油库存增幅录得2026年1月16日当周以来最大。\n2. 美国至10月23日当周国内原油产量增幅录得2021年3月5日当周以来最大。\n3. 美国至10月23日当周EIA战略石油储备库存为1982年10月15日当周以来最低。\n4. 美国至10月23日当周除却战略储备的商业原油库存为2026年7月31日当周以来最低。\n5. 美国至10月23日当周原油出口量为2026年5月29日当周以来最高。6. 美国至10月23日当周国内原油产量创纪录新高。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-28 22:31:35",
-      "content": "美国至10月23日当周EIA蒸馏燃油产量引伸需求数据 552.69万桶/日，前值510.97万桶/日。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-28 22:31:27",
-      "content": "美国至10月23日当周EIA车用汽油总产量引伸需求数据 920.33万桶/日，前值990.84万桶/日。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-28 22:31:20",
-      "content": "美国至10月23日当周EIA原油产量引伸需求数据 2063.6万桶/日，前值1946.4万桶/日。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-28 22:30:26",
-      "content": "【金十数据整理：美国当周EIA库存数据六大看点一览】\n1. EIA报告：10月23日当周美国原油出口增加141.2万桶/日至485.4万桶/日。\n2. EIA报告：10月23日当周美国国内原油产量增加72.3万桶至1399.2万桶/日。\n3. EIA报告：除却战略储备的商业原油库存减少189.2万桶至4.11亿桶，降幅0.46%。\n4. EIA报告：美国原油产品四周平均供应量为2079.9万桶/日，较去年同期增加0.22%。\n5. EIA报告：10月23日当周美国战略石油储备（SPR）库存减少10.0万桶至2.826亿桶，降幅0.04%。\n6. EIA报告：10月23日当周美国除却战略储备的商业原油进口637.4万桶/日，较前一周增加61.6万桶/日。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-28 22:30:07",
-      "content": "美国至10月23日当周EIA精炼厂设备利用率 92.8%，预期93.3%，前值93.4%。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-28 22:30:07",
-      "content": "美国至10月23日当周EIA战略石油储备库存 -10万桶，前值-30万桶。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-28 22:30:03",
-      "content": "美国至10月23日当周EIA精炼油库存 -146.2万桶，预期-88.8万桶，前值167.5万桶。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-28 22:30:03",
-      "content": "美国至10月23日当周EIA新配方汽油库存 -0.3万桶，前值-0.2万桶。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-28 22:30:03",
-      "content": "美国至10月23日当周EIA汽油库存 387万桶，预期-128.8万桶，前值-295.2万桶。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-28 22:30:03",
-      "content": "美国至10月23日当周EIA原油库存 -189.2万桶，预期1.5万桶，前值-306万桶。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-28 22:30:03",
-      "content": "美国至10月23日当周EIA原油进口 -79.6万桶，前值83.7万桶。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
     }
   ],
   "shmet": [
+    {
+      "datetime": "2026-10-29 00:44:31",
+      "content": "【快讯】SHMET10月29日讯，意大利经济副部长：对银行提高税收旨在避免影响资本充足率。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 00:42:01",
+      "content": "【欧洲主要股指收盘集体上涨】SHMET10月29日讯，欧洲主要股指收盘集体上涨，英国富时100指数涨0.07%，法国CAC40指数涨0.04%，德国DAX30指数涨0.42%，富时意大利MIB指数涨0.40%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 00:41:31",
+      "content": "【快讯】SHMET10月29日讯，意大利总理梅洛尼：银行对预算的贡献并未事先商定。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 00:40:31",
+      "content": "【快讯】SHMET10月29日讯，意大利总理梅洛尼排除金融公司因预算带来的收入增加而出现法律问题的可能。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 00:31:31",
+      "content": "【快讯】SHMET10月29日讯，菲利普斯66：已按低于当前运费市场的价格额外签约40艘船舶，预计将对炼油业务带来利好。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 00:28:31",
+      "content": "【快讯】SHMET10月29日讯，意大利总理梅洛尼：意大利计划从能源企业征收7亿欧元，另从博彩行业征收7亿欧元。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 00:28:31",
+      "content": "【快讯】SHMET10月29日讯，惠誉评级：随着利率上升，美国银行业更有准备应对未实现损失。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 00:26:31",
+      "content": "【快讯】SHMET10月29日讯，意大利总理梅洛尼：约50亿欧元的预算由银行提供资金。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 00:24:01",
+      "content": "【快讯】SHMET10月29日讯，美国将推进爱荷华州的两个风电项目。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
     {
       "datetime": "2026-10-29 00:17:01",
       "content": "【快讯】SHMET10月29日讯，Cerebras跌幅扩大至6.7%。",
@@ -1166,7 +1270,7 @@
     },
     {
       "datetime": "2026-10-29 00:12:31",
-      "content": "【快讯】SHMET10月29日讯，GitHub：正投资扩大容量，扩建基础设施，新增400万CPU核心、160 PB高速存储，并为Actions增加额外算力。",
+      "content": "【快讯】SHMET10月29日讯，GitHub：Copilot访问权限已扩展至所有企业用户，无需额外购买席位。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
@@ -1174,7 +1278,7 @@
     },
     {
       "datetime": "2026-10-29 00:12:31",
-      "content": "【快讯】SHMET10月29日讯，GitHub：Copilot访问权限已扩展至所有企业用户，无需额外购买席位。",
+      "content": "【快讯】SHMET10月29日讯，GitHub：正投资扩大容量，扩建基础设施，新增400万CPU核心、160 PB高速存储，并为Actions增加额外算力。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
@@ -1214,7 +1318,7 @@
     },
     {
       "datetime": "2026-10-29 00:03:31",
-      "content": "【快讯】SHMET10月29日讯，俄罗斯经济部：俄罗斯第三季度GDP同比增长0.6%（第二季度同比增长1.3%）。",
+      "content": "【快讯】SHMET10月29日讯，俄罗斯经济部：9月GDP同比增长0.5%，上月为同比增长0.8%。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
@@ -1222,22 +1326,661 @@
     },
     {
       "datetime": "2026-10-29 00:03:31",
-      "content": "【快讯】SHMET10月29日讯，俄罗斯经济部：9月GDP同比增长0.5%，上月为同比增长0.8%。",
+      "content": "【快讯】SHMET10月29日讯，俄罗斯经济部：俄罗斯第三季度GDP同比增长0.6%（第二季度同比增长1.3%）。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 00:02:31",
+      "content": "【快讯】SHMET10月29日讯，俄罗斯统计局：俄罗斯9月零售销售同比增长3.9%，上月同比增长3.3%（市场预期同比增长3.5%）。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 00:02:31",
+      "content": "【快讯】SHMET10月29日讯，俄罗斯统计局：俄罗斯9月失业率为2.2%，上月为2.2%（市场预期为2.2%）。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 00:02:31",
+      "content": "【快讯】SHMET10月29日讯，俄罗斯统计局：俄罗斯8月实际工资同比增长3.3%，上月同比增长3.3%（市场预期同比增长3.0%）。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 00:01:31",
+      "content": "【快讯】SHMET10月29日讯，俄罗斯统计局：截至10月26日当周，消费者通胀率为0.08%，前一周为0.05%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 00:01:01",
+      "content": "【快讯】SHMET10月29日讯，西班牙交通大臣奥斯卡·普恩特表示，今天发生的列车相撞事故是由铁路网安全系统电脑故障导致的。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 23:58:31",
+      "content": "【快讯】SHMET10月29日讯，美国油气中游运营商ONEOK：整个系统内的航空燃油需求均有所增长。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 23:56:31",
+      "content": "【快讯】SHMET10月28日讯，美国油气中游运营商ONEOK：预计北特拉华扩建项目在2027年第三季度投产后，运量将快速提升。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 23:54:31",
+      "content": "【快讯】SHMET10月28日讯，中国地震台网正式测定：10月28日23时40分在新疆博尔塔拉州精河县（北纬44.29度，东经82.68度）发生4.2级地震，震源深度17千米。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 23:50:31",
+      "content": "【英国减少长债发行规模，提振其表现】SHMET10月28日讯，英国债务管理办公室（DMO）宣布，下调2026至2027财年长期英国国债的发行规模，推动相关债券价格上涨、收益率下跌。DMO表示，2026至2027财年计划发行的长期传统型英国国债规模将从今年4月公布的224亿英镑降至155亿英镑。通过银团方式发行的长期传统型国债规模也将减少25亿英镑，降至125亿英镑。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 23:44:31",
+      "content": "【快讯】SHMET10月28日讯，中国地震台网自动测定：10月28日23时40分在新疆博尔塔拉州精河县附近（北纬44.29度，东经82.66度）发生4.5级左右地震，最终结果以正式速报为准。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 23:39:31",
+      "content": "【快讯】SHMET10月28日讯，意大利油企埃尼集团：Junin-5项目第一阶段将带来显著的产量增长。预计到2028年产量将达到每日20万桶。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 23:39:01",
+      "content": "【WTI原油期货价格涨3%】SHMET10月28日讯，WTI原油期货价格涨3%，报102.892美元/桶；布伦特原油期货价格涨2.35%，报111.985美元/桶。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 23:38:31",
+      "content": "【快讯】SHMET10月28日讯，意大利油企埃尼集团重启委内瑞拉Junin-5项目生产。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 23:37:31",
+      "content": "【快讯】SHMET10月28日讯，美国油气中游运营商ONEOK：人工智能数据中心和公用事业将推动天然气需求，为集输、处理、天然气凝液及石化领域带来机遇。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 23:37:31",
+      "content": "【快讯】SHMET10月28日讯，美国油气中游运营商ONEOK：若当前形势保持不变，第四季度可能迎来不错的利好，这一势头将延续至2027年。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 23:34:31",
+      "content": "【快讯】SHMET10月28日讯，德国勃兰登堡州：德国政府正制定一项长期保障德国炼油厂安全的战略。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 23:33:31",
+      "content": "【快讯】SHMET10月28日讯，美国财政部拍卖两年期浮息国债（FRNS），贴现利率0.038%，投标倍数3.05。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 23:33:31",
+      "content": "【快讯】SHMET10月28日讯，美国至10月28日4个月国债竞拍-投标倍数 3.08，前值2.76。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 23:33:31",
+      "content": "【快讯】SHMET10月28日讯，美国至10月28日4个月国债竞拍-得标利率配置百分比 35.48%，前值48.24%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 23:32:31",
+      "content": "【快讯】SHMET10月28日讯，墨西哥与印度将就优惠贸易协定展开谈判。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 23:32:31",
+      "content": "【快讯】SHMET10月28日讯，美国至10月28日4个月国债竞拍-得标利率 4.14%，前值4.16%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 23:30:01",
+      "content": "【快讯】SHMET10月28日讯，印度阿达尼集团正考虑洽谈收购估值30亿欧元的储能企业VTTI。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 23:29:31",
+      "content": "【分析师：英国提前大选风险升温，英镑或面临延迟波动】SHMET10月28日讯，凯克斯顿的戴维·斯特里奇表示，英镑周三对英国预算案反应平淡，但由于英国仍存在提前举行大选的风险，未来可能面临波动。他指出，财政大臣约翰·希利回避了有关公共支出、地方议会税制改革和国防开支的关键问题。“因此，提前大选的迹象变得相当明显。如果明年提前举行大选，英镑可能面临延迟出现的政治波动。”",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 23:29:01",
+      "content": "【联大第34次要求美终止对古巴封锁】SHMET10月28日讯，当地时间10月28日，第81届联合国大会在纽约联合国总部以130票赞成、17票反对、 25票弃权，通过 “必须终止美国对古巴经济、商业和金融封锁”的决议。这是联大连续第34次通过有关决议，要求美国终止对古巴长达60多年的经济、商业和金融封锁。 (CCTV国际时讯)",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 23:27:31",
+      "content": "【快讯】SHMET10月28日讯，美国地质勘探局：日本千叶县旭市东南偏东5公里处发生5.5级地震。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 23:24:31",
+      "content": "【快讯】SHMET10月28日讯，白宫研究认为，许可改革法案将带来增长和工资上涨。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 23:18:31",
+      "content": "【高端工业母机需求爆发 国产工业母机订单排到明年】SHMET10月28日讯，今年以来，在人工智能、新能源等新兴产业带动下，高端工业母机需求持续爆发。在江苏苏州一家工业母机的生产车间，一台六轴的PCB钻孔机已经组装完成，正在做发货前的最后测试。企业相关负责人表示，这两年随着人工智能领域对高端PCB的需求大幅增加，企业也正在提高相关产线的产能。“今年上半年公司PCB（印制电路板）的主要设备的产量比去年同期大幅提高，其中先进系列设备的产量已经超过去年全年的两倍。订单已经排到明年第二季度。”数据显示，2026年上半年，国内机床工具行业实现营收5309亿元，同比增长7.6%；利润总额196亿元，同比增长110.8%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 23:17:31",
+      "content": "【欧盟拟取消给予加拿大的“准成员国”提议】SHMET10月28日讯，据Politico报道，最新联合声明草案显示，在即将举行具有里程碑意义的欧盟-加拿大峰会前夕，欧盟各国已放弃向加拿大提供欧盟“准成员国”地位的设想，转而采用更为温和的措辞，承诺推动双方建立“日益紧密的联系”，据外交官们透露，德国、意大利、希腊和法国等国均表示反对。此前一版联合声明草案写道，欧盟和加拿大将“努力在2027年欧盟-加拿大峰会前明确‘准成员国’的概念，通过这种更加紧密的联系，体现双方为实现共同繁荣、经济安全和战略自主目标而作出的共同努力与合作”。而在最终版本中，相关表述改为：“我们将推动加拿大与欧盟建立更加紧密的联系……并努力在2027年欧盟-加拿大峰会前明确加拿大与欧盟建立日益紧密联系的概念，但不涉及正式加入欧盟。”",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 23:14:31",
+      "content": "【快讯】SHMET10月28日讯，英伟达(NVDA.O)：搭载RTX Spark的笔记本电脑起售价2599美元，提供128GB配置版本。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 23:13:31",
+      "content": "【快讯】SHMET10月28日讯，墨西哥总统辛鲍姆：与美国贸易协议的对话仍在继续，正在评估在美国中期选举前达成协议是否可行。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 23:12:31",
+      "content": "【快讯】SHMET10月28日讯，英伟达(NVDA.O)：DGX SPARK 64GB系统现已开放购买，搭载GB10 Grace Blackwell超级芯片。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 23:09:31",
+      "content": "【快讯】SHMET10月28日讯，加拿大央行高级副行长罗杰斯：我们认为中东问题不会很快得到解决。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 23:09:31",
+      "content": "【快讯】SHMET10月28日讯，提示：加拿大央行新闻发布会结束。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 23:07:31",
+      "content": "【快讯】SHMET10月28日讯，摩洛哥王室：摩洛哥将启用纳多尔西地中海港，并将丹吉尔地中海港的吞吐能力扩大至2000万标准箱。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 23:06:31",
+      "content": "【快讯】SHMET10月28日讯，加拿大央行行长麦克勒姆：与一年前相比，经济中的闲置产能减少。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 23:05:31",
+      "content": "【快讯】SHMET10月28日讯，加拿大央行行长麦克勒姆：我们今天所处的情况与疫情结束时有所不同。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 23:05:31",
+      "content": "【快讯】SHMET10月28日讯，加拿大央行行长麦克勒姆：疫情让我们认识到，在产能闲置的情况下通胀仍可能上升。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 23:04:01",
+      "content": "【摩根、易方达、富国旗下主动ETF率先成立 近期启动建仓】SHMET10月28日讯，10月28日晚间，在发行首日结募的摩根大盘成长主动ETF、易方达品质均衡主动ETF、富国价值优选量化选股主动ETF均发布成立公告，3只产品成立规模均20亿。其中，摩根大盘成长主动ETF的有效认购户数达15256户，募集期间基金管理人从业人员认购该基金139.71万份，据记者了解，基金管理人将于近期启动建仓。易方达品质均衡主动ETF的有效认购总户数则达到23161户，募集期间基金管理人运用固有资金认购1.6亿份，公司从业人员也认购802份。富国价值优选量化选股主动ETF也有9280户的募集有效认购总户数，募集期间基金管理人运用固有资金认购2.84亿份。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 23:04:01",
+      "content": "【英国政府与罗尔斯-罗伊斯拟联合投入25亿英镑研发新一代航空发动机】SHMET10月28日讯，英国政府与罗尔斯-罗伊斯宣布，计划开展为期10年、总额25亿英镑的联合研发项目，开发民用及军用航空领域的先进燃气涡轮技术，重点推进更高效、低排放的航空发动机，并争取进入下一代商用窄体客机发动机市场。项目初期预计到2029年底支持罗尔斯-罗伊斯及供应链伙伴的3300个英国就业岗位；若成功获得新一代窄体客机发动机订单，预计将创造数万个就业岗位，并有望在项目生命周期内为英国经济增加1200亿英镑。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 23:02:31",
+      "content": "【分析师：财政空间短期内应能安抚英国国债市场】SHMET10月28日讯，Ebury分析师马修·瑞安在一份报告中表示，英国政府在周三公布的预算案中宣布，财政缓冲空间有所恢复，短期内应能满足英国国债市场的预期。瑞安表示：“不过，财政缓冲空间约为GDP的0.4%，按照历史标准仍然偏低，无法完全消除市场对下一次财政政策调整前可能进一步加税的担忧。”英国财政大臣约翰·希利表示，预计2029至2030财年财政缓冲空间为150亿英镑，而预算案公布前，市场预期这一规模为100亿至120亿英镑。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 23:01:31",
+      "content": "【快讯】SHMET10月28日讯，墨西哥主要股指跌幅达1%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 23:00:31",
+      "content": "【凯投宏观：加拿大央行料将开启将较为谨慎的加息周期】SHMET10月28日讯，凯投宏观经济学家布拉德利·桑德斯表示，加拿大央行决定上调政策利率，表明当前风险权衡已发生转变，由贸易紧张局势带来的经济下行风险，转向能源价格推动通胀的威胁。不过，桑德斯指出，加拿大央行对市场偏鹰派的利率预期进行了降温，这印证了他的观点，即本轮紧缩周期后续可能仅会再加息两次。加拿大央行在利率决议中表示，鉴于前景存在高度不确定性，央行将谨慎推进政策调整，但未来仍可能需要进一步加息。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 23:00:31",
+      "content": "【快讯】SHMET10月28日讯，据悉博索纳罗使用已作废的外交护照入境美国。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 22:59:31",
+      "content": "【快讯】SHMET10月28日讯，荷兰首相表示，没有欧洲盟友愿意购买俄罗斯能源。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 22:59:31",
+      "content": "【快讯】SHMET10月28日讯，荷兰首相：购买俄罗斯能源是愚蠢的想法。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 22:58:31",
+      "content": "【快讯】SHMET10月28日讯，据Politico：草案显示，欧盟成员国已放弃在即将举行的欧盟-加拿大峰会上给予加拿大“准成员”地位的构想，转而采用措辞更为温和的表述，承诺双方将建立“日益紧密的联系”。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 22:58:31",
+      "content": "【快讯】SHMET10月28日讯，加拿大央行行长麦克勒姆：消费支出的强劲支撑了增长前景的改善。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 22:58:31",
+      "content": "【英国坚持北海油气暴利税至2030年，驳回行业提前取消诉求】SHMET10月28日讯，英国政府决定继续对北海石油和天然气生产商征收暴利税，驳回了行业要求在明年终止该税的呼声。根据周三公布的预算案，目前税率为38%的能源利润税（EPL）将继续实施至2030年4月1日，除非提前触发价格下限机制而终止。EPL到期后，一项永久性的、与能源价格挂钩的税收机制将立即取而代之。英国北海油气盆地已进入开发后期，相关运营商一直敦促工党政府明年就引入新的财政机制，而不是等到本世纪末。它们认为，提前转换税制将刺激投资和增产，进而为政府带来更多税收收入。油气生产商一直抱怨，EPL削弱了英国对投资者的吸引力。近年来，多家公司重新评估在英国的业务，选择出售、合并或缩减运营规模。英国石油公司（BP）是目前唯一仍拥有独立北海业务的大型石油公司，但该公司正着手退出这一地区。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 22:58:31",
+      "content": "【快讯】SHMET10月28日讯，加拿大央行行长麦克勒姆：能源行业绝非经济增长的唯一驱动力。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 22:58:31",
+      "content": "【快讯】SHMET10月28日讯，加拿大央行高级副行长罗杰斯：各方强烈共识认为通胀风险偏高。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 22:57:31",
+      "content": "【快讯】SHMET10月28日讯，加拿大央行高级副行长罗杰斯：我们讨论过维持利率不变和加息两种方案，我们一向如此。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 22:56:01",
+      "content": "【豪威集团：预计第四季度营收同比增长9.71%至17.71% 光通信高速模拟电芯片等新品量产导入】SHMET10月28日讯，豪威集团(603501.SH)公告称，公司预计2026年第四季度实现营业收入77.59亿元至83.24亿元，较上年同期变动9.71%至17.71%，较上季度变动-4.50%至2.47%；毛利率约为29.44%至30.74%。受益于全球汽车智能化产业升级，公司智能驾驶领域保持较快增长，车载模拟芯片及光通信高速模拟电芯片等新品实现量产导入。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 22:55:32",
+      "content": "【快讯】SHMET10月28日讯，英国房屋建筑商股价大幅下跌，板块整体跌超4%，Taylor Wimpey、Persimmon、Barratt Redrow均跌超5%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 22:54:31",
+      "content": "【快讯】SHMET10月28日讯，加拿大央行高级副行长罗杰斯：借贷成本上升将对住房构成压力。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 22:54:31",
+      "content": "【快讯】SHMET10月28日讯，加拿大央行高级副行长罗杰斯：银行的住房预测温和。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 22:53:31",
+      "content": "【经济学家：加拿大央行加息决定缺乏魄力】SHMET10月28日讯，汇丰银行加拿大前首席经济学家戴维·瓦特表示，加拿大央行将主要政策利率上调25个基点至2.50%，这一决定显得“软弱”。瓦特指出，央行将此次加息定位为一项“预防性”举措，因为当前通胀指标显示，燃料成本上涨向非能源商品价格的传导仍然有限。瓦特认为：“如果央行现在认定有必要采取行动来遏制通胀压力，就应该明确而坚定地表明，将采取一切必要措施。”但加拿大央行只是表示，未来可能进一步加息，同时强调将逐次会议作出决定。瓦特认为，这表明此次加息并不意味着新一轮加息周期已经启动。瓦特写道：“如果利率确实将继续上升，就应该有魄力明确说出来。”",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 22:53:31",
+      "content": "【快讯】SHMET10月28日讯，西班牙首相桑切斯：像西班牙这样的国家一年内发生两起列车事故，是不可接受的。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 22:53:01",
+      "content": "【EIA：美国上周原油产量升至历史新高】SHMET10月28日讯，美国能源信息署（EIA）表示，美国原油产量在最近一周升至纪录高位。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 22:52:31",
+      "content": "【快讯】SHMET10月28日讯，加拿大央行行长麦克勒姆：风险管理角度倾向于加息。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 22:52:31",
+      "content": "【快讯】SHMET10月28日讯，加拿大央行高级副行长罗杰斯：经济不确定性正笼罩着房地产市场。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 22:52:31",
+      "content": "【快讯】SHMET10月28日讯，燃油主力合约日内涨幅达5.05%，最新报5573元/吨，日内增仓2.18万手，持仓变化明显。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 22:51:31",
+      "content": "【快讯】SHMET10月28日讯，加拿大央行行长麦克勒姆：通胀得到控制的可能性降低。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 22:50:31",
+      "content": "【快讯】SHMET10月28日讯，加拿大央行行长麦克勒姆：通胀看起来不太可能得到良好控制。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 22:50:31",
+      "content": "【快讯】SHMET10月28日讯，加拿大央行行长麦克勒姆：“非常清楚”经济面临的不确定性。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 22:49:01",
+      "content": "【西班牙列车相撞事故死亡人数上升至68人】SHMET10月28日讯，据西班牙卡斯蒂利亚-拉曼查自治区方面28日消息，当天上午在其首府托莱多发生的高速铁路列车相撞事故死亡人数上升至68人。 (央视新闻)",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 22:48:31",
+      "content": "【快讯】SHMET10月28日讯，荷兰首相：俄罗斯的策略是导致死亡与毁灭。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 22:48:31",
+      "content": "【快讯】SHMET10月28日讯，加拿大央行行长麦克勒姆：任何时候改变方向，都始终是一个艰难的决定。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 22:47:31",
+      "content": "【机构：英国预算案难改经济前景，央行仍可能启动加息】SHMET10月28日讯，施罗德投资首席经济学家戴维·里斯在一份报告中表示，英国预算案为家庭应对生活成本危机提供了一定缓解，但力度不足以改变经济前景，而当前经济形势仍支持英国央行加息。里斯表示：“缓解消费者价格压力的措施会带来一定帮助，但没有充分理由调整我们对近期经济的预测。经济增长展现出韧性、通胀持续上升，意味着英国央行将加息两次左右，首次加息可能就在下周。”他还指出，财政缓冲空间缩小，意味着未来一旦英国国债收益率面临进一步上行压力，政府将更容易受到冲击。当前，美国经济正显现过热迹象，欧洲也即将进入充满变数的选举时期。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 22:47:31",
+      "content": "【快讯】SHMET10月28日讯，加拿大央行行长麦克勒姆：我们将帮助抵御更高燃料成本的转嫁。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 22:47:01",
+      "content": "【快讯】SHMET10月28日讯，美国军方估计，伊朗战争成本已升至470亿美元。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 22:46:31",
+      "content": "【快讯】SHMET10月28日讯，加拿大央行行长麦克勒姆：利率没有预设路径。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 22:45:31",
+      "content": "【快讯】SHMET10月28日讯，加拿大央行行长麦克勒姆：投资预估可能偏保守。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 22:44:31",
+      "content": "【法巴银行：英国预算案为财政走向释放积极信号】SHMET10月28日讯，法国巴黎银行分析师Dani Stoilova在一份报告中表示，英国财政大臣希利公布的预算案虽然基本推迟了重大决策，但仍勾勒出令人鼓舞的财政前景。她指出：“预算案没有推动结构性改革，也没有处理关键支出决策，而是侧重于为企业和消费者提供有针对性、临时性的支持，帮助他们应对持续的能源价格冲击。”此次预算案涉及的税收调整有限，财政缓冲空间预计为150亿英镑，处于市场预期区间的低端。不过，Stoilova表示，政策仍沿着收紧方向推进，政府借款规模有望下降，财政缓冲空间也将逐步扩大，这一信号“令人鼓舞”。她同时指出，由于国防和福利领域的重大决策仍被推迟，英国中期政策前景的不确定性预计将持续存在。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 22:44:31",
+      "content": "【快讯】SHMET10月28日讯，加拿大央行行长麦克勒姆：即使此次加息后，政策利率仍足够低，不会抑制经济增长。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 22:44:31",
+      "content": "【快讯】SHMET10月28日讯，加拿大央行行长麦克勒姆：企业面临的成本压力上升。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 22:43:31",
+      "content": "【快讯】SHMET10月28日讯，监督机构发现，美国消费者金融保护局的信息安全计划“无效”。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 22:43:01",
+      "content": "【快讯】SHMET10月28日讯，斯特兰蒂斯（Stellantis）美股大涨超14%，第三季度净营收为376亿欧元，同比增长1%；净亏损大幅收窄90%至4.53亿欧元。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 22:42:31",
+      "content": "【快讯】SHMET10月28日讯，加拿大央行行长麦克勒姆：当然认为企业投资将会更强劲。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 22:42:31",
+      "content": "【快讯】SHMET10月28日讯，EIA报告显示，美国中西部汽油库存上周降至历史低位。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 22:41:31",
+      "content": "【快讯】SHMET10月28日讯，加拿大央行行长麦克勒姆：我们看到能源领域的投资有所增加。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-28 22:38:31",
+      "content": "【快讯】SHMET10月28日讯，EIA报告显示，美国墨西哥湾沿岸原油库存上周降至2024年12月以来最低水平。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
       "steel": false
     }
   ],
-  "steel_highlight": [
-    {
-      "datetime": "2026-10-28 22:34:41",
-      "content": "【波罗的海干散货运价指数上涨，受海岬型船运价走强提振】金十期货10月28日讯，据外媒报道，波罗的海干散货运价指数（BDI）上涨，受海岬型船运价走强提振。波罗的海干散货运价指数（BDI）较前一交易日上涨49点，或1.88%，至2652点。海岬型船运价指数（BCI）上涨184点，即4.97%，至3886点，为两周以来最高。海岬型船日均获利上涨1670美元，至31742美元。该型船舶的运载量通常为15万吨，运载货物包括铁矿石和煤炭。巴拿马型船运价指数（BPI）下跌5点，或2.77%，至1965点，为4月底以来最低水平。巴拿马型船日均获利下跌507美元，至17686美元。该型船舶的运载量为6-7万吨，运载货物通常为煤炭或谷物。超灵便型散货船运价指数（BSI）下跌5点，跌幅0.27%，至1878点，触及一周最低。灵便型船运价指数（BHSI）下跌3点，报1017点。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "bull",
-      "steel": true
-    }
-  ],
+  "steel_highlight": [],
   "weekly_stock": null
 }
