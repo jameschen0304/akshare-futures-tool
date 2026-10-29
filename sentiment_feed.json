@@ -1,7 +1,167 @@
 {
   "source": "jin10 flash + shmet + shfe weekly stock",
-  "generated_at": "2026-10-29T16:28:09.061317+00:00",
+  "generated_at": "2026-10-29T17:08:51.243832+00:00",
   "jin10": [
+    {
+      "datetime": "2026-10-30 01:05:15",
+      "content": "美国七年期国债收益率在拍卖后维持跌势；最新下跌5.46个基点，报4.894%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-30 01:03:03",
+      "content": "沙特民防部门：奈季兰的危险警报已解除。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-30 01:02:14",
+      "content": "美国至10月29日7年期国债竞拍-得标利率配置百分比 63.94%，前值91.11%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-30 01:02:14",
+      "content": "美国至10月29日7年期国债竞拍-投标倍数 2.46，前值2.42。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-30 01:02:14",
+      "content": "美国至10月29日7年期国债竞拍-得标利率 4.894%，前值5.09%。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-30 01:01:45",
+      "content": "据CNN：美国总统特朗普取消原定本周末前往堪萨斯州的行程。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-30 00:59:45",
+      "content": "【欧盟能源部长会议举行 天然气价格成焦点】金十数据10月30日讯，欧盟能源部长会议29日举行，天然气价格备受关注。目前能源成本大幅上涨，欧洲正迎来艰难的供暖季。欧洲基准天然气期货价格突破每兆瓦时100欧元，这是自2022年12月以来首次达到这一水平。欧盟能源与住房事务专员约根森警告说，欧洲正面临“另一场能源危机”，超过5000万欧洲居民可能无力承担冬季取暖费用。一个典型的燃气取暖家庭，在今年11月至明年3月的取暖季，能源成本预计将增加约600欧元，加上税费后，额外支出可能达到715欧元。约根森还指出，此次能源危机在某些方面比2022年更加严峻，因为欧洲面临的压力不再局限于天然气，汽油、柴油等成品油价格同样高企。能源成本还会进一步传导至交通运输、工业生产和商品价格，给欧洲经济带来更大压力。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-30 00:58:08",
+      "content": "据纽约时报：美国总统特朗普及其助手协助巴西前总统博索纳罗之子流亡至美国。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-30 00:51:59",
+      "content": "沙特民防部门：就利雅得和海尔季可能存在的危险发布警报。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-30 00:51:08",
+      "content": "市场消息：微软(MSFT.O)发行的超大额抵押贷款获得超过1150亿欧元的认购需求。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-30 00:50:06",
+      "content": "沙特民防部门：已就奈季兰可能存在的危险发布警报。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-30 00:45:38",
+      "content": "金十图示：2026年10月30日（周五）全球股市指数-欧洲市场",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-30 00:40:33",
+      "content": "德国DAX30指数10月29日（周四）收盘上涨372.20点，涨幅1.45%，报26076.22点；\n英国富时100指数10月29日（周四）收盘上涨31.78点，涨幅0.30%，报10726.28点；\n法国CAC40指数10月29日（周四）收盘上涨83.04点，涨幅1.05%，报7970.00点；\n欧洲斯托克50指数10月29日（周四）收盘上涨44.54点，涨幅0.72%，报6212.35点；\n西班牙IBEX35指数10月29日（周四）收盘下跌30.81点，跌幅0.16%，报18852.69点；\n意大利富时MIB指数10月29日（周四）收盘上涨193.20点，涨幅0.39%，报50017.50点。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-30 00:38:34",
+      "content": "欧盟委员约根森：未来几个月释放的石油库存中有一半将是柴油。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-30 00:37:33",
+      "content": "欧盟委员约根森：我们预计石油和天然气供应安全无虞，但民众却难以支付账单。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-30 00:37:19",
+      "content": "欧盟委员约根森：欧盟成员国已重申致力于加快释放4260万桶石油。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-30 00:36:08",
+      "content": "据华尔街日报：雪佛龙(CVX.N)重返偏远地区勘探油气。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-30 00:32:16",
+      "content": "金十图示：2026年10月29日（周四）美股热门股票行情一览（美股盘中）",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-30 00:32:14",
+      "content": "加拿大总理部长：克利夫兰-克利夫斯未履行其义务，犯下错误。",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-30 00:30:19",
+      "content": "金十图示：2026年10月29日（周四）热门中概股行情一览（美股盘中）",
+      "important": 0,
+      "source": "jin10",
+      "sentiment": "neutral",
+      "steel": false
+    },
     {
       "datetime": "2026-10-30 00:21:30",
       "content": "据花旗/YOUGOV调查：英国10月长期公共通胀预期为4.0%，9月为4.3%。",
@@ -929,193 +1089,113 @@
       "source": "jin10",
       "sentiment": "neutral",
       "steel": false
-    },
-    {
-      "datetime": "2026-10-29 22:33:11",
-      "content": "欧洲央行行长拉加德：欧洲央行将以完全的连续性继续开展业务。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-29 22:32:30",
-      "content": "欧洲央行行长拉加德：寻找我的继任者的程序已经启动，候选人将比我更优秀；不必担心出现权力真空。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-29 22:32:17",
-      "content": "欧洲央行行长拉加德：我看到真相常常遭到扭曲。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-29 22:31:43",
-      "content": "欧洲央行行长拉加德：（关于法国政治）我无法保持中立。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-29 22:31:28",
-      "content": "美国天然气期货扩大跌幅，现跌3.7%，EIA库存增幅高于预期。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-29 22:31:08",
-      "content": "欧洲央行行长拉加德：此时此刻，面对世界许多角落，我的发声有助于弘扬我心中珍视的原则。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-29 22:30:34",
-      "content": "欧洲央行行长拉加德：作为欧洲央行行长，我们有保持中立的义务。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-29 22:30:28",
-      "content": "据媒体报道，特朗普似乎愿意再给与伊朗的外交努力一次机会，但也认真考虑军事打击选项；英特尔盘后将公布财报，市场关注服务器CPU增长、毛利率与代工进展……",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-29 22:30:27",
-      "content": "欧洲央行行长拉加德：希望拥有参与非政策事务的自由。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-29 22:30:19",
-      "content": "欧洲央行行长拉加德：从来不存在合适的离开时机。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-29 22:30:17",
-      "content": "EIA天然气报告：截至10月23日当周，美国天然气库存总量为37240亿立方英尺，较此前一周增加800亿立方英尺，较去年同期减少1470亿立方英尺，同比降幅3.8%，同时较5年均值高380亿立方英尺，增幅1.0%。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-29 22:30:10",
-      "content": "欧洲央行行长拉加德：我提前卸任是为了能对非货币政策事务自由表达意见。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-29 22:30:03",
-      "content": "美国至10月23日当周EIA天然气库存 800亿立方英尺，预期690亿立方英尺，前值770亿立方英尺。",
-      "important": 1,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-29 22:29:44",
-      "content": "【分析师：拉加德暂未释放出手干预市场信号】金十数据10月29日讯，分析师Mark Schroers指出，谈到法国局势与债券收益率时，拉加德表示，全球债券收益率曲线长端收益率均有所上升，高负债国家必须将利率走高的因素纳入考量。但她同时强调，欧洲央行拥有应对市场无序、非合理波动的工具。这似乎印证了此前的判断：欧洲央行距离真正出手干预市场还有一段距离。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-29 22:28:33",
-      "content": "欧洲央行行长拉加德：没有重新平衡的相关安排。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-29 22:28:24",
-      "content": "欧洲央行行长拉加德：我们不会改变债券赎回政策。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-29 22:28:17",
-      "content": "美国国防部：授予洛克希德马丁(LMT.N)未来拦截器合同。洛克希德还作出了4.23亿美元的成本分担承诺。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-29 22:27:43",
-      "content": "欧盟委员会主席冯德莱恩：我们必须与加拿大一道调整在北极地区的战略姿态，以捍卫共同价值观。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-29 22:25:44",
-      "content": "以色列：航空公司须在航班起飞前48小时提供机组人员名单。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-29 22:24:50",
-      "content": "欧盟委员会主席冯德莱恩：明天，我们将敲定协议，把加拿大纳入欧洲超级计算基础设施。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-29 22:24:00",
-      "content": "欧元兑英镑跌至0.8347，接近19个月低点。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-29 22:23:51",
-      "content": "欧盟委员会主席冯德莱恩：欧盟与加拿大将共同制定人工智能规则和标准。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
-    },
-    {
-      "datetime": "2026-10-29 22:23:44",
-      "content": "欧盟委员会主席冯德莱恩：欧盟与加拿大将构建战略供应链统一空间。",
-      "important": 0,
-      "source": "jin10",
-      "sentiment": "neutral",
-      "steel": false
     }
   ],
   "shmet": [
+    {
+      "datetime": "2026-10-30 01:06:31",
+      "content": "【快讯】SHMET10月30日讯，美国七年期国债收益率在拍卖后维持跌势；最新下跌5.46个基点，报4.894%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-30 01:05:01",
+      "content": "【快讯】SHMET10月30日讯，美国财政部七年期国债中标收益率4.894%，投标倍数2.46。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-30 01:02:31",
+      "content": "【快讯】SHMET10月30日讯，据CNN：美国总统特朗普取消原定本周末前往堪萨斯州的行程。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-30 01:02:31",
+      "content": "【快讯】SHMET10月30日讯，美国至10月29日7年期国债竞拍-得标利率 4.894%，前值5.09%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-30 01:02:31",
+      "content": "【快讯】SHMET10月30日讯，美国至10月29日7年期国债竞拍-投标倍数 2.46，前值2.42。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-30 01:02:01",
+      "content": "【沪锡夜盘收跌3.65%】SHMET10月30日讯，国际铜夜盘收跌0.8%，沪铜收跌0.57%，沪铝收涨0.06%，沪锌收涨0.12%，沪铅收涨0.06%，沪镍收跌0.77%，沪锡收跌3.65%。氧化铝夜盘收平，铝合金收跌0.59%。不锈钢夜盘收涨0.19%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-30 00:59:31",
+      "content": "【快讯】SHMET10月30日讯，据纽约时报：美国总统特朗普及其助手协助巴西前总统博索纳罗之子流亡至美国。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-30 00:57:01",
+      "content": "【快讯】SHMET10月30日讯，据报道，博索纳罗可能将获得美国永久居留权。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-30 00:39:31",
+      "content": "【快讯】SHMET10月30日讯，欧盟委员约根森：我们预计石油和天然气供应安全无虞，但民众却难以支付账单。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-30 00:38:31",
+      "content": "【快讯】SHMET10月30日讯，欧盟委员约根森：欧盟成员国已重申致力于加快释放4260万桶石油。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-30 00:37:31",
+      "content": "【快讯】SHMET10月30日讯，据华尔街日报：雪佛龙(CVX.N)重返偏远地区勘探油气。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-30 00:32:31",
+      "content": "【快讯】SHMET10月30日讯，加拿大总理部长：克利夫兰-克利夫斯未履行其义务，犯下错误。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-30 00:32:01",
+      "content": "【快讯】SHMET10月30日讯，欧洲主要股指收盘集体上涨，英国富时100指数涨0.29%，法国CAC40指数涨1.31%，德国DAX30指数涨1.36%，富时意大利MIB指数涨0.40%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bull",
+      "steel": false
+    },
     {
       "datetime": "2026-10-30 00:22:31",
       "content": "【快讯】SHMET10月30日讯，据花旗/YOUGOV调查：英国10月长期公共通胀预期为4.0%，9月为4.3%。",
@@ -1126,7 +1206,7 @@
     },
     {
       "datetime": "2026-10-30 00:21:31",
-      "content": "【快讯】SHMET10月30日讯，据花旗/YOUGOV调查：英国10月公众未来一年通胀预期为4.2%，9月为4.5%。",
+      "content": "【快讯】SHMET10月30日讯，加拿大总理卡尼：加拿大-欧盟新联盟的名称“并不重要”。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
@@ -1134,7 +1214,7 @@
     },
     {
       "datetime": "2026-10-30 00:21:31",
-      "content": "【快讯】SHMET10月30日讯，加拿大总理卡尼：加拿大-欧盟新联盟的名称“并不重要”。",
+      "content": "【快讯】SHMET10月30日讯，据花旗/YOUGOV调查：英国10月公众未来一年通胀预期为4.2%，9月为4.5%。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
@@ -1174,7 +1254,7 @@
     },
     {
       "datetime": "2026-10-30 00:00:31",
-      "content": "【快讯】SHMET10月30日讯，房地美：截至10月29日当周，美国30年期固定利率抵押贷款平均利率为7.24%，前一周为7.32%。",
+      "content": "【快讯】SHMET10月30日讯，英国海上贸易行动办公室：当地政府已确认，船员已安全撤离。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
@@ -1182,7 +1262,7 @@
     },
     {
       "datetime": "2026-10-30 00:00:31",
-      "content": "【快讯】SHMET10月30日讯，英国海上贸易行动办公室：当地政府已确认，船员已安全撤离。",
+      "content": "【快讯】SHMET10月30日讯，房地美：截至10月29日当周，美国30年期固定利率抵押贷款平均利率为7.24%，前一周为7.32%。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
@@ -1191,6 +1271,622 @@
     {
       "datetime": "2026-10-29 23:59:31",
       "content": "【快讯】SHMET10月30日讯，英国海上贸易行动办公室：关于阿曼海塞卜以北事件，地区当局已确认涉事船只为一艘独桅帆船，该船卷入一起海上安全事件，船上燃起大火，导致该独桅帆船倾斜并沉没。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:57:31",
+      "content": "【快讯】SHMET10月29日讯，加拿大总理卡尼：真正的主权取决于能否按我们自己的条件构建和采用人工智能。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:56:31",
+      "content": "【快讯】SHMET10月29日讯，加拿大总理卡尼：持有国内人工智能公司股权符合加拿大人的利益。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:55:31",
+      "content": "【快讯】SHMET10月29日讯，加拿大总理卡尼：Cohere将保持加拿大企业身份，并承诺到2030年前在加拿大投入至少17亿加元，用于建设新的计算基础设施。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:55:31",
+      "content": "【加拿大与英伟达参与Cohere融资，公司估值超200亿美元】SHMET10月29日讯，加拿大AI模型初创公司Cohere正在进行一轮大规模融资，估值达到205亿美元，较一年前增长约两倍。Cohere周四表示，已完成本轮融资的首轮交割，预计融资总额最高可达50亿美元。公司称，已获得包括加拿大政府和英伟达在内的投资方出资承诺，此外，欧洲大型零售商施瓦茨集团此前披露的6亿美元投资也计入其中。其中，加拿大政府已同意向Cohere投资最高11.4亿美元。加拿大总理卡尼表示，Cohere计划继续将总部设在加拿大，并预计到2030年将在该国新建计算基础设施，投资约12亿美元。如果本轮融资顺利完成，将成为加拿大历史上规模最大的私人融资，远超以往纪录。Cohere拒绝透露50亿美元的融资目标中已有多少资金最终敲定，但首席财务官表示，首轮交割已涵盖“其中大部分”。此次估值不包括本轮融资筹集的资金。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:55:31",
+      "content": "【快讯】SHMET10月29日讯，加拿大总理卡尼：加拿大正以商业投资方式向Cohere注资，参与方还包括英伟达(NVDA.O)和贝尔（Bell）等私人投资者。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:54:31",
+      "content": "【快讯】SHMET10月29日讯，加拿大政府将入股AI初创公司Cohere。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:44:31",
+      "content": "【荷兰国际：欧洲央行维持利率不变，因能源冲击的连锁影响有限】SHMET10月29日讯，荷兰国际经济学家卡斯滕·布热斯基在一份报告中表示，欧洲央行维持利率不变的主要依据是，能源价格上涨尚未引发明显的连锁价格效应。与此同时，债券收益率上升已经收紧金融条件。布热斯基表示：“债券市场已经接过了欧洲央行的工作。”他认为，尽管通胀上升、经济增长展现出韧性，但借贷成本上升已降低了欧洲央行进一步加息的紧迫性。不过，布热斯基指出，最重要的消息是欧洲央行行长拉加德宣布将在任期结束前辞职。他表示：“拉加德继任者的两大主要人选是西班牙的德科斯和荷兰的诺特。两人都是非常优秀的候选人，能够为欧洲央行带来深厚的货币政策专业素养。”",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:42:31",
+      "content": "【施罗德：欧元在欧洲央行决议后走弱，后市或继续承压】SHMET10月29日讯，施罗德投资策略师詹姆斯·比尔森在一份报告中表示，欧元兑美元跌至17个月低点，兑英镑则接近19个月低点。在欧洲央行周四公布利率决议后，欧元可能继续走弱。欧洲央行维持利率不变，但对未来加息持谨慎态度，并指出金融条件收紧、经济增长前景走弱。比尔森表示，在经济增长下行风险加大、通胀仍处于高位的情况下，欧洲央行面临的政策困境尤为严峻。他认为，欧洲央行仍有可能在12月加息，但再次加息的可能性正在降低。他表示：“鉴于这一前景，我们仍看空欧元。”",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:40:31",
+      "content": "【分析师：通胀与GDP数据对利率不利，但对投资者有利】SHMET10月29日讯，Northlight Asset Management首席投资官克里斯·扎卡雷利在一份报告中表示，今天公布的一系列数据呈现出通胀高企、GDP增长强劲的局面，这对利率走势不利，但对股票投资者而言尚可接受。他表示，如果通胀和经济增长都更高，利率就需要处于更高水平。不过，扎卡雷利指出，目前的通胀水平还不算糟糕，也没有阻碍经济持续运转。他表示，当前牛市可能不会因利率上升而终结，但经济增长放缓或陷入衰退可能打断市场上涨势头。扎卡雷利还表示，即使剔除通胀影响，经济增速仍高于趋势水平。因此，尽管市场对资本支出存在一些担忧，但经济并未走向熊市。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:39:31",
+      "content": "【分析师：欧元区国债收益率高企，降低欧洲央行加息必要性】SHMET10月29日讯，EFG银行的斯特凡·格拉赫在一份报告中表示，欧元区政府债券收益率处于高位，推高了借贷成本、削弱经济活动并抑制通胀。这降低了欧洲央行加息的必要性。格拉赫表示，法国政局动荡也在冲击商业活动、抑制消费者需求。他指出：“欧洲央行必须评估，能源价格上涨的滞后传导是否会令通胀持续高企，还是更高的借贷成本将抵消这些通胀压力。”",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:38:31",
+      "content": "【Situational Awareness寻求投资者参与Fluidstack融资】SHMET10月29日讯，距离因重仓人工智能企业、险些导致对冲基金崩盘仅三个月，Situational Awareness如今正向旗下投资者募资，计划将资金投入新云计算初创公司Fluidstack。据一位知情人士透露，该基金正邀请客户参与Fluidstack新一轮融资，按该轮融资估算，Fluidstack的估值将达到400亿美元，约为这家初创公司几个月前估值的两倍。共同投资机制允许客户与投资机构一起投资特定交易，而不是将资金投入该机构管理的基金。据另外几位知情人士透露，其他投资者也收到了参与Fluidstack本轮融资的邀请。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:37:31",
+      "content": "【快讯】SHMET10月29日讯，路透调查：LME现货镍2026年均价预计为每吨17,118美元，2027年为每吨16,700美元（2025年为每吨15,154美元）。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:37:31",
+      "content": "【快讯】SHMET10月29日讯，路透调查：LME现货锡2026年均价预计为每吨52,050美元，2027年为每吨52,125美元（2025年为每吨34,096美元）。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:37:31",
+      "content": "【快讯】SHMET10月29日讯，市场消息：欧洲央行官员准备好在12月加息。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:36:31",
+      "content": "【快讯】SHMET10月29日讯，路透调查：预计2026年镍市场过剩5.7万吨，2027年过剩5万吨。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:36:31",
+      "content": "【快讯】SHMET10月29日讯，路透调查：LME现货铅2026年均价预计为每吨1,932美元，2027年为每吨1,938美元（2025年为每吨1,962美元）。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:36:01",
+      "content": "【快讯】SHMET10月29日讯，欧洲银行称，前9个月净利润为11.6亿欧元，2025年同期为10.3亿欧元。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:35:31",
+      "content": "【快讯】SHMET10月29日讯，美国至10月29日8周国债竞拍-得标利率配置百分比 66.2%，前值93.95%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:35:31",
+      "content": "【快讯】SHMET10月29日讯，路透调查：LME现货锌2026年均价预计为每吨3,560美元，2027年为每吨3,487美元（2025年为每吨2,867美元）。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:33:31",
+      "content": "【快讯】SHMET10月29日讯，美国至10月29日8周国债竞拍-得标利率 4.02%，前值4.015%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:32:31",
+      "content": "【快讯】SHMET10月29日讯，路透调查：预计2026年锌市场过剩104,500吨，2027年过剩165,000吨。预计2026年铜市过剩12.5万吨；2027年过剩预测为9.2万吨。预计2026年铝市场短缺72万吨，2027年过剩41万吨。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bear",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:32:31",
+      "content": "【快讯】SHMET10月29日讯，美国至10月29日4周国债竞拍-投标倍数 3.1，前值2.82。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:32:31",
+      "content": "【快讯】SHMET10月29日讯，美国至10月29日4周国债竞拍-得标利率配置百分比 16.96%，前值32.92%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:32:31",
+      "content": "【快讯】SHMET10月29日讯，路透调查：LME现货铝2026年均价预计为每吨3,276美元，2027年为每吨3,001美元（2025年为每吨2,630美元）。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:31:01",
+      "content": "【快讯】SHMET10月29日讯，欧洲央行消息人士称，欧洲央行工作人员最新预测显示，与9月基线情景相比，债券收益率上升将在2027至2028年累计使经济增长减少100个基点，使通胀降低90个基点。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:30:31",
+      "content": "【硫磺价格狂飙 硫磺年内价格涨了近一倍】SHMET10月29日讯，据了解，今年以来，国内硫磺价格一度大幅上涨，最高时达到每吨11600元，最大涨幅超210%，目前虽有回落，但年内涨幅依然有近一倍。我国是硫磺进口大国，受国际局势影响，今年我国硫磺进口量明显减少，国内主要沿江港口硫磺库存一度仅为去年同期的一半左右。面对硫磺价格的变化，有企业通过长协订单锁定基础货源，还有不少下游企业开始更换原料来源。为化解外部冲击，国内行业正加快构建多元硫资源供应体系，拓宽供给渠道。业内人士表示，随着一批项目陆续投产落地，国内硫资源保障能力将持续增强，预计后期的硫磺价格会平稳回落。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "bull",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:27:31",
+      "content": "【快讯】SHMET10月29日讯，壳牌首席执行官：现金流激增不会削弱支出纪律。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:26:31",
+      "content": "【快讯】SHMET10月29日讯，壳牌首席执行官：未看到符合高并购门槛的明显目标。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:23:31",
+      "content": "【快讯】SHMET10月29日讯，切尼尔能源：欧洲今年冬季将需要额外6900万吨液化天然气，且必须从亚洲抽调货源。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:19:01",
+      "content": "【新易盛：公司已对明年核心原材料进行充分储备 具体量级暂无法公开披露】SHMET10月29日讯，新易盛发布投资者关系活动记录表，其中提到，三季度原材料端的紧张造成了一定的影响。公司已对明年核心原材料进行充分储备，具体量级暂无法公开披露，公司在原材料准备上仍有经验需总结与提升。针对Q4及明年乐观的市场预期及高增的订单交付需求，公司在原材料端已做更多总结与准备。\n\n关于回购方案，新易盛表示，三季报披露前属敏感期，按规则不可实施回购动作。三季报披露后已进入规则允许的回购周期，公司将按公告正常实施。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:18:31",
+      "content": "【快讯】SHMET10月29日讯，壳牌首席执行官：我们不会允许自身在结构上将股东回报降至运营现金流的30%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:18:31",
+      "content": "【快讯】SHMET10月29日讯，委内瑞拉临时总统罗德里格斯确认委内瑞拉将举行选举。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:15:31",
+      "content": "【快讯】SHMET10月29日讯，壳牌首席财务官：加拿大LNG项目二期承包商报价竞争性增强。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:15:31",
+      "content": "【快讯】SHMET10月29日讯，委内瑞拉临时总统罗德里格斯：预计2027年将进行四次工资上调。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:15:31",
+      "content": "【快讯】SHMET10月29日讯，委内瑞拉临时总统罗德里格斯：国有资产可能归还给原所有者。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:09:31",
+      "content": "【快讯】SHMET10月29日讯，壳牌首席财务官：无法将天然气运出卡塔尔的情况也将影响第四季度业绩。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:08:31",
+      "content": "【快讯】SHMET10月29日讯，国际货币基金组织：与埃及的讨论重点是维持紧缩货币政策及财政整顿计划。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:06:31",
+      "content": "【波罗的海干散货运价指数升至逾两周高位，受海岬型船运价跳涨提振】SHMET10月29日讯，据外媒报道，波罗的海干散货运价指数（BDI）升至逾两周高位，受海岬型船运价跳涨提振。波罗的海干散货运价指数（BDI）较前一交易日上涨60点，或2.31%，报2712点，为10月13日以来最高，然而，该指数势将录得连续第二个月下跌，跌幅为14.8%。海岬型船运价指数（BCI）上涨204点，即5.25%，至4090点，为10月12日以来最高，不过，该指数势将录得连续第二个月下跌，跌幅约22%。海岬型船日均获利上涨1850美元，至33592美元。巴拿马型船运价指数（BPI）下跌44点，或2.24%，至1921点，为4月14日以来最低，该指数势将录得月度跌幅约17.6%。巴拿马型船日均获利下跌397美元，至17289美元。超灵便型散货船运价指数（BSI）下跌8点，跌幅0.43%，至1870点，触及10月20日以来最低，但有望录得连续第三个月上涨，涨幅4.5%。灵便型船运价指数（BHSI）下跌2点，报1015点。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:06:31",
+      "content": "【快讯】SHMET10月29日讯，壳牌首席执行官：与依赖单一供应来源相比，如今供应来源多元化会带来溢价。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:05:31",
+      "content": "【快讯】SHMET10月29日讯，美国联邦通信委员会投票推进新一轮无线频谱拍卖，以促进“直连设备”服务。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:04:31",
+      "content": "【快讯】SHMET10月29日讯，装运计划显示，支撑即期布伦特基准的五个北海原油品种12月供应量预计平均为47.5万桶/日（11月为51.4万桶/日）。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:03:31",
+      "content": "【快讯】SHMET10月29日讯，国际货币基金组织：过去三年美国经济增长持续受到强劲生产率增长的支撑。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:02:31",
+      "content": "【快讯】SHMET10月29日讯，国际货币基金组织：美联储和欧洲央行均在高度不确定的环境下采取行动，未来需密切关注数据。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:01:31",
+      "content": "【快讯】SHMET10月29日讯，国际货币基金组织：正致力于加强与伊拉克的伙伴关系，预计伊拉克2026年GDP将大幅萎缩，并于明年回升。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:01:31",
+      "content": "【快讯】SHMET10月29日讯，国际货币基金组织：美国应继续扩大技术收益的共享范围，这一点很重要。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 23:01:31",
+      "content": "【快讯】SHMET10月29日讯，国际货币基金组织：尽管油价和通胀上升，但在私人消费和投资的推动下，美国经济增长迄今仍具韧性。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 22:59:31",
+      "content": "【快讯】SHMET10月29日讯，壳牌首席执行官：我们正就化工资产出售进行深入磋商。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 22:59:31",
+      "content": "【快讯】SHMET10月29日讯，壳牌首席执行官：关于化工资产，一种选择是合并投资组合，在其它项目中持有少数股权，直到我们认为合适的变现时机到来。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 22:56:31",
+      "content": "【快讯】SHMET10月29日讯，Blue Owl联席CEO：像SpaceX这样的芯片交易需要更多资本支持。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 22:55:31",
+      "content": "【快讯】SHMET10月29日讯，美元指数DXY失守102，日内跌幅0.13%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 22:54:31",
+      "content": "【欧盟与加拿大拟深化合作，“准成员国”构想暂被搁置】SHMET10月29日讯，欧盟委员会主席冯德莱恩周四表示，欧盟与加拿大计划深化在人工智能、气候、能源和安全领域的合作，同时探讨加拿大成为欧盟首个“准成员国”的可能性。这一称谓遭到许多欧盟国家反对，而且不具有法律定义。自美国总统特朗普对加拿大商品加征关税以来，加拿大总理卡尼一直将加强与欧洲的联系作为降低加拿大对美国经济和安全依赖的战略之一。不过，在加拿大与美国继续进行贸易谈判之际，加拿大寻求拉近与欧盟的关系也可能激怒特朗普。冯德莱恩表示：“我们的想法很简单：建立联系，但不涉及加入欧盟。我们可以建立一种比以往任何合作形式都更接近成员国关系的伙伴关系。我们可以在所有领域开展合作，从人工智能、气候到能源和安全。”",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 22:54:31",
+      "content": "【快讯】SHMET10月29日讯，埃及央行加息100个基点，将贷款利率从20%上调至21%。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 22:53:31",
+      "content": "【快讯】SHMET10月29日讯，壳牌首席财务官：拥有规模最大的船队之一是在获取船舶方面的一项优势。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 22:52:31",
+      "content": "【快讯】SHMET10月29日讯，壳牌首席财务官：当前航运的关键在于能否获得船舶。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 22:50:31",
+      "content": "【快讯】SHMET10月29日讯，壳牌首席执行官：补充库存尚需时日。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 22:49:31",
+      "content": "【快讯】SHMET10月29日讯，壳牌首席执行官：认为目前油价将在更高水平上保持结构性稳定。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 22:49:31",
+      "content": "【快讯】SHMET10月29日讯，壳牌首席执行官：六个月前预计油价出现暂时性飙升。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 22:49:31",
+      "content": "【快讯】SHMET10月29日讯，壳牌首席财务官：我们仍认为股票回购是良好机会。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 22:49:31",
+      "content": "【快讯】SHMET10月29日讯，壳牌首席财务官：我们对增加股息并不持谨慎态度。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 22:49:31",
+      "content": "【快讯】SHMET10月29日讯，希腊总理米佐塔基斯：针对民用商业航运的袭击不可接受，全球海上停火亟需实现。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 22:46:31",
+      "content": "【快讯】SHMET10月29日讯，美国白宫国家经济委员会主任哈塞特：10月份的CPI和PCE数据应能明确美联储应采取的行动。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 22:45:31",
+      "content": "【快讯】SHMET10月29日讯，美国白宫国家经济委员会主任哈塞特：美联储主席沃什在允许美联储出现“正常”异议方面做得很好。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 22:42:01",
+      "content": "【快讯】SHMET10月29日讯，美国天然气跌3.00%，报3.366美元/百万英热。此前美国能源信息署（EIA）公布的库存增幅高于预期。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 22:41:31",
+      "content": "【快讯】SHMET10月29日讯，美国总统特朗普再次批评巴西选举。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 22:40:31",
+      "content": "【快讯】SHMET10月29日讯，美国总统特朗普：我会和巴西总统卢拉谈谈。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 22:40:31",
+      "content": "【快讯】SHMET10月29日讯，美国白宫国家经济委员会主任哈塞特：10月通胀如果确实很高，美联储可能会采取行动。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 22:40:01",
+      "content": "【快讯】SHMET10月29日讯，白宫经济顾问哈塞特表示，面对10月高通胀数据，美联储大概率将采取适当行动。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 22:38:31",
+      "content": "【快讯】SHMET10月29日讯，瑞典议会议长：议会投票定于周二举行。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 22:37:31",
+      "content": "【快讯】SHMET10月29日讯，美国总统特朗普：从GDP角度看，这是一个美好的早晨。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 22:36:31",
+      "content": "【快讯】SHMET10月29日讯，瑞典议会议长：议会将就中间党领袖坦德·林奎斯特出任首相进行投票。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 22:35:01",
+      "content": "【快讯】SHMET10月29日讯，美国与芬兰10月29日签署科技合作谅解备忘录。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 22:34:31",
+      "content": "【快讯】SHMET10月29日讯，白宫：美国与芬兰将就5G、6G网络技术开展合作。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 22:34:31",
+      "content": "【快讯】SHMET10月29日讯，白宫：美国与芬兰将推进小型模块化反应堆及核能合作。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 22:33:31",
+      "content": "【快讯】SHMET10月29日讯，欧洲央行行长拉加德：欧洲央行将以完全的连续性继续开展业务。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 22:33:31",
+      "content": "【快讯】SHMET10月29日讯，欧洲央行行长拉加德：寻找我的继任者的程序已经启动，候选人将比我更优秀；不必担心出现权力真空。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 22:32:31",
+      "content": "【快讯】SHMET10月29日讯，欧洲央行行长拉加德：（关于法国政治）我无法保持中立。",
+      "important": 0,
+      "source": "shmet",
+      "sentiment": "neutral",
+      "steel": false
+    },
+    {
+      "datetime": "2026-10-29 22:32:31",
+      "content": "【快讯】SHMET10月29日讯，欧洲央行行长拉加德：我看到真相常常遭到扭曲。",
       "important": 0,
       "source": "shmet",
       "sentiment": "neutral",
